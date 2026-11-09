@@ -79,6 +79,13 @@ the end of the first frame, and `--world`, `--open=port`, `--open=town`,
 `--open=exchange`, `--open=shipyard`, `--open=tavern`, `--open=governor` and
 `--open=system` choose the screen.
 
+The game leaves as soon as it has written the screenshot. A screenshot is a
+request of a tool and not a mode of the game: a game that waits for a key
+that no one will press runs forever, and on a machine without a vertical
+synchronisation the loop of the library spins as fast as it can and burns
+every core of the machine. The run therefore takes a second and leaves
+nothing behind.
+
 ### Controls
 
 | Key | Action |

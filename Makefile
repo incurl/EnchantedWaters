@@ -7,7 +7,7 @@
 # which is what the `build` target does.
 
 GO      ?= go
-BINARY  ?= game
+BINARY  ?= enchantedwaters
 GOFLAGS ?=
 LDFLAGS ?= -s -w
 

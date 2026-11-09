@@ -37,6 +37,14 @@ type Game struct {
 	// shotPath is the file the canvas is written into; it is empty when
 	// no screenshot was requested.
 	shotPath string
+	// quit reports that the game must stop.
+	//
+	// The screenshot is a request of a tool, not a mode of the game: the
+	// game writes the file and then leaves, because a game that waits for
+	// a key that no one will press runs forever, and on a machine
+	// without a vertical synchronisation it burns every core it can
+	// find.
+	quit bool
 }
 
 // NewGame creates the game of a session.
@@ -103,6 +111,11 @@ func (g *Game) Update() error {
 			g.world.Tick()
 		}
 	}
+	if g.quit {
+		// The screenshot is written. The error stops the loop of the
+		// library, and the game leaves.
+		return ebiten.Termination
+	}
 	return nil
 }
 
@@ -152,6 +165,9 @@ func (g *Game) saveShot() {
 		g.ui.Message("the screenshot failed: %v", err)
 	}
 	g.shotPath = ""
+	// The screenshot is the last thing the game does. It leaves the loop
+	// of the library, which stops the game and releases the sound device.
+	g.quit = true
 }
 
 // Layout implements ebiten.Game.
