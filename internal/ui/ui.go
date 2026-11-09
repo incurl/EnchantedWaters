@@ -11,6 +11,7 @@ import (
 
 	"github.com/peter/enchantedwaters/internal/ai"
 	"github.com/peter/enchantedwaters/internal/asset"
+	"github.com/peter/enchantedwaters/internal/audio"
 	"github.com/peter/enchantedwaters/internal/config"
 	"github.com/peter/enchantedwaters/internal/ecs"
 	"github.com/peter/enchantedwaters/internal/render"
@@ -50,6 +51,15 @@ type UI struct {
 	// A town is a grid of nine thousand two hundred and sixteen tiles, so
 	// assembling it on every frame would be wasteful.
 	towns map[string]*render.Sprite
+	// sound holds the music and the effects of the original game.
+	sound *asset.Sound
+	// audio plays the sound of the original game.
+	audio *audio.Player
+	// musicIndex is the piece of music that is playing, or minus one when
+	// nothing is playing yet.
+	musicIndex int
+	// musicStarted records that the music of the session has begun.
+	musicStarted bool
 	// mapRenderer draws the world map.
 	mapRenderer *render.WorldMap
 	// popups holds the open modal dialogs.
@@ -121,6 +131,22 @@ func (u *UI) SetArt(art *asset.Art, maps []*asset.PortMap, chipSets []int) {
 	u.portMaps = maps
 	u.chipSets = chipSets
 }
+
+// SetSound gives the interface the sound of the original game and the
+// player that plays it.
+//
+// Everything is optional: without a sound the game is silent, and without
+// the pictures of the sound the game plays nothing.
+func (u *UI) SetSound(sound *asset.Sound, player *audio.Player) {
+	u.sound = sound
+	u.audio = player
+}
+
+// Sound returns the sound of the original game.
+func (u *UI) Sound() *asset.Sound { return u.sound }
+
+// Audio returns the player of the sound.
+func (u *UI) Audio() *audio.Player { return u.audio }
 
 // Art returns the pictures of the original game.
 func (u *UI) Art() *asset.Art { return u.art }
@@ -367,6 +393,7 @@ func (u *UI) Update() error {
 	u.handleActionKeys()
 	u.handleSpeedKeys()
 	u.updateCamera()
+	u.updateMusic()
 	u.messageTicks--
 	if u.messageTicks < 0 {
 		u.message = ""

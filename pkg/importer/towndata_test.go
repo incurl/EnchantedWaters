@@ -6,6 +6,7 @@ import (
 	"image/png"
 	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 )
 
@@ -84,11 +85,15 @@ func TestExportTownData(t *testing.T) {
 	outDir := t.TempDir()
 
 	files, problems := ExportTownData(rawDir, outDir, discardLogger())
-	if len(problems) > 0 {
-		t.Fatalf("ExportTownData reported %d problems: %v", len(problems), problems)
+	// The music is optional: a release without it still has the effects,
+	// and the game plays them.
+	for _, problem := range problems {
+		if !strings.HasPrefix(problem, "the music:") {
+			t.Errorf("ExportTownData reported a problem: %s", problem)
+		}
 	}
-	if len(files) != 4 {
-		t.Fatalf("got %d files, want 4: %v", len(files), files)
+	if len(files) < 4 {
+		t.Fatalf("got %d files, want at least 4: %v", len(files), files)
 	}
 
 	// --- the portraits ---

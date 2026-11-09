@@ -144,6 +144,11 @@ func ExportTownData(rawDir, outDir string, log Logger) (files, problems []string
 		}
 	}
 
+	// --- the sound ---
+	files2, problems2 := ExportSound(rawDir, outDir, log)
+	files = append(files, files2...)
+	problems = append(problems, problems2...)
+
 	// The palette is not a file of the DOS release: the eight colours are
 	// copied into the code, and the derived pictures carry them.
 	return files, problems

@@ -22,6 +22,7 @@ import (
 	"github.com/go-logr/logr"
 
 	"github.com/peter/enchantedwaters/internal/asset"
+	"github.com/peter/enchantedwaters/internal/audio"
 	"github.com/peter/enchantedwaters/internal/ecs"
 	"github.com/peter/enchantedwaters/internal/event"
 	"github.com/peter/enchantedwaters/internal/ui"
@@ -170,6 +171,25 @@ func runGame(args []string) error {
 				"chip_sets", len(art.PortChips), "towns", len(maps))
 			for _, problem := range problems {
 				log.Info("the pictures of the original game", "problem", problem)
+			}
+		}
+	}
+
+	// --- the sound of the original game ---
+	// The sound is read out of the derived data and played through the
+	// sound device of the machine. A machine without a device, or a
+	// build without the sound library, leaves the game silent.
+	if artDir := spritesDir(configDir); artDir != "" {
+		if sound, problems := asset.LoadSound(artDir); sound != nil {
+			player, err := audio.NewPlayer()
+			if err != nil {
+				log.Info("the sound device could not be opened", "err", err)
+			}
+			game.UI().SetSound(sound, player)
+			log.Info("the sound of the original game was read",
+				"songs", len(sound.Music), "effects", len(sound.Effects))
+			for _, problem := range problems {
+				log.Info("the sound of the original game", "problem", problem)
 			}
 		}
 	}

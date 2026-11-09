@@ -265,8 +265,11 @@ func (s *SailPopup) Update() bool {
 		bearing, err := s.ui.world.SailToPort(fleetID, target)
 		if err != nil {
 			s.ui.Message("%v", err)
+			s.ui.playEffect(effectAlert)
 		} else {
 			s.ui.Message("course set to %s (bearing %.0f)", s.ui.cfg.Port(target).Name, bearing)
+			// The sound of a ship that leaves a port.
+			s.ui.playEffect(effectSail)
 			s.ui.followCamera = true
 			s.ui.popups.PopAll()
 		}

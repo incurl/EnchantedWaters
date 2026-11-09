@@ -21,9 +21,11 @@ import (
 //	F1    open the system menu
 func (u *UI) handleActionKeys() {
 	if inpututil.IsKeyJustPressed(ebiten.KeyP) {
+		u.playEffect(effectAccept)
 		u.openPortScreen()
 	}
 	if inpututil.IsKeyJustPressed(ebiten.KeyC) {
+		u.playEffect(effectClick)
 		u.followCamera = !u.followCamera
 		if u.followCamera {
 			u.Message("camera follows the ship")

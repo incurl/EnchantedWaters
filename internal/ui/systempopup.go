@@ -34,6 +34,8 @@ var systemEntries = []struct {
 	{"Speed: 2", "speed2"},
 	{"Speed: 4", "speed4"},
 	{"Speed: 8", "speed8"},
+	{"Sound: on", "sound"},
+	{"Volume: 70%", "volume"},
 	{"Close", "close"},
 }
 
@@ -87,6 +89,10 @@ func (s *SystemPopup) activate(action string) {
 		s.ui.world.SetSpeed(4)
 	case "speed8":
 		s.ui.world.SetSpeed(8)
+	case "sound":
+		s.ui.toggleSound()
+	case "volume":
+		s.ui.raiseVolume()
 	case "close":
 		s.ui.popups.Pop()
 	}
@@ -124,6 +130,13 @@ func (s *SystemPopup) Draw(canvas *render.Canvas) {
 			if speed == 8 {
 				label = "> Speed: 8"
 			}
+		case "sound":
+			label = "Sound: on"
+			if s.ui.audio != nil && !s.ui.audio.Enabled() {
+				label = "Sound: off"
+			}
+		case "volume":
+			label = fmt.Sprintf("Volume: %d%%", s.ui.volumePercent())
 		}
 		rowY := y + 40 + i*render.LineHeight
 		colour := render.ColorText

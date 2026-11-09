@@ -27,6 +27,7 @@ in Go with [Ebitengine](https://ebitengine.org), targeting modern Linux (X11 / W
 | Save / load of the dynamic state only | done |
 | The town of every port, drawn from the tiles of the original game | done |
 | The 128 portraits and the twelve facilities of the original game | done |
+| The music and the sound effects of the original game, synthesised again | done |
 | Development-only asset importer (binary → CSV / JSON / PNG) | done |
 | Debug panel with ImGui (development builds only) | done |
 
@@ -89,7 +90,7 @@ the end of the first frame, and `--world`, `--open=port`, `--open=town`,
 | `Space` | centre the camera on the fleet |
 | `C` | toggle the camera follow mode |
 | `L` | toggle the message log |
-| `F1` | open the system menu (save / load / speed) |
+| `F1` | open the system menu (save / load / speed / sound) |
 | `F5` / `F9` | quick save / quick load |
 | `1` … `4` | simulation speed |
 | `Esc` | close the current screen |
@@ -306,6 +307,8 @@ The graphics are converted as well, into `assets/sprites`:
 | `portchips.png` | the seven sets of 240 tiles of 16 × 16 of `PORTCHIP.LZW` |
 | `townmaps.bin` | the 101 maps of the towns of `PORTMAP.LZW`, 96 × 96 tile indices each |
 | `chip_sets.csv` | the set of tiles of every town, from `CHIP_NO.DAT` |
+| `music.csv` | the twenty three songs of `D2.MML` and their notes |
+| `effects.csv` | the forty eight effects of the seven banks `SNR*.DAT` |
 
 The runtime loads these as **optional reference data**. The wording service of the
 interface resolves its sentences through the original text and falls back to the
@@ -495,6 +498,66 @@ file, and `TestPortSceneUsesTheRightSet` walks the whole table of the towns.
 When `assets/sprites` is missing the game draws its own procedural interface and says
 nothing: the pictures of the original are an enrichment, not a dependency.
 
+### The sound of the original game
+
+The game plays the music of the original release and its sound effects. There
+was no recording of the game to copy, so the sound is read out of the files of
+the release and synthesised again from the same notes.
+
+**The music is a command language.** `D2.MML` begins with a table of the
+offsets of the tracks, and the table is a list of songs, and a song is a list
+of tracks. Every command is one byte, and the byte says how many bytes follow
+it:
+
+| Byte | What it is |
+|---|---|
+| `0x00`–`0x5F` | a command with two parameters: the length of the notes and the volume |
+| `0x60`–`0xBF` | a note, the pitch in the lower six bits |
+| `0xC0`–`0xFF` | a command with one parameter |
+
+A note is held for as long as the length that the last command with two
+parameters set, and the lengths are the multiples of twelve of the language:
+twelve for one sixteenth note, twenty four for two, forty eight for four.
+
+**The sound driver is the ground truth.** The driver of the release,
+`FMDRV.COM`, is a program of the era for the Yamaha chip of the sound card,
+and it was read to settle every question the files left open: the command
+lengths, the meaning of the parameters, the way the pitch is built and the
+table of the F-numbers.
+
+**The pitch comes from the table of the chip.** The driver holds the
+F-numbers of the twelve notes of an octave — `343, 363, 385, 408, 432, 458,
+485, 514, 544, 577, 611, 647` — and they are within a tenth of a percent of
+the equal temperament, which is what a chip with a clock of 3.579545 megahertz
+does. The F-number 343 at the block four is the middle C, and it sounds at
+260.2 hertz.
+
+**The octave is folded.** The driver divides the pitch of a note by twelve and
+uses the quotient as the block of the chip, and the block of a chip is a
+number from zero to seven. A note whose block is higher is folded into the
+seventh block, and the note within the octave is kept.
+
+**The effects are the same language.** `SNR0.DAT` to `SNR6.DAT` are banks of
+sound effects. A bank begins with the magic `SNDT` and the number of the
+bank, and the offsets of the effects follow, and the effects end with the two
+bytes `0xF8 0xF2`, which the driver reads as a pointer back into the stream.
+
+| File | What it holds |
+|---|---|
+| `music.csv` | the twenty three songs and their four thousand five hundred and ninety five notes |
+| `effects.csv` | the forty eight effects of the seven banks |
+
+The game plays the music of the sea and the music of the port, and it plays
+the effect of a key, of a choice, of money, of a ship that leaves a harbour
+and of bad news. The system menu has the sound and the volume.
+
+Everything is optional. A machine without a sound device leaves the game
+silent and working, and a build without the sound library is the same.
+
+The reader is `pkg/importer/mml.go` and `pkg/importer/sndt.go`, the
+synthesiser is `internal/audio`, and the exporter is `ExportSound` in
+`pkg/importer/sound.go`.
+
 ### The LS10 and LS11 container
 
 The `.LZW` files are not compressed with LZW, and the community name for the
@@ -569,7 +632,8 @@ encoding is not confirmed. They are listed here so that the gap is visible:
 | `EVENT*.DAT`, `ENDGRP.DAT`, `END_PUT.DAT` | the event and ending graphics | offset tables followed by planar graphics of an unknown geometry |
 | `WINDCUR.DAT`, `ZA_DAT.DAT` | the wind and current table, an unknown table | the bytes are obfuscated and the key is not recoverable from the data alone |
 | `TRANSIT.DAT`, `MONSTER.DAT` | an animation and a small table | the records are not understood, and guessing their meaning would be worse than leaving them out |
-| `SNR*.DAT` | the sound effects and the music | the `SNDT` container is a sound bank, which the project does not use |
+| `D2.MML` | the music | now read: see [the sound](#the-sound-of-the-original-game) |
+| `SNR*.DAT` | the sound effects | now read: see [the sound](#the-sound-of-the-original-game) |
 
 Adding any of them means writing a specification for the container (for the offset
 tables) and a decoder for the codec; the importer is built to take both without a

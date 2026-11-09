@@ -193,6 +193,8 @@ func (p *PortPopup) activate(action string) {
 	case "leave":
 		p.ui.popups.Pop()
 	}
+	// The sound of the menu.
+	p.ui.playEffect(effectClick)
 }
 
 // Draw implements Popup.
@@ -328,6 +330,7 @@ func (e *ExchangePopup) trade(commodityID string) {
 	}
 	if err != nil {
 		e.ui.Message("%v", err)
+		e.ui.playEffect(effectAlert)
 		return
 	}
 	action := "bought"
@@ -335,6 +338,8 @@ func (e *ExchangePopup) trade(commodityID string) {
 		action = "sold"
 	}
 	e.ui.Message("%s %d %s", action, e.quantity, e.ui.cfg.Commodity(commodityID).Name)
+	// The sound of money.
+	e.ui.playEffect(effectCoin)
 
 	// The answer of the merchant comes from the original wording.
 	switch {

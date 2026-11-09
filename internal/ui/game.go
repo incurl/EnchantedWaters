@@ -93,6 +93,8 @@ func (g *Game) Update() error {
 		return err
 	}
 	g.handleSaveKeys()
+	// The music starts with the session.
+	g.ui.startMusic()
 
 	if !g.paused && g.tickInterval > 0 {
 		g.acc += 1.0 / 60.0
