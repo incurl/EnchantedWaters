@@ -129,6 +129,17 @@ type GraphicSpec struct {
 	Count int `json:"count"`
 	// Name is the base name of the exported sprite sheet.
 	Name string `json:"name"`
+	// LS11 marks a source that is an LS10 or LS11 container.
+	//
+	// The graphics of the DOS releases live in the blocks of such a
+	// container, and the block that holds the sheet is the one whose
+	// number is given by LSBlock. The geometry is a property of the
+	// file, not of the container, so it has to be stated in the
+	// specification.
+	LS11 bool `json:"ls11,omitempty"`
+	// LSBlock is the number of the block of the container that holds
+	// the sheet.
+	LSBlock int `json:"ls_block,omitempty"`
 	// PlaneOrder maps each stored plane to the bit of the colour index
 	// that it contributes.
 	//
@@ -224,6 +235,87 @@ func ReadSpriteSheet(r *Reader, spec GraphicSpec, pal *Palette) (*SpriteSheet, e
 			return nil, fmt.Errorf("graphic %s: read tile %d: %w", spec.Name, i, err)
 		}
 		drawTile(img, buf, spec, i)
+	}
+	return sheet, nil
+}
+
+// ReadSpriteSheetLS reads a planar graphics section out of an LS10 or LS11
+// container.
+//
+// The graphics of the DOS releases live in the blocks of such a container.
+// The block that holds the sheet is the one whose number the specification
+// gives; its bytes are the output of the decoder of that container.
+//
+// The reader works on one tile at a time, so the memory usage is bounded by
+// the size of the sheet and not by the size of the container.
+func ReadSpriteSheetLS(r *Reader, spec GraphicSpec, pal *Palette) (*SpriteSheet, error) {
+	if spec.Width <= 0 || spec.Height <= 0 || spec.Planes <= 0 {
+		return nil, fmt.Errorf("graphic %s: invalid geometry", spec.Name)
+	}
+	if spec.Columns <= 0 {
+		spec.Columns = 1
+	}
+
+	// The whole container has to be read, because the blocks of an LS
+	// file are compressed and the decoder works on the whole file.
+	raw := make([]byte, r.Size())
+	if err := r.ReadAt(raw, 0); err != nil {
+		return nil, fmt.Errorf("graphic %s: reading the container: %w", spec.Name, err)
+	}
+	f, err := ParseLS(raw)
+	if err != nil {
+		return nil, fmt.Errorf("graphic %s: %w", spec.Name, err)
+	}
+	parts, err := DecodeLS(f, raw)
+	if err != nil {
+		return nil, fmt.Errorf("graphic %s: %w", spec.Name, err)
+	}
+	if spec.LSBlock < 0 || spec.LSBlock >= len(parts) {
+		return nil, fmt.Errorf("graphic %s: the container has %d blocks, want the %d",
+			spec.Name, len(parts), spec.LSBlock)
+	}
+	block := parts[spec.LSBlock]
+
+	planeBytes := (spec.Width + 7) / 8
+	tileBytes := planeBytes * spec.Height * spec.Planes
+	count := spec.Count
+	if count == 0 {
+		count = len(block) / tileBytes
+	}
+	tilesX := spec.Columns
+	tilesY := (count + tilesX - 1) / tilesX
+
+	palette := color.Palette{}
+	if spec.EGAPalette {
+		for _, c := range EGAPalette {
+			palette = append(palette, c)
+		}
+	} else if pal != nil {
+		for _, c := range pal.Colors {
+			palette = append(palette, c)
+		}
+	} else {
+		for i := 0; i < 256; i++ {
+			v := uint8(i)
+			palette = append(palette, color.RGBA{v, v, v, 0xff})
+		}
+	}
+
+	img := image.NewPaletted(image.Rect(0, 0, spec.Columns*spec.Width, tilesY*spec.Height), palette)
+	sheet := &SpriteSheet{
+		Name:       spec.Name,
+		Image:      img,
+		TilesX:     tilesX,
+		TilesY:     tilesY,
+		TileWidth:  spec.Width,
+		TileHeight: spec.Height,
+	}
+	for i := 0; i < count; i++ {
+		off := i * tileBytes
+		if off+tileBytes > len(block) {
+			break
+		}
+		drawTile(img, block[off:off+tileBytes], spec, i)
 	}
 	return sheet, nil
 }

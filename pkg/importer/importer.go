@@ -134,7 +134,15 @@ func importSpec(spec *Spec, opts Options, log Logger, result *Result) error {
 
 // importGraphic converts one sprite sheet and writes it as a PNG.
 func importGraphic(r *Reader, spec GraphicSpec, opts Options, log Logger, result *Result) error {
-	sheet, err := ReadSpriteSheet(r, spec, nil)
+	var (
+		sheet *SpriteSheet
+		err   error
+	)
+	if spec.LS11 {
+		sheet, err = ReadSpriteSheetLS(r, spec, nil)
+	} else {
+		sheet, err = ReadSpriteSheet(r, spec, nil)
+	}
 	if err != nil {
 		return err
 	}

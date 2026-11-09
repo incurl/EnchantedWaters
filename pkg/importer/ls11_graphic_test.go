@@ -15,13 +15,13 @@ import (
 // the indices that the planar graphics use.
 var lsEGAPalette = color.Palette{
 	color.RGBA{0x00, 0x00, 0x00, 0xff},
-	color.RGBA{0x00, 0xA2, 0x61, 0xff},
-	color.RGBA{0xD3, 0x41, 0x00, 0xff},
-	color.RGBA{0xF3, 0xA2, 0x61, 0xff},
-	color.RGBA{0x00, 0x41, 0xD3, 0xff},
-	color.RGBA{0x00, 0xA2, 0xF3, 0xff},
-	color.RGBA{0xD3, 0x61, 0xA2, 0xff},
-	color.RGBA{0xF3, 0xE3, 0xD3, 0xff},
+	color.RGBA{0x00, 0xA0, 0x60, 0xff},
+	color.RGBA{0xD0, 0x40, 0x00, 0xff},
+	color.RGBA{0xF0, 0xA0, 0x60, 0xff},
+	color.RGBA{0x00, 0x40, 0xD0, 0xff},
+	color.RGBA{0x00, 0xA0, 0xF0, 0xff},
+	color.RGBA{0xD0, 0x60, 0xA0, 0xff},
+	color.RGBA{0xF0, 0xE0, 0xD0, 0xff},
 }
 
 // lsDecodePlanar turns the planar bytes of an image into an indexed image.
@@ -113,18 +113,17 @@ func TestLSPortraitPixelsMatchTheReference(t *testing.T) {
 			t.Errorf("%s: %v", name, err)
 			continue
 		}
-		got := lsDecodePlanar(p, 64, 80, 3)
 		if b := ref.Bounds(); b.Dx() != 64 || b.Dy() != 80 {
 			continue
 		}
-		// Compare the palette colours, so that the test does not depend
-		// on the exact shades of the reference.
+		// The comparison is on the palette *index* of every pixel, so
+		// that it does not depend on the exact shades of the reference
+		// image, which come from a different palette file.
+		got := lsDecodePlanar(p, 64, 80, 3)
 		diff := 0
 		for y := 0; y < 80; y++ {
 			for x := 0; x < 64; x++ {
-				gr, gg, gb, _ := got.At(x, y).RGBA()
-				rr, rg, rb, _ := ref.At(x, y).RGBA()
-				if gr>>8 != rr>>8 || gg>>8 != rg>>8 || gb>>8 != rb>>8 {
+				if lsNearestIndex(ref.At(x, y)) != got.ColorIndexAt(x, y) {
 					diff++
 				}
 			}
@@ -138,4 +137,27 @@ func TestLSPortraitPixelsMatchTheReference(t *testing.T) {
 		t.Skip("no reference portraits were found")
 	}
 	t.Logf("compared %d portraits", checked)
+}
+
+// lsNearestIndex returns the index of the palette colour that is closest to
+// a colour of the reference image.
+//
+// The reference images were made with a slightly different palette file, so
+// the colours have to be matched rather than compared.
+func lsNearestIndex(c color.Color) uint8 {
+	r, g, b, _ := c.RGBA()
+	best := 0
+	bestDist := int64(1) << 30
+	for i, p := range lsEGAPalette {
+		pr, pg, pb, _ := p.RGBA()
+		dr := int64(r>>8) - int64(pr>>8)
+		dg := int64(g>>8) - int64(pg>>8)
+		db := int64(b>>8) - int64(pb>>8)
+		d := dr*dr + dg*dg + db*db
+		if d < bestDist {
+			bestDist = d
+			best = i
+		}
+	}
+	return uint8(best)
 }
