@@ -1,17 +1,17 @@
 id,name,name_jp,center_x,center_y,radius,wind_base_speed,wind_base_dir_deg,current_base_speed,current_base_dir_deg,storm_probability,pirate_probability,latitude
-zone.japan,Japan,,1025,365,99,15,270,2,90,0.09,0.06,34
-zone.china,China,,880,430,135,12,90,1.8,270,0.05,0.1,25
-zone.south_east_asia,South East Asia,,840,650,161,12,90,1.8,270,0.05,0.1,-5
-zone.india,India,,630,530,114,12,90,1.8,270,0.05,0.1,11
-zone.arabia,Arabia,,480,480,113,12,90,1.8,270,0.05,0.1,18
-zone.east_africa,East Africa,,385,750,189,12,90,1.8,270,0.05,0.1,-19
-zone.west_africa,West Africa,,160,560,200,12,90,1.8,270,0.05,0.1,7
-zone.northern_europe,Northern Europe,,230,190,128,15,270,2,90,0.09,0.06,58
-zone.atlantic,Atlantic Europe,,110,295,126,15,270,2,90,0.09,0.06,44
-zone.mediterranean,Mediterranean,,308,365,152,15,270,2,90,0.09,0.06,34
-zone.caribbean,Caribbean,,1875,570,197,12,90,1.8,270,0.05,0.1,6
-zone.south_america,South America,,1905,810,296,12,90,1.8,270,0.05,0.1,-27
-zone.north_america,North America,,1650,290,398,15,270,2,90,0.09,0.06,44
-zone.arctic,Arctic,,775,90,478,17,240,1.4,60,0.11,0.02,72
-zone.oceania,Australia and Oceania,,1250,780,308,12,90,1.8,270,0.05,0.1,-23
-zone.pacific,Pacific,,1350,450,381,12,90,1.8,270,0.05,0.1,22
+zone.japan,Japan,,1025,365,99,15,270,2,90,0.09,0.06,38
+zone.china,China,,880,430,135,12,90,1.8,270,0.05,0.1,29
+zone.south_east_asia,South East Asia,,840,650,161,12,90,1.8,270,0.05,0.1,-1
+zone.india,India,,630,530,114,12,90,1.8,270,0.05,0.1,15
+zone.arabia,Arabia,,480,480,113,12,90,1.8,270,0.05,0.1,22
+zone.east_africa,East Africa,,385,750,189,12,90,1.8,270,0.05,0.1,-15
+zone.west_africa,West Africa,,160,560,200,12,90,1.8,270,0.05,0.1,11
+zone.northern_europe,Northern Europe,,230,190,128,17,240,1.4,60,0.11,0.02,62
+zone.atlantic,Atlantic Europe,,110,295,126,15,270,2,90,0.09,0.06,47
+zone.mediterranean,Mediterranean,,308,365,152,15,270,2,90,0.09,0.06,38
+zone.caribbean,Caribbean,,1875,570,197,12,90,1.8,270,0.05,0.1,9
+zone.south_america,South America,,1905,810,296,12,90,1.8,270,0.05,0.1,-23
+zone.north_america,North America,,1650,290,398,15,270,2,90,0.09,0.06,48
+zone.arctic,Arctic,,775,90,478,17,240,1.4,60,0.11,0.02,76
+zone.oceania,Australia and Oceania,,1250,780,308,12,90,1.8,270,0.05,0.1,-19
+zone.pacific,Pacific,,1350,450,381,12,90,1.8,270,0.05,0.1,26

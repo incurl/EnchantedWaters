@@ -75,46 +75,74 @@ var Regions = []Region{
 // The map position to the geographic coordinates.
 //
 // The map of the original game is a hand drawn world map, not a true
-// projection. The conversion below was calibrated against the known
-// positions of the ports:
+// projection, and the game converts a position into a bearing and a
+// distance in its own way. The conversion below is the one of the original,
+// recovered from a third party trainer that reads the save files of the
+// game and prints the position of the fleet as a bearing:
 //
-//	longitude  London (0 east) sits at x=180 and Nagasaki (130 east) at
-//	           x=956, which gives 0.1666 degrees per pixel, and it fits
-//	           every other port within a few degrees;
-//	latitude   the fit goes through Narvik (68 north) and Cape Town
-//	           (34 south); the middle latitudes are compressed on the
-//	           original map, so the latitude is accurate at the extremes
-//	           and up to about eight degrees off around the tropics.
+//	longitude  the map is 2160 pixels wide and holds 360 degrees, but the
+//	           prime meridian is not in the middle. The western edge is
+//	           29 degrees west, the middle of the map is 179 pixels into
+//	           the eastern hemisphere, and the eastern edge runs back
+//	           down to 179 degrees west:
 //
-// The approximation is good enough for what the simulation uses it for:
-// the day length and the band of the wind system a sea zone belongs to.
+//	               x 0..178        W 29 - x/6
+//	               x 179..1259     E (x - 179)/6
+//	               x 1260..2160    W 179 - (x - 1260)/6
+//
+//	latitude   the equator is at y=640 and the scale is 7.2 pixels to the
+//	           degree north of it and 7.11 to the degree south of it:
+//
+//	               y 0..5          N 89
+//	               y 6..640        N (640 - y) / 7.2
+//	               y 641..1076     S (y - 640) / 7.11
+//
+// The result is the position the game itself would name: Lisbon comes out
+// at N39 W9, Seville at N37 W6 and Istanbul at N41 E28, which is within a
+// degree of the real places.
 const (
-	// lonOriginX / lonPerPixel map the horizontal position to a longitude.
-	lonOriginX  = 180.0
-	lonPerPixel = 360.0 / 2160.0
-	// latOriginY / latPerPixel map the vertical position to a latitude.
-	latOriginY  = 114.0
-	latPerPixel = 0.1371
-	// latAtOrigin is the latitude at latOriginY.
-	latAtOrigin = 68.4
+	// mapWidth is the width of the map of the original game, in pixels.
+	mapWidth = 2160
+	// mapHeight is the height of the map of the original game, in pixels.
+	mapHeight = 1076
+	// equatorY is the row of the map at which the equator runs.
+	equatorY = 640
+	// degreesPerPixel is the scale of the map.
+	degreesPerPixel = 6.0
+	// degreesPerPixelNorth is the scale north of the equator, in pixels to
+	// the degree.
+	degreesPerPixelNorth = 7.2
+	// degreesPerPixelSouth is the scale south of the equator.
+	degreesPerPixelSouth = 7.11
 )
 
 // mapToLatLon converts a map position into geographic coordinates.
+//
+// The longitude is positive east and the latitude positive north.
 func mapToLatLon(x, y float64) (lat, lon float64) {
-	lon = (x - lonOriginX) * lonPerPixel
-	// The longitude is wrapped into the -180..180 range.
-	for lon > 180 {
-		lon -= 360
+	switch {
+	case x < 0:
+		lon = -29
+	case x <= 178:
+		lon = -(29 - math.Floor(x/degreesPerPixel))
+	case x <= 1259:
+		lon = math.Floor((x - 179) / degreesPerPixel)
+	case x <= mapWidth:
+		lon = -(179 - math.Floor((x-1260)/degreesPerPixel))
+	default:
+		lon = -179
 	}
-	for lon < -180 {
-		lon += 360
-	}
-	lat = latAtOrigin - (y-latOriginY)*latPerPixel
-	if lat > 90 {
-		lat = 90
-	}
-	if lat < -90 {
-		lat = -90
+	switch {
+	case y < 0:
+		lat = 89
+	case y <= 5:
+		lat = 89
+	case y <= equatorY:
+		lat = math.Floor((equatorY - y) / degreesPerPixelNorth)
+	case y <= mapHeight:
+		lat = -math.Floor((y - equatorY) / degreesPerPixelSouth)
+	default:
+		lat = -49
 	}
 	return lat, lon
 }

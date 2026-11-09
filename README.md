@@ -548,6 +548,25 @@ ramp across the row, and the odd rows hold a layer of constant bands whose
 second byte counts up. The layer that names a port is not yet identified, so the
 position of a port in the original's grid is still open.
 
+The coordinates of the world come from
+[BB9z/Uncharted-Waters](https://github.com/BB9z/Uncharted-Waters), which holds a
+trainer for the game and the notes of its author. The trainer reads the save
+files and prints the position of the fleet as a bearing, and that conversion is
+the one of the original game: the map is 2160 pixels wide and 1076 high, the
+equator runs at the row 640, and the longitude is not centred on the prime
+meridian — the western edge is 29 degrees west, the middle of the map is 179
+pixels into the eastern hemisphere, and the eastern edge runs back down to 29
+degrees west, because the map wraps around the globe. Lisbon therefore comes
+out at N39 W9, Seville at N37 W6 and Istanbul at N41 E28, which is within a
+degree of the real places. The latitude of this project had been calibrated by
+eye and was about four degrees too far south; it now follows the original.
+
+The same trainer confirms the rest of the import. Its list of the twenty five
+hulls, in Chinese, runs in exactly the order of the twenty five hulls of this
+project: the Balsa is the 单桅渔船, the Hansa Cog the 汉萨柯克船, the Kansen the 关船.
+Its list of the ports runs in the order of the imported port table as well, and
+it names a sixth nation, the pirates, beside the five of the countries.
+
 That remake is also the reference for the *rules* of the game, which the data
 files do not spell out:
 
