@@ -41,6 +41,24 @@ func fillRect(c *Canvas, x, y, w, h int, col color.Color) {
 	c.uploaded = true
 }
 
+// DrawFrame draws a one pixel frame around a rectangle.
+//
+// The frame sets a picture of the original game apart from the panel
+// behind it.
+func DrawFrame(c *Canvas, x, y, w, h int, clr color.Color) {
+	if c == nil || w <= 0 || h <= 0 {
+		return
+	}
+	for i := 0; i < w; i++ {
+		c.Set(x+i, y, clr)
+		c.Set(x+i, y+h-1, clr)
+	}
+	for i := 0; i < h; i++ {
+		c.Set(x, y+i, clr)
+		c.Set(x+w-1, y+i, clr)
+	}
+}
+
 // DrawPanel draws a bordered panel with a filled background.
 //
 // The border is drawn as a double line, which is the classic look of the

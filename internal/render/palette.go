@@ -61,4 +61,7 @@ var (
 	ColorWeather = color.RGBA{0x10, 0x18, 0x30, 0x60}
 	// ColorNight is the tint of the night overlay.
 	ColorNight = color.RGBA{0x00, 0x00, 0x20, 0x90}
+	// ColorFrame is the colour of the frame that surrounds a picture of
+	// the original game.
+	ColorFrame = color.RGBA{0x9a, 0x8f, 0x6d, 0xff}
 )

@@ -90,6 +90,15 @@ type Registry struct {
 	RumorOrder     []string
 	TitleOrder     []string
 	AIProfileOrder []string
+
+	// PortSourceOrder holds the ports in the order of the table they were
+	// read from.
+	//
+	// The order of the table is the order of the original game: the towns
+	// of the release come first, and the supply ports after them. The
+	// pictures of the towns are numbered in that order, so the mapping
+	// from a port to its picture needs it.
+	PortSourceOrder []string
 }
 
 // NewRegistry returns an empty registry with all maps allocated.
@@ -141,6 +150,7 @@ func (r *Registry) SetCommodity(c *Commodity) {
 func (r *Registry) SetPort(p *Port) {
 	r.Ports[p.ID] = p
 	r.PortOrder = append(r.PortOrder, p.ID)
+	r.PortSourceOrder = append(r.PortSourceOrder, p.ID)
 }
 
 // SetShip registers a ship class.

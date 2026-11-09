@@ -20,6 +20,11 @@ type Options struct {
 	SpecDir string
 	// OutDir is the directory the converted tables are written to.
 	OutDir string
+	// SpritesDir is the directory the pictures are written to.
+	//
+	// When it is empty the pictures go into a folder named sprites that
+	// stands next to OutDir.
+	SpritesDir string
 	// LogPath is the file the detailed audit log is written to.
 	LogPath string
 	// Verbose enables the per-record logging.
@@ -129,7 +134,31 @@ func importSpec(spec *Spec, opts Options, log Logger, result *Result) error {
 			log.Problem("%v", err)
 		}
 	}
+
+	// --- the pictures of the towns ---
+	// The tiles of the ports and the maps of the towns need a reader of
+	// their own, because the art of the towns is stored in segments and
+	// the maps are grids of the indices of those tiles. Only the horizon
+	// specification asks for them.
+	if spec.Towns {
+		files, problems := ExportTownData(opts.RawDir, spritesDir(opts), log)
+		result.Files = append(result.Files, files...)
+		for _, p := range problems {
+			result.Problems = append(result.Problems, p)
+			log.Problem("%s", p)
+		}
+	}
 	return nil
+}
+
+// spritesDir returns the directory the pictures are written to.
+//
+// The pictures live next to the tables but in their own folder.
+func spritesDir(opts Options) string {
+	if opts.SpritesDir != "" {
+		return opts.SpritesDir
+	}
+	return filepath.Join(opts.OutDir, "..", "sprites")
 }
 
 // importGraphic converts one sprite sheet and writes it as a PNG.
@@ -146,8 +175,7 @@ func importGraphic(r *Reader, spec GraphicSpec, opts Options, log Logger, result
 	if err != nil {
 		return err
 	}
-	// The sprite sheets live next to the tables but in their own folder.
-	dir := filepath.Join(opts.OutDir, "..", "sprites")
+	dir := spritesDir(opts)
 	files, err := WriteSpriteSheet(dir, sheet, nil)
 	if err != nil {
 		return err

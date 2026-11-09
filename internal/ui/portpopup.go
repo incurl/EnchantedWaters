@@ -197,6 +197,10 @@ func (p *PortPopup) activate(action string) {
 
 // Draw implements Popup.
 func (p *PortPopup) Draw(canvas *render.Canvas) {
+	// The town of the port is drawn behind the menu, as the original game
+	// does it: the player sees the town and chooses a facility in it.
+	p.drawTown(canvas)
+
 	menu := p.menu()
 	// The panel is wide enough for the longest label of the original
 	// game, and it is never taller than the screen.
@@ -428,4 +432,12 @@ func (e *ExchangePopup) Draw(canvas *render.Canvas) {
 			render.DrawText(canvas, quote.Reason, x+150, qy+render.LineHeight, render.ColorBad)
 		}
 	}
+}
+
+// drawTown draws the town of the port behind the menu.
+//
+// The backdrop is the same one the map view draws when the ship is in port,
+// so the screen does not change behind the menu.
+func (p *PortPopup) drawTown(canvas *render.Canvas) {
+	p.ui.drawTownBackdrop(canvas, p.portID)
 }

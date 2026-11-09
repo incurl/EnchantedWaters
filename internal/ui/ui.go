@@ -10,6 +10,7 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 
 	"github.com/peter/enchantedwaters/internal/ai"
+	"github.com/peter/enchantedwaters/internal/asset"
 	"github.com/peter/enchantedwaters/internal/config"
 	"github.com/peter/enchantedwaters/internal/ecs"
 	"github.com/peter/enchantedwaters/internal/render"
@@ -34,6 +35,21 @@ type UI struct {
 	world *world.World
 	// cfg is the immutable configuration registry.
 	cfg *config.Registry
+	// art holds the pictures of the original game.
+	//
+	// The art is optional: when the files of the release are not present
+	// the field is nil and the interface falls back on its procedural
+	// drawings.
+	art *asset.Art
+	// portMaps holds the maps of the towns of the original game.
+	portMaps []*asset.PortMap
+	// chipSets holds the number of the set of tiles of every port.
+	chipSets []int
+	// towns caches the picture of every town that was drawn.
+	//
+	// A town is a grid of nine thousand two hundred and sixteen tiles, so
+	// assembling it on every frame would be wasteful.
+	towns map[string]*render.Sprite
 	// mapRenderer draws the world map.
 	mapRenderer *render.WorldMap
 	// popups holds the open modal dialogs.
@@ -94,6 +110,174 @@ func New(w *world.World) *UI {
 	return u
 }
 
+// SetArt gives the interface the pictures of the original game.
+//
+// The pictures are read from the files of the release by the caller, so
+// that the interface itself does not know where they come from. Everything
+// is optional: a missing picture leaves the interface with its procedural
+// drawings.
+func (u *UI) SetArt(art *asset.Art, maps []*asset.PortMap, chipSets []int) {
+	u.art = art
+	u.portMaps = maps
+	u.chipSets = chipSets
+}
+
+// Art returns the pictures of the original game.
+func (u *UI) Art() *asset.Art { return u.art }
+
+// Portrait returns the portrait of a character of the original game.
+//
+// The portraits are numbered in the order of the file. The character
+// templates of the configuration are numbered in their own order, so the
+// number is taken modulo the number of portraits: every character gets a
+// face of its own out of the set of the original game.
+//
+// The function returns nil when the pictures were not read.
+func (u *UI) Portrait(index int) *render.Sprite {
+	if u.art == nil || len(u.art.Portraits) == 0 {
+		return nil
+	}
+	if index < 0 {
+		index = -index
+	}
+	return u.art.Portraits[index%len(u.art.Portraits)]
+}
+
+// DrawPortrait draws the portrait of a character into the canvas.
+//
+// The portrait is drawn at the given position, and it is framed, because a
+// face of the original game is a small picture and it needs an edge to read
+// against the panel behind it.
+func (u *UI) DrawPortrait(canvas *render.Canvas, index, x, y int) bool {
+	portrait := u.Portrait(index)
+	if portrait == nil {
+		return false
+	}
+	render.DrawFrame(canvas, x-2, y-2, portrait.Width+4, portrait.Height+4, render.ColorFrame)
+	render.DrawSpriteOpaque(canvas, portrait, x, y)
+	return true
+}
+
+// PortScene returns the map of a port and the set of tiles that it is
+// built from.
+//
+// The town of a port is the map whose number is the number of the port,
+// and the tiles are the ones of the cultural group of the town. The
+// function returns nil when the files of the original game were not read.
+func (u *UI) PortScene(portID string) (*asset.PortMap, *asset.SpriteSet) {
+	town := u.portMap(portID)
+	if town == nil {
+		return nil, nil
+	}
+	return town, u.art.PortChipSet(u.ChipSet(portID))
+}
+
+// ChipSet returns the number of the set of tiles of a port.
+//
+// The number comes from the table of the towns of the release. The release
+// maps a hundred towns and holds a hundred and one maps, so the last port
+// has no entry of its own; it is drawn out of the first set.
+func (u *UI) ChipSet(portID string) int {
+	index := u.portIndex(portID)
+	if index < 0 || index >= len(u.chipSets) {
+		return 0
+	}
+	return u.chipSets[index]
+}
+
+// portMap returns the map of the town of a port.
+//
+// The function returns nil when the files of the original game were not
+// read, or when the port has no town of its own.
+func (u *UI) portMap(portID string) *asset.PortMap {
+	if u.art == nil || len(u.portMaps) == 0 {
+		return nil
+	}
+	index := u.portIndex(portID)
+	if index < 0 || index >= len(u.portMaps) {
+		return nil
+	}
+	return u.portMaps[index]
+}
+
+// portIndex returns the number of a port in the order of the original
+// game.
+//
+// The order of the ports of the configuration is the order of the original
+// game: the towns come first, and the supply ports after them.
+func (u *UI) portIndex(portID string) int {
+	for i, id := range u.cfg.PortSourceOrder {
+		if id == portID {
+			return i
+		}
+	}
+	return -1
+}
+
+// TownFor returns the picture of the town of a port.
+//
+// The picture is assembled on the first call and kept, so that the town of
+// a port is built once and drawn on every frame after that.
+//
+// The function returns nil when the files of the original game were not
+// read, or when the port has no town of its own.
+func (u *UI) TownFor(portID string) *render.Sprite {
+	if u.towns == nil {
+		u.towns = make(map[string]*render.Sprite)
+	}
+	if town, ok := u.towns[portID]; ok {
+		return town
+	}
+	town := u.BuildTown(portID)
+	u.towns[portID] = town
+	return town
+}
+
+// BuildTown assembles the picture of the town of a port out of its tiles.
+//
+// The picture is built once: the tiles of the town are laid out in the
+// order that the map of the port gives, and the result is a picture of the
+// whole town, sixteen pixels to a tile.
+//
+// The function returns nil when the files of the original game were not
+// read, or when the port has no town of its own.
+func (u *UI) BuildTown(portID string) *render.Sprite {
+	town, set := u.PortScene(portID)
+	if town == nil || set == nil {
+		return nil
+	}
+	width := town.Width * TownTile
+	height := town.Height * TownTile
+	picture := render.NewSprite(width, height)
+	// The town takes the palette of its tiles: the tiles of the ports use
+	// the sixteen colours of the four plane art, not the eight colours of
+	// the portraits.
+	if len(set.Tiles) > 0 && set.Tiles[0] != nil {
+		picture.Palette = set.Tiles[0].Palette
+	} else {
+		picture.Palette = u.art.Palette
+	}
+
+	for ty := 0; ty < town.Height; ty++ {
+		for tx := 0; tx < town.Width; tx++ {
+			index := town.Cell(tx, ty)
+			if int(index) >= set.TileCount() {
+				continue
+			}
+			tile := set.Tiles[index]
+			if tile == nil {
+				continue
+			}
+			ox, oy := tx*TownTile, ty*TownTile
+			for y := 0; y < tile.Height; y++ {
+				copy(picture.Pixels[(oy+y)*width+ox:(oy+y)*width+ox+tile.Width],
+					tile.Pixels[y*tile.Width:(y+1)*tile.Width])
+			}
+		}
+	}
+	return picture
+}
+
 // ShowWorld centres the map on the whole world.
 //
 // It is used at start-up by the development screenshots and by the tests.
@@ -115,9 +299,10 @@ func (u *UI) Popups() *PopupStack { return u.popups }
 // OpenScreen opens one of the screens of the interface at the start of
 // the session.
 //
-// The screen is named by its action: "port", "exchange", "shipyard",
-// "tavern", "governor", "church", "inn", "sail" or "system". It is used
-// by the development screenshots and by the automated tests.
+// The screen is named by its action: "port", "town", "exchange",
+// "shipyard", "tavern", "governor", "church", "inn", "sail" or
+// "system". It is used by the development screenshots and by the automated
+// tests.
 func (u *UI) OpenScreen(name string) bool {
 	portID := u.world.ArrivedAtPort(u.world.PlayerEntity())
 	if portID == "" {
@@ -126,6 +311,14 @@ func (u *UI) OpenScreen(name string) bool {
 	switch name {
 	case "port":
 		u.popups.Push(NewPortPopup(u, portID))
+	case "town":
+		// The town view is the town on its own, without the menu, so
+		// that the whole of it can be looked at.
+		town := NewTownPopup(u, portID)
+		if town == nil {
+			return false
+		}
+		u.popups.Push(town)
 	case "exchange":
 		u.popups.Push(NewExchangePopup(u, portID))
 	case "shipyard":
@@ -303,6 +496,16 @@ func (u *UI) drawMap(canvas *render.Canvas) {
 	// out.
 	canvas.Clear(render.ColorSeaDeep)
 
+	// A ship in port shows the town it is in, which is what the player of
+	// the original game sees: the quay, the houses and the harbour. The
+	// town is the backdrop of every facility, so the screen does not
+	// change behind the dialogue.
+	if portID := u.world.ArrivedAtPort(u.world.PlayerEntity()); portID != "" {
+		if u.drawTownBackdrop(canvas, portID) {
+			return
+		}
+	}
+
 	data := u.buildMapData()
 	weatherKey := u.weatherKey()
 	u.mapRenderer.Render(data, u.world.Day(), weatherKey)
@@ -327,6 +530,36 @@ func (u *UI) drawMap(canvas *render.Canvas) {
 	if data.NightTint > 0 {
 		render.TintCanvas(canvas, color.RGBA{0x00, 0x00, 0x20, uint8(data.NightTint * 255)})
 	}
+}
+
+// drawTownBackdrop draws the town of a port over the whole screen.
+//
+// The town is the map of the original game, and the view opens on the part
+// of it that holds the houses and the roads. The function reports whether
+// it drew anything: without the pictures of the original game it leaves the
+// screen alone, and the caller falls back on the map.
+func (u *UI) drawTownBackdrop(canvas *render.Canvas, portID string) bool {
+	town := u.TownFor(portID)
+	if town == nil {
+		return false
+	}
+	rows := LogicalHeight / asset.TownTile
+	offsetY := asset.PortMapFocus(u.portMap(portID), rows) * asset.TownTile
+	offsetX := (town.Width - LogicalWidth) / 2
+	if offsetX < 0 {
+		offsetX = 0
+	}
+	for y := 0; y < LogicalHeight; y++ {
+		for x := 0; x < LogicalWidth; x++ {
+			index := town.At(offsetX+x, offsetY+y)
+			if int(index) >= len(town.Palette) {
+				continue
+			}
+			c := town.Palette[index]
+			canvas.Set(x, y, colourOf(c))
+		}
+	}
+	return true
 }
 
 // buildMapData collects the render data of the world.

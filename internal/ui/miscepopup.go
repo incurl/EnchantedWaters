@@ -64,15 +64,27 @@ func (g *GovernorPopup) Draw(canvas *render.Canvas) {
 	}
 	render.DrawText(canvas, name, x+12, y+10, render.ColorTextBright)
 	render.DrawText(canvas, "enter: pay respects   esc: back", x+12, y+22, render.ColorTextDim)
-	render.DrawText(canvas, "Your trade renown opens many doors.", x+12, y+44, render.ColorText)
+
+	// --- the portrait of the governor ---
+	//
+	// The face comes out of the portraits of the original game, and it is
+	// fixed per port, so the governor of a port always looks the same.
+	textX := x + 12
+	if g.ui.DrawPortrait(canvas, g.ui.portIndex(g.portID)*11+5, x+12, y+44) {
+		textX = x + 12 + 76
+	}
+
+	render.DrawText(canvas, "Your trade renown opens many doors.", textX, y+44, render.ColorText)
 	if g.gain > 0 {
-		render.DrawText(canvas, fmt.Sprintf("Trade fame +%.1f", g.gain), x+12, y+60, render.ColorGood)
+		render.DrawText(canvas, fmt.Sprintf("Trade fame +%.1f", g.gain), textX, y+60, render.ColorGood)
 	}
 	adv, trade, naval := g.ui.world.ReputationSnapshot(world.FactionPlayer)
-	render.DrawText(canvas, fmt.Sprintf("Adventure %.0f    Trade %.0f    Naval %.0f", adv, trade, naval), x+12, y+80, render.ColorTextDim)
+	render.DrawText(canvas, fmt.Sprintf("Adventure %.0f", adv), textX, y+80, render.ColorTextDim)
+	render.DrawText(canvas, fmt.Sprintf("Trade %.0f", trade), textX, y+92, render.ColorTextDim)
+	render.DrawText(canvas, fmt.Sprintf("Naval %.0f", naval), textX, y+104, render.ColorTextDim)
 	titles := g.ui.world.Titles(world.FactionPlayer)
 	if len(titles) > 0 {
-		render.DrawText(canvas, "titles: "+strings.Join(titles, ", "), x+12, y+96, render.ColorGold)
+		render.DrawText(canvas, truncate("titles: "+strings.Join(titles, ", "), 34), textX, y+120, render.ColorGold)
 	}
 }
 

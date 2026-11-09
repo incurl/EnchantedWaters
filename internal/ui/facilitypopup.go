@@ -247,6 +247,18 @@ func (t *TavernPopup) Draw(canvas *render.Canvas) {
 		render.DrawTextRight(canvas, fmt.Sprintf("%d", int(tmpl.HiringCost)), x+w-12, rowY, render.ColorGold)
 	}
 
+	// --- the portrait of the highlighted recruit ---
+	//
+	// The face is the one of the original game: the recruits are numbered
+	// in a fixed order, so the same recruit always shows the same face.
+	if len(templates) > 0 {
+		index := t.selected
+		if index >= len(templates) {
+			index = len(templates) - 1
+		}
+		t.ui.DrawPortrait(canvas, index*7+3, x+w-78, y+52)
+	}
+
 	// --- the rumour ---
 	if t.rumor != "" {
 		render.DrawText(canvas, "rumour:", x+12, y+h-34, render.ColorTextBright)

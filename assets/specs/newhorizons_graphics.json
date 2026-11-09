@@ -1,23 +1,12 @@
 {
   "name": "newhorizons.graphics",
-  "description": "The graphics of the English DOS release (New Horizons). The files are LS10 and LS11 containers, whose codec is documented in the importer. The geometry of each file is a property of the file and not of the container, so it is stated here. KAO.LZW holds the portraits of the characters, 64 by 80 pixels in three planes, one portrait to a block. PORTCHIP.LZW holds the material of the ports, sixteen by sixteen tiles in four planes, thirty tiles to a block.",
+  "description": "The graphics of the English DOS release (New Horizons). The files are LS10 and LS11 containers, whose codec is documented in the importer. The geometry of each file is a property of the file and not of the container. The pictures of the towns and of the characters are not planar in the general sense: the tiles of the ports are stored in segments and the maps of the towns are grids of the indices of those tiles, so they are converted by the exporter of the town data rather than by the general reader below.",
   "source": {
     "path": "KAO.LZW",
     "offset": 0,
     "length": 476225
   },
   "tables": [],
-  "graphics": [
-    {
-      "name": "portraits",
-      "ls11": true,
-      "ls_block": 0,
-      "width": 64,
-      "height": 80,
-      "planes": 3,
-      "columns": 8,
-      "count": 128,
-      "interleaved": true
-    }
-  ]
+  "graphics": [],
+  "towns": true
 }

@@ -25,6 +25,8 @@ in Go with [Ebitengine](https://ebitengine.org), targeting modern Linux (X11 / W
 | Three-axis reputation (Adventure / Trade / Naval) with titles | done |
 | Table-driven event system with optional Lua scripting | done |
 | Save / load of the dynamic state only | done |
+| The town of every port, drawn from the tiles of the original game | done |
+| The 128 portraits and the twelve facilities of the original game | done |
 | Development-only asset importer (binary → CSV / JSON / PNG) | done |
 | Debug panel with ImGui (development builds only) | done |
 
@@ -72,8 +74,9 @@ ENCHANTED_NO_VSYNC=1 xvfb-run -a ./game run -- --shot=/tmp/shot.png
 
 The `--` matters: `xvfb-run` eats any option it does not know, and the
 screenshot flag would go with it. The flag writes the canvas into a PNG at
-the end of the first frame, and `--world`, `--open=port`, `--open=exchange`,
-`--open=shipyard`, `--open=tavern` and `--open=system` choose the screen.
+the end of the first frame, and `--world`, `--open=port`, `--open=town`,
+`--open=exchange`, `--open=shipyard`, `--open=tavern`, `--open=governor` and
+`--open=system` choose the screen.
 
 ### Controls
 
@@ -295,15 +298,21 @@ English release (*New Horizons*) converts:
 | `original_characters` | 120 | the six protagonists and their companions: eight named stats, a navigation and a battle rank, and an age |
 | `original_story_npcs` | 21 | the cartographers, professors and nobles |
 
-The graphics are converted as well. `./game import` writes
-`assets/sprites/portraits.png`, a sheet of 512 by 1280 pixels holding the 128
-faces of the characters of `KAO.LZW`, each 64 by 80 in three planes.
+The graphics are converted as well, into `assets/sprites`:
+
+| File | Content |
+|---|---|
+| `portraits.png` | the 128 faces of `KAO.LZW`, 64 by 80 in three planes, eight to a row |
+| `portchips.png` | the seven sets of 240 tiles of 16 × 16 of `PORTCHIP.LZW` |
+| `townmaps.bin` | the 101 maps of the towns of `PORTMAP.LZW`, 96 × 96 tile indices each |
+| `chip_sets.csv` | the set of tiles of every town, from `CHIP_NO.DAT` |
 
 The runtime loads these as **optional reference data**. The wording service of the
 interface resolves its sentences through the original text and falls back to the
-wording of this project when a line is absent, and the port menu is built from the
-twelve facilities of the original game. A data set without the imported tables stays
-perfectly valid.
+wording of this project when a line is absent, the port menu is built from the twelve
+facilities of the original game, and a ship in port shows the town of the original
+while its tavern draws the faces of the original. A data set without the imported
+tables stays perfectly valid.
 
 ### Deriving the playable world
 
@@ -427,6 +436,64 @@ and the importer writes an indexed PNG with the eight colour palette. See
 `assets/specs/examples/planar_ega.json`. The decoder is covered by
 `TestPlanarDecodeMatchesTheReference`, which builds a sprite in the documented layout
 and checks that every pixel and the palette survive the round trip.
+
+### The towns and the portraits
+
+The game draws the pictures of the original game. It draws them out of derived data,
+never out of the files of the release: the import step converts the pictures into
+`assets/sprites`, and the game reads that.
+
+| File | What it holds |
+|---|---|
+| `portraits.png` | the 128 portraits of the characters, 64 × 80 pixels, eight to a row |
+| `portchips.png` | the seven sets of tiles of the ports, 240 tiles of 16 × 16 to a set |
+| `townmaps.bin` | the 101 maps of the towns, a grid of 96 × 96 tile indices each |
+| `chip_sets.csv` | the set of tiles of every town |
+
+Three parts of the layout had to be worked out, and none of them is the general
+planar layout of the section above.
+
+**The tiles of the ports are stored in segments.** `PORTCHIP.LZW` holds one block of
+30,720 bytes to a set, which is a picture of 16 × 3,840 pixels in four planes. The
+four planes are not stored one after the other: the picture is cut into segments of
+`align_length` bytes to a plane — 32 bytes — and inside a segment the planes follow
+each other. A segment holds 256 pixels of a plane, which is exactly one tile:
+
+```
+segment s, pixel j:  byte = plane * 32 + j / 8,  bit = 7 - j % 8
+```
+
+so a set of 240 tiles is 240 segments, and the tiles follow each other down the
+picture. The geometry is the one that the reference viewer of the series lists for the
+file, and the decode agrees with its published rendering of `PORTCHIP.LZW` to the
+tenth of a percent on the covered pixels.
+
+**A map of a town is not a picture.** `PORTMAP.LZW` holds one block of 9,216 bytes to
+a town, and a block is a grid of 96 × 96 one byte cells. Each byte is the index of a
+tile of the set of the town, so the town is drawn by putting the tiles in their place
+— which is why the grid is square: a width of 48 or 64 scrambles the rows, while 96
+lays out a facade, a water front, the streets of the town and the open sea in order.
+
+**The fourth plane of the tiles is the intensity bit.** The tiles name sixteen
+colours while the palette of the release, `HORIZON_KAO.PAL`, holds eight. The tiles
+use the indices 9, 11, 13 and 15 about as often as 1, 3, 5 and 7, which is how a wall
+is drawn once in the shade and once in the light: the fourth plane is the intensity
+bit of the EGA adapters. The bright half of the table is not in the palette file, so
+the game folds the two halves together and draws the towns in the eight colours that
+the release actually ships instead of inventing the other eight.
+
+`CHIP_NO.DAT` is the table that says which set a town is built from, and it agrees
+with the map without being told: the ports of northern Europe take set 1, the
+Caribbean and Africa set 3, India set 6, China set 4 and Japan set 5. Bergen is drawn
+in timber and a fjord, Lisbon in stone and a harbour, Sakai in tatami roofs and green
+tiles.
+
+The exporter is `ExportTownData` in `pkg/importer/towndata.go`, and the reader is
+`internal/asset`. `TestExportTownData` converts the release and checks every derived
+file, and `TestPortSceneUsesTheRightSet` walks the whole table of the towns.
+
+When `assets/sprites` is missing the game draws its own procedural interface and says
+nothing: the pictures of the original are an enrichment, not a dependency.
 
 ### The LS10 and LS11 container
 

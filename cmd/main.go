@@ -150,6 +150,30 @@ func runGame(args []string) error {
 	// --- create the game ---
 	game := ui.NewGame(w)
 
+	// --- the pictures of the original game ---
+	// The pictures are read out of the files of the release when the user
+	// supplies them. Everything is optional: a missing file leaves the
+	// interface with its procedural drawings.
+	if artDir := spritesDir(configDir); artDir != "" {
+		if art, problems := asset.LoadArt(artDir); art != nil {
+			maps, err := asset.LoadPortMaps(artDir)
+			if err != nil {
+				log.Info("the maps of the ports were not read", "err", err)
+			}
+			chipSets, err := asset.LoadChipNumbers(artDir)
+			if err != nil {
+				log.Info("the table of the tiles of the towns was not read", "err", err)
+			}
+			game.UI().SetArt(art, maps, chipSets)
+			log.Info("the pictures of the original game were read",
+				"dir", artDir, "portraits", len(art.Portraits),
+				"chip_sets", len(art.PortChips), "towns", len(maps))
+			for _, problem := range problems {
+				log.Info("the pictures of the original game", "problem", problem)
+			}
+		}
+	}
+
 	// --- the screenshot ---
 	// The screenshot is written at the end of the first frame.
 	if shot := flags["shot"]; shot != "" {
@@ -267,6 +291,29 @@ func defaultConfigDir() string {
 	// Fall back to the working directory, which is what happens when the
 	// game is started from the repository.
 	return filepath.Join("assets", "config")
+}
+
+// spritesDir returns the directory that holds the pictures of the original
+// game, or the empty string when it is not there.
+//
+// The pictures are derived data: the import step converts the files of the
+// release into assets/sprites, and the game reads that. Nothing depends on
+// the directory — the game draws its own pictures when it is missing — but
+// when it is there the game draws the town of every port and the face of
+// every character of the original.
+func spritesDir(configDir string) string {
+	// The sprites directory stands next to the configuration directory,
+	// so that a copied installation works wherever it is put.
+	candidates := []string{
+		filepath.Join(filepath.Dir(configDir), "sprites"),
+		filepath.Join("assets", "sprites"),
+	}
+	for _, dir := range candidates {
+		if _, err := os.Stat(filepath.Join(dir, "portraits.png")); err == nil {
+			return dir
+		}
+	}
+	return ""
 }
 
 // newLogger builds the structured logger of the application.

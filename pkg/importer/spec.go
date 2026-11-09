@@ -50,6 +50,13 @@ type Spec struct {
 	Tables []TableSpec `json:"tables"`
 	// Graphics lists the sprite sheets that are extracted from the file.
 	Graphics []GraphicSpec `json:"graphics,omitempty"`
+	// Towns marks a file whose pictures of the towns are exported.
+	//
+	// The tiles of the ports and the maps of the towns do not go through
+	// the general reader: the tiles are stored in segments and the maps
+	// are grids of the indices of those tiles. A specification that sets
+	// this flag hands the file to the exporter of the town data instead.
+	Towns bool `json:"towns,omitempty"`
 }
 
 // SourceSpec describes the raw data source.
@@ -149,8 +156,8 @@ func LoadSpec(path string) (*Spec, error) {
 	if spec.Name == "" {
 		return nil, fmt.Errorf("spec %s has no name", path)
 	}
-	if len(spec.Tables) == 0 && len(spec.Graphics) == 0 {
-		return nil, fmt.Errorf("spec %s has neither tables nor graphics", path)
+	if len(spec.Tables) == 0 && len(spec.Graphics) == 0 && !spec.Towns {
+		return nil, fmt.Errorf("spec %s has neither tables, graphics nor towns", path)
 	}
 	return &spec, nil
 }
