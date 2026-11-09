@@ -539,6 +539,15 @@ against the data: all 675 blocks of the fourteen files of the release decode to
 exactly the size their record asks for, and all 128 portraits of `KAO.LZW` come
 out pixel for pixel identical to the images of that viewer.
 
+`WORLDMAP.LZW` is a different thing: it holds no graphics at all but a table of
+tile indices — 71,274 bytes of them, which is 135 columns of 527 rows, and 135
+columns is exactly the width of the map in tiles (2160 pixels of 16). The rows
+alternate between two kinds, and the way they interleave is what the isometric
+layout of the map consists of: the even rows hold a layer whose values run in a
+ramp across the row, and the odd rows hold a layer of constant bands whose
+second byte counts up. The layer that names a port is not yet identified, so the
+position of a port in the original's grid is still open.
+
 That remake is also the reference for the *rules* of the game, which the data
 files do not spell out:
 
