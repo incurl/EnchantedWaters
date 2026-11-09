@@ -279,7 +279,7 @@ English release (*New Horizons*) converts:
 | `original_item_descriptions` | 172 | one description per item |
 | `original_colonies` | 100 | the colonies and wonders of the world map |
 | `original_ports` | 130 | every port with its position on the original map |
-| `original_characters` | 120 | the six protagonists and their companions, with abilities |
+| `original_characters` | 120 | the six protagonists and their companions: eight named stats, a navigation and a battle rank, and an age |
 | `original_story_npcs` | 21 | the cartographers, professors and nobles |
 
 The runtime loads these as **optional reference data**. The wording service of the
@@ -312,6 +312,65 @@ The land and sea mask (`world_terrain.csv`) is derived from the ports alone: a c
 becomes land when it lies close to a port, and the mask is then dilated and eroded
 so that the outline follows the clusters of ports. It is a schematic world, not a
 cartographic one.
+
+### The rules of the original
+
+The data files record what the game *contains*; they do not record what it *does*.
+The reference implementation supplies the second half, and the paragraphs below
+collect what it establishes, whether or not this project has acted on it yet.
+
+**The character record.** The forty two byte character record holds the eight stats
+of a sailor in a fixed order — leadership, seamanship, knowledge, intuition,
+courage, swordplay, charm and luck — followed by a navigation rank, a battle rank
+and an age. The order was recovered by matching three named sailors against the
+reference: João Franco is 78/75/73/85/82/82/89/50 at navigation rank 1 and age 18,
+Old Sea Hand Rocco is 75/82/84/90/93/92/70/70 at rank 30 and age 65, and Brother
+Enrico is 66/48/93/55/62/48/82/100 at rank 1 and age 24. Those twenty four numbers
+pin the order, and they correct the guess the message table had suggested for the
+last three bytes, which are swordplay, charm and luck rather than charm, skill and
+swordplay. `pkg/etl/characters_test.go` holds the three records as a regression
+test.
+
+João's seamanship of 75 and navigation rank of 1 are worth noting: they are exactly
+the neutral values the sailing model uses, because `75` is the divisor at which the
+seamanship factor is 1 and `1` is the rank at which the skill factor is `(10+1)/10`.
+The neutral factors of this project are therefore the starting character's own, not
+an arbitrary choice.
+
+**The clock.** Time is measured in minutes from the start of the game, which is
+08:00 on 17 May 1522 — `timePassed = 480`. A step of the world costs 20 minutes; an
+action inside a port costs 40, 60 or 80 minutes at random; waiting costs the
+difference to the next 08:00. The wind and the current are re-read every 240 minutes
+(four hours), the day rolls over at midnight, and a day lasts 1440 minutes. Daylight
+runs from 04:00 to 20:00, and the people of a port appear at dawn and vanish at
+dusk.
+
+**The provisions.** A hold carries four kinds of supply, not two: water, food,
+**lumber** for repairs and **shot** for the guns. This project models the first two.
+
+**The shipyard.** A port has an `industry` value and an `industryId` naming one of
+eleven shipbuilding traditions. The tradition decides which hulls the yard can lay
+down, each with an industry requirement, and a hull is available only when the
+port's industry reaches that requirement. The number of used hulls on offer follows
+the industry as well: two below 400, two to four to 600, two to six to 800, and two
+to eight above. A used hull is sold at 85% of its durability, and any hull is bought
+back at half its price. A rating costs 40 gold.
+
+**The bank.** The credit line is 1000 gold: the debt may not exceed it.
+
+**The shops.** An item shop sells at the listed price and buys at half of it. Some
+ports keep a secret item that is only on the shelf between 02:00 and 03:00.
+
+**The politics.** A port is not owned by one nation but shared between six, as a
+vector of six percentages that sums to a hundred: Lisbon is 100% Portuguese,
+Seville and Barcelona 100% Spanish, Istanbul 100% Ottoman, Algiers 20% held, and
+Veracruz is held by nobody at all. Each port also carries an `economy` and an
+`industry` value between 35 and 810, and a list of the items its shop stocks.
+
+**What the reference does not have.** The market, the palace, the guild and the
+fortune teller are declared in the building table with their menus but are not
+implemented, so there is no trade price formula to compare against this project's
+own. The same is true of naval combat.
 
 ### The graphics layout
 

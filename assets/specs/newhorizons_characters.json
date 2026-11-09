@@ -9,7 +9,7 @@
   "tables": [
     {
       "name": "original_characters",
-      "description": "The names and the abilities of the characters of the original game. The display order of the abilities, taken from the message table, is Leadership, Seamanship, Knowledge, Intuition, Courage, Charm, Skill, Swordplay; the bytes that follow are exported verbatim because their meaning is not confirmed.",
+      "description": "The names, the eight abilities and the rank of the characters of the original game. The storage order of the abilities is Leadership, Seamanship, Knowledge, Intuition, Courage, Swordplay, Charm and Luck; the ages run from 17 to 65 and the ranks from 1 to 60, which is the range the game gives a starting navigator and a veteran. The remaining bytes are exported verbatim because their meaning is not confirmed.",
       "offset": 0,
       "record_size": 42,
       "count": 120,
@@ -30,7 +30,7 @@
           "length": 9
         },
         {
-          "name": "raw_18",
+          "name": "index",
           "type": "u8",
           "offset": 18
         },
@@ -40,52 +40,52 @@
           "offset": 19
         },
         {
-          "name": "ability_1",
+          "name": "leadership",
           "type": "u8",
           "offset": 20
         },
         {
-          "name": "ability_2",
+          "name": "seamanship",
           "type": "u8",
           "offset": 21
         },
         {
-          "name": "ability_3",
+          "name": "knowledge",
           "type": "u8",
           "offset": 22
         },
         {
-          "name": "ability_4",
+          "name": "intuition",
           "type": "u8",
           "offset": 23
         },
         {
-          "name": "ability_5",
+          "name": "courage",
           "type": "u8",
           "offset": 24
         },
         {
-          "name": "ability_6",
+          "name": "swordplay",
           "type": "u8",
           "offset": 25
         },
         {
-          "name": "ability_7",
+          "name": "charm",
           "type": "u8",
           "offset": 26
         },
         {
-          "name": "ability_8",
+          "name": "luck",
           "type": "u8",
           "offset": 27
         },
         {
-          "name": "raw_28",
+          "name": "navigation_level",
           "type": "u8",
           "offset": 28
         },
         {
-          "name": "raw_29",
+          "name": "battle_level",
           "type": "u8",
           "offset": 29
         },
@@ -110,7 +110,7 @@
           "offset": 33
         },
         {
-          "name": "raw_34",
+          "name": "age",
           "type": "u8",
           "offset": 34
         },

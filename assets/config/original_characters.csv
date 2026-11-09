@@ -1,4 +1,4 @@
-first_name,last_name,raw_18,raw_19,ability_1,ability_2,ability_3,ability_4,ability_5,ability_6,ability_7,ability_8,raw_28,raw_29,raw_30,raw_31,raw_32,raw_33,raw_34,raw_35,raw_36,raw_37,raw_38,raw_39,raw_40,raw_41
+first_name,last_name,index,raw_19,leadership,seamanship,knowledge,intuition,courage,swordplay,charm,luck,navigation_level,battle_level,raw_30,raw_31,raw_32,raw_33,age,raw_35,raw_36,raw_37,raw_38,raw_39,raw_40,raw_41
 Joao,Franco,0,0,78,75,73,85,82,82,89,50,1,1,0,0,0,0,18,100,0,255,0,80,1,96
 Catalina,Erantzo,1,0,80,79,65,52,86,92,95,50,8,10,190,0,170,0,18,100,10,255,0,225,4,97
 Otto,Baynes,2,0,92,72,61,43,88,86,82,50,10,12,140,0,210,0,39,100,30,255,0,209,4,99
