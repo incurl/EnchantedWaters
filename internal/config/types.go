@@ -129,6 +129,10 @@ type Port struct {
 	SpecialtyDiscount float64 `csv:"specialty_discount,opt"`
 	// BaseTaxRate is the per-transaction tax rate (0.05 => 5%).
 	BaseTaxRate float64 `csv:"base_tax_rate"`
+	// ShipDiscount is the discount the port grants on the purchase of a
+	// ship (0.95 => 5% off). It defaults to 1.0 when the column is
+	// absent.
+	ShipDiscount float64 `csv:"ship_discount,opt"`
 	// ShipyardLevel / TavernLevel / GovernorLevel / ChurchLevel / InnLevel
 	// are facility levels (0..5) that unlock port interactions.
 	ShipyardLevel int `csv:"shipyard_level"`
@@ -495,4 +499,16 @@ type GlobalParams struct {
 	LoyaltyDecayPerDay float64 `csv:"loyalty_decay_per_day"`
 	// TravelSpeedScale converts knots into map pixels per day.
 	TravelSpeedScale float64 `csv:"travel_speed_scale"`
+	// AICargoFill is the fraction of the hold the AI fills when the
+	// profile does not override it.
+	AICargoFill float64 `csv:"ai_cargo_fill"`
+	// AITradeTaxFactor is the weight of the transaction costs in the
+	// profit evaluation of the AI.
+	AITradeTaxFactor float64 `csv:"ai_trade_tax_factor"`
+	// WindEfficiencyFloor is the share of the hull speed that is kept on
+	// a beam reach.
+	WindEfficiencyFloor float64 `csv:"wind_efficiency_floor"`
+	// WindBlendStart is the angle (in degrees) at which the linear ramp
+	// of the wind efficiency curve starts.
+	WindBlendStart float64 `csv:"wind_blend_start"`
 }

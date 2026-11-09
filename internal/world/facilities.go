@@ -4,12 +4,25 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/peter/enchantedwaters/internal/config"
 	"github.com/peter/enchantedwaters/internal/ecs"
 )
 
 // This file implements the port facilities: the shipyard, the tavern, the
 // governor's mansion, the church and the inn.
+
+// The pricing constants of the port facilities.
+//
+// They are structural constants of the rules, not balance parameters:
+// the balance itself (the prices of the goods, the wages, the upkeep) lives
+// in the configuration tables.
+const (
+	// tavernDiscountPerLevel is the share of the hiring cost that every
+	// tavern level removes.
+	tavernDiscountPerLevel = 0.1
+	// innCostFactor is the share of the starting money that a sailor
+	// costs per night in an inn.
+	innCostFactor = 0.001
+)
 
 // RepairQuote describes the cost of repairing a hull.
 type RepairQuote struct {
@@ -84,7 +97,8 @@ type PurchaseQuote struct {
 
 // QuotePurchase computes the price of a ship at a shipyard.
 //
-// A larger port offers a discount, modelled by a per-class factor.
+// The discount of the port comes from the table: a larger port grants a
+// larger discount. A port without the column grants no discount.
 func (w *World) QuotePurchase(shipID, portID string) PurchaseQuote {
 	q := PurchaseQuote{ShipID: shipID}
 	ship := w.cfg.Ship(shipID)
@@ -92,12 +106,9 @@ func (w *World) QuotePurchase(shipID, portID string) PurchaseQuote {
 	if ship == nil || port == nil {
 		return q
 	}
-	discount := 1.0
-	switch port.Class {
-	case config.PortCity:
-		discount = 0.95
-	case config.PortCapital:
-		discount = 0.9
+	discount := port.ShipDiscount
+	if discount <= 0 {
+		discount = 1
 	}
 	q.Cost = ship.Price * discount
 	q.Affordable = w.treasury >= q.Cost
@@ -157,7 +168,7 @@ func (w *World) RecruitSailor(fleetID ecs.ID, portID string, templateID string) 
 		return 0, fmt.Errorf("the crew is already at full strength")
 	}
 
-	discount := 1 - 0.1*float64(port.TavernLevel)
+	discount := 1 - tavernDiscountPerLevel*float64(port.TavernLevel)
 	cost := tmpl.HiringCost * discount
 	if w.treasury < cost {
 		return 0, fmt.Errorf("not enough gold: %.0f needed", cost)
@@ -274,7 +285,7 @@ func (w *World) RestInInn(fleetID ecs.ID, portID string) (float64, error) {
 	if port.InnLevel <= 0 {
 		return 0, fmt.Errorf("%s has no inn", port.Name)
 	}
-	cost := float64(fleet.Sailors) * w.cfg.Params.StartMoney * 0.001 * float64(port.InnLevel)
+	cost := float64(fleet.Sailors) * w.cfg.Params.StartMoney * innCostFactor * float64(port.InnLevel)
 	if w.treasury < cost {
 		return 0, fmt.Errorf("not enough gold: %.0f needed", cost)
 	}

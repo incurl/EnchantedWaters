@@ -37,22 +37,52 @@ import (
 //
 // theta is the absolute angle between the ship heading and the wind
 // direction, in degrees (0..180).
+//
+// The curve has three parts:
+//
+//	f(θ) = cos(θ)                    for θ ≤ blendStart
+//	f(θ) = blend(cos, linear ramp)    for blendStart < θ ≤ 90
+//	f(θ) = 0                          for θ > 90   (the no-go zone)
+//
+// The blend start and the floor of the linear ramp come from the
+// configuration table, so that the shape of the curve can be tuned
+// without touching the code.
 func windEfficiency(theta float64) float64 {
+	return windEfficiencyWith(theta, windBlendStart, windRampFloor)
+}
+
+// windSpeedEpsilon is the wind speed below which the wind direction is
+// considered undefined.
+const windSpeedEpsilon = 0.001
+
+// windBlendStart is the angle (in degrees) at which the linear ramp of
+// the wind efficiency starts.
+//
+// It is the default; the world overrides it with the value of the
+// configuration table.
+const windBlendStart = 60.0
+
+// windRampFloor is the efficiency at the beam reach, before the linear
+// ramp brings it down to zero.
+const windRampFloor = 0.5
+
+// windEfficiencyWith evaluates the curve with the given parameters.
+func windEfficiencyWith(theta, blendStart, rampFloor float64) float64 {
 	if theta >= 90 {
 		// Inside the no-go zone the ship cannot make headway.
 		return 0
 	}
-	// Smooth transition around the beam reach: the classic cos() curve is
-	// replaced by a blend with a linear ramp in the last 30 degrees before
-	// the no-go zone.
-	const blendStart = 60.0
 	cosPart := math.Cos(theta * math.Pi / 180)
+	if blendStart <= 0 {
+		blendStart = 90
+	}
 	if theta <= blendStart {
 		return cosPart
 	}
-	// Linear ramp from cos(60°)=0.5 down to 0 at 90°.
+	// The linear ramp goes from the floor at the blend start down to zero
+	// at the no-go zone.
 	t := (theta - blendStart) / (90 - blendStart)
-	linear := 0.5 * (1 - t)
+	linear := rampFloor * (1 - t)
 	return cosPart*(1-t) + linear*t
 }
 
@@ -165,6 +195,20 @@ func (w *World) cfgZoneOrder() []string {
 	return w.zoneOrder
 }
 
+// windEfficiency evaluates the sailing efficiency curve with the
+// parameters of the configuration table.
+func (w *World) windEfficiency(theta float64) float64 {
+	blend := w.cfg.Params.WindBlendStart
+	if blend <= 0 {
+		blend = windBlendStart
+	}
+	floor := w.cfg.Params.WindEfficiencyFloor
+	if floor <= 0 {
+		floor = windRampFloor
+	}
+	return windEfficiencyWith(theta, blend, floor)
+}
+
 // weatherComponent returns the active weather component, or nil.
 func (w *World) weatherComponent() *ecsWeatherComponent {
 	if w.weatherEntity == 0 {
@@ -224,14 +268,14 @@ func (w *World) advanceFleet(id ecsID, desiredHeading float64) {
 	// The wind vector is converted into the wind's "angle to the bow".
 	windSpeed := math.Hypot(windX, windY)
 	theta := 0.0
-	if windSpeed > 0.001 {
+	if windSpeed > windSpeedEpsilon {
 		windBearing := math.Atan2(windX, -windY) * 180 / math.Pi
 		theta = math.Abs(normalizeAngle(windBearing - pos.Heading))
 		if theta > 180 {
 			theta = 360 - theta
 		}
 	}
-	eff := windEfficiency(theta)
+	eff := w.windEfficiency(theta)
 	hullSpeed := ship.BaseSpeed * eff * weatherPenalty
 
 	// The hull contributes along the heading, the current adds a vector.

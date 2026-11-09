@@ -42,6 +42,10 @@ import (
 	"github.com/peter/enchantedwaters/internal/ecs"
 )
 
+// fleeHullRatio is the relative condition of the hull below which the AI
+// stops trading and runs for the nearest port.
+const fleeHullRatio = 0.2
+
 // Controller drives the AI fleets of one world.
 //
 // The controller reads the immutable configuration and the current market
@@ -204,8 +208,14 @@ func (c *Controller) Evaluate(view *MarketView, sourcePort string, riskAversion 
 
 			// --- expected profit ---
 			// The round trip pays the tax twice (once on the purchase,
-			// once on the sale).
-			taxRate := view.Tax[sourcePort] + view.Tax[targetPort]
+			// once on the sale). The weight of the transaction costs is
+			// a global parameter, so that the trade skill of the AI can
+			// be tuned globally.
+			taxFactor := c.cfg.Params.AITradeTaxFactor
+			if taxFactor <= 0 {
+				taxFactor = 1
+			}
+			taxRate := (view.Tax[sourcePort] + view.Tax[targetPort]) * taxFactor
 			margin := sellPrice - buyPrice
 			profit := (margin - (buyPrice+sellPrice)*taxRate) * qty
 			if profit <= 0 {
@@ -298,7 +308,7 @@ func (c *Controller) UpdateFleet(view *MarketView, fleet *FleetState, ai *ecs.AI
 	//
 	// A ratio of zero means "unknown", which happens when the snapshot
 	// could not be built; in that case the AI does not flee.
-	if fleet.HullRatio > 0 && fleet.HullRatio < 0.2 {
+	if fleet.HullRatio > 0 && fleet.HullRatio < fleeHullRatio {
 		ai.State = "flee"
 		ai.TargetPortID = c.nearestPort(fleet.Position.X, fleet.Position.Y)
 		ai.LastDecision = "hull too damaged: flee to " + ai.TargetPortID

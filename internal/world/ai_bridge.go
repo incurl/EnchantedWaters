@@ -181,7 +181,10 @@ func (w *World) tradeAIFleets() {
 		// The AI fills a fraction of the hold, as configured by its
 		// profile.
 		profile := w.cfg.AIProfiles[aiComp.ProfileID]
-		fill := 0.8
+		fill := w.cfg.Params.AICargoFill
+		if fill <= 0 {
+			fill = 1
+		}
 		if profile != nil {
 			fill = profile.CargoAggressiveness
 		}

@@ -227,6 +227,10 @@ func (w *World) spawnAIFleet(profile *config.AIProfile, index int, homePortID st
 	return fleetID
 }
 
+// largeCargoAggressiveness is the cargo aggressiveness above which an AI
+// fleet is given a larger hull.
+const largeCargoAggressiveness = 0.8
+
 // firstShipID returns the ID of the smallest ship class, which the player
 // starts with.
 func (w *World) firstShipID() string {
@@ -255,7 +259,7 @@ func (w *World) aiShipID(profile *config.AIProfile) string {
 		return ""
 	}
 	idx := len(w.cfg.ShipOrder) / 2
-	if profile.CargoAggressiveness > 0.8 && idx+1 < len(w.cfg.ShipOrder) {
+	if profile.CargoAggressiveness > largeCargoAggressiveness && idx+1 < len(w.cfg.ShipOrder) {
 		idx++
 	}
 	return w.cfg.ShipOrder[idx]

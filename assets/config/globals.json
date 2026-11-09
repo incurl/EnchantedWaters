@@ -24,5 +24,9 @@
   "fame_propagation_factor": 0.02,
   "loyalty_bonus_per_fame_point": 0.05,
   "loyalty_decay_per_day": 0.3,
-  "travel_speed_scale": 12.0
+  "travel_speed_scale": 12.0,
+  "ai_cargo_fill": 0.8,
+  "ai_trade_tax_factor": 1.0,
+  "wind_efficiency_floor": 0.5,
+  "wind_blend_start": 60.0
 }
