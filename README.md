@@ -411,6 +411,63 @@ and the importer writes an indexed PNG with the eight colour palette. See
 `TestPlanarDecodeMatchesTheReference`, which builds a sprite in the documented layout
 and checks that every pixel and the palette survive the round trip.
 
+### The LS10 and LS11 container
+
+The `.LZW` files are not compressed with LZW. The name is a misnomer: there is no
+dictionary of phrases and no sliding window. The payload is a single stream of
+variable length codes, each of which selects one byte out of a 256 entry
+substitution table, and the length of a code is its own value in a self
+describing way.
+
+A code is a run of bits, the bit that ends the run, and then the factor:
+
+```text
+k      = the number of bits in the run
+factor = k bits, most significant first
+symbol = 2^k + factor - 2
+```
+
+which is the Elias gamma code of the symbol with the two lowest values removed.
+A symbol of zero is therefore the two bits `0 0` and a symbol of one is `0 1`.
+
+The layout of a file is
+
+```text
+0..4      the magic, "LS10" or "LS11"
+4..16     twelve zero bytes
+16..272   a 256 byte substitution table, a permutation of 0..255
+272..     the block table
+```
+
+The block table is a list of twelve byte records of three big endian 32 bit
+numbers — the compressed size, the uncompressed size and the offset of the
+block — and it ends with four zero bytes. The blocks tile the payload exactly:
+the offset of a block is the offset of its predecessor plus the compressed size
+of that predecessor.
+
+Two details make a decoder fail on everything but the smallest blocks:
+
+* **the payload is one continuous bitstream.** The blocks divide it into pieces
+  of the uncompressed size, but the pieces are not aligned to byte boundaries,
+  so a decoder that restarts the bit reader at every block loses its place.
+* **the framing differs between the generations.** The second game counts the
+  ones of the run and ends it with a zero; the scenario data counts the zeros
+  and ends it with a one. The decoder tries both and keeps the one that
+  reproduces the payload.
+
+The proof that the framing is right is that **re-encoding the symbols of a
+payload reproduces the payload byte for byte**. `TestLSRoundTripIsByteExact`
+checks that property for all fourteen files of the release, and it is the
+property that distinguishes a correct decoder from a self consistent one.
+
+What is still missing is the expansion layer. The payload holds fewer symbols
+than the blocks ask for — 274,581 symbols for the 368,448 bytes of `KAO.LZW`,
+for instance — so a symbol stands for a phrase rather than for a byte, and the
+rule that builds the phrases has not been recovered. The ratio is a good
+clue: `PORTMAP.LZW` expands by 9.7 bytes per symbol, because a port map repeats
+itself heavily, and `KAO.LZW` by 1.3. The `KAO.LZW` file also carries 173,376
+bytes of *uncompressed* planar data behind its last block.
+
 ### What the importer does not read (yet)
 
 Some of the asset files could not be converted, because their container or their
@@ -418,8 +475,8 @@ encoding is not confirmed. They are listed here so that the gap is visible:
 
 | Files | Content | Why it is not converted |
 |---|---|---|
-| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the `LS10` / `LS11` container has a sixteen byte header of zeros. The planar layout and the palette are known (see above), but the payload is compressed and neither the codec nor the geometry is recorded in the header; LZW in every bit order and width, LZSS in every flag polarity and field split, RLE and byte oriented LZ77 were all tried against it without a plausible output |
-| `GRAPH.DAT`, `GRAPH2.DAT` | the tiles and icons | the offset table is decoded (a big-endian table of 65 blocks), but the blocks themselves use the same unknown codec |
+| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the container and the code are decoded (see above), but the expansion layer — the rule that turns a symbol into a phrase — is not, so the pixel data cannot be reconstructed yet |
+| `GRAPH.DAT`, `GRAPH2.DAT` | the tiles and icons | the offset table is decoded (a big-endian table of 65 blocks), but the blocks themselves use the same unknown expansion |
 | `EVENT*.DAT`, `ENDGRP.DAT`, `END_PUT.DAT` | the event and ending graphics | offset tables followed by planar graphics of an unknown geometry |
 | `WINDCUR.DAT`, `ZA_DAT.DAT` | the wind and current table, an unknown table | the bytes are obfuscated and the key is not recoverable from the data alone |
 | `TRANSIT.DAT`, `MONSTER.DAT` | an animation and a small table | the records are not understood, and guessing their meaning would be worse than leaving them out |
