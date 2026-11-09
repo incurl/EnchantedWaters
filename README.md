@@ -273,6 +273,24 @@ becomes land when it lies close to a port, and the mask is then dilated and erod
 so that the outline follows the clusters of ports. It is a schematic world, not a
 cartographic one.
 
+### What the importer does not read (yet)
+
+Some of the asset files could not be converted, because their container or their
+encoding is not confirmed. They are listed here so that the gap is visible:
+
+| Files | Content | Why it is not converted |
+|---|---|---|
+| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the `LS10` / `LS11` container has a sixteen byte header of zeros, and neither the codec nor the geometry (the plane count and the tile size) is recorded in it |
+| `GRAPH.DAT`, `GRAPH2.DAT` | the tiles and icons | the offset table is decoded (a big-endian table of 65 blocks), but the blocks themselves use the same unknown codec |
+| `EVENT*.DAT`, `ENDGRP.DAT`, `END_PUT.DAT` | the event and ending graphics | offset tables followed by planar graphics of an unknown geometry |
+| `WINDCUR.DAT`, `ZA_DAT.DAT` | the wind and current table, an unknown table | the bytes are obfuscated and the key is not recoverable from the data alone |
+| `TRANSIT.DAT`, `MONSTER.DAT` | an animation and a small table | the records are not understood, and guessing their meaning would be worse than leaving them out |
+| `SNR*.DAT` | the sound effects and the music | the `SNDT` container is a sound bank, which the project does not use |
+
+Adding any of them means writing a specification for the container (for the offset
+tables) and a decoder for the codec; the importer is built to take both without a
+change to its code.
+
 ### Legal note
 
 The importer is for personal reference conversion only. No original copyrighted asset
