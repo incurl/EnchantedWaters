@@ -1,0 +1,49 @@
+{
+  "name": "newhorizons.story_npcs",
+  "description": "The story characters of the original game: the cartographers, the professors and the nobles.",
+  "source": {
+    "path": "KOUKAI2.DAT",
+    "offset": 6745,
+    "length": 504
+  },
+  "tables": [
+    {
+      "name": "original_story_npcs",
+      "description": "The names of the story characters of the original game.",
+      "offset": 0,
+      "record_size": 24,
+      "count": 21,
+      "id_field": "id",
+      "string_trim": true,
+      "string_decode": "ascii",
+      "fields": [
+        {
+          "name": "name",
+          "type": "str",
+          "offset": 0,
+          "length": 20
+        },
+        {
+          "name": "raw_20",
+          "type": "u8",
+          "offset": 20
+        },
+        {
+          "name": "raw_21",
+          "type": "u8",
+          "offset": 21
+        },
+        {
+          "name": "raw_22",
+          "type": "u8",
+          "offset": 22
+        },
+        {
+          "name": "raw_23",
+          "type": "u8",
+          "offset": 23
+        }
+      ]
+    }
+  ]
+}

@@ -66,6 +66,8 @@ type UI struct {
 	text *Text
 	// canvas is the drawing surface of the interface.
 	canvas *render.Canvas
+	// zoom is the number of map pixels that one screen pixel covers.
+	zoom float64
 }
 
 // New creates the user interface of a game session.
@@ -86,9 +88,22 @@ func New(w *world.World) *UI {
 		popups:       NewPopupStack(),
 		followCamera: true,
 		messageTicks: 180,
+		zoom:         1,
 	}
 	u.logLines = w.LogEntries()
 	return u
+}
+
+// ShowWorld centres the map on the whole world.
+//
+// It is used at start-up by the development screenshots and by the tests.
+func (u *UI) ShowWorld() {
+	w, h := u.mapRenderer.Size()
+	fit := math.Max(float64(w)/LogicalWidth, float64(h)/LogicalHeight)
+	u.setZoom(fit)
+	u.followCamera = false
+	u.camX, u.camY = 0, 0
+	u.clampCamera()
 }
 
 // Canvas returns the drawing surface of the interface.
@@ -230,16 +245,16 @@ func (u *UI) updateCamera() {
 	if pos == nil {
 		return
 	}
-	u.camX = pos.X - LogicalWidth/2
-	u.camY = pos.Y - LogicalHeight/2
+	u.camX = pos.X - LogicalWidth/2*u.zoom
+	u.camY = pos.Y - LogicalHeight/2*u.zoom
 	u.clampCamera()
 }
 
 // clampCamera keeps the camera inside the map bounds.
 func (u *UI) clampCamera() {
 	w, h := u.mapRenderer.Size()
-	maxX := float64(w - LogicalWidth)
-	maxY := float64(h - LogicalHeight)
+	maxX := float64(w) - LogicalWidth*u.zoom
+	maxY := float64(h) - LogicalHeight*u.zoom
 	if maxX < 0 {
 		maxX = 0
 	}
@@ -283,15 +298,20 @@ func (u *UI) Draw(screen *ebiten.Image) {
 
 // drawMap renders the world map and the fleet markers.
 func (u *UI) drawMap(canvas *render.Canvas) {
+	// The sea is painted first, so that the part of the screen that lies
+	// outside the map is sea and not a blank band when the map is zoomed
+	// out.
+	canvas.Clear(render.ColorSeaDeep)
+
 	data := u.buildMapData()
 	weatherKey := u.weatherKey()
 	u.mapRenderer.Render(data, u.world.Day(), weatherKey)
-	u.mapRenderer.Draw(canvas, u.camX, u.camY, LogicalWidth, LogicalHeight)
+	u.mapRenderer.Draw(canvas, u.camX, u.camY, u.zoom, LogicalWidth, LogicalHeight)
 
 	// The fleet markers are drawn on top of the map.
 	for _, f := range data.Fleets {
-		x := f.X - u.camX
-		y := f.Y - u.camY
+		x := (f.X - u.camX) / u.zoom
+		y := (f.Y - u.camY) / u.zoom
 		if x < -8 || y < -8 || x > LogicalWidth+8 || y > LogicalHeight+8 {
 			continue
 		}
@@ -311,7 +331,8 @@ func (u *UI) drawMap(canvas *render.Canvas) {
 
 // buildMapData collects the render data of the world.
 func (u *UI) buildMapData() *render.MapData {
-	data := &render.MapData{}
+	// The land and sea mask of the world, when it has been derived.
+	data := &render.MapData{Terrain: u.cfg.Terrain}
 	for _, id := range u.cfg.PortOrder {
 		p := u.cfg.Port(id)
 		if p == nil {

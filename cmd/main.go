@@ -44,6 +44,11 @@ func main() {
 			fmt.Fprintf(os.Stderr, "error: %v\n", err)
 			os.Exit(1)
 		}
+	case "derive":
+		if err := runDerive(args); err != nil {
+			fmt.Fprintf(os.Stderr, "error: %v\n", err)
+			os.Exit(1)
+		}
 	case "validate":
 		if err := runValidate(args); err != nil {
 			fmt.Fprintf(os.Stderr, "error: %v\n", err)
@@ -95,6 +100,7 @@ func printUsage() {
 Usage:
   game run [--config=DIR] [--port=PORT_ID]   start the playable game
   game import --raw=PATH [--out=DIR]          convert original asset files
+  game derive [--config=DIR]                 regenerate the playable tables
   game validate [--config=DIR]                check the configuration tables
   game version                               print the version information
 
@@ -113,7 +119,7 @@ func runGame(args []string) error {
 	}
 	startPort := flags["port"]
 	if startPort == "" {
-		startPort = "ports.nagoya"
+		startPort = "ports.lisbon"
 	}
 
 	log := newLogger()
@@ -150,6 +156,11 @@ func runGame(args []string) error {
 		game.SetScreenshot(shot)
 	}
 
+	// --- the world overview ---
+	if flags["world"] != "" {
+		game.UI().ShowWorld()
+	}
+
 	// --- open a screen at the start ---
 	// The flag is used by the development screenshots.
 	if screen := flags["open"]; screen != "" {
@@ -163,6 +174,26 @@ func runGame(args []string) error {
 	ebitenSetWindowProperties()
 
 	return runEbiten(game)
+}
+
+// runDerive regenerates the playable tables from the imported reference
+// data of the original game.
+//
+// It is a development tool: the layout of the world comes from the
+// original game, the rules are the balance of this project.
+func runDerive(args []string) error {
+	flags := parseFlags(args)
+	configDir := flags["config"]
+	if configDir == "" {
+		configDir = defaultConfigDir()
+	}
+	summary, err := etl.DeriveAll(configDir)
+	if err != nil {
+		return err
+	}
+	fmt.Println(summary)
+	fmt.Println("review the generated tables before committing them.")
+	return nil
 }
 
 // runValidate checks the configuration tables and reports the problems.

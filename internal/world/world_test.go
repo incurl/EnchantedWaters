@@ -27,7 +27,7 @@ func newTestWorld(t *testing.T) *World {
 	t.Helper()
 	reg := testRegistry(t)
 	w := NewWorld(reg, 12345)
-	if err := w.StartSession("ports.nagoya"); err != nil {
+	if err := w.StartSession("ports.lisbon"); err != nil {
 		t.Fatalf("start session: %v", err)
 	}
 	return w
@@ -58,8 +58,8 @@ func TestSessionStarts(t *testing.T) {
 	if !fleet.IsPlayer {
 		t.Error("player fleet is not flagged as the player's")
 	}
-	if fleet.InPort != "ports.nagoya" {
-		t.Errorf("player fleet in port %q, want ports.nagoya", fleet.InPort)
+	if fleet.InPort != "ports.lisbon" {
+		t.Errorf("player fleet in port %q, want ports.lisbon", fleet.InPort)
 	}
 
 	// The AI profiles must have produced AI fleets.
@@ -150,9 +150,9 @@ func TestTradingMovesGoodsAndMoney(t *testing.T) {
 	// Give the player some money to be able to buy.
 	w.SetTreasury(100000)
 	beforeMoney := w.Treasury()
-	beforeStock := w.Stock("grain", "ports.nagoya")
+	beforeStock := w.Stock("grain", "ports.lisbon")
 
-	quote, err := w.ExecuteBuy(fleetID, "grain", "ports.nagoya", 5)
+	quote, err := w.ExecuteBuy(fleetID, "grain", "ports.lisbon", 5)
 	if err != nil {
 		t.Fatalf("buy: %v", err)
 	}
@@ -163,7 +163,7 @@ func TestTradingMovesGoodsAndMoney(t *testing.T) {
 	if afterMoney >= beforeMoney {
 		t.Errorf("money did not decrease: %.2f -> %.2f", beforeMoney, afterMoney)
 	}
-	afterStock := w.Stock("grain", "ports.nagoya")
+	afterStock := w.Stock("grain", "ports.lisbon")
 	if afterStock >= beforeStock {
 		t.Errorf("stock did not decrease: %.2f -> %.2f", beforeStock, afterStock)
 	}
@@ -177,7 +177,7 @@ func TestTradingMovesGoodsAndMoney(t *testing.T) {
 	}
 
 	// Selling must give the money back (minus the tax).
-	sellQuote, err := w.ExecuteSell(fleetID, "grain", "ports.nagoya", quote.Quantity)
+	sellQuote, err := w.ExecuteSell(fleetID, "grain", "ports.lisbon", quote.Quantity)
 	if err != nil {
 		t.Fatalf("sell: %v", err)
 	}
@@ -198,8 +198,8 @@ func TestCargoCapacityIsEnforced(t *testing.T) {
 
 	// Ask for an absurd amount: the purchase must be limited by the
 	// capacity of the hold, not rejected outright.
-	stockBefore := w.Stock("iron", "ports.nagoya")
-	quote, err := w.ExecuteBuy(fleetID, "iron", "ports.nagoya", 1e9)
+	stockBefore := w.Stock("iron", "ports.lisbon")
+	quote, err := w.ExecuteBuy(fleetID, "iron", "ports.lisbon", 1e9)
 	if err != nil {
 		t.Fatalf("the purchase should be limited, not rejected: %v", err)
 	}

@@ -14,7 +14,8 @@ in Go with [Ebitengine](https://ebitengine.org), targeting modern Linux (X11 / W
 
 | System | State |
 |---|---|
-| Scrollable world map with land/sea collision | done |
+| Scrollable, zoomable world map with a derived land/sea mask | done |
+| The 130 ports of the original world map, at their original positions | done |
 | Business cycle, seasonality, scarcity and stochastic price noise | done |
 | Regional price gaps and local specialties | done |
 | Sailing physics (wind angle efficiency, currents, weather penalty) | done |
@@ -56,6 +57,7 @@ CGO_ENABLED=0 go build -tags debugui -o game-debug ./cmd/
 ./game run                                # start the game
 ./game run --config=./assets/config        # with an explicit table directory
 ./game run --port=ports.edo                # start at another port
+./game derive                             # regenerate the playable tables
 ./game validate                           # check the configuration tables
 ./game import --raw=./assets/raw --out=./assets/config
 ```
@@ -65,6 +67,8 @@ CGO_ENABLED=0 go build -tags debugui -o game-debug ./cmd/
 | Key | Action |
 |---|---|
 | Arrow keys | pan the map |
+| `+` / `-` | zoom out / in |
+| `M` | the whole world on one screen |
 | `P` | open the port screen (when docked) |
 | `Space` | centre the camera on the fleet |
 | `C` | toggle the camera follow mode |
@@ -210,11 +214,73 @@ original game. Text is decoded from CP932 (Shift-JIS) with `golang.org/x/text`.
 **The importer always writes a detailed audit log** (one line per parsed record) so
 that a human can check the converted values before committing them.
 
+### What the importer reads
+
+The four layouts the original game uses for its text and its tables are all
+supported, and each one is described by a specification rather than by code:
+
+| Kind | Layout | Used by |
+|---|---|---|
+| `offset_table` | a table of big-endian offsets, then NUL terminated strings | `MESSAGE.DAT`, `MESSAGE2.DAT`, `MENU.DAT`, `SNR*.MES` |
+| `nul_list` | a list of NUL separated strings | `NAME.TBL` |
+| `fixed_text` | fixed size records of NUL padded text | `ITEM.MES`, `COLONY.DAT` |
+| `menu_tree` | a two byte header (column width, item count) then the labels | `MENU.DAT` |
+| *(default)* | fixed size records of mixed text and numeric fields | `KOUKAI2.DAT` |
+
+### What has been imported
+
+Running `./game import --raw=assets/raw --out=assets/config` against the extracted
+English release (*New Horizons*) converts:
+
+| Table | Records | Content |
+|---|---|---|
+| `original_messages` | 1000 | the interface wording of every shop and screen |
+| `original_messages2` | 423 | the second page of the interface wording |
+| `original_menu` | 270 | the whole menu tree, including the twelve facilities of a port |
+| `original_dialogue_0..6` | 4511 | the dialogue of the seven scenarios |
+| `original_names` | 192 | the name pool the game draws character names from |
+| `original_item_descriptions` | 172 | one description per item |
+| `original_colonies` | 100 | the colonies and wonders of the world map |
+| `original_ports` | 130 | every port with its position on the original map |
+| `original_characters` | 120 | the six protagonists and their companions, with abilities |
+| `original_story_npcs` | 21 | the cartographers, professors and nobles |
+
+The runtime loads these as **optional reference data**. The wording service of the
+interface resolves its sentences through the original text and falls back to the
+wording of this project when a line is absent, and the port menu is built from the
+twelve facilities of the original game. A data set without the imported tables stays
+perfectly valid.
+
+### Deriving the playable world
+
+`./game derive` turns the imported reference data into the playable tables:
+
+```sh
+./game derive --config=assets/config
+# derived 130 ports, 2730 port prices, 16 sea zones and 1578 land cells
+```
+
+**What is taken from the original:** the name and the position of every port.
+
+**What this project decides:** the class of a port (and with it its tax and its
+facilities), the goods a region produces, the supply and demand of every good at
+every port, and the wind and the currents of each sea zone. Every rule is written
+down next to the code that applies it, and the derivation is deterministic, so the
+result can be regenerated and reviewed at any time.
+
+The land and sea mask (`world_terrain.csv`) is derived from the ports alone: a cell
+becomes land when it lies close to a port, and the mask is then dilated and eroded
+so that the outline follows the clusters of ports. It is a schematic world, not a
+cartographic one.
+
 ### Legal note
 
 The importer is for personal reference conversion only. No original copyrighted asset
 is included in this repository, in the release binary, or in the runtime of the game.
 `assets/raw/` is gitignored and is meant to hold the files you supply yourself.
+The imported tables hold **names and text** from the original game so that the
+reimplementation can be compared with it; the rules, the balance and the code are
+this project's own.
 
 ---
 

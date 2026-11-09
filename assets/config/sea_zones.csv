@@ -1,15 +1,17 @@
 id,name,name_jp,center_x,center_y,radius,wind_base_speed,wind_base_dir_deg,current_base_speed,current_base_dir_deg,storm_probability,pirate_probability,latitude
-zone.north_sea,North Sea,北海,-20,180,320,14,200,1.6,25,0.06,0.03,56
-zone.north_atlantic,North Atlantic,北大西洋,-40,300,300,16,230,2.2,40,0.09,0.05,48
-zone.west_africa,West Africa,西非,70,540,260,11,90,1.4,80,0.04,0.06,15
-zone.mediterranean,Mediterranean,地中海,30,300,240,9,40,0.9,60,0.02,0.04,36
-zone.atlantic,Atlantic,大西洋,10,400,320,15,250,2.6,50,0.08,0.07,30
-zone.caribbean,Caribbean,加加比海,120,500,260,12,70,1.8,75,0.05,0.12,16
-zone.brazil,Brazil,巴西,230,640,280,10,20,1.2,10,0.04,0.05,-10
-zone.south_sea,South Sea,南海,400,600,300,8,350,1.6,340,0.06,0.14,-8
-zone.indian,Indian Ocean,印度洋,200,570,300,11,100,1.5,95,0.05,0.08,-5
-zone.arabian,Arabian Sea,阿拉伯海,120,480,280,9,110,1.1,100,0.03,0.09,12
-zone.east_china,East China Sea,华东海,340,320,260,12,60,1.7,55,0.07,0.1,27
-zone.japan_sea,Japan Sea,日本海,350,200,240,13,30,1.3,35,0.08,0.04,40
-zone.kuroshio,Kuroshio,黒流,420,300,260,14,55,2.4,50,0.09,0.06,30
-zone.north_pacific,North Pacific,北太平洋,430,120,300,15,260,2.3,30,0.1,0.03,42
+zone.japan,Japan,,1025,365,99,15,270,2,90,0.09,0.06,34
+zone.china,China,,880,430,135,12,90,1.8,270,0.05,0.1,25
+zone.south_east_asia,South East Asia,,840,650,161,12,90,1.8,270,0.05,0.1,-5
+zone.india,India,,630,530,114,12,90,1.8,270,0.05,0.1,11
+zone.arabia,Arabia,,480,480,113,12,90,1.8,270,0.05,0.1,18
+zone.east_africa,East Africa,,385,750,189,12,90,1.8,270,0.05,0.1,-19
+zone.west_africa,West Africa,,160,560,200,12,90,1.8,270,0.05,0.1,7
+zone.northern_europe,Northern Europe,,230,190,128,15,270,2,90,0.09,0.06,58
+zone.atlantic,Atlantic Europe,,110,295,126,15,270,2,90,0.09,0.06,44
+zone.mediterranean,Mediterranean,,308,365,152,15,270,2,90,0.09,0.06,34
+zone.caribbean,Caribbean,,1875,570,197,12,90,1.8,270,0.05,0.1,6
+zone.south_america,South America,,1905,810,296,12,90,1.8,270,0.05,0.1,-27
+zone.north_america,North America,,1650,290,398,15,270,2,90,0.09,0.06,44
+zone.arctic,Arctic,,775,90,478,17,240,1.4,60,0.11,0.02,72
+zone.oceania,Australia and Oceania,,1250,780,308,12,90,1.8,270,0.05,0.1,-23
+zone.pacific,Pacific,,1350,450,381,12,90,1.8,270,0.05,0.1,22

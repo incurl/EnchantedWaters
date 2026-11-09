@@ -30,7 +30,7 @@ func TestManyAIFleets(t *testing.T) {
 	reg.Finalize()
 
 	w := NewWorld(reg, 99)
-	if err := w.StartSession("ports.nagoya"); err != nil {
+	if err := w.StartSession("ports.lisbon"); err != nil {
 		t.Fatalf("start session: %v", err)
 	}
 

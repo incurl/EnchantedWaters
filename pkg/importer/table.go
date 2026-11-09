@@ -103,7 +103,7 @@ func ConvertTable(r *Reader, spec *Spec, table TableSpec, log Logger) (*Table, e
 		}
 		cells := make([]string, 0, len(columns))
 		for _, f := range table.Fields {
-			value, err := convertField(buf, f)
+			value, err := convertField(buf, f, table)
 			if err != nil {
 				out.Problems = append(out.Problems, fmt.Sprintf(
 					"table %s: record %d field %q: %v", table.Name, i, f.Name, err))
@@ -123,7 +123,11 @@ func ConvertTable(r *Reader, spec *Spec, table TableSpec, log Logger) (*Table, e
 }
 
 // convertField converts one field of a record into its textual form.
-func convertField(data []byte, f FieldSpec) (string, error) {
+//
+// The table is passed so that the field inherits its trimming and decoding
+// settings: a specification then describes the code page and the padding
+// once, instead of repeating them on every field.
+func convertField(data []byte, f FieldSpec, table TableSpec) (string, error) {
 	switch f.Type {
 	case "u8", "i8", "u16", "i16", "u32", "i32", "f32":
 		v, err := readValue(data, f)
@@ -147,8 +151,12 @@ func convertField(data []byte, f FieldSpec) (string, error) {
 			return "", fmt.Errorf("string of %d bytes at %d is outside of the record", length, f.Offset)
 		}
 		raw := data[f.Offset : f.Offset+length]
-		s := decodeBytes(raw, f.Decode)
-		if f.Trim {
+		encoding := f.Decode
+		if encoding == "" {
+			encoding = table.StringDecode
+		}
+		s := decodeBytes(raw, encoding)
+		if f.Trim || table.StringTrim {
 			s = trimString(s)
 		}
 		return s, nil

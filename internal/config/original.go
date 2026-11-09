@@ -47,3 +47,40 @@ type OriginalItemDescription struct {
 	// Description is the description of the item.
 	Description string `csv:"description,opt"`
 }
+
+// WorldTerrain is the land and sea mask of the world map.
+//
+// The mask is coarse: every row is a line of cells, and a cell is a block
+// of TerrainCellSize pixels of the map. A '#' is land and a '.' is sea.
+//
+// The mask is derived from the positions of the ports, so the continents
+// follow the port clusters of the original world map.
+type WorldTerrain struct {
+	// Rows holds one line of the mask per row.
+	Rows []string
+	// CellSize is the size of one cell in map pixels.
+	CellSize int
+}
+
+// At returns the terrain character of a map position.
+//
+// The result is '#' for land, '.' for the sea, and it is empty outside of
+// the map.
+func (t *WorldTerrain) At(x, y int) byte {
+	if t == nil || t.CellSize <= 0 || len(t.Rows) == 0 {
+		return 0
+	}
+	cx := x / t.CellSize
+	cy := y / t.CellSize
+	if cy < 0 || cy >= len(t.Rows) {
+		return 0
+	}
+	row := t.Rows[cy]
+	if cx < 0 || cx >= len(row) {
+		return 0
+	}
+	return row[cx]
+}
+
+// IsLand reports whether a map position is on land.
+func (t *WorldTerrain) IsLand(x, y int) bool { return t.At(x, y) == '#' }

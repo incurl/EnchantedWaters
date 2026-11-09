@@ -54,6 +54,11 @@ func loadOriginalTables(dir string, reg *config.Registry, log logr.Logger) error
 	}
 	log.Info("loaded the original menu tree", "count", len(menuItems))
 
+	// --- the terrain mask ---
+	if err := loadTerrain(filepath.Join(dir, "world_terrain.csv"), reg, log); err != nil {
+		return err
+	}
+
 	// --- the colonies ---
 	colonies, err := LoadCSVTable[config.OriginalColony](filepath.Join(dir, "original_colonies.csv"))
 	if err != nil {
@@ -92,5 +97,40 @@ func loadOriginalText(path string, dst map[int]*config.OriginalText, log logr.Lo
 		dst[rows[i].ID] = &rows[i]
 	}
 	log.Info("loaded the original data", "table", what, "count", len(rows))
+	return nil
+}
+
+// terrainCellSize is the size of one cell of the terrain mask in map
+// pixels. It matches the derivation of the mask.
+const terrainCellSize = 20
+
+// loadTerrain loads the land and sea mask of the world map.
+//
+// The mask is optional: when it is absent the renderer draws the land as
+// a disc around every port, which is the fallback that has always worked.
+func loadTerrain(path string, reg *config.Registry, log logr.Logger) error {
+	rows, err := LoadCSVTable[struct {
+		Row     int    `csv:"row"`
+		Terrain string `csv:"terrain,opt"`
+	}](path)
+	if err != nil {
+		if os.IsNotExist(err) {
+			log.V(1).Info("the terrain mask is not present")
+			return nil
+		}
+		return err
+	}
+	if len(rows) == 0 {
+		return nil
+	}
+	terrain := &config.WorldTerrain{CellSize: terrainCellSize, Rows: make([]string, len(rows))}
+	for _, r := range rows {
+		if r.Row < 0 || r.Row >= len(rows) {
+			continue
+		}
+		terrain.Rows[r.Row] = r.Terrain
+	}
+	reg.Terrain = terrain
+	log.Info("loaded the terrain mask", "rows", len(terrain.Rows), "cell pixels", terrain.CellSize)
 	return nil
 }

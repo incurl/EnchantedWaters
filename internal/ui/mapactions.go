@@ -1,6 +1,8 @@
 package ui
 
 import (
+	"math"
+
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 
@@ -33,6 +35,26 @@ func (u *UI) handleActionKeys() {
 		u.followCamera = true
 		u.updateCamera()
 	}
+	// The zoom: minus and plus, and M for the whole world.
+	if inpututil.IsKeyJustPressed(ebiten.KeyMinus) {
+		u.setZoom(u.zoom * 2)
+	}
+	if inpututil.IsKeyJustPressed(ebiten.KeyEqual) {
+		u.setZoom(u.zoom / 2)
+	}
+	if inpututil.IsKeyJustPressed(ebiten.KeyM) {
+		// The whole world on one screen.
+		w, h := u.mapRenderer.Size()
+		fit := math.Max(float64(w)/LogicalWidth, float64(h)/LogicalHeight)
+		if u.zoom > fit*1.05 {
+			u.setZoom(fit)
+			u.followCamera = false
+			u.camX, u.camY = 0, 0
+		} else {
+			u.setZoom(1)
+			u.followCamera = true
+		}
+	}
 	if inpututil.IsKeyJustPressed(ebiten.KeyF1) {
 		u.popups.Push(NewSystemPopup(u))
 	}
@@ -57,7 +79,7 @@ func (u *UI) openPortScreen() bool {
 // The hints are shown in the corner of the screen, so that the player
 // always knows which keys are available.
 func (u *UI) drawMapHints(canvas *render.Canvas) {
-	hint := "arrows: pan  P: port  L: log  1-4: speed"
+	hint := "arrows: pan  +/-: zoom  M: world  P: port  L: log"
 	render.DrawText(canvas, hint, 8, LogicalHeight-66, render.ColorTextDim)
 }
 
@@ -100,3 +122,23 @@ func sqrt(v float64) float64 {
 
 // factionPlayer is the faction ID of the player.
 const factionPlayer = world.FactionPlayer
+
+// setZoom sets the zoom of the map and keeps it in range.
+//
+// A zoom of one shows the map at its own resolution; a larger value shows
+// less of it, a smaller value shows more.
+func (u *UI) setZoom(z float64) {
+	if z < 0.05 {
+		z = 0.05
+	}
+	if z > 4 {
+		z = 4
+	}
+	// The camera stays on the same map point when the zoom changes.
+	cx := u.camX + LogicalWidth/2*u.zoom
+	cy := u.camY + LogicalHeight/2*u.zoom
+	u.zoom = z
+	u.camX = cx - LogicalWidth/2*z
+	u.camY = cy - LogicalHeight/2*z
+	u.clampCamera()
+}

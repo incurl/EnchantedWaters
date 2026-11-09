@@ -1,0 +1,44 @@
+{
+  "name": "newhorizons.ports",
+  "description": "The ports of the original world map, with their coordinates.",
+  "source": {
+    "path": "KOUKAI2.DAT",
+    "offset": 20439,
+    "length": 2600
+  },
+  "tables": [
+    {
+      "name": "original_ports",
+      "description": "The name and the map position of every port of the original game.",
+      "offset": 0,
+      "record_size": 20,
+      "count": 130,
+      "id_field": "id",
+      "string_trim": true,
+      "string_decode": "ascii",
+      "fields": [
+        {
+          "name": "map_x",
+          "type": "u16",
+          "offset": 0
+        },
+        {
+          "name": "map_y",
+          "type": "u16",
+          "offset": 2
+        },
+        {
+          "name": "name",
+          "type": "str",
+          "offset": 4,
+          "length": 15
+        },
+        {
+          "name": "raw_19",
+          "type": "u8",
+          "offset": 19
+        }
+      ]
+    }
+  ]
+}

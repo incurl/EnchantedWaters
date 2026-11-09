@@ -4,6 +4,8 @@ import (
 	"image"
 	"image/color"
 	"math"
+
+	"github.com/peter/enchantedwaters/internal/config"
 )
 
 // WorldMap draws the scrollable world map.
@@ -67,6 +69,9 @@ type MapData struct {
 	SeaZones []ZoneMarker
 	// Fleets holds the position of every fleet.
 	Fleets []FleetMarker
+	// Terrain is the land and sea mask of the map. When it is empty the
+	// land is drawn as a disc around every port instead.
+	Terrain *config.WorldTerrain
 	// WeatherTint is the alpha of the weather overlay.
 	WeatherTint float64
 	// NightTint is the alpha of the night overlay.
@@ -161,49 +166,105 @@ func (m *WorldMap) drawZones(data *MapData) {
 // approximation of the original coastline, derived from the port data
 // alone.
 func (m *WorldMap) drawLand(data *MapData) {
-	// The radius of a land mass scales with the number of nearby ports, so
-	// that dense regions form continents and isolated ports form islands.
+	// The land and sea mask is used when it is available: it is the shape
+	// of the world as it was derived from the ports, and it gives the
+	// continents a real outline instead of a chain of discs.
+	if data.Terrain != nil && len(data.Terrain.Rows) > 0 && data.Terrain.CellSize > 0 {
+		m.drawTerrainMask(data.Terrain)
+		return
+	}
+	// The fallback: the land is drawn as a disc around every port.
+	//
+	// A port always sits on
+	// a coast, and the discs of the ports of one region overlap into a
+	// continent.
+	//
+	// The radius of a disc is the size of the settlement plus a share of
+	// its neighbourhood: a port surrounded by many others grows into a
+	// landmass, while an isolated port stays an island. The growth is
+	// capped, so that a dense region does not swallow the sea around it.
 	for _, p := range data.Ports {
-		radius := 34.0
-		if p.City {
-			radius = 48
+		m.fillCircle(p.X, p.Y, landRadius(data, p), ColorLand)
+	}
+	// The coast line is a lighter ring just inside the land, which gives
+	// the hand drawn look of the original map.
+	for _, p := range data.Ports {
+		r := landRadius(data, p)
+		if r > 6 {
+			m.fillCircle(p.X, p.Y, r-5, ColorLandLight)
 		}
-		if p.Capital {
-			radius = 58
+	}
+}
+
+// drawTerrainMask draws the land and sea mask of the world map.
+//
+// Every cell of the mask is a block of TerrainCellSize pixels. A land cell
+// that touches the sea is drawn in the lighter coast colour, which gives
+// the map the outline of a coastline.
+func (m *WorldMap) drawTerrainMask(t *config.WorldTerrain) {
+	cs := t.CellSize
+	for y, row := range t.Rows {
+		for x := 0; x < len(row); x++ {
+			if row[x] != '#' {
+				continue
+			}
+			colour := ColorLand
+			// The coast: a land cell with a sea neighbour.
+			if isSea(t, x-1, y) || isSea(t, x+1, y) || isSea(t, x, y-1) || isSea(t, x, y+1) {
+				colour = ColorLandLight
+			}
+			drawFillRect(m.buffer, x*cs, y*cs, cs, cs, colour)
 		}
-		// Count the nearby ports to grow the continent.
-		for _, q := range data.Ports {
-			d := math.Hypot(q.X-p.X, q.Y-p.Y)
-			if d < 120 {
-				radius += 14
+	}
+}
+
+// isSea reports whether a cell of the mask is sea.
+//
+// A cell outside of the mask is sea, so that the land is outlined along
+// the edge of the map too.
+func isSea(t *config.WorldTerrain, x, y int) bool {
+	if y < 0 || y >= len(t.Rows) {
+		return true
+	}
+	row := t.Rows[y]
+	if x < 0 || x >= len(row) {
+		return true
+	}
+	return row[x] != '#'
+}
+
+// landRadius returns the radius of the land around a port, in pixels.
+//
+// The radius has three parts: the base size of the settlement, a share of
+// the number of ports that share its coast, and a cap that keeps a dense
+// region from filling the sea.
+func landRadius(data *MapData, p PortMarker) float64 {
+	radius := 22.0
+	switch {
+	case p.Capital:
+		radius = 30
+	case p.City:
+		radius = 26
+	}
+	// The neighbourhood: every other port within reach adds a little land,
+	// up to a fixed share.
+	const reach = 80.0
+	const perNeighbour = 4.0
+	const maxGrowth = 22.0
+	growth := 0.0
+	for _, q := range data.Ports {
+		if q == p {
+			continue
+		}
+		if math.Hypot(q.X-p.X, q.Y-p.Y) < reach {
+			growth += perNeighbour
+			if growth >= maxGrowth {
+				growth = maxGrowth
+				break
 			}
 		}
-		if radius > 120 {
-			radius = 120
-		}
-		m.fillCircle(p.X, p.Y, radius, ColorLand)
 	}
-	// The coast line is drawn as a slightly smaller disc in a lighter
-	// shade, which gives the classic hand-drawn look.
-	for _, p := range data.Ports {
-		radius := 26.0
-		if p.City {
-			radius = 36
-		}
-		if p.Capital {
-			radius = 44
-		}
-		for _, q := range data.Ports {
-			d := math.Hypot(q.X-p.X, q.Y-p.Y)
-			if d < 120 {
-				radius += 10
-			}
-		}
-		if radius > 90 {
-			radius = 90
-		}
-		m.fillCircle(p.X, p.Y, radius, ColorLandLight)
-	}
+	return radius + growth
 }
 
 // drawPorts draws the port markers.
@@ -297,63 +358,41 @@ func drawFillRect(img *image.RGBA, x, y, w, h int, c color.Color) {
 
 // Draw renders the visible part of the map into the canvas.
 //
-// The camera is expressed in map pixels; the visible rectangle is clipped
-// to the map bounds.
+// The camera is expressed in map pixels and the zoom is the number of map
+// pixels that one screen pixel covers: a zoom of 0.5 shows twice as much
+// of the world.
 //
-// The pixels are copied from the CPU side buffer into the canvas, so that
-// the whole interface is drawn through the same path.
-func (m *WorldMap) Draw(canvas *Canvas, camX, camY float64, screenW, screenH int) {
+// The pixels are sampled with the nearest neighbour rule, so the map stays
+// crisp at every zoom level.
+func (m *WorldMap) Draw(canvas *Canvas, camX, camY, zoom float64, screenW, screenH int) {
 	m.EnsureImage()
-	// Compute the source rectangle.
-	srcX := int(camX)
-	srcY := int(camY)
-	srcW := screenW
-	srcH := screenH
-	if srcX < 0 {
-		srcW += srcX
-		srcX = 0
+	if zoom <= 0 {
+		zoom = 1
 	}
-	if srcY < 0 {
-		srcH += srcY
-		srcY = 0
-	}
-	if srcX+srcW > m.width {
-		srcW = m.width - srcX
-	}
-	if srcY+srcH > m.height {
-		srcH = m.height - srcY
-	}
-	if srcW <= 0 || srcH <= 0 {
-		return
-	}
-	// The destination offset compensates for the clipping.
-	dstX := 0
-	dstY := 0
-	if camX < 0 {
-		dstX = int(-camX)
-	}
-	if camY < 0 {
-		dstY = int(-camY)
-	}
-	// The visible region is copied into the canvas.
-	//
-	// The copy is a straight pixel copy: the map is already at the
-	// resolution of the screen, so no scaling is needed.
 	dst := canvas.Image()
-	for row := 0; row < srcH; row++ {
-		sy := srcY + row
-		dy := dstY + row
-		if sy < 0 || sy >= m.height || dy < 0 || dy >= dst.Bounds().Dy() {
+	dstW := dst.Bounds().Dx()
+	dstH := dst.Bounds().Dy()
+	if screenW > dstW {
+		screenW = dstW
+	}
+	if screenH > dstH {
+		screenH = dstH
+	}
+
+	for dy := 0; dy < screenH; dy++ {
+		// The map row that this screen row shows.
+		sy := camY + float64(dy)*zoom
+		if sy < 0 || sy >= float64(m.height) {
 			continue
 		}
-		srcRow := m.buffer.PixOffset(srcX, sy)
+		srcRow := m.buffer.PixOffset(0, int(sy))
 		dstRow := dst.PixOffset(0, dy)
-		for col := 0; col < srcW; col++ {
-			dx := dstX + col
-			if dx < 0 || dx >= dst.Bounds().Dx() {
+		for dx := 0; dx < screenW; dx++ {
+			sx := camX + float64(dx)*zoom
+			if sx < 0 || sx >= float64(m.width) {
 				continue
 			}
-			si := srcRow + col*4
+			si := srcRow + int(sx)*4
 			di := dstRow + dx*4
 			copy(dst.Pix[di:di+4], m.buffer.Pix[si:si+4])
 		}

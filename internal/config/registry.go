@@ -75,6 +75,9 @@ type Registry struct {
 	OriginalItems map[int]*OriginalItemDescription
 	// OriginalMenuItems holds the menu tree of the original game.
 	OriginalMenuItems map[int]*OriginalMenuItem
+	// Terrain is the land and sea mask of the world map. It is nil when
+	// the mask has not been derived.
+	Terrain *WorldTerrain
 
 	// --- ordered lists, kept in deterministic (ID-sorted) order ---
 	// Deterministic ordering matters for reproducible simulation and for
