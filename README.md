@@ -282,6 +282,10 @@ English release (*New Horizons*) converts:
 | `original_characters` | 120 | the six protagonists and their companions: eight named stats, a navigation and a battle rank, and an age |
 | `original_story_npcs` | 21 | the cartographers, professors and nobles |
 
+The graphics are converted as well. `./game import` writes
+`assets/sprites/portraits.png`, a sheet of 512 by 1280 pixels holding the 128
+faces of the characters of `KAO.LZW`, each 64 by 80 in three planes.
+
 The runtime loads these as **optional reference data**. The wording service of the
 interface resolves its sentences through the original text and falls back to the
 wording of this project when a line is absent, and the port menu is built from the
@@ -480,7 +484,7 @@ encoding is not confirmed. They are listed here so that the gap is visible:
 
 | Files | Content | Why it is not converted |
 |---|---|---|
-| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the container and the codec are decoded and the pixels are recovered (see above), but the importer does not write them out yet |
+| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the container, the codec and the pixels are all recovered (see above). The portraits and the port chips are written out; the world map is a table of tile indices whose layout is not yet understood |
 | `GRAPH.DAT`, `GRAPH2.DAT` | the tiles and icons | the offset table is decoded (a big-endian table of 65 blocks), but the blocks themselves use a codec that has not been identified |
 | `EVENT*.DAT`, `ENDGRP.DAT`, `END_PUT.DAT` | the event and ending graphics | offset tables followed by planar graphics of an unknown geometry |
 | `WINDCUR.DAT`, `ZA_DAT.DAT` | the wind and current table, an unknown table | the bytes are obfuscated and the key is not recoverable from the data alone |
