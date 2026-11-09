@@ -1,0 +1,502 @@
+[
+  {
+    "description": "Prehistoric monument, consisting of rings of stones, with the outermost ring made up of large stone columns. Believed to have been an astronomical observatory.",
+    "id": "0",
+    "name": "Stonehenge"
+  },
+  {
+    "description": "Black basalt slab bearing the same inscription in three languages- ancient Egyptian hieroglyphics, a simpler ancient Egyptian writing system, and Greek.",
+    "id": "1",
+    "name": "Rosetta Stone"
+  },
+  {
+    "description": "Tomb of the Pharaoh Khufu, a pyramid measuring 481 feet high with a square base 756 feet wide. The four sides face the north, south, east and west.",
+    "id": "2",
+    "name": "Khufu Pyramid"
+  },
+  {
+    "description": "Fierce amphibious predator armored with hard leather skin, the crocodile sometimes reaches a length of 20 feet. With its powerful jaws, it can rip into livestock animals and even humans with one bite.",
+    "id": "3",
+    "name": "Crocodile"
+  },
+  {
+    "description": "Pyramid built by the ancient Cush in northern Africa. Though it's relatively small, with a 30 by 30 foot square base, it has distinctively steep sides.",
+    "id": "4",
+    "name": "Nubia Pyramid"
+  },
+  {
+    "description": "This remote waterfall is 140 feet high and is found near the source of the Blue Nile.",
+    "id": "5",
+    "name": "Tessisat Falls"
+  },
+  {
+    "description": "Huge tree with many useful qualities. The bark can be used to fashion rope or cloth, the fruit is edible, and the trunk itself is so large it can be used for storage or even shelter.",
+    "id": "6",
+    "name": "Baobab"
+  },
+  {
+    "description": "A dark-colored bird whose bat-like wings measure 6 feet across. It's noted for its large beak and sharp teeth.",
+    "id": "7",
+    "name": "Pteranodon"
+  },
+  {
+    "description": "Believed to be the source of the Nile River. The Zambezi River plunges 400 feet into the lake, forming Victoria Falls.",
+    "id": "8",
+    "name": "Victoria Falls"
+  },
+  {
+    "description": "A tall stone monument with inscriptions in Latin, Portuguese, and Arabic. Erected when Diogo Cam discovered the Congo.",
+    "id": "9",
+    "name": "Diogo's Monument"
+  },
+  {
+    "description": "These small ant castles, in their various shapes, often surpass the architectural feats of man.",
+    "id": "10",
+    "name": "Ant Hill"
+  },
+  {
+    "description": "Supposedly, the ruins of a golden city in the Sahara. Time has taken its toll, but the work of conscientious desert dwellers have helped preserve the ancient structure.",
+    "id": "11",
+    "name": "Clay Mosque"
+  },
+  {
+    "description": "Animal with bony plates on its back. When threatened, it curls up to cover its soft unprotected abdomen.",
+    "id": "12",
+    "name": "Armadillo"
+  },
+  {
+    "description": "The locals of Lake Tele have claimed to have seen this dinosaur from time to time. It's believed to be herbivorous and about 15 feet long.",
+    "id": "13",
+    "name": "Moquele Mubembe"
+  },
+  {
+    "description": "A rainbow that shines gold and white in the dark night. Legend says that this beautiful, mysterious vision brings good luck to those who see it.",
+    "id": "14",
+    "name": "Moonbow"
+  },
+  {
+    "description": "A horse-like creature related to the zebra, but with no stripes on its hind portion. It takes its name from the sound it makes, {Kwahaha.}",
+    "id": "15",
+    "name": "Quagga"
+  },
+  {
+    "description": "Stone monument at the Cape of Good Hope on the southern tip of Africa. It was erected by Bartholomew Diaz and remains a symbol of brave sea adventurers.",
+    "id": "16",
+    "name": "Diaz's Monument"
+  },
+  {
+    "description": "The name means [large rock house.] It proves that there was once a glorious dynasty in this area.",
+    "id": "17",
+    "name": "Big Zimbabwe"
+  },
+  {
+    "description": "Monkey with a colorful face resembling that of a human. It has a beard, purple bottom, and a short tail.",
+    "id": "18",
+    "name": "Mandrill"
+  },
+  {
+    "description": "A bird the size of a turkey, with a large hooked bill. Its wings are very small, making it incapable of flight.",
+    "id": "19",
+    "name": "Dodo"
+  },
+  {
+    "description": "Lizard with the amazing ability to change its color to match its surroundings. It's quite adept at capturing insects with its long and sticky tongue.",
+    "id": "20",
+    "name": "Chameleon"
+  },
+  {
+    "description": "Tall water plant that was used to make a form of paper in ancient Egypt.",
+    "id": "21",
+    "name": "Papyrus"
+  },
+  {
+    "description": "Strange black liquid that springs out from underground in desert areas. It has a bad smell and burns easily.",
+    "id": "22",
+    "name": "Burning Water"
+  },
+  {
+    "description": "Ruins of a city dating from the time of the Indus civilization. Built around a dome-shaped Buddhist shrine on a hilltop, this city probably was a commercial center during the Bronze Age.",
+    "id": "23",
+    "name": "Mohenjo-Daro"
+  },
+  {
+    "description": "The world's largest poisonous snake. When disturbed, it extends its ribs behind its head to form a flaring hood.",
+    "id": "24",
+    "name": "King Cobra"
+  },
+  {
+    "description": "The people who live here have built their homes and fields on the island that floats on the surface of this lake.",
+    "id": "25",
+    "name": "Inle Lake"
+  },
+  {
+    "description": "One of many busts of Buddha found in Siam, which has several temples and statues dedicated to him.",
+    "id": "26",
+    "name": "Ayutthaya's Buddha"
+  },
+  {
+    "description": "Friendly large-billed bird that makes a hissing sound to intimidate its enemies. It sometimes grows up to 60 inches in height.",
+    "id": "27",
+    "name": "Hornbill"
+  },
+  {
+    "description": "Ruins of a temple constructed by Khmer during the 12th century. The name means [temple of the capital].",
+    "id": "28",
+    "name": "Angkor Wat"
+  },
+  {
+    "description": "A bird of legend said to have the face of a beautiful girl. Its sweet singing can make people forget everything, even their own names.",
+    "id": "29",
+    "name": "Kalavinka"
+  },
+  {
+    "description": "A strange insect which transforms itself into a fungus during the summer. It is highly valued in China as a tonic and an elixir.",
+    "id": "30",
+    "name": "Plant Worm"
+  },
+  {
+    "description": "Ruins of farming villages dating from around 300 B.C. The villages had rice fields orderly divided by strong ridges and storehouses with elevated floors.",
+    "id": "31",
+    "name": "Toro Ruins"
+  },
+  {
+    "description": "Fabled demons that kidnap and devour bad children. The legend is told in a traditional festival where men disguise themselves as demons to scare the town's children.",
+    "id": "32",
+    "name": "Namahage"
+  },
+  {
+    "description": "Empress Zetian Wuhou's tomb. A hill with a circumference of 25 miles was turned into this huge tomb where all her treasures are buried.",
+    "id": "33",
+    "name": "Qian Ling"
+  },
+  {
+    "description": "1500 miles long and averaging 25 feet high, this truly is a great wall. It was constructed over many generations by Chinese rulers as a defense against raids by nomads in the north.",
+    "id": "34",
+    "name": "Great Wall"
+  },
+  {
+    "description": "A small mammal with an arsenal of long prickly spines on its back. It rolls itself into a ball when threatened.",
+    "id": "35",
+    "name": "Hedgehog"
+  },
+  {
+    "description": "A large bear-like black and white animal found at high altitudes in mountainous regions. It's friendly and feeds on bamboo.",
+    "id": "36",
+    "name": "Panda"
+  },
+  {
+    "description": "A beautiful pigeon with slate blue wings and a russet breast. They migrate in large flocks every spring. People say that this species will never become extinct. (Or will it?)",
+    "id": "37",
+    "name": "Passenger Pigeon"
+  },
+  {
+    "description": "Large wooden pole carved with the designs of animals. It symbolizes the status of the chief, and is sometimes used as a sign of the tribe.",
+    "id": "38",
+    "name": "Totem Pole"
+  },
+  {
+    "description": "A mask encrusted with small pieces of jade. Its eye holes give it a somewhat ominous appearance.",
+    "id": "39",
+    "name": "Jade Mask"
+  },
+  {
+    "description": "A holy place for the Muisca, who throw gold and emeralds into the lake when their new king ascends the throne.",
+    "id": "40",
+    "name": "Guatavita Lake"
+  },
+  {
+    "description": "Spiny, fleshy plant that grows up to 6 feet tall. This unique plant is well-adapted for arid climates.",
+    "id": "41",
+    "name": "Cactus"
+  },
+  {
+    "description": "A large scaly lizard, measuring about 6 feet in length. The row of leathery spines on its back make it look like a fierce dinosaur, but it's actually a gentle creature.",
+    "id": "42",
+    "name": "Iguana"
+  },
+  {
+    "description": "Insect-eating plant with a jaw-shaped flower that bears sharp spines and secretes a sweet liquid. Once its jaws snap shut they won't reopen until the prey has been digested.",
+    "id": "43",
+    "name": "Venus' Flytrap"
+  },
+  {
+    "description": "A magnificent waterfall, about 158 feet high and 3010 feet wide. Ancient people must have thought that the edge of the earth looks something like this.",
+    "id": "44",
+    "name": "Niagara Falls"
+  },
+  {
+    "description": "An aquatic plant with giant floating leaves and large flowers. The leaves measure over 6 feet in diameter and are so strong that they can bear the weight of a small child.",
+    "id": "45",
+    "name": "Amazon Water Lily"
+  },
+  {
+    "description": "A gigantic serpent. Adults may grow 19 feet long and weigh as much as 235 pounds. They are found near the water and crush their victims by constricting them in their coils.",
+    "id": "46",
+    "name": "Anaconda"
+  },
+  {
+    "description": "An enormous tidal wave that occurs during the new moon in April. Locals say that huge waves may reach over 16 feet high and wash everything away from the shore.",
+    "id": "47",
+    "name": "Pororoca"
+  },
+  {
+    "description": "A spiny turtle with a large diamond-shaped head and an irregular, rugged shell.",
+    "id": "48",
+    "name": "Matamata"
+  },
+  {
+    "description": "A primitive vessel used for local inter-tribal trading. This raft has a grass hut mounted on top and uses a square sail.",
+    "id": "49",
+    "name": "Balsa"
+  },
+  {
+    "description": "The terror of South American rivers. It is not uncommon for these groups of fish to devour people or domesticated animals that try to cross their river.",
+    "id": "50",
+    "name": "Piranha"
+  },
+  {
+    "description": "A large hairy poisonous spider that feeds on birds and small animals.",
+    "id": "51",
+    "name": "Tarantula"
+  },
+  {
+    "description": "A reptilian bird thought to be an ancestor of today's birds. It had four legs and was unable to fly, but it is believed that this bird-reptile could glide.",
+    "id": "52",
+    "name": "Archaeopteryx"
+  },
+  {
+    "description": "A tiny frog with beautiful golden skin that secretes a mysterious poison. Locals believe that this rare frog will guide one to a legendary land of gold.",
+    "id": "53",
+    "name": "Gold Frog"
+  },
+  {
+    "description": "A loud-squawking bird with a huge, brightly colored beak. It feeds chiefly on fruit.",
+    "id": "54",
+    "name": "Toucan"
+  },
+  {
+    "description": "A clay figure of a monster with a large head and fangs.",
+    "id": "55",
+    "name": "Clay Monster"
+  },
+  {
+    "description": "A slow-moving, hairy mammal with sharp claws. Rumor has it this 20 feet tall creature walks upright and feeds on leaves and branches.",
+    "id": "56",
+    "name": "Giant Ground Sloth"
+  },
+  {
+    "description": "A toothless mammal with powerful claws on its front feet and a long tongue that comes in handy for catching ants - the mainstay of its diet. Its long tail accounts for half of its 6 foot length.",
+    "id": "57",
+    "name": "Anteater"
+  },
+  {
+    "description": "A flightless goose-sized bird that uses its wings to swim. Found in large flocks, it was discovered by the Portuguese navigator, Leon Franco, about 20 years ago. Well, that's what some people say.",
+    "id": "58",
+    "name": "Leon Penguin"
+  },
+  {
+    "description": "A large bat with a 12 inch wingspan. It uses its sharp teeth to make a shallow wound on its prey, secretes a liquid to prevent the wound from closing, and feeds on its blood.",
+    "id": "59",
+    "name": "Vampire Bat"
+  },
+  {
+    "description": "The world's highest lake at an altitude of 12,500 feet in the Andes Mountains. The Aztecs believe that a god lives in this lake.",
+    "id": "60",
+    "name": "Lake Titicaca"
+  },
+  {
+    "description": "A pyramid-shaped shrine in the central Andes, with distinctive frontal stairs climbing 33 feet to the top.",
+    "id": "61",
+    "name": "Temple of the Sun"
+  },
+  {
+    "description": "This large sculpture represents a legendary hero worshipped by local tribes. Its sculpting technique and intricate design prove that this area has a highly advanced culture.",
+    "id": "62",
+    "name": "Terracotta Figure"
+  },
+  {
+    "description": "A perfectly spherical stone measuring about 6.5 feet in diameter. Its use is unknown.",
+    "id": "63",
+    "name": "Stone Ball"
+  },
+  {
+    "description": "A mural of warriors and hunting gods.",
+    "id": "64",
+    "name": "Mural of Marnalico"
+  },
+  {
+    "description": "A manuscript of Mayan legends, describing their philosophy, cosmology, and history.",
+    "id": "65",
+    "name": "Popol Vuh"
+  },
+  {
+    "description": "An elaborately sculptured crystal skull used for generations in rituals by tribal leaders.",
+    "id": "66",
+    "name": "Crystal Skull"
+  },
+  {
+    "description": "A stone bust excavated from Tenochtitlan.",
+    "id": "67",
+    "name": "Stone Face"
+  },
+  {
+    "description": "A round stone monument symbolizing the sun and the seasons. It represents the Aztec people's concept of the universe.",
+    "id": "68",
+    "name": "Monument of the Sun"
+  },
+  {
+    "description": "A large lizard with black and yellow bead-like scales. Its secret weapon is its ability to produce poison in its mouth.",
+    "id": "69",
+    "name": "Mexican Beaded Lizar"
+  },
+  {
+    "description": "A large wild bull that can weigh almost a ton. It is hunted for both food and its hide, which can be used to make leather. Such great numbers roam the plains that it's hard to imagine them ever becoming extinct.",
+    "id": "70",
+    "name": "Bison"
+  },
+  {
+    "description": "Ground-dwelling squirrel-like mammals 11 - 16 inches long. They make their home underground in a complex system of interconnecting burrows with many entrances.",
+    "id": "71",
+    "name": "Prairie Dog"
+  },
+  {
+    "description": "The ruins of a major Buddhist monument. It consists of eight diminishing tiers of terraces connected by stairways. The walls of the corridors are lined with intricately carved relief sculptures.",
+    "id": "72",
+    "name": "Borobudur"
+  },
+  {
+    "description": "A giant snake that can grow over 33 feet long in the jungle. After constricting and suffocating an animal, the python swallows its prey whole.",
+    "id": "73",
+    "name": "Python"
+  },
+  {
+    "description": "A giant slow-moving lizard found only in secluded parts of Indonesia that can grow up to 10 feet long. It uses its long, sharp claws and jagged teeth to attack animals even as large as a small deer.",
+    "id": "74",
+    "name": "Komodo Dragon"
+  },
+  {
+    "description": "Its long fat tail and powerful hind legs help this animal hip-hop along. The newly born infants, still small and pinkish, crawl into a pouch on the mother's belly and remain there during infancy.",
+    "id": "75",
+    "name": "Kangaroo"
+  },
+  {
+    "description": "A lizard with a large umbrella-like frill. It rises up and opens the frill to intimidate enemies and runs away only on its rear legs.",
+    "id": "76",
+    "name": "Frilled Lizard"
+  },
+  {
+    "description": "A legend says that there is a humongous red monolith in the center of this continent.",
+    "id": "77",
+    "name": "Ayers Rock"
+  },
+  {
+    "description": "A 30 inch long nocturnal animal that feeds on small animals and carrion. It hides in the cracks of rocks and trees.",
+    "id": "78",
+    "name": "Tasmanian Devil"
+  },
+  {
+    "description": "A tree-dwelling marsupial mammal that only eats the leaves of the eucalyptus tree. Koala young spend their first 6 months in their mother's pouch, feeding on predigested eucalyptus leaves.",
+    "id": "79",
+    "name": "Koala"
+  },
+  {
+    "description": "Named for its cry, this is a flightless, nocturnal bird with a small head and a long, slender bill that has nostrils near the tip. It uses its highly developed sense of smell to find its food.",
+    "id": "80",
+    "name": "Kiwi"
+  },
+  {
+    "description": "The male of this beautiful bird has a yellow head, long tail and dark-green throat, but the female has only short feathers and is rather dull in color.",
+    "id": "81",
+    "name": "Greater Bird of Para"
+  },
+  {
+    "description": "A huge statue of Buddha carved out of the side of a mountain.",
+    "id": "82",
+    "name": "Stone Buddha"
+  },
+  {
+    "description": "A plant that feeds on insects by trapping and digesting them in its pitcher-like leaves.",
+    "id": "83",
+    "name": "Pitcher Plant"
+  },
+  {
+    "description": "A slender snake about 3 feet long. The name comes from the fact that it makes its home in trees.",
+    "id": "84",
+    "name": "Tree Snake"
+  },
+  {
+    "description": "A fruit that is covered with sharp needles. Some say that it is the most delicious of all tropical forest fruits, but it smells so bad that most don't dare taste it.",
+    "id": "85",
+    "name": "Durian"
+  },
+  {
+    "description": "An ostrich-like bird incapable of flight, measuring over 10 feet in height. Its massive and well-developed hind legs help it run very fast.",
+    "id": "86",
+    "name": "Moa"
+  },
+  {
+    "description": "A flightless bird about 30 inches long that makes its home near Greenland. Fishermen hunt this bird for its tasty meat.",
+    "id": "87",
+    "name": "Great Auk"
+  },
+  {
+    "description": "A luminous atmospheric phenomenon seen in the night sky. Its awesome curtain-like display is constantly changing. While it's something special to see, the magnetic storms that occur with it can disturb your compass.",
+    "id": "88",
+    "name": "Aurora"
+  },
+  {
+    "description": "A large water mammal about 10 feet long. The head resembles a seal and its rear part has a fish-like shape. Locals say its meat is delicious.",
+    "id": "89",
+    "name": "Stellar's Sea Cow"
+  },
+  {
+    "description": "The largest animal in the world, sometimes reaching a length of 30 meters and weighing over 150 tons.",
+    "id": "90",
+    "name": "Blue Whale"
+  },
+  {
+    "description": "A legendary giant elephant with a coat of brown wool and long tusks that curve upward.",
+    "id": "91",
+    "name": "Mammoth"
+  },
+  {
+    "description": "A large carnivorous animal about 6 feet long. Its enormous, blade-like upper teeth extend 7 inches below its lower jaw.",
+    "id": "92",
+    "name": "Saber-toothed Tiger"
+  },
+  {
+    "description": "Just as the name suggests, this bat lives off of fruit. It is a very rare delicacy at tables throughout the area.",
+    "id": "93",
+    "name": "Fruit Bat"
+  },
+  {
+    "description": "A rare snail with a beautiful shell that lives deep in the sea. Its shell is used as an amulet by tribal leaders and shamans in the area.",
+    "id": "94",
+    "name": "Indo-Pacific Cowrie"
+  },
+  {
+    "description": "A creature rumored to resemble a mouse that walks upside down using its highly developed nose. This odd creature is probably fantastical.",
+    "id": "95",
+    "name": "Nasiped"
+  },
+  {
+    "description": "A large, slow-moving tortoise that can weigh as much as 500 pounds. Its domed shell sometimes grows as long as three feet and serves as protection for its elephant-like skin.",
+    "id": "96",
+    "name": "Giant Tortoise"
+  },
+  {
+    "description": "Giant stone statues ranging from 15 to 60 feet high. They're carved with large faces, long ears and short bodies.",
+    "id": "97",
+    "name": "Moai"
+  },
+  {
+    "description": "",
+    "id": "98",
+    "name": ""
+  },
+  {
+    "description": "",
+    "id": "99",
+    "name": ""
+  }
+]

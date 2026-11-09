@@ -1,0 +1,1378 @@
+[
+  {
+    "id": "0",
+    "text": "Ohhh, $n. Our favorite customer! You want something to drink, eh? Why not try some of this sludge? It's sooooo delicious! Ha!"
+  },
+  {
+    "id": "1",
+    "text": "Awww, you're a funny guy, there, matey. I know I owe you money, just give me a little more time. I'll pay you soon, I promise!"
+  },
+  {
+    "id": "2",
+    "text": "|Comrade Camillo|\nAhoy there, if it isn't $n."
+  },
+  {
+    "id": "3",
+    "text": "Camillo, it's great to see you! When did you get back? I know this is sudden, but I have a favor..."
+  },
+  {
+    "id": "4",
+    "text": "I don't have any money, so don't waste your breath."
+  },
+  {
+    "id": "5",
+    "text": "That was cold. Aren't we still friends?"
+  },
+  {
+    "id": "6",
+    "text": "Of course. I don't have any money, but I've got the next best thing, a sponsor."
+  },
+  {
+    "id": "7",
+    "text": "Are you serious? And who might this sponsor be?"
+  },
+  {
+    "id": "8",
+    "text": "The Duchess Franco, in Lisbon. She hired me, and when I told her about you, she offered to become your sponsor."
+  },
+  {
+    "id": "9",
+    "text": "Really? That would be just the thing to save me from my debts. And, finally, a chance for adventure!"
+  },
+  {
+    "id": "10",
+    "text": "Aye, won't it be exciting? Two wild and crazy guys, cruising the high seas."
+  },
+  {
+    "id": "11",
+    "text": "It sounds great, but even if she does give us money, we won't get very far, with all my debts. How much is she offering?"
+  },
+  {
+    "id": "12",
+    "text": "I don't know the amount exactly, but she said that she would take care of your debts, too. A pretty nice lady, eh?"
+  },
+  {
+    "id": "13",
+    "text": "Aye, though it sounds too good to be true. She's being too nice to us. There's got to be a catch."
+  },
+  {
+    "id": "14",
+    "text": "Well, mate, what's it gonna be? Will you stay or go?"
+  },
+  {
+    "id": "15",
+    "text": "Hmmm.. a chance for adventure, or debtor's prison... ha, that's easy - let's get out of here!"
+  },
+  {
+    "id": "16",
+    "text": "Good. I've got a ship, but I'm leaving you in charge as Captain."
+  },
+  {
+    "id": "17",
+    "text": "Alright then. I think I'll call her the Falcon. How's that sound?"
+  },
+  {
+    "id": "18",
+    "text": "Not bad. Unfortunately, we don't even have enough money to buy extra provisions, so we'd better not make any detours."
+  },
+  {
+    "id": "19",
+    "text": "Well, then we'd better head straight for Lisbon."
+  },
+  {
+    "id": "20",
+    "text": "We should head southwest and swing up around the Iberian peninsula. Of course, it's easiest to use the Auto Sail command!"
+  },
+  {
+    "id": "21",
+    "text": "Falcon"
+  },
+  {
+    "id": "22",
+    "text": "Have ye run into Camillo?"
+  },
+  {
+    "id": "23",
+    "text": "No, not yet."
+  },
+  {
+    "id": "24",
+    "text": "He's probably in the pub. Maybe the two of you can figure out a way to pay me back."
+  },
+  {
+    "id": "25",
+    "text": "Ahoy there, $n. Ye know, I wouldn't mind seeing some of that money ye owe me."
+  },
+  {
+    "id": "26",
+    "text": "I want to pay you back, really I do. But I just don't have anything now."
+  },
+  {
+    "id": "27",
+    "text": "I know it's not yer fault, being burdened with the debts of yer father. But I need to get my money back from someone. That leaves only ye, my friend."
+  },
+  {
+    "id": "28",
+    "text": "Aye, Aye, sir. Once I hear from Camillo, I'm sure that I'll be able to pay you back. Just give me a little more time."
+  },
+  {
+    "id": "29",
+    "text": "I sent him a letter asking for help a while back, so I should be hearing something soon."
+  },
+  {
+    "id": "30",
+    "text": "Are ye talking about the Camillo that went to work for Duke Franco in Lisbon as a merchant sailor? That mate's in town right now!"
+  },
+  {
+    "id": "31",
+    "text": "Really?!"
+  },
+  {
+    "id": "32",
+    "text": "Aye, $n. I saw him walking towards the pub."
+  },
+  {
+    "id": "33",
+    "text": "Really? Hey, I just might be able to pay you back sooner than I thought!"
+  },
+  {
+    "id": "34",
+    "text": "Welcome. $n, is today the day you're going to pay back some of your debts?"
+  },
+  {
+    "id": "35",
+    "text": "Who said that? I didn't hear anyone say anything like that."
+  },
+  {
+    "id": "36",
+    "text": "Oh, I see. You're a tricky scoundrel, but I will get my money back. All of it."
+  },
+  {
+    "id": "37",
+    "text": "Uh oh. I'd better get out of here."
+  },
+  {
+    "id": "38",
+    "text": "Welcome, $n. Have you come to make a donation to the church, or just to return some of the money you owe?"
+  },
+  {
+    "id": "39",
+    "text": "Umm... I just remembered an important engagement. Bye!"
+  },
+  {
+    "id": "40",
+    "text": "Poor $n, it looks like you're running in circles trying to get out of paying your debts."
+  },
+  {
+    "id": "41",
+    "text": "Don't worry, sonny, I'll hide you. You can just rest here for a while."
+  },
+  {
+    "id": "42",
+    "text": "$n, you dirty crook! You'd better give me my money, or else!"
+  },
+  {
+    "id": "43",
+    "text": "Uh oh. I think I hear my mother calling. Sorry, gotta go!"
+  },
+  {
+    "id": "44",
+    "text": "|Butler Marco|\nHow nice to see you again, Sir Camillo. Walk right this way. The Duchess is waiting for you."
+  },
+  {
+    "id": "45",
+    "text": "You must be $n. I'm glad you were able to make it. I've heard a great deal about you from Camillo."
+  },
+  {
+    "id": "46",
+    "text": "I expect he has informed you that I plan to assist you in your adventures."
+  },
+  {
+    "id": "47",
+    "text": "He also said that you were going to take care of my debts."
+  },
+  {
+    "id": "48",
+    "text": "And that all I would have to do is sail around, discover amazing things, and report back to you."
+  },
+  {
+    "id": "49",
+    "text": "That's correct. And when you find a village, I would like you to disembark and search for rare items."
+  },
+  {
+    "id": "50",
+    "text": "And if we don't find anything, we should befriend the villagers, and they might help us find something."
+  },
+  {
+    "id": "51",
+    "text": "Come on, lady, every adventurer knows that. What do you think, I'm stupid?"
+  },
+  {
+    "id": "52",
+    "text": "My apologies."
+  },
+  {
+    "id": "53",
+    "text": "I don't know, Camillo. We couldn't ask for a better offer. And that makes me think there's something she's not telling us."
+  },
+  {
+    "id": "54",
+    "text": "............"
+  },
+  {
+    "id": "55",
+    "text": "$n! That's an insult to the Duchess! A thousand pardons, my lady."
+  },
+  {
+    "id": "56",
+    "text": "Don't think anything of it, Camillo. $n, you're a very perceptive man."
+  },
+  {
+    "id": "57",
+    "text": "Actually, I do have one more thing I require of you."
+  },
+  {
+    "id": "58",
+    "text": "My husband, Leon, sent my only son, Joao, off on a long voyage the other day."
+  },
+  {
+    "id": "59",
+    "text": "I'm sure there was a good reason for that, but I just can't stop worrying about my son."
+  },
+  {
+    "id": "60",
+    "text": "Are you saying you want me to be your son's bodyguard?"
+  },
+  {
+    "id": "61",
+    "text": "Sorry, but I'm not about to waste my time baby-sitting some spoiled rich kid."
+  },
+  {
+    "id": "62",
+    "text": "You've got the wrong idea. I just want to know whether he's alright or not..."
+  },
+  {
+    "id": "63",
+    "text": "So you just want me to spy on him a little bit and then let you know how he's doing?"
+  },
+  {
+    "id": "64",
+    "text": "If you please."
+  },
+  {
+    "id": "65",
+    "text": "If that's all, then, we accept your offer."
+  },
+  {
+    "id": "66",
+    "text": "Thank you! Here is the money I promised. And I will take care of your debts."
+  },
+  {
+    "id": "67",
+    "text": "I will reward you for each report you give me, depending on the importance of the information."
+  },
+  {
+    "id": "68",
+    "text": "I am also giving you this telescope and sextant. My husband Leon used them a long time ago when he sailed the high seas."
+  },
+  {
+    "id": "69",
+    "text": "Thanks, these'll really help, as any seafarer knows."
+  },
+  {
+    "id": "70",
+    "text": "If I look through the telescope near a shore, I'll be able to see if there are ports or villages nearby."
+  },
+  {
+    "id": "71",
+    "text": "With the sextant, I'll be able to track my latitude and longitude."
+  },
+  {
+    "id": "72",
+    "text": "Please, make sure my son is alright."
+  },
+  {
+    "id": "73",
+    "text": "Don't worry about a thing, leave everything to me."
+  },
+  {
+    "id": "74",
+    "text": "Well, since everything's settled, we'll be off to the docks. Ciao!"
+  },
+  {
+    "id": "75",
+    "text": "Hey $n, where do you think you're going? You haven't even met your sponsor yet."
+  },
+  {
+    "id": "76",
+    "text": "Oops! Sorry about that. Where does our sponsor live anyway?"
+  },
+  {
+    "id": "77",
+    "text": "Why, the biggest house in town, mate!"
+  },
+  {
+    "id": "78",
+    "text": "Wow, $n, I can't believe you were so blunt with the Duchess. I broke out in a cold sweat just listening to you!"
+  },
+  {
+    "id": "79",
+    "text": "Sorry, royalty makes me nervous. By the way, whereabouts is this Joao character?"
+  },
+  {
+    "id": "80",
+    "text": "Don't ask me. How should I know?"
+  },
+  {
+    "id": "81",
+    "text": "Never mind. We don't really need to go and find him anyway. We'll just make up stories to tell the Duchess."
+  },
+  {
+    "id": "82",
+    "text": "What are you crazy?! Don't you feel even the slightest bit of responsibility?"
+  },
+  {
+    "id": "83",
+    "text": "Don't worry, don't worry. Let's just get this adventure underway."
+  },
+  {
+    "id": "84",
+    "text": "What do you have in mind?"
+  },
+  {
+    "id": "85",
+    "text": "Hmmm...Why don't we go check out the Nile River?"
+  },
+  {
+    "id": "86",
+    "text": "The Nile? Then we've got to go all the way to the deep Mediterranean and the port of Alexandria."
+  },
+  {
+    "id": "87",
+    "text": "But, if that's where you want to go, Captain, then let's batten down the hatches, trim the jib and set sail for Alexandria!"
+  },
+  {
+    "id": "88",
+    "text": "$n, we had better hurry up and see the Duchess."
+  },
+  {
+    "id": "89",
+    "text": "Ohhhhhh, Welcome $n! Such a wealthy man will want some of our best - bilge water! Ha ha ha!"
+  },
+  {
+    "id": "90",
+    "text": "You're just too funny. Just give me a little more time. I promise I'll pay you back."
+  },
+  {
+    "id": "91",
+    "text": "$n, we had better be on our way to Lisbon. Our provisions are running low."
+  },
+  {
+    "id": "92",
+    "text": "Well, well! If it's not $n. Are you here to pay your debts?"
+  },
+  {
+    "id": "93",
+    "text": "That's funny, I don't remember saying I was here to pay my debts."
+  },
+  {
+    "id": "94",
+    "text": "Hmph, a wise guy. Just remember, I will get my money. I never forget a debt. Never!"
+  },
+  {
+    "id": "95",
+    "text": "Blast! I'd better get out of here."
+  },
+  {
+    "id": "96",
+    "text": "Hello there, $n. Have you come to make a donation, or perhaps to return the money you owe us?"
+  },
+  {
+    "id": "97",
+    "text": "Ah! I just remembered an important engagement. Sorry, got to run."
+  },
+  {
+    "id": "98",
+    "text": "Hello $n. Are you busy running away from all the people you owe money?"
+  },
+  {
+    "id": "99",
+    "text": "Don't worry, sonny, you're safe here. Just rest here quietly."
+  },
+  {
+    "id": "100",
+    "text": "$n, you dirty crook! Give me my money!"
+  },
+  {
+    "id": "101",
+    "text": "Uh-oh."
+  },
+  {
+    "id": "102",
+    "text": "Hey $n. We had better be on our way to Lisbon. Our provisions are running low."
+  },
+  {
+    "id": "103",
+    "text": "Master $n, is it true that you hold other contracts besides that with the Duchess?"
+  },
+  {
+    "id": "104",
+    "text": "Aye, it's true."
+  },
+  {
+    "id": "105",
+    "text": "Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us."
+  },
+  {
+    "id": "106",
+    "text": "Please don't ever do this again. If you do, we will lose all faith in you."
+  },
+  {
+    "id": "107",
+    "text": "I never agreed to this kind of contract!"
+  },
+  {
+    "id": "108",
+    "text": "Ye're $n, the adventurer, right?"
+  },
+  {
+    "id": "109",
+    "text": "What's it to you?"
+  },
+  {
+    "id": "110",
+    "text": "Every adventurer knows about the gold medallion. Do ye?"
+  },
+  {
+    "id": "111",
+    "text": "The gold medallion? Sorry, never heard of it. What is it?"
+  },
+  {
+    "id": "112",
+    "text": "Ye mean ye don't know? Well ye must have heard of the golden city of El Dorado, then."
+  },
+  {
+    "id": "113",
+    "text": "Never heard of that either."
+  },
+  {
+    "id": "114",
+    "text": "Shiver me timbers! Why it's the city of legend, El Dorado, made entirely of gold! From the buildings to the toothpicks, everything gold!"
+  },
+  {
+    "id": "115",
+    "text": "Have ye really never heard tell of it?"
+  },
+  {
+    "id": "116",
+    "text": "Not a word, mate. But what about it? And what about that gold medallion?"
+  },
+  {
+    "id": "117",
+    "text": "Well, I happens to have a map which tells where the gold medallion is hidden. I picked it from the pocket of a greenhorn sailor."
+  },
+  {
+    "id": "118",
+    "text": "I'll sell it to ye for 2000 gold pieces. What do ye say, mate?"
+  },
+  {
+    "id": "119",
+    "text": "Sounds like bunk to me."
+  },
+  {
+    "id": "120",
+    "text": "Criminy! Don't say that. Why, I'd be out there searching meself if I weren't so old."
+  },
+  {
+    "id": "121",
+    "text": "How about I sell it to ye for 1000 gold pieces then. That shouldn't lighten your purse too much."
+  },
+  {
+    "id": "122",
+    "text": "If there were anything buried there, it'd be quite a haul."
+  },
+  {
+    "id": "123",
+    "text": "Hmmm, well... here's the money then."
+  },
+  {
+    "id": "124",
+    "text": "Thank you sirs. Since ye were so kind, let me tell ye where the map comes from."
+  },
+  {
+    "id": "125",
+    "text": "That medallion was hidden, long ago, by pirates."
+  },
+  {
+    "id": "126",
+    "text": "It is said that an adventurer from Portugal went forth in search of El Dorado to bring back some of the treasure."
+  },
+  {
+    "id": "127",
+    "text": "The natives treated the adventurer well, so he gave them the medallion. But after that, he was never seen again."
+  },
+  {
+    "id": "128",
+    "text": "Later on, pirates stole the medallion from the natives and hid it."
+  },
+  {
+    "id": "129",
+    "text": "I heard this yarn meself from an old sailor, but I don't know how much is true. But, if it is..."
+  },
+  {
+    "id": "130",
+    "text": "I think you're lying to us, but I'll buy it off you anyway. Here, your 2000 gold pieces."
+  },
+  {
+    "id": "131",
+    "text": "So the city of El Dorado is in the vicinity of this map too, right?"
+  },
+  {
+    "id": "132",
+    "text": "Eh? Oh, aye, aye, matey. I forgot to tell ye something. That medallion was hidden by pirates a long time ago."
+  },
+  {
+    "id": "133",
+    "text": "It is said that an adventurer from Portugal went on a quest for El Dorado to bring back some of the treasure."
+  },
+  {
+    "id": "134",
+    "text": "The natives had treated the adventurer well, so he gave them the medallion. But after that, he was never seen or heard from again."
+  },
+  {
+    "id": "135",
+    "text": "Later on, pirates stole the medallion from the natives and hid it."
+  },
+  {
+    "id": "136",
+    "text": "So the golden medallion is the only treasure marked on this map?"
+  },
+  {
+    "id": "137",
+    "text": "Aye. But if ye find it, 2000 gold pieces would be like a drop in the bucket. If ye find it."
+  },
+  {
+    "id": "138",
+    "text": "Well, he was probably pulling our leg, but you never know. I have a feeling we'll find something."
+  },
+  {
+    "id": "139",
+    "text": "Master $n, is it true that you hold other contracts besides that with the Duchess?"
+  },
+  {
+    "id": "140",
+    "text": "Aye, it's true."
+  },
+  {
+    "id": "141",
+    "text": "Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us."
+  },
+  {
+    "id": "142",
+    "text": "Please don't ever do this again. If you do, we will lose all faith in you."
+  },
+  {
+    "id": "143",
+    "text": "I don't remember agreeing to a contract like this!"
+  },
+  {
+    "id": "144",
+    "text": "Say $n, could I take a look at the gold medallion?"
+  },
+  {
+    "id": "145",
+    "text": "Here you go, pal. Check out the detail of the artwork - pretty amazing, eh?"
+  },
+  {
+    "id": "146",
+    "text": "There's a mountain of gold just like this medallion in El Dorado..."
+  },
+  {
+    "id": "147",
+    "text": "Come on $n, what do you say? Let's go search for El Dorado!"
+  },
+  {
+    "id": "148",
+    "text": "You bet, Camillo! I'm sure we'll find it. The search for the legendary city of gold. Now this is adventure!"
+  },
+  {
+    "id": "149",
+    "text": "Master $n, is it true that you hold other contracts besides that with the Duchess?"
+  },
+  {
+    "id": "150",
+    "text": "Aye, it's true."
+  },
+  {
+    "id": "151",
+    "text": "Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us."
+  },
+  {
+    "id": "152",
+    "text": "Please don't ever do this again. We would lose all our faith in you."
+  },
+  {
+    "id": "153",
+    "text": "What kind of restrictive contract is this!"
+  },
+  {
+    "id": "154",
+    "text": "Welcome, Master $n. The Duchess is entertaining a visitor right now."
+  },
+  {
+    "id": "155",
+    "text": "I will go and see if she is ready to receive you. Please wait here."
+  },
+  {
+    "id": "156",
+    "text": "I apologize for the wait. This way please."
+  },
+  {
+    "id": "157",
+    "text": "Perfect timing, gentlemen! What a coincidence."
+  },
+  {
+    "id": "158",
+    "text": "Let me introduce you. This is my son, Joao."
+  },
+  {
+    "id": "159",
+    "text": "Joao, this is $n, an adventurer."
+  },
+  {
+    "id": "160",
+    "text": "It's a pleasure to meet you, $n. Actually, I have a favor to ask of you."
+  },
+  {
+    "id": "161",
+    "text": "A favor? Wow, imagine that, the Franco house asking me for a favor?"
+  },
+  {
+    "id": "162",
+    "text": "I'll be happy to listen, as long as you're not looking for money."
+  },
+  {
+    "id": "163",
+    "text": "Do you know anything about Poseidon's Staff? According to legend, it's the secret treasure of Atlantis."
+  },
+  {
+    "id": "164",
+    "text": "Sorry, never heard of it."
+  },
+  {
+    "id": "165",
+    "text": "Well, I need you to find it for me. It's extremely important!"
+  },
+  {
+    "id": "166",
+    "text": "Whoa, sounds serious! Why is this staff so special? What do you need it for?"
+  },
+  {
+    "id": "167",
+    "text": "Atlantis was a land with very advanced technology."
+  },
+  {
+    "id": "168",
+    "text": "But many, many years ago it sank into the sea in a terrible earthquake. Only a few survivors managed to escape."
+  },
+  {
+    "id": "169",
+    "text": "The descendants of those survivors are now scattered around the globe, but a large group of them ended up settling in the port of Massawa."
+  },
+  {
+    "id": "170",
+    "text": "The Atlanteans feared that their knowledge, their secret technology, would fall into the wrong hands. They decided to keep it hidden, and started to live normal lives."
+  },
+  {
+    "id": "171",
+    "text": "But the Turkish Empire has learned of the Atlantean's technology and is preparing to wage war on them."
+  },
+  {
+    "id": "172",
+    "text": "I don't know why, but they say that in order to defeat the Turks, they must unleash the power of Atlantis. To do that, they need Poseidon's Staff."
+  },
+  {
+    "id": "173",
+    "text": "Hmmm, sounds intriguing. And how can I turn down a request from the great house of Franco? Sure, I'll go look for your Staff."
+  },
+  {
+    "id": "174",
+    "text": "Thank you. I won't forget this. When you find it, do you think you could bring it to the port of Massawa?"
+  },
+  {
+    "id": "175",
+    "text": "Say $n, are you sure we should have taken on this job? He is the Duke's son, but..."
+  },
+  {
+    "id": "176",
+    "text": "We don't even know where to start."
+  },
+  {
+    "id": "177",
+    "text": "Don't worry. Que sera, sera!"
+  },
+  {
+    "id": "178",
+    "text": "But those people are counting on you! Don't you feel any responsibility at all?"
+  },
+  {
+    "id": "179",
+    "text": "Don't worry! As long as we start out on our way to Arabia, something will come up."
+  },
+  {
+    "id": "180",
+    "text": "Master $n, is it true that you hold other contracts besides that with the Duchess?"
+  },
+  {
+    "id": "181",
+    "text": "Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us."
+  },
+  {
+    "id": "182",
+    "text": "Please don't ever do this again. If you do, we will lose all faith in you."
+  },
+  {
+    "id": "183",
+    "text": "Excuse me, but I was wondering if you've ever heard of Poseidon's Staff?"
+  },
+  {
+    "id": "184",
+    "text": "P..Poseidon's Staff?! Oh my goodness."
+  },
+  {
+    "id": "185",
+    "text": "The staff gives the holder incredible power. It changes a man's spirit into power."
+  },
+  {
+    "id": "186",
+    "text": "Evil men gain evil power, and good men gain good power. Long ago, men, fearing that the staff would fall into evil hands, hid the staff for safe-keeping."
+  },
+  {
+    "id": "187",
+    "text": "As time passed, the warnings of the elders were abandoned, and the staff was brought forth once again. The results were devastating, and the staff was lost again."
+  },
+  {
+    "id": "188",
+    "text": "That is the legend passed down over the ages. As you have heard, the staff was lost and remains so today. You're looking for this staff?"
+  },
+  {
+    "id": "189",
+    "text": "I was asked by someone to find it, for the people of Massawa. So they can restore the power of Atlantis."
+  },
+  {
+    "id": "190",
+    "text": "The restoration of the power of Atlantis... There's more to the legend."
+  },
+  {
+    "id": "191",
+    "text": "When the people of Atlantis fear the power, and are in great need of help, the staff will appear again."
+  },
+  {
+    "id": "192",
+    "text": "Go to the pub in $r19."
+  },
+  {
+    "id": "193",
+    "text": "If you tell them you heard about the staff from me, I'm sure they will tell you more."
+  },
+  {
+    "id": "194",
+    "text": "Excuse me. Have you ever heard of the legend of Poseidon's Staff?"
+  },
+  {
+    "id": "195",
+    "text": "Ah, yes. There are many rumors about its fantastic history and special powers."
+  },
+  {
+    "id": "196",
+    "text": "Where is it?"
+  },
+  {
+    "id": "197",
+    "text": "I have no idea. But the fortune teller in the port of $r19 may know."
+  },
+  {
+    "id": "198",
+    "text": "Thanks. You've been a big help."
+  },
+  {
+    "id": "199",
+    "text": "You said it yourself -  it's only a legend. It exists only in our minds."
+  },
+  {
+    "id": "200",
+    "text": "Excuse me, but I was told by the fortune teller in the port of $r19 that someone here would tell me where I can find the staff."
+  },
+  {
+    "id": "201",
+    "text": "...Oh, so you heard about it from my sister. The Atlanteans are in trouble, eh?"
+  },
+  {
+    "id": "202",
+    "text": "They need the staff to reunite their people and unlock their hidden power. I'm just looking for it as a favor to a friend."
+  },
+  {
+    "id": "203",
+    "text": "A favor? For whom?"
+  },
+  {
+    "id": "204",
+    "text": "I'm doing it for Joao, a Portuguese noble who's trying to help the descendants of Atlantis, the people of Massawa."
+  },
+  {
+    "id": "205",
+    "text": "Oh, I see. Well, if your friend is helping the people of Massawa, then I will trust you."
+  },
+  {
+    "id": "206",
+    "text": "The legend that's been passed down in my family for generations is that our ancestor was saved by the Atlanteans after he was found drifting at sea."
+  },
+  {
+    "id": "207",
+    "text": "The elders, knowing that only Atlanteans could use the staff and unlock its incredible power, had my ancestor hide it away."
+  },
+  {
+    "id": "208",
+    "text": "Ever since that time, my family has been the protectors of the map that shows where the staff is hidden. But we must now bring it forth."
+  },
+  {
+    "id": "209",
+    "text": "Please, I sincerely ask for your help. Take this map, find the staff, and lend the Atlanteans your strength."
+  },
+  {
+    "id": "210",
+    "text": "Alright. As long as I have the map, it'll be easy to find. You can leave it to me!"
+  },
+  {
+    "id": "211",
+    "text": "This is the map which shows where the staff is buried."
+  },
+  {
+    "id": "212",
+    "text": "Please..you must find it. I, my whole family, owe our lives to the Atlanteans."
+  },
+  {
+    "id": "213",
+    "text": "Say, you're stowing quite a bit of luggage there. Why don't you come back after you've unloaded something."
+  },
+  {
+    "id": "214",
+    "text": "Thanks."
+  },
+  {
+    "id": "215",
+    "text": "We're supposed to ask at the pub in this port. Come on, let's go!"
+  },
+  {
+    "id": "216",
+    "text": "Do you think the fortune teller in this town really knows about Poseidon's Staff? Well, let's go and see."
+  },
+  {
+    "id": "217",
+    "text": "There's bound to be somebody who knows about the legend of Poseidon's Staff in this port."
+  },
+  {
+    "id": "218",
+    "text": "Why don't we go to the pub and ask around?"
+  },
+  {
+    "id": "219",
+    "text": "$n, let's get on our way to Arabia."
+  },
+  {
+    "id": "220",
+    "text": "Master $n, is it true that you hold other contracts besides that with the Duchess?"
+  },
+  {
+    "id": "221",
+    "text": "Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us."
+  },
+  {
+    "id": "222",
+    "text": "Please don't ever do this again. If you do, we will lose all faith in you."
+  },
+  {
+    "id": "223",
+    "text": "Joao, we've found the staff."
+  },
+  {
+    "id": "224",
+    "text": "Really? I can't thank you enough. Ah, yes a reward. Is there anything you want? Just name it."
+  },
+  {
+    "id": "225",
+    "text": "Hmmm. Have you ever heard of the Land of Gold, El Dorado?"
+  },
+  {
+    "id": "226",
+    "text": "No, I've never heard of it, but if I learn anything, I'll let you know."
+  },
+  {
+    "id": "227",
+    "text": "Thank you."
+  },
+  {
+    "id": "228",
+    "text": "Say, do you know where I could find a guy named Joao?"
+  },
+  {
+    "id": "229",
+    "text": "Master Joao is in the pub I think, but... who are you people?"
+  },
+  {
+    "id": "230",
+    "text": "Sorry, but we're in a hurry. Later, old man."
+  },
+  {
+    "id": "231",
+    "text": "Say, do you happen to know a guy named Joao?"
+  },
+  {
+    "id": "232",
+    "text": "Joao is over in the pub."
+  },
+  {
+    "id": "233",
+    "text": "Did you find Poseidon's Staff?"
+  },
+  {
+    "id": "234",
+    "text": "We sure did. Here it is."
+  },
+  {
+    "id": "235",
+    "text": "So, this is Poseidon's Staff?... Please take it to Massawa, and hurry!"
+  },
+  {
+    "id": "236",
+    "text": "You haven't found it yet? Please hurry, it's very important."
+  },
+  {
+    "id": "237",
+    "text": "Have you found Poseidon's Staff yet?"
+  },
+  {
+    "id": "238",
+    "text": "We sure did. Here."
+  },
+  {
+    "id": "239",
+    "text": "So, this is Poseidon's Staff?... You must take it to Massawa, and hurry!"
+  },
+  {
+    "id": "240",
+    "text": "You haven't found it yet? Please hurry, it's very important that you find it."
+  },
+  {
+    "id": "241",
+    "text": "Let's take the staff to Joao in Massawa. Hoist those sails!"
+  },
+  {
+    "id": "242",
+    "text": "Master $n, is it true that you hold other contracts besides that with the Duchess?"
+  },
+  {
+    "id": "243",
+    "text": "Aye, it's true."
+  },
+  {
+    "id": "244",
+    "text": "Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us."
+  },
+  {
+    "id": "245",
+    "text": "Please don't ever do this again. If you do, we will lose all faith in you."
+  },
+  {
+    "id": "246",
+    "text": "Where the blazes is the fine print to get us out of this contract?!"
+  },
+  {
+    "id": "247",
+    "text": "Are you $n, the adventurer?"
+  },
+  {
+    "id": "248",
+    "text": "Who are you?"
+  },
+  {
+    "id": "249",
+    "text": "I'm Ali Vezas, a merchant. I was sent by Joao to find you."
+  },
+  {
+    "id": "250",
+    "text": "By Joao?"
+  },
+  {
+    "id": "251",
+    "text": "Right. I'm doing him a favor. Trading favors, trading goods, it's all business to me! So I have a message for you."
+  },
+  {
+    "id": "252",
+    "text": "'It's not El Dorado, but around the coordinates 35@N 135@E, there is a country called Zipangu, the Golden Country.'"
+  },
+  {
+    "id": "253",
+    "text": "That's all. Gotta go!"
+  },
+  {
+    "id": "254",
+    "text": "What do you think, $n? Should we go to Zipangu?"
+  },
+  {
+    "id": "255",
+    "text": "Sounds pretty interesting. Let's go."
+  },
+  {
+    "id": "256",
+    "text": "Master $n, is it true that you hold other contracts besides that with the Duchess?"
+  },
+  {
+    "id": "257",
+    "text": "Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us."
+  },
+  {
+    "id": "258",
+    "text": "Please don't ever do this again. We would lose all faith in you."
+  },
+  {
+    "id": "259",
+    "text": "Say $n, this is Zipangu, but it sure doesn't look like the golden country of El Dorado."
+  },
+  {
+    "id": "260",
+    "text": "Let's look around some more."
+  },
+  {
+    "id": "261",
+    "text": "Say $n, this is Zipangu, but it's sure not the golden country of El Dorado."
+  },
+  {
+    "id": "262",
+    "text": "Where in the world is El Dorado anyway?"
+  },
+  {
+    "id": "263",
+    "text": "Are you fellows looking for a place called El Dorado?"
+  },
+  {
+    "id": "264",
+    "text": "Who're you?"
+  },
+  {
+    "id": "265",
+    "text": "My name is Ernst. I've been traveling the globe in order to make an accurate world map."
+  },
+  {
+    "id": "266",
+    "text": "Well then, do you know where El Dorado is?"
+  },
+  {
+    "id": "267",
+    "text": "No, I've never heard of it. I can't tell just by the name. (Sigh) I guess the sooner I finish this map the better."
+  },
+  {
+    "id": "268",
+    "text": "Hmmm. Well, it's probably a place that not too many people have been to."
+  },
+  {
+    "id": "269",
+    "text": "Then I think your best bet would be the South American Continent."
+  },
+  {
+    "id": "270",
+    "text": "Try around the equator, somewhere between 50 and 70 degrees west."
+  },
+  {
+    "id": "271",
+    "text": "Thanks. We might as well go and check it out."
+  },
+  {
+    "id": "272",
+    "text": "Master $n, is it true that you hold other contracts besides that with the Duchess?"
+  },
+  {
+    "id": "273",
+    "text": "Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us."
+  },
+  {
+    "id": "274",
+    "text": "Please don't ever do this again. If you do, we will lose all faith in you."
+  },
+  {
+    "id": "275",
+    "text": "Well, $n, I guess we're in South America now! But it's so big, I don't know how we're going to find El Dorado."
+  },
+  {
+    "id": "276",
+    "text": "Sounds pretty tough, eh? Oh! Camillo, look! That guy looks hurt!"
+  },
+  {
+    "id": "277",
+    "text": "You're right! Come on, let's go help him."
+  },
+  {
+    "id": "278",
+    "text": "He's still breathing. Hey, wake up!"
+  },
+  {
+    "id": "279",
+    "text": "Huh? Where am I? What happened to me?"
+  },
+  {
+    "id": "280",
+    "text": "This is the port of $r01. You must have washed up on shore, and then stumbled in here. Do you remember anything?"
+  },
+  {
+    "id": "281",
+    "text": "Thank you for helping me. I owe you a great debt."
+  },
+  {
+    "id": "282",
+    "text": "What happened? By the way, I'm an adventurer, $n $s's the name."
+  },
+  {
+    "id": "283",
+    "text": "$n, huh? I am.. was.. an adventurer myself, Raul Franco of Portugal."
+  },
+  {
+    "id": "284",
+    "text": "Franco?! Any relationship to Duke Franco?"
+  },
+  {
+    "id": "285",
+    "text": "Duke?"
+  },
+  {
+    "id": "286",
+    "text": "Yes, The Duchess Franco is sponsoring my travels."
+  },
+  {
+    "id": "287",
+    "text": "My ancestors were nobles, but in my generation we were just poor merchants. Aye, that was a long time ago!"
+  },
+  {
+    "id": "288",
+    "text": "I've been a prisoner for the past 10 or 15 years."
+  },
+  {
+    "id": "289",
+    "text": "Prison? Would you mind telling us what happened? I'm sure we can help you."
+  },
+  {
+    "id": "290",
+    "text": "It was over 20 years ago... my ship was destroyed in a storm. Somehow I made it ashore and found my way to a village."
+  },
+  {
+    "id": "291",
+    "text": "For several years, I lived in that village, enjoying peaceful days, waiting for a ship to sail by and take me home."
+  },
+  {
+    "id": "292",
+    "text": "But one day, an army invaded, so I ran deep, deep into the heart of the mainland."
+  },
+  {
+    "id": "293",
+    "text": "Suddenly, before my eyes, a wondrous sight appeared. Aye, it was amazing..."
+  },
+  {
+    "id": "294",
+    "text": "Raul, what was it? What did you see?"
+  },
+  {
+    "id": "295",
+    "text": "The legendary city, in the Land of Gold, El Dorado."
+  },
+  {
+    "id": "296",
+    "text": "What?! You mean you found El Dorado?!"
+  },
+  {
+    "id": "297",
+    "text": "Aye, that was El Dorado alright, so bright and beautiful..."
+  },
+  {
+    "id": "298",
+    "text": "You wouldn't believe how shiny and bright it was. Everything was made of gold. It hurt my eyes just to look at it!"
+  },
+  {
+    "id": "299",
+    "text": "I took several trinkets and left El Dorado."
+  },
+  {
+    "id": "300",
+    "text": "I continued walking into the heart of the mainland, and eventually emerged on the other side, at another village."
+  },
+  {
+    "id": "301",
+    "text": "I must have spent years there, waiting for a ship from Portugal to come by."
+  },
+  {
+    "id": "302",
+    "text": "One day, I heard that some Portuguese were building a town nearby, so I went to have a look."
+  },
+  {
+    "id": "303",
+    "text": "Raul, have you ever seen this medallion before?"
+  },
+  {
+    "id": "304",
+    "text": "What medallion? Th..this is the medallion that saved my life. I gave it to the villagers as thanks for their hospitality."
+  },
+  {
+    "id": "305",
+    "text": "Hmmm, I thought it was just a yarn, but I found what the pirates that attacked your village had hidden."
+  },
+  {
+    "id": "306",
+    "text": "I believed that El Dorado really exists, and came here to search for it."
+  },
+  {
+    "id": "307",
+    "text": "This medallion has been around the world and yet again saves my life. Ach, the winds of fate are a strange thing, my lad."
+  },
+  {
+    "id": "308",
+    "text": "But where was I? Oh yes, I went to go see the Portuguese town."
+  },
+  {
+    "id": "309",
+    "text": "As soon as I reached the town, I was arrested and thrown into prison."
+  },
+  {
+    "id": "310",
+    "text": "I found out later, it was the army that had attacked my village before."
+  },
+  {
+    "id": "311",
+    "text": "They are Portuguese, but they have betrayed their king, in order to try for world domination."
+  },
+  {
+    "id": "312",
+    "text": "I spent many long years in that prison. But several days ago, suddenly the camp was buzzing with activity."
+  },
+  {
+    "id": "313",
+    "text": "I don't know what caused the commotion, but I saw my chance and escaped."
+  },
+  {
+    "id": "314",
+    "text": "You were lucky to get away safely."
+  },
+  {
+    "id": "315",
+    "text": "Don't I know it! Now, all I want is to go home to Lisbon. Every day in prison, all I thought about was Lisbon."
+  },
+  {
+    "id": "316",
+    "text": "Ah, the beautiful port of Lisbon. My first mate Rocco."
+  },
+  {
+    "id": "317",
+    "text": "Rocco?"
+  },
+  {
+    "id": "318",
+    "text": "And the son I left behind, Leon."
+  },
+  {
+    "id": "319",
+    "text": "Wai..Wait a minute! Your son's name is Leon?!"
+  },
+  {
+    "id": "320",
+    "text": "Yes, Leon Franco."
+  },
+  {
+    "id": "321",
+    "text": "Leon Franco... as I mentioned earlier there is a Duke Franco, and his name is Leon!"
+  },
+  {
+    "id": "322",
+    "text": "Is that true? Could it really be?"
+  },
+  {
+    "id": "323",
+    "text": "I'm certain I heard that Duke Leon used to be an adventurer."
+  },
+  {
+    "id": "324",
+    "text": "He rescued the Princess of Portugal, who had been kidnapped by pirates. She fell in love and married him, and the King made him a Duke."
+  },
+  {
+    "id": "325",
+    "text": "And the old sailor with the Duke's son, Joao, is called Rocco."
+  },
+  {
+    "id": "326",
+    "text": "Duke Leon must be your son!"
+  },
+  {
+    "id": "327",
+    "text": "Then it's true. So my boy Leon has become a Duke..."
+  },
+  {
+    "id": "328",
+    "text": "Let's go. We're taking you to Lisbon."
+  },
+  {
+    "id": "329",
+    "text": "But, you came all this way to search for El Dorado, right?"
+  },
+  {
+    "id": "330",
+    "text": "Don't worry about it. It's not going anywhere! And you remember the way, don't you?"
+  },
+  {
+    "id": "331",
+    "text": "I think I can still draw a map of the area."
+  },
+  {
+    "id": "332",
+    "text": "That's good enough. You're the one who found El Dorado anyway. I don't want to take credit for someone else's discovery."
+  },
+  {
+    "id": "333",
+    "text": "You're quite an adventurer. My respects."
+  },
+  {
+    "id": "334",
+    "text": "Thank you, thank you very much."
+  },
+  {
+    "id": "335",
+    "text": "OK then, let's get back to Lisbon. Duke Leon will sure be happy to see you!"
+  },
+  {
+    "id": "336",
+    "text": "It's going to be tough. But that's why it's called an adventure. Besides, it wouldn't be a legend if just anyone could find it."
+  },
+  {
+    "id": "337",
+    "text": "Let's stop by a port and see if we can find anything out."
+  },
+  {
+    "id": "338",
+    "text": "Say, have you ever heard of El Dorado?"
+  },
+  {
+    "id": "339",
+    "text": "Sure. That's the legendary city in the land of gold, right?"
+  },
+  {
+    "id": "340",
+    "text": "Where is it?"
+  },
+  {
+    "id": "341",
+    "text": "Where is it? If I knew that, I'd be a rich man now. Just a legend, my friend. Just a legend..."
+  },
+  {
+    "id": "342",
+    "text": "Hey $n, we'd better go straight to Duke Leon's."
+  },
+  {
+    "id": "343",
+    "text": "Come on men! We've got to get Raul back to Lisbon!"
+  }
+]

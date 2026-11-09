@@ -1,0 +1,1033 @@
+id,text
+0,How may I help you?
+1,"Hello, %s %s!"
+2,You can't invest in %s as it's the capital of %s.
+3,What are you looking for today?
+4,"Sorry, we don't have any %s in stock."
+5,%s %s the local specialty.
+6,"Well then, how much would you pay?(0-%d)"
+7,"Your generosity is overwhelming. Really, we can't accept anymore."
+8,We welcome any investment!
+9,How many lots of %s will you purchase?
+10,"You drive a hard bargain. Alright, I accept."
+11,I'll lose my shirt selling at such a low price!
+12,I can't sell that low. But how about %d gold pieces?
+13,Come back again.
+14,What? Is this all?! Thanks for nothing!
+15,Thank you very much.
+16,I won't forget your generosity.
+17,"Hello %s, would you like some %s?"
+18,"Hey sailor, you'll like our %s!"
+19,"Our specialty, %s, costs %d gold %s per bottle. How many will you buy?"
+20,"Oh, you don't have enough cargo space. Come back when you secure some more space."
+21,We don't have any goods to sell.
+22,We don't have enough gold.
+23,What a bargain!
+24,It seems a little expensive.
+25,That price is acceptable.
+26,"Commodore, we don't have any more space in the hold."
+27,"Commodore, we've got too many kinds of goods. Try selling something first."
+28,"Commodore, we have no gold!"
+29,We have enough men in our crew.
+30,We don't have enough gold.
+31,You may need to loosen your purse strings and treat the crowd if you want to persuade anyone to join our crew.
+32,Shall we recruit some men for our crew?
+33,Hey! Do any of you tough sailors want to join our crew?
+34,per sailor.
+35,We've left a few of our sailors unassigned. Is this OK?
+36,Thanks for treating me.
+37,"By the way,"
+38,I met a good navigator in the lodge.
+39,I don't see anyone who's really worth recruiting.
+40,did you know that %s is after you?
+41,"Ahoy there, matey! How's life on the high seas?"
+42,I am
+43,I am a vagabond sailor.
+44,"Are you buying me the pub's specialty? 
+Seems like we'll get along well!"
+45,Thank you.
+46,"I hate to brag, but"
+47,Do you like this port's %s?
+48,"Hey, would you like to join our crew for the next voyage?"
+49,"Sorry, but I'm not looking for a new job."
+50,The son of Portugal's Duke Leon. An adventurer who travels around the world to find the secret of Atlantis.
+51,Spanish Naval Officer. She leaves the Navy for a life of piracy to avenge the mysterious loss of her brother and fiance.
+52,British Privateer. Appointed by King Henry VIII to the Royal Knights in a secret mission to defeat the Spanish Armada.
+53,"Dutch Geographer. Hired by his cartographer friend Mercator, to explore far off lands and make a map of the entire world."
+54,Italian Adventurer. Roams the world in search of treasure and the unknown to pay for the debt his father left him.
+55,Turkish Merchant. Grew up as an orphan in poverty. A twist of fate brings him a merchant ship and a chance to make his fortune.
+56,"Ahoy there, matey, will ye be shoving off?"
+57,Some ships have no crew assigned for navigation. We won't get anywhere.
+58,We can sail for more than 6 months. Are you ready to cast off?
+59,We'll starve if we leave with no provisions!
+60,We won't be able to sail for long. Shall we cast off anyway?
+61,We can sail for %d days. Shall we cast off?
+62,"Water is free. How many barrels should we load?
+(0-%ld)"
+63,"Food will cost us %ld gold pieces per barrel. How many barrels will we buy?
+(0-%ld)"
+64,"Lumber will cost us %ld gold pieces per plank. How many planks will we buy?
+(0-%ld)"
+65,"Cannonballs will cost us %ld gold pieces per barrel. How many will we buy?
+(0-%ld)"
+66,Welcome. You must be tired. Please make yourself at home.
+67,I don't see anyone who would be much help.
+68,I heard that a good navigator was at the pub.
+69,"Whew, it's a relief to be back on dry land. Don't you agree, Commodore?"
+70,"It's bedtime for this sailor, Commodore!"
+71,"When will we leave, Commodore?"
+72,What do you want with me?
+73,I am Commodore %s of %s. I command a %s.
+74,"I am %s, the %s on a %s from %s."
+75,I am a vagabond sailor.
+76,You're a little low on gold. You don't need to be so generous.
+77,What brings you to this shipyard?
+78,It seems that your mate is destined to have a series of misfortunes.
+79,Your mate doesn't have very good luck.
+80,Let's just say that your mate's luck is pretty mediocre.
+81,Your mate is one lucky sea dog!
+82,What good fortune... His luck will help you as well.
+83,We defeated the opponent.
+84,Commoners are not permitted to enter the palace. Remove yourself from the premises.
+85,What do you want?
+86,Will you pay 100 gold pieces for this piece of information?
+87,"Huh, you'll regret it later."
+88,It seems %s is out to get %s.
+89,A merchant fleet is going to %s.
+90,"I respect you for your beliefs, but Muslims just aren't welcome here."
+91,Welcome to our church.
+92,Let's pray that God will protect you.
+93,Your money will be used to feed the poor. How much can you give?
+94,Come visit us again.
+95,Thank you for your generous donation. Our heavenly father will surely watch over you.
+96,May God bless you in your travels!
+97,Welcome to the central office of the Marco Polo Bank.
+98,Welcome to our regional branch of the Marco Polo Bank.
+99,The enemy's commodore proposed a duel.
+100,You don't have any gold to deposit.
+101,You can't deposit any more gold. You've reached our maximum limit.
+102,Please pay back your debt before you make a deposit.
+103,Now you have %ld gold pieces in your savings account.
+104,You don't have any gold in your account.
+105,How much would you like to deposit? (0-%ld)
+106,We'll deposit %ld gold pieces into your account. The monthly interest rate is 3%%.
+107,You have enough gold on hand. There's really no need for you to withdraw any more.
+108,How much would you like to withdraw?(0-%ld)
+109,You can't carry that much gold around with you.
+110,Here is %ld gold from your account.
+111,"You still have savings in your account, what do you need a loan for?"
+112,"You have a lot of gold on hand, I don't think you really need to borrow any more."
+113,"With your poor credit history, there's no way we can give you a loan."
+114,Your credit line is %ld gold pieces.
+115,How much gold do you need to borrow?(0-%ld)
+116,Then we'll lend you %ld gold pieces.
+117,The monthly interest rate is 10%%. Please invest our loan wisely.
+118,You don't owe us any money.
+119,How much of your loan will you be paying back? (0-%ld)
+120,Thank you for your payment.
+121,We rounded up %d men.
+122,"Commodore, only %d %s came forward."
+123,"Commodore, no one seems interested."
+124,It costs %d gold pieces
+125,How many men shall we recruit? (0-%d)
+126,"
+%d@N"
+127,"
+%d@S"
+128,%d@E
+129,%d@W
+130,have you been to %s? It's around
+131,It's known for its %s.
+132,What? You are the famous %s %s %s?
+133,"Wow, you, %s %s, will buy me the pub's specialty? I'm delighted!"
+134,"Commodore, it's nice to be back ashore."
+135,"Commodore, let's not spend too much time in the pub."
+136,"Commodore, where's our next stop?"
+137,%s. I sail with a %s from %s.
+138,%s. I'm the %s of a %s from %s.
+139,I have a knack for %s.
+140,"Sorry, but I prefer to work alone."
+141,Your ship? No thanks.
+142,I'll work for you if you pay me %d gold pieces per month.
+143,That's too bad.
+144,"OK, it's a deal, Commodore."
+145,"Sorry, I'm not interested. I only sail with experienced navigators."
+146,%s is our busiest waitress. You'll have to tip her 10 gold pieces first.
+147,"Commodore, we don't have enough gold."
+148,You cannot equip yourself with this item.
+149,Now your debt is %ld gold.
+150,%s will cost you %d gold pieces per lot. Is this price OK?
+151,The Price Index of %s Items is %d%%.
+152,We're on our way home.
+153,We're heading for %s to make an investment there.
+154,We're off to trade goods in %s.
+155,"Ohhh, I was waiting for you to sail by. It's time to teach you a lesson."
+156,Unlucky fool! You don't know who I am.
+157,We're looking for %s of %s.
+158,We're sailing in a convoy to protect merchant fleets. It's not safe around here these days.
+159,I'm on the lookout for pirates. They won't get away from me!
+160,I have some business with you.
+161,And you know what? You are my next prey.
+162,Which country do you want information about?
+163,"Sorry, no gold, no information!"
+164,Thank you for choosing Marco Polo Bank.
+165,We don't have any used ships in stock.
+166,Ye don't have a mate to navigate another ship.
+167,Do ye want to swap one of the ships in yer fleet for this one?
+168,"This one was popular in Lisbon - about 100 years ago! However, it's very easy to maneuver."
+169,"This classic vessel was first built about two centuries ago. Unfortunately, it doesn't stack up to today's ships."
+170,"This durable craft's shallow hull makes it easy to maneuver, but its cargo capacity is limited."
+171,"It's large and durable, but I wouldn't use it on the open seas."
+172,"It used to be popular in Venice, as even the smallest crew can navigate it with ease."
+173,This is a well-balanced lateen ship. It's perfect for a novice sailor.
+174,This one is easy to handle and makes for smooth sailing over the ocean.
+175,"This may be a bit expensive, but it's worth the cost when trading around coastal seas."
+176,This is a mid-size ship with a large cargo space. It's easy to maneuver and suitable for adventurous voyages.
+177,This large trading ship is for the experienced navigator.
+178,"This is a battleship, but it's also useful for trading if its payload is kept low. Not for the unseasoned sailor."
+179,"For such a large ship, this is quite easy to maneuver. I highly recommend it."
+180,It's quite durable for its size. Ye can even use it when fighting pirates if ye manuever it carefully.
+181,"A small, high-performance sailing ship. It has the capacity to carry guns for battles."
+182,We are proud of this great ship. It combines the storage capacity of a galleon with the mobility of a caravel. A true work of art!
+183,Only a few shipyards have the ability to build this ship. Ye'll never regret buying it.
+184,"This is the ultimate ship, but it's only for highly skilled navigators."
+185,"Well, this is the only type of ship built in China."
+186,"This small ship can't withstand rough waves, so it's pretty useless on the high seas."
+187,This ship isn't bad. Just remember the payload is high...
+188,No other ship can overcome this floating bastion in close combat.
+189,"Galleys are normally battleships, but this one is fast enough to be used for trading, as well."
+190,"This huge rowing ship is armored with steel, and has space for lots of guns."
+191,"This ship was made for many Japanese warlords. Ye may want to own one, too."
+192,This is only a mid-sized ship. I don't think ye can make it home in this one.
+193,Will ye buy this one?
+194,I'd sell this ship for %ld gold pieces. What do ye say?
+195,Then how much are ye willing to spend?
+196,I think he'll accept as low as %ld gold pieces.
+197,"Get out of here, ye landlubber! Don't ye know the real value of a ship?"
+198,I can't accept that price.
+199,"All right, it's yers. Time to name yer ship."
+200,Which one is for sale?
+201,Is this ship OK?
+202,"If you are looking for %s,"
+203,I heard some traders saying it's sold in
+204,"This ship's already in tiptop shape, matey!"
+205,"Hmmm, it'll cost ye %u gold pieces to fix this ship. What do ye say?"
+206,"Have it your way, but I really think you should have it fixed now."
+207,We don't have enough gold.
+208,We only have the flag ship.
+209,This is your flag ship. Do you still want to sell?
+210,"Then, select a new flag ship, mate."
+211,There is still some cargo left on that ship. Sell it anyway?
+212,There is still crew aboard that ship. Is it OK to dismiss them?
+213,"For this ship, I'll give you %ld gold pieces. OK?"
+214,As you wish.
+215,There are no fleets in sight.
+216,I am %s of %s.
+217,We only have one ship.
+218,Which ship will be the ship #%d?
+219,Is this OK?
+220,You don't have to worry about my wages. I like working for you!
+221,"How much will my new wages be?
+(%d-2000)"
+222,"What are %s's new wages?
+(%d-2000)"
+223,Thank you very much.
+224,I'm not very happy with such low wages.
+225,There are no fleets to gossip with.
+226,You haven't selected the ship you'll command.
+227,%s is a captain. You can't appoint him as %s.
+228,%s was appointed as %s.
+229,You have no mates.
+230,"How many men will you assign to %s ship?
+(0-%d)"
+231,We will dismiss %d %s. Is this OK?
+232,Is it OK to end the transfer process?
+233,You can't get rid of your flagship. Transfer your Commodore to another ship.
+234,Is it OK to get rid of %s?
+235,May I help you?
+236,It seems you have no gold.
+237,You already have the maximum of 20 items. You'll have to sell one first.
+238,I'm sure you'll find something you like.
+239,I'm afraid you don't have enough gold.
+240,The %s will cost you %ld gold pieces.
+241,
+242,Are you interested in anything else?
+243,You don't have any items.
+244,What would you like to sell?
+245,I'd like to take that %s off your hands. I'll take it for %ld gold pieces.
+246,"OK, I give in. I'll take it for %ld gold pieces."
+247,I'll take it for %ld gold pieces.
+248,What else can you sell me?
+249,You? Get out! You're not welcome here! I never want to see your face again!
+250,"Hey sir, your ship's all ready to go!"
+251,We don't build new ships here.
+252,"Ho, you can afford a new ship?"
+253,Will you order this model?
+254,What kind of hull?
+255,Is this OK?
+256,This one will cost you %ld gold pieces. Is it a deal?
+257,"OK, I'll start building ye a mighty fine vessel!"
+258,How many bunks for the crew?
+259,Make space for how many guns?
+260,Is this OK?
+261,Your ship isn't ready yet. Come back in %d day%s.
+262,It will take %d days to build your ship.
+263,Do you want to add it to your fleet now?
+264,I'll keep the ship in the dock. Go there when you need it.
+265,"I'll keep it for a while, then."
+266,We have a great selection today.
+267,Which ship will ye like to fit with a nice figurehead?
+268,What type are ye interested in?
+269,The %s will cost ye %ld gold pieces. Is this a deal?
+270,Load guns onto which ship?
+271,How many guns?
+272,%d %s%s will cost ye %ld gold pieces. Is this OK?
+273,Which ship?
+274,It will cost ye %d gold pieces to change the cargo capacity. Is this OK?
+275,Then give it a new name.
+276,We are now keeping %d of your ships in the dock. We can keep up to %d of your ships.
+277,We aren't storing any of your ships in the dock right now. We can keep up to %d of your ships.
+278,--- none ---
+279,"But Commodore, we only have the flagship. We won't be able to sail anywhere if we put it in storage!"
+280,Which ship shall we keep in the dock for you?
+281,There are %d men on the ship. Is it OK to dismiss them?
+282,"You don't have to worry, we'll keep a close eye on your ship."
+283,We don't have any of your ships in our dock.
+284,Which ship will you put back into commission?
+285,You don't have a mate to command another ship.
+286,"Alright then, we'll get your ship ready to go!"
+287,"OK, we will exchange your ships."
+288,"Sorry, but our dock is full."
+289,It's time to go to bed.
+290,Uh? Who is it?
+291,It's me. Open the door.
+292,"Oh, %s!"
+293,I would like to talk to you.
+294,I was just thinking about you. Come in.
+295,Did you want to see me again?
+296,I just couldn't stop thinking about you.
+297,"I wanted to have someone to talk to, too."
+298,Welcome to the House of Fortune. What do you want to know?
+299,It will cost you 50 gold pieces. Is it OK?
+300,You don't seem to have enough.
+301,Very well. Take a seat.
+302,"Ohh, I see an ominous shadow across your face. You may be doomed to have a difficult life."
+303,"Your future doesn't look very bright. Be careful, and watch out for accidents."
+304,"You have an average fortune. But remember, you are the one who carves out your destiny."
+305,You have a good fortune. Have more self-confidence.
+306,What a strong fortune! You have nothing to fear in this life.
+307,I have investigated that matter for you.
+308,Welcome!
+309,I'm glad to see you again.
+310,I was looking forward to seeing you.
+311,I knew you were coming here.
+312,You don't fool me. I can tell you haven't discovered anything more than the end of your nose.
+313,"Wow, that's so exciting!"
+314,It's beautiful!
+315,It must have been quite a sight to see.
+316,Did it bite you?
+317,What an interesting plant!
+318,"I wonder what kind of people lived there, long ago."
+319,Weren't you scared?
+320,"I wish I could go there, and see that."
+321,"Oh, I am so happy!"
+322,Do I look pretty?
+323,"It's very shiny, and quite pretty."
+324,Thank you so much!
+325,This is my gift. MM... Smack!
+326,It seems a girl called %s is in love with you.
+327,"Continue your effort, and your love will be accepted."
+328,Take actions. No one gained love by just waiting for it to happen.
+329,"As long as you are in this port, you won't have good luck in love."
+330,"I appreciate your kindness, but you don't have anything I need."
+331,Is that an imaginary gift you're trying to give me? You don't have anything!
+332,You already have one.
+333,You can't sell an item that you've equipped yourself with.
+334,You can load %d more %s.
+335,"Well, well, you've got a few maps there. Which one do you need help with?"
+336,"Commodore, %s is missing."
+337,"Commodore, %s is missing."
+338,Aren't you supposed to be on a mission for someone in %s?
+339,The item was taken off.
+340,"Commodore, the sky looks ominous. I think a storm's headed our way."
+341,"Ahoy there, Cap'n! The sky's as dark as a raven's wing. I think a storm's a'coming!"
+342,"Commodore, I've got a bad feeling we may run into some nasty weather."
+343,"Avast, there, Cap'n! I got a bad feelin' in my bones about the weather."
+344,"Commodore, I feel an eerie calm settling across the waters. Is the wind dying down?"
+345,"Cap'n, I'm as jumpy as a rabbit. It's too calm! Is the wind dying down?"
+346,"Commodore, something seems wrong with the weather."
+347,"Commodore, something seems wrong with the weather."
+348,"Commodore, the wind is damp. It may become foggy."
+349,"Aye, Cap'n, my joints are achin'. This damp wind is sure to bring a fog!"
+350,"Commodore, something seems wrong."
+351,"Commodore, something seems wrong."
+352,"Commodore, it's a storm!! The waves are tossing the ship!"
+353,Blast! A storm!! Our ship's being tossed to the four winds!
+354,"Commodore, the wind has died down completely."
+355,"Cap'n, it's so still I can hear myself think! Where did the wind go?"
+356,This heavy fog is blocking our sight.
+357,"Arrrh, this fog is thicker than pea soup! I can't see a thing!"
+358,"Commodore, the %s was wrecked!"
+359,"Cap'n, the %s was lost to the deep!"
+360,"Commodore, somehow we weathered the storm."
+361,"Arrrh, Cap'n, we didn't let that storm get us!"
+362,"Commodore, the wind! The wind started picking up!"
+363,"Cap'n, did you feel that? There's a breeze a blowin'!"
+364,"Commodore, the fog finally cleared."
+365,"Commodore, we're going to stop in %s. Is this OK?"
+366,"After sailing for %d %s, we arrived in %s."
+367,Restocked for %d %s and left %s.
+368,We can see far!
+369,Meow!
+370,"All the rats have
+disappeared!"
+371,"Nothing special seemed
+to have happened."
+372,"The storm is gone...
+The night is upon us."
+373,"The storm is gone...
+The sun is still high."
+374,"Nothing seemed to
+happen."
+375,"The crew has recovered
+from scurvy."
+376,"Ahhh... That
+was delicious!"
+377,"C0Other than the ships sailing with you now, you can only have 30 ships."
+378,Will you put it on?
+379,C1Goods        Sells at      Buys atC0
+380,"Commodore, that's the port of %s, a supply port."
+381,Discovered %s.
+382,"Well, that takes care of your debt! Thank you for using Marco Polo Bank."
+383,Come to think of it...
+384,Bought %d %s of %s for %ld gold pieces each.
+385,Iberia
+386,Northern Europe
+387,The Mediterranean
+388,North Africa
+389,Ottoman Empire
+390,West Africa
+391,Central America
+392,South America
+393,East Africa
+394,Middle East
+395,India
+396,Southeast Asia
+397,Far East
+398,What do you want to know?
+399,"Sorry, I don't know."
+400,I've heard from some traders that %s is sold in %s.
+401,"I haven't been there, but I've heard from some traders that %s is in"
+402,the area of
+403,"Well, that's a secret!"
+404,"C6Captain:C0%s
+C6Nav./Look/CombC0"
+405,"%3d% %3d %3d 
+C6Minimum Required:C0%3d"
+406,C1Goods           RateC0
+407,C1Goods              Load     RateC0
+408,%-14s   %5d    %5d
+409,--- none ---
+410,Did you know that King Manuel of Portugal is looking for you?
+411,Did you know that King Carlos of Spain is looking for you?
+412,Did you know that Suleiman II the Magnificent of the Ottoman Empire is looking for you?
+413,Did you know that King Henry the VIII of Britain is looking for you?
+414,Did you know that the Governor-General of Italy is looking for you?
+415,Did you know that the Governor-General of Holland is looking for you?
+416,is looking for you?
+417,Shall we cast off?
+418,That ship's in tip-top condition.
+419,We have no lumber.
+420,None of our ships are in need of repair.
+421,How many planks of lumber will you use?(0-%d)
+422,You can't load any more - our cargo bay is full.
+423,How many barrels of water (0-%d)?
+424,"I doubt that there is a spring here, but would you like to search for water?"
+425,We couldn't find water.
+426,We found a clear spring.
+427,We lost %d %s of our crew.
+428,We don't have any food. Let's give up our search.
+429,We didn't find anything.
+430,We're being attacked by a %s!
+431,We discovered %s %s!
+432,There is nothing interesting to find here.
+433,Shall we entertain the locals?
+434,The friendship level has increased to %d. They're going to help us search.
+435,We don't have any food to give.
+436,Shall we plunder the village?
+437,We stole %d %s of food.
+438,The villagers counterattacked!
+439,Shall we land at this village?
+440,Shall we land here?
+441,We can't land there.
+442,We lost our entire crew. We can't sail any more.
+443,"You, the notorious %s %s! You have some nerve to show your face here! I'll get you!"
+444,Welcome %s %s. Please proceed into the royal hall.
+445,Darn it!
+446,I'm not about to let myself be captured by the likes of you!
+447,"But you can't sell the information elsewhere, OK?"
+448,"Whew, that was a narrow escape!"
+449,I was looking forward to meeting you.
+450,"According to the law, you should be thrown into a dungeon, and locked away forever!"
+451,"But just this once, I'll be lenient and seize a mere 4/5 of your fortune."
+452,That should teach you not to mess with this country ever again. Make sure there's not a next time.
+453,"Well, here is the status of our allied ports overseas."
+454,I hope this information was useful.
+455,We're not allied with any ports in
+456,No one has sailed to
+457,Our economic power rating in
+458,Is it really true that you would like to pledge loyalty to our country?
+459,"That's too bad, but you are always welcome here. Come back if you change your mind."
+460,I am pleased with your decision. From now on you shall serve our country.
+461,His Majesty thinks you can make it on your own this time.
+462,His Majesty provides the assistance of %d000 gold pieces.
+463,Serve well for the glory of our country.
+464,His Majesty provides a %s.
+465,Europe
+466,New World
+467,West Africa
+468,East Africa
+469,Middle East
+470,India
+471,Southeast Asia
+472,Far East
+473,"Commodore, we have rats on board! What should we do?"
+474,"Commodore, some men are suffering from scurvy."
+475,C1Support Industry EconomyC0
+476,Your fame as an adventurer has gone up.
+477,May I help you?
+478,"Oh, %s %s. I was waiting for you!"
+479,Good luck.
+480,I heard you want to sign a contract with us.
+481,"As long as you have a contract with us, you can't sell your discoveries to any other noblemen. Do you agree to the terms of this contract?"
+482,"That's too bad. If you change your mind at any time, please come back."
+483,I am looking forward to hearing exciting news from you.
+484,"Er, it seems you haven't discovered anything this time."
+485,What have you discovered?
+486,%s%s?
+487,"Ah, you discovered %s%s."
+488,"Great, you discovered %s%s!"
+489,Super! You discovered %s%s! I knew we could count on you.
+490,What?! You discovered %s%s?! You are amazing! You are the world's greatest adventurer!!
+491,There is nothing new to tell you.
+492,"I've heard some say there's a village around %d%s %d%s, but it's only a rumor."
+493,May I help you?
+494,"Oh, %s %s. I was waiting for you."
+495,Would you like to sign a contract with our cartographer's guild?
+496,"Hmm, you don't have any cartography skills. I'm sorry, we can't hire a novice."
+497,We'll pay you for the information you gain on your voyages to unknown lands.
+498,Come back when your skills reach over 75.
+499,"Oh, that's too bad. Come back if you change your mind."
+500,We'll be looking forward to hearing from you soon!
+501,"So, you want to learn cartography, eh?"
+502,High %s ability is necessary to learn the skill of cartography.
+503,The apprenticeship here will cost you %u gold pieces.
+504,You don't have enough gold.
+505,Is this OK?
+506,You haven't traveled to new areas.
+507,Fantastic! This completes the world map!!
+508,Thank you for all your hard work.
+509,Come back again.
+510,The sound of female voices singing seemed to slowly approach the ship from the distant waves.
+511,"The sweet, bewitching melody enticed many sailors to fling themselves into the ocean."
+512,A giant eye peeked between the waves. Suddenly a tentacle emerged and tried to drag some of the crew into the ocean.
+513,"Fortunately, the ship and crew remained unharmed, but the captain and the mates were overcome with terror."
+514,"In the midst of a dense fog, the squeaking noise of the rigging broke the ominous silence."
+515,"When the fog finally cleared away, one of the ships had vanished."
+516,A giant black manta ray was cruising beneath the ship.
+517,"When a sailor plunged a board into its open mouth, the monster quickly turned away."
+518,As we looked up to the mast there was a strange phosphorescent light around the sail and rigging.
+519,We survived! It's a miracle!
+520,A flaming bird flew into our fleet.
+521,There was no time to avoid it. The last ship of the fleet caught on fire.
+522,"All of a sudden an enormous tornado appeared on the horizon, and swallowed our fleet."
+523,"To save the ships, we had no choice but to throw all our cargo into the sea."
+524,With a clap of thunder a huge dragon appeared and crossed by the stern of our flagship.
+525,Many members of the frightened crew were suddenly struck by a mysterious illness.
+526,A number of whirlpools swelled and turned into huge spouts. Giant whales!!
+527,"Stunned, we could do nothing to stop the whales from capsizing the ship in the rear of our fleet."
+528,A ship with broken masts and decayed sails approached us soundlessly.
+529,"No one was on board, but we heard the sound of sobbing as it passed by."
+530,We can't carry any more gold.
+531,You already have 10 ships. You don't need any help from me.
+532,You don't have a mate to be a captain. Come back when you find a mate.
+533,"Sorry, I'm busy."
+534,Which country's fleet do you need information about?
+535,What type of fleet?
+536,OK. It'll take about %d days.
+537,"Sorry, I haven't completed my investigation yet."
+538,"By the way, I got some information for you."
+539,"You expressed an interest in the %s from %s, as I recall."
+540,"You were interested in finding out about the %s, right?"
+541,"Commodore %s's fleet 
+is"
+542,heading toward %s.
+543,targeting %s's fleet.
+544,carrying %s.
+545,You need %d more experience points to advance your navigation skill level.
+546,And you need %d more experience points to advance your combat skill level.
+547,"Lastly, you need %d more fame points to obtain the next rank."
+548,guarding the port of %s.
+549,guarding Commodore %s's fleet.
+550,waylaying fleets in %s.
+551,attacking merchant fleets indiscriminately.
+552,I'll make the arrangements for you at the shipyard.
+553,"According to sailors here, the current position of that fleet is around"
+554,--- none ---
+555,Name your ship.
+556,The %d%s fleet was destroyed a while back.
+557,Name the ship.
+558,We captured %d enemy %s! We can add %d of them to our fleet.
+559,Is this OK?
+560,%ld gold pieces
+561,and %s %s
+562,We managed to seize
+563,The setting sun put an end to the day's battle.
+564,The battle ended as the flagship fled.
+565,The battle ended as the enemy's flagship fled.
+566,Our flagship had no choice but to surrender.
+567,"Give me %u gold pieces, and I'll teach you."
+568,You have been exiled from your mother country.
+569,"Your name has been shamed, and your title has been stripped away."
+570,"Well, a navigator called %s was looking for a job in %s."
+571,I heard there aren't really any capable sailors in %s.
+572,"Commodore, we don't have enough gold to pay our crew's wages."
+573,"Commodore, we don't have enough gold to pay our crew's wages."
+574,"Commodore, our crew was paid %ld gold pieces in wages."
+575,"Commodore, our crew was paid %ld gold pieces in wages."
+576,"|Palace Guard|
+Commoners are usually not admitted here, but the King is interested in meeting with you."
+577,We've lost control of all our ships. We can't sail any further.
+578,Welcome to %s! It's nice to have visitors from abroad.
+579,"This is %s, the capital of %s."
+580,"This is %s, %s's %s."
+581,This is %s.
+582,"Here is your pay, %ld gold pieces."
+583,Boldly go where you haven't gone!
+584,But we didn't lose any crew members.
+585,So you came here for business.
+586,"If you want to ally with a port, invest in the marketplace or shipyard in that port."
+587,"Hmm, something new... Village people may be able to help you."
+588,Why don't you ask at the guild.
+589,Someone in the pub might have an idea.
+590,"If you are looking for %s,"
+591,"If you are looking for the palace of %s, try"
+592,"If you are looking for the office of the Governor-General of %s, try"
+593,%s...
+594,I believe it's around
+595,Aren't you on a royal mission?
+596,I think %s %s should know about the %s.
+597,Where is he? I don't know. Ask around in the pub.
+598,%s? The guild in %s may be able to give you some information.
+599,%s %s is in %s.
+600,You'll find %s around
+601,around
+602,%s %s... He's leading %s's %s.
+603,His whereabouts? I have no idea. Maybe the waitress in the pub would know.
+604,"%s? I've got a map, but I had no luck finding it."
+605,"Well, you can have this map for 1000 gold pieces."
+606,Here's the map. Good luck!
+607,"Sorry, no money, no map!"
+608,%s %s? How do you do? Marco Polo Bank has sent me here to collect your debt.
+609,"Gee, my debt... OK, OK. Here are %d gold ingots. Now just go away!"
+610,"Ugh, a debt collector... I hate to borrow and run, but I must be going, NOW!"
+611,Wait! I won't let you go!
+612,"Gasp, OK, I'll pay. Here are %d gold ingots."
+613,Curses!  Foiled again!
+614,Very well. I like customers like you.
+615,"Very well. You must feel great, now that your debt is paid off!"
+616,"Hey, you're a trader, aren't you?"
+617,%s %s the specialty of this port.
+618,This port has nothing special in the market.
+619,Bowwow!
+620,Yap-yap!
+621,Sniff-sniff!
+622,No visitors are allowed entrance to this port. Resupply your ship and leave at once.
+623,Bon dia.
+624,Buenos dias.
+625,"Al-salom, Aleikom."
+626,Hello!
+627,Buon giorno.
+628,Guten Tag.
+629,Konnichiwa.
+630,"Remember, arms and armor must be equipped before you use them."
+631,You need a measuring instrument to find latitude and longitude.
+632,There are people who want to know about novel things discovered abroad.
+633,"For your own sake, you'd better keep away from pirates."
+634,Be careful of a deadly disease during a long voyage.
+635,You may want to start with taking an easy task from a guild.
+636,Cartographers are eager to get new information for their mapping work. They may pay for geographical information.
+637,"If you want to find out about something, go to a pub and ask the waitress."
+638,Fortune tellers can tell you what experience you need for the next skill level.
+639,"If you find a village, explore it. You may find something interesting."
+640,I saw a used %s ship at the shipyard.
+641,I heard that there aren't any used ships for sale at the shipyard right now.
+642,That mansion is the Duke's residence.
+643,Christopher Columbus set sail from this port in 1492 with the support of Queen Isabella I.
+644,Right now more than half of the Mediterranean is controlled by the Ottoman Empire.
+645,Diogo Ribeiro is the master cartographer in this town.
+646,Watch out! This is the home port of the Barbary Pirates.
+647,Pirates known as Corsairs call this port home. Be careful!
+648,Did you know that lime juice cures scurvy?
+649,"If you go to an item shop at 2 AM, you may find something out of the ordinary."
+650,This town is governed by our Governor-General.
+651,The Duke of Modena is collecting information about novel things from around the world.
+652,"Professor Juliano, a famous astronomer, lives in this town."
+653,Don't ever confuse this town with Majorca! We're superior to those grain traders!
+654,"Mr. Olives from the guild is looking for geographical information, but only from someone with cartography skills."
+655,The large bank in this port is the headquarters of the Marco Polo Bank.
+656,The item shop here doesn't have a very good selection.
+657,The Greek name of this port is Iraklion.
+658,"Welcome to Athens, the city of myth and ancient ruins."
+659,I hope to leave this boring town soon.
+660,This port has thrived in trading for centuries.
+661,"The city of Jerusalem isn't far from here, but there's no way for a sailor to get there."
+662,"A long time ago, the Crusaders invaded this town."
+663,"Over the past 1000 years, our island of Cyprus has been ruled by many different countries."
+664,"Three poleis (cities) merged to become one during the Greek rule, creating our lovely city of Tripoli."
+665,Have you met Pilly Reis? He is the most famous Turkish adventurer.
+666,Did you come here by accident? Not many people know about this port.
+667,Fewer merchants have been coming here via the Silk Road lately. Maybe they prefer the sea route?
+668,"This town used to be at the forefront of Turkish rule, but Portugal took control in 1415."
+669,There are many vineyards all around this port. Have you ever seen so many?
+670,The Reformation's influence has reached this town. The number of Huguenots are increasing.
+671,Wool from England is made into textile in Amsterdam.
+672,"The ship-building technology here is superb, but the shipyard facilities are poor."
+673,Did you see the splendid church in this town? Even archbishops come to visit the church.
+674,The economy in this town is booming!
+675,You can buy modern navigation instruments in this town.
+676,The armorers in this town are the best in the world.
+677,A famous strategist named Dr. Wolf lives in this town and teaches the art of gunnery.
+678,This town wouldn't have declined so much if it had joined the Hanseatic League.
+679,Are you surprised that a port so far north is so lively?
+680,We have skilled swordsmiths who make unique swords.
+681,In our marketplace you will find our specialty - salt-cured anchovies.
+682,How did you find such a remote port?
+683,Did you notice the long narrow fingers of the sea bordered by steep cliffs around here? They are called 'fjords'.
+684,This port was opened by Spanish immigrants.
+685,Some ports in the New World will give you a good price for gold.
+686,This port is well known for its tobacco.
+687,This island is very poor and has no local specialties.
+688,"If there were a canal here, sea travel would be much more convenient."
+689,There are many pirates here. Be careful!
+690,Christopher Columbus's brother built this town.
+691,Gold from the New World is transported to this town.
+692,Christopher Columbus discovered this island.
+693,Have you visited a port called Maracaibo?
+694,"According to the Treaty of Tordesillas, Portuguese are allowed to colonize South America."
+695,Did you know that this land was discovered by a Spanish explorer named Alvarez Cabral?
+696,Have you been to a port called Guatemala?
+697,Be sure to stock lime juice on your ship before a long voyage.
+698,Have you ever been attacked by monsters?
+699,There are sugar cane plantations here that were developed by the Portuguese.
+700,Beware - fierce storms often rage south of this port.
+701,There is a fort in this town that was built by some Portuguese.
+702,This port is so close to Europe that not many sailors stop by.
+703,This port was recently built by Portuguese settlers.
+704,Make sure you use rat poison when you find rats on your ship.
+705,Just north of this port is Cape Verde.
+706,"Welcome to Timbuktu, an African city friendly to traders."
+707,Go east and you'll find the port of San Jorge.
+708,"This port thrived from Indian Ocean trade, even before Europeans arrived."
+709,This is one of the ports where Vasco da Gama stopped.
+710,It's always hot here because this port is close to the equator.
+711,"If you are looking for souvenirs, this is a good place to shop."
+712,This area is rich in minerals.
+713,Investment will someday turn to your reward.
+714,I'm so thirsty!
+715,A Portuguese explorer named Albuquerque once conquered this port.
+716,It is said that there was once a city nearby named Aksum that was the capital of a great kingdom.
+717,Did you come to see our majestic pyramids?
+718,Northeast of here is the marvelous city of Baghdad. Too bad you can't go there!
+719,"This is where Mohammed, the founder of Islam, was born."
+720,I wonder when we'll next have rain.
+721,Is this town larger than you expected?
+722,Go into the Persian Gulf and you'll find more ports.
+723,There was an ancient civilization in this area.
+724,Vasco da Gama opened this port to increase trade with the area.
+725,This old city has thrived from seaborne trade.
+726,There is a rivalry in spice trade between England and Holland.
+727,This port was captured by Commodore Afonso de Albuquerque.
+728,This is the largest trading port in Southeast Asia.
+729,This area is called Spice Islands.
+730,Have you visited the marketplace yet? Nutmeg is really cheap here.
+731,This port and Ternate are the two largest producers of clove.
+732,How do you like the tropical forest in this area?
+733,Don't come close to me! It's sweltering here!
+734,This port imports Nutmeg from Banda.
+735,Many seamen have told me about St. Elmo's Fire - have you seen it?
+736,This is the largest trading port in China.
+737,This port has things girls would like.
+738,This port has thrived as part of the seaborne Silk Road.
+739,"This capital was built by Liu Bang, the founder of Han Dynasty."
+740,This is a city of merchants.
+741,We've had more visitors from the West ever since Marco Polo wrote about our land of 'Zipangu' in his book.
+742,You might want to visit there someday.
+743,We teach the skill of gunnery. Do you want to learn?
+744,Don't waste my time. You already have the skill.
+745,You need %s to learn gunnery.
+746,Select a slot to save this game. Choose this slot to continue your quest as a Duke.
+747,I don't have time to teach someone with no gold.
+748,C1Remaining CargoC0
+749,"Remember, life is very precious."
+750,I teach celestial navigation. Would you like to learn this skill?
+751,You already have the skill.
+752,You need %s to learn celestial navigation.
+753,Knowledge of the stars will guide you safely over the seas.
+754,"And in my crystal ball, I can see a noble person searching for you."
+755,That mate doesn't have the skill of celestial navigation.
+756,"Measure longitude and
+latitude on the ship."
+757,Please select a mate who has the skill of Celestial Navigation.
+758,"Oh well, I guess I'll give it a try."
+759,"I'll just have to try it myself, then."
+760,This may be OK.
+761,This won't be too off.
+762,You have a tax free permit so there is no tax for you.
+763,"If you don't have a tax free permit, you must pay 20%% tax in addition to the price."
+764,"For a limited time only, we are selling some really special items that you don't usually see."
+765,It's closed...
+766,"Commodore, that fleet may look like a %s from %s, but I think they're really pirates."
+767,Select your destination.
+768,Is it OK to follow this course?
+769,In what direction should we set our sails?
+770,Will you challenge the enemy commodore to a duel?
+771,The enemy's crew has blocked your attempt.
+772,Whom do you want to attack?
+773,Give orders to which ship?
+774,Select your target.
+775,Is it OK to end the turn?
+776,Are you sure you want to flee?
+777,You have no men.
+778,There is no fleet to attack.
+779,%s %s will support the defending side.
+780,%s %s will support the attacking side.
+781,You can't attack someone at night.
+782,Are you going to attack someone from your own country?
+783,I think this is a map of the area around
+784,the area around
+785,"Hmm, so you want me to analyze a treasure map!"
+786,"Alrighty, then, let me have a look."
+787,"|%s|
+Hey, Commodore, buy me some time to escape, will you!!"
+788,"|%s|
+Commodore, I must save myself first, so I'm fleeing! I hope to see you again."
+789,"|%s|
+Sorry, it's not my duty to accompany you in such danger. Good luck!"
+790,"|%s|
+Commodore, you've gotten yourself into a bad spot. I can't help you any more."
+791,"Commodore, I don't see %s's ship anywhere."
+792,Whose fortune shall I tell?
+793,He'll leave you soon if you're not careful.
+794,He doesn't have very good feelings toward you.
+795,He is beginning to trust you.
+796,He is beginning to feel loyal to you.
+797,He's very loyal to you.
+798,"Commodore, I'm not very happy working for you.  I think I'll stay in this town."
+799,"Commodore, will you try to convince %s to stay with us?"
+800,"So, are you going to try and stop me?"
+801,"Then, will you give me a raise?"
+802,"I respect your interest, but Christians are not allowed in the house of Allah."
+803,Welcome to our mosque.
+804,All praise to Allah.
+805,Thank you for your generosity. How much can you give?
+806,Allah will take care of good Muslims like you.
+807,Your generosity is overwhelming.
+808,Good luck in your travels!
+809,%s was miraculously rescued.
+810,"Pirate %s %s, your days of terrorizing the seven seas are numbered."
+811,"Pirate %s %s, your luck has run out."
+812,"Stop your ship, or we'll attack!"
+813,What rubbish! You're the one who is doomed to sink!
+814,You are pretty brave to challenge us.
+815,"Okay, okay, we'll give you whatever you want. Just don't hurt us!"
+816,"Huh, why should we listen to you?"
+817,"If you don't want to get hurt, surrender your cargo and gold!!"
+818,"We finally got you, %s! You are under arrest for your actions against %s!"
+819,"You're from %s, our sworn enemy! It's time for me to send you to Davey Jones' locker!"
+820,"Commodore, I think we're in big trouble."
+821,"Nothing to fear, Commodore, they're no match for us."
+822,We managed to escape!
+823,The enemy has fled.
+824,"Commodore, there's nowhere to run! We have no choice but to fight."
+825,"You are wise to surrender. According to our law, we'll take away 2/3 of your gold and cargo."
+826,"Yo ho ho! An easy victim! Men, seize everything they've got!"
+827,"Ahrrr! There is nothing valuable here. Well, I'll give you some gold. Use it to earn more gold for our next meeting."
+828,Ahrrr! You're pretty broke! I won't touch your gold. You should thank me for being so merciful.
+829,"I'll leave you my mercy and 5000 gold pieces, so that you can earn more for me."
+830,"I shouldn't have underestimated you, pal..."
+831,"I admit your victory, but some day my country will avenge my defeat."
+832,Help! SOS! Save me!
+833,"The enemy's flagship ran up the white flag. %s %s completely defeated the %s fleet on %s %d, %d."
+834,They're too strong for us. We must flee!
+835,You'll be sorry - next time!
+836,Savage pirates! Someday you'll taste the bitterness of my revenge!
+837,"Our fleet had a battle with a %s %s, %s."
+838,"Commodore, be careful. This is a %s port."
+839,"Commodore, some gruff-looking men are approaching."
+840,"You, the notorious %s! You have some nerve coming to this country!"
+841,"Arrgh, we're surrounded!"
+842,We'd better make a run for it!
+843,Whew! We managed to escape.
+844,Whew! We escaped!
+845,"As punishment for your dastardly deeds, we'll seize 3/4 of your gold. Never bother my countrymen again, do you hear?"
+846,"If you have %s, you can sell it for a good price in ports around"
+847,you can sell it for a good price in ports around
+848,I remember %s will give you a good price for %s.
+849,"As far as I remember, %s will pay you plenty for %s."
+850,"Good place to sell %s... Well, you know I'm not good at numbers."
+851,"Hey, you can't trick me. You'll make a fine profit even at %u gold pieces."
+852,"OK, I give in. I'll sell it to you for %u gold pieces."
+853,Watch out for %s. They're out to get you.
+854,have nothing
+855,"To automatically sail to a port, you need a first mate who has the skill of Celestial Navigation."
+856,"To automatically sail to a port, you need a first mate who has the skill of Celestial Navigation."
+857,How many men will you assign for %s (0-%d)?
+858,%d %s will be discharged. Is this OK?
+859,You'd better leave or else I'll rearrange your face!
+860,"Keep yourself away from me, before I give you a knuckle sandwich!"
+861,You can't buy me with drinks.
+862,"Hey, you can't trick me. You'll make a fine profit even at %u gold pieces."
+863,"OK, I give in. I'll sell it to you for %ld gold pieces."
+864,"Commodore, you already have a letter of marque."
+865,"Commodore, we have too much to carry. Let's make some space first."
+866,Would you like a letter of marque?
+867,You need more fame as a pirate. Come back when your exploits are better known.
+868,You need more fame as a pirate. Come back when your fame in pirating surpasses your fame in investment and adventure.
+869,Then let me take your request to his majesty.
+870,I understand that you would like a letter of marque from my country.
+871,Then I shall grant the letter. Go forth in the name of my country!
+872,"Commodore, you already have a tax-free permit for this country."
+873,The permit is valid for half a year. You must renew it every April and October.
+874,"If a permit is issued now, you will have to renew it very soon."
+875,Will you request a tax-free permit?
+876,So I hear you would like to have a tax-free permit from my country.
+877,It will cost you %d0000 gold pieces. Do you still want it?
+878,"Commodore, we don't have enough money."
+879,Aren't you done with your business? Good luck.
+880,You're already carrying a lot of items. Come back for the map when you make some space.
+881,Is it okay to end this game?
+882,You haven't discovered anything.
+883,We are allied with %d ports around the world. Which area of the world are you interested in?
+884,C1%sC0
+885,C1Captain   C0%s
+886,%s's
+887,C1Guns C0%13s
+888,%3d/%3d
+889,C6F4Nav.:Look:Comb:C0F1
+890,%3d %3d %3d
+891,C1Minimum Crew   C0%3d
+892,C1Load          C0
+893,%3d%%
+894,C1Speed C0       %3dKT
+895,%-10s%4d/%3d
+896,%s
+897,C1%8s %-8sC0
+898,C0Age %3d
+899,C1Rank  C0
+900,C5NoneC0
+901,C1Wages C0%3d
+902,C1Navigation Level C0%3d
+903,C1Experience  C0%5d
+904,C1Battle Level     C0%3d
+905,C1Experience  C0%5d
+906,C0Loyal to C0%s
+907,C1Skills C0
+908,C6
+909,C0
+910,C1Gold               Friendship
+911,C0Gold Coins  C0%5d
+912,C0Gold Ingots C0%5u
+913,C1Fame
+914,C0%-11sC0 %5u
+915,C0%-12sC0
+916,C2
+917,%-14s %5d
+918,You have no ship.
+919,C6B8Commodore %s
+920,C7Navigation Level C6%3d
+921,C7Battle Level     C6%3d
+922,C7B0Tacking        %3d        Crew       %4d
+923,Power          %3d        Guns       %4d
+924,Durability     %3d        Battles   %5d
+925,%s
+926,"Ye want to rename this port? Give it a nice name, please."
+927,There is another port with the same name. We can't have that! Try again.
+928,%s is a nice name! Thank you.
+929,"Sorry, but I can't buy this item."
+930,"Commodore, that's the port of %s, a neutral port."
+931,Did you forget that you're on a mission for someone in this port?
+932,Did you know that %s is looking for you.
+933,"Commodore, this building is locked."
+934,C4%s %sC0
+935,C1Age       Leadership      Seamanship
+936,Knowledge       Intuition
+937,Courage         Charm
+938,Skill                     Swordplay
+939,C0Age: %3d
+940,Enter a new name. Select C2ESCC0 to use the default name.
+941,Will you bring me %d lots of %s within %d %s%s?
+942,I have prepared a very hard task for you this time. I want you to find me a treasure called the %s.
+943,"Ho, so you've found the %s. Fantastic work. I present you with 10 gold bars and this title."
+944,You still haven't found the %s. Are you giving up the search?
+945,"From this day forth, you shall be known as %s %s."
+946,"There are so many pirates around here lately, it's really starting to hurt business."
+947,Is this OK?
+948,There's only a few hours left and you still need to get %d %s%s. Don't tell me you're thinking of quitting now!
+949,There's only %d %s%s left and you still need to get %d %s%s. Don't tell me you're thinking of quitting now!
+950,You discovered %s%s?! That's fantastic! Please accept this title.
+951,Select a game slot.
+952,Is it OK to load this game?
+953,C2There are no saved games.C7
+954,Is it OK to save this game?
+955,You discovered %s%s? Nice work!
+956,"Commodore, that's the port of %s, allied with %s."
+957,"Tell you what, I'll pay you to get rid of %d %s%s within %d %s%s."
+958,C2Is it OK to exit NEW HORIZONS?
+959,Gold Pieces %4ld
+960,Gold Ingots %4ld
+961,"Commodore, that's the port of %s, the capital of %s."
+962,Place yer bet (10-500).
+963,"Humph, that's a bet a child would make!"
+964,Well well well! A big spender! Let's hope you're ready to play.
+965,Good luck!
+966,Black Jack with the Jack of Spades! What luck! That's five times the stakes!
+967,"You have Black Jack? That's double the stakes, but don't get carried away."
+968,I have to let you win sometimes!
+969,Black Jack with three sevens! You tripled your stakes!
+970,You've got Sequence in the same suit! That's 3X Black Jack.
+971,Five cards without busting? You just tripled your stakes!
+972,Jack of Spades! Quintuple the stakes for me!
+973,"Heh, I have Black Jack! I'll take double stakes."
+974,"Sorry, I'll take that hand."
+975,Triple the stakes for Black Jack with three sevens!
+976,Triple the stakes! Black Jack with sequence in the same suit!
+977,5 cards without busting! I'll take triple the stakes!
+978,Total C2%2dC0
+979,Interested in playing cards with me?
+980,"Don't feel bad.
+You've got to lose once in a while."
+981,Another bet?
+982,"What, you're leaving already?"
+983,"I had a good time, thanks to you. Come back soon!"
+984,Is this throw final?
+985,"How about %d gold 
+pieces?"
+986,That's fine with me.
+987,Good!
+988,"OK, let's bet %d gold pieces."
+989,"Let's compromise-%d 
+gold pieces?"
+990,All right.
+991,"No, let's make it 
+%d gold pieces."
+992,"All right, coward!"
+993,"Yeh, that's all right
+with me."
+994,"Me, too."
+995,Stakes
+996,Stakes       %3ld
+997,Don't get carried away!
+998,"Sorry to beat you, but 
+I'll take your stakes."
+999,"Having fun, huh?"

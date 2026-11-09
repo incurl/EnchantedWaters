@@ -1,0 +1,3718 @@
+[
+  {
+    "id": "0",
+    "text": "Hello Lieutenant. Emilio Sanude was looking for you."
+  },
+  {
+    "id": "1",
+    "text": "He wanted you to go to headquarters."
+  },
+  {
+    "id": "2",
+    "text": "It may have something to do with the fleet that just returned from the New World."
+  },
+  {
+    "id": "3",
+    "text": "Hello Lieutenant. How are you today?"
+  },
+  {
+    "id": "4",
+    "text": "Emilio Sanude was looking for you."
+  },
+  {
+    "id": "5",
+    "text": "He walked away in that direction, so he must be at headquarters, to the right of the palace."
+  },
+  {
+    "id": "6",
+    "text": "Do you think Commander Ezequiel will really allow us to seek out the Francos?"
+  },
+  {
+    "id": "7",
+    "text": "Well... I don't know."
+  },
+  {
+    "id": "8",
+    "text": "Hey there, friend, business is good as usual, eh?"
+  },
+  {
+    "id": "9",
+    "text": "Why hello Emilio, it's been a long time since I last saw you."
+  },
+  {
+    "id": "10",
+    "text": "Two glasses of wine, please."
+  },
+  {
+    "id": "11",
+    "text": "Emilio, it just doesn't make sense. I just can't believe my brother would be lost in a storm."
+  },
+  {
+    "id": "12",
+    "text": "I agree."
+  },
+  {
+    "id": "13",
+    "text": "And I can't believe that a Spanish fleet would be attacked."
+  },
+  {
+    "id": "14",
+    "text": "It could be Caribbean pirates that attacked the fleet. They'll regret it! As long as I'm in the Navy, they'll never rest."
+  },
+  {
+    "id": "15",
+    "text": "What are you going to do now?"
+  },
+  {
+    "id": "16",
+    "text": "I'm a Navy officer, $n. I'll do some investigating whenever I stop at a port, and eventually I'll find out what happened to them."
+  },
+  {
+    "id": "17",
+    "text": "Actually, those men are talking about that very thing, right now."
+  },
+  {
+    "id": "18",
+    "text": "Hey, Giovanni, have ye heard the latest gossip?"
+  },
+  {
+    "id": "19",
+    "text": "Aye, a Royal Naval fleet disappeared in the Caribbean Sea."
+  },
+  {
+    "id": "20",
+    "text": "There's whispers that Black Beard did it."
+  },
+  {
+    "id": "21",
+    "text": "Aye, but I hear 'tis only a yarn."
+  },
+  {
+    "id": "22",
+    "text": "One of me mates says some Portuguese salts are involved."
+  },
+  {
+    "id": "23",
+    "text": "He says that they set fire to the fleet when it was resupplying in Santo Domingo."
+  },
+  {
+    "id": "24",
+    "text": "Rumor has it that the attacking ship was flying a flag with the red cross of the Malta Knights."
+  },
+  {
+    "id": "25",
+    "text": "What? That's the flag of Duke Franco's private battle fleet!"
+  },
+  {
+    "id": "26",
+    "text": "Arrrgh, ye never can trust those Portuguese."
+  },
+  {
+    "id": "27",
+    "text": "Excuse me, but could you repeat that?"
+  },
+  {
+    "id": "28",
+    "text": "Who in the blazes are ye?"
+  },
+  {
+    "id": "29",
+    "text": "I'm a lieutenant in the Royal Navy. Are you sure that what you just said is true?"
+  },
+  {
+    "id": "30",
+    "text": "Well, I don't know for certain, but the rumor is spreading like wildfire among me men."
+  },
+  {
+    "id": "31",
+    "text": "Come on Emilio, I want to tell Commander Ezequiel about this."
+  },
+  {
+    "id": "32",
+    "text": "And?"
+  },
+  {
+    "id": "33",
+    "text": "And I will request permission to seek out and destroy the Francos."
+  },
+  {
+    "id": "34",
+    "text": "Commander, I have a request."
+  },
+  {
+    "id": "35",
+    "text": "What is it, Lieutenant?"
+  },
+  {
+    "id": "36",
+    "text": "I know who is responsible for the attack on my brother's fleet."
+  },
+  {
+    "id": "37",
+    "text": "Oh really?"
+  },
+  {
+    "id": "38",
+    "text": "It's Duke Franco of Portugal."
+  },
+  {
+    "id": "39",
+    "text": "Please give me a battleship and soldiers to avenge Michael and Hernan."
+  },
+  {
+    "id": "40",
+    "text": "Please, Commander, I'm begging you! I must have my revenge!"
+  },
+  {
+    "id": "41",
+    "text": "Lieutenant $s, do you have any idea what you're saying?"
+  },
+  {
+    "id": "42",
+    "text": "W, Well..."
+  },
+  {
+    "id": "43",
+    "text": "I don't know where you heard that rumor, but one thing is clear:"
+  },
+  {
+    "id": "44",
+    "text": "Attacking the Francos will cause a full-fledged war between Spain and Portugal."
+  },
+  {
+    "id": "45",
+    "text": "Forget your absurd ideas of revenge. Return to your duties, at once."
+  },
+  {
+    "id": "46",
+    "text": "$n, don't be so down."
+  },
+  {
+    "id": "47",
+    "text": "Here, this is Commodore Michael's saber. Take this with you."
+  },
+  {
+    "id": "48",
+    "text": "|Lieutenant Emilio Sanude|\n$n, I was looking for you. Commander Ezequiel needs to talk to you."
+  },
+  {
+    "id": "49",
+    "text": "The Commander? Is it about my missing brother?"
+  },
+  {
+    "id": "50",
+    "text": "Well... I think you should hear it from the Commander."
+  },
+  {
+    "id": "51",
+    "text": "Lieutenant $n $s, reporting for duty, sir."
+  },
+  {
+    "id": "52",
+    "text": "|Commander Ezequiel|\nThank you for coming. At ease."
+  },
+  {
+    "id": "53",
+    "text": "Well, I have some news about your brother, Michael."
+  },
+  {
+    "id": "54",
+    "text": "We lost contact with his fleet on April 10, 1522, off the coast of Santo Domingo."
+  },
+  {
+    "id": "55",
+    "text": "My brother... I just can't believe it. He's one of the best sailors in the navy."
+  },
+  {
+    "id": "56",
+    "text": "Besides, he has Hernan in his fleet."
+  },
+  {
+    "id": "57",
+    "text": "Yes, Michael was a capable man. His first mate, your fiance Hernan, was also a brave man."
+  },
+  {
+    "id": "58",
+    "text": "But we got a report this morning from a fleet we sent to investigate the matter."
+  },
+  {
+    "id": "59",
+    "text": "All they found were the remains of a shipwreck. The entire fleet was terribly damaged, and there was no one on board."
+  },
+  {
+    "id": "60",
+    "text": "The cause of the destruction is unknown. It could have been a storm, or perhaps someone attacked them..."
+  },
+  {
+    "id": "61",
+    "text": "But this flag was found on the wreck... It's Michael's."
+  },
+  {
+    "id": "62",
+    "text": "I'm sorry to be the one to tell you this, but I'm afraid he didn't make it."
+  },
+  {
+    "id": "63",
+    "text": "I... He didn't... but..."
+  },
+  {
+    "id": "64",
+    "text": "I understand your grief, but I'm sure he would want you to be brave at a time like this."
+  },
+  {
+    "id": "65",
+    "text": "Lieutenant Sanude, please escort Lieutenant $s safely to her quarters."
+  },
+  {
+    "id": "66",
+    "text": "Yes, sir."
+  },
+  {
+    "id": "67",
+    "text": "I'm so sorry, $n. It's all so sudden... he was my commanding officer as well as my best friend. I vow to find out what happened."
+  },
+  {
+    "id": "68",
+    "text": "Let's go to the pub. I'll buy you a glass of wine."
+  },
+  {
+    "id": "69",
+    "text": "Hey, what did Commander Ezequiel say?"
+  },
+  {
+    "id": "70",
+    "text": "... well..."
+  },
+  {
+    "id": "71",
+    "text": "Sir, don't talk about Commodore Michael now."
+  },
+  {
+    "id": "72",
+    "text": "Oh... I'm sorry."
+  },
+  {
+    "id": "73",
+    "text": "You should go to headquarters right now. It's to the right of the palace."
+  },
+  {
+    "id": "74",
+    "text": "Lieutenant $s, have you heard any news about your missing brother?"
+  },
+  {
+    "id": "75",
+    "text": "Don't worry. I'm sure a strong mate like Michael is doing just fine."
+  },
+  {
+    "id": "76",
+    "text": "Emilio was here looking for you. He wants you to go to headquarters."
+  },
+  {
+    "id": "77",
+    "text": "A fleet has just returned from the New World, so maybe he wanted to talk to you about that. He looked pretty serious - something important must have happened."
+  },
+  {
+    "id": "78",
+    "text": "Thanks for the information. I'll get right over to headquarters."
+  },
+  {
+    "id": "79",
+    "text": "Hey Lieutenant $s, have you got any information about your missing brother?"
+  },
+  {
+    "id": "80",
+    "text": "...well..."
+  },
+  {
+    "id": "81",
+    "text": "Sir, don't mention Commodore Michael now, please."
+  },
+  {
+    "id": "82",
+    "text": "I see. Sorry."
+  },
+  {
+    "id": "83",
+    "text": "Sorry Lieutenant $s, but we are closing now."
+  },
+  {
+    "id": "84",
+    "text": "Lieutenant $n, have you seen Commander Ezequiel yet? Did he say anything about your brother?"
+  },
+  {
+    "id": "85",
+    "text": "...well..."
+  },
+  {
+    "id": "86",
+    "text": "Sir, don't mention Commodore Michael now, please."
+  },
+  {
+    "id": "87",
+    "text": "Oh... I'm sorry."
+  },
+  {
+    "id": "88",
+    "text": "You should go to headquarters as soon as possible! It's to the right of the palace."
+  },
+  {
+    "id": "89",
+    "text": "Ah, Lieutenant $s. Perfect timing. A fleet has just returned from a trip to the New World."
+  },
+  {
+    "id": "90",
+    "text": "Commander Ezequiel wants to talk to you about it. Your presence is requested at headquarters, to the right of the palace."
+  },
+  {
+    "id": "91",
+    "text": "Hey, Lieutenant $s, I heard a fleet just came back from an investigation in the New World. Any news on your brother?"
+  },
+  {
+    "id": "92",
+    "text": "...well..."
+  },
+  {
+    "id": "93",
+    "text": "Sir, please don't talk about Commodore Michael right now."
+  },
+  {
+    "id": "94",
+    "text": "Oh... Sorry."
+  },
+  {
+    "id": "95",
+    "text": "Hey, Lieutenant $s, I heard gossip from a merchant fleet on the Ionian route."
+  },
+  {
+    "id": "96",
+    "text": "It seems it was a Portuguese who attacked that Spanish fleet."
+  },
+  {
+    "id": "97",
+    "text": "Hello, Lieutenant $s."
+  },
+  {
+    "id": "98",
+    "text": "Lieutenant Sanude was looking for you."
+  },
+  {
+    "id": "99",
+    "text": "He must be at headquarters, next to the palace."
+  },
+  {
+    "id": "100",
+    "text": "Hello, Lieutenant $s. Have you heard any news about your brother, Commodore Michael?"
+  },
+  {
+    "id": "101",
+    "text": "Lieutenant Sanude was looking for you."
+  },
+  {
+    "id": "102",
+    "text": "He went to headquarters, next to the palace."
+  },
+  {
+    "id": "103",
+    "text": "Let's go to the pub. Maybe we'll hear more about what happened."
+  },
+  {
+    "id": "104",
+    "text": "$n, are you OK? I should take you home."
+  },
+  {
+    "id": "105",
+    "text": "I'm OK. But I just can't figure out what could have happened to the two of them."
+  },
+  {
+    "id": "106",
+    "text": "Hey, why don't we go to the pub? Maybe we can get some more information."
+  },
+  {
+    "id": "107",
+    "text": "Hi Lieutenant! Sorry, but we're closed today."
+  },
+  {
+    "id": "108",
+    "text": "$n, there is nothing we can do."
+  },
+  {
+    "id": "109",
+    "text": "I won't give up. I can't give up!"
+  },
+  {
+    "id": "110",
+    "text": "Calm down. Let's go to the pub and talk things over."
+  },
+  {
+    "id": "111",
+    "text": "Emilio, I may have to betray..."
+  },
+  {
+    "id": "112",
+    "text": "Betray what?"
+  },
+  {
+    "id": "113",
+    "text": "Never mind. Let's go to the harbor."
+  },
+  {
+    "id": "114",
+    "text": "So, $n, what are you going to do now?"
+  },
+  {
+    "id": "115",
+    "text": "I'm going to quit the Navy."
+  },
+  {
+    "id": "116",
+    "text": "What?!"
+  },
+  {
+    "id": "117",
+    "text": "As long as I'm in the Navy, I can't avenge the loss of my brother, or my fiance."
+  },
+  {
+    "id": "118",
+    "text": "But the Francos are powerful. It's impossible for a mere civilian to defeat the Duke of Portugal!"
+  },
+  {
+    "id": "119",
+    "text": "It's so easy to give up now, isn't it?"
+  },
+  {
+    "id": "120",
+    "text": "Who are you?"
+  },
+  {
+    "id": "121",
+    "text": "Nobody important. But I don't like your attitude."
+  },
+  {
+    "id": "122",
+    "text": "Give up without trying? Run away because you can't win? Is that how honorable Spanish Naval officers behave?"
+  },
+  {
+    "id": "123",
+    "text": "Who IS this guy? $n, let's get out of here. He's just another crazy drunk."
+  },
+  {
+    "id": "124",
+    "text": "Wait, Emilio. I've finally made up my mind."
+  },
+  {
+    "id": "125",
+    "text": "What? What did you decide?"
+  },
+  {
+    "id": "126",
+    "text": "Emilio, I need your help."
+  },
+  {
+    "id": "127",
+    "text": "I'll do whatever I can."
+  },
+  {
+    "id": "128",
+    "text": "Then come with me to the harbor."
+  },
+  {
+    "id": "129",
+    "text": "Emilio, I need your help."
+  },
+  {
+    "id": "130",
+    "text": "I'll do anything I can, $n."
+  },
+  {
+    "id": "131",
+    "text": "Then come with me to the harbor."
+  },
+  {
+    "id": "132",
+    "text": "What are you going to do?"
+  },
+  {
+    "id": "133",
+    "text": "Any ship will do. If only I had a ship..."
+  },
+  {
+    "id": "134",
+    "text": "Wait. Let's go to the pub and talk things over."
+  },
+  {
+    "id": "135",
+    "text": "What are you planning on doing?"
+  },
+  {
+    "id": "136",
+    "text": "I'm going to take a ship from the Spanish Navy."
+  },
+  {
+    "id": "137",
+    "text": "Are you crazy?!"
+  },
+  {
+    "id": "138",
+    "text": "No, not at all. I just remembered, you have command of a ship - the ship carrying gold from the New World."
+  },
+  {
+    "id": "139",
+    "text": "But that's treason! Commander Ezequiel will wring my neck, have me fired!"
+  },
+  {
+    "id": "140",
+    "text": "Afraid of a little danger, Lieutenant?"
+  },
+  {
+    "id": "141",
+    "text": "$n, what are you doing?"
+  },
+  {
+    "id": "142",
+    "text": "Don't move, or I'll shoot."
+  },
+  {
+    "id": "143",
+    "text": "I don't want to hurt you. I just need a hostage, right now."
+  },
+  {
+    "id": "144",
+    "text": "I'll drop you off at a neutral port. Until then please cooperate with me, Emilio!"
+  },
+  {
+    "id": "145",
+    "text": "I'm really sorry to get you involved, but I have no other choice."
+  },
+  {
+    "id": "146",
+    "text": "Alright, $n."
+  },
+  {
+    "id": "147",
+    "text": "What?"
+  },
+  {
+    "id": "148",
+    "text": "I'll join your mission. But you'll have to command the ship."
+  },
+  {
+    "id": "149",
+    "text": "The ringleader of a treacherous act has no hope if he, or she, gets caught. But an accomplice may be able to get away with just a simple prison sentence."
+  },
+  {
+    "id": "150",
+    "text": "That's more like it! Now, let's talk strategy."
+  },
+  {
+    "id": "151",
+    "text": "Well, you're the commodore. Name your flagship."
+  },
+  {
+    "id": "152",
+    "text": "Hmm... what do you think of 'Rebel?'"
+  },
+  {
+    "id": "153",
+    "text": "Rebel, huh? Why, I can't think of a more suitable name for the flagship of a lady pirate."
+  },
+  {
+    "id": "154",
+    "text": "Then, let's get our rebellion started!"
+  },
+  {
+    "id": "155",
+    "text": "Wait a minute. There must be some gold bars left on this ship."
+  },
+  {
+    "id": "156",
+    "text": "We should sell the gold bars and get some spending money first."
+  },
+  {
+    "id": "157",
+    "text": "That's a good plan. I'll have to remember to sell them when we get a chance."
+  },
+  {
+    "id": "158",
+    "text": "Rebel"
+  },
+  {
+    "id": "159",
+    "text": "$n, I think what Commander Ezequiel says makes sense."
+  },
+  {
+    "id": "160",
+    "text": "Then what should I do?"
+  },
+  {
+    "id": "161",
+    "text": "I can't tell you to give up, but..."
+  },
+  {
+    "id": "162",
+    "text": "$n, there is nothing you can do."
+  },
+  {
+    "id": "163",
+    "text": "I won't give up."
+  },
+  {
+    "id": "164",
+    "text": "Take it easy. Let's talk about it over a glass of wine."
+  },
+  {
+    "id": "165",
+    "text": "$n, what are you thinking about?"
+  },
+  {
+    "id": "166",
+    "text": "I want power... the power to defeat the Francos."
+  },
+  {
+    "id": "167",
+    "text": "The power..."
+  },
+  {
+    "id": "168",
+    "text": "Emilio, I want you to help me."
+  },
+  {
+    "id": "169",
+    "text": "Of course, $n. I'll do whatever I can."
+  },
+  {
+    "id": "170",
+    "text": "Then come with me to the harbor."
+  },
+  {
+    "id": "171",
+    "text": "Commodore, this is the Franco residence. I think you'll really regret going in there."
+  },
+  {
+    "id": "172",
+    "text": "Commodore $n, I heard a bad rumor in the harbor."
+  },
+  {
+    "id": "173",
+    "text": "What?"
+  },
+  {
+    "id": "174",
+    "text": "Commander Ezequiel has been issued an official order from the King to arrest you."
+  },
+  {
+    "id": "175",
+    "text": "I see. That isn't good news."
+  },
+  {
+    "id": "176",
+    "text": "What shall we do?"
+  },
+  {
+    "id": "177",
+    "text": "If you're asking me to surrender, my answer is NO."
+  },
+  {
+    "id": "178",
+    "text": "Then will you fight against your own country?"
+  },
+  {
+    "id": "179",
+    "text": "You can leave me now if you wish. I don't intend to force you to commit treason."
+  },
+  {
+    "id": "180",
+    "text": "No, once an officer pledges his loyalty, it's for good."
+  },
+  {
+    "id": "181",
+    "text": "Now, that's the spirit."
+  },
+  {
+    "id": "182",
+    "text": "Commodore, this is the Franco's residence. They'll have your neck if you enter."
+  },
+  {
+    "id": "183",
+    "text": "May I help you?"
+  },
+  {
+    "id": "184",
+    "text": "No. No, thank you."
+  },
+  {
+    "id": "185",
+    "text": "It seems Commander Ezequiel himself is out at sea."
+  },
+  {
+    "id": "186",
+    "text": "Splendid! The Spanish Fleet is all out in the bay."
+  },
+  {
+    "id": "187",
+    "text": "So this is just a preliminary skirmish."
+  },
+  {
+    "id": "188",
+    "text": "Commodore, this is the Franco residence. I doubt you'd make it back alive if you went in there."
+  },
+  {
+    "id": "189",
+    "text": "Commodore, another fleet is approaching. That's..."
+  },
+  {
+    "id": "190",
+    "text": "It's Commander Ezequiel's flag ship, the Santa Cruz! And look - they're signaling a message to us by flag..."
+  },
+  {
+    "id": "191",
+    "text": "It says 'Your previous battle was a brave yet vain attempt. Surrender now, and you may get a special pardon.'"
+  },
+  {
+    "id": "192",
+    "text": "'But if you resist, there will be no future, glory, or life for rebels.'"
+  },
+  {
+    "id": "193",
+    "text": "Rebels..."
+  },
+  {
+    "id": "194",
+    "text": "Hard to starboard! Commodore, fleeing is the only way out of here!"
+  },
+  {
+    "id": "195",
+    "text": "Commodore, this is the Franco residence. I don't think we should be hanging out around here."
+  },
+  {
+    "id": "196",
+    "text": "We'll have a battle with the Spanish Fleet again."
+  },
+  {
+    "id": "197",
+    "text": "I can't give in until I avenge the loss of both my brother Michael and fiance Hernan."
+  },
+  {
+    "id": "198",
+    "text": "Commodore, this is the Franco residence. You'll be in hot water if you enter."
+  },
+  {
+    "id": "199",
+    "text": "Commodore, we're surrounded by the enemy fleet. We can't escape!"
+  },
+  {
+    "id": "200",
+    "text": "This may be the last battle for us..."
+  },
+  {
+    "id": "201",
+    "text": "Emilio, I regret that I got you involved in my personal grudge."
+  },
+  {
+    "id": "202",
+    "text": "That's OK. It was my choice to join you. I'll accompany you till the very end."
+  },
+  {
+    "id": "203",
+    "text": "Attention crew, prepare to assault the enemy."
+  },
+  {
+    "id": "204",
+    "text": "Commodore, something is strange about the way the enemy is moving. It seems as if they're retreating..."
+  },
+  {
+    "id": "205",
+    "text": "There's a fire in the enemy's battle line. It looks like a fire was set while they were in close formation!"
+  },
+  {
+    "id": "206",
+    "text": "They're fleeing!"
+  },
+  {
+    "id": "207",
+    "text": "What a stroke of luck! We're saved! Wait, what is that, drifting over there?"
+  },
+  {
+    "id": "208",
+    "text": "It's a Spanish officer! He's clinging to a piece of driftwood."
+  },
+  {
+    "id": "209",
+    "text": "Pull him up on deck."
+  },
+  {
+    "id": "210",
+    "text": "Whew, thanks for saving me."
+  },
+  {
+    "id": "211",
+    "text": "You are now our prisoner. State your name and rank."
+  },
+  {
+    "id": "212",
+    "text": "Huh, don't be so pretentious, pirates! My name is Andreas Paella. I'm a lieutenant in the Spanish Navy."
+  },
+  {
+    "id": "213",
+    "text": "You should also know that I am the one who saved you. I set that fire."
+  },
+  {
+    "id": "214",
+    "text": "That's an obvious lie. Why would a stranger save us?"
+  },
+  {
+    "id": "215",
+    "text": "Oh, I see you don't have too much of a memory. But then you've probably met a hundred crazy drunks at the pub."
+  },
+  {
+    "id": "216",
+    "text": "Oh, you're the crazy drunk from the pub!"
+  },
+  {
+    "id": "217",
+    "text": "You must be wondering why I saved you. Well, Miss Lady Pirate, I was a school buddy of your fiance, Hernan Obregon."
+  },
+  {
+    "id": "218",
+    "text": "Even though he was from a noble family, he was still a good guy. He was very kind to people like me who grew up in poverty."
+  },
+  {
+    "id": "219",
+    "text": "That's why I decided to save you. And I'd like to join your mission, too."
+  },
+  {
+    "id": "220",
+    "text": "So let me work for you, Commodore. I'm quite useful, you know."
+  },
+  {
+    "id": "221",
+    "text": "What should we do?"
+  },
+  {
+    "id": "222",
+    "text": "Well, welcome aboard, mate."
+  },
+  {
+    "id": "223",
+    "text": "Thank you, Commodore! We're going to make a great team!"
+  },
+  {
+    "id": "224",
+    "text": "Don't get me wrong. You might be useful to me, but I don't completely trust you yet."
+  },
+  {
+    "id": "225",
+    "text": "If you give me the slightest reason to suspect you of betrayal, it's all over for you."
+  },
+  {
+    "id": "226",
+    "text": "Commodore, this is the Franco residence. Why would you want to go in there?"
+  },
+  {
+    "id": "227",
+    "text": "May I help you?"
+  },
+  {
+    "id": "228",
+    "text": "No. No, thank you."
+  },
+  {
+    "id": "229",
+    "text": "I heard an interesting rumor, Commodore."
+  },
+  {
+    "id": "230",
+    "text": "What is it? About Commander Ezequiel again?"
+  },
+  {
+    "id": "231",
+    "text": "No. It's about our enemy."
+  },
+  {
+    "id": "232",
+    "text": "Duke Franco disowned his son, Joao Franco, who is now traveling the high seas."
+  },
+  {
+    "id": "233",
+    "text": "If that's true, then we're in luck."
+  },
+  {
+    "id": "234",
+    "text": "If Joao is in Lisbon, we can't approach him. But if he's out on the sea, we'll have plenty of opportunities to attack."
+  },
+  {
+    "id": "235",
+    "text": "Andreas Paella!"
+  },
+  {
+    "id": "236",
+    "text": "Uh, yes, Commodore?"
+  },
+  {
+    "id": "237",
+    "text": "I, did you hear that, I will destroy the Francos. Try to remember that. No one is to interfere with my revenge."
+  },
+  {
+    "id": "238",
+    "text": "I understand, Commodore."
+  },
+  {
+    "id": "239",
+    "text": "Commodore, this is the Franco residence. Let's break in and take the scoundrels."
+  },
+  {
+    "id": "240",
+    "text": "Don't be a fool. If we cause trouble here, the whole town will be after us."
+  },
+  {
+    "id": "241",
+    "text": "May I help you?"
+  },
+  {
+    "id": "242",
+    "text": "No. No, thank you."
+  },
+  {
+    "id": "243",
+    "text": "Hello there. Have you, by any chance, seen a sailor named Joao?"
+  },
+  {
+    "id": "244",
+    "text": "No, I haven't."
+  },
+  {
+    "id": "245",
+    "text": "You're not lying, are you?"
+  },
+  {
+    "id": "246",
+    "text": "Ouch! Why would I lie to you?!"
+  },
+  {
+    "id": "247",
+    "text": "Stop that, Andreas. We'll be leaving now. Sorry to bother you."
+  },
+  {
+    "id": "248",
+    "text": "Have you seen a guy named Joao Franco?"
+  },
+  {
+    "id": "249",
+    "text": "No, I haven't."
+  },
+  {
+    "id": "250",
+    "text": "OK. Thank you."
+  },
+  {
+    "id": "251",
+    "text": "Commodore, this is the residence of the evil Francos. Let's break in and get 'em!"
+  },
+  {
+    "id": "252",
+    "text": "Don't be a fool. If you cause any trouble, the whole town will be hunting us."
+  },
+  {
+    "id": "253",
+    "text": "May I help you?"
+  },
+  {
+    "id": "254",
+    "text": "No. No, thank you."
+  },
+  {
+    "id": "255",
+    "text": "Commodore, this is the Franco residence. I think we should steer clear of this house."
+  },
+  {
+    "id": "256",
+    "text": "Commodore, we still haven't found that Joao kid."
+  },
+  {
+    "id": "257",
+    "text": "It's like looking for a needle in a haystack."
+  },
+  {
+    "id": "258",
+    "text": "I know he's out there, somewhere. We have to find him. And there'll be no rest for me until I do."
+  },
+  {
+    "id": "259",
+    "text": "Commodore, this is Franco's residence. We're goners for sure if we enter."
+  },
+  {
+    "id": "260",
+    "text": "Commodore, I heard an interesting piece of information."
+  },
+  {
+    "id": "261",
+    "text": "Is it about Duke Franco or Commander Ezequiel?"
+  },
+  {
+    "id": "262",
+    "text": "Duke Franco. I've heard that the Prince of Portugal is missing right now."
+  },
+  {
+    "id": "263",
+    "text": "Some people say Duke Franco may be involved."
+  },
+  {
+    "id": "264",
+    "text": "Oh really? How so?"
+  },
+  {
+    "id": "265",
+    "text": "Well, they say Duke Franco plotted to eliminate the Prince so his son Joao could take the throne."
+  },
+  {
+    "id": "266",
+    "text": "If that rumor is true then Duke Franco is a real villain."
+  },
+  {
+    "id": "267",
+    "text": "He's worse than we pirates!"
+  },
+  {
+    "id": "268",
+    "text": "Commodore, this is the Franco residence. Breaking in would cause big trouble."
+  },
+  {
+    "id": "269",
+    "text": "Look, Commodore! Those people are all running somewhere."
+  },
+  {
+    "id": "270",
+    "text": "It must be a fight or something."
+  },
+  {
+    "id": "271",
+    "text": "Looks like they went into the shipyard."
+  },
+  {
+    "id": "272",
+    "text": "Hey! Looks like there's a big fight over there!"
+  },
+  {
+    "id": "273",
+    "text": "Those two people are being attacked by that huge mob of pirates!"
+  },
+  {
+    "id": "274",
+    "text": "Andreas! Emilio! Let's save them!"
+  },
+  {
+    "id": "275",
+    "text": "Hmph, you're pretty tough. Hey, you guys, it's time for you to take care of the kid!"
+  },
+  {
+    "id": "276",
+    "text": "Not if I have anything to say about it!"
+  },
+  {
+    "id": "277",
+    "text": "Who in the blazes are you?"
+  },
+  {
+    "id": "278",
+    "text": "A pirate, like yourself. But not so vile as the likes of you, to attack two people with so many men."
+  },
+  {
+    "id": "279",
+    "text": "A lady pirate?! Ha, you're that Spanish traitor, aren't you!"
+  },
+  {
+    "id": "280",
+    "text": "No one has survived a duel with me. On guard!"
+  },
+  {
+    "id": "281",
+    "text": "Blast! You'll regret this!"
+  },
+  {
+    "id": "282",
+    "text": "Pirates have such a limited vocabulary. Can't they ever say something original?"
+  },
+  {
+    "id": "283",
+    "text": "Thank you very much. You saved my life."
+  },
+  {
+    "id": "284",
+    "text": "Don't mention it. You're Portuguese, aren't you?"
+  },
+  {
+    "id": "285",
+    "text": "I am Joao Franco. As a token of my thanks, I'll play a song on my lute for you."
+  },
+  {
+    "id": "286",
+    "text": "... What irony... I saved the life of a Franco."
+  },
+  {
+    "id": "287",
+    "text": "What's the matter?"
+  },
+  {
+    "id": "288",
+    "text": "I am the sister of Commodore Michael $s of Spain. You are responsible for his loss."
+  },
+  {
+    "id": "289",
+    "text": "Prepare yourself for my fury!"
+  },
+  {
+    "id": "290",
+    "text": "W, Wait! I don't understand! Why do you want to fight me?"
+  },
+  {
+    "id": "291",
+    "text": "No more stalling. Pick up your sword!"
+  },
+  {
+    "id": "292",
+    "text": "Commodore, just a moment. I heard something outside."
+  },
+  {
+    "id": "293",
+    "text": "Pirate $n, I know you're in there. You're under arrest by orders of the King of Spain, Carlos I."
+  },
+  {
+    "id": "294",
+    "text": "Throw down your weapons and surrender!"
+  },
+  {
+    "id": "295",
+    "text": "Ugh, I could almost... Listen kid, you were lucky this time, but next time we meet, revenge will be mine!"
+  },
+  {
+    "id": "296",
+    "text": "Sorry, but we're closed today. There was a big fight here and we have to clean up."
+  },
+  {
+    "id": "297",
+    "text": "Did you hear a scream?"
+  },
+  {
+    "id": "298",
+    "text": "Yes, I did. I think it came from the shipyard."
+  },
+  {
+    "id": "299",
+    "text": "Let's check it out."
+  },
+  {
+    "id": "300",
+    "text": "Commodore, this is the harbor, not the shipyard."
+  },
+  {
+    "id": "301",
+    "text": "Look at the fleet anchored there, Commodore!"
+  },
+  {
+    "id": "302",
+    "text": "The flag of the main mast has the red cross of the Malta Knights."
+  },
+  {
+    "id": "303",
+    "text": "Someone is coming toward us."
+  },
+  {
+    "id": "304",
+    "text": "You know, Rocco, you're a really strong guy."
+  },
+  {
+    "id": "305",
+    "text": "Excuse me, are you the owner of that ship?"
+  },
+  {
+    "id": "306",
+    "text": "Why yes. I am Joao Franco, Commodore of the fleet."
+  },
+  {
+    "id": "307",
+    "text": "Fr, Franco!"
+  },
+  {
+    "id": "308",
+    "text": "I am the sister of Commodore Michael $s of Spain. You are responsible for his loss. Now I will take my revenge!"
+  },
+  {
+    "id": "309",
+    "text": "Wait! I don't understand!"
+  },
+  {
+    "id": "310",
+    "text": "Pick up your sword! On guard!"
+  },
+  {
+    "id": "311",
+    "text": "Commodore, just a moment. I heard something outside."
+  },
+  {
+    "id": "312",
+    "text": "$n, I know you're in there. You're under arrest by orders of the King of Spain, Carlos I. Come out with your hands up!"
+  },
+  {
+    "id": "313",
+    "text": "Curses! Listen kid, luck was on your side this time, but watch out! I will get my revenge!"
+  },
+  {
+    "id": "314",
+    "text": "Did you hear a scream?"
+  },
+  {
+    "id": "315",
+    "text": "Yes, I did. I think it came from the shipyard."
+  },
+  {
+    "id": "316",
+    "text": "Let's check it out."
+  },
+  {
+    "id": "317",
+    "text": "I thought we were going to the shipyard."
+  },
+  {
+    "id": "318",
+    "text": "Commodore, we didn't go to the shipyard, after all."
+  },
+  {
+    "id": "319",
+    "text": "Commodore, what do you think of sneaking into this house and making a surprise attack?"
+  },
+  {
+    "id": "320",
+    "text": "That doesn't sound fair."
+  },
+  {
+    "id": "321",
+    "text": "May I help you?"
+  },
+  {
+    "id": "322",
+    "text": "No. No, thank you. No surprise attack, of course. Excuse us."
+  },
+  {
+    "id": "323",
+    "text": "Hummm, they're a suspicious lot..."
+  },
+  {
+    "id": "324",
+    "text": "Commodore, I found someone who knows where Joao is."
+  },
+  {
+    "id": "325",
+    "text": "Are you sure? You know, your information isn't always reliable."
+  },
+  {
+    "id": "326",
+    "text": "Shut up! You're the one who's useless!"
+  },
+  {
+    "id": "327",
+    "text": "That does it, I've had enough of your insults. Let's settle this with our fists. C'mon!"
+  },
+  {
+    "id": "328",
+    "text": "Stop quarreling!"
+  },
+  {
+    "id": "329",
+    "text": "Andreas, who said he knows of Joao's whereabouts?"
+  },
+  {
+    "id": "330",
+    "text": "This scurvy pirate, called Bret Perot. He insists on speaking to you personally, Commodore. He's at the pub."
+  },
+  {
+    "id": "331",
+    "text": "OK, I'll talk to him."
+  },
+  {
+    "id": "332",
+    "text": "Commodore, Perot is waiting for you. Let's hurry to the pub."
+  },
+  {
+    "id": "333",
+    "text": "Hey, Perot, the Commodore is here to see you."
+  },
+  {
+    "id": "334",
+    "text": "You'd better not give us false information, buster, you'll pay for it, you hear?"
+  },
+  {
+    "id": "335",
+    "text": "You'll wake up with a big headache, you got that?"
+  },
+  {
+    "id": "336",
+    "text": "OK, I understand! Andreas, I wouldn't lie to you."
+  },
+  {
+    "id": "337",
+    "text": "Two days ago, I ran into a Portuguese fleet just outside this port."
+  },
+  {
+    "id": "338",
+    "text": "Our fleet was disguised as a Portuguese merchant fleet."
+  },
+  {
+    "id": "339",
+    "text": "I planned to attack them suddenly, once they'd let down their guard."
+  },
+  {
+    "id": "340",
+    "text": "Skip the irrelevant stuff. Just get to the point!"
+  },
+  {
+    "id": "341",
+    "text": "OK, OK! Just be patient. I gathered my courage and started talking with the fleet, asking where they were going."
+  },
+  {
+    "id": "342",
+    "text": "The sailor who responded was an old man named Rocco, Joao's first mate."
+  },
+  {
+    "id": "343",
+    "text": "He told me they were heading toward $r17."
+  },
+  {
+    "id": "344",
+    "text": "Thank you, but your story was too long!"
+  },
+  {
+    "id": "345",
+    "text": "Are you sure about this?"
+  },
+  {
+    "id": "346",
+    "text": "You're too suspicious! I swear to you, on my ship, that it's true."
+  },
+  {
+    "id": "347",
+    "text": "Emilio, Andreas, let's go. Thank you, Perot."
+  },
+  {
+    "id": "348",
+    "text": "Commodore, Perot is waiting for you. Let's hurry to the pub."
+  },
+  {
+    "id": "349",
+    "text": "Oh, hello there. I thought I recognized you. Aren't you friends with Sir Joao?"
+  },
+  {
+    "id": "350",
+    "text": "Hi Marco! I was in the area, so I thought I'd stop by and say hello."
+  },
+  {
+    "id": "351",
+    "text": "Emilio, what are you thinking? You want to make friends with the Francos?"
+  },
+  {
+    "id": "352",
+    "text": "Well, he was quite pleasant."
+  },
+  {
+    "id": "353",
+    "text": "I can't believe how nice he's being to us! This must be one of those rare hidden events."
+  },
+  {
+    "id": "354",
+    "text": "Are you a friend of Sir Joao?"
+  },
+  {
+    "id": "355",
+    "text": "Well, we're not really friends yet."
+  },
+  {
+    "id": "356",
+    "text": "I see. Do you have any news about him?"
+  },
+  {
+    "id": "357",
+    "text": "Yes, he's heading toward $r17."
+  },
+  {
+    "id": "358",
+    "text": "Thank you very much for telling me that. This gold is a token of my gratitude."
+  },
+  {
+    "id": "359",
+    "text": "You mean you'd really like to give me 1000 gold pieces? Well, then, thank you. I appreciate it."
+  },
+  {
+    "id": "360",
+    "text": "Commodore, look at this. I got a reward."
+  },
+  {
+    "id": "361",
+    "text": "I'm dumbfounded. This is a strange turn of events."
+  },
+  {
+    "id": "362",
+    "text": "Hey, Waiter! Have you seen a sailor named Joao?"
+  },
+  {
+    "id": "363",
+    "text": "No, I haven't."
+  },
+  {
+    "id": "364",
+    "text": "You're not lying to me, are you?"
+  },
+  {
+    "id": "365",
+    "text": "Ouch! Why should I lie to you!?"
+  },
+  {
+    "id": "366",
+    "text": "Stop that, Andreas!"
+  },
+  {
+    "id": "367",
+    "text": "This guy is lying. I know it!"
+  },
+  {
+    "id": "368",
+    "text": "Let's go. Sorry to bother you."
+  },
+  {
+    "id": "369",
+    "text": "Commodore, let's ask about Joao at the pub, first."
+  },
+  {
+    "id": "370",
+    "text": "Commodore, this is the Franco residence. Let's get out of here."
+  },
+  {
+    "id": "371",
+    "text": "Next time I see Bret Perot, he'll pay for this."
+  },
+  {
+    "id": "372",
+    "text": "Commodore, maybe Joao's fleet hasn't arrived here yet."
+  },
+  {
+    "id": "373",
+    "text": "Or he hasn't visited the pub yet."
+  },
+  {
+    "id": "374",
+    "text": "OK. Let's wait here a while."
+  },
+  {
+    "id": "375",
+    "text": "Commodore, this is the Franco residence. Let's forget about the rest of the Francos and concentrate on Joao."
+  },
+  {
+    "id": "376",
+    "text": "Hey, Bartender. Are you sure you haven't seen Joao?"
+  },
+  {
+    "id": "377",
+    "text": "Oh no, not you again."
+  },
+  {
+    "id": "378",
+    "text": "Why are you so nervous, huh?"
+  },
+  {
+    "id": "379",
+    "text": "Ouch... OK, I'll tell you. Quit it!"
+  },
+  {
+    "id": "380",
+    "text": "Stop it, Andreas."
+  },
+  {
+    "id": "381",
+    "text": "Cough-cough."
+  },
+  {
+    "id": "382",
+    "text": "Now, tell us about Joao."
+  },
+  {
+    "id": "383",
+    "text": "I'm not lying."
+  },
+  {
+    "id": "384",
+    "text": "The man you are looking for came here a while ago. So I told him about you."
+  },
+  {
+    "id": "385",
+    "text": "What!"
+  },
+  {
+    "id": "386",
+    "text": "You stupid pig!"
+  },
+  {
+    "id": "387",
+    "text": "Maybe he's still around. Let's go look for him."
+  },
+  {
+    "id": "388",
+    "text": "He's not here."
+  },
+  {
+    "id": "389",
+    "text": "He's not here, either."
+  },
+  {
+    "id": "390",
+    "text": "Commodore, this is the Franco residence."
+  },
+  {
+    "id": "391",
+    "text": "Not here, either. Hmm, what's that noise?"
+  },
+  {
+    "id": "392",
+    "text": "You, hiding there, come on out!"
+  },
+  {
+    "id": "393",
+    "text": "Commodore, help me!"
+  },
+  {
+    "id": "394",
+    "text": "Emilio! What happened? Why are you all tied up?"
+  },
+  {
+    "id": "395",
+    "text": "Whew. Thank you."
+  },
+  {
+    "id": "396",
+    "text": "Sorry, Commodore."
+  },
+  {
+    "id": "397",
+    "text": "Who did it? Oh, you don't have to tell me, I know it was that wicked Joao."
+  },
+  {
+    "id": "398",
+    "text": "Well, to be exact, it wasn't Joao, but his mate, Rocco."
+  },
+  {
+    "id": "399",
+    "text": "I followed them to this building. But that old man blocked me."
+  },
+  {
+    "id": "400",
+    "text": "He is a monster! I was powerless before him."
+  },
+  {
+    "id": "401",
+    "text": "Yes, I've heard about him. That old man used to be called 'Monster Rocco'."
+  },
+  {
+    "id": "402",
+    "text": "Why didn't you tell us earlier?"
+  },
+  {
+    "id": "403",
+    "text": "I didn't think he was that strong."
+  },
+  {
+    "id": "404",
+    "text": "Get up. Where did Joao go?"
+  },
+  {
+    "id": "405",
+    "text": "He said he'll be at the harbor."
+  },
+  {
+    "id": "406",
+    "text": "No Joao here."
+  },
+  {
+    "id": "407",
+    "text": "Commodore, this is the Franco residence. Forget going in there."
+  },
+  {
+    "id": "408",
+    "text": "Has a fleet left recently?"
+  },
+  {
+    "id": "409",
+    "text": "Yes, Commodore Joao's fleet just left."
+  },
+  {
+    "id": "410",
+    "text": "Oh, no! We just missed them!"
+  },
+  {
+    "id": "411",
+    "text": "Did they say anything?"
+  },
+  {
+    "id": "412",
+    "text": "Well no, but they seemed to be laughing pretty hard about something."
+  },
+  {
+    "id": "413",
+    "text": "They won't get away with this!"
+  },
+  {
+    "id": "414",
+    "text": "Commodore, this is the Franco residence. I have to admit, it is a nice house. But it's no place for us!"
+  },
+  {
+    "id": "415",
+    "text": "Hi $n, I was looking for you."
+  },
+  {
+    "id": "416",
+    "text": "Oh, it's you."
+  },
+  {
+    "id": "417",
+    "text": "So, Joao was in that port just as I said, wasn't he?"
+  },
+  {
+    "id": "418",
+    "text": "But things didn't go very well there."
+  },
+  {
+    "id": "419",
+    "text": "Well, I just told you to go there. I never told you to let him go, and get all tied up!"
+  },
+  {
+    "id": "420",
+    "text": "How dare you say that!"
+  },
+  {
+    "id": "421",
+    "text": "People loved the story how that old man tied you up like a bow!"
+  },
+  {
+    "id": "422",
+    "text": "Shut up, dog face. I'll teach you to make fun of me."
+  },
+  {
+    "id": "423",
+    "text": "Whoa! Hold on a minute there."
+  },
+  {
+    "id": "424",
+    "text": "I won't stop Andreas if you were only looking for us so you could tease us, you weasel-faced numskull."
+  },
+  {
+    "id": "425",
+    "text": "Ouch! No! Ouch! It just slipped out of my lips! Ouch! The true reason is, ouch!, I've got some information for you."
+  },
+  {
+    "id": "426",
+    "text": "Information? That must be about Joao."
+  },
+  {
+    "id": "427",
+    "text": "Uuuhh... Let me go..."
+  },
+  {
+    "id": "428",
+    "text": "That's enough, Andreas. Stop it."
+  },
+  {
+    "id": "429",
+    "text": "Gasp, gasp... I thought I'd never breathe again."
+  },
+  {
+    "id": "430",
+    "text": "Tell us what you know."
+  },
+  {
+    "id": "431",
+    "text": "I will, but on one condition."
+  },
+  {
+    "id": "432",
+    "text": "Andreas, he's all yours. Have fun."
+  },
+  {
+    "id": "433",
+    "text": "Oh, no. OK, I'll tell you. There is someone who knows where Joao's fleet is."
+  },
+  {
+    "id": "434",
+    "text": "Who is it?"
+  },
+  {
+    "id": "435",
+    "text": "A Portuguese nobleman of high rank. But I'm not supposed to tell you his name."
+  },
+  {
+    "id": "436",
+    "text": "That sounds suspicious. If he is a man of high rank, why can't he identify himself?"
+  },
+  {
+    "id": "437",
+    "text": "I haven't finished yet. That nobleman has a grudge against the Francos."
+  },
+  {
+    "id": "438",
+    "text": "That's why he's been following Joao's activities."
+  },
+  {
+    "id": "439",
+    "text": "If you wish, he can help you, he says."
+  },
+  {
+    "id": "440",
+    "text": "Sounds too good to be true. It might be a scheme."
+  },
+  {
+    "id": "441",
+    "text": "It isn't a scheme. But he has a request of you."
+  },
+  {
+    "id": "442",
+    "text": "His son has a crush on a girl called Lucia in the Lisbon pub."
+  },
+  {
+    "id": "443",
+    "text": "He wants to see her alone."
+  },
+  {
+    "id": "444",
+    "text": "But because he's a nobleman, he can't see her in public."
+  },
+  {
+    "id": "445",
+    "text": "So he wants you to take her to meet him at another port."
+  },
+  {
+    "id": "446",
+    "text": "If you can do that, he'll let you know where Joao is."
+  },
+  {
+    "id": "447",
+    "text": "Is that all? It's easy to kidnap a girl."
+  },
+  {
+    "id": "448",
+    "text": "Not a kidnapping. We need to take her out secretly."
+  },
+  {
+    "id": "449",
+    "text": "I'm not too keen on this scheme, but if we can find out where Joao is..."
+  },
+  {
+    "id": "450",
+    "text": "It's a great opportunity. You accept the deal, right?"
+  },
+  {
+    "id": "451",
+    "text": "OK, It's a deal. Where do we bring the girl?"
+  },
+  {
+    "id": "452",
+    "text": "There is a port called Ceuta, just south of Lisbon."
+  },
+  {
+    "id": "453",
+    "text": "Bring her to the lodge there."
+  },
+  {
+    "id": "454",
+    "text": "I'll report our deal to the nobleman. Good luck!"
+  },
+  {
+    "id": "455",
+    "text": "Any day now, Joao will be within our grasp."
+  },
+  {
+    "id": "456",
+    "text": "It's not a bad deal. It's good to have support from someone."
+  },
+  {
+    "id": "457",
+    "text": "Commodore, let's go get that girl at the pub."
+  },
+  {
+    "id": "458",
+    "text": "So we need to find the girl in this pub."
+  },
+  {
+    "id": "459",
+    "text": "There's a woman over there."
+  },
+  {
+    "id": "460",
+    "text": "Would you like anything to drink?"
+  },
+  {
+    "id": "461",
+    "text": "She's beautiful, but not young."
+  },
+  {
+    "id": "462",
+    "text": "No, not a old lady like her."
+  },
+  {
+    "id": "463",
+    "text": "Who're you calling an old woman?"
+  },
+  {
+    "id": "464",
+    "text": "Oooops, she heard us."
+  },
+  {
+    "id": "465",
+    "text": "Of course, everyone heard you, you loudmouth."
+  },
+  {
+    "id": "466",
+    "text": "Old lady, my foot. Just get lost, children! You're not welcome here!"
+  },
+  {
+    "id": "467",
+    "text": "Blast! Let's get out of here."
+  },
+  {
+    "id": "468",
+    "text": "We're not having much luck with this older generation. First Rocco, and now this!"
+  },
+  {
+    "id": "469",
+    "text": "Excuse me, are you Lucia?"
+  },
+  {
+    "id": "470",
+    "text": "No, Lucia is my daughter."
+  },
+  {
+    "id": "471",
+    "text": "May I speak to Lucia?"
+  },
+  {
+    "id": "472",
+    "text": "Why yes. Actually, if you're a traveler, tell her some interesting stories. She'll be delighted."
+  },
+  {
+    "id": "473",
+    "text": "Lucia! You have a customer. Lucia!"
+  },
+  {
+    "id": "474",
+    "text": "Yes, mother."
+  },
+  {
+    "id": "475",
+    "text": "This lady wants to talk to you."
+  },
+  {
+    "id": "476",
+    "text": "Are you a stowaway? Oh, I'm so envious. I'd love to travel, too."
+  },
+  {
+    "id": "477",
+    "text": "Anyone can travel, if they have 2 things - a ship and plenty of courage."
+  },
+  {
+    "id": "478",
+    "text": "But I have to work here."
+  },
+  {
+    "id": "479",
+    "text": "That's true. Not to change the subject, but do you know a young noble who visits here from time to time?"
+  },
+  {
+    "id": "480",
+    "text": "Yes, he comes here incognito. He is always kind and sincere, and he's very handsome."
+  },
+  {
+    "id": "481",
+    "text": "That man said he wants to meet with you, but he can't come here right now. He's asked me to bring you to visit him."
+  },
+  {
+    "id": "482",
+    "text": "Really?!"
+  },
+  {
+    "id": "483",
+    "text": "Would you like to go? He's in a port called Ceuta, just to the south of Lisbon."
+  },
+  {
+    "id": "484",
+    "text": "Ceuta... I heard it's beautiful."
+  },
+  {
+    "id": "485",
+    "text": "What luck - taking a trip and seeing you-know-who! Please take me!"
+  },
+  {
+    "id": "486",
+    "text": "Then get ready, quickly. Where's a good place to meet?"
+  },
+  {
+    "id": "487",
+    "text": "OK, I'll be ready as soon as possible. Wait for me at the lodge in 2 hours."
+  },
+  {
+    "id": "488",
+    "text": "Tell your mother so she won't be worried."
+  },
+  {
+    "id": "489",
+    "text": "Alright."
+  },
+  {
+    "id": "490",
+    "text": "-Closed Due To Remodeling-"
+  },
+  {
+    "id": "491",
+    "text": "Remodeling? We came here all the way. Should I set it on fire?"
+  },
+  {
+    "id": "492",
+    "text": "Don't be silly, Andreas. Commodore, let's come back here tomorrow."
+  },
+  {
+    "id": "493",
+    "text": "Commodore, let's finish our work as soon as possible."
+  },
+  {
+    "id": "494",
+    "text": "Commodore, we should send Lucia to Ceuta first."
+  },
+  {
+    "id": "495",
+    "text": "Lucia, are you ready yet?"
+  },
+  {
+    "id": "496",
+    "text": "No, not yet. Give me a little more time."
+  },
+  {
+    "id": "497",
+    "text": "Where is Lucia?"
+  },
+  {
+    "id": "498",
+    "text": "What, you again? Lucia went to the lodge."
+  },
+  {
+    "id": "499",
+    "text": "Where's Lucia?"
+  },
+  {
+    "id": "500",
+    "text": "Lucia went to the lodge a long time ago."
+  },
+  {
+    "id": "501",
+    "text": "It's almost time."
+  },
+  {
+    "id": "502",
+    "text": "Yes."
+  },
+  {
+    "id": "503",
+    "text": "I hope I didn't keep you waiting too long."
+  },
+  {
+    "id": "504",
+    "text": "No, we just got here."
+  },
+  {
+    "id": "505",
+    "text": "You're late!!"
+  },
+  {
+    "id": "506",
+    "text": "Sorry, I had some business to take care of."
+  },
+  {
+    "id": "507",
+    "text": "No problem."
+  },
+  {
+    "id": "508",
+    "text": "Let's go to my ship."
+  },
+  {
+    "id": "509",
+    "text": "I'm so excited!"
+  },
+  {
+    "id": "510",
+    "text": "Commodore, how did it go?"
+  },
+  {
+    "id": "511",
+    "text": "Very well. She was thrilled. We'll meet her here in two hours."
+  },
+  {
+    "id": "512",
+    "text": "Well, only one more hour now."
+  },
+  {
+    "id": "513",
+    "text": "Yes."
+  },
+  {
+    "id": "514",
+    "text": "You're late!!"
+  },
+  {
+    "id": "515",
+    "text": "Sorry, I don't know where the time went."
+  },
+  {
+    "id": "516",
+    "text": "I thought you had left already for Ceuta."
+  },
+  {
+    "id": "517",
+    "text": "I apologize. Let's go to my ship."
+  },
+  {
+    "id": "518",
+    "text": "I'm so excited!"
+  },
+  {
+    "id": "519",
+    "text": "Commander, how did it go?"
+  },
+  {
+    "id": "520",
+    "text": "Very well. She was really excited. We're supposed to meet her at the lodge in two hours."
+  },
+  {
+    "id": "521",
+    "text": "One more hour till she gets here."
+  },
+  {
+    "id": "522",
+    "text": "Yes."
+  },
+  {
+    "id": "523",
+    "text": "Commodore, it's time to meet Lucia."
+  },
+  {
+    "id": "524",
+    "text": "That's right. Let's go to the lodge."
+  },
+  {
+    "id": "525",
+    "text": "Commodore, we shouldn't keep her waiting."
+  },
+  {
+    "id": "526",
+    "text": "Yes. Let's go to the lodge."
+  },
+  {
+    "id": "527",
+    "text": "Commodore, Lucia must be upset, waiting for us for so long."
+  },
+  {
+    "id": "528",
+    "text": "I'm afraid so."
+  },
+  {
+    "id": "529",
+    "text": "Commodore, let's take Lucia to Ceuta right away."
+  },
+  {
+    "id": "530",
+    "text": "Excuse me, but is a young Portuguese nobleman staying here?"
+  },
+  {
+    "id": "531",
+    "text": "Yes, he's waiting for you."
+  },
+  {
+    "id": "532",
+    "text": "I also have a message for you from a man called Perot. He wants you to go to the pub after you bring Lucia to the lodge."
+  },
+  {
+    "id": "533",
+    "text": "Thank you!"
+  },
+  {
+    "id": "534",
+    "text": "$n, thank you very much. I won't forget your kindness."
+  },
+  {
+    "id": "535",
+    "text": "I have an appointment so I must leave now. Good luck!"
+  },
+  {
+    "id": "536",
+    "text": "Wow, is this Ceuta? It's a beautiful port."
+  },
+  {
+    "id": "537",
+    "text": "Yes, it is."
+  },
+  {
+    "id": "538",
+    "text": "Commodore, we should get going to the lodge."
+  },
+  {
+    "id": "539",
+    "text": "If we wait too long, the nobleman might think we're not coming."
+  },
+  {
+    "id": "540",
+    "text": "Commodore, she looked happy. Feels good when you do a good deed for someone."
+  },
+  {
+    "id": "541",
+    "text": "And she was pretty. No wonder that nobleman likes her."
+  },
+  {
+    "id": "542",
+    "text": "He's probably a respectable guy, unlike those Francos."
+  },
+  {
+    "id": "543",
+    "text": "According to her, he is kind, sincere, and handsome. I can't believe that somebody as sly as Joao could also be a Portuguese noble."
+  },
+  {
+    "id": "544",
+    "text": "Hi $n, it seems you safely brought Lucia to this port."
+  },
+  {
+    "id": "545",
+    "text": "So Perot, can you tell me now where Joao is?"
+  },
+  {
+    "id": "546",
+    "text": "Sure. Joao is in Alexandria."
+  },
+  {
+    "id": "547",
+    "text": "Andreas, Emilio, let's go."
+  },
+  {
+    "id": "548",
+    "text": "Good luck. Try not to botch up the job again!"
+  },
+  {
+    "id": "549",
+    "text": "Commodore, let's go to the pub now."
+  },
+  {
+    "id": "550",
+    "text": "Commodore, we don't have time to visit here. Let's go to Alexandria."
+  },
+  {
+    "id": "551",
+    "text": "Commodore, what shall we do first?"
+  },
+  {
+    "id": "552",
+    "text": "Today is the day I will defeat Joao. We must act carefully."
+  },
+  {
+    "id": "553",
+    "text": "Excuse me."
+  },
+  {
+    "id": "554",
+    "text": "You are...?"
+  },
+  {
+    "id": "555",
+    "text": "Otto Baynes. I command a Privateer Fleet from England."
+  },
+  {
+    "id": "556",
+    "text": "What would a commodore of England need from me?"
+  },
+  {
+    "id": "557",
+    "text": "I've been following you since I saw you in Ceuta. The pirate you were talking to in the pub is Bret Perot, isn't he?"
+  },
+  {
+    "id": "558",
+    "text": "Yes, he is. What about him?"
+  },
+  {
+    "id": "559",
+    "text": "He's been linked with Marquis Martinez. Are you aware of that?"
+  },
+  {
+    "id": "560",
+    "text": "I see. So the nobleman that Perot was talking about is Marquis Martinez. What about him?"
+  },
+  {
+    "id": "561",
+    "text": "Then you are kidnappers. Where is Lucia? If you return her now, we'll save your life."
+  },
+  {
+    "id": "562",
+    "text": "What are you talking about? If you insist on making false charges, I'll dump you in the ocean as shark bait."
+  },
+  {
+    "id": "563",
+    "text": "Watch your mouth, pal!"
+  },
+  {
+    "id": "564",
+    "text": "What! You shut up!"
+  },
+  {
+    "id": "565",
+    "text": "Calm yourself, Andreas."
+  },
+  {
+    "id": "566",
+    "text": "Otto, why are you saying we kidnapped her?"
+  },
+  {
+    "id": "567",
+    "text": "I just accepted Marquis Martinez's request to take her to Ceuta."
+  },
+  {
+    "id": "568",
+    "text": "Are you saying that you did it without knowing who he is?"
+  },
+  {
+    "id": "569",
+    "text": "I found out about this crime only by chance. Matthew, explain it to them."
+  },
+  {
+    "id": "570",
+    "text": "Yes, sir."
+  },
+  {
+    "id": "571",
+    "text": "A while ago when I was drinking at the pub in Algiers,"
+  },
+  {
+    "id": "572",
+    "text": "I overheard a conversation between Marquis Martinez and the pirate, Perot."
+  },
+  {
+    "id": "573",
+    "text": "It seems Lucia inadvertently overheard a big secret of theirs. That's why they plotted her kidnapping."
+  },
+  {
+    "id": "574",
+    "text": "It was a clever idea. If a woman like you invites her, the girl and her mother would not be suspicious."
+  },
+  {
+    "id": "575",
+    "text": "Is that really true?"
+  },
+  {
+    "id": "576",
+    "text": "Why on earth would we lie?"
+  },
+  {
+    "id": "577",
+    "text": "Blast! Perot tricked us!!"
+  },
+  {
+    "id": "578",
+    "text": "That means Lucia is in danger!"
+  },
+  {
+    "id": "579",
+    "text": "Otto, I caused this terrible situation. I must take care of it."
+  },
+  {
+    "id": "580",
+    "text": "You must do what you feel is right."
+  },
+  {
+    "id": "581",
+    "text": "While in the pub, I also heard that Perot is heading for the Black Sea."
+  },
+  {
+    "id": "582",
+    "text": "Thank you for telling us."
+  },
+  {
+    "id": "583",
+    "text": "Perot"
+  },
+  {
+    "id": "584",
+    "text": "Bret"
+  },
+  {
+    "id": "585",
+    "text": "Commodore, we must chase Perot now!"
+  },
+  {
+    "id": "586",
+    "text": "Commodore, I have bad memories of this place. Let's not go inside."
+  },
+  {
+    "id": "587",
+    "text": "Ha, ha, ha! You're finished now!"
+  },
+  {
+    "id": "588",
+    "text": "Perot, you won't get away with lying to me."
+  },
+  {
+    "id": "589",
+    "text": "Blast! I didn't think you'd catch on so fast."
+  },
+  {
+    "id": "590",
+    "text": "But it doesn't matter. I wanted to get rid of you. And I don't care how I do it!"
+  },
+  {
+    "id": "591",
+    "text": "Captain, we've searched the entire ship, but we didn't find any sign of Lucia."
+  },
+  {
+    "id": "592",
+    "text": "Bret Perot! What have you done to that girl?!"
+  },
+  {
+    "id": "593",
+    "text": "Ha, ha, ha! You'll never find her! She's probably on the far side of the world by now!"
+  },
+  {
+    "id": "594",
+    "text": "You'd better tell us what you've done, or I'll break every..."
+  },
+  {
+    "id": "595",
+    "text": "Even if you did defeat me here, there's no way you'll ever stop the Atlantean armies. They will conquer the world!"
+  },
+  {
+    "id": "596",
+    "text": "I don't know what you're talking about, Perot. But don't kid yourself. You're just a scurvy pirate, and you always will be."
+  },
+  {
+    "id": "597",
+    "text": "Even so, he said some pretty interesting things, wouldn't you say?"
+  },
+  {
+    "id": "598",
+    "text": "Blast! I guess this means I'll have to take care of you myself, $n!"
+  },
+  {
+    "id": "599",
+    "text": "Commodore, I don't think we should go in there."
+  },
+  {
+    "id": "600",
+    "text": "Commodore, I don't like this building. Let's get out of here."
+  },
+  {
+    "id": "601",
+    "text": "Commodore, I think we'd better stay out of this building."
+  },
+  {
+    "id": "602",
+    "text": "Commodore, I really don't want to go inside this building."
+  },
+  {
+    "id": "603",
+    "text": "That wasn't as difficult as I thought it would be."
+  },
+  {
+    "id": "604",
+    "text": "Even so, it's too early to relax. We better watch out, so we don't get fooled again."
+  },
+  {
+    "id": "605",
+    "text": "They wouldn't have the nerve to do that to us."
+  },
+  {
+    "id": "606",
+    "text": "Well, you've got a point there."
+  },
+  {
+    "id": "607",
+    "text": "Have you loaded up all our spoils of victory?"
+  },
+  {
+    "id": "608",
+    "text": "Don't worry. It's all taken care of."
+  },
+  {
+    "id": "609",
+    "text": "Oh, Commodore, there was a navigator hiding in the main hold of the enemy's ship."
+  },
+  {
+    "id": "610",
+    "text": "Deal with him as you see fit."
+  },
+  {
+    "id": "611",
+    "text": "He says he knows something that may interest you."
+  },
+  {
+    "id": "612",
+    "text": "Then bring him here."
+  },
+  {
+    "id": "613",
+    "text": "Here's the lout."
+  },
+  {
+    "id": "614",
+    "text": "You, you're the female pirate, $n."
+  },
+  {
+    "id": "615",
+    "text": "And what of it?"
+  },
+  {
+    "id": "616",
+    "text": "I have some information you may find interesting. We can make a deal."
+  },
+  {
+    "id": "617",
+    "text": "No, thank you. I don't make deals."
+  },
+  {
+    "id": "618",
+    "text": "Andreas, take him away and dump him in the ocean with a sinker."
+  },
+  {
+    "id": "619",
+    "text": "Yes, ma'am."
+  },
+  {
+    "id": "620",
+    "text": "W, Wait, don't, please!"
+  },
+  {
+    "id": "621",
+    "text": "Then speak up. If your information is really useful, maybe I'll spare your life."
+  },
+  {
+    "id": "622",
+    "text": "I know where Joao is."
+  },
+  {
+    "id": "623",
+    "text": "He's at a port called Massawa in the Middle East, defending it from the Turkish forces."
+  },
+  {
+    "id": "624",
+    "text": "Some people think he's foolish to try and confront the Turkish power all by himself, but I think he's brave, a real hero."
+  },
+  {
+    "id": "625",
+    "text": "That's all I know."
+  },
+  {
+    "id": "626",
+    "text": "Andreas, take him away."
+  },
+  {
+    "id": "627",
+    "text": "Dump him into the sea?"
+  },
+  {
+    "id": "628",
+    "text": "Untie him and toss him gently overboard when land is in sight. He may survive, if he's lucky."
+  },
+  {
+    "id": "629",
+    "text": "Huh, you are one lucky guy. This is the first time the Commodore ever let a prisoner go."
+  },
+  {
+    "id": "630",
+    "text": "Emilio, direct the bow to the Middle East."
+  },
+  {
+    "id": "631",
+    "text": "Yes, ma'am."
+  },
+  {
+    "id": "632",
+    "text": "I didn't completely believe that lout, but I think we should head for Massawa and check things out anyway."
+  },
+  {
+    "id": "633",
+    "text": "Commodore, I don't think it's such a good idea to go in there."
+  },
+  {
+    "id": "634",
+    "text": "Commodore, I don't like the looks of this building."
+  },
+  {
+    "id": "635",
+    "text": "... Get lost."
+  },
+  {
+    "id": "636",
+    "text": "Do you still need something, pirate?"
+  },
+  {
+    "id": "637",
+    "text": "I have one more thing to say."
+  },
+  {
+    "id": "638",
+    "text": "What is it?"
+  },
+  {
+    "id": "639",
+    "text": "You look a lot scarier than we pirates!"
+  },
+  {
+    "id": "640",
+    "text": "... Get lost."
+  },
+  {
+    "id": "641",
+    "text": "Commodore, it's a little strange that there's no one around in such a large building."
+  },
+  {
+    "id": "642",
+    "text": "Maybe they're all hiding. They'd come out if we lit a small blaze."
+  },
+  {
+    "id": "643",
+    "text": "Pyromaniac! You're always wanting to set things on fire!"
+  },
+  {
+    "id": "644",
+    "text": "|Mecombe|\nWho are you?"
+  },
+  {
+    "id": "645",
+    "text": "Excuse us. We're just stopping by. We're not thieves."
+  },
+  {
+    "id": "646",
+    "text": "We're just ordinary pirates. Not arsonists or anything..."
+  },
+  {
+    "id": "647",
+    "text": "Oh no, not arsonists..."
+  },
+  {
+    "id": "648",
+    "text": "... Get lost."
+  },
+  {
+    "id": "649",
+    "text": "Well, excuse us for living!"
+  },
+  {
+    "id": "650",
+    "text": "Commodore, let's find Joao as soon as possible."
+  },
+  {
+    "id": "651",
+    "text": "Commodore, look there. That's Joao."
+  },
+  {
+    "id": "652",
+    "text": "He's going to run away!"
+  },
+  {
+    "id": "653",
+    "text": "It took me a while to locate you, Joao."
+  },
+  {
+    "id": "654",
+    "text": "Blast! It's her again. Ye couldn't have picked a worse time, missie!"
+  },
+  {
+    "id": "655",
+    "text": "Shouldn't we ask about Lucia?"
+  },
+  {
+    "id": "656",
+    "text": "Lucia? Oh, that girl from the pub in Lisbon. I'm sorry about what happened."
+  },
+  {
+    "id": "657",
+    "text": "So you were the one who kidnapped her!"
+  },
+  {
+    "id": "658",
+    "text": "It turned out that way. But we were tricked by a pirate who belonged to the gang we just destroyed."
+  },
+  {
+    "id": "659",
+    "text": "But an accidental kidnapping is nothing, compared to the vile deeds you have done."
+  },
+  {
+    "id": "660",
+    "text": "What a cold-blooded woman..."
+  },
+  {
+    "id": "661",
+    "text": "Tell me, is Lucia safe?"
+  },
+  {
+    "id": "662",
+    "text": "I don't know. I defeated all the pirates on board, but I didn't find her anywhere."
+  },
+  {
+    "id": "663",
+    "text": "But enough of this chitchat. Draw your sword! My time for revenge has come!"
+  },
+  {
+    "id": "664",
+    "text": "Sorry $n, but I don't have time to deal with you right now. I have to battle the Turks."
+  },
+  {
+    "id": "665",
+    "text": "So please let me pass. I don't know why you're after me, but I promise that after this battle, we will finally cross swords."
+  },
+  {
+    "id": "666",
+    "text": "Alright. I'll let you go this time."
+  },
+  {
+    "id": "667",
+    "text": "Commodore, do you believe what he says?"
+  },
+  {
+    "id": "668",
+    "text": "They're calling him the savior of the city. We'll see his true colors if he's acting up,"
+  },
+  {
+    "id": "669",
+    "text": "and whether he can save this port or not."
+  },
+  {
+    "id": "670",
+    "text": "When you come back, I'll be your last match."
+  },
+  {
+    "id": "671",
+    "text": "Though I don't expect you'll make it back alive."
+  },
+  {
+    "id": "672",
+    "text": "Enough of your blather, pirate lady!"
+  },
+  {
+    "id": "673",
+    "text": "Don't bother, Rocco. It's no use saying anything to her."
+  },
+  {
+    "id": "674",
+    "text": "The fire of vengeance has burned away all traces of her compassion."
+  },
+  {
+    "id": "675",
+    "text": "Commodore Joao, just ignore her and let's go."
+  },
+  {
+    "id": "676",
+    "text": "We'll be back. And ye'll regret it, not us!"
+  },
+  {
+    "id": "677",
+    "text": "Have you heard about a Portuguese called Joao?"
+  },
+  {
+    "id": "678",
+    "text": "Of course I have. He's the savior of our city."
+  },
+  {
+    "id": "679",
+    "text": "Where is he?"
+  },
+  {
+    "id": "680",
+    "text": "He went to the harbor."
+  },
+  {
+    "id": "681",
+    "text": "Do you know a Portuguese named Joao?"
+  },
+  {
+    "id": "682",
+    "text": "Of course, I do. He is our savior."
+  },
+  {
+    "id": "683",
+    "text": "Your savior?!"
+  },
+  {
+    "id": "684",
+    "text": "What else would you call a man who is trying to single-handedly save this port from the Turks?"
+  },
+  {
+    "id": "685",
+    "text": "That's unbelievable."
+  },
+  {
+    "id": "686",
+    "text": "Commodore, I have a bad feeling about this building."
+  },
+  {
+    "id": "687",
+    "text": "Commodore, I don't like this place. I think it's best we stay away."
+  },
+  {
+    "id": "688",
+    "text": "So you believe him, after all."
+  },
+  {
+    "id": "689",
+    "text": "No, I still don't trust him. The person I believe is Lucia."
+  },
+  {
+    "id": "690",
+    "text": "Lucia?"
+  },
+  {
+    "id": "691",
+    "text": "She said that Joao is kind and sincere."
+  },
+  {
+    "id": "692",
+    "text": "I wanted to see if that's true."
+  },
+  {
+    "id": "693",
+    "text": "Commodore, it's a bit late, but we can still make it to the battle."
+  },
+  {
+    "id": "694",
+    "text": "What?"
+  },
+  {
+    "id": "695",
+    "text": "I don't want to just wait here."
+  },
+  {
+    "id": "696",
+    "text": "The enemy has thousands. Why don't we show one of them what it really feels like to be attacked?"
+  },
+  {
+    "id": "697",
+    "text": "Commodore, I don't like this place at all. It gives me the creeps."
+  },
+  {
+    "id": "698",
+    "text": "Commodore, I believe going in there would be a big mistake."
+  },
+  {
+    "id": "699",
+    "text": "Commodore, I see only one fleet that's not a Turkish one."
+  },
+  {
+    "id": "700",
+    "text": "That's a Portuguese ship. It must be Joao's. Look, it's coming toward us!"
+  },
+  {
+    "id": "701",
+    "text": "$n, what are you doing here!"
+  },
+  {
+    "id": "702",
+    "text": "You were taking so long, I'd thought I come and help you get this over with."
+  },
+  {
+    "id": "703",
+    "text": "Don't get me wrong. I haven't forgiven you. It's just that I can't let anything interfere with my revenge."
+  },
+  {
+    "id": "704",
+    "text": "If anyone's going to defeat you, it's going to be me."
+  },
+  {
+    "id": "705",
+    "text": "I'll take care of this fleet. You concentrate on the enemy's flagship."
+  },
+  {
+    "id": "706",
+    "text": "Commodore, Why don't we just stay out of this building?"
+  },
+  {
+    "id": "707",
+    "text": "Commodore, I don't like the looks of this place. Please, let's stay away from here."
+  },
+  {
+    "id": "708",
+    "text": "Emilio, Andreas, let me do this alone. Wait for me on the ship."
+  },
+  {
+    "id": "709",
+    "text": "No way! It's too dangerous in the middle of all these enemies."
+  },
+  {
+    "id": "710",
+    "text": "Wait, Andreas. This is her problem, what's been tormenting her all this time."
+  },
+  {
+    "id": "711",
+    "text": "We have to let her get through this on her own."
+  },
+  {
+    "id": "712",
+    "text": "Joao, we were lucky back there, but it was a good fight. I take back what I said about you."
+  },
+  {
+    "id": "713",
+    "text": "$n, thank you for joining in the battle. You were a big help. Now as I promised, shall we settle the score?"
+  },
+  {
+    "id": "714",
+    "text": "$n, may I ask you just one question?"
+  },
+  {
+    "id": "715",
+    "text": "What is it?"
+  },
+  {
+    "id": "716",
+    "text": "Why do you think Joao is your enemy?"
+  },
+  {
+    "id": "717",
+    "text": "I have witnesses to his family's wicked deed."
+  },
+  {
+    "id": "718",
+    "text": "On April 10, 1522, a Spanish Royal Navy fleet was set ablaze by a Portuguese fleet while it was resupplying at the port of Santo Domingo."
+  },
+  {
+    "id": "719",
+    "text": "The order for the attack came from none other than the Franco family."
+  },
+  {
+    "id": "720",
+    "text": "The main mast of the flag ship had a banner with the red cross of the Malta Knights, which is the Franco's family crest."
+  },
+  {
+    "id": "721",
+    "text": "Well, that's strange."
+  },
+  {
+    "id": "722",
+    "text": "What is? Who are you, anyway?"
+  },
+  {
+    "id": "723",
+    "text": "Sorry, I forgot to introduce myself. I am Pietro Conti, an adventurer from Genoa."
+  },
+  {
+    "id": "724",
+    "text": "I said strange, because you said it was the Franco's private fleet."
+  },
+  {
+    "id": "725",
+    "text": "Joao, tell her the facts."
+  },
+  {
+    "id": "726",
+    "text": "You may not believe this, but in April of 1522, my family didn't have a private fleet."
+  },
+  {
+    "id": "727",
+    "text": "It's true that my father, Leon Franco, used to have a powerful fleet, but that was many years ago."
+  },
+  {
+    "id": "728",
+    "text": "But once he married my mother, he stopped sailing. He gave his fleet to the Portuguese Royal Navy."
+  },
+  {
+    "id": "729",
+    "text": "So the Francos didn't have a fleet until I built one."
+  },
+  {
+    "id": "730",
+    "text": "Then who destroyed my brother and Hernan?"
+  },
+  {
+    "id": "731",
+    "text": "I don't know, though it may indeed have been someone from Portugal."
+  },
+  {
+    "id": "732",
+    "text": "But I can guarantee that the incident had nothing to do with the Francos."
+  },
+  {
+    "id": "733",
+    "text": "I don't know... I just don't know what to think."
+  },
+  {
+    "id": "734",
+    "text": "You may go now."
+  },
+  {
+    "id": "735",
+    "text": "I'll try to find out the truth, if I can. Your enemy has not only destroyed your brother and fiance, but blackened my family's name as well."
+  },
+  {
+    "id": "736",
+    "text": "Please, just go. This female pirate doesn't need pity from a Portuguese."
+  },
+  {
+    "id": "737",
+    "text": "Huh? The door's locked. Hello! Could you tell me where Joao, the savior of your city, is?"
+  },
+  {
+    "id": "738",
+    "text": "Yes, he's at the palace, but we're still hiding from the Turks."
+  },
+  {
+    "id": "739",
+    "text": "Commander, I wonder what has happened to Joao."
+  },
+  {
+    "id": "740",
+    "text": "Let's go back to Massawa."
+  },
+  {
+    "id": "741",
+    "text": "Commodore, we really shouldn't be here."
+  },
+  {
+    "id": "742",
+    "text": "Commodore, I don't like this place. Please, don't go inside!"
+  },
+  {
+    "id": "743",
+    "text": "Are you $n $s by any chance?"
+  },
+  {
+    "id": "744",
+    "text": "And what if I am?"
+  },
+  {
+    "id": "745",
+    "text": "My name is Ali Vezas. I'm a Turkish trader."
+  },
+  {
+    "id": "746",
+    "text": "And?"
+  },
+  {
+    "id": "747",
+    "text": "An adventurer we both know, Pietro Conti, has asked me to find you."
+  },
+  {
+    "id": "748",
+    "text": "Ah yes, I have met him before."
+  },
+  {
+    "id": "749",
+    "text": "He needs to see you as soon as possible. But he's too busy to come and find you, so he wants you to go to him."
+  },
+  {
+    "id": "750",
+    "text": "Hmmm. I may stop by and see him, if I have the urge to do so."
+  },
+  {
+    "id": "751",
+    "text": "He's in Lisbon. Say hello to him, and tell him that I sent you."
+  },
+  {
+    "id": "752",
+    "text": "Lisbon... I don't have very good memories of that place."
+  },
+  {
+    "id": "753",
+    "text": "Are you $n $s by any chance?"
+  },
+  {
+    "id": "754",
+    "text": "Why yes, I am."
+  },
+  {
+    "id": "755",
+    "text": "A Turkish trader called Ali Vezas was looking for you."
+  },
+  {
+    "id": "756",
+    "text": "I've never heard that name before."
+  },
+  {
+    "id": "757",
+    "text": "I heard that he is trying to recruit allied ports for Suleiman II the Magnificent of the Ottoman Empire."
+  },
+  {
+    "id": "758",
+    "text": "He doesn't like pubs, so he wants to meet you at the lodge."
+  },
+  {
+    "id": "759",
+    "text": "A trader, humph... He must be a stingy annoying guy."
+  },
+  {
+    "id": "760",
+    "text": "Stop it, Andreas. Alright, I'll go see him."
+  },
+  {
+    "id": "761",
+    "text": "May I ask who you are?"
+  },
+  {
+    "id": "762",
+    "text": "$n $s. I came to see Pietro Conti."
+  },
+  {
+    "id": "763",
+    "text": "Ah, so you are $n $s. I've heard a lot about you from my son, Joao."
+  },
+  {
+    "id": "764",
+    "text": "Thank you very much for saving him."
+  },
+  {
+    "id": "765",
+    "text": "Is Pietro here?"
+  },
+  {
+    "id": "766",
+    "text": "Yes, just a moment, please."
+  },
+  {
+    "id": "767",
+    "text": "Hi, $n, I was waiting for you."
+  },
+  {
+    "id": "768",
+    "text": "Why are you looking for me?"
+  },
+  {
+    "id": "769",
+    "text": "Well, I'm going to tell you something you really want to know."
+  },
+  {
+    "id": "770",
+    "text": "There is nothing I want to know."
+  },
+  {
+    "id": "771",
+    "text": "What happened to your fire of vengeance?"
+  },
+  {
+    "id": "772",
+    "text": "I haven't forgotten about it. But, it's just so hard... I just don't know who is responsible."
+  },
+  {
+    "id": "773",
+    "text": "Do you want to know?"
+  },
+  {
+    "id": "774",
+    "text": "Do, do you know?"
+  },
+  {
+    "id": "775",
+    "text": "It's Marquis Martinez, from Portugal."
+  },
+  {
+    "id": "776",
+    "text": "You are not just making this up, are you?"
+  },
+  {
+    "id": "777",
+    "text": "Of course not. I have evidence. A live witness."
+  },
+  {
+    "id": "778",
+    "text": "Yes, I am the witness."
+  },
+  {
+    "id": "779",
+    "text": "You are...?"
+  },
+  {
+    "id": "780",
+    "text": "My name is Raul Franco. I am the father of Leon Franco, and the grandfather of Joao, whom you were chasing."
+  },
+  {
+    "id": "781",
+    "text": "But I thought you were dead! I heard that you were lost at sea over 20 years ago!"
+  },
+  {
+    "id": "782",
+    "text": "I was a prisoner for a long time, in an underground dungeon in Neo-Atlantis."
+  },
+  {
+    "id": "783",
+    "text": "Neo-Atlantis?"
+  },
+  {
+    "id": "784",
+    "text": "Yes, Neo-Atlantis."
+  },
+  {
+    "id": "785",
+    "text": "There are some outrageous people in this world who would do evil deeds. But do you know anything about Atlantis?"
+  },
+  {
+    "id": "786",
+    "text": "Atlantis, yes, wasn't that a land of advanced culture and technology? But that's just a myth."
+  },
+  {
+    "id": "787",
+    "text": "That's why I said outrageous. There are people who are trying to make that fantasy world a reality."
+  },
+  {
+    "id": "788",
+    "text": "Of course it's just a fake, but they call themselves Atlanteans, and their man-made nation, Neo-Atlantis."
+  },
+  {
+    "id": "789",
+    "text": "The leader of that group is the Marquis Martinez."
+  },
+  {
+    "id": "790",
+    "text": "They've built a fortress in the Amazon. They've enslaved the natives and are pretending to look for the ruins of Atlantis."
+  },
+  {
+    "id": "791",
+    "text": "Their scheme is to build a massive military force to control not only the Turks, but the entire world."
+  },
+  {
+    "id": "792",
+    "text": "It's outrageous."
+  },
+  {
+    "id": "793",
+    "text": "They're a bunch of fanatics! And, my brother..."
+  },
+  {
+    "id": "794",
+    "text": "Your brother Michael just ran into the wrong crowd. He found the Neo-Atlantis stronghold while on a scout mission."
+  },
+  {
+    "id": "795",
+    "text": "It's an obvious violation of Treaty of Tordesillas. He was on the way to report it when he was attacked."
+  },
+  {
+    "id": "796",
+    "text": "I see... Where is Martinez now?"
+  },
+  {
+    "id": "797",
+    "text": "He's probably in the Neo-Atlantis stronghold. But be careful. Their fortress is well defended."
+  },
+  {
+    "id": "798",
+    "text": "I also heard that Spain's Commander Ezequiel is still pursuing you."
+  },
+  {
+    "id": "799",
+    "text": "Don't worry. I can take care of Commander Ezequiel."
+  },
+  {
+    "id": "800",
+    "text": "Thank you both so much for telling me all this. I... I don't know how to thank you. I.. I must be going now..."
+  },
+  {
+    "id": "801",
+    "text": "Take care."
+  },
+  {
+    "id": "802",
+    "text": "Good luck."
+  },
+  {
+    "id": "803",
+    "text": "You, you are that..."
+  },
+  {
+    "id": "804",
+    "text": "Please, please return Lucia."
+  },
+  {
+    "id": "805",
+    "text": "I'm sorry, but I don't know where she is. You must give up. I looked for her everywhere, but I couldn't find her."
+  },
+  {
+    "id": "806",
+    "text": "Oh, my Lucia..."
+  },
+  {
+    "id": "807",
+    "text": "You must be $n. Pietro is waiting for you in that large building."
+  },
+  {
+    "id": "808",
+    "text": "That's the residence of our Prime Minister, Leon Franco."
+  },
+  {
+    "id": "809",
+    "text": "What a gorgeous house! Of course, the Duke is wealthy."
+  },
+  {
+    "id": "810",
+    "text": "I'm concerned about being attacked by Commander Ezequiel. I'll go alone. Please go and wait for me on the ship."
+  },
+  {
+    "id": "811",
+    "text": "Yes, ma'am."
+  },
+  {
+    "id": "812",
+    "text": "Commander, I don't like the looks of this place. Let's leave."
+  },
+  {
+    "id": "813",
+    "text": "South America is such a vast continent. How will we ever locate Neo-Atlantis?"
+  },
+  {
+    "id": "814",
+    "text": "I can't even begin to guess. Maybe we should just sail around, from port to port?"
+  },
+  {
+    "id": "815",
+    "text": "Look, someone is being chased. Is that a fight?"
+  },
+  {
+    "id": "816",
+    "text": "They're running towards the pub. Let's go."
+  },
+  {
+    "id": "817",
+    "text": "Isn't that girl Lucia?"
+  },
+  {
+    "id": "818",
+    "text": "The people fighting against the pirates are Joao and Rocco!"
+  },
+  {
+    "id": "819",
+    "text": "Rocco? Then we have nothing to worry about."
+  },
+  {
+    "id": "820",
+    "text": "Let's hide here and watch. We can surprise them if Joao and Rocco get into trouble."
+  },
+  {
+    "id": "821",
+    "text": "Arrgghh! How many men do I need to defeat?!"
+  },
+  {
+    "id": "822",
+    "text": "Blast! This can't be!"
+  },
+  {
+    "id": "823",
+    "text": "Rocco, what's the matter?"
+  },
+  {
+    "id": "824",
+    "text": "I'm sorry, Commodore. Lucia was taken as a hostage."
+  },
+  {
+    "id": "825",
+    "text": "It's alright, Joao, go without me!"
+  },
+  {
+    "id": "826",
+    "text": "Now, drop your sword and line up there."
+  },
+  {
+    "id": "827",
+    "text": "We have no choice. Do as you like."
+  },
+  {
+    "id": "828",
+    "text": "Ha, ha, what a fool."
+  },
+  {
+    "id": "829",
+    "text": "You shall not have your way!"
+  },
+  {
+    "id": "830",
+    "text": "Joao, I'll take care these hoodlums, so grab Lucia and get out of here!"
+  },
+  {
+    "id": "831",
+    "text": "Thanks $n, I owe you one!"
+  },
+  {
+    "id": "832",
+    "text": "Pirate"
+  },
+  {
+    "id": "833",
+    "text": "Rudolph"
+  },
+  {
+    "id": "834",
+    "text": "Hmph, he wasn't nearly as good as he claimed he was."
+  },
+  {
+    "id": "835",
+    "text": "Commodore, watch out!"
+  },
+  {
+    "id": "836",
+    "text": "Ouch!"
+  },
+  {
+    "id": "837",
+    "text": "Thanks, Andreas, you can be extremely helpful sometimes."
+  },
+  {
+    "id": "838",
+    "text": "Good work! Now let's try to catch up with Joao. Where did they go?"
+  },
+  {
+    "id": "839",
+    "text": "They went to the harbor."
+  },
+  {
+    "id": "840",
+    "text": "Commodore, let's go to the pub now."
+  },
+  {
+    "id": "841",
+    "text": "Commodore, there's Joao!"
+  },
+  {
+    "id": "842",
+    "text": "I'll get Martinez for this. I swear it."
+  },
+  {
+    "id": "843",
+    "text": "No you won't! That's my job!"
+  },
+  {
+    "id": "844",
+    "text": "$n, you're safe! But what are you doing here in South America?"
+  },
+  {
+    "id": "845",
+    "text": "I found my true enemy - Marquis Martinez. He's the one who sank my brother's ship."
+  },
+  {
+    "id": "846",
+    "text": "What?!"
+  },
+  {
+    "id": "847",
+    "text": "While Michael was on a mission to explore the New World, he discovered the Portuguese scheme of Neo-Atlantis."
+  },
+  {
+    "id": "848",
+    "text": "By the Treaty of Tordesillas, the land west of 46@W longitude is Spanish territory."
+  },
+  {
+    "id": "849",
+    "text": "The Neo-Atlantis project is a serious violation of that treaty."
+  },
+  {
+    "id": "850",
+    "text": "So Martinez had your brother's mouth shut before the scheme was uncovered in Europe. A devious plan."
+  },
+  {
+    "id": "851",
+    "text": "I know where Martinez is, but it's a fortress. A normal approach won't work."
+  },
+  {
+    "id": "852",
+    "text": "Besides, I have one more problem."
+  },
+  {
+    "id": "853",
+    "text": "Commander Ezequiel of the 'Invincible Spanish Fleet,' right?"
+  },
+  {
+    "id": "854",
+    "text": "Exactly. Rumor has it he's still after me and is somewhere in the vicinity."
+  },
+  {
+    "id": "855",
+    "text": "It seems our chances of victory are pretty slim. But there is one way we can succeed."
+  },
+  {
+    "id": "856",
+    "text": "What is it?"
+  },
+  {
+    "id": "857",
+    "text": "If we tell Commander Ezequiel about Neo-Atlantis, maybe he'll help us."
+  },
+  {
+    "id": "858",
+    "text": "What? That's impossible! I'm wanted by the Spanish Navy and you're from Portugal, his sworn enemy."
+  },
+  {
+    "id": "859",
+    "text": "Well, it won't work if we don't try. We don't have any other choice."
+  },
+  {
+    "id": "860",
+    "text": "I suppose you're right. Actually, I'm tired of battling my own country. I've been thinking about surrendering."
+  },
+  {
+    "id": "861",
+    "text": "Attention fleet! Halt or we'll fire!"
+  },
+  {
+    "id": "862",
+    "text": "Wait, I'd like to talk to Commander Ezequiel!"
+  },
+  {
+    "id": "863",
+    "text": "I am Commander Ezequiel."
+  },
+  {
+    "id": "864",
+    "text": "I am Joao Franco, the son of Duke Franco of Portugal."
+  },
+  {
+    "id": "865",
+    "text": "I have no desire to fight you. I was looking for you because I need your help."
+  },
+  {
+    "id": "866",
+    "text": "We don't want to fight either, but we have an urgent task. It's my duty to arrest that pirate."
+  },
+  {
+    "id": "867",
+    "text": "I will hear you out after I have dealt with her."
+  },
+  {
+    "id": "868",
+    "text": "Wait, Commander. I am surrendering."
+  },
+  {
+    "id": "869",
+    "text": "What?!"
+  },
+  {
+    "id": "870",
+    "text": "So please listen to the Portuguese gentleman. Please... Commander."
+  },
+  {
+    "id": "871",
+    "text": "Alright. As a matter of gentlemen's courtesy, I'll listen to you."
+  },
+  {
+    "id": "872",
+    "text": "This is rather embarrassing, but I must tell you about an internal rivalry that is threatening the stability of Portugal."
+  },
+  {
+    "id": "873",
+    "text": "Two factions split the land- the Francos lead the liberal reformists, and Marquis Martinez leads the conservative nobility."
+  },
+  {
+    "id": "874",
+    "text": "The members of the Franco family are not wealthy aristocrats, but they have earned the King's trust and popular support."
+  },
+  {
+    "id": "875",
+    "text": "The Martinez supporters are not happy about it and have come up with an outrageous scheme."
+  },
+  {
+    "id": "876",
+    "text": "They have built a replica of Atlantis in South America, deep in the forest."
+  },
+  {
+    "id": "877",
+    "text": "They have formed a navy of the worst pirates around and plan to begin attacking the nations of the world."
+  },
+  {
+    "id": "878",
+    "text": "They call their stronghold Neo-Atlantis. And their goal is the subjugation of the entire world!"
+  },
+  {
+    "id": "879",
+    "text": "The Neo-Atlantis stronghold is located on the Amazon river."
+  },
+  {
+    "id": "880",
+    "text": "My brother Michael found this and was silenced by Martinez before he could report it."
+  },
+  {
+    "id": "881",
+    "text": "Yes, we've heard about such a fortress on the Amazon River from one of our intelligence fleets."
+  },
+  {
+    "id": "882",
+    "text": "It may be that this is the Neo-Atlantis of which you speak."
+  },
+  {
+    "id": "883",
+    "text": "If so, we can't ignore the facts. You shall have my assistance. I will fight with you, for all of Iberia."
+  },
+  {
+    "id": "884",
+    "text": "Thank you very much. We'll lead the way, so please follow us."
+  },
+  {
+    "id": "885",
+    "text": "Commodore, it's Joao. Are you really going to attack him?"
+  },
+  {
+    "id": "886",
+    "text": "I didn't expect to fight him here, but then I do have a bit of a grudge against him."
+  },
+  {
+    "id": "887",
+    "text": "But he's completely off guard. I can't believe you would pull such a dirty trick! My style must be rubbing off on you, eh?"
+  },
+  {
+    "id": "888",
+    "text": "There isn't any deep meaning to this. I was just testing to see what would happen if I attacked Joao now."
+  },
+  {
+    "id": "889",
+    "text": "May I give you a piece of advice?"
+  },
+  {
+    "id": "890",
+    "text": "Sure, what is it?"
+  },
+  {
+    "id": "891",
+    "text": "Reset the game, or else we'll never be able to see the ending!"
+  },
+  {
+    "id": "892",
+    "text": "What a relief!"
+  },
+  {
+    "id": "893",
+    "text": "$n, let's go to the fortress."
+  },
+  {
+    "id": "894",
+    "text": "Yes, let's get there as soon as possible."
+  },
+  {
+    "id": "895",
+    "text": "What are you doing? You're targeting the wrong ship!"
+  },
+  {
+    "id": "896",
+    "text": "I'm just fooling around!"
+  },
+  {
+    "id": "897",
+    "text": "Commodore, you're aiming at the 'Invincible Fleet', led by Commander Ezequiel. Are you really sure to attack them?"
+  },
+  {
+    "id": "898",
+    "text": "Well, I didn't expect to attack Commander Ezequiel."
+  },
+  {
+    "id": "899",
+    "text": "I think it's all right."
+  },
+  {
+    "id": "900",
+    "text": "But this may change the course of the story."
+  },
+  {
+    "id": "901",
+    "text": "Of course, it will."
+  },
+  {
+    "id": "902",
+    "text": "It's too bad. This way, I don't get to see the ending."
+  },
+  {
+    "id": "903",
+    "text": "What a relief."
+  },
+  {
+    "id": "904",
+    "text": "$n, let's go to the fortress now."
+  },
+  {
+    "id": "905",
+    "text": "Yes, sir."
+  },
+  {
+    "id": "906",
+    "text": "What are you doing? You're targeting the wrong ship!"
+  },
+  {
+    "id": "907",
+    "text": "I'm just kidding."
+  },
+  {
+    "id": "908",
+    "text": "How long are you going to try to escape from me? It's time to give up."
+  },
+  {
+    "id": "909",
+    "text": "What's the matter? Weren't you going to destroy me?"
+  },
+  {
+    "id": "910",
+    "text": "Martinez, your scheme has been uncovered."
+  },
+  {
+    "id": "911",
+    "text": "So what? None of that will matter if I bury you here."
+  },
+  {
+    "id": "912",
+    "text": "Our fleet will take care of the enemy's fortress. I'll leave you the rest."
+  },
+  {
+    "id": "913",
+    "text": "Joao, please let me confront Martinez."
+  },
+  {
+    "id": "914",
+    "text": "Of course! It's finally your chance for revenge. In the meantime, I'll take care of the rest of the fleet."
+  },
+  {
+    "id": "915",
+    "text": "Oooohhh, my fleet, my dream, my ambition..."
+  },
+  {
+    "id": "916",
+    "text": "Michael, Hernan... I have finally avenged your loss."
+  },
+  {
+    "id": "917",
+    "text": "$n, you finally fulfilled your goal."
+  },
+  {
+    "id": "918",
+    "text": "And Commander Ezequiel blew up the entire fortress! The Spanish Fleet is truly invincible."
+  },
+  {
+    "id": "919",
+    "text": "Commodore, we have contact with Commander Ezequiel's fleet. It's sending a flag signal."
+  },
+  {
+    "id": "920",
+    "text": "What does the signal say?"
+  },
+  {
+    "id": "921",
+    "text": "'Congratulations on your victory. We'll meet again for our rematch.'"
+  },
+  {
+    "id": "922",
+    "text": "Meet again for our rematch... Next time we'll be enemies."
+  },
+  {
+    "id": "923",
+    "text": "How shall we respond?"
+  },
+  {
+    "id": "924",
+    "text": "I have an idea. How about this?"
+  },
+  {
+    "id": "925",
+    "text": "'It's easy to destroy you completely, but I'll let you go to maintain our relationship.'"
+  },
+  {
+    "id": "926",
+    "text": "'If you want your life, leave your gold and cargo.' What do you think?"
+  },
+  {
+    "id": "927",
+    "text": "We should make sure we're a good distance away if you really want to send that message."
+  },
+  {
+    "id": "928",
+    "text": "That's true, Commodore. Ha, ha."
+  }
+]

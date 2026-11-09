@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "0",
+    "text": "How may I help you?"
+  },
+  {
+    "id": "1",
+    "text": "Hello, %s %s!"
+  },
+  {
+    "id": "2",
+    "text": "You can't invest in %s as it's the capital of %s."
+  },
+  {
+    "id": "3",
+    "text": "What are you looking for today?"
+  },
+  {
+    "id": "4",
+    "text": "Sorry, we don't have any %s in stock."
+  },
+  {
+    "id": "5",
+    "text": "%s %s the local specialty."
+  },
+  {
+    "id": "6",
+    "text": "Well then, how much would you pay?(0-%d)"
+  },
+  {
+    "id": "7",
+    "text": "Your generosity is overwhelming. Really, we can't accept anymore."
+  },
+  {
+    "id": "8",
+    "text": "We welcome any investment!"
+  },
+  {
+    "id": "9",
+    "text": "How many lots of %s will you purchase?"
+  },
+  {
+    "id": "10",
+    "text": "You drive a hard bargain. Alright, I accept."
+  },
+  {
+    "id": "11",
+    "text": "I'll lose my shirt selling at such a low price!"
+  },
+  {
+    "id": "12",
+    "text": "I can't sell that low. But how about %d gold pieces?"
+  },
+  {
+    "id": "13",
+    "text": "Come back again."
+  },
+  {
+    "id": "14",
+    "text": "What? Is this all?! Thanks for nothing!"
+  },
+  {
+    "id": "15",
+    "text": "Thank you very much."
+  },
+  {
+    "id": "16",
+    "text": "I won't forget your generosity."
+  },
+  {
+    "id": "17",
+    "text": "Hello %s, would you like some %s?"
+  },
+  {
+    "id": "18",
+    "text": "Hey sailor, you'll like our %s!"
+  },
+  {
+    "id": "19",
+    "text": "Our specialty, %s, costs %d gold %s per bottle. How many will you buy?"
+  },
+  {
+    "id": "20",
+    "text": "Oh, you don't have enough cargo space. Come back when you secure some more space."
+  },
+  {
+    "id": "21",
+    "text": "We don't have any goods to sell."
+  },
+  {
+    "id": "22",
+    "text": "We don't have enough gold."
+  },
+  {
+    "id": "23",
+    "text": "What a bargain!"
+  },
+  {
+    "id": "24",
+    "text": "It seems a little expensive."
+  },
+  {
+    "id": "25",
+    "text": "That price is acceptable."
+  },
+  {
+    "id": "26",
+    "text": "Commodore, we don't have any more space in the hold."
+  },
+  {
+    "id": "27",
+    "text": "Commodore, we've got too many kinds of goods. Try selling something first."
+  },
+  {
+    "id": "28",
+    "text": "Commodore, we have no gold!"
+  },
+  {
+    "id": "29",
+    "text": "We have enough men in our crew."
+  },
+  {
+    "id": "30",
+    "text": "We don't have enough gold."
+  },
+  {
+    "id": "31",
+    "text": "You may need to loosen your purse strings and treat the crowd if you want to persuade anyone to join our crew."
+  },
+  {
+    "id": "32",
+    "text": "Shall we recruit some men for our crew?"
+  },
+  {
+    "id": "33",
+    "text": "Hey! Do any of you tough sailors want to join our crew?"
+  },
+  {
+    "id": "34",
+    "text": "per sailor."
+  },
+  {
+    "id": "35",
+    "text": "We've left a few of our sailors unassigned. Is this OK?"
+  },
+  {
+    "id": "36",
+    "text": "Thanks for treating me."
+  },
+  {
+    "id": "37",
+    "text": "By the way,"
+  },
+  {
+    "id": "38",
+    "text": "I met a good navigator in the lodge."
+  },
+  {
+    "id": "39",
+    "text": "I don't see anyone who's really worth recruiting."
+  },
+  {
+    "id": "40",
+    "text": "did you know that %s is after you?"
+  },
+  {
+    "id": "41",
+    "text": "Ahoy there, matey! How's life on the high seas?"
+  },
+  {
+    "id": "42",
+    "text": "I am"
+  },
+  {
+    "id": "43",
+    "text": "I am a vagabond sailor."
+  },
+  {
+    "id": "44",
+    "text": "Are you buying me the pub's specialty? \nSeems like we'll get along well!"
+  },
+  {
+    "id": "45",
+    "text": "Thank you."
+  },
+  {
+    "id": "46",
+    "text": "I hate to brag, but"
+  },
+  {
+    "id": "47",
+    "text": "Do you like this port's %s?"
+  },
+  {
+    "id": "48",
+    "text": "Hey, would you like to join our crew for the next voyage?"
+  },
+  {
+    "id": "49",
+    "text": "Sorry, but I'm not looking for a new job."
+  },
+  {
+    "id": "50",
+    "text": "The son of Portugal's Duke Leon. An adventurer who travels around the world to find the secret of Atlantis."
+  },
+  {
+    "id": "51",
+    "text": "Spanish Naval Officer. She leaves the Navy for a life of piracy to avenge the mysterious loss of her brother and fiance."
+  },
+  {
+    "id": "52",
+    "text": "British Privateer. Appointed by King Henry VIII to the Royal Knights in a secret mission to defeat the Spanish Armada."
+  },
+  {
+    "id": "53",
+    "text": "Dutch Geographer. Hired by his cartographer friend Mercator, to explore far off lands and make a map of the entire world."
+  },
+  {
+    "id": "54",
+    "text": "Italian Adventurer. Roams the world in search of treasure and the unknown to pay for the debt his father left him."
+  },
+  {
+    "id": "55",
+    "text": "Turkish Merchant. Grew up as an orphan in poverty. A twist of fate brings him a merchant ship and a chance to make his fortune."
+  },
+  {
+    "id": "56",
+    "text": "Ahoy there, matey, will ye be shoving off?"
+  },
+  {
+    "id": "57",
+    "text": "Some ships have no crew assigned for navigation. We won't get anywhere."
+  },
+  {
+    "id": "58",
+    "text": "We can sail for more than 6 months. Are you ready to cast off?"
+  },
+  {
+    "id": "59",
+    "text": "We'll starve if we leave with no provisions!"
+  },
+  {
+    "id": "60",
+    "text": "We won't be able to sail for long. Shall we cast off anyway?"
+  },
+  {
+    "id": "61",
+    "text": "We can sail for %d days. Shall we cast off?"
+  },
+  {
+    "id": "62",
+    "text": "Water is free. How many barrels should we load?\n(0-%ld)"
+  },
+  {
+    "id": "63",
+    "text": "Food will cost us %ld gold pieces per barrel. How many barrels will we buy?\n(0-%ld)"
+  },
+  {
+    "id": "64",
+    "text": "Lumber will cost us %ld gold pieces per plank. How many planks will we buy?\n(0-%ld)"
+  },
+  {
+    "id": "65",
+    "text": "Cannonballs will cost us %ld gold pieces per barrel. How many will we buy?\n(0-%ld)"
+  },
+  {
+    "id": "66",
+    "text": "Welcome. You must be tired. Please make yourself at home."
+  },
+  {
+    "id": "67",
+    "text": "I don't see anyone who would be much help."
+  },
+  {
+    "id": "68",
+    "text": "I heard that a good navigator was at the pub."
+  },
+  {
+    "id": "69",
+    "text": "Whew, it's a relief to be back on dry land. Don't you agree, Commodore?"
+  },
+  {
+    "id": "70",
+    "text": "It's bedtime for this sailor, Commodore!"
+  },
+  {
+    "id": "71",
+    "text": "When will we leave, Commodore?"
+  },
+  {
+    "id": "72",
+    "text": "What do you want with me?"
+  },
+  {
+    "id": "73",
+    "text": "I am Commodore %s of %s. I command a %s."
+  },
+  {
+    "id": "74",
+    "text": "I am %s, the %s on a %s from %s."
+  },
+  {
+    "id": "75",
+    "text": "I am a vagabond sailor."
+  },
+  {
+    "id": "76",
+    "text": "You're a little low on gold. You don't need to be so generous."
+  },
+  {
+    "id": "77",
+    "text": "What brings you to this shipyard?"
+  },
+  {
+    "id": "78",
+    "text": "It seems that your mate is destined to have a series of misfortunes."
+  },
+  {
+    "id": "79",
+    "text": "Your mate doesn't have very good luck."
+  },
+  {
+    "id": "80",
+    "text": "Let's just say that your mate's luck is pretty mediocre."
+  },
+  {
+    "id": "81",
+    "text": "Your mate is one lucky sea dog!"
+  },
+  {
+    "id": "82",
+    "text": "What good fortune... His luck will help you as well."
+  },
+  {
+    "id": "83",
+    "text": "We defeated the opponent."
+  },
+  {
+    "id": "84",
+    "text": "Commoners are not permitted to enter the palace. Remove yourself from the premises."
+  },
+  {
+    "id": "85",
+    "text": "What do you want?"
+  },
+  {
+    "id": "86",
+    "text": "Will you pay 100 gold pieces for this piece of information?"
+  },
+  {
+    "id": "87",
+    "text": "Huh, you'll regret it later."
+  },
+  {
+    "id": "88",
+    "text": "It seems %s is out to get %s."
+  },
+  {
+    "id": "89",
+    "text": "A merchant fleet is going to %s."
+  },
+  {
+    "id": "90",
+    "text": "I respect you for your beliefs, but Muslims just aren't welcome here."
+  },
+  {
+    "id": "91",
+    "text": "Welcome to our church."
+  },
+  {
+    "id": "92",
+    "text": "Let's pray that God will protect you."
+  },
+  {
+    "id": "93",
+    "text": "Your money will be used to feed the poor. How much can you give?"
+  },
+  {
+    "id": "94",
+    "text": "Come visit us again."
+  },
+  {
+    "id": "95",
+    "text": "Thank you for your generous donation. Our heavenly father will surely watch over you."
+  },
+  {
+    "id": "96",
+    "text": "May God bless you in your travels!"
+  },
+  {
+    "id": "97",
+    "text": "Welcome to the central office of the Marco Polo Bank."
+  },
+  {
+    "id": "98",
+    "text": "Welcome to our regional branch of the Marco Polo Bank."
+  },
+  {
+    "id": "99",
+    "text": "The enemy's commodore proposed a duel."
+  },
+  {
+    "id": "100",
+    "text": "You don't have any gold to deposit."
+  },
+  {
+    "id": "101",
+    "text": "You can't deposit any more gold. You've reached our maximum limit."
+  },
+  {
+    "id": "102",
+    "text": "Please pay back your debt before you make a deposit."
+  },
+  {
+    "id": "103",
+    "text": "Now you have %ld gold pieces in your savings account."
+  },
+  {
+    "id": "104",
+    "text": "You don't have any gold in your account."
+  },
+  {
+    "id": "105",
+    "text": "How much would you like to deposit? (0-%ld)"
+  },
+  {
+    "id": "106",
+    "text": "We'll deposit %ld gold pieces into your account. The monthly interest rate is 3%%."
+  },
+  {
+    "id": "107",
+    "text": "You have enough gold on hand. There's really no need for you to withdraw any more."
+  },
+  {
+    "id": "108",
+    "text": "How much would you like to withdraw?(0-%ld)"
+  },
+  {
+    "id": "109",
+    "text": "You can't carry that much gold around with you."
+  },
+  {
+    "id": "110",
+    "text": "Here is %ld gold from your account."
+  },
+  {
+    "id": "111",
+    "text": "You still have savings in your account, what do you need a loan for?"
+  },
+  {
+    "id": "112",
+    "text": "You have a lot of gold on hand, I don't think you really need to borrow any more."
+  },
+  {
+    "id": "113",
+    "text": "With your poor credit history, there's no way we can give you a loan."
+  },
+  {
+    "id": "114",
+    "text": "Your credit line is %ld gold pieces."
+  },
+  {
+    "id": "115",
+    "text": "How much gold do you need to borrow?(0-%ld)"
+  },
+  {
+    "id": "116",
+    "text": "Then we'll lend you %ld gold pieces."
+  },
+  {
+    "id": "117",
+    "text": "The monthly interest rate is 10%%. Please invest our loan wisely."
+  },
+  {
+    "id": "118",
+    "text": "You don't owe us any money."
+  },
+  {
+    "id": "119",
+    "text": "How much of your loan will you be paying back? (0-%ld)"
+  },
+  {
+    "id": "120",
+    "text": "Thank you for your payment."
+  },
+  {
+    "id": "121",
+    "text": "We rounded up %d men."
+  },
+  {
+    "id": "122",
+    "text": "Commodore, only %d %s came forward."
+  },
+  {
+    "id": "123",
+    "text": "Commodore, no one seems interested."
+  },
+  {
+    "id": "124",
+    "text": "It costs %d gold pieces"
+  },
+  {
+    "id": "125",
+    "text": "How many men shall we recruit? (0-%d)"
+  },
+  {
+    "id": "126",
+    "text": "\n%d@N"
+  },
+  {
+    "id": "127",
+    "text": "\n%d@S"
+  },
+  {
+    "id": "128",
+    "text": "%d@E"
+  },
+  {
+    "id": "129",
+    "text": "%d@W"
+  },
+  {
+    "id": "130",
+    "text": "have you been to %s? It's around"
+  },
+  {
+    "id": "131",
+    "text": "It's known for its %s."
+  },
+  {
+    "id": "132",
+    "text": "What? You are the famous %s %s %s?"
+  },
+  {
+    "id": "133",
+    "text": "Wow, you, %s %s, will buy me the pub's specialty? I'm delighted!"
+  },
+  {
+    "id": "134",
+    "text": "Commodore, it's nice to be back ashore."
+  },
+  {
+    "id": "135",
+    "text": "Commodore, let's not spend too much time in the pub."
+  },
+  {
+    "id": "136",
+    "text": "Commodore, where's our next stop?"
+  },
+  {
+    "id": "137",
+    "text": "%s. I sail with a %s from %s."
+  },
+  {
+    "id": "138",
+    "text": "%s. I'm the %s of a %s from %s."
+  },
+  {
+    "id": "139",
+    "text": "I have a knack for %s."
+  },
+  {
+    "id": "140",
+    "text": "Sorry, but I prefer to work alone."
+  },
+  {
+    "id": "141",
+    "text": "Your ship? No thanks."
+  },
+  {
+    "id": "142",
+    "text": "I'll work for you if you pay me %d gold pieces per month."
+  },
+  {
+    "id": "143",
+    "text": "That's too bad."
+  },
+  {
+    "id": "144",
+    "text": "OK, it's a deal, Commodore."
+  },
+  {
+    "id": "145",
+    "text": "Sorry, I'm not interested. I only sail with experienced navigators."
+  },
+  {
+    "id": "146",
+    "text": "%s is our busiest waitress. You'll have to tip her 10 gold pieces first."
+  },
+  {
+    "id": "147",
+    "text": "Commodore, we don't have enough gold."
+  },
+  {
+    "id": "148",
+    "text": "You cannot equip yourself with this item."
+  },
+  {
+    "id": "149",
+    "text": "Now your debt is %ld gold."
+  },
+  {
+    "id": "150",
+    "text": "%s will cost you %d gold pieces per lot. Is this price OK?"
+  },
+  {
+    "id": "151",
+    "text": "The Price Index of %s Items is %d%%."
+  },
+  {
+    "id": "152",
+    "text": "We're on our way home."
+  },
+  {
+    "id": "153",
+    "text": "We're heading for %s to make an investment there."
+  },
+  {
+    "id": "154",
+    "text": "We're off to trade goods in %s."
+  },
+  {
+    "id": "155",
+    "text": "Ohhh, I was waiting for you to sail by. It's time to teach you a lesson."
+  },
+  {
+    "id": "156",
+    "text": "Unlucky fool! You don't know who I am."
+  },
+  {
+    "id": "157",
+    "text": "We're looking for %s of %s."
+  },
+  {
+    "id": "158",
+    "text": "We're sailing in a convoy to protect merchant fleets. It's not safe around here these days."
+  },
+  {
+    "id": "159",
+    "text": "I'm on the lookout for pirates. They won't get away from me!"
+  },
+  {
+    "id": "160",
+    "text": "I have some business with you."
+  },
+  {
+    "id": "161",
+    "text": "And you know what? You are my next prey."
+  },
+  {
+    "id": "162",
+    "text": "Which country do you want information about?"
+  },
+  {
+    "id": "163",
+    "text": "Sorry, no gold, no information!"
+  },
+  {
+    "id": "164",
+    "text": "Thank you for choosing Marco Polo Bank."
+  },
+  {
+    "id": "165",
+    "text": "We don't have any used ships in stock."
+  },
+  {
+    "id": "166",
+    "text": "Ye don't have a mate to navigate another ship."
+  },
+  {
+    "id": "167",
+    "text": "Do ye want to swap one of the ships in yer fleet for this one?"
+  },
+  {
+    "id": "168",
+    "text": "This one was popular in Lisbon - about 100 years ago! However, it's very easy to maneuver."
+  },
+  {
+    "id": "169",
+    "text": "This classic vessel was first built about two centuries ago. Unfortunately, it doesn't stack up to today's ships."
+  },
+  {
+    "id": "170",
+    "text": "This durable craft's shallow hull makes it easy to maneuver, but its cargo capacity is limited."
+  },
+  {
+    "id": "171",
+    "text": "It's large and durable, but I wouldn't use it on the open seas."
+  },
+  {
+    "id": "172",
+    "text": "It used to be popular in Venice, as even the smallest crew can navigate it with ease."
+  },
+  {
+    "id": "173",
+    "text": "This is a well-balanced lateen ship. It's perfect for a novice sailor."
+  },
+  {
+    "id": "174",
+    "text": "This one is easy to handle and makes for smooth sailing over the ocean."
+  },
+  {
+    "id": "175",
+    "text": "This may be a bit expensive, but it's worth the cost when trading around coastal seas."
+  },
+  {
+    "id": "176",
+    "text": "This is a mid-size ship with a large cargo space. It's easy to maneuver and suitable for adventurous voyages."
+  },
+  {
+    "id": "177",
+    "text": "This large trading ship is for the experienced navigator."
+  },
+  {
+    "id": "178",
+    "text": "This is a battleship, but it's also useful for trading if its payload is kept low. Not for the unseasoned sailor."
+  },
+  {
+    "id": "179",
+    "text": "For such a large ship, this is quite easy to maneuver. I highly recommend it."
+  },
+  {
+    "id": "180",
+    "text": "It's quite durable for its size. Ye can even use it when fighting pirates if ye manuever it carefully."
+  },
+  {
+    "id": "181",
+    "text": "A small, high-performance sailing ship. It has the capacity to carry guns for battles."
+  },
+  {
+    "id": "182",
+    "text": "We are proud of this great ship. It combines the storage capacity of a galleon with the mobility of a caravel. A true work of art!"
+  },
+  {
+    "id": "183",
+    "text": "Only a few shipyards have the ability to build this ship. Ye'll never regret buying it."
+  },
+  {
+    "id": "184",
+    "text": "This is the ultimate ship, but it's only for highly skilled navigators."
+  },
+  {
+    "id": "185",
+    "text": "Well, this is the only type of ship built in China."
+  },
+  {
+    "id": "186",
+    "text": "This small ship can't withstand rough waves, so it's pretty useless on the high seas."
+  },
+  {
+    "id": "187",
+    "text": "This ship isn't bad. Just remember the payload is high..."
+  },
+  {
+    "id": "188",
+    "text": "No other ship can overcome this floating bastion in close combat."
+  },
+  {
+    "id": "189",
+    "text": "Galleys are normally battleships, but this one is fast enough to be used for trading, as well."
+  },
+  {
+    "id": "190",
+    "text": "This huge rowing ship is armored with steel, and has space for lots of guns."
+  },
+  {
+    "id": "191",
+    "text": "This ship was made for many Japanese warlords. Ye may want to own one, too."
+  },
+  {
+    "id": "192",
+    "text": "This is only a mid-sized ship. I don't think ye can make it home in this one."
+  },
+  {
+    "id": "193",
+    "text": "Will ye buy this one?"
+  },
+  {
+    "id": "194",
+    "text": "I'd sell this ship for %ld gold pieces. What do ye say?"
+  },
+  {
+    "id": "195",
+    "text": "Then how much are ye willing to spend?"
+  },
+  {
+    "id": "196",
+    "text": "I think he'll accept as low as %ld gold pieces."
+  },
+  {
+    "id": "197",
+    "text": "Get out of here, ye landlubber! Don't ye know the real value of a ship?"
+  },
+  {
+    "id": "198",
+    "text": "I can't accept that price."
+  },
+  {
+    "id": "199",
+    "text": "All right, it's yers. Time to name yer ship."
+  },
+  {
+    "id": "200",
+    "text": "Which one is for sale?"
+  },
+  {
+    "id": "201",
+    "text": "Is this ship OK?"
+  },
+  {
+    "id": "202",
+    "text": "If you are looking for %s,"
+  },
+  {
+    "id": "203",
+    "text": "I heard some traders saying it's sold in"
+  },
+  {
+    "id": "204",
+    "text": "This ship's already in tiptop shape, matey!"
+  },
+  {
+    "id": "205",
+    "text": "Hmmm, it'll cost ye %u gold pieces to fix this ship. What do ye say?"
+  },
+  {
+    "id": "206",
+    "text": "Have it your way, but I really think you should have it fixed now."
+  },
+  {
+    "id": "207",
+    "text": "We don't have enough gold."
+  },
+  {
+    "id": "208",
+    "text": "We only have the flag ship."
+  },
+  {
+    "id": "209",
+    "text": "This is your flag ship. Do you still want to sell?"
+  },
+  {
+    "id": "210",
+    "text": "Then, select a new flag ship, mate."
+  },
+  {
+    "id": "211",
+    "text": "There is still some cargo left on that ship. Sell it anyway?"
+  },
+  {
+    "id": "212",
+    "text": "There is still crew aboard that ship. Is it OK to dismiss them?"
+  },
+  {
+    "id": "213",
+    "text": "For this ship, I'll give you %ld gold pieces. OK?"
+  },
+  {
+    "id": "214",
+    "text": "As you wish."
+  },
+  {
+    "id": "215",
+    "text": "There are no fleets in sight."
+  },
+  {
+    "id": "216",
+    "text": "I am %s of %s."
+  },
+  {
+    "id": "217",
+    "text": "We only have one ship."
+  },
+  {
+    "id": "218",
+    "text": "Which ship will be the ship #%d?"
+  },
+  {
+    "id": "219",
+    "text": "Is this OK?"
+  },
+  {
+    "id": "220",
+    "text": "You don't have to worry about my wages. I like working for you!"
+  },
+  {
+    "id": "221",
+    "text": "How much will my new wages be?\n(%d-2000)"
+  },
+  {
+    "id": "222",
+    "text": "What are %s's new wages?\n(%d-2000)"
+  },
+  {
+    "id": "223",
+    "text": "Thank you very much."
+  },
+  {
+    "id": "224",
+    "text": "I'm not very happy with such low wages."
+  },
+  {
+    "id": "225",
+    "text": "There are no fleets to gossip with."
+  },
+  {
+    "id": "226",
+    "text": "You haven't selected the ship you'll command."
+  },
+  {
+    "id": "227",
+    "text": "%s is a captain. You can't appoint him as %s."
+  },
+  {
+    "id": "228",
+    "text": "%s was appointed as %s."
+  },
+  {
+    "id": "229",
+    "text": "You have no mates."
+  },
+  {
+    "id": "230",
+    "text": "How many men will you assign to %s ship?\n(0-%d)"
+  },
+  {
+    "id": "231",
+    "text": "We will dismiss %d %s. Is this OK?"
+  },
+  {
+    "id": "232",
+    "text": "Is it OK to end the transfer process?"
+  },
+  {
+    "id": "233",
+    "text": "You can't get rid of your flagship. Transfer your Commodore to another ship."
+  },
+  {
+    "id": "234",
+    "text": "Is it OK to get rid of %s?"
+  },
+  {
+    "id": "235",
+    "text": "May I help you?"
+  },
+  {
+    "id": "236",
+    "text": "It seems you have no gold."
+  },
+  {
+    "id": "237",
+    "text": "You already have the maximum of 20 items. You'll have to sell one first."
+  },
+  {
+    "id": "238",
+    "text": "I'm sure you'll find something you like."
+  },
+  {
+    "id": "239",
+    "text": "I'm afraid you don't have enough gold."
+  },
+  {
+    "id": "240",
+    "text": "The %s will cost you %ld gold pieces."
+  },
+  {
+    "id": "241",
+    "text": ""
+  },
+  {
+    "id": "242",
+    "text": "Are you interested in anything else?"
+  },
+  {
+    "id": "243",
+    "text": "You don't have any items."
+  },
+  {
+    "id": "244",
+    "text": "What would you like to sell?"
+  },
+  {
+    "id": "245",
+    "text": "I'd like to take that %s off your hands. I'll take it for %ld gold pieces."
+  },
+  {
+    "id": "246",
+    "text": "OK, I give in. I'll take it for %ld gold pieces."
+  },
+  {
+    "id": "247",
+    "text": "I'll take it for %ld gold pieces."
+  },
+  {
+    "id": "248",
+    "text": "What else can you sell me?"
+  },
+  {
+    "id": "249",
+    "text": "You? Get out! You're not welcome here! I never want to see your face again!"
+  },
+  {
+    "id": "250",
+    "text": "Hey sir, your ship's all ready to go!"
+  },
+  {
+    "id": "251",
+    "text": "We don't build new ships here."
+  },
+  {
+    "id": "252",
+    "text": "Ho, you can afford a new ship?"
+  },
+  {
+    "id": "253",
+    "text": "Will you order this model?"
+  },
+  {
+    "id": "254",
+    "text": "What kind of hull?"
+  },
+  {
+    "id": "255",
+    "text": "Is this OK?"
+  },
+  {
+    "id": "256",
+    "text": "This one will cost you %ld gold pieces. Is it a deal?"
+  },
+  {
+    "id": "257",
+    "text": "OK, I'll start building ye a mighty fine vessel!"
+  },
+  {
+    "id": "258",
+    "text": "How many bunks for the crew?"
+  },
+  {
+    "id": "259",
+    "text": "Make space for how many guns?"
+  },
+  {
+    "id": "260",
+    "text": "Is this OK?"
+  },
+  {
+    "id": "261",
+    "text": "Your ship isn't ready yet. Come back in %d day%s."
+  },
+  {
+    "id": "262",
+    "text": "It will take %d days to build your ship."
+  },
+  {
+    "id": "263",
+    "text": "Do you want to add it to your fleet now?"
+  },
+  {
+    "id": "264",
+    "text": "I'll keep the ship in the dock. Go there when you need it."
+  },
+  {
+    "id": "265",
+    "text": "I'll keep it for a while, then."
+  },
+  {
+    "id": "266",
+    "text": "We have a great selection today."
+  },
+  {
+    "id": "267",
+    "text": "Which ship will ye like to fit with a nice figurehead?"
+  },
+  {
+    "id": "268",
+    "text": "What type are ye interested in?"
+  },
+  {
+    "id": "269",
+    "text": "The %s will cost ye %ld gold pieces. Is this a deal?"
+  },
+  {
+    "id": "270",
+    "text": "Load guns onto which ship?"
+  },
+  {
+    "id": "271",
+    "text": "How many guns?"
+  },
+  {
+    "id": "272",
+    "text": "%d %s%s will cost ye %ld gold pieces. Is this OK?"
+  },
+  {
+    "id": "273",
+    "text": "Which ship?"
+  },
+  {
+    "id": "274",
+    "text": "It will cost ye %d gold pieces to change the cargo capacity. Is this OK?"
+  },
+  {
+    "id": "275",
+    "text": "Then give it a new name."
+  },
+  {
+    "id": "276",
+    "text": "We are now keeping %d of your ships in the dock. We can keep up to %d of your ships."
+  },
+  {
+    "id": "277",
+    "text": "We aren't storing any of your ships in the dock right now. We can keep up to %d of your ships."
+  },
+  {
+    "id": "278",
+    "text": "--- none ---"
+  },
+  {
+    "id": "279",
+    "text": "But Commodore, we only have the flagship. We won't be able to sail anywhere if we put it in storage!"
+  },
+  {
+    "id": "280",
+    "text": "Which ship shall we keep in the dock for you?"
+  },
+  {
+    "id": "281",
+    "text": "There are %d men on the ship. Is it OK to dismiss them?"
+  },
+  {
+    "id": "282",
+    "text": "You don't have to worry, we'll keep a close eye on your ship."
+  },
+  {
+    "id": "283",
+    "text": "We don't have any of your ships in our dock."
+  },
+  {
+    "id": "284",
+    "text": "Which ship will you put back into commission?"
+  },
+  {
+    "id": "285",
+    "text": "You don't have a mate to command another ship."
+  },
+  {
+    "id": "286",
+    "text": "Alright then, we'll get your ship ready to go!"
+  },
+  {
+    "id": "287",
+    "text": "OK, we will exchange your ships."
+  },
+  {
+    "id": "288",
+    "text": "Sorry, but our dock is full."
+  },
+  {
+    "id": "289",
+    "text": "It's time to go to bed."
+  },
+  {
+    "id": "290",
+    "text": "Uh? Who is it?"
+  },
+  {
+    "id": "291",
+    "text": "It's me. Open the door."
+  },
+  {
+    "id": "292",
+    "text": "Oh, %s!"
+  },
+  {
+    "id": "293",
+    "text": "I would like to talk to you."
+  },
+  {
+    "id": "294",
+    "text": "I was just thinking about you. Come in."
+  },
+  {
+    "id": "295",
+    "text": "Did you want to see me again?"
+  },
+  {
+    "id": "296",
+    "text": "I just couldn't stop thinking about you."
+  },
+  {
+    "id": "297",
+    "text": "I wanted to have someone to talk to, too."
+  },
+  {
+    "id": "298",
+    "text": "Welcome to the House of Fortune. What do you want to know?"
+  },
+  {
+    "id": "299",
+    "text": "It will cost you 50 gold pieces. Is it OK?"
+  },
+  {
+    "id": "300",
+    "text": "You don't seem to have enough."
+  },
+  {
+    "id": "301",
+    "text": "Very well. Take a seat."
+  },
+  {
+    "id": "302",
+    "text": "Ohh, I see an ominous shadow across your face. You may be doomed to have a difficult life."
+  },
+  {
+    "id": "303",
+    "text": "Your future doesn't look very bright. Be careful, and watch out for accidents."
+  },
+  {
+    "id": "304",
+    "text": "You have an average fortune. But remember, you are the one who carves out your destiny."
+  },
+  {
+    "id": "305",
+    "text": "You have a good fortune. Have more self-confidence."
+  },
+  {
+    "id": "306",
+    "text": "What a strong fortune! You have nothing to fear in this life."
+  },
+  {
+    "id": "307",
+    "text": "I have investigated that matter for you."
+  },
+  {
+    "id": "308",
+    "text": "Welcome!"
+  },
+  {
+    "id": "309",
+    "text": "I'm glad to see you again."
+  },
+  {
+    "id": "310",
+    "text": "I was looking forward to seeing you."
+  },
+  {
+    "id": "311",
+    "text": "I knew you were coming here."
+  },
+  {
+    "id": "312",
+    "text": "You don't fool me. I can tell you haven't discovered anything more than the end of your nose."
+  },
+  {
+    "id": "313",
+    "text": "Wow, that's so exciting!"
+  },
+  {
+    "id": "314",
+    "text": "It's beautiful!"
+  },
+  {
+    "id": "315",
+    "text": "It must have been quite a sight to see."
+  },
+  {
+    "id": "316",
+    "text": "Did it bite you?"
+  },
+  {
+    "id": "317",
+    "text": "What an interesting plant!"
+  },
+  {
+    "id": "318",
+    "text": "I wonder what kind of people lived there, long ago."
+  },
+  {
+    "id": "319",
+    "text": "Weren't you scared?"
+  },
+  {
+    "id": "320",
+    "text": "I wish I could go there, and see that."
+  },
+  {
+    "id": "321",
+    "text": "Oh, I am so happy!"
+  },
+  {
+    "id": "322",
+    "text": "Do I look pretty?"
+  },
+  {
+    "id": "323",
+    "text": "It's very shiny, and quite pretty."
+  },
+  {
+    "id": "324",
+    "text": "Thank you so much!"
+  },
+  {
+    "id": "325",
+    "text": "This is my gift. MM... Smack!"
+  },
+  {
+    "id": "326",
+    "text": "It seems a girl called %s is in love with you."
+  },
+  {
+    "id": "327",
+    "text": "Continue your effort, and your love will be accepted."
+  },
+  {
+    "id": "328",
+    "text": "Take actions. No one gained love by just waiting for it to happen."
+  },
+  {
+    "id": "329",
+    "text": "As long as you are in this port, you won't have good luck in love."
+  },
+  {
+    "id": "330",
+    "text": "I appreciate your kindness, but you don't have anything I need."
+  },
+  {
+    "id": "331",
+    "text": "Is that an imaginary gift you're trying to give me? You don't have anything!"
+  },
+  {
+    "id": "332",
+    "text": "You already have one."
+  },
+  {
+    "id": "333",
+    "text": "You can't sell an item that you've equipped yourself with."
+  },
+  {
+    "id": "334",
+    "text": "You can load %d more %s."
+  },
+  {
+    "id": "335",
+    "text": "Well, well, you've got a few maps there. Which one do you need help with?"
+  },
+  {
+    "id": "336",
+    "text": "Commodore, %s is missing."
+  },
+  {
+    "id": "337",
+    "text": "Commodore, %s is missing."
+  },
+  {
+    "id": "338",
+    "text": "Aren't you supposed to be on a mission for someone in %s?"
+  },
+  {
+    "id": "339",
+    "text": "The item was taken off."
+  },
+  {
+    "id": "340",
+    "text": "Commodore, the sky looks ominous. I think a storm's headed our way."
+  },
+  {
+    "id": "341",
+    "text": "Ahoy there, Cap'n! The sky's as dark as a raven's wing. I think a storm's a'coming!"
+  },
+  {
+    "id": "342",
+    "text": "Commodore, I've got a bad feeling we may run into some nasty weather."
+  },
+  {
+    "id": "343",
+    "text": "Avast, there, Cap'n! I got a bad feelin' in my bones about the weather."
+  },
+  {
+    "id": "344",
+    "text": "Commodore, I feel an eerie calm settling across the waters. Is the wind dying down?"
+  },
+  {
+    "id": "345",
+    "text": "Cap'n, I'm as jumpy as a rabbit. It's too calm! Is the wind dying down?"
+  },
+  {
+    "id": "346",
+    "text": "Commodore, something seems wrong with the weather."
+  },
+  {
+    "id": "347",
+    "text": "Commodore, something seems wrong with the weather."
+  },
+  {
+    "id": "348",
+    "text": "Commodore, the wind is damp. It may become foggy."
+  },
+  {
+    "id": "349",
+    "text": "Aye, Cap'n, my joints are achin'. This damp wind is sure to bring a fog!"
+  },
+  {
+    "id": "350",
+    "text": "Commodore, something seems wrong."
+  },
+  {
+    "id": "351",
+    "text": "Commodore, something seems wrong."
+  },
+  {
+    "id": "352",
+    "text": "Commodore, it's a storm!! The waves are tossing the ship!"
+  },
+  {
+    "id": "353",
+    "text": "Blast! A storm!! Our ship's being tossed to the four winds!"
+  },
+  {
+    "id": "354",
+    "text": "Commodore, the wind has died down completely."
+  },
+  {
+    "id": "355",
+    "text": "Cap'n, it's so still I can hear myself think! Where did the wind go?"
+  },
+  {
+    "id": "356",
+    "text": "This heavy fog is blocking our sight."
+  },
+  {
+    "id": "357",
+    "text": "Arrrh, this fog is thicker than pea soup! I can't see a thing!"
+  },
+  {
+    "id": "358",
+    "text": "Commodore, the %s was wrecked!"
+  },
+  {
+    "id": "359",
+    "text": "Cap'n, the %s was lost to the deep!"
+  },
+  {
+    "id": "360",
+    "text": "Commodore, somehow we weathered the storm."
+  },
+  {
+    "id": "361",
+    "text": "Arrrh, Cap'n, we didn't let that storm get us!"
+  },
+  {
+    "id": "362",
+    "text": "Commodore, the wind! The wind started picking up!"
+  },
+  {
+    "id": "363",
+    "text": "Cap'n, did you feel that? There's a breeze a blowin'!"
+  },
+  {
+    "id": "364",
+    "text": "Commodore, the fog finally cleared."
+  },
+  {
+    "id": "365",
+    "text": "Commodore, we're going to stop in %s. Is this OK?"
+  },
+  {
+    "id": "366",
+    "text": "After sailing for %d %s, we arrived in %s."
+  },
+  {
+    "id": "367",
+    "text": "Restocked for %d %s and left %s."
+  },
+  {
+    "id": "368",
+    "text": "We can see far!"
+  },
+  {
+    "id": "369",
+    "text": "Meow!"
+  },
+  {
+    "id": "370",
+    "text": "All the rats have\ndisappeared!"
+  },
+  {
+    "id": "371",
+    "text": "Nothing special seemed\nto have happened."
+  },
+  {
+    "id": "372",
+    "text": "The storm is gone...\nThe night is upon us."
+  },
+  {
+    "id": "373",
+    "text": "The storm is gone...\nThe sun is still high."
+  },
+  {
+    "id": "374",
+    "text": "Nothing seemed to\nhappen."
+  },
+  {
+    "id": "375",
+    "text": "The crew has recovered\nfrom scurvy."
+  },
+  {
+    "id": "376",
+    "text": "Ahhh... That\nwas delicious!"
+  },
+  {
+    "id": "377",
+    "text": "\u001bC0Other than the ships sailing with you now, you can only have 30 ships."
+  },
+  {
+    "id": "378",
+    "text": "Will you put it on?"
+  },
+  {
+    "id": "379",
+    "text": "\u001bC1Goods        Sells at      Buys at\u001bC0"
+  },
+  {
+    "id": "380",
+    "text": "Commodore, that's the port of %s, a supply port."
+  },
+  {
+    "id": "381",
+    "text": "Discovered %s."
+  },
+  {
+    "id": "382",
+    "text": "Well, that takes care of your debt! Thank you for using Marco Polo Bank."
+  },
+  {
+    "id": "383",
+    "text": "Come to think of it..."
+  },
+  {
+    "id": "384",
+    "text": "Bought %d %s of %s for %ld gold pieces each."
+  },
+  {
+    "id": "385",
+    "text": "Iberia"
+  },
+  {
+    "id": "386",
+    "text": "Northern Europe"
+  },
+  {
+    "id": "387",
+    "text": "The Mediterranean"
+  },
+  {
+    "id": "388",
+    "text": "North Africa"
+  },
+  {
+    "id": "389",
+    "text": "Ottoman Empire"
+  },
+  {
+    "id": "390",
+    "text": "West Africa"
+  },
+  {
+    "id": "391",
+    "text": "Central America"
+  },
+  {
+    "id": "392",
+    "text": "South America"
+  },
+  {
+    "id": "393",
+    "text": "East Africa"
+  },
+  {
+    "id": "394",
+    "text": "Middle East"
+  },
+  {
+    "id": "395",
+    "text": "India"
+  },
+  {
+    "id": "396",
+    "text": "Southeast Asia"
+  },
+  {
+    "id": "397",
+    "text": "Far East"
+  },
+  {
+    "id": "398",
+    "text": "What do you want to know?"
+  },
+  {
+    "id": "399",
+    "text": "Sorry, I don't know."
+  },
+  {
+    "id": "400",
+    "text": "I've heard from some traders that %s is sold in %s."
+  },
+  {
+    "id": "401",
+    "text": "I haven't been there, but I've heard from some traders that %s is in"
+  },
+  {
+    "id": "402",
+    "text": "the area of"
+  },
+  {
+    "id": "403",
+    "text": "Well, that's a secret!"
+  },
+  {
+    "id": "404",
+    "text": "\u001bC6Captain:\u001bC0%s\n\u001bC6Nav./Look/Comb\u001bC0"
+  },
+  {
+    "id": "405",
+    "text": "%3d% %3d %3d \n\u001bC6Minimum Required:\u001bC0%3d"
+  },
+  {
+    "id": "406",
+    "text": "\u001bC1Goods           Rate\u001bC0"
+  },
+  {
+    "id": "407",
+    "text": "\u001bC1Goods              Load     Rate\u001bC0"
+  },
+  {
+    "id": "408",
+    "text": "%-14s   %5d    %5d"
+  },
+  {
+    "id": "409",
+    "text": "--- none ---"
+  },
+  {
+    "id": "410",
+    "text": "Did you know that King Manuel of Portugal is looking for you?"
+  },
+  {
+    "id": "411",
+    "text": "Did you know that King Carlos of Spain is looking for you?"
+  },
+  {
+    "id": "412",
+    "text": "Did you know that Suleiman II the Magnificent of the Ottoman Empire is looking for you?"
+  },
+  {
+    "id": "413",
+    "text": "Did you know that King Henry the VIII of Britain is looking for you?"
+  },
+  {
+    "id": "414",
+    "text": "Did you know that the Governor-General of Italy is looking for you?"
+  },
+  {
+    "id": "415",
+    "text": "Did you know that the Governor-General of Holland is looking for you?"
+  },
+  {
+    "id": "416",
+    "text": "is looking for you?"
+  },
+  {
+    "id": "417",
+    "text": "Shall we cast off?"
+  },
+  {
+    "id": "418",
+    "text": "That ship's in tip-top condition."
+  },
+  {
+    "id": "419",
+    "text": "We have no lumber."
+  },
+  {
+    "id": "420",
+    "text": "None of our ships are in need of repair."
+  },
+  {
+    "id": "421",
+    "text": "How many planks of lumber will you use?(0-%d)"
+  },
+  {
+    "id": "422",
+    "text": "You can't load any more - our cargo bay is full."
+  },
+  {
+    "id": "423",
+    "text": "How many barrels of water (0-%d)?"
+  },
+  {
+    "id": "424",
+    "text": "I doubt that there is a spring here, but would you like to search for water?"
+  },
+  {
+    "id": "425",
+    "text": "We couldn't find water."
+  },
+  {
+    "id": "426",
+    "text": "We found a clear spring."
+  },
+  {
+    "id": "427",
+    "text": "We lost %d %s of our crew."
+  },
+  {
+    "id": "428",
+    "text": "We don't have any food. Let's give up our search."
+  },
+  {
+    "id": "429",
+    "text": "We didn't find anything."
+  },
+  {
+    "id": "430",
+    "text": "We're being attacked by a %s!"
+  },
+  {
+    "id": "431",
+    "text": "We discovered %s %s!"
+  },
+  {
+    "id": "432",
+    "text": "There is nothing interesting to find here."
+  },
+  {
+    "id": "433",
+    "text": "Shall we entertain the locals?"
+  },
+  {
+    "id": "434",
+    "text": "The friendship level has increased to %d. They're going to help us search."
+  },
+  {
+    "id": "435",
+    "text": "We don't have any food to give."
+  },
+  {
+    "id": "436",
+    "text": "Shall we plunder the village?"
+  },
+  {
+    "id": "437",
+    "text": "We stole %d %s of food."
+  },
+  {
+    "id": "438",
+    "text": "The villagers counterattacked!"
+  },
+  {
+    "id": "439",
+    "text": "Shall we land at this village?"
+  },
+  {
+    "id": "440",
+    "text": "Shall we land here?"
+  },
+  {
+    "id": "441",
+    "text": "We can't land there."
+  },
+  {
+    "id": "442",
+    "text": "We lost our entire crew. We can't sail any more."
+  },
+  {
+    "id": "443",
+    "text": "You, the notorious %s %s! You have some nerve to show your face here! I'll get you!"
+  },
+  {
+    "id": "444",
+    "text": "Welcome %s %s. Please proceed into the royal hall."
+  },
+  {
+    "id": "445",
+    "text": "Darn it!"
+  },
+  {
+    "id": "446",
+    "text": "I'm not about to let myself be captured by the likes of you!"
+  },
+  {
+    "id": "447",
+    "text": "But you can't sell the information elsewhere, OK?"
+  },
+  {
+    "id": "448",
+    "text": "Whew, that was a narrow escape!"
+  },
+  {
+    "id": "449",
+    "text": "I was looking forward to meeting you."
+  },
+  {
+    "id": "450",
+    "text": "According to the law, you should be thrown into a dungeon, and locked away forever!"
+  },
+  {
+    "id": "451",
+    "text": "But just this once, I'll be lenient and seize a mere 4/5 of your fortune."
+  },
+  {
+    "id": "452",
+    "text": "That should teach you not to mess with this country ever again. Make sure there's not a next time."
+  },
+  {
+    "id": "453",
+    "text": "Well, here is the status of our allied ports overseas."
+  },
+  {
+    "id": "454",
+    "text": "I hope this information was useful."
+  },
+  {
+    "id": "455",
+    "text": "We're not allied with any ports in"
+  },
+  {
+    "id": "456",
+    "text": "No one has sailed to"
+  },
+  {
+    "id": "457",
+    "text": "Our economic power rating in"
+  },
+  {
+    "id": "458",
+    "text": "Is it really true that you would like to pledge loyalty to our country?"
+  },
+  {
+    "id": "459",
+    "text": "That's too bad, but you are always welcome here. Come back if you change your mind."
+  },
+  {
+    "id": "460",
+    "text": "I am pleased with your decision. From now on you shall serve our country."
+  },
+  {
+    "id": "461",
+    "text": "His Majesty thinks you can make it on your own this time."
+  },
+  {
+    "id": "462",
+    "text": "His Majesty provides the assistance of %d000 gold pieces."
+  },
+  {
+    "id": "463",
+    "text": "Serve well for the glory of our country."
+  },
+  {
+    "id": "464",
+    "text": "His Majesty provides a %s."
+  },
+  {
+    "id": "465",
+    "text": "Europe"
+  },
+  {
+    "id": "466",
+    "text": "New World"
+  },
+  {
+    "id": "467",
+    "text": "West Africa"
+  },
+  {
+    "id": "468",
+    "text": "East Africa"
+  },
+  {
+    "id": "469",
+    "text": "Middle East"
+  },
+  {
+    "id": "470",
+    "text": "India"
+  },
+  {
+    "id": "471",
+    "text": "Southeast Asia"
+  },
+  {
+    "id": "472",
+    "text": "Far East"
+  },
+  {
+    "id": "473",
+    "text": "Commodore, we have rats on board! What should we do?"
+  },
+  {
+    "id": "474",
+    "text": "Commodore, some men are suffering from scurvy."
+  },
+  {
+    "id": "475",
+    "text": "\u001bC1Support Industry Economy\u001bC0"
+  },
+  {
+    "id": "476",
+    "text": "Your fame as an adventurer has gone up."
+  },
+  {
+    "id": "477",
+    "text": "May I help you?"
+  },
+  {
+    "id": "478",
+    "text": "Oh, %s %s. I was waiting for you!"
+  },
+  {
+    "id": "479",
+    "text": "Good luck."
+  },
+  {
+    "id": "480",
+    "text": "I heard you want to sign a contract with us."
+  },
+  {
+    "id": "481",
+    "text": "As long as you have a contract with us, you can't sell your discoveries to any other noblemen. Do you agree to the terms of this contract?"
+  },
+  {
+    "id": "482",
+    "text": "That's too bad. If you change your mind at any time, please come back."
+  },
+  {
+    "id": "483",
+    "text": "I am looking forward to hearing exciting news from you."
+  },
+  {
+    "id": "484",
+    "text": "Er, it seems you haven't discovered anything this time."
+  },
+  {
+    "id": "485",
+    "text": "What have you discovered?"
+  },
+  {
+    "id": "486",
+    "text": "%s%s?"
+  },
+  {
+    "id": "487",
+    "text": "Ah, you discovered %s%s."
+  },
+  {
+    "id": "488",
+    "text": "Great, you discovered %s%s!"
+  },
+  {
+    "id": "489",
+    "text": "Super! You discovered %s%s! I knew we could count on you."
+  },
+  {
+    "id": "490",
+    "text": "What?! You discovered %s%s?! You are amazing! You are the world's greatest adventurer!!"
+  },
+  {
+    "id": "491",
+    "text": "There is nothing new to tell you."
+  },
+  {
+    "id": "492",
+    "text": "I've heard some say there's a village around %d%s %d%s, but it's only a rumor."
+  },
+  {
+    "id": "493",
+    "text": "May I help you?"
+  },
+  {
+    "id": "494",
+    "text": "Oh, %s %s. I was waiting for you."
+  },
+  {
+    "id": "495",
+    "text": "Would you like to sign a contract with our cartographer's guild?"
+  },
+  {
+    "id": "496",
+    "text": "Hmm, you don't have any cartography skills. I'm sorry, we can't hire a novice."
+  },
+  {
+    "id": "497",
+    "text": "We'll pay you for the information you gain on your voyages to unknown lands."
+  },
+  {
+    "id": "498",
+    "text": "Come back when your skills reach over 75."
+  },
+  {
+    "id": "499",
+    "text": "Oh, that's too bad. Come back if you change your mind."
+  },
+  {
+    "id": "500",
+    "text": "We'll be looking forward to hearing from you soon!"
+  },
+  {
+    "id": "501",
+    "text": "So, you want to learn cartography, eh?"
+  },
+  {
+    "id": "502",
+    "text": "High %s ability is necessary to learn the skill of cartography."
+  },
+  {
+    "id": "503",
+    "text": "The apprenticeship here will cost you %u gold pieces."
+  },
+  {
+    "id": "504",
+    "text": "You don't have enough gold."
+  },
+  {
+    "id": "505",
+    "text": "Is this OK?"
+  },
+  {
+    "id": "506",
+    "text": "You haven't traveled to new areas."
+  },
+  {
+    "id": "507",
+    "text": "Fantastic! This completes the world map!!"
+  },
+  {
+    "id": "508",
+    "text": "Thank you for all your hard work."
+  },
+  {
+    "id": "509",
+    "text": "Come back again."
+  },
+  {
+    "id": "510",
+    "text": "The sound of female voices singing seemed to slowly approach the ship from the distant waves."
+  },
+  {
+    "id": "511",
+    "text": "The sweet, bewitching melody enticed many sailors to fling themselves into the ocean."
+  },
+  {
+    "id": "512",
+    "text": "A giant eye peeked between the waves. Suddenly a tentacle emerged and tried to drag some of the crew into the ocean."
+  },
+  {
+    "id": "513",
+    "text": "Fortunately, the ship and crew remained unharmed, but the captain and the mates were overcome with terror."
+  },
+  {
+    "id": "514",
+    "text": "In the midst of a dense fog, the squeaking noise of the rigging broke the ominous silence."
+  },
+  {
+    "id": "515",
+    "text": "When the fog finally cleared away, one of the ships had vanished."
+  },
+  {
+    "id": "516",
+    "text": "A giant black manta ray was cruising beneath the ship."
+  },
+  {
+    "id": "517",
+    "text": "When a sailor plunged a board into its open mouth, the monster quickly turned away."
+  },
+  {
+    "id": "518",
+    "text": "As we looked up to the mast there was a strange phosphorescent light around the sail and rigging."
+  },
+  {
+    "id": "519",
+    "text": "We survived! It's a miracle!"
+  },
+  {
+    "id": "520",
+    "text": "A flaming bird flew into our fleet."
+  },
+  {
+    "id": "521",
+    "text": "There was no time to avoid it. The last ship of the fleet caught on fire."
+  },
+  {
+    "id": "522",
+    "text": "All of a sudden an enormous tornado appeared on the horizon, and swallowed our fleet."
+  },
+  {
+    "id": "523",
+    "text": "To save the ships, we had no choice but to throw all our cargo into the sea."
+  },
+  {
+    "id": "524",
+    "text": "With a clap of thunder a huge dragon appeared and crossed by the stern of our flagship."
+  },
+  {
+    "id": "525",
+    "text": "Many members of the frightened crew were suddenly struck by a mysterious illness."
+  },
+  {
+    "id": "526",
+    "text": "A number of whirlpools swelled and turned into huge spouts. Giant whales!!"
+  },
+  {
+    "id": "527",
+    "text": "Stunned, we could do nothing to stop the whales from capsizing the ship in the rear of our fleet."
+  },
+  {
+    "id": "528",
+    "text": "A ship with broken masts and decayed sails approached us soundlessly."
+  },
+  {
+    "id": "529",
+    "text": "No one was on board, but we heard the sound of sobbing as it passed by."
+  },
+  {
+    "id": "530",
+    "text": "We can't carry any more gold."
+  },
+  {
+    "id": "531",
+    "text": "You already have 10 ships. You don't need any help from me."
+  },
+  {
+    "id": "532",
+    "text": "You don't have a mate to be a captain. Come back when you find a mate."
+  },
+  {
+    "id": "533",
+    "text": "Sorry, I'm busy."
+  },
+  {
+    "id": "534",
+    "text": "Which country's fleet do you need information about?"
+  },
+  {
+    "id": "535",
+    "text": "What type of fleet?"
+  },
+  {
+    "id": "536",
+    "text": "OK. It'll take about %d days."
+  },
+  {
+    "id": "537",
+    "text": "Sorry, I haven't completed my investigation yet."
+  },
+  {
+    "id": "538",
+    "text": "By the way, I got some information for you."
+  },
+  {
+    "id": "539",
+    "text": "You expressed an interest in the %s from %s, as I recall."
+  },
+  {
+    "id": "540",
+    "text": "You were interested in finding out about the %s, right?"
+  },
+  {
+    "id": "541",
+    "text": "Commodore %s's fleet \nis"
+  },
+  {
+    "id": "542",
+    "text": "heading toward %s."
+  },
+  {
+    "id": "543",
+    "text": "targeting %s's fleet."
+  },
+  {
+    "id": "544",
+    "text": "carrying %s."
+  },
+  {
+    "id": "545",
+    "text": "You need %d more experience points to advance your navigation skill level."
+  },
+  {
+    "id": "546",
+    "text": "And you need %d more experience points to advance your combat skill level."
+  },
+  {
+    "id": "547",
+    "text": "Lastly, you need %d more fame points to obtain the next rank."
+  },
+  {
+    "id": "548",
+    "text": "guarding the port of %s."
+  },
+  {
+    "id": "549",
+    "text": "guarding Commodore %s's fleet."
+  },
+  {
+    "id": "550",
+    "text": "waylaying fleets in %s."
+  },
+  {
+    "id": "551",
+    "text": "attacking merchant fleets indiscriminately."
+  },
+  {
+    "id": "552",
+    "text": "I'll make the arrangements for you at the shipyard."
+  },
+  {
+    "id": "553",
+    "text": "According to sailors here, the current position of that fleet is around"
+  },
+  {
+    "id": "554",
+    "text": "--- none ---"
+  },
+  {
+    "id": "555",
+    "text": "Name your ship."
+  },
+  {
+    "id": "556",
+    "text": "The %d%s fleet was destroyed a while back."
+  },
+  {
+    "id": "557",
+    "text": "Name the ship."
+  },
+  {
+    "id": "558",
+    "text": "We captured %d enemy %s! We can add %d of them to our fleet."
+  },
+  {
+    "id": "559",
+    "text": "Is this OK?"
+  },
+  {
+    "id": "560",
+    "text": "%ld gold pieces"
+  },
+  {
+    "id": "561",
+    "text": "and %s %s"
+  },
+  {
+    "id": "562",
+    "text": "We managed to seize"
+  },
+  {
+    "id": "563",
+    "text": "The setting sun put an end to the day's battle."
+  },
+  {
+    "id": "564",
+    "text": "The battle ended as the flagship fled."
+  },
+  {
+    "id": "565",
+    "text": "The battle ended as the enemy's flagship fled."
+  },
+  {
+    "id": "566",
+    "text": "Our flagship had no choice but to surrender."
+  },
+  {
+    "id": "567",
+    "text": "Give me %u gold pieces, and I'll teach you."
+  },
+  {
+    "id": "568",
+    "text": "You have been exiled from your mother country."
+  },
+  {
+    "id": "569",
+    "text": "Your name has been shamed, and your title has been stripped away."
+  },
+  {
+    "id": "570",
+    "text": "Well, a navigator called %s was looking for a job in %s."
+  },
+  {
+    "id": "571",
+    "text": "I heard there aren't really any capable sailors in %s."
+  },
+  {
+    "id": "572",
+    "text": "Commodore, we don't have enough gold to pay our crew's wages."
+  },
+  {
+    "id": "573",
+    "text": "Commodore, we don't have enough gold to pay our crew's wages."
+  },
+  {
+    "id": "574",
+    "text": "Commodore, our crew was paid %ld gold pieces in wages."
+  },
+  {
+    "id": "575",
+    "text": "Commodore, our crew was paid %ld gold pieces in wages."
+  },
+  {
+    "id": "576",
+    "text": "|Palace Guard|\nCommoners are usually not admitted here, but the King is interested in meeting with you."
+  },
+  {
+    "id": "577",
+    "text": "We've lost control of all our ships. We can't sail any further."
+  },
+  {
+    "id": "578",
+    "text": "Welcome to %s! It's nice to have visitors from abroad."
+  },
+  {
+    "id": "579",
+    "text": "This is %s, the capital of %s."
+  },
+  {
+    "id": "580",
+    "text": "This is %s, %s's %s."
+  },
+  {
+    "id": "581",
+    "text": "This is %s."
+  },
+  {
+    "id": "582",
+    "text": "Here is your pay, %ld gold pieces."
+  },
+  {
+    "id": "583",
+    "text": "Boldly go where you haven't gone!"
+  },
+  {
+    "id": "584",
+    "text": "But we didn't lose any crew members."
+  },
+  {
+    "id": "585",
+    "text": "So you came here for business."
+  },
+  {
+    "id": "586",
+    "text": "If you want to ally with a port, invest in the marketplace or shipyard in that port."
+  },
+  {
+    "id": "587",
+    "text": "Hmm, something new... Village people may be able to help you."
+  },
+  {
+    "id": "588",
+    "text": "Why don't you ask at the guild."
+  },
+  {
+    "id": "589",
+    "text": "Someone in the pub might have an idea."
+  },
+  {
+    "id": "590",
+    "text": "If you are looking for %s,"
+  },
+  {
+    "id": "591",
+    "text": "If you are looking for the palace of %s, try"
+  },
+  {
+    "id": "592",
+    "text": "If you are looking for the office of the Governor-General of %s, try"
+  },
+  {
+    "id": "593",
+    "text": "%s..."
+  },
+  {
+    "id": "594",
+    "text": "I believe it's around"
+  },
+  {
+    "id": "595",
+    "text": "Aren't you on a royal mission?"
+  },
+  {
+    "id": "596",
+    "text": "I think %s %s should know about the %s."
+  },
+  {
+    "id": "597",
+    "text": "Where is he? I don't know. Ask around in the pub."
+  },
+  {
+    "id": "598",
+    "text": "%s? The guild in %s may be able to give you some information."
+  },
+  {
+    "id": "599",
+    "text": "%s %s is in %s."
+  },
+  {
+    "id": "600",
+    "text": "You'll find %s around"
+  },
+  {
+    "id": "601",
+    "text": "around"
+  },
+  {
+    "id": "602",
+    "text": "%s %s... He's leading %s's %s."
+  },
+  {
+    "id": "603",
+    "text": "His whereabouts? I have no idea. Maybe the waitress in the pub would know."
+  },
+  {
+    "id": "604",
+    "text": "%s? I've got a map, but I had no luck finding it."
+  },
+  {
+    "id": "605",
+    "text": "Well, you can have this map for 1000 gold pieces."
+  },
+  {
+    "id": "606",
+    "text": "Here's the map. Good luck!"
+  },
+  {
+    "id": "607",
+    "text": "Sorry, no money, no map!"
+  },
+  {
+    "id": "608",
+    "text": "%s %s? How do you do? Marco Polo Bank has sent me here to collect your debt."
+  },
+  {
+    "id": "609",
+    "text": "Gee, my debt... OK, OK. Here are %d gold ingots. Now just go away!"
+  },
+  {
+    "id": "610",
+    "text": "Ugh, a debt collector... I hate to borrow and run, but I must be going, NOW!"
+  },
+  {
+    "id": "611",
+    "text": "Wait! I won't let you go!"
+  },
+  {
+    "id": "612",
+    "text": "Gasp, OK, I'll pay. Here are %d gold ingots."
+  },
+  {
+    "id": "613",
+    "text": "Curses!  Foiled again!"
+  },
+  {
+    "id": "614",
+    "text": "Very well. I like customers like you."
+  },
+  {
+    "id": "615",
+    "text": "Very well. You must feel great, now that your debt is paid off!"
+  },
+  {
+    "id": "616",
+    "text": "Hey, you're a trader, aren't you?"
+  },
+  {
+    "id": "617",
+    "text": "%s %s the specialty of this port."
+  },
+  {
+    "id": "618",
+    "text": "This port has nothing special in the market."
+  },
+  {
+    "id": "619",
+    "text": "Bowwow!"
+  },
+  {
+    "id": "620",
+    "text": "Yap-yap!"
+  },
+  {
+    "id": "621",
+    "text": "Sniff-sniff!"
+  },
+  {
+    "id": "622",
+    "text": "No visitors are allowed entrance to this port. Resupply your ship and leave at once."
+  },
+  {
+    "id": "623",
+    "text": "Bon dia."
+  },
+  {
+    "id": "624",
+    "text": "Buenos dias."
+  },
+  {
+    "id": "625",
+    "text": "Al-salom, Aleikom."
+  },
+  {
+    "id": "626",
+    "text": "Hello!"
+  },
+  {
+    "id": "627",
+    "text": "Buon giorno."
+  },
+  {
+    "id": "628",
+    "text": "Guten Tag."
+  },
+  {
+    "id": "629",
+    "text": "Konnichiwa."
+  },
+  {
+    "id": "630",
+    "text": "Remember, arms and armor must be equipped before you use them."
+  },
+  {
+    "id": "631",
+    "text": "You need a measuring instrument to find latitude and longitude."
+  },
+  {
+    "id": "632",
+    "text": "There are people who want to know about novel things discovered abroad."
+  },
+  {
+    "id": "633",
+    "text": "For your own sake, you'd better keep away from pirates."
+  },
+  {
+    "id": "634",
+    "text": "Be careful of a deadly disease during a long voyage."
+  },
+  {
+    "id": "635",
+    "text": "You may want to start with taking an easy task from a guild."
+  },
+  {
+    "id": "636",
+    "text": "Cartographers are eager to get new information for their mapping work. They may pay for geographical information."
+  },
+  {
+    "id": "637",
+    "text": "If you want to find out about something, go to a pub and ask the waitress."
+  },
+  {
+    "id": "638",
+    "text": "Fortune tellers can tell you what experience you need for the next skill level."
+  },
+  {
+    "id": "639",
+    "text": "If you find a village, explore it. You may find something interesting."
+  },
+  {
+    "id": "640",
+    "text": "I saw a used %s ship at the shipyard."
+  },
+  {
+    "id": "641",
+    "text": "I heard that there aren't any used ships for sale at the shipyard right now."
+  },
+  {
+    "id": "642",
+    "text": "That mansion is the Duke's residence."
+  },
+  {
+    "id": "643",
+    "text": "Christopher Columbus set sail from this port in 1492 with the support of Queen Isabella I."
+  },
+  {
+    "id": "644",
+    "text": "Right now more than half of the Mediterranean is controlled by the Ottoman Empire."
+  },
+  {
+    "id": "645",
+    "text": "Diogo Ribeiro is the master cartographer in this town."
+  },
+  {
+    "id": "646",
+    "text": "Watch out! This is the home port of the Barbary Pirates."
+  },
+  {
+    "id": "647",
+    "text": "Pirates known as Corsairs call this port home. Be careful!"
+  },
+  {
+    "id": "648",
+    "text": "Did you know that lime juice cures scurvy?"
+  },
+  {
+    "id": "649",
+    "text": "If you go to an item shop at 2 AM, you may find something out of the ordinary."
+  },
+  {
+    "id": "650",
+    "text": "This town is governed by our Governor-General."
+  },
+  {
+    "id": "651",
+    "text": "The Duke of Modena is collecting information about novel things from around the world."
+  },
+  {
+    "id": "652",
+    "text": "Professor Juliano, a famous astronomer, lives in this town."
+  },
+  {
+    "id": "653",
+    "text": "Don't ever confuse this town with Majorca! We're superior to those grain traders!"
+  },
+  {
+    "id": "654",
+    "text": "Mr. Olives from the guild is looking for geographical information, but only from someone with cartography skills."
+  },
+  {
+    "id": "655",
+    "text": "The large bank in this port is the headquarters of the Marco Polo Bank."
+  },
+  {
+    "id": "656",
+    "text": "The item shop here doesn't have a very good selection."
+  },
+  {
+    "id": "657",
+    "text": "The Greek name of this port is Iraklion."
+  },
+  {
+    "id": "658",
+    "text": "Welcome to Athens, the city of myth and ancient ruins."
+  },
+  {
+    "id": "659",
+    "text": "I hope to leave this boring town soon."
+  },
+  {
+    "id": "660",
+    "text": "This port has thrived in trading for centuries."
+  },
+  {
+    "id": "661",
+    "text": "The city of Jerusalem isn't far from here, but there's no way for a sailor to get there."
+  },
+  {
+    "id": "662",
+    "text": "A long time ago, the Crusaders invaded this town."
+  },
+  {
+    "id": "663",
+    "text": "Over the past 1000 years, our island of Cyprus has been ruled by many different countries."
+  },
+  {
+    "id": "664",
+    "text": "Three poleis (cities) merged to become one during the Greek rule, creating our lovely city of Tripoli."
+  },
+  {
+    "id": "665",
+    "text": "Have you met Pilly Reis? He is the most famous Turkish adventurer."
+  },
+  {
+    "id": "666",
+    "text": "Did you come here by accident? Not many people know about this port."
+  },
+  {
+    "id": "667",
+    "text": "Fewer merchants have been coming here via the Silk Road lately. Maybe they prefer the sea route?"
+  },
+  {
+    "id": "668",
+    "text": "This town used to be at the forefront of Turkish rule, but Portugal took control in 1415."
+  },
+  {
+    "id": "669",
+    "text": "There are many vineyards all around this port. Have you ever seen so many?"
+  },
+  {
+    "id": "670",
+    "text": "The Reformation's influence has reached this town. The number of Huguenots are increasing."
+  },
+  {
+    "id": "671",
+    "text": "Wool from England is made into textile in Amsterdam."
+  },
+  {
+    "id": "672",
+    "text": "The ship-building technology here is superb, but the shipyard facilities are poor."
+  },
+  {
+    "id": "673",
+    "text": "Did you see the splendid church in this town? Even archbishops come to visit the church."
+  },
+  {
+    "id": "674",
+    "text": "The economy in this town is booming!"
+  },
+  {
+    "id": "675",
+    "text": "You can buy modern navigation instruments in this town."
+  },
+  {
+    "id": "676",
+    "text": "The armorers in this town are the best in the world."
+  },
+  {
+    "id": "677",
+    "text": "A famous strategist named Dr. Wolf lives in this town and teaches the art of gunnery."
+  },
+  {
+    "id": "678",
+    "text": "This town wouldn't have declined so much if it had joined the Hanseatic League."
+  },
+  {
+    "id": "679",
+    "text": "Are you surprised that a port so far north is so lively?"
+  },
+  {
+    "id": "680",
+    "text": "We have skilled swordsmiths who make unique swords."
+  },
+  {
+    "id": "681",
+    "text": "In our marketplace you will find our specialty - salt-cured anchovies."
+  },
+  {
+    "id": "682",
+    "text": "How did you find such a remote port?"
+  },
+  {
+    "id": "683",
+    "text": "Did you notice the long narrow fingers of the sea bordered by steep cliffs around here? They are called 'fjords'."
+  },
+  {
+    "id": "684",
+    "text": "This port was opened by Spanish immigrants."
+  },
+  {
+    "id": "685",
+    "text": "Some ports in the New World will give you a good price for gold."
+  },
+  {
+    "id": "686",
+    "text": "This port is well known for its tobacco."
+  },
+  {
+    "id": "687",
+    "text": "This island is very poor and has no local specialties."
+  },
+  {
+    "id": "688",
+    "text": "If there were a canal here, sea travel would be much more convenient."
+  },
+  {
+    "id": "689",
+    "text": "There are many pirates here. Be careful!"
+  },
+  {
+    "id": "690",
+    "text": "Christopher Columbus's brother built this town."
+  },
+  {
+    "id": "691",
+    "text": "Gold from the New World is transported to this town."
+  },
+  {
+    "id": "692",
+    "text": "Christopher Columbus discovered this island."
+  },
+  {
+    "id": "693",
+    "text": "Have you visited a port called Maracaibo?"
+  },
+  {
+    "id": "694",
+    "text": "According to the Treaty of Tordesillas, Portuguese are allowed to colonize South America."
+  },
+  {
+    "id": "695",
+    "text": "Did you know that this land was discovered by a Spanish explorer named Alvarez Cabral?"
+  },
+  {
+    "id": "696",
+    "text": "Have you been to a port called Guatemala?"
+  },
+  {
+    "id": "697",
+    "text": "Be sure to stock lime juice on your ship before a long voyage."
+  },
+  {
+    "id": "698",
+    "text": "Have you ever been attacked by monsters?"
+  },
+  {
+    "id": "699",
+    "text": "There are sugar cane plantations here that were developed by the Portuguese."
+  },
+  {
+    "id": "700",
+    "text": "Beware - fierce storms often rage south of this port."
+  },
+  {
+    "id": "701",
+    "text": "There is a fort in this town that was built by some Portuguese."
+  },
+  {
+    "id": "702",
+    "text": "This port is so close to Europe that not many sailors stop by."
+  },
+  {
+    "id": "703",
+    "text": "This port was recently built by Portuguese settlers."
+  },
+  {
+    "id": "704",
+    "text": "Make sure you use rat poison when you find rats on your ship."
+  },
+  {
+    "id": "705",
+    "text": "Just north of this port is Cape Verde."
+  },
+  {
+    "id": "706",
+    "text": "Welcome to Timbuktu, an African city friendly to traders."
+  },
+  {
+    "id": "707",
+    "text": "Go east and you'll find the port of San Jorge."
+  },
+  {
+    "id": "708",
+    "text": "This port thrived from Indian Ocean trade, even before Europeans arrived."
+  },
+  {
+    "id": "709",
+    "text": "This is one of the ports where Vasco da Gama stopped."
+  },
+  {
+    "id": "710",
+    "text": "It's always hot here because this port is close to the equator."
+  },
+  {
+    "id": "711",
+    "text": "If you are looking for souvenirs, this is a good place to shop."
+  },
+  {
+    "id": "712",
+    "text": "This area is rich in minerals."
+  },
+  {
+    "id": "713",
+    "text": "Investment will someday turn to your reward."
+  },
+  {
+    "id": "714",
+    "text": "I'm so thirsty!"
+  },
+  {
+    "id": "715",
+    "text": "A Portuguese explorer named Albuquerque once conquered this port."
+  },
+  {
+    "id": "716",
+    "text": "It is said that there was once a city nearby named Aksum that was the capital of a great kingdom."
+  },
+  {
+    "id": "717",
+    "text": "Did you come to see our majestic pyramids?"
+  },
+  {
+    "id": "718",
+    "text": "Northeast of here is the marvelous city of Baghdad. Too bad you can't go there!"
+  },
+  {
+    "id": "719",
+    "text": "This is where Mohammed, the founder of Islam, was born."
+  },
+  {
+    "id": "720",
+    "text": "I wonder when we'll next have rain."
+  },
+  {
+    "id": "721",
+    "text": "Is this town larger than you expected?"
+  },
+  {
+    "id": "722",
+    "text": "Go into the Persian Gulf and you'll find more ports."
+  },
+  {
+    "id": "723",
+    "text": "There was an ancient civilization in this area."
+  },
+  {
+    "id": "724",
+    "text": "Vasco da Gama opened this port to increase trade with the area."
+  },
+  {
+    "id": "725",
+    "text": "This old city has thrived from seaborne trade."
+  },
+  {
+    "id": "726",
+    "text": "There is a rivalry in spice trade between England and Holland."
+  },
+  {
+    "id": "727",
+    "text": "This port was captured by Commodore Afonso de Albuquerque."
+  },
+  {
+    "id": "728",
+    "text": "This is the largest trading port in Southeast Asia."
+  },
+  {
+    "id": "729",
+    "text": "This area is called Spice Islands."
+  },
+  {
+    "id": "730",
+    "text": "Have you visited the marketplace yet? Nutmeg is really cheap here."
+  },
+  {
+    "id": "731",
+    "text": "This port and Ternate are the two largest producers of clove."
+  },
+  {
+    "id": "732",
+    "text": "How do you like the tropical forest in this area?"
+  },
+  {
+    "id": "733",
+    "text": "Don't come close to me! It's sweltering here!"
+  },
+  {
+    "id": "734",
+    "text": "This port imports Nutmeg from Banda."
+  },
+  {
+    "id": "735",
+    "text": "Many seamen have told me about St. Elmo's Fire - have you seen it?"
+  },
+  {
+    "id": "736",
+    "text": "This is the largest trading port in China."
+  },
+  {
+    "id": "737",
+    "text": "This port has things girls would like."
+  },
+  {
+    "id": "738",
+    "text": "This port has thrived as part of the seaborne Silk Road."
+  },
+  {
+    "id": "739",
+    "text": "This capital was built by Liu Bang, the founder of Han Dynasty."
+  },
+  {
+    "id": "740",
+    "text": "This is a city of merchants."
+  },
+  {
+    "id": "741",
+    "text": "We've had more visitors from the West ever since Marco Polo wrote about our land of 'Zipangu' in his book."
+  },
+  {
+    "id": "742",
+    "text": "You might want to visit there someday."
+  },
+  {
+    "id": "743",
+    "text": "We teach the skill of gunnery. Do you want to learn?"
+  },
+  {
+    "id": "744",
+    "text": "Don't waste my time. You already have the skill."
+  },
+  {
+    "id": "745",
+    "text": "You need %s to learn gunnery."
+  },
+  {
+    "id": "746",
+    "text": "Select a slot to save this game. Choose this slot to continue your quest as a Duke."
+  },
+  {
+    "id": "747",
+    "text": "I don't have time to teach someone with no gold."
+  },
+  {
+    "id": "748",
+    "text": "\u001bC1Remaining Cargo\u001bC0"
+  },
+  {
+    "id": "749",
+    "text": "Remember, life is very precious."
+  },
+  {
+    "id": "750",
+    "text": "I teach celestial navigation. Would you like to learn this skill?"
+  },
+  {
+    "id": "751",
+    "text": "You already have the skill."
+  },
+  {
+    "id": "752",
+    "text": "You need %s to learn celestial navigation."
+  },
+  {
+    "id": "753",
+    "text": "Knowledge of the stars will guide you safely over the seas."
+  },
+  {
+    "id": "754",
+    "text": "And in my crystal ball, I can see a noble person searching for you."
+  },
+  {
+    "id": "755",
+    "text": "That mate doesn't have the skill of celestial navigation."
+  },
+  {
+    "id": "756",
+    "text": "Measure longitude and\nlatitude on the ship."
+  },
+  {
+    "id": "757",
+    "text": "Please select a mate who has the skill of Celestial Navigation."
+  },
+  {
+    "id": "758",
+    "text": "Oh well, I guess I'll give it a try."
+  },
+  {
+    "id": "759",
+    "text": "I'll just have to try it myself, then."
+  },
+  {
+    "id": "760",
+    "text": "This may be OK."
+  },
+  {
+    "id": "761",
+    "text": "This won't be too off."
+  },
+  {
+    "id": "762",
+    "text": "You have a tax free permit so there is no tax for you."
+  },
+  {
+    "id": "763",
+    "text": "If you don't have a tax free permit, you must pay 20%% tax in addition to the price."
+  },
+  {
+    "id": "764",
+    "text": "For a limited time only, we are selling some really special items that you don't usually see."
+  },
+  {
+    "id": "765",
+    "text": "It's closed..."
+  },
+  {
+    "id": "766",
+    "text": "Commodore, that fleet may look like a %s from %s, but I think they're really pirates."
+  },
+  {
+    "id": "767",
+    "text": "Select your destination."
+  },
+  {
+    "id": "768",
+    "text": "Is it OK to follow this course?"
+  },
+  {
+    "id": "769",
+    "text": "In what direction should we set our sails?"
+  },
+  {
+    "id": "770",
+    "text": "Will you challenge the enemy commodore to a duel?"
+  },
+  {
+    "id": "771",
+    "text": "The enemy's crew has blocked your attempt."
+  },
+  {
+    "id": "772",
+    "text": "Whom do you want to attack?"
+  },
+  {
+    "id": "773",
+    "text": "Give orders to which ship?"
+  },
+  {
+    "id": "774",
+    "text": "Select your target."
+  },
+  {
+    "id": "775",
+    "text": "Is it OK to end the turn?"
+  },
+  {
+    "id": "776",
+    "text": "Are you sure you want to flee?"
+  },
+  {
+    "id": "777",
+    "text": "You have no men."
+  },
+  {
+    "id": "778",
+    "text": "There is no fleet to attack."
+  },
+  {
+    "id": "779",
+    "text": "%s %s will support the defending side."
+  },
+  {
+    "id": "780",
+    "text": "%s %s will support the attacking side."
+  },
+  {
+    "id": "781",
+    "text": "You can't attack someone at night."
+  },
+  {
+    "id": "782",
+    "text": "Are you going to attack someone from your own country?"
+  },
+  {
+    "id": "783",
+    "text": "I think this is a map of the area around"
+  },
+  {
+    "id": "784",
+    "text": "the area around"
+  },
+  {
+    "id": "785",
+    "text": "Hmm, so you want me to analyze a treasure map!"
+  },
+  {
+    "id": "786",
+    "text": "Alrighty, then, let me have a look."
+  },
+  {
+    "id": "787",
+    "text": "|%s|\nHey, Commodore, buy me some time to escape, will you!!"
+  },
+  {
+    "id": "788",
+    "text": "|%s|\nCommodore, I must save myself first, so I'm fleeing! I hope to see you again."
+  },
+  {
+    "id": "789",
+    "text": "|%s|\nSorry, it's not my duty to accompany you in such danger. Good luck!"
+  },
+  {
+    "id": "790",
+    "text": "|%s|\nCommodore, you've gotten yourself into a bad spot. I can't help you any more."
+  },
+  {
+    "id": "791",
+    "text": "Commodore, I don't see %s's ship anywhere."
+  },
+  {
+    "id": "792",
+    "text": "Whose fortune shall I tell?"
+  },
+  {
+    "id": "793",
+    "text": "He'll leave you soon if you're not careful."
+  },
+  {
+    "id": "794",
+    "text": "He doesn't have very good feelings toward you."
+  },
+  {
+    "id": "795",
+    "text": "He is beginning to trust you."
+  },
+  {
+    "id": "796",
+    "text": "He is beginning to feel loyal to you."
+  },
+  {
+    "id": "797",
+    "text": "He's very loyal to you."
+  },
+  {
+    "id": "798",
+    "text": "Commodore, I'm not very happy working for you.  I think I'll stay in this town."
+  },
+  {
+    "id": "799",
+    "text": "Commodore, will you try to convince %s to stay with us?"
+  },
+  {
+    "id": "800",
+    "text": "So, are you going to try and stop me?"
+  },
+  {
+    "id": "801",
+    "text": "Then, will you give me a raise?"
+  },
+  {
+    "id": "802",
+    "text": "I respect your interest, but Christians are not allowed in the house of Allah."
+  },
+  {
+    "id": "803",
+    "text": "Welcome to our mosque."
+  },
+  {
+    "id": "804",
+    "text": "All praise to Allah."
+  },
+  {
+    "id": "805",
+    "text": "Thank you for your generosity. How much can you give?"
+  },
+  {
+    "id": "806",
+    "text": "Allah will take care of good Muslims like you."
+  },
+  {
+    "id": "807",
+    "text": "Your generosity is overwhelming."
+  },
+  {
+    "id": "808",
+    "text": "Good luck in your travels!"
+  },
+  {
+    "id": "809",
+    "text": "%s was miraculously rescued."
+  },
+  {
+    "id": "810",
+    "text": "Pirate %s %s, your days of terrorizing the seven seas are numbered."
+  },
+  {
+    "id": "811",
+    "text": "Pirate %s %s, your luck has run out."
+  },
+  {
+    "id": "812",
+    "text": "Stop your ship, or we'll attack!"
+  },
+  {
+    "id": "813",
+    "text": "What rubbish! You're the one who is doomed to sink!"
+  },
+  {
+    "id": "814",
+    "text": "You are pretty brave to challenge us."
+  },
+  {
+    "id": "815",
+    "text": "Okay, okay, we'll give you whatever you want. Just don't hurt us!"
+  },
+  {
+    "id": "816",
+    "text": "Huh, why should we listen to you?"
+  },
+  {
+    "id": "817",
+    "text": "If you don't want to get hurt, surrender your cargo and gold!!"
+  },
+  {
+    "id": "818",
+    "text": "We finally got you, %s! You are under arrest for your actions against %s!"
+  },
+  {
+    "id": "819",
+    "text": "You're from %s, our sworn enemy! It's time for me to send you to Davey Jones' locker!"
+  },
+  {
+    "id": "820",
+    "text": "Commodore, I think we're in big trouble."
+  },
+  {
+    "id": "821",
+    "text": "Nothing to fear, Commodore, they're no match for us."
+  },
+  {
+    "id": "822",
+    "text": "We managed to escape!"
+  },
+  {
+    "id": "823",
+    "text": "The enemy has fled."
+  },
+  {
+    "id": "824",
+    "text": "Commodore, there's nowhere to run! We have no choice but to fight."
+  },
+  {
+    "id": "825",
+    "text": "You are wise to surrender. According to our law, we'll take away 2/3 of your gold and cargo."
+  },
+  {
+    "id": "826",
+    "text": "Yo ho ho! An easy victim! Men, seize everything they've got!"
+  },
+  {
+    "id": "827",
+    "text": "Ahrrr! There is nothing valuable here. Well, I'll give you some gold. Use it to earn more gold for our next meeting."
+  },
+  {
+    "id": "828",
+    "text": "Ahrrr! You're pretty broke! I won't touch your gold. You should thank me for being so merciful."
+  },
+  {
+    "id": "829",
+    "text": "I'll leave you my mercy and 5000 gold pieces, so that you can earn more for me."
+  },
+  {
+    "id": "830",
+    "text": "I shouldn't have underestimated you, pal..."
+  },
+  {
+    "id": "831",
+    "text": "I admit your victory, but some day my country will avenge my defeat."
+  },
+  {
+    "id": "832",
+    "text": "Help! SOS! Save me!"
+  },
+  {
+    "id": "833",
+    "text": "The enemy's flagship ran up the white flag. %s %s completely defeated the %s fleet on %s %d, %d."
+  },
+  {
+    "id": "834",
+    "text": "They're too strong for us. We must flee!"
+  },
+  {
+    "id": "835",
+    "text": "You'll be sorry - next time!"
+  },
+  {
+    "id": "836",
+    "text": "Savage pirates! Someday you'll taste the bitterness of my revenge!"
+  },
+  {
+    "id": "837",
+    "text": "Our fleet had a battle with a %s %s, %s."
+  },
+  {
+    "id": "838",
+    "text": "Commodore, be careful. This is a %s port."
+  },
+  {
+    "id": "839",
+    "text": "Commodore, some gruff-looking men are approaching."
+  },
+  {
+    "id": "840",
+    "text": "You, the notorious %s! You have some nerve coming to this country!"
+  },
+  {
+    "id": "841",
+    "text": "Arrgh, we're surrounded!"
+  },
+  {
+    "id": "842",
+    "text": "We'd better make a run for it!"
+  },
+  {
+    "id": "843",
+    "text": "Whew! We managed to escape."
+  },
+  {
+    "id": "844",
+    "text": "Whew! We escaped!"
+  },
+  {
+    "id": "845",
+    "text": "As punishment for your dastardly deeds, we'll seize 3/4 of your gold. Never bother my countrymen again, do you hear?"
+  },
+  {
+    "id": "846",
+    "text": "If you have %s, you can sell it for a good price in ports around"
+  },
+  {
+    "id": "847",
+    "text": "you can sell it for a good price in ports around"
+  },
+  {
+    "id": "848",
+    "text": "I remember %s will give you a good price for %s."
+  },
+  {
+    "id": "849",
+    "text": "As far as I remember, %s will pay you plenty for %s."
+  },
+  {
+    "id": "850",
+    "text": "Good place to sell %s... Well, you know I'm not good at numbers."
+  },
+  {
+    "id": "851",
+    "text": "Hey, you can't trick me. You'll make a fine profit even at %u gold pieces."
+  },
+  {
+    "id": "852",
+    "text": "OK, I give in. I'll sell it to you for %u gold pieces."
+  },
+  {
+    "id": "853",
+    "text": "Watch out for %s. They're out to get you."
+  },
+  {
+    "id": "854",
+    "text": "have nothing"
+  },
+  {
+    "id": "855",
+    "text": "To automatically sail to a port, you need a first mate who has the skill of Celestial Navigation."
+  },
+  {
+    "id": "856",
+    "text": "To automatically sail to a port, you need a first mate who has the skill of Celestial Navigation."
+  },
+  {
+    "id": "857",
+    "text": "How many men will you assign for %s (0-%d)?"
+  },
+  {
+    "id": "858",
+    "text": "%d %s will be discharged. Is this OK?"
+  },
+  {
+    "id": "859",
+    "text": "You'd better leave or else I'll rearrange your face!"
+  },
+  {
+    "id": "860",
+    "text": "Keep yourself away from me, before I give you a knuckle sandwich!"
+  },
+  {
+    "id": "861",
+    "text": "You can't buy me with drinks."
+  },
+  {
+    "id": "862",
+    "text": "Hey, you can't trick me. You'll make a fine profit even at %u gold pieces."
+  },
+  {
+    "id": "863",
+    "text": "OK, I give in. I'll sell it to you for %ld gold pieces."
+  },
+  {
+    "id": "864",
+    "text": "Commodore, you already have a letter of marque."
+  },
+  {
+    "id": "865",
+    "text": "Commodore, we have too much to carry. Let's make some space first."
+  },
+  {
+    "id": "866",
+    "text": "Would you like a letter of marque?"
+  },
+  {
+    "id": "867",
+    "text": "You need more fame as a pirate. Come back when your exploits are better known."
+  },
+  {
+    "id": "868",
+    "text": "You need more fame as a pirate. Come back when your fame in pirating surpasses your fame in investment and adventure."
+  },
+  {
+    "id": "869",
+    "text": "Then let me take your request to his majesty."
+  },
+  {
+    "id": "870",
+    "text": "I understand that you would like a letter of marque from my country."
+  },
+  {
+    "id": "871",
+    "text": "Then I shall grant the letter. Go forth in the name of my country!"
+  },
+  {
+    "id": "872",
+    "text": "Commodore, you already have a tax-free permit for this country."
+  },
+  {
+    "id": "873",
+    "text": "The permit is valid for half a year. You must renew it every April and October."
+  },
+  {
+    "id": "874",
+    "text": "If a permit is issued now, you will have to renew it very soon."
+  },
+  {
+    "id": "875",
+    "text": "Will you request a tax-free permit?"
+  },
+  {
+    "id": "876",
+    "text": "So I hear you would like to have a tax-free permit from my country."
+  },
+  {
+    "id": "877",
+    "text": "It will cost you %d0000 gold pieces. Do you still want it?"
+  },
+  {
+    "id": "878",
+    "text": "Commodore, we don't have enough money."
+  },
+  {
+    "id": "879",
+    "text": "Aren't you done with your business? Good luck."
+  },
+  {
+    "id": "880",
+    "text": "You're already carrying a lot of items. Come back for the map when you make some space."
+  },
+  {
+    "id": "881",
+    "text": "Is it okay to end this game?"
+  },
+  {
+    "id": "882",
+    "text": "You haven't discovered anything."
+  },
+  {
+    "id": "883",
+    "text": "We are allied with %d ports around the world. Which area of the world are you interested in?"
+  },
+  {
+    "id": "884",
+    "text": "\u001bC1%s\u001bC0"
+  },
+  {
+    "id": "885",
+    "text": "\u001bC1Captain   \u001bC0%s"
+  },
+  {
+    "id": "886",
+    "text": "%s's"
+  },
+  {
+    "id": "887",
+    "text": "\u001bC1Guns \u001bC0%13s"
+  },
+  {
+    "id": "888",
+    "text": "%3d/%3d"
+  },
+  {
+    "id": "889",
+    "text": "\u001bC6\u001bF4Nav.:Look:Comb:\u001bC0\u001bF1"
+  },
+  {
+    "id": "890",
+    "text": "%3d %3d %3d"
+  },
+  {
+    "id": "891",
+    "text": "\u001bC1Minimum Crew   \u001bC0%3d"
+  },
+  {
+    "id": "892",
+    "text": "\u001bC1Load          \u001bC0"
+  },
+  {
+    "id": "893",
+    "text": "%3d%%"
+  },
+  {
+    "id": "894",
+    "text": "\u001bC1Speed \u001bC0       %3dKT"
+  },
+  {
+    "id": "895",
+    "text": "%-10s%4d/%3d"
+  },
+  {
+    "id": "896",
+    "text": "%s"
+  },
+  {
+    "id": "897",
+    "text": "\u001bC1%8s %-8s\u001bC0"
+  },
+  {
+    "id": "898",
+    "text": "\u001bC0Age %3d"
+  },
+  {
+    "id": "899",
+    "text": "\u001bC1Rank  \u001bC0"
+  },
+  {
+    "id": "900",
+    "text": "\u001bC5None\u001bC0"
+  },
+  {
+    "id": "901",
+    "text": "\u001bC1Wages \u001bC0%3d"
+  },
+  {
+    "id": "902",
+    "text": "\u001bC1Navigation Level \u001bC0%3d"
+  },
+  {
+    "id": "903",
+    "text": "\u001bC1Experience  \u001bC0%5d"
+  },
+  {
+    "id": "904",
+    "text": "\u001bC1Battle Level     \u001bC0%3d"
+  },
+  {
+    "id": "905",
+    "text": "\u001bC1Experience  \u001bC0%5d"
+  },
+  {
+    "id": "906",
+    "text": "\u001bC0Loyal to \u001bC0%s"
+  },
+  {
+    "id": "907",
+    "text": "\u001bC1Skills \u001bC0"
+  },
+  {
+    "id": "908",
+    "text": "\u001bC6"
+  },
+  {
+    "id": "909",
+    "text": "\u001bC0"
+  },
+  {
+    "id": "910",
+    "text": "\u001bC1Gold               Friendship"
+  },
+  {
+    "id": "911",
+    "text": "\u001bC0Gold Coins  \u001bC0%5d"
+  },
+  {
+    "id": "912",
+    "text": "\u001bC0Gold Ingots \u001bC0%5u"
+  },
+  {
+    "id": "913",
+    "text": "\u001bC1Fame"
+  },
+  {
+    "id": "914",
+    "text": "\u001bC0%-11s\u001bC0 %5u"
+  },
+  {
+    "id": "915",
+    "text": "\u001bC0%-12s\u001bC0"
+  },
+  {
+    "id": "916",
+    "text": "\u001bC2"
+  },
+  {
+    "id": "917",
+    "text": "%-14s %5d"
+  },
+  {
+    "id": "918",
+    "text": "You have no ship."
+  },
+  {
+    "id": "919",
+    "text": "\u001bC6\u001bB8Commodore %s"
+  },
+  {
+    "id": "920",
+    "text": "\u001bC7Navigation Level \u001bC6%3d"
+  },
+  {
+    "id": "921",
+    "text": "\u001bC7Battle Level     \u001bC6%3d"
+  },
+  {
+    "id": "922",
+    "text": "\u001bC7\u001bB0Tacking        %3d        Crew       %4d"
+  },
+  {
+    "id": "923",
+    "text": "Power          %3d        Guns       %4d"
+  },
+  {
+    "id": "924",
+    "text": "Durability     %3d        Battles   %5d"
+  },
+  {
+    "id": "925",
+    "text": "%s"
+  },
+  {
+    "id": "926",
+    "text": "Ye want to rename this port? Give it a nice name, please."
+  },
+  {
+    "id": "927",
+    "text": "There is another port with the same name. We can't have that! Try again."
+  },
+  {
+    "id": "928",
+    "text": "%s is a nice name! Thank you."
+  },
+  {
+    "id": "929",
+    "text": "Sorry, but I can't buy this item."
+  },
+  {
+    "id": "930",
+    "text": "Commodore, that's the port of %s, a neutral port."
+  },
+  {
+    "id": "931",
+    "text": "Did you forget that you're on a mission for someone in this port?"
+  },
+  {
+    "id": "932",
+    "text": "Did you know that %s is looking for you."
+  },
+  {
+    "id": "933",
+    "text": "Commodore, this building is locked."
+  },
+  {
+    "id": "934",
+    "text": "\u001bC4%s %s\u001bC0"
+  },
+  {
+    "id": "935",
+    "text": "\u001bC1Age       Leadership      Seamanship"
+  },
+  {
+    "id": "936",
+    "text": "Knowledge       Intuition"
+  },
+  {
+    "id": "937",
+    "text": "Courage         Charm"
+  },
+  {
+    "id": "938",
+    "text": "Skill                     Swordplay"
+  },
+  {
+    "id": "939",
+    "text": "\u001bC0Age: %3d"
+  },
+  {
+    "id": "940",
+    "text": "Enter a new name. Select \u001bC2ESC\u001bC0 to use the default name."
+  },
+  {
+    "id": "941",
+    "text": "Will you bring me %d lots of %s within %d %s%s?"
+  },
+  {
+    "id": "942",
+    "text": "I have prepared a very hard task for you this time. I want you to find me a treasure called the %s."
+  },
+  {
+    "id": "943",
+    "text": "Ho, so you've found the %s. Fantastic work. I present you with 10 gold bars and this title."
+  },
+  {
+    "id": "944",
+    "text": "You still haven't found the %s. Are you giving up the search?"
+  },
+  {
+    "id": "945",
+    "text": "From this day forth, you shall be known as %s %s."
+  },
+  {
+    "id": "946",
+    "text": "There are so many pirates around here lately, it's really starting to hurt business."
+  },
+  {
+    "id": "947",
+    "text": "Is this OK?"
+  },
+  {
+    "id": "948",
+    "text": "There's only a few hours left and you still need to get %d %s%s. Don't tell me you're thinking of quitting now!"
+  },
+  {
+    "id": "949",
+    "text": "There's only %d %s%s left and you still need to get %d %s%s. Don't tell me you're thinking of quitting now!"
+  },
+  {
+    "id": "950",
+    "text": "You discovered %s%s?! That's fantastic! Please accept this title."
+  },
+  {
+    "id": "951",
+    "text": "Select a game slot."
+  },
+  {
+    "id": "952",
+    "text": "Is it OK to load this game?"
+  },
+  {
+    "id": "953",
+    "text": "\u001bC2There are no saved games.\u001bC7"
+  },
+  {
+    "id": "954",
+    "text": "Is it OK to save this game?"
+  },
+  {
+    "id": "955",
+    "text": "You discovered %s%s? Nice work!"
+  },
+  {
+    "id": "956",
+    "text": "Commodore, that's the port of %s, allied with %s."
+  },
+  {
+    "id": "957",
+    "text": "Tell you what, I'll pay you to get rid of %d %s%s within %d %s%s."
+  },
+  {
+    "id": "958",
+    "text": "\u001bC2\u0001Is it OK to exit NEW HORIZONS?"
+  },
+  {
+    "id": "959",
+    "text": "Gold Pieces %4ld"
+  },
+  {
+    "id": "960",
+    "text": "Gold Ingots %4ld"
+  },
+  {
+    "id": "961",
+    "text": "Commodore, that's the port of %s, the capital of %s."
+  },
+  {
+    "id": "962",
+    "text": "Place yer bet (10-500)."
+  },
+  {
+    "id": "963",
+    "text": "Humph, that's a bet a child would make!"
+  },
+  {
+    "id": "964",
+    "text": "Well well well! A big spender! Let's hope you're ready to play."
+  },
+  {
+    "id": "965",
+    "text": "Good luck!"
+  },
+  {
+    "id": "966",
+    "text": "Black Jack with the Jack of Spades! What luck! That's five times the stakes!"
+  },
+  {
+    "id": "967",
+    "text": "You have Black Jack? That's double the stakes, but don't get carried away."
+  },
+  {
+    "id": "968",
+    "text": "I have to let you win sometimes!"
+  },
+  {
+    "id": "969",
+    "text": "Black Jack with three sevens! You tripled your stakes!"
+  },
+  {
+    "id": "970",
+    "text": "You've got Sequence in the same suit! That's 3X Black Jack."
+  },
+  {
+    "id": "971",
+    "text": "Five cards without busting? You just tripled your stakes!"
+  },
+  {
+    "id": "972",
+    "text": "Jack of Spades! Quintuple the stakes for me!"
+  },
+  {
+    "id": "973",
+    "text": "Heh, I have Black Jack! I'll take double stakes."
+  },
+  {
+    "id": "974",
+    "text": "Sorry, I'll take that hand."
+  },
+  {
+    "id": "975",
+    "text": "Triple the stakes for Black Jack with three sevens!"
+  },
+  {
+    "id": "976",
+    "text": "Triple the stakes! Black Jack with sequence in the same suit!"
+  },
+  {
+    "id": "977",
+    "text": "5 cards without busting! I'll take triple the stakes!"
+  },
+  {
+    "id": "978",
+    "text": "Total \u001bC2%2d\u001bC0"
+  },
+  {
+    "id": "979",
+    "text": "Interested in playing cards with me?"
+  },
+  {
+    "id": "980",
+    "text": "Don't feel bad.\nYou've got to lose once in a while."
+  },
+  {
+    "id": "981",
+    "text": "Another bet?"
+  },
+  {
+    "id": "982",
+    "text": "What, you're leaving already?"
+  },
+  {
+    "id": "983",
+    "text": "I had a good time, thanks to you. Come back soon!"
+  },
+  {
+    "id": "984",
+    "text": "Is this throw final?"
+  },
+  {
+    "id": "985",
+    "text": "How about %d gold \npieces?"
+  },
+  {
+    "id": "986",
+    "text": "That's fine with me."
+  },
+  {
+    "id": "987",
+    "text": "Good!"
+  },
+  {
+    "id": "988",
+    "text": "OK, let's bet %d gold pieces."
+  },
+  {
+    "id": "989",
+    "text": "Let's compromise-%d \ngold pieces?"
+  },
+  {
+    "id": "990",
+    "text": "All right."
+  },
+  {
+    "id": "991",
+    "text": "No, let's make it \n%d gold pieces."
+  },
+  {
+    "id": "992",
+    "text": "All right, coward!"
+  },
+  {
+    "id": "993",
+    "text": "Yeh, that's all right\nwith me."
+  },
+  {
+    "id": "994",
+    "text": "Me, too."
+  },
+  {
+    "id": "995",
+    "text": "Stakes"
+  },
+  {
+    "id": "996",
+    "text": "Stakes       %3ld"
+  },
+  {
+    "id": "997",
+    "text": "Don't get carried away!"
+  },
+  {
+    "id": "998",
+    "text": "Sorry to beat you, but \nI'll take your stakes."
+  },
+  {
+    "id": "999",
+    "text": "Having fun, huh?"
+  }
+]

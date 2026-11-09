@@ -1,0 +1,21 @@
+{
+  "name": "newhorizons.names",
+  "description": "The character name pool of the original game.",
+  "source": {
+    "path": "NAME.TBL",
+    "offset": 0,
+    "length": 0
+  },
+  "tables": [
+    {
+      "name": "original_names",
+      "description": "The names that the original game gives to the characters it generates.",
+      "kind": "nul_list",
+      "offset": 0,
+      "string_trim": true,
+      "string_decode": "ascii",
+      "id_field": "id",
+      "fields": []
+    }
+  ]
+}

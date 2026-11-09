@@ -1,0 +1,273 @@
+id,text
+0,|Old Guild Worker|
+1,I've got a job for you. I need you to transport some goods from the port of $r32 to $r33. Will you take on this job?
+2,|Old Guild Worker|
+3,The head trader at the port of $r32 needs someone to buy some goods for him. Will you go and talk to him?
+4,|Old Guild Worker|
+5,Would you consider taking this letter to the Guild in the port of $r32? It has to be there within $d20 month.
+6,|Old Guild Worker|
+7,"I'll pay you once you've finished the job. Let's see, $d21 gold ought to be enough."
+8,|Old Guild Worker|
+9,"Once you complete the task, I'll give you $d21 gold in payment."
+10,|Old Guild Worker|
+11,The Marco Polo bank in $r32 is looking for someone to help them collect loans. Would you like to try that?
+12,|Head Trader|
+13,You don't have any room to store cargo on your ship right now. Come back once you've made room.
+14,|Head Trader|
+15,Will you transport $d19 lots of $r35 to $r33 within $d20 month?
+16,|Head Trader|
+17,Will you transport $d19 lots of $r35 to $r33 within $d20 months?
+18,|Head Trader|
+19,"I would pay you $d21 gold. You'll do it, won't you?"
+20,|Head Trader|
+21,"Oh well, I'll just ask someone else."
+22,|Head Trader|
+23,"Alright then, I'll load your ship."
+24,|Head Trader|
+25,Thank you! Here's your payment.
+26,|Head Trader|
+27,Haven't you transported $r35 to $r33 yet?
+28,|Head Trader|
+29,You've only got a few hours left. Maybe it's too tough an assignment for you?
+30,|Head Trader|
+31,You've only got $d12 day left. Maybe it's too tough an assignment for you?
+32,|Head Trader|
+33,You've only got $d12 days left. Maybe it's too tough an assignment for you?
+34,|Head Trader|
+35,Your deadline has long since passed.
+36,|Head Trader|
+37,Thank you! Go and collect your payment at the port of $r33.
+38,|Head Trader|
+39,You didn't bring me $r35 yet?
+40,|Head Trader|
+41,"Only a couple hours left. You look like you'd rather give up, would you?"
+42,|Head Trader|
+43,Only $d12 day left. You look like you'd prefer to give up. Would you?
+44,|Head Trader|
+45,Only $d12 days left. You look like you'd prefer to give up. Would you?
+46,|Head Trader|
+47,"Thank you! But you still need $d19 more, and you've only got a couple of hours left."
+48,|Head Trader|
+49,"Thank you! But you still need $d19 more, and you've only got $d12 day left."
+50,|Head Trader|
+51,"Thank you! But you still need $d19 more, and you've only got $d12 days left."
+52,|Head Trader|
+53,I'm sorry but your deadline has already passed.
+54,|Head Trader|
+55,"Your payment would be $d21 gold. Please, do it for me."
+56,|Head Trader|
+57,"Oh well, I guess I'll just have to ask someone else."
+58,|Head Trader|
+59,"Ok then, here's an advance. Just don't let me down!"
+60,|Head Trader|
+61,Thanks! Here's the reward I promised.
+62,|Head Trader|
+63,Haven't you brought me $d19 lots of $r35 yet?
+64,|Head Trader|
+65,"Are you going to give up? You've only got a few hours left, you know."
+66,|Head Trader|
+67,"Are you going to give up? You've only got $d12 day left, you know."
+68,|Head Trader|
+69,"Are you going to give up? You've only got $d12 days left, you know."
+70,|Head Trader|
+71,Thanks! But unfortunately you've only got a few hours to get $d19 more.
+72,|Head Trader|
+73,Thanks! But unfortunately you've only got $d12 day to get $d19 more.
+74,|Head Trader|
+75,Thanks! But unfortunately you've only got $d12 days to get $d19 more.
+76,|Head Trader|
+77,"I'm sorry, but you missed the deadline."
+78,|Old Guild Worker|
+79,Thank you very much. Here's your reward.
+80,|Old Guild Worker|
+81,"Hey, I heard the delivery was late. That means you only get half of what we agreed upon."
+82,|Old Guild Worker|
+83,"The letter still hasn't made it to the port of $r32, I see."
+84,|Old Guild Worker|
+85,"This is your last day, and you've only got a few hours left. Maybe you want to admit your incompetence?"
+86,|Old Guild Worker|
+87,Only $d12 more day left. Maybe you want to admit your incompetence?
+88,|Old Guild Worker|
+89,Only $d12 more days left. Maybe you want to admit your incompetence?
+90,|Old Guild Worker|
+91,"You missed the deadline, you fool."
+92,|Old Guild Worker|
+93,"Oh, is this the letter from $r33? Good work, I was waiting for this."
+94,|Old Guild Worker|
+95,You can collect your payment at the port of $r33.
+96,|Old Guild Worker|
+97,The letter from $r33? This information is completely outdated. It's of no use to me now.
+98,|Old Guild Worker|
+99,"Well, it looks like you finally got rid of those pirates for me. But it took you longer than we agreed upon, so I'm only going to give you half of the money."
+100,|Old Guild Worker|
+101,Wow! You really showed those pirates. I don't have to worry about them any more. Thanks! Here's your reward.
+102,|Old Guild Worker|
+103,You still haven't gotten rid of the pirates? You've only got a few hours left. Are you going to give up?
+104,|Old Guild Worker|
+105,You still haven't gotten rid of the pirates? You've only got $d12 day left. Are you going to give up?
+106,|Old Guild Worker|
+107,You still haven't gotten rid of the pirates? You've only got $d12 days left. Are you going to give up?
+108,|Old Guild Worker|
+109,"I'm sorry, but the purpose of a deadline is to make sure things get done, ON TIME!"
+110,|Banker|
+111,We have a customer who simply refuses to pay us back. His name is $r33 $r34.
+112,|Banker|
+113,"If you can bring back the outstanding payments on his loan within $d20 month, I'll give you $d21 gold pieces as a reward."
+114,|Banker|
+115,"If you can bring back the outstanding payments on his loan within $d20 months, I'll give you $d21 gold pieces as a reward."
+116,|Banker|
+117,Will you consider helping me out?
+118,|Banker|
+119,I see. I will just have to ask someone else then.
+120,|Banker|
+121,"Wow! I have to admit, I didn't think you could do it. But here it is, all of it."
+122,|Banker|
+123,And here is your payment.
+124,|Banker|
+125,"Well, you did bring the money, but it was past the deadline. So I'm afraid I can only pay you half of what I promised."
+126,|Banker|
+127,It doesn't look like you have the money with you.
+128,|Banker|
+129,"It seems I was a fool to trust you. Go, leave me."
+130,|Banker|
+131,It looks like you haven't collected $r33 $r34's outstanding loan yet.
+132,|Banker|
+133,You still have a few hours till the deadline. But you can quit now if you want. Are you giving up?
+134,|Banker|
+135,You still have $d12 day till the deadline. But you can quit now if you want. Are you giving up?
+136,|Banker|
+137,You still have $d12 days till the deadline. But you can quit now if you want. Are you giving up?
+138,|Banker|
+139,The deadline has already passed.
+140,|Banker|
+141,"I feel like a fool for trusting you. Please, get out of here."
+142,"Hello there, $n. I've heard quite a bit about you lately."
+143,You look like someone I can count on. I'd like you to do a task for me.
+144,I will test your ability as a trader. Please bring me $d19 lots of $r35.
+145,What do you say? Are you up to the challenge?
+146,"What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+147,"If you successfully complete this task, I will bestow upon you a royal title."
+148,"If you complete this task, I will give you a new title."
+149,"Oh, nice work! As a reward, let me endow you with this title."
+150,"You haven't got $d19 lots of $r35 yet. You're not going to quit, are you?"
+151,Go. Leave this place. I no longer wish to see your face.
+152,Good work! But you still need to get $d19 more. So please hurry up.
+153,"The marketplace is closed temporarily, while the head trader recovers from the plague."
+154,"Hello there, $n. I've heard quite a bit about you lately."
+155,You look like someone I can count on. I'd like you to do a task for me.
+156,I need someone to take these documents to King Manuel of Portugal. Will you help me out?
+157,"I need someone to take these documents to King Carlos of Spain. You'll do it, won't you?"
+158,I need someone to take these documents to the Sultan Suleiman II of the Ottoman Empire. Are you up to the task?
+159,I need someone to take these documents to King Henry of England. Do you think you can handle it?
+160,I need someone to take these documents to the Governor-General of Italy in Genoa. Will you do this favor for me?
+161,I need someone to take these documents to the Governor-General of Holland in Amsterdam. Can you help me out?
+162,"What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+163,"If you successfully complete this task, I will bestow upon you a royal title."
+164,"If you complete this task, I will give you a new title."
+165,"Good work. I knew I could trust you. As a reward, I present you with this title."
+166,Hurry up and take those documents to King Manuel of Portugal. Or have I hired a quitter?
+167,Hurry up and take those documents to King Carlos of Spain. Or is this task too difficult?
+168,Hurry up and take those documents to the Sultan Suleiman II of the Ottoman Empire. Or is it too much for you to handle?
+169,Hurry up and take those documents to the King Henry of England. Or do you want to quit?
+170,Rush those documents to the Governor-General of Italy in Genoa. Are you giving up?
+171,Hurry up and take those documents to the Governor-General of Holland in Amsterdam. Is this task too difficult for you?
+172,Go. Leave this place. I no longer wish to see your face.
+173,"Documents from King Manuel? Ah, thank you. Please give Manuel my best regards."
+174,Documents from King Carlos? Good work. Tell Carlos I said hello.
+175,Documents from the Sultan Suleiman II? I've been waiting for these. Tell Suleiman II I said thank you.
+176,Documents from King Henry? Wonderful! Thank Henry for me.
+177,Documents from the Governor-General of Italy? Wonderful! Tell him I appreciate it.
+178,Documents from the Governor-General of Holland? Wonderful! Give him my best regards.
+179,Hurry back and give King Manuel my best.
+180,Hurry back and give King Carlos my best.
+181,Hurry back and give the Sultan Suleiman II my best.
+182,Hurry back and give King Henry my best.
+183,Hurry back and give the Governor-General of Italy my best.
+184,Hurry back and give the Governor-General of Holland my best.
+185,"Hello there, $n. I've heard quite a bit about you lately."
+186,You look like someone I can count on. I'd like you to do a task for me.
+187,I would like to make a treaty with Portugal. Please go as my messenger.
+188,I would like to make a treaty with Spain. Will you go as my envoy?
+189,I would like to make a treaty with the Ottoman Empire. I need you to be my ambassador.
+190,I would like to make a treaty with England. Will you deliver the message for me?
+191,I would like to make a treaty with the Governor-General of Italy. Will you represent me?
+192,I would like to make a treaty with the Dutch Governor-General. Please go as my envoy.
+193,"What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+194,"If you successfully complete this task, I will bestow upon you a royal title."
+195,"If you complete this task, I will give you a new title."
+196,"So he accepted my treaty? Good work. As a reward, please accept this title."
+197,Please hurry to Portugal and make the treaty. Or do you dare refuse an order from me?
+198,Please hurry to Spain and make a treaty. Or do you dare refuse an order from me?
+199,Please hurry to Istanbul and make a treaty. Or do you dare refuse an order from me?
+200,Please hurry to England and make a treaty. Or do you dare refuse an order from me?
+201,Please hurry to Genoa and make a treaty with the Italian Governor-General. Or do you dare refuse an order from me?
+202,Please hurry to Amsterdam and make a treaty with the Dutch Governor- General. Or do you dare refuse an order from me?
+203,Go. Leave this place. I no longer wish to see your face.
+204,So King Manual is proposing a treaty... Alright then. Go tell him I am in favor.
+205,A treaty... Hmmm. It sounds like a good plan. Please tell King Carlos I accept.
+206,"Sultan Suleiman II wants to make a treat with me, eh? Sounds like a good idea. Let him know I accept."
+207,A treaty... Sounds intriguing. Please tell King Henry I am in favor.
+208,"So the Italian Governor-General wants to make a treaty, now does he? Please tell him I'm willing to accept."
+209,A treaty... The Dutch Governor-General always has good ideas like that. Please tell him I am in favor.
+210,Please go. And give my best to King Manuel.
+211,Please go. And give my best to King Carlos.
+212,Please go. And give my best to the Sultan Suleiman II.
+213,Please go. And give my best to King Henry.
+214,Please go. And give my best to the Italian Governor-General.
+215,Please go. And give my best to the Dutch Governor-General.
+216,"Hello there, $n. I've heard quite a bit about you lately."
+217,You look like someone I can count on. I'd like you to do a task for me.
+218,"I am counting on you to make alliances with $d14 ports. I don't care where, but this is an order."
+219,"You will do it, won't you?"
+220,"What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+221,"If you successfully complete this task, I will bestow upon you a royal title."
+222,"If you complete this task, I will give you a new title."
+223,We now have alliances with $d13 ports. Good work. Please accept this title as a reward.
+224,We now have alliances with $d13 ports. Good work. Please accept this title as a reward.
+225,"We don't have $d19 allied ports yet. Hurry up and make some more. You're not thinking of backing out now, are you?"
+226,Go. Leave this place. I no longer wish to see your face.
+227,"Hello there, $n. I've heard quite a bit about you lately."
+228,You look like someone I can count on. I'd like you to do a task for me.
+229,I've heard you're quite an adventurer.
+230,"I want you to travel the world and find rare things. But your discoveries are for me only, so don't tell anyone else!"
+231,"What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+232,"If you successfully complete this task, I will bestow upon you a royal title."
+233,"If you complete this task, I will give you a new title."
+234,But the world is still full of marvelous things. Go and find me something else.
+235,"You still haven't brought me anything. I don't care what, just find me something! That is, unless you've decided to quit?"
+236,Go. Leave this place. I no longer wish to see your face.
+237,"Hello there, $n. I've heard quite a bit about you lately."
+238,You look like someone I can count on. I'd like you to do a task for me.
+239,I have complete confidence in your abilities. Do you want to try and find it?
+240,"What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+241,"If you successfully complete this task, I will bestow upon you a royal title."
+242,"If you complete this task, I will give you a new title."
+243,Go. Leave this place. I no longer wish to see your face.
+244,"Hello there, $n. I've heard quite a bit about you lately."
+245,You look like someone I can count on. I'd like you to do a task for me.
+246,The Portuguese fleet has been attacking our merchant ships. This is slowly becoming a major problem.
+247,That is why I would like you to go and attack the Portuguese fleet. Do you accept this duty?
+248,Our merchant ships are being tormented by the Spanish fleet. This is slowly becoming a major problem.
+249,I need you to go out and teach the Spanish fleet a lesson. Do you accept this responsibility?
+250,Our merchant ships have become a favorite target of the Turkish fleet. This is slowly becoming a major problem.
+251,"I need you to give them a taste of their own medicine, and attack them, relentlessly. Are you up to the challenge?"
+252,The English fleet is wreaking havoc on our merchant ships' trade routes. This is slowly becoming a major problem.
+253,"Please make the waters safe for our merchants by punishing those English hounds. What do you say, can you do it?"
+254,The Italian fleet is making spaghetti of our merchants' trade routes. This is slowly becoming a major problem.
+255,Will you show those curs that they can't mess with us?
+256,The Dutch fleet has been harassing our merchant ships to the point where they can no longer sail the open seas safely.
+257,That is why I would like you to go and attack the Dutch fleet. Will you make the waters safe for our merchants?
+258,Pirates have been attacking our merchant ships. This is slowly becoming a major problem.
+259,That is why I would like you to go and attack the pirates. Do you accept this duty?
+260,"What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+261,"If you successfully complete this task, I will bestow upon you a royal title."
+262,"If you complete this task, I will give you a new title."
+263,I see you haven't yet defeated the Portuguese fleet. Don't tell me you're going to give up?
+264,I see you haven't yet defeated the Spanish fleet. Are you a cowardly quitter?
+265,I see you haven't yet defeated the Turkish fleet. So you're turning your back on our merchants?
+266,I see you haven't yet defeated the English fleet. Is this task too much for you?
+267,I see you haven't yet defeated the Italian fleet. Are you going to give up the fight like a loser?
+268,I see you haven't yet defeated the Dutch fleet. So you don't have the strength to defeat them?
+269,I see you haven't yet defeated the pirates. Are you going to let those curs get the best of us?
+270,Go. Leave this place. I no longer wish to see your face.
+271,You did a marvelous job defeating the enemy fleet. Please accept this title as a reward for your services.

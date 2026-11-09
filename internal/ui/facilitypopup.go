@@ -197,6 +197,7 @@ func (t *TavernPopup) Draw(screen *ebiten.Image) {
 	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
 
 	render.DrawText(screen, "Tavern", x+12, y+10, render.ColorTextBright)
+	render.DrawText(screen, t.ui.text.Get(textRecruitQuestion), x+12, y+34, render.ColorTextDim)
 	render.DrawText(screen, "H: hear a rumour   enter: hire   esc: back", x+12, y+22, render.ColorTextDim)
 
 	crew := t.ui.world.SailorCapacity(t.ui.world.PlayerEntity())

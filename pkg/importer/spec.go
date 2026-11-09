@@ -86,6 +86,27 @@ type TableSpec struct {
 	Constants map[string]string `json:"constants,omitempty"`
 	// IDField is the name of the field that holds the primary key.
 	IDField string `json:"id_field,omitempty"`
+	// Kind selects the layout of the table.
+	//
+	// The empty value means "fixed size records" (the default). The
+	// other kinds are:
+	//
+	//	"offset_table"  a table of offsets, followed by the strings
+	//	"nul_list"     a list of NUL separated strings
+	//	"fixed_text"   fixed size records of text
+	//
+	// The offset tables come in two flavours, which are selected by
+	// OffsetSize (2 or 4 bytes) and by the byte order of the offsets
+	// (OffsetBigEndian).
+	Kind string `json:"kind,omitempty"`
+	// OffsetSize is the size of an offset in bytes (2 or 4).
+	OffsetSize int `json:"offset_size,omitempty"`
+	// OffsetBigEndian selects the byte order of the offsets.
+	OffsetBigEndian bool `json:"offset_big_endian,omitempty"`
+	// StringTrim removes the trailing NUL bytes of the strings.
+	StringTrim bool `json:"string_trim,omitempty"`
+	// StringDecode is the code page of the strings ("ascii", "cp932"...).
+	StringDecode string `json:"string_decode,omitempty"`
 }
 
 // FieldSpec describes one field of a record.

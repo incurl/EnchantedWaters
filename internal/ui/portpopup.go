@@ -208,11 +208,12 @@ func (e *ExchangePopup) Update() bool {
 // trade executes the trade of the selected commodity.
 func (e *ExchangePopup) trade(commodityID string) {
 	fleetID := e.ui.world.PlayerEntity()
+	var quote world.Quote
 	var err error
 	if e.selling {
-		_, err = e.ui.world.ExecuteSell(fleetID, commodityID, e.portID, float64(e.quantity))
+		quote, err = e.ui.world.ExecuteSell(fleetID, commodityID, e.portID, float64(e.quantity))
 	} else {
-		_, err = e.ui.world.ExecuteBuy(fleetID, commodityID, e.portID, float64(e.quantity))
+		quote, err = e.ui.world.ExecuteBuy(fleetID, commodityID, e.portID, float64(e.quantity))
 	}
 	if err != nil {
 		e.ui.Message("%v", err)
@@ -223,6 +224,14 @@ func (e *ExchangePopup) trade(commodityID string) {
 		action = "sold"
 	}
 	e.ui.Message("%s %d %s", action, e.quantity, e.ui.cfg.Commodity(commodityID).Name)
+
+	// The answer of the merchant comes from the original wording.
+	switch {
+	case e.selling:
+		e.ui.Message("%s", e.ui.text.Get(textGoodPrice))
+	case quote.GrandTotal > 0:
+		e.ui.Message("%s", e.ui.text.Get(textPriceAccepted))
+	}
 }
 
 // Draw implements Popup.
@@ -240,6 +249,10 @@ func (e *ExchangePopup) Draw(screen *ebiten.Image) {
 		mode = "SELL"
 	}
 	render.DrawText(screen, "Exchange - "+mode, x+12, y+10, render.ColorTextBright)
+	if !e.selling {
+		// The merchant greets the player with the original wording.
+		render.DrawText(screen, e.ui.text.Get(textGreet), x+120, y+10, render.ColorTextDim)
+	}
 	render.DrawText(screen, fmt.Sprintf("gold: %d   qty: %d (left/right)", int(e.ui.world.Treasury()), e.quantity), x+12, y+22, render.ColorTextDim)
 	render.DrawText(screen, "tab: switch mode   enter: trade   esc: back", x+12, y+34, render.ColorTextDim)
 

@@ -1,0 +1,2206 @@
+[
+  {
+    "id": "0",
+    "text": "The King is waiting for you. Please proceed at once to the royal hall."
+  },
+  {
+    "id": "1",
+    "text": "|Sir Gilbert|\nSo you finally decided to grace us with your presence!"
+  },
+  {
+    "id": "2",
+    "text": "What has been keeping you so long, may I ask? I don't suppose you realize how rude it is to keep the King waiting?"
+  },
+  {
+    "id": "3",
+    "text": "I'd love to stay and chat with you, old chap, but I do have a bit of important business to attend to."
+  },
+  {
+    "id": "4",
+    "text": "Perhaps we could talk after my audience with the King?"
+  },
+  {
+    "id": "5",
+    "text": "Hmph, don't trifle me with your arrogance. Your moment here won't last long, sailor man, so enjoy it while it lasts."
+  },
+  {
+    "id": "6",
+    "text": "Hurry up! Quickly!"
+  },
+  {
+    "id": "7",
+    "text": "|Henry the VIII|\nAh, you made it. I called you here today because there is something I must ask of you."
+  },
+  {
+    "id": "8",
+    "text": "Anything, your majesty."
+  },
+  {
+    "id": "9",
+    "text": "Very good. I'd like you to take command of a warship."
+  },
+  {
+    "id": "10",
+    "text": "A warship...? Did you say a warship!?"
+  },
+  {
+    "id": "11",
+    "text": "That's correct. As you know, there is a powerful nation that threatens our mighty land of England."
+  },
+  {
+    "id": "12",
+    "text": "Would you be referring to Spain?"
+  },
+  {
+    "id": "13",
+    "text": "Exactly. Using their newfound wealth from the New World, they are trying to conquer all of Europe."
+  },
+  {
+    "id": "14",
+    "text": "As the King of England, I cannot sit by idly and allow this to occur. Therefore, we need to make a strong war fleet."
+  },
+  {
+    "id": "15",
+    "text": "I would like you to accept a position as Head of the Royal Navy."
+  },
+  {
+    "id": "16",
+    "text": "To that end, I want you to go out to sea and gain experience."
+  },
+  {
+    "id": "17",
+    "text": "It would be an honor. I respectfully accept."
+  },
+  {
+    "id": "18",
+    "text": "I now present you with weapons and a letter of marque."
+  },
+  {
+    "id": "19",
+    "text": "Don't forget to equip yourself with the weapons."
+  },
+  {
+    "id": "20",
+    "text": "With the letter of marque, all your actions will be sanctioned by the throne. Do not abuse this power!"
+  },
+  {
+    "id": "21",
+    "text": "As of today, you are working for the King of England, with a royal rank to boot."
+  },
+  {
+    "id": "22",
+    "text": "From this day forth, you will be known as a page of King Henry the VIII."
+  },
+  {
+    "id": "23",
+    "text": "I respectfully accept your generous offer."
+  },
+  {
+    "id": "24",
+    "text": "You'll need gold to get prepared - ask for as much as you like. Sir Gilbert will take care of all the arrangements."
+  },
+  {
+    "id": "25",
+    "text": "I'm counting on you, $n."
+  },
+  {
+    "id": "26",
+    "text": "You don't need to worry about a thing, your majesty."
+  },
+  {
+    "id": "27",
+    "text": "$s, Sir Gilbert is waiting for you."
+  },
+  {
+    "id": "28",
+    "text": "I see."
+  },
+  {
+    "id": "29",
+    "text": "Your ship, more ship than you deserve I might add, is at the harbor. There is also a sailor waiting to meet you there."
+  },
+  {
+    "id": "30",
+    "text": "Do you have any questions?"
+  },
+  {
+    "id": "31",
+    "text": "I'd like you to get my money ready."
+  },
+  {
+    "id": "32",
+    "text": "A fellow as smart as you imagine yourself to be... 300 gold pieces ought to be more than adequate."
+  },
+  {
+    "id": "33",
+    "text": "What do you want me to do with only 300 gold pieces?! His majesty said that I should take as much as I think I need!"
+  },
+  {
+    "id": "34",
+    "text": "Stop complaining! This is more than enough!"
+  },
+  {
+    "id": "35",
+    "text": "Here, take it, you greedy scoundrel!"
+  },
+  {
+    "id": "36",
+    "text": "Since his majesty is counting on your ability, I do hope you will get us some good results."
+  },
+  {
+    "id": "37",
+    "text": "Hurry up and go to the shipyard and the dock."
+  },
+  {
+    "id": "38",
+    "text": "Do try to remember you are representing England! Don't embarrass us! Though, (sigh) I suppose that may be too much to hope for!"
+  },
+  {
+    "id": "39",
+    "text": "His majesty is out right now, and will not be able to meet with you."
+  },
+  {
+    "id": "40",
+    "text": "Hello, old chap, I'd like a glass of whiskey."
+  },
+  {
+    "id": "41",
+    "text": "Thanks, I needed that."
+  },
+  {
+    "id": "42",
+    "text": "|The Pub Owner|\nGlad you enjoyed it, $n. Now about your tab..."
+  },
+  {
+    "id": "43",
+    "text": "You know, no matter how much of your whiskey I drink, I never tire of it."
+  },
+  {
+    "id": "44",
+    "text": "It's an honor to receive such compliments from a customer with such refined taste."
+  },
+  {
+    "id": "45",
+    "text": "Ahhh... my friend, flattery will get you many things in life, but unfortunately no gold from me today!"
+  },
+  {
+    "id": "46",
+    "text": "Oh, it's you. The (ha!) Commodore."
+  },
+  {
+    "id": "47",
+    "text": "Well, let's get this party started, shall we?"
+  },
+  {
+    "id": "48",
+    "text": "Hey! Did you guys hear that? This guy wants us to throw him a party!"
+  },
+  {
+    "id": "49",
+    "text": "Hmph, I think you're confused, pal. Why would I want to work for you?"
+  },
+  {
+    "id": "50",
+    "text": "Well then, let me help you make up your mind."
+  },
+  {
+    "id": "51",
+    "text": "Say, you're pretty tough!"
+  },
+  {
+    "id": "52",
+    "text": "You're not too shabby yourself!"
+  },
+  {
+    "id": "53",
+    "text": "My name's Matthew. I guess I should call you Commodore now."
+  },
+  {
+    "id": "54",
+    "text": "Since you've accepted that fact, how about working for me?"
+  },
+  {
+    "id": "55",
+    "text": "Why, sure. I've never met a fellow as gutsy as you. Let's sit down and have something to drink."
+  },
+  {
+    "id": "56",
+    "text": "Well, maybe later."
+  },
+  {
+    "id": "57",
+    "text": "Hmph, you're not that tough. But since you didn't run out of here like a scared pup, you just might be worth my time."
+  },
+  {
+    "id": "58",
+    "text": "(pant) Oh really? (pant)"
+  },
+  {
+    "id": "59",
+    "text": "Before you, I've challenged almost every man that's come in here sayin' he's a commodore."
+  },
+  {
+    "id": "60",
+    "text": "But you're the first to fight with me man to man."
+  },
+  {
+    "id": "61",
+    "text": " (pant) So?"
+  },
+  {
+    "id": "62",
+    "text": "So I figure I might accept you as commodore. Only, when we fight those Spanish dogs, fight a little harder, will ya?"
+  },
+  {
+    "id": "63",
+    "text": "You're not too bad."
+  },
+  {
+    "id": "64",
+    "text": "Same to you."
+  },
+  {
+    "id": "65",
+    "text": "My name's Matthew... Commodore."
+  },
+  {
+    "id": "66",
+    "text": "Hmmm, now that you've accepted me as commodore, I suppose you should be my first mate. What do you say?"
+  },
+  {
+    "id": "67",
+    "text": "I like the sound of that!"
+  },
+  {
+    "id": "68",
+    "text": "Sir $s. A strange man was just here and he told me that if I saw you I was to tell you to report to the palace."
+  },
+  {
+    "id": "69",
+    "text": "That was probably Sir Gilbert. Even so, I wonder what he wants with me?"
+  },
+  {
+    "id": "70",
+    "text": "This is a Guild for mariners. As long as you have a ship, I'll gladly put you to work."
+  },
+  {
+    "id": "71",
+    "text": "Sir, if you want to pick up your ship, you should go to the shipyard."
+  },
+  {
+    "id": "72",
+    "text": "|Sailor Matthew Roy|\nSo are you the noble they told me was lookin' to hire a mate like myself?"
+  },
+  {
+    "id": "73",
+    "text": "And you, you're the sailor Sir Gilbert told me about?!"
+  },
+  {
+    "id": "74",
+    "text": "Oh ho, don't think I'm good enough for you, eh?"
+  },
+  {
+    "id": "75",
+    "text": "Then come on down to the pub. I'll give you quite a welcome party! Heh!"
+  },
+  {
+    "id": "76",
+    "text": "Matthew is waiting for you at the pub."
+  },
+  {
+    "id": "77",
+    "text": "You'll have to excuse me. There is some pressing work for me at the palace. Please come by later."
+  },
+  {
+    "id": "78",
+    "text": "I've come to pick up my ship."
+  },
+  {
+    "id": "79",
+    "text": "Aye... Sir $s right? I've been wondering when ye'd come by."
+  },
+  {
+    "id": "80",
+    "text": "This may be forward of me, but what is a ship as nice as this going to be used for?"
+  },
+  {
+    "id": "81",
+    "text": "If I told you I was going to use it to fight the Spanish, what would you think?"
+  },
+  {
+    "id": "82",
+    "text": "Ye must be joking! I'd rather hear that ye're going to use it for trade!"
+  },
+  {
+    "id": "83",
+    "text": "Oh, I've painted the ship's name. 'Idiot' - just as ye requested. But are ye sure ye want to use such a name?"
+  },
+  {
+    "id": "84",
+    "text": "Blast that Gilbert... Well, we'll just see who has the last laugh!"
+  },
+  {
+    "id": "85",
+    "text": "Idiot"
+  },
+  {
+    "id": "86",
+    "text": "Your ship will be waiting at the docks."
+  },
+  {
+    "id": "87",
+    "text": "Commodore! I don't mind casting off, but where are we headed?"
+  },
+  {
+    "id": "88",
+    "text": "Ah, I was just thinking about that myself."
+  },
+  {
+    "id": "89",
+    "text": "Why don't we do a little spying on the enemy?"
+  },
+  {
+    "id": "90",
+    "text": "That's a good idea. Alright then, let's set a course for Seville. We should head South - Southwest."
+  },
+  {
+    "id": "91",
+    "text": "If Seville is where you want to go, leave everything to me. It's easy if you use the Auto Sail command!"
+  },
+  {
+    "id": "92",
+    "text": "What's this? Are you closed today?!"
+  },
+  {
+    "id": "93",
+    "text": "No, no... We're open, there just aren't any customers."
+  },
+  {
+    "id": "94",
+    "text": "And why is that?"
+  },
+  {
+    "id": "95",
+    "text": "The launching ceremony for the newest vessel in the Spanish Fleet is taking place down at the docks."
+  },
+  {
+    "id": "96",
+    "text": "The whole town went to catch a glimpse. It's like a grand fiesta down there!"
+  },
+  {
+    "id": "97",
+    "text": "This newest ship... is it all that impressive?"
+  },
+  {
+    "id": "98",
+    "text": "Aye, given today's technology, I don't think you'll find a better ship anywhere."
+  },
+  {
+    "id": "99",
+    "text": "Have you already gone to see it?"
+  },
+  {
+    "id": "100",
+    "text": "No, no. Not yet."
+  },
+  {
+    "id": "101",
+    "text": "I'm sure if I saw it, I'd want to sail it."
+  },
+  {
+    "id": "102",
+    "text": "Have you already gone to see it?"
+  },
+  {
+    "id": "103",
+    "text": "Aye, it's quite a ship, my friend."
+  },
+  {
+    "id": "104",
+    "text": "This means Spain needn't worry about peace anymore."
+  },
+  {
+    "id": "105",
+    "text": "Hey, do you know anything about a group of crazy sailors?"
+  },
+  {
+    "id": "106",
+    "text": "Aye, they've headed off toward the harbor."
+  },
+  {
+    "id": "107",
+    "text": "There you are, Matthew."
+  },
+  {
+    "id": "108",
+    "text": "Commodore! I've been waiting."
+  },
+  {
+    "id": "109",
+    "text": "Well, you certainly didn't waste any time getting a drink, did you?"
+  },
+  {
+    "id": "110",
+    "text": "It's been a long time since I had the chance to drink with landlubbers."
+  },
+  {
+    "id": "111",
+    "text": "Don't hold back there, Commodore, I know you'll enjoy it, too!"
+  },
+  {
+    "id": "112",
+    "text": "... One hour later..."
+  },
+  {
+    "id": "113",
+    "text": "Boy, am I feeling great! Commodore, I wanted to ask you why a man like you is sailing on such a beat up ship?"
+  },
+  {
+    "id": "114",
+    "text": "Well, I don't think Sir Gilbert likes me too much."
+  },
+  {
+    "id": "115",
+    "text": "As far as he's concerned, I'm just scheming to win favor with the King."
+  },
+  {
+    "id": "116",
+    "text": "Why, that weasel Gilbert! I should have known. He looked like a double-crossing dog when I first laid eyes on him. Oh, Waiter, another bottle over here!"
+  },
+  {
+    "id": "117",
+    "text": "Matthew, haven't you had enough?"
+  },
+  {
+    "id": "118",
+    "text": "... a little while later..."
+  },
+  {
+    "id": "119",
+    "text": "Ahhhhhh! That was the best wine in Europe!"
+  },
+  {
+    "id": "120",
+    "text": "I can't believe you emptied that bottle!! I'm surprised you haven't passed out!"
+  },
+  {
+    "id": "121",
+    "text": "Maybe I will! Hic! Oh, the room is spinning. Hic! There's no way I can tend to the ship. I'll have to round up some more hearties."
+  },
+  {
+    "id": "122",
+    "text": "But, but, Matthew..."
+  },
+  {
+    "id": "123",
+    "text": "Is there anyone who wants to sail with Commodore $s here?"
+  },
+  {
+    "id": "124",
+    "text": "Aye!"
+  },
+  {
+    "id": "125",
+    "text": "Speak up! I'll ask once more!"
+  },
+  {
+    "id": "126",
+    "text": "Hear hear!"
+  },
+  {
+    "id": "127",
+    "text": "Matthew, I appreciate your enthusiasm, but we'll never fit a crew of this size on that small ship."
+  },
+  {
+    "id": "128",
+    "text": "Then get your hands on a bigger ship."
+  },
+  {
+    "id": "129",
+    "text": "Now really, Matthew. With this many men, why, we'd need a galleon!"
+  },
+  {
+    "id": "130",
+    "text": "Well then, we'll just have to get our hands on that new Spanish beauty, won't we?"
+  },
+  {
+    "id": "131",
+    "text": "The Newest Galleon?"
+  },
+  {
+    "id": "132",
+    "text": "Didn't you see that ship at the launching ceremony? It's incredible!"
+  },
+  {
+    "id": "133",
+    "text": "If we had that, the pirates wouldn't dare come near us."
+  },
+  {
+    "id": "134",
+    "text": "What? Didn't you see the vessel waiting in the harbor? It's an incredible warship!"
+  },
+  {
+    "id": "135",
+    "text": "If we had that ship, we could sink pirates with one shot!"
+  },
+  {
+    "id": "136",
+    "text": "Hmmm, 't would be rather ironic, using a Spanish ship to beat the Spanish..."
+  },
+  {
+    "id": "137",
+    "text": "Exactly! Not bad, eh?"
+  },
+  {
+    "id": "138",
+    "text": "Ah, it's a grand idea, but I don't see how we could possibly pull it off."
+  },
+  {
+    "id": "139",
+    "text": "Just leave that to me. I don't want you to think I'm a good-for-nothing that just drinks all day. Come on men! Follow me!"
+  },
+  {
+    "id": "140",
+    "text": "Yay!"
+  },
+  {
+    "id": "141",
+    "text": "Wait! Where are you going?"
+  },
+  {
+    "id": "142",
+    "text": "Have you seen my buddies?"
+  },
+  {
+    "id": "143",
+    "text": "Sir, everyone's gone to the harbor."
+  },
+  {
+    "id": "144",
+    "text": "It's pretty rowdy. Is there something special going on?"
+  },
+  {
+    "id": "145",
+    "text": "The launching ceremony of the newest galleon of the 'Invincible' Spanish Fleet has just begun!"
+  },
+  {
+    "id": "146",
+    "text": "Hey, why don't we go, too?"
+  },
+  {
+    "id": "147",
+    "text": "Hmm, it's pretty rowdy out there. I guess the launching ceremony has started."
+  },
+  {
+    "id": "148",
+    "text": "I've heard about the 70 gun galleon, and that's one ship I'd like to get my hands on someday."
+  },
+  {
+    "id": "149",
+    "text": "The newest Spanish Galleon is coming into the harbor."
+  },
+  {
+    "id": "150",
+    "text": "Matthew! You gluttonous fool! Where are you?"
+  },
+  {
+    "id": "151",
+    "text": "There's still some time before morning. Why don't we catch some sleep at the inn?"
+  },
+  {
+    "id": "152",
+    "text": "Let's take a look around the town first."
+  },
+  {
+    "id": "153",
+    "text": "It doesn't look like the newest Spanish galleon has been to the harbor yet."
+  },
+  {
+    "id": "154",
+    "text": "When you see it up close, it is truly an incredible ship."
+  },
+  {
+    "id": "155",
+    "text": "Hmm. Matthew's not at the harbor. He must be at the pub again."
+  },
+  {
+    "id": "156",
+    "text": "Even the sun has gone to bed. Let's leave the search until tomorrow."
+  },
+  {
+    "id": "157",
+    "text": "Commodore, look at this."
+  },
+  {
+    "id": "158",
+    "text": "Where'd this ship come from?"
+  },
+  {
+    "id": "159",
+    "text": "Whether it's drinking or ship stealing, when I get serious, there's nothing and no one who can stop me."
+  },
+  {
+    "id": "160",
+    "text": "The new Spanish galleon... Weren't there guards all around?"
+  },
+  {
+    "id": "161",
+    "text": "We told them that some female naval officer stole a ship. Most everyone went off somewhere to chase her, and then we just tied up the rest of the men and put them in the cargo bay."
+  },
+  {
+    "id": "162",
+    "text": "But even I can't believe they fell for that story so easily. If any ship was going to be stolen, it would have been this baby."
+  },
+  {
+    "id": "163",
+    "text": "So I guess you're not just some freeloading drunk after all. Nice job, Matthew."
+  },
+  {
+    "id": "164",
+    "text": "Everyone aboard!"
+  },
+  {
+    "id": "165",
+    "text": "OK, let's get her out of the harbor quickly!"
+  },
+  {
+    "id": "166",
+    "text": "Fools"
+  },
+  {
+    "id": "167",
+    "text": "I'm just on my way to the launching ceremony. Would you care to join me?"
+  },
+  {
+    "id": "168",
+    "text": "Did you see the ceremony? It was fabulous!"
+  },
+  {
+    "id": "169",
+    "text": "Ah, I've really got to hand it to the Spanish; their shipbuilding is remarkable."
+  },
+  {
+    "id": "170",
+    "text": "Hey, have you seen a dark-haired Englishman around? He was probably a little tipsy."
+  },
+  {
+    "id": "171",
+    "text": "No, I haven't."
+  },
+  {
+    "id": "172",
+    "text": "Commodore, weren't we going to gather information on the enemy?"
+  },
+  {
+    "id": "173",
+    "text": "(Yawn) Gu' Morning, Commodore."
+  },
+  {
+    "id": "174",
+    "text": "Ah, Matthew, you finally woke up."
+  },
+  {
+    "id": "175",
+    "text": "Oh, my head is killing me... Wait, where are we?"
+  },
+  {
+    "id": "176",
+    "text": "Ha, nice view from up here, isn't it?"
+  },
+  {
+    "id": "177",
+    "text": "Commodore, what in the world brought us to such a high ship?!"
+  },
+  {
+    "id": "178",
+    "text": "Ha, ha, ha. You don't remember at all, do you, Matthew. You stole this ship!  And you'll be happy to hear, that we just found the 10,000 gold pieces in the captain's cabin!"
+  },
+  {
+    "id": "179",
+    "text": "Commodore, I do have one thing I'm a little worried about..."
+  },
+  {
+    "id": "180",
+    "text": "What is it, Matthew?"
+  },
+  {
+    "id": "181",
+    "text": "The whole time we've been sailing, right up to this port, there's been a ship tailing us. I doubt that it's just a merchant ship."
+  },
+  {
+    "id": "182",
+    "text": "I hadn't noticed that, but couldn't it be just a simple coincidence?"
+  },
+  {
+    "id": "183",
+    "text": "That's what I thought at first. But when it saw that we were going to port here, it pulled back rather quickly."
+  },
+  {
+    "id": "184",
+    "text": "Somebody tailing us... If that's so, it's probably friends of the Spanish."
+  },
+  {
+    "id": "185",
+    "text": "I think we should increase the strength of our equipment as much as possible. Just in case."
+  },
+  {
+    "id": "186",
+    "text": "Commodore, it's the Spanish alright. They must want their ship back."
+  },
+  {
+    "id": "187",
+    "text": "Even they have some honor to uphold. They've come to sink us I bet."
+  },
+  {
+    "id": "188",
+    "text": "I can't believe they're this upset! After all, we only stole one ship!"
+  },
+  {
+    "id": "189",
+    "text": "Everyone to your posts! We're going to take on the Spanish!"
+  },
+  {
+    "id": "190",
+    "text": "Commodore, let's have a drink!"
+  },
+  {
+    "id": "191",
+    "text": "Commodore, I'm thirsty. Aren't you? Shall we be off to the pub?"
+  },
+  {
+    "id": "192",
+    "text": "Are you craving a drink again? I'm amazed you're not brain dead yet!"
+  },
+  {
+    "id": "193",
+    "text": "Commodore, those men were quite the fools!"
+  },
+  {
+    "id": "194",
+    "text": "You're right. Exactly like you, scared of the ghost in the sack."
+  },
+  {
+    "id": "195",
+    "text": "I'll just pretend I didn't hear that."
+  },
+  {
+    "id": "196",
+    "text": "Commodore, my throat is feeling a little dry."
+  },
+  {
+    "id": "197",
+    "text": "Alright! Time to go to the pub!"
+  },
+  {
+    "id": "198",
+    "text": "We're late, Commodore. No one will be waiting for us at the pub anymore."
+  },
+  {
+    "id": "199",
+    "text": "You're right. But we should stop by there anyway."
+  },
+  {
+    "id": "200",
+    "text": "Commodore, are we going to forget about our meeting?"
+  },
+  {
+    "id": "201",
+    "text": "Oh, we'd better hurry to the pub..."
+  },
+  {
+    "id": "202",
+    "text": "Commodore, is something wrong? Let's go."
+  },
+  {
+    "id": "203",
+    "text": "Just a moment..."
+  },
+  {
+    "id": "204",
+    "text": "... I hear something. It sounds like it's coming from the storage area."
+  },
+  {
+    "id": "205",
+    "text": "Commodore, don't say things like that. I hate those kinds of things."
+  },
+  {
+    "id": "206",
+    "text": "There's something intriguing about that noise. Let's just check it out."
+  },
+  {
+    "id": "207",
+    "text": "(sigh) Just as curious as ever."
+  },
+  {
+    "id": "208",
+    "text": "Matthew, come here. That big sack over there is moving!"
+  },
+  {
+    "id": "209",
+    "text": "Ahhhhh, it's a ghost!"
+  },
+  {
+    "id": "210",
+    "text": "Calm down, Matthew. It looks like there's someone or something in the sack."
+  },
+  {
+    "id": "211",
+    "text": "Don't have a heart attack. I'm going to open it now."
+  },
+  {
+    "id": "212",
+    "text": "What's this... there's two people tied up here."
+  },
+  {
+    "id": "213",
+    "text": "It looks like they're sailors."
+  },
+  {
+    "id": "214",
+    "text": "Save us! Help us!"
+  },
+  {
+    "id": "215",
+    "text": "Hey you loafing bums! Hurry up and untie us."
+  },
+  {
+    "id": "216",
+    "text": "Why you no good, ungrateful.. we were going to help you... Why don't we just keep you in that sack!"
+  },
+  {
+    "id": "217",
+    "text": "|Female Pirate Catalina|\nWhat are you fellows doing there?!"
+  },
+  {
+    "id": "218",
+    "text": "Why, who are you?"
+  },
+  {
+    "id": "219",
+    "text": "Those two are my shipmates. You work for Joao, don't you?"
+  },
+  {
+    "id": "220",
+    "text": "Draw your sword. I challenge you to a duel."
+  },
+  {
+    "id": "221",
+    "text": "Wait a minute. You've got us confused with somebody else."
+  },
+  {
+    "id": "222",
+    "text": "We were just passing by. Just ask your friends here."
+  },
+  {
+    "id": "223",
+    "text": "Is that true, Emilio?"
+  },
+  {
+    "id": "224",
+    "text": "|Emilio|\nY..Yes."
+  },
+  {
+    "id": "225",
+    "text": "|Andreas|\nCommodore, I'm ashamed of myself."
+  },
+  {
+    "id": "226",
+    "text": "Who did this to you? Was it Joao?"
+  },
+  {
+    "id": "227",
+    "text": "To be honest with you, it wasn't. We were tied up by his first mate Rocco."
+  },
+  {
+    "id": "228",
+    "text": "He was too strong for us."
+  },
+  {
+    "id": "229",
+    "text": "Oh, now I remember! I've heard stories about some old man called 'Monster Rocco'."
+  },
+  {
+    "id": "230",
+    "text": "Why didn't you tell us this earlier?"
+  },
+  {
+    "id": "231",
+    "text": "What does it matter? I still wouldn't have known what he looked like."
+  },
+  {
+    "id": "232",
+    "text": "Stop arguing, and stand up, mates. It's too late now. It wouldn't do us any good to go off chasing him."
+  },
+  {
+    "id": "233",
+    "text": "My name is Catalina Erantzo. Please forgive my previous actions, I'm a little jumpy lately."
+  },
+  {
+    "id": "234",
+    "text": "Say nothing of it. My name is $n $s. I'm commander of a fleet from England."
+  },
+  {
+    "id": "235",
+    "text": "So who is this Joao character? What's the story with him? I'd like to hear about it over a cup of tea."
+  },
+  {
+    "id": "236",
+    "text": "Hmm... well, maybe. I'll meet you at the pub in about two hours."
+  },
+  {
+    "id": "237",
+    "text": "That girl's still not here."
+  },
+  {
+    "id": "238",
+    "text": "Why don't we go kill some time somewhere?"
+  },
+  {
+    "id": "239",
+    "text": "We're pretty late."
+  },
+  {
+    "id": "240",
+    "text": "She's probably not waiting anymore."
+  },
+  {
+    "id": "241",
+    "text": "Pardon me, old chap, but has a strong-willed beautiful woman been here recently?"
+  },
+  {
+    "id": "242",
+    "text": "Yes, she was here with a companion for about two hours, but they've left."
+  },
+  {
+    "id": "243",
+    "text": "Too bad. It just wasn't written in the stars."
+  },
+  {
+    "id": "244",
+    "text": "It doesn't look like they've come yet."
+  },
+  {
+    "id": "245",
+    "text": "It sure looks like she was chasing after that guy Joao."
+  },
+  {
+    "id": "246",
+    "text": "Commodore, if I remember correctly, that Joao fellow is a member of the Franco family, the most powerful family in Portugal."
+  },
+  {
+    "id": "247",
+    "text": "The Franco Family... I heard that Leon Franco was a superb mariner. Catalina's in a bad spot, if he's her enemy."
+  },
+  {
+    "id": "248",
+    "text": "Sorry to keep you waiting."
+  },
+  {
+    "id": "249",
+    "text": "Not at all. We just got here. So, what's the story with this Joao fellow?"
+  },
+  {
+    "id": "250",
+    "text": "He escaped from me, but someday I'll catch him. And when I do, he'll be sorry."
+  },
+  {
+    "id": "251",
+    "text": "Miss Erantzo..."
+  },
+  {
+    "id": "252",
+    "text": "Please, call me Catalina."
+  },
+  {
+    "id": "253",
+    "text": "Well then, Catalina, why are you chasing this fellow?"
+  },
+  {
+    "id": "254",
+    "text": "Revenge!"
+  },
+  {
+    "id": "255",
+    "text": "Revenge?"
+  },
+  {
+    "id": "256",
+    "text": "His family is responsible for a most cowardly and dastardly plot, that resulted in the loss of my brother and fiance."
+  },
+  {
+    "id": "257",
+    "text": "So, I will avenge their defeat. No matter what I have to do, I won't rest until every last member of the Franco family has suffered the consequences of their wretched act."
+  },
+  {
+    "id": "258",
+    "text": "That's a pretty extraordinary story. However, I don't think that anyone from the noble house of Franco would do such a thing."
+  },
+  {
+    "id": "259",
+    "text": "Think what you will, but there is just one truth for me."
+  },
+  {
+    "id": "260",
+    "text": "I've given up my homeland to avenge the loss of my brother and fiance. There's no turning back now."
+  },
+  {
+    "id": "261",
+    "text": "Plus, I have mates who have sworn their loyalty to me. Even now they wait at the ship for my return."
+  },
+  {
+    "id": "262",
+    "text": "I think I've said too much to you already. If you'll excuse me.."
+  },
+  {
+    "id": "263",
+    "text": "Catalina.."
+  },
+  {
+    "id": "264",
+    "text": "What?"
+  },
+  {
+    "id": "265",
+    "text": "What will you do after you get your revenge?"
+  },
+  {
+    "id": "266",
+    "text": "I... I can't think about that now. Farewell. Perhaps we'll meet again..."
+  },
+  {
+    "id": "267",
+    "text": "Holy Cow! I wouldn't want her for my wife."
+  },
+  {
+    "id": "268",
+    "text": "If you were to be the groom, I'm sure she would refuse."
+  },
+  {
+    "id": "269",
+    "text": "Sir, have you heard? They say that there are ghosts around the trader's place."
+  },
+  {
+    "id": "270",
+    "text": "My my, you seem the strong type. Would you go and have a look for me?"
+  },
+  {
+    "id": "271",
+    "text": "Commodore, you're pretty good with the ladies there."
+  },
+  {
+    "id": "272",
+    "text": "Hey wait.. no..I didn't.. I mean I wasn't.."
+  },
+  {
+    "id": "273",
+    "text": "Commodore, I'm so thirsty! Isn't it time?"
+  },
+  {
+    "id": "274",
+    "text": "Hmph, time for your bottle, I suppose. OK, we'll stop by the pub."
+  },
+  {
+    "id": "275",
+    "text": "Please Commodore, I feel faint with thirst."
+  },
+  {
+    "id": "276",
+    "text": "OK. We'll stop by the pub."
+  },
+  {
+    "id": "277",
+    "text": "Commodore, do you plan to give them the slip?"
+  },
+  {
+    "id": "278",
+    "text": "Yes, we'd better hurry up if we want to make it to the pub."
+  },
+  {
+    "id": "279",
+    "text": "Commodore, if you go to sleep now, you'll be breaking your promise to meet that pretty woman."
+  },
+  {
+    "id": "280",
+    "text": "OK, OK. I get the picture."
+  },
+  {
+    "id": "281",
+    "text": "Commodore, I'm serious. It's time."
+  },
+  {
+    "id": "282",
+    "text": "(Sigh) Time to drink."
+  },
+  {
+    "id": "283",
+    "text": "Commodore, this is torture. I'm starting to hallucinate - are those empty bottles and glasses following you, too?"
+  },
+  {
+    "id": "284",
+    "text": "OK, we'll stop by the pub."
+  },
+  {
+    "id": "285",
+    "text": "Commodore, do you plan to give them the slip?"
+  },
+  {
+    "id": "286",
+    "text": "That's right, if we don't hurry up and get to the pub."
+  },
+  {
+    "id": "287",
+    "text": "Commodore, it's about that woman from a little while ago..."
+  },
+  {
+    "id": "288",
+    "text": "Hmm, it looks like she's got something she's not telling us."
+  },
+  {
+    "id": "289",
+    "text": "Commodore, maybe I'm imagining this, but I think I hear the clank of a bottle against a glass."
+  },
+  {
+    "id": "290",
+    "text": "Ah, I guess it's time to drink again."
+  },
+  {
+    "id": "291",
+    "text": "Commodore, I can't wait any longer."
+  },
+  {
+    "id": "292",
+    "text": "OK, we'll stop by the pub."
+  },
+  {
+    "id": "293",
+    "text": "Commodore, are you planning to slip past them?"
+  },
+  {
+    "id": "294",
+    "text": "We'd better hurry up if we're going to make the pub."
+  },
+  {
+    "id": "295",
+    "text": "Oh ho. I run the best pub in town! Don't you all agree?"
+  },
+  {
+    "id": "296",
+    "text": "Well then, old pal, give me some of your best Scotch."
+  },
+  {
+    "id": "297",
+    "text": "I'll take that, too - make it a double."
+  },
+  {
+    "id": "298",
+    "text": "Say Commodore, I'm bored. Don't you have any exciting stories?"
+  },
+  {
+    "id": "299",
+    "text": "|Pietro Conti|\nWhy, I have some exciting stories."
+  },
+  {
+    "id": "300",
+    "text": "Who in the blazes are you?"
+  },
+  {
+    "id": "301",
+    "text": "I am Pietro Conti, adventurer. I'm pretty famous for my treasure hunts and adventures."
+  },
+  {
+    "id": "302",
+    "text": "You sound like a liar to me!"
+  },
+  {
+    "id": "303",
+    "text": "You know you really don't need to be so rude."
+  },
+  {
+    "id": "304",
+    "text": "And what does this grave robber want with me?"
+  },
+  {
+    "id": "305",
+    "text": "Grave robber?! That's cruel. You fellows said you were looking for an interesting story, that's why I came over here."
+  },
+  {
+    "id": "306",
+    "text": "How about buying my story? Actually, I'm in a bit of a fix. You see I owe a bit of money to that Turkish fellow over there."
+  },
+  {
+    "id": "307",
+    "text": "He's a heartless merchant, no blood, no tears, the worst kind. So you can see my predicament."
+  },
+  {
+    "id": "308",
+    "text": "Commodore, what are you going to do?"
+  },
+  {
+    "id": "309",
+    "text": "That depends on how much he wants."
+  },
+  {
+    "id": "310",
+    "text": "Listen. Here's the situation. I need a loan. I owe that guy 10,000 gold pieces. Are you going to pay?"
+  },
+  {
+    "id": "311",
+    "text": "I'm sorry but I don't have that kind of money with me now."
+  },
+  {
+    "id": "312",
+    "text": "You've got no sense of adventure. Oh well, I guess I'll just tell my story to Joao, then. Sorry to bother you."
+  },
+  {
+    "id": "313",
+    "text": "He's gone. Odd fellow, wasn't he?"
+  },
+  {
+    "id": "314",
+    "text": "I wouldn't trust you as far as I can throw you. Sorry, but why don't you try somewhere else?"
+  },
+  {
+    "id": "315",
+    "text": "What?! Why you're mighty suspicious. Oh well, I'll just have to tell my story to Joao. Sorry to bother you."
+  },
+  {
+    "id": "316",
+    "text": "He's gone. Odd fellow wasn't he?"
+  },
+  {
+    "id": "317",
+    "text": "Alright, we'll listen to your story. Go ahead."
+  },
+  {
+    "id": "318",
+    "text": "That's a sport. Now, Listen up."
+  },
+  {
+    "id": "319",
+    "text": "There's a Spanish frigate headed for Seville. It's absolutely loaded to the brim with gold from the New World."
+  },
+  {
+    "id": "320",
+    "text": "And?"
+  },
+  {
+    "id": "321",
+    "text": "I'll continue once I get some money."
+  },
+  {
+    "id": "322",
+    "text": "Pay\nBargain\nDon't Pay"
+  },
+  {
+    "id": "323",
+    "text": "Ah, we'll pay."
+  },
+  {
+    "id": "324",
+    "text": "The frigate full of gold is finally leaving Veracruz. A sailor called $r04 $r03 is at the helm."
+  },
+  {
+    "id": "325",
+    "text": "That's the end of my story."
+  },
+  {
+    "id": "326",
+    "text": "He's gone. Odd fellow, wasn't he?"
+  },
+  {
+    "id": "327",
+    "text": "10,000 gold pieces is a bit expensive for a story like that. We'll pay half that."
+  },
+  {
+    "id": "328",
+    "text": "Hmph, well alright. A seaman called $r04 $r03 is at the helm. That's the end of my story."
+  },
+  {
+    "id": "329",
+    "text": "He's gone. Odd fellow, wasn't he?"
+  },
+  {
+    "id": "330",
+    "text": "We're not going to pay money for nonsense like that."
+  },
+  {
+    "id": "331",
+    "text": "Hmph, you cheapster. I'm going to spread the word at harbors all over that you're just a chintzy sailor."
+  },
+  {
+    "id": "332",
+    "text": "He's gone. Odd fellow, wasn't he?"
+  },
+  {
+    "id": "333",
+    "text": "Chintzy"
+  },
+  {
+    "id": "334",
+    "text": "Say, aren't you the famous Sir $s? Henry the VIII is looking for you. You'd better hurry to the palace in London at once."
+  },
+  {
+    "id": "335",
+    "text": "Bring honor to the homeland."
+  },
+  {
+    "id": "336",
+    "text": "The King is waiting for you. Please go at once to the royal hall."
+  },
+  {
+    "id": "337",
+    "text": "Well, if it's not the scourge of England. So where have you been wasting your time?"
+  },
+  {
+    "id": "338",
+    "text": "You've no right to talk to me like that."
+  },
+  {
+    "id": "339",
+    "text": "Oh, why not? Just because you've advanced in the royal lineup doesn't mean you're worthy of my respect."
+  },
+  {
+    "id": "340",
+    "text": "What a bitter fellow."
+  },
+  {
+    "id": "341",
+    "text": "Oh, ho, you made it. I've been waiting."
+  },
+  {
+    "id": "342",
+    "text": "What is this sudden task, your majesty?"
+  },
+  {
+    "id": "343",
+    "text": "Hmm, yes.. Do you remember that I asked you, as Head of the Royal navy, to destroy the Spanish Fleet?"
+  },
+  {
+    "id": "344",
+    "text": "Of course, your majesty. It is engraved deep in my heart."
+  },
+  {
+    "id": "345",
+    "text": "And also that in order to prepare yourself for that task, that I wanted you to head out to sea and sharpen your skills?"
+  },
+  {
+    "id": "346",
+    "text": "It is as you say."
+  },
+  {
+    "id": "347",
+    "text": "Well, a few days ago our royal navy faced the Spanish Fleet, and unfortunately, we lost nearly half our ships."
+  },
+  {
+    "id": "348",
+    "text": "Furthermore, it looks like they're preparing for a massive offensive. They are calling in all of their ships."
+  },
+  {
+    "id": "349",
+    "text": "If things don't change, it's just a matter of time before our navy is completely wiped out by the Spanish."
+  },
+  {
+    "id": "350",
+    "text": "And that would be a dark day in the history of our beloved England."
+  },
+  {
+    "id": "351",
+    "text": "So I want you to accept this task, though I know it is difficult, and very likely impossible."
+  },
+  {
+    "id": "352",
+    "text": "Please tell me what you want me to do."
+  },
+  {
+    "id": "353",
+    "text": "I want you to take your men and destroy the Spanish Fleet."
+  },
+  {
+    "id": "354",
+    "text": "With what's left of our fleet, defending the homeland is about all we're capable of.. if even that."
+  },
+  {
+    "id": "355",
+    "text": "Yours are the strongest forces this nation has. You're our only hope!"
+  },
+  {
+    "id": "356",
+    "text": "I understand sire. Even if it means my life, I will destroy the Spanish Fleet!"
+  },
+  {
+    "id": "357",
+    "text": "I can't thank you enough..."
+  },
+  {
+    "id": "358",
+    "text": "I have made several requests of you, but this one must take precedence over all others. Please keep that in mind."
+  },
+  {
+    "id": "359",
+    "text": "Yes sire. Then I'll be off to fight the Spaniards."
+  },
+  {
+    "id": "360",
+    "text": "Welcome Master $s. Henry VIII has been waiting anxiously for your arrival."
+  },
+  {
+    "id": "361",
+    "text": "Do you have any information on the Spanish Fleet?"
+  },
+  {
+    "id": "362",
+    "text": "Here you are Master $s..some information on their 'Invincible Fleet'."
+  },
+  {
+    "id": "363",
+    "text": "The very existence of our homeland is riding on this battle. All I desire is to win and bring peace to the seas."
+  },
+  {
+    "id": "364",
+    "text": "Peace throughout the world? I wouldn't mind that either."
+  },
+  {
+    "id": "365",
+    "text": "Alright then. Why don't I give you some new information. They're having some financial trouble back home. It looks like they're trying to suppress the piracy that robs them of their New World wealth."
+  },
+  {
+    "id": "366",
+    "text": "In particular, they're after a female pirate named Catalina."
+  },
+  {
+    "id": "367",
+    "text": "Catalina.. now that's a name that brings back memories."
+  },
+  {
+    "id": "368",
+    "text": "The Spanish Fleet uses a triangular fighting strategy, surrounding their enemy on three sides."
+  },
+  {
+    "id": "369",
+    "text": "According to our latest information, the fleet is docked for supplies at these three ports: Nantes, Bordeaux, and Seville."
+  },
+  {
+    "id": "370",
+    "text": "It is said that they're all going to meet somewhere near the South American mainland."
+  },
+  {
+    "id": "371",
+    "text": "The Commander of Forces is a man named Ezequiel, a proud general with an impressive battle record."
+  },
+  {
+    "id": "372",
+    "text": "If you are surrounded by the three fleets, there's no escape."
+  },
+  {
+    "id": "373",
+    "text": "Commodore, what should we do? To rush headlong into the Spanish fleet would be foolhardy."
+  },
+  {
+    "id": "374",
+    "text": "I'd like to help Catalina, but I think this time it's better to think things out carefully."
+  },
+  {
+    "id": "375",
+    "text": "No, we're going to attack."
+  },
+  {
+    "id": "376",
+    "text": "You can't be serious... you would go that far just to help that woman?!"
+  },
+  {
+    "id": "377",
+    "text": "No Matthew, you don't understand. It has nothing to do with her. Right now, we're more powerful than they are."
+  },
+  {
+    "id": "378",
+    "text": "But, that triangular strategy..."
+  },
+  {
+    "id": "379",
+    "text": "I know that if we were surrounded by their 3 fleets, we wouldn't stand a chance. But their little net trap is not yet complete."
+  },
+  {
+    "id": "380",
+    "text": "And I don't plan to sit around waiting for them to finish it. We're going to destroy each fleet one by one, before they can converge."
+  },
+  {
+    "id": "381",
+    "text": "What guts... OK, then what fleet are we going to start with?"
+  },
+  {
+    "id": "382",
+    "text": "Why, the one closest to us of course!"
+  },
+  {
+    "id": "383",
+    "text": "Welcome Master $s. Henry the VIII has been waiting anxiously for your arrival."
+  },
+  {
+    "id": "384",
+    "text": "The 'Invincible' Spanish Fleet? You should ask the people in the Guild."
+  },
+  {
+    "id": "385",
+    "text": "Commodore, let's get to Nantes Harbor and crush that Spanish fleet."
+  },
+  {
+    "id": "386",
+    "text": "Commodore, while we were fighting, the other ships sailed off somewhere."
+  },
+  {
+    "id": "387",
+    "text": "I know. They sailed off to the west. I wonder if they've been ordered not to fight before the convergence?"
+  },
+  {
+    "id": "388",
+    "text": "We know they're headed for the South American mainland, let's follow them!"
+  },
+  {
+    "id": "389",
+    "text": "Have you seen the Spanish Fleet any where in this vicinity?"
+  },
+  {
+    "id": "390",
+    "text": "The Spanish Fleet? After loading up with supplies at several harbors, they left in the direction of the Amazon river."
+  },
+  {
+    "id": "391",
+    "text": "But there was one division that came late. They might still be in Santo Domingo."
+  },
+  {
+    "id": "392",
+    "text": "The Amazon? They're headed in a pretty strange direction."
+  },
+  {
+    "id": "393",
+    "text": "Commodore, let's go sink that lousy Spanish fleet docked in Santo Domingo harbor."
+  },
+  {
+    "id": "394",
+    "text": "Commodore, while we were fighting, the other ships sailed off somewhere."
+  },
+  {
+    "id": "395",
+    "text": "I can't fathom what their aim could be... Why don't they even try to fight with us?"
+  },
+  {
+    "id": "396",
+    "text": "What should we do?"
+  },
+  {
+    "id": "397",
+    "text": "There's bound to be something in the area around the Amazon. Let's go check it out."
+  },
+  {
+    "id": "398",
+    "text": "Commodore, let's go check out the Amazon River area."
+  },
+  {
+    "id": "399",
+    "text": "This is strange... It looks like there was just a big battle here... there's the remains of a warship..."
+  },
+  {
+    "id": "400",
+    "text": "Commodore, there's a fleet approaching us. Oh! It's Catalina!"
+  },
+  {
+    "id": "401",
+    "text": "So we meet again, $n."
+  },
+  {
+    "id": "402",
+    "text": "I must say I'm surprised to be meeting you here, of all places. Do you think you could wait a little while? I've got some unfinished business to take care of."
+  },
+  {
+    "id": "403",
+    "text": "Wait a minute. I don't have any right to make such a request, but... I don't want you to fight Ezequiel right now."
+  },
+  {
+    "id": "404",
+    "text": "I'm sorry, but we can't do that. You see, just like you are after Joao, we have been chasing Ezequiel."
+  },
+  {
+    "id": "405",
+    "text": "And furthermore, isn't Ezequiel supposed to be one of your enemies?"
+  },
+  {
+    "id": "406",
+    "text": "You're right about that, but right now things are different."
+  },
+  {
+    "id": "407",
+    "text": "I don't understand."
+  },
+  {
+    "id": "408",
+    "text": "Ezequiel, Joao, and I have all joined forces to destroy a common foe - the Marquis Martinez of Portugal."
+  },
+  {
+    "id": "409",
+    "text": "He was an evil man with plans to conquer the world. He was the one who really destroyed my brother and fiance."
+  },
+  {
+    "id": "410",
+    "text": "I was able to avenge their loss with the help of Joao and Ezequiel. But their fleets are all badly damaged."
+  },
+  {
+    "id": "411",
+    "text": "(Yes! This should be an easy victory!)"
+  },
+  {
+    "id": "412",
+    "text": "If you are truly an honorable commodore, you won't be satisfied with such a cheap victory."
+  },
+  {
+    "id": "413",
+    "text": "(What is she talking about?)"
+  },
+  {
+    "id": "414",
+    "text": "Matthew, we're pulling back!"
+  },
+  {
+    "id": "415",
+    "text": "Whaat?!"
+  },
+  {
+    "id": "416",
+    "text": "Didn't you hear me? I said we're pulling back!"
+  },
+  {
+    "id": "417",
+    "text": "OK, OK, I heard you. (I can't believe he fell for her little spiel!)"
+  },
+  {
+    "id": "418",
+    "text": "Did you say something?!"
+  },
+  {
+    "id": "419",
+    "text": "No, nothing, Commodore."
+  },
+  {
+    "id": "420",
+    "text": "I don't believe it! What a big bully! You really like to beat up on weaker people don't you?! So go ahead, do what you want!"
+  },
+  {
+    "id": "421",
+    "text": "But as a punishment, all your abilities will be reduced."
+  },
+  {
+    "id": "422",
+    "text": "Commodore, with our abilities this low, we'll never make it back to London. It doesn't look like we'll ever see the ending, so why don't we just restart the game?"
+  },
+  {
+    "id": "423",
+    "text": "$n, please don't break your promise to me."
+  },
+  {
+    "id": "424",
+    "text": "Hm, I figured you would go to the pub. My favorite place!"
+  },
+  {
+    "id": "425",
+    "text": "You really love to drink, don't you?"
+  },
+  {
+    "id": "426",
+    "text": "Yup. Wow, the pub is pretty crowded tonight. I wonder if there's some ship stopping by in the harbor?"
+  },
+  {
+    "id": "427",
+    "text": "Excuse me, but may I sit here?"
+  },
+  {
+    "id": "428",
+    "text": "Feel free."
+  },
+  {
+    "id": "429",
+    "text": "Thank you. I'm sorry about this, but I'm supposed to meet someone here."
+  },
+  {
+    "id": "430",
+    "text": "Don't worry about it."
+  },
+  {
+    "id": "431",
+    "text": "It looks like you two gentlemen are sailors. Englishmen?"
+  },
+  {
+    "id": "432",
+    "text": "Yes, but we had some business in the area. And you?"
+  },
+  {
+    "id": "433",
+    "text": "I'm from Seville. I'm also here on business. I've still some important things to attend to."
+  },
+  {
+    "id": "434",
+    "text": "But let's forget work. Since you let me sit down here, will you let me buy you a drink?"
+  },
+  {
+    "id": "435",
+    "text": "That'd be nice of you, but nicer if you bought me two, at least. Waiter! Bring us our drinks!"
+  },
+  {
+    "id": "436",
+    "text": "Matthew! That's no way to talk to a stranger, especially one so distinguished."
+  },
+  {
+    "id": "437",
+    "text": "Please forgive my companion for his impoliteness."
+  },
+  {
+    "id": "438",
+    "text": "No, no, don't think twice about it. I've spent quite a bit of my life at sea, I know what seafaring men are like."
+  },
+  {
+    "id": "439",
+    "text": "Waiter, please bring us some rum, if you please."
+  },
+  {
+    "id": "440",
+    "text": "Right away, sir."
+  },
+  {
+    "id": "441",
+    "text": "Thank you very much."
+  },
+  {
+    "id": "442",
+    "text": "Ha, ha, ha, ha, ha! This rum is really good!"
+  },
+  {
+    "id": "443",
+    "text": "Matthew! Remember you're in the British Royal Navy. Remember to be courteous!"
+  },
+  {
+    "id": "444",
+    "text": "Did you say British Navy? Excuse me, but you two..."
+  },
+  {
+    "id": "445",
+    "text": "Forgive me for waiting so long to introduce myself. I'm Ezequiel, Commander of the Spanish Fleet."
+  },
+  {
+    "id": "446",
+    "text": "???...!!!"
+  },
+  {
+    "id": "447",
+    "text": "You..you are Commander Ezequiel?"
+  },
+  {
+    "id": "448",
+    "text": "I am $n $s, leader of a navy fleet under King Henry the VIII's orders."
+  },
+  {
+    "id": "449",
+    "text": "That.. that means you were the head of that fleet in South America?"
+  },
+  {
+    "id": "450",
+    "text": "Just one question. Why didn't you attack us then?"
+  },
+  {
+    "id": "451",
+    "text": "Our supplies were exhausted. It would have been easy for you to finish us off."
+  },
+  {
+    "id": "452",
+    "text": "The answer is simple - honor."
+  },
+  {
+    "id": "453",
+    "text": "Ah."
+  },
+  {
+    "id": "454",
+    "text": "Only a coward would have attacked you then, when you were weak. I did not want to stain my name."
+  },
+  {
+    "id": "455",
+    "text": "But more than that, I wanted to fight, face to face, with you, the famous naval commander of Spain."
+  },
+  {
+    "id": "456",
+    "text": "Hmm, it seems that you are quite a capable commodore yourself."
+  },
+  {
+    "id": "457",
+    "text": "If you so desire to face off with the 'Invincible' Spanish Fleet, then I shall grant your wish."
+  },
+  {
+    "id": "458",
+    "text": "One month from now. The place, midway between Seville and London, Bordeaux Bay. Bring your ships to meet me there."
+  },
+  {
+    "id": "459",
+    "text": "I will try to move my fleet from there to Seville. Attack me anytime during that period."
+  },
+  {
+    "id": "460",
+    "text": "Do you accept my plan?"
+  },
+  {
+    "id": "461",
+    "text": "I understand. I accept your invitation."
+  },
+  {
+    "id": "462",
+    "text": "Good. I'll be looking forward to seeing you again, a month from today."
+  },
+  {
+    "id": "463",
+    "text": "Commodore, are you sure about this?"
+  },
+  {
+    "id": "464",
+    "text": "This battle has been destined to occur. Aren't you excited about the chance to fight Ezequiel?"
+  },
+  {
+    "id": "465",
+    "text": "Ezequiel"
+  },
+  {
+    "id": "466",
+    "text": "Roberto"
+  },
+  {
+    "id": "467",
+    "text": "Sorry to disappoint you, but I don't have the strength to defeat you right now."
+  },
+  {
+    "id": "468",
+    "text": "I see. You've been hit by the winds of cowardice. I guess I misjudged you."
+  },
+  {
+    "id": "469",
+    "text": "I guess what they say about you English is true. Not a shred of courage. You'll have to excuse me. I make it a habit not to sit with cowards."
+  },
+  {
+    "id": "470",
+    "text": "Commodore, you're a pitiful excuse for a man. Let's get out of this pub."
+  },
+  {
+    "id": "471",
+    "text": "Commodore, what're we going to do now?"
+  },
+  {
+    "id": "472",
+    "text": "You know as well as I do. My orders are to destroy the 'Invincible' Spanish Fleet."
+  },
+  {
+    "id": "473",
+    "text": "May I ask you a question?"
+  },
+  {
+    "id": "474",
+    "text": "What's that?"
+  },
+  {
+    "id": "475",
+    "text": "Why didn't you finish off Ezequiel when you had the chance?"
+  },
+  {
+    "id": "476",
+    "text": "I'm not really sure."
+  },
+  {
+    "id": "477",
+    "text": "Was it because of Catalina?"
+  },
+  {
+    "id": "478",
+    "text": "No that wasn't it. Someday if you command your own fleet, you'll understand."
+  },
+  {
+    "id": "479",
+    "text": "Ezequiel will probably be going back to his homeland. Let's follow him."
+  },
+  {
+    "id": "480",
+    "text": "Hmph, the loser's run home with his tail between his legs."
+  },
+  {
+    "id": "481",
+    "text": "Where do you get off calling me a loser?"
+  },
+  {
+    "id": "482",
+    "text": "You are the shame of England. Everyone's calling you $s the Loser."
+  },
+  {
+    "id": "483",
+    "text": "Loser"
+  },
+  {
+    "id": "484",
+    "text": "Never mind. His majesty has been waiting for you. You had better hurry up and try to save your skin."
+  },
+  {
+    "id": "485",
+    "text": "What the blazes were you thinking? From what I heard from Gilbert, you ran away from a confrontation with the Spanish."
+  },
+  {
+    "id": "486",
+    "text": "You have truly disappointed me."
+  },
+  {
+    "id": "487",
+    "text": "If you have any last bit of dignity, you will accept the challenge from that Ezequiel character."
+  },
+  {
+    "id": "488",
+    "text": "You should get underway for Seville, Spain's capital."
+  },
+  {
+    "id": "489",
+    "text": "His majesty does not want to meet with losers. Losers should act like losers and go to sleep with the dogs."
+  },
+  {
+    "id": "490",
+    "text": "Hmph, I wouldn't even serve pig slop to a coward. You better get home while it's still light out."
+  },
+  {
+    "id": "491",
+    "text": "$n, you really let us down."
+  },
+  {
+    "id": "492",
+    "text": "What are you talking about?"
+  },
+  {
+    "id": "493",
+    "text": "We heard from Sir Gilbert. He said you ran away from the Spanish commander, Ezequiel."
+  },
+  {
+    "id": "494",
+    "text": "Why that little... How did he find out?!"
+  },
+  {
+    "id": "495",
+    "text": "Sir Gilbert looks kind of happy. He's spreading the news as if they were good tidings."
+  },
+  {
+    "id": "496",
+    "text": "Well if it isn't the Coward of England. What do you want?"
+  },
+  {
+    "id": "497",
+    "text": "I'm going to be direct with you. I want a chance to clear my name and retrieve my honor."
+  },
+  {
+    "id": "498",
+    "text": "It looks like you can't take the verbal abuse anymore. Alright then, I'll give you a chance, but just one."
+  },
+  {
+    "id": "499",
+    "text": "One month from now, same place as before - Bordeaux."
+  },
+  {
+    "id": "500",
+    "text": "My fleet will move from there to Seville. You can try to attack me at any time then."
+  },
+  {
+    "id": "501",
+    "text": "Ezequiel"
+  },
+  {
+    "id": "502",
+    "text": "Roberto"
+  },
+  {
+    "id": "503",
+    "text": "What can I do for you?"
+  },
+  {
+    "id": "504",
+    "text": "Do you have any idea where Commander Ezequiel is?"
+  },
+  {
+    "id": "505",
+    "text": "Aye, I know where he is. But who might you be?"
+  },
+  {
+    "id": "506",
+    "text": "$n!"
+  },
+  {
+    "id": "507",
+    "text": "Well I'll be! That's quite a strange name."
+  },
+  {
+    "id": "508",
+    "text": "If you're looking for Commander Ezequiel, he's usually in the Command Room to the right of the palace."
+  },
+  {
+    "id": "509",
+    "text": "You're the coward, aren't you? I've no room for the likes of you!"
+  },
+  {
+    "id": "510",
+    "text": "The battle is today, sir."
+  },
+  {
+    "id": "511",
+    "text": "Hmm, we 'd better set a course for Bordeaux then."
+  },
+  {
+    "id": "512",
+    "text": "Only $d12 day until the battle with Ezequiel."
+  },
+  {
+    "id": "513",
+    "text": "Only $d12 days until the battle with Ezequiel."
+  },
+  {
+    "id": "514",
+    "text": "This will probably be our last battle."
+  },
+  {
+    "id": "515",
+    "text": "The arranged day for our battle with Ezequiel has come and gone."
+  },
+  {
+    "id": "516",
+    "text": "Hm, I guess we took it too slow."
+  },
+  {
+    "id": "517",
+    "text": "We'd best be getting back to London, Commodore."
+  },
+  {
+    "id": "518",
+    "text": "You're right, we've got to get back and inform his majesty."
+  },
+  {
+    "id": "519",
+    "text": "Commodore, today is the day for battle."
+  },
+  {
+    "id": "520",
+    "text": "Matthew, set a heading for Bordeaux!"
+  },
+  {
+    "id": "521",
+    "text": "Commodore, our big battle is today."
+  },
+  {
+    "id": "522",
+    "text": "Matthew, set a course for Bordeaux!"
+  },
+  {
+    "id": "523",
+    "text": "We've missed our rendezvous with Ezequiel. We've broken our promise."
+  },
+  {
+    "id": "524",
+    "text": "I realize that."
+  },
+  {
+    "id": "525",
+    "text": "I guess there's no way we can fight him now. It's over, and we weren't able to carry out his majesty's orders."
+  },
+  {
+    "id": "526",
+    "text": "Aw, just forget about Commander Ezequiel. It just wasn't in the cards."
+  },
+  {
+    "id": "527",
+    "text": "Only $d12 more day until our face off with Ezequiel."
+  },
+  {
+    "id": "528",
+    "text": "Only $d12 more days until our face off with Ezequiel."
+  },
+  {
+    "id": "529",
+    "text": "Commander Ezequiel! I wonder which life will end here today?"
+  },
+  {
+    "id": "530",
+    "text": "Oh! Let's both give everything we've got."
+  },
+  {
+    "id": "531",
+    "text": "The fates of both our countries depend on the outcome of this one battle."
+  },
+  {
+    "id": "532",
+    "text": "I've lost. You were too strong."
+  },
+  {
+    "id": "533",
+    "text": "Not at all. Lady luck was on my side."
+  },
+  {
+    "id": "534",
+    "text": "Go on. Finish me off."
+  },
+  {
+    "id": "535",
+    "text": ".........."
+  },
+  {
+    "id": "536",
+    "text": "Matthew, get ready a cargo boat."
+  },
+  {
+    "id": "537",
+    "text": "What for?"
+  },
+  {
+    "id": "538",
+    "text": "I'm going to send Commander Ezequiel to a friendly ship."
+  },
+  {
+    "id": "539",
+    "text": "What the blazes are you talking about. Why do we have to save the enemy commander?"
+  },
+  {
+    "id": "540",
+    "text": "The 'Invincible' Spanish Fleet has been destroyed. My mission has been accomplished."
+  },
+  {
+    "id": "541",
+    "text": "Jeez! Why do I get stuck with a Commodore who loves everybody?!"
+  },
+  {
+    "id": "542",
+    "text": "I hope we meet again, in a different battle, a different time."
+  },
+  {
+    "id": "543",
+    "text": "No, I don't think so. I realized today, during this battle, I have grown old. Old naval men should just disappear."
+  },
+  {
+    "id": "544",
+    "text": "Commander Ezequiel..."
+  },
+  {
+    "id": "545",
+    "text": "One thing I can't understand is why you backed out of fighting me the first time."
+  },
+  {
+    "id": "546",
+    "text": "What were you complaining about? You were more than enough prepared."
+  },
+  {
+    "id": "547",
+    "text": "No one will ever call you a loser again -"
+  },
+  {
+    "id": "548",
+    "text": "From now on you will be known as a real 'Winner'."
+  },
+  {
+    "id": "549",
+    "text": "Winner"
+  },
+  {
+    "id": "550",
+    "text": "Farewell..."
+  }
+]

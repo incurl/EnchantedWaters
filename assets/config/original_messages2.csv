@@ -1,0 +1,431 @@
+id,text
+0,You are doing too well.
+1,Wanna play dice with us?
+2,"Oh boy, here comes our favorite sucker."
+3,Don't feel too bad.
+4,Work hard and make some more money - I like winning it from you.
+5,Let's play another round.
+6,Leaving already? It was just getting interesting.
+7,Yer dirty scum! Ye just take your winnings and quit?!
+8,"Are you giving up 
+already?"
+9,"Ha ha, just as I suspected, taking money from you was like taking candy from a baby."
+10,I don't deal with paupers.
+11,Saving data.
+12,Transferring data.
+13,"On %s %d, 15%d, %s %s was defeated in battle. Debris from the flagship washed ashore, but no one has ever seen %s since that fateful day."
+14,"On %s %d, 15%d, %s %s ran into a terrible storm, and %s battered ship sank into the deep, dark sea. Since then, %s face has not been seen by anyone."
+15,"On %s %d, 15%d, the harsh conditions on board cost %s %s %s entire crew, and abruptly ended their journey. No one has seen %s fleet since."
+16,"On %s %d, 15%d, %s %s decided to put an end to %s quest at sea. Deep lines on %s face marked the exhaustion felt after so many years on the high seas."
+17,"%s %d, %d. %s %s's journal stops abruptly on this page. This marked the end to the stormy saga of %s life."
+18,This is the %s. A cartographer might be able to tell you what area it is.
+19,What? Did you find %s? This is beautiful! I've never seen such a treasure!
+20,You can't load any more guns on this ship.
+21,This ship isn't built to carry guns.
+22,this is number 1022 (line 1023).
+23,First name?
+24,Last name?
+25,Ship name?
+26,Port name?
+27,from those scurvy dawgs!
+28,There are items left in the unloading area!
+29,Is it okay to leave items unloaded?
+30,You're the best friend a girl ever had!
+31,The storm is too strong! We're sinking!
+32,Here is the permit. Enjoy using it in the markets of my country!
+33,this is number 1033 (line 1034).
+34,My quest will take me through high winds and over high seas.
+35,I am guided by my beliefs.
+36,Help me battle for the glory of England.
+37,I'll go beyond the waves and see what's there.
+38,Would you take over my debt?
+39,Sapha... my only sister. Where are you?
+40,Give me a name suitable for a Duke's son.
+41,Give me a graceful name!
+42,"Be a kind old chap, and give me a good name."
+43,Please give me a fine name.
+44,"Give me a unique name, will you?"
+45,Give me a good name.
+46,this is number 1046 (line 1047).
+47,This ship is in tiptop shape.
+48,"We're not allied with any ports in the world, just our capital city."
+49,%s %s? That will be just fine.
+50,%s %s? I like it!
+51,"%s %s... Hmmm, it sounds good."
+52,%s %s? That's got a nice ring to it.
+53,"%s %s? Hey, that's a cool name!"
+54,"From now on, I shall be known as %s %s."
+55,It seems there is no saved game.
+56,"Well, there is no saved game!"
+57,There is no saved game.
+58,There is no saved game.
+59,There is no saved game. All there is is my debt...
+60,There is no saved game.
+61,"It seems a data error has occurred. I'm sorry, but you must restart the game."
+62,"But next time, I'll entertain you more!"
+63,"The game will resume at sea on %s %d, %d."
+64,"The game will resume at the port of %s on %s %d, %d."
+65,Bon Voyage!
+66,this is number 1066 (line 1067).
+67,%d %s of water will be loaded. Is this OK?
+68,%d %s of water and
+69,%d %s of food will cost you %ld gold pieces. Is this OK?
+70,How many %s will you dump (0-%ld)?
+71,"Changed yer mind, eh?"
+72,"| Palace Guard |
+ Then this way, please."
+73,"Welcome, %s %s."
+74,We have %d used %s ready to sail.
+75,You can't invest in %s as it's the capital of %s.
+76,%d %s of lumber will be used for repairs.
+77,With only %d %s of lumber we can't repair any more ships after we repair the %s.
+78,I'm counting on you.
+79,Come back when your ability becomes %d or higher.
+80,Come back when your ability becomes %d or higher.
+81,Then here is %ld gold pieces.
+82,For that I'll pay you %ld gold pieces.
+83,I'll pay you extra and give you %ld gold pieces.
+84,Here is your reward of %ld gold pieces.
+85,"This is hardly enough to reward you for such a marvelous feat, but please accept these %ld gold pieces."
+86,"Commodore, quick! Look at that!!"
+87,"Commodore, do you hear that?"
+88,".......Commodore, something is wrong here."
+89,"Wow, Commodore, look at the sky!!"
+90,"Fortunately, %s was saved by the %s."
+91,"If I had only kept my eye on... Sorry, Commodore."
+92,I gave up searching for it long ago.
+93,Will you buy the map?
+94,"Hey, are you interested in sailing with us?"
+95,Maybe next time?
+96,"Alright, then. I'll postpone all pay raises till later."
+97,Do you want to save your game before quitting?
+98,Is it really OK to quit the game now?
+99,Are you sure you want to quit?
+100,Thanks! I thought you would understand!
+101,"Fine then, you skinflint. I'll find another job. See you around, maybe."
+102,"Well, good luck. Perhaps we'll meet again some day."
+103,You already have 10 ships in your fleet.
+104,Is this OK?
+105,%s %s is in this port.
+106,Agreed to transport %d %s to %s within %d %s.
+107,Agreed to bring %d %s within %d %s.
+108,Agreed to take a letter to the guild in %s within %d %s.
+109,Agreed to defeat %d %s within %d %s.
+110,Agreed to collect a debt from %s %s within %d %s.
+111,Turned down a mission to %s.
+112,Completed a mission to %s.
+113,"Completed a mission to %s, though it was late."
+114,Couldn't complete the mission to %s in time.
+115,"Did %s, but spent the money collected."
+116,Ordered to purchase %d %s.
+117,Ordered to deliver a letter to
+118,Ordered to act as an envoy and conclude a treaty with %s.
+119,Ordered to acquire %d allied ports.
+120,Ordered to discover novel things.
+121,Ordered to find %s.
+122,Ordered to subdue %s.
+123,Ordered to vanquish %s's fleet.
+124,Declined an imperial order.
+125,Carried out an imperial order.
+126,"With the power of the Cannon, you'll be invincible in battles."
+127,The Demicannon is a powerful short-ranged gun effective in close battles.
+128,"For the price, The Canon Pedrero has decent power; however, its range is rather limited."
+129,You can count on the Culverin for long-distance attacks.
+130,"The Demiculverin isn't very powerful, but it's useful for defense with its long range."
+131,The best thing about the Saker is its price.
+132,"You won't find another gun like the Carronade, It has the power of a Cannon and the range of a Culverin."
+133,"Hmmmm, I think that you should recover your original nationality."
+134,"With your current nationality, you won't have good prospects for the future."
+135,"Furthermore, a whole new horizon will be opened to you if you increase your fame of %s."
+136,"%d %s from our crew %s to stay in this village, %s tired of sailing!"
+137,Is 8:00 AM a good time for you to check out?
+138,"It's all set then. Good night, sleep tight, don't let the bed bugs bite!"
+139,Then what time would you like to check out?
+140,"OK, I'll arrange your check out at %ld:00 %s. Sweet dreams!"
+141,Which port are you interested in?
+142,"%s is around %d%s, %d%s."
+143,It's around here on this map.
+144,Are you willing to pay %d gold pieces for this information?
+145,"If you don't want to know, it's no skin off my back."
+146,"Commodore, we ran out of Food. We must get supplies for the crew!"
+147,"Commodore, we ran out of Water. We must get supplies for the crew!"
+148,"Commodore, we ran out of Food and Water. We must get supplies for the crew!"
+149,---none---
+150,"| Butler Marco |
+Oh, Sir %s, welcome back!"
+151,Hi Marco! How've you been?
+152,"Just fine, sir. But please go ahead inside. Your father can't wait to see you."
+153,"Hello, Father. I've returned to report that I've completed my mission."
+154,"Ah, my son. I want to congratulate you on your triumphant return."
+155,"Thank you, Father. Let me tell you all about my voyage."
+156,I have already heard. A messenger from Spain spoke quite highly of your courageousness.
+157,Really? But I never could have made it without Commander Ezequiel's support.
+158,"You're very modest. I'm very proud of you, and I have a little surprise for you."
+159,"Oh, Rocco!"
+160,"Aye, sir?"
+161,What do you think of my son? Has he become a wise and strong sailor?
+162,"Aye, it makes me proud as punch to see what a fine mate he's become."
+163,"If you think that way, then I know I have made the right decision."
+164,"%s,"
+165,"Yes, Father?"
+166,I have decided to recommend to His Majesty that you replace me as Prime Minister of Portugal.
+167,"I believe you deserve the position. Congratulations, my son, and good luck!"
+168,"It was a red-haired female pirate,"
+169,"Catalina Errantzo, who saved Prince Alberto and myself"
+170,"from that evil pirate, Kahn."
+171,But she turned out that she was really after me.
+172,Only with Rocco's quick thinking and cunning subterfuge did we manage
+173,to escape.
+174,"I am %s %s. As thanks, I'll have to play a tune for you on my lute."
+175,"Oh, what have I done? I must have been out of my mind. I can't believe I saved a %s!"
+176,Halt! We know that the pirate Catalina is in there.
+177,"We are the navy guard, under orders from Commander Ezequiel."
+178,"In the name of Spain, we arrest you for crimes against the state."
+179,"At Massawa, I met the last descendent of the lost city of Atlantis, Tafari."
+180,"After our meeting, a fierce naval battled ensued, as I fought to protect Massawa from the Turkish forces."
+181,"Wait, please. Meconbe, let us tell these gentlemen the truth."
+182,Don't you think it's cruel to keep everything covered in secrecy?
+183,Both cruel to us and to these men here.
+184,"At the port of Nagasaki, Enrico finally had to leave us."
+185,"After so many voyages together, it was sad to part."
+186,"But we wished him good luck with a smile,"
+187,as he was excited about beginning his studies in the land of Zipangu.
+188,"I have much to learn and teach. I'm excited, but also sad to part with such good friends."
+189,"Please take care, and have a safe trip."
+190,"With the help of Catalina, I rescued Lucia from the clutches of evil pirates."
+191,"After that, I decided to"
+192,cooperate with Catalina
+193,and Ezequiel's Armada to stop
+194,Martinez's evil scheme.
+195,"%s, I'll take care of these hoodlums, so take this opportunity and save Lucia!"
+196,"Thanks, Catalina. I owe you one!"
+197,"At Lisbon, we were welcomed"
+198,by the enthusiastic cheers of the crowd.
+199,It seems my father finally acknowledged
+200,that I am an experienced seafarer.
+201,I get the feeling that you're a newcomer to the trade business.
+202,"I can give you a pointer or two, if you'd like."
+203,You're wise to listen. Here are a few things you should always remember.
+204,"The cardinal rule of trading is to buy low and sell high. You want to make a big profit, of course!"
+205,I have a few tricks up my sleeve when it comes to trading.
+206,"First, find out the specialty of the area. Specialty goods are produced in high volume, so they're usually cheap."
+207,"Although you're a greenhorn, play it cool and say NO to the first price presented by us merchants."
+208,Maybe I'll offer you a lower price. That means a bigger profit!
+209,"Finally, don't fill up your hull with goods if you don't have enough food and water on board."
+210,"Smart traders always restock food and water as soon as they dock at the harbor. This way, they don't have to worry about it when they trade."
+211,There's nothing more foolish than throwing away goods you just bought to make room to load food and water.
+212,I hope these tips will help you. Don't forget to keep your eyes and ears open in town.
+213,Some of the people you meet on the street may be experts in trade.
+214,"Well, pardon me. I shouldn't meddle in your business."
+215,"Ahoy there, swabbie! Maybe I'm wrong, but ye has the look of an unseasoned sailor."
+216,"If ye'd like, I can teach ye the ins and outs of commanding a ship."
+217,Then hear me words as I tell ye the secrets of smooth sailing.
+218,"First, ye need a hearty crew to handle the ship."
+219,Ye can find and hire some able-bodied seamen in a pub.
+220,"Next, ye need good supply of food and water for yer crew."
+221,Ye can get food and water at a harbor.
+222,"Lastly, ye need a captain for each ship. Ye'll be at the helm of your flagship, of course."
+223,"But if ye have ships besides yer flagship in yer fleet, ye'll need a captain to steer each of those."
+224,So ye may want to start looking in pubs and lodges for trustworthy mates to sail with ye.
+225,"In short, as long as ye have crew, supplies, and captains,"
+226,"it'll be smooth sailing. Aye, it's as easy as shooting fish in a barrel!"
+227,"Well, sorry, I was just wondering if ye needed some advice."
+228,"Ye don't know much about ships, eh?"
+229,"This old sea dog's navigated the waters for over 40 years. I can give ye some advice. What do ye say, mate?"
+230,"All right, then. First of all, ye must decide whether to build a new ship or buy a used ship."
+231,"A new ship will be custom-built to please ye. The model, its materials, equipment and everything will be just as ye demand."
+232,But building a vessel is an expensive and time-consuming task.
+233,"Although ye may not find the ideal vessel, ye may want to opt to buy a used ship. They're less expensive and ready to use!"
+234,"Either way, with ye own ship, ye'll be a true limey!"
+235,"But to get back to the story, the model of the ship determines its capacity."
+236,Ships that hold a large crew and many guns will have limited cargo space.
+237,"If ye want a vast hull to carry many goods, keep minimum space for crew and guns."
+238,Remember these things when ye buy a ship. Good luck!
+239,"Hmmph, ye young'uns don't appreciate advice from the old these days."
+240,"Are you the new kid in town? I've been wanting to meet you! Ahh, I remember when I was your age."
+241,Under this grey head of mine is a noggin full of useful knowledge. Let me tell you about the guild.
+242,Thank you. It won't take long.
+243,The guild is a place where you can get hired to complete a mission for someone.
+244,"Successful completion of a mission will not only add to your gold but increase your fame, as well."
+245,"If you fail to complete your mission, you'll lose not only the reward but also your fame."
+246,So make sure you're able before you promise to complete a mission!
+247,You'll live to regret it if you don't learn to listen to your elders.
+248,"Well, you must be new here. It's a pleasure to make your acquaintance."
+249,I know a lot about seafarers. Would you be interested in my advice on ship crew?
+250,I thought you would! Have you used the 'Assign Crew' command yet?
+251,It's used to assign your crew to the different tasks aboard ship.
+252,"'Navigation' is for ship handling, 'Lookout' is for watching the horizon, and 'Combat' is for battles."
+253,That's all you need to know. Assign your crew according to your objective.
+254,Isn't it easy?
+255,"Well, that's too bad. I guess my help isn't good enough for you."
+256,"Before we talk about a contract, let me make sure you understand all there is to know about searching for an item."
+257,"First of all, the rare things I want information about are always near a village."
+258,"So if you discover a village, be sure to land there and 'Search'."
+259,"If you can't find anything, 'Entertain' the villagers. They may help you 'Search' for something interesting."
+260,"If they don't respond immediately, be persistent. Entertain them two or three times."
+261,"As their 'Friendliness' goes up, you'll have a better chance of finding something incredible."
+262,The effort it takes to gain the villager's trust is sometimes very worthwhile.
+263,"But of course, you're already quite an adventurer!"
+264,"You know, you don't always need a large crew. You really only need enough men to move your ship forward."
+265,"A ship's speed depends not only on its type, but also on the number of crew and the captain's ability in navigation."
+266,"When you don't have enough crew assigned for navigation, its number will be shown in red."
+267,Only fleets that have a first mate with the skill of 'Celestial Navigation' can use the 'Auto Sail' command.
+268,It's a good idea to assign a person with 'Accounting Skills' to be your bookkeeper.
+269,"When you need to recall something important, open your journal."
+270,"I'm new here, so maybe you should try talking to someone else."
+271,It's convenient to use the 'Auto Sail' command to sail to a port you have visited before.
+272,You may want to use the 'Assign Crew' command frequently.
+273,"When you complete a 'Delivery' mission, your fame in trade will increase."
+274,"When you complete a 'Pirate Hunting' mission, your fame in piracy will increase."
+275,"When you complete a 'Transport' mission, your fame in trade will increase."
+276,"The place to hire crew is the pub. You knew that, right? Did you also know that you can hire crew only once a day?"
+277,A figurehead is not just for decoration. It will protect you from accidents and monsters out on the high seas.
+278,"If you continually make investments on a port, it will eventually ally with your home country. Your fame in trade will go up as well."
+279,"If you desperately need gold, you can borrow from a bank. There's no interest if you repay the loan within the month."
+280,"If you want to get detailed information about the port you are in, go to a lodge and ask."
+281,"If you have a tax-free permit, you can buy goods without tax. The permit is issued in the palace."
+282,"If you have a letter of marque, your piracy will be considered a patriotic act for your country."
+283,"The basic defensive tactics in a duel are 'Parry' against 'Thrust', 'Block' against 'Slash',and 'Dodge' against 'Strike'."
+284,"The basic offensive tactics in a duel are 'Strike' against 'Parry', 'Slash' against 'Dodge', and 'Thrust' against 'Block'."
+285,Some specialty goods are not put on the market until the 'Economy' of the port reaches a certain level.
+286,Success in a duel depends on the action you select and the strength of your equipment.
+287,The quality of your arms and armor will determine your success in a duel.
+288,"To find latitude and longitude, you must have a measuring instrument and someone who has 'Celestial Navigation' skills."
+289,I heard that some people will pay for information about the exotic things you may discover on a voyage.
+290,"If you've just started sailing, you can gain experience and fame quickly by signing up for easy missions at a guild."
+291,Cartographers are eager to know detailed information of the world's geography. They may even pay for such information.
+292,Get yourself acquainted with waitresses at pubs. They know lots of useful information.
+293,I heard that you may find something interesting if you 'Search' in a 'Village'.
+294,Did you know that the way the winds affect sailing depends on the type of ship?
+295,"If you are short of crew, use the 'Assign Crew' command and increase the ratio for 'Navigation'."
+296,"To prepare for a battle, increase the ratio of your crew for 'Combat' by using the 'Assign Crew' command."
+297,"If you increase the ratio of crew assigned to 'Lookout', it will be easier to find ports and villages."
+298,Changing how much 'Rations' you give to your crew will affect their 'Health'. 90% is the average.
+299,"Give an inexperienced navigator on the job training, and assign him to be the chief navigator. His skills will improve quickly!"
+300,The 'Rearrange' command will determine the initial location of ships in a battle.
+301,"If you complete a 'Debt Collection' mission, your fame in both piracy and trade will increase!"
+302,"Professor Mordes, a collector in Bordeaux is quite generous."
+303,The Duke of Modena in Pisa is notoriously stingy.
+304,Duke Franco in Lisbon is looking for information on exotic things.
+305,There is a man called Ranajame who is looking for information on exotic things.
+306,Count Morie in Copenhagen is looking for information on exotic things.
+307,Dr. Wolf teaches the skills of 'Gunnery' in Hamburg.
+308,Professor Juliano teaches the skill of 'Celestial Navigation' in Naples.
+309,There is a famous cartographer named Mercator in Amsterdam.
+310,Gerard de Jode in Antwerp is a skilled cartographer.
+311,Diogo Ribeiro in Barcelona will pay an arm and a leg for new geographical information.
+312,A cartographer called Olives in Palma teaches the skills of 'Cartography'.
+313,There is a cartographer called Giovanni Verrazzano in Venice.
+314,"If your captain has 'Gunnery' skills, the destructive power of your guns will substantially increase."
+315,"If you have less men than the number of guns, the power of your guns will be reduced."
+316,"If you don't know what to do next, visit a fortune teller and ask her about your life."
+317,I heard that 'Praying' at a house of worship gives you that extra something to help you through tight spots.
+318,Make sure your mates know how much you appreciate them - don't scrimp on their 'Wages'! Underpaid mates can't help but feel disloyal.
+319,Trading Glass Beads from Amsterdam with Ivory from Timbuktu is very profitable.
+320,It's a good idea to trade Iron Ore from Kaffa with Art from Athens.
+321,Iron Ore from Cairo and Amber from Aden are a good trade.
+322,"If you want to know the best trade route, it's exchanging Carpet from Istanbul with Art from Athens."
+323,A really simple yet profitable trade route exchanges Dye from Ragusa with Glassware from Venice.
+324,May I help you?
+325,"Come to think of it, you're still kind of a beginner in trade."
+326,"Hello. How are ye? By the way, ye still haven't learned all the ropes of sailing, right?"
+327,"Hey there, welcome!"
+328,It seems ye still don't know much about ships.
+329,"Oh, it's you, %s %s! I was a little bored here."
+330,"Welcome. Oh, it's you, sir %s %s!"
+331,"To thank you for your patronage, I'd like to share with you some wisdom on managing a crew. Are you interested?"
+332,"If you defect to serve our country, you may not be able to achieve your goal."
+333,Would that be OK?
+334,We should hire crew in the pub.
+335,"By the way, don't forget to hire crew in a pub."
+336,"To tell you the truth, I don't know much about %s."
+337,"But, I assume it's somewhere around there on your map."
+338,"Before we discuss a contract,"
+339,let me make sure you understand all there is to know about searching for rare things.
+340,"First, items that I am looking for are always in a village."
+341,"So if you discover a village, be sure to 'Go Ashore' and 'Search' for an item."
+342,"If you can't find anything, 'Entertain' the villagers. They may help you 'Search' for something interesting."
+343,"If they don't respond immediately, be persistent. Entertain them two or three times."
+344,"As their 'Friendliness' goes up, you'll have a better chance of finding an item."
+345,The effort it takes to gain the villager's trust is sometimes very worthwhile.
+346,"But of course, you already know what we are looking for already."
+347,"Remember that you must equip yourself with them, or else they will be useless!"
+348,Entertain people in the village if you don't find anything.
+349,"Since then, %s face has not been seen by anyone."
+350,No one has seen %s fleet since.
+351,Deep lines on %s face marked the exhaustion felt after so many years on the high seas.
+352,"This triumph occurred on %s %d, %d."
+353,C6F4Navigation:%3dC0F1
+354,C6F4Lookout:%3dC0F1
+355,C6F4Combat:%3dC0F1
+356,---none---
+357,---none---
+358,---none---
+359,"As the son of Duke Leon Franco, Joao sails for the glory of Portugal. In his travels around the globe he hopes to discover the secret of the lost land of Atlantis."
+360,This red-haired pirate hails from Spain. She seeks revenge on Portugal for the mysterious loss of two men - her brother and her beloved.
+361,"The Conti family went bankrupt long ago, leaving Pietro a large debt. But that won't stop him from exploring the world in search of treasure and exotic items."
+362,"Ernst is a famous geographer from Holland. At the request of his cartographer friend Mercator, he sets sail to plot out a detailed map of the world."
+363,"Ali has struggled to make ends meet in Istanbul since he was a child. Now, with a merchant ship, he will try to make his fortune, trading in foreign lands."
+364,"A Royal Knight of the British Empire, Otto is on a secret mission for King Henry VIII. Sailing as a privateer, his goal is to defeat the Spanish Armada."
+365,Is %ld:00 %s OK?
+366,You can't 'Auto Sail' to an area you haven't visited yet.
+367,It seems %s is cracking down on pirates.
+368,C1ProfitC0    %5d     C1FriendshipC0
+369,C1RelationsC0
+370,C1Alliance/BlockadeC0
+371,C0Attack  C2%sC0
+372,C0Defense C2%sC0
+373,There are items left in the unloading area! Is it still okay to end the transfer process?
+374,It'll cost you %d gold per sailor. How many will you hire (0-%d)?
+375,C7B0There is not enough memory to play the game. (Err=%d)
+376,Turn  %2d  ÅF C1DefenseC0
+377,Delegate
+378,%2d C1%sC0
+379,Flagship
+380,DURABILITY
+381,TACKING
+382,POWER
+383,%s
+384,Value C2%sC0
+385,"Arms cannot be
+used here."
+386,"Shield cannot be
+used here."
+387,"Armor cannot be
+used here."
+388,"This item cannot be
+used here."
+389,C0B7
+390,C1Nav. Look Cmbat Load Water FoodC0
+391,%-8s  %3d  %3d   %3d  %3d%% %4d  %4d
+392,How many %s will you dump (0-%ld)?
+393,%-16s %4d %4d %4d %4d
+394,C1Water Food Lumber ShotC0
+395,Moored Ships
+396,Captain    %s
+397,Navigation  %3d
+398,Lookout     %3d
+399,Combat      %3d
+400,Min Crew    %3d
+401,Speed         C0%d knots
+402,Speed         C0%-2d knots
+403,%s's fleet is at anchor.
+404,We discovered Ruins of an ancient civilization!
+405,Durability %3d/%3d
+406,Tacking    %3d
+407,Capacity  %4d Cargo %4d
+408,Guns              %3d/%3d
+409,Min/Max Crew      %3d/%3d
+410,Max Crew (Remodel)   %3d0
+411,Power      %3d
+412,Where should I sell %s...? I wish I had a reliable bookkeeper.
+413,We captured 1 enemy ship! We can add it to our fleet.
+414,Is it OK to cancel rearranging?
+415,recently.
+416,No one has sailed to the
+417,You're lucky I am so forgiving.
+418,"Measuring 2800 by 3300 feet, it contains concentric walled courtyards surrounding a central structure of beautiful towers."
+419,Is it okay?
+420,So you want to learn celestial navigation.
+421,"Well, maybe next time I can help you out."
+422,and a Circlet from those scurvy dawgs!

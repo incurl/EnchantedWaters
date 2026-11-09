@@ -1,0 +1,23 @@
+{
+  "name": "newhorizons.original_messages",
+  "description": "The interface strings of the original game (exchange, tavern, shipyard, inn, governor).",
+  "source": {
+    "path": "MESSAGE.DAT",
+    "offset": 0,
+    "length": 0
+  },
+  "tables": [
+    {
+      "name": "original_messages",
+      "description": "The interface strings of the original game (exchange, tavern, shipyard, inn, governor).",
+      "kind": "offset_table",
+      "offset": 0,
+      "offset_size": 2,
+      "offset_big_endian": true,
+      "string_trim": true,
+      "string_decode": "ascii",
+      "id_field": "id",
+      "fields": []
+    }
+  ]
+}

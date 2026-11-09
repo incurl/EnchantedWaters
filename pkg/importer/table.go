@@ -31,9 +31,22 @@ type Table struct {
 
 // ConvertTable reads the records of a binary table and converts them.
 //
+// The layout of the table is selected by its Kind field; the default is
+// the fixed size record layout.
+//
 // The reader is used in a streaming fashion: only one record is held in
 // memory at a time.
 func ConvertTable(r *Reader, spec *Spec, table TableSpec, log Logger) (*Table, error) {
+	// --- the text oriented layouts ---
+	switch table.Kind {
+	case "offset_table":
+		return ConvertOffsetTable(r, spec, table, log)
+	case "nul_list":
+		return ConvertNulList(r, spec, table, log)
+	case "fixed_text":
+		return ConvertFixedText(r, spec, table, log)
+	}
+
 	out := &Table{Name: table.Name, Description: table.Description}
 
 	// --- build the column list ---

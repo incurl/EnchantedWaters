@@ -56,6 +56,24 @@ type Registry struct {
 	// TitlesByAxis groups title IDs by reputation axis.
 	TitlesByAxis map[string][]string
 
+	// --- the tables that were imported from the original assets ---
+
+	// OriginalMessages holds the interface strings of the original game.
+	OriginalMessages map[int]*OriginalText
+	// OriginalMessages2 holds the second page of interface strings.
+	OriginalMessages2 map[int]*OriginalText
+	// OriginalMenu holds the menu strings of the original game.
+	OriginalMenu map[int]*OriginalText
+	// OriginalNames holds the name pool of the original game.
+	OriginalNames map[int]*OriginalText
+	// OriginalDialogue holds the dialogues of the seven scenarios,
+	// indexed by the scenario number.
+	OriginalDialogue [7]map[int]*OriginalText
+	// OriginalColonies holds the colonies and wonders of the original game.
+	OriginalColonies map[int]*OriginalColony
+	// OriginalItems holds the item descriptions of the original game.
+	OriginalItems map[int]*OriginalItemDescription
+
 	// --- ordered lists, kept in deterministic (ID-sorted) order ---
 	// Deterministic ordering matters for reproducible simulation and for
 	// diff-friendly exported data.
@@ -92,6 +110,13 @@ func NewRegistry() *Registry {
 		EventByCategory:  make(map[string][]string),
 		RumorByCategory:  make(map[string][]string),
 		TitlesByAxis:     make(map[string][]string),
+
+		OriginalMessages:  make(map[int]*OriginalText),
+		OriginalMessages2: make(map[int]*OriginalText),
+		OriginalMenu:      make(map[int]*OriginalText),
+		OriginalNames:     make(map[int]*OriginalText),
+		OriginalColonies:  make(map[int]*OriginalColony),
+		OriginalItems:     make(map[int]*OriginalItemDescription),
 	}
 }
 
@@ -174,6 +199,13 @@ func (r *Registry) Finalize() {
 	sort.Strings(r.TitleOrder)
 	sort.Strings(r.AIProfileOrder)
 
+	// The dialogue table of every scenario needs its own map.
+	for i := range r.OriginalDialogue {
+		if r.OriginalDialogue[i] == nil {
+			r.OriginalDialogue[i] = make(map[int]*OriginalText)
+		}
+	}
+
 	// Region index + specialty cross reference.
 	for _, id := range r.PortOrder {
 		p := r.Ports[id]
@@ -200,6 +232,17 @@ func (r *Registry) Finalize() {
 		t := r.Titles[id]
 		r.TitlesByAxis[t.Axis] = append(r.TitlesByAxis[t.Axis], id)
 	}
+}
+
+// OriginalString returns an imported text line.
+//
+// The lookup returns the empty string when the table or the line does not
+// exist, so that the caller can always fall back to its own wording.
+func (r *Registry) OriginalString(table map[int]*OriginalText, id int) string {
+	if t, ok := table[id]; ok {
+		return t.Text
+	}
+	return ""
 }
 
 // Commodity looks up a commodity by ID.

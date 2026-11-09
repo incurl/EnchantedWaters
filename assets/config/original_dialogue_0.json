@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "0",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "1",
+    "text": "I've got a job for you. I need you to transport some goods from the port of $r32 to $r33. Will you take on this job?"
+  },
+  {
+    "id": "2",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "3",
+    "text": "The head trader at the port of $r32 needs someone to buy some goods for him. Will you go and talk to him?"
+  },
+  {
+    "id": "4",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "5",
+    "text": "Would you consider taking this letter to the Guild in the port of $r32? It has to be there within $d20 month."
+  },
+  {
+    "id": "6",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "7",
+    "text": "I'll pay you once you've finished the job. Let's see, $d21 gold ought to be enough."
+  },
+  {
+    "id": "8",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "9",
+    "text": "Once you complete the task, I'll give you $d21 gold in payment."
+  },
+  {
+    "id": "10",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "11",
+    "text": "The Marco Polo bank in $r32 is looking for someone to help them collect loans. Would you like to try that?"
+  },
+  {
+    "id": "12",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "13",
+    "text": "You don't have any room to store cargo on your ship right now. Come back once you've made room."
+  },
+  {
+    "id": "14",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "15",
+    "text": "Will you transport $d19 lots of $r35 to $r33 within $d20 month?"
+  },
+  {
+    "id": "16",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "17",
+    "text": "Will you transport $d19 lots of $r35 to $r33 within $d20 months?"
+  },
+  {
+    "id": "18",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "19",
+    "text": "I would pay you $d21 gold. You'll do it, won't you?"
+  },
+  {
+    "id": "20",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "21",
+    "text": "Oh well, I'll just ask someone else."
+  },
+  {
+    "id": "22",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "23",
+    "text": "Alright then, I'll load your ship."
+  },
+  {
+    "id": "24",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "25",
+    "text": "Thank you! Here's your payment."
+  },
+  {
+    "id": "26",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "27",
+    "text": "Haven't you transported $r35 to $r33 yet?"
+  },
+  {
+    "id": "28",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "29",
+    "text": "You've only got a few hours left. Maybe it's too tough an assignment for you?"
+  },
+  {
+    "id": "30",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "31",
+    "text": "You've only got $d12 day left. Maybe it's too tough an assignment for you?"
+  },
+  {
+    "id": "32",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "33",
+    "text": "You've only got $d12 days left. Maybe it's too tough an assignment for you?"
+  },
+  {
+    "id": "34",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "35",
+    "text": "Your deadline has long since passed."
+  },
+  {
+    "id": "36",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "37",
+    "text": "Thank you! Go and collect your payment at the port of $r33."
+  },
+  {
+    "id": "38",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "39",
+    "text": "You didn't bring me $r35 yet?"
+  },
+  {
+    "id": "40",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "41",
+    "text": "Only a couple hours left. You look like you'd rather give up, would you?"
+  },
+  {
+    "id": "42",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "43",
+    "text": "Only $d12 day left. You look like you'd prefer to give up. Would you?"
+  },
+  {
+    "id": "44",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "45",
+    "text": "Only $d12 days left. You look like you'd prefer to give up. Would you?"
+  },
+  {
+    "id": "46",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "47",
+    "text": "Thank you! But you still need $d19 more, and you've only got a couple of hours left."
+  },
+  {
+    "id": "48",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "49",
+    "text": "Thank you! But you still need $d19 more, and you've only got $d12 day left."
+  },
+  {
+    "id": "50",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "51",
+    "text": "Thank you! But you still need $d19 more, and you've only got $d12 days left."
+  },
+  {
+    "id": "52",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "53",
+    "text": "I'm sorry but your deadline has already passed."
+  },
+  {
+    "id": "54",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "55",
+    "text": "Your payment would be $d21 gold. Please, do it for me."
+  },
+  {
+    "id": "56",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "57",
+    "text": "Oh well, I guess I'll just have to ask someone else."
+  },
+  {
+    "id": "58",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "59",
+    "text": "Ok then, here's an advance. Just don't let me down!"
+  },
+  {
+    "id": "60",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "61",
+    "text": "Thanks! Here's the reward I promised."
+  },
+  {
+    "id": "62",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "63",
+    "text": "Haven't you brought me $d19 lots of $r35 yet?"
+  },
+  {
+    "id": "64",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "65",
+    "text": "Are you going to give up? You've only got a few hours left, you know."
+  },
+  {
+    "id": "66",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "67",
+    "text": "Are you going to give up? You've only got $d12 day left, you know."
+  },
+  {
+    "id": "68",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "69",
+    "text": "Are you going to give up? You've only got $d12 days left, you know."
+  },
+  {
+    "id": "70",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "71",
+    "text": "Thanks! But unfortunately you've only got a few hours to get $d19 more."
+  },
+  {
+    "id": "72",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "73",
+    "text": "Thanks! But unfortunately you've only got $d12 day to get $d19 more."
+  },
+  {
+    "id": "74",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "75",
+    "text": "Thanks! But unfortunately you've only got $d12 days to get $d19 more."
+  },
+  {
+    "id": "76",
+    "text": "|Head Trader|"
+  },
+  {
+    "id": "77",
+    "text": "I'm sorry, but you missed the deadline."
+  },
+  {
+    "id": "78",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "79",
+    "text": "Thank you very much. Here's your reward."
+  },
+  {
+    "id": "80",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "81",
+    "text": "Hey, I heard the delivery was late. That means you only get half of what we agreed upon."
+  },
+  {
+    "id": "82",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "83",
+    "text": "The letter still hasn't made it to the port of $r32, I see."
+  },
+  {
+    "id": "84",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "85",
+    "text": "This is your last day, and you've only got a few hours left. Maybe you want to admit your incompetence?"
+  },
+  {
+    "id": "86",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "87",
+    "text": "Only $d12 more day left. Maybe you want to admit your incompetence?"
+  },
+  {
+    "id": "88",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "89",
+    "text": "Only $d12 more days left. Maybe you want to admit your incompetence?"
+  },
+  {
+    "id": "90",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "91",
+    "text": "You missed the deadline, you fool."
+  },
+  {
+    "id": "92",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "93",
+    "text": "Oh, is this the letter from $r33? Good work, I was waiting for this."
+  },
+  {
+    "id": "94",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "95",
+    "text": "You can collect your payment at the port of $r33."
+  },
+  {
+    "id": "96",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "97",
+    "text": "The letter from $r33? This information is completely outdated. It's of no use to me now."
+  },
+  {
+    "id": "98",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "99",
+    "text": "Well, it looks like you finally got rid of those pirates for me. But it took you longer than we agreed upon, so I'm only going to give you half of the money."
+  },
+  {
+    "id": "100",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "101",
+    "text": "Wow! You really showed those pirates. I don't have to worry about them any more. Thanks! Here's your reward."
+  },
+  {
+    "id": "102",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "103",
+    "text": "You still haven't gotten rid of the pirates? You've only got a few hours left. Are you going to give up?"
+  },
+  {
+    "id": "104",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "105",
+    "text": "You still haven't gotten rid of the pirates? You've only got $d12 day left. Are you going to give up?"
+  },
+  {
+    "id": "106",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "107",
+    "text": "You still haven't gotten rid of the pirates? You've only got $d12 days left. Are you going to give up?"
+  },
+  {
+    "id": "108",
+    "text": "|Old Guild Worker|"
+  },
+  {
+    "id": "109",
+    "text": "I'm sorry, but the purpose of a deadline is to make sure things get done, ON TIME!"
+  },
+  {
+    "id": "110",
+    "text": "|Banker|"
+  },
+  {
+    "id": "111",
+    "text": "We have a customer who simply refuses to pay us back. His name is $r33 $r34."
+  },
+  {
+    "id": "112",
+    "text": "|Banker|"
+  },
+  {
+    "id": "113",
+    "text": "If you can bring back the outstanding payments on his loan within $d20 month, I'll give you $d21 gold pieces as a reward."
+  },
+  {
+    "id": "114",
+    "text": "|Banker|"
+  },
+  {
+    "id": "115",
+    "text": "If you can bring back the outstanding payments on his loan within $d20 months, I'll give you $d21 gold pieces as a reward."
+  },
+  {
+    "id": "116",
+    "text": "|Banker|"
+  },
+  {
+    "id": "117",
+    "text": "Will you consider helping me out?"
+  },
+  {
+    "id": "118",
+    "text": "|Banker|"
+  },
+  {
+    "id": "119",
+    "text": "I see. I will just have to ask someone else then."
+  },
+  {
+    "id": "120",
+    "text": "|Banker|"
+  },
+  {
+    "id": "121",
+    "text": "Wow! I have to admit, I didn't think you could do it. But here it is, all of it."
+  },
+  {
+    "id": "122",
+    "text": "|Banker|"
+  },
+  {
+    "id": "123",
+    "text": "And here is your payment."
+  },
+  {
+    "id": "124",
+    "text": "|Banker|"
+  },
+  {
+    "id": "125",
+    "text": "Well, you did bring the money, but it was past the deadline. So I'm afraid I can only pay you half of what I promised."
+  },
+  {
+    "id": "126",
+    "text": "|Banker|"
+  },
+  {
+    "id": "127",
+    "text": "It doesn't look like you have the money with you."
+  },
+  {
+    "id": "128",
+    "text": "|Banker|"
+  },
+  {
+    "id": "129",
+    "text": "It seems I was a fool to trust you. Go, leave me."
+  },
+  {
+    "id": "130",
+    "text": "|Banker|"
+  },
+  {
+    "id": "131",
+    "text": "It looks like you haven't collected $r33 $r34's outstanding loan yet."
+  },
+  {
+    "id": "132",
+    "text": "|Banker|"
+  },
+  {
+    "id": "133",
+    "text": "You still have a few hours till the deadline. But you can quit now if you want. Are you giving up?"
+  },
+  {
+    "id": "134",
+    "text": "|Banker|"
+  },
+  {
+    "id": "135",
+    "text": "You still have $d12 day till the deadline. But you can quit now if you want. Are you giving up?"
+  },
+  {
+    "id": "136",
+    "text": "|Banker|"
+  },
+  {
+    "id": "137",
+    "text": "You still have $d12 days till the deadline. But you can quit now if you want. Are you giving up?"
+  },
+  {
+    "id": "138",
+    "text": "|Banker|"
+  },
+  {
+    "id": "139",
+    "text": "The deadline has already passed."
+  },
+  {
+    "id": "140",
+    "text": "|Banker|"
+  },
+  {
+    "id": "141",
+    "text": "I feel like a fool for trusting you. Please, get out of here."
+  },
+  {
+    "id": "142",
+    "text": "Hello there, $n. I've heard quite a bit about you lately."
+  },
+  {
+    "id": "143",
+    "text": "You look like someone I can count on. I'd like you to do a task for me."
+  },
+  {
+    "id": "144",
+    "text": "I will test your ability as a trader. Please bring me $d19 lots of $r35."
+  },
+  {
+    "id": "145",
+    "text": "What do you say? Are you up to the challenge?"
+  },
+  {
+    "id": "146",
+    "text": "What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+  },
+  {
+    "id": "147",
+    "text": "If you successfully complete this task, I will bestow upon you a royal title."
+  },
+  {
+    "id": "148",
+    "text": "If you complete this task, I will give you a new title."
+  },
+  {
+    "id": "149",
+    "text": "Oh, nice work! As a reward, let me endow you with this title."
+  },
+  {
+    "id": "150",
+    "text": "You haven't got $d19 lots of $r35 yet. You're not going to quit, are you?"
+  },
+  {
+    "id": "151",
+    "text": "Go. Leave this place. I no longer wish to see your face."
+  },
+  {
+    "id": "152",
+    "text": "Good work! But you still need to get $d19 more. So please hurry up."
+  },
+  {
+    "id": "153",
+    "text": "The marketplace is closed temporarily, while the head trader recovers from the plague."
+  },
+  {
+    "id": "154",
+    "text": "Hello there, $n. I've heard quite a bit about you lately."
+  },
+  {
+    "id": "155",
+    "text": "You look like someone I can count on. I'd like you to do a task for me."
+  },
+  {
+    "id": "156",
+    "text": "I need someone to take these documents to King Manuel of Portugal. Will you help me out?"
+  },
+  {
+    "id": "157",
+    "text": "I need someone to take these documents to King Carlos of Spain. You'll do it, won't you?"
+  },
+  {
+    "id": "158",
+    "text": "I need someone to take these documents to the Sultan Suleiman II of the Ottoman Empire. Are you up to the task?"
+  },
+  {
+    "id": "159",
+    "text": "I need someone to take these documents to King Henry of England. Do you think you can handle it?"
+  },
+  {
+    "id": "160",
+    "text": "I need someone to take these documents to the Governor-General of Italy in Genoa. Will you do this favor for me?"
+  },
+  {
+    "id": "161",
+    "text": "I need someone to take these documents to the Governor-General of Holland in Amsterdam. Can you help me out?"
+  },
+  {
+    "id": "162",
+    "text": "What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+  },
+  {
+    "id": "163",
+    "text": "If you successfully complete this task, I will bestow upon you a royal title."
+  },
+  {
+    "id": "164",
+    "text": "If you complete this task, I will give you a new title."
+  },
+  {
+    "id": "165",
+    "text": "Good work. I knew I could trust you. As a reward, I present you with this title."
+  },
+  {
+    "id": "166",
+    "text": "Hurry up and take those documents to King Manuel of Portugal. Or have I hired a quitter?"
+  },
+  {
+    "id": "167",
+    "text": "Hurry up and take those documents to King Carlos of Spain. Or is this task too difficult?"
+  },
+  {
+    "id": "168",
+    "text": "Hurry up and take those documents to the Sultan Suleiman II of the Ottoman Empire. Or is it too much for you to handle?"
+  },
+  {
+    "id": "169",
+    "text": "Hurry up and take those documents to the King Henry of England. Or do you want to quit?"
+  },
+  {
+    "id": "170",
+    "text": "Rush those documents to the Governor-General of Italy in Genoa. Are you giving up?"
+  },
+  {
+    "id": "171",
+    "text": "Hurry up and take those documents to the Governor-General of Holland in Amsterdam. Is this task too difficult for you?"
+  },
+  {
+    "id": "172",
+    "text": "Go. Leave this place. I no longer wish to see your face."
+  },
+  {
+    "id": "173",
+    "text": "Documents from King Manuel? Ah, thank you. Please give Manuel my best regards."
+  },
+  {
+    "id": "174",
+    "text": "Documents from King Carlos? Good work. Tell Carlos I said hello."
+  },
+  {
+    "id": "175",
+    "text": "Documents from the Sultan Suleiman II? I've been waiting for these. Tell Suleiman II I said thank you."
+  },
+  {
+    "id": "176",
+    "text": "Documents from King Henry? Wonderful! Thank Henry for me."
+  },
+  {
+    "id": "177",
+    "text": "Documents from the Governor-General of Italy? Wonderful! Tell him I appreciate it."
+  },
+  {
+    "id": "178",
+    "text": "Documents from the Governor-General of Holland? Wonderful! Give him my best regards."
+  },
+  {
+    "id": "179",
+    "text": "Hurry back and give King Manuel my best."
+  },
+  {
+    "id": "180",
+    "text": "Hurry back and give King Carlos my best."
+  },
+  {
+    "id": "181",
+    "text": "Hurry back and give the Sultan Suleiman II my best."
+  },
+  {
+    "id": "182",
+    "text": "Hurry back and give King Henry my best."
+  },
+  {
+    "id": "183",
+    "text": "Hurry back and give the Governor-General of Italy my best."
+  },
+  {
+    "id": "184",
+    "text": "Hurry back and give the Governor-General of Holland my best."
+  },
+  {
+    "id": "185",
+    "text": "Hello there, $n. I've heard quite a bit about you lately."
+  },
+  {
+    "id": "186",
+    "text": "You look like someone I can count on. I'd like you to do a task for me."
+  },
+  {
+    "id": "187",
+    "text": "I would like to make a treaty with Portugal. Please go as my messenger."
+  },
+  {
+    "id": "188",
+    "text": "I would like to make a treaty with Spain. Will you go as my envoy?"
+  },
+  {
+    "id": "189",
+    "text": "I would like to make a treaty with the Ottoman Empire. I need you to be my ambassador."
+  },
+  {
+    "id": "190",
+    "text": "I would like to make a treaty with England. Will you deliver the message for me?"
+  },
+  {
+    "id": "191",
+    "text": "I would like to make a treaty with the Governor-General of Italy. Will you represent me?"
+  },
+  {
+    "id": "192",
+    "text": "I would like to make a treaty with the Dutch Governor-General. Please go as my envoy."
+  },
+  {
+    "id": "193",
+    "text": "What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+  },
+  {
+    "id": "194",
+    "text": "If you successfully complete this task, I will bestow upon you a royal title."
+  },
+  {
+    "id": "195",
+    "text": "If you complete this task, I will give you a new title."
+  },
+  {
+    "id": "196",
+    "text": "So he accepted my treaty? Good work. As a reward, please accept this title."
+  },
+  {
+    "id": "197",
+    "text": "Please hurry to Portugal and make the treaty. Or do you dare refuse an order from me?"
+  },
+  {
+    "id": "198",
+    "text": "Please hurry to Spain and make a treaty. Or do you dare refuse an order from me?"
+  },
+  {
+    "id": "199",
+    "text": "Please hurry to Istanbul and make a treaty. Or do you dare refuse an order from me?"
+  },
+  {
+    "id": "200",
+    "text": "Please hurry to England and make a treaty. Or do you dare refuse an order from me?"
+  },
+  {
+    "id": "201",
+    "text": "Please hurry to Genoa and make a treaty with the Italian Governor-General. Or do you dare refuse an order from me?"
+  },
+  {
+    "id": "202",
+    "text": "Please hurry to Amsterdam and make a treaty with the Dutch Governor- General. Or do you dare refuse an order from me?"
+  },
+  {
+    "id": "203",
+    "text": "Go. Leave this place. I no longer wish to see your face."
+  },
+  {
+    "id": "204",
+    "text": "So King Manual is proposing a treaty... Alright then. Go tell him I am in favor."
+  },
+  {
+    "id": "205",
+    "text": "A treaty... Hmmm. It sounds like a good plan. Please tell King Carlos I accept."
+  },
+  {
+    "id": "206",
+    "text": "Sultan Suleiman II wants to make a treat with me, eh? Sounds like a good idea. Let him know I accept."
+  },
+  {
+    "id": "207",
+    "text": "A treaty... Sounds intriguing. Please tell King Henry I am in favor."
+  },
+  {
+    "id": "208",
+    "text": "So the Italian Governor-General wants to make a treaty, now does he? Please tell him I'm willing to accept."
+  },
+  {
+    "id": "209",
+    "text": "A treaty... The Dutch Governor-General always has good ideas like that. Please tell him I am in favor."
+  },
+  {
+    "id": "210",
+    "text": "Please go. And give my best to King Manuel."
+  },
+  {
+    "id": "211",
+    "text": "Please go. And give my best to King Carlos."
+  },
+  {
+    "id": "212",
+    "text": "Please go. And give my best to the Sultan Suleiman II."
+  },
+  {
+    "id": "213",
+    "text": "Please go. And give my best to King Henry."
+  },
+  {
+    "id": "214",
+    "text": "Please go. And give my best to the Italian Governor-General."
+  },
+  {
+    "id": "215",
+    "text": "Please go. And give my best to the Dutch Governor-General."
+  },
+  {
+    "id": "216",
+    "text": "Hello there, $n. I've heard quite a bit about you lately."
+  },
+  {
+    "id": "217",
+    "text": "You look like someone I can count on. I'd like you to do a task for me."
+  },
+  {
+    "id": "218",
+    "text": "I am counting on you to make alliances with $d14 ports. I don't care where, but this is an order."
+  },
+  {
+    "id": "219",
+    "text": "You will do it, won't you?"
+  },
+  {
+    "id": "220",
+    "text": "What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+  },
+  {
+    "id": "221",
+    "text": "If you successfully complete this task, I will bestow upon you a royal title."
+  },
+  {
+    "id": "222",
+    "text": "If you complete this task, I will give you a new title."
+  },
+  {
+    "id": "223",
+    "text": "We now have alliances with $d13 ports. Good work. Please accept this title as a reward."
+  },
+  {
+    "id": "224",
+    "text": "We now have alliances with $d13 ports. Good work. Please accept this title as a reward."
+  },
+  {
+    "id": "225",
+    "text": "We don't have $d19 allied ports yet. Hurry up and make some more. You're not thinking of backing out now, are you?"
+  },
+  {
+    "id": "226",
+    "text": "Go. Leave this place. I no longer wish to see your face."
+  },
+  {
+    "id": "227",
+    "text": "Hello there, $n. I've heard quite a bit about you lately."
+  },
+  {
+    "id": "228",
+    "text": "You look like someone I can count on. I'd like you to do a task for me."
+  },
+  {
+    "id": "229",
+    "text": "I've heard you're quite an adventurer."
+  },
+  {
+    "id": "230",
+    "text": "I want you to travel the world and find rare things. But your discoveries are for me only, so don't tell anyone else!"
+  },
+  {
+    "id": "231",
+    "text": "What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+  },
+  {
+    "id": "232",
+    "text": "If you successfully complete this task, I will bestow upon you a royal title."
+  },
+  {
+    "id": "233",
+    "text": "If you complete this task, I will give you a new title."
+  },
+  {
+    "id": "234",
+    "text": "But the world is still full of marvelous things. Go and find me something else."
+  },
+  {
+    "id": "235",
+    "text": "You still haven't brought me anything. I don't care what, just find me something! That is, unless you've decided to quit?"
+  },
+  {
+    "id": "236",
+    "text": "Go. Leave this place. I no longer wish to see your face."
+  },
+  {
+    "id": "237",
+    "text": "Hello there, $n. I've heard quite a bit about you lately."
+  },
+  {
+    "id": "238",
+    "text": "You look like someone I can count on. I'd like you to do a task for me."
+  },
+  {
+    "id": "239",
+    "text": "I have complete confidence in your abilities. Do you want to try and find it?"
+  },
+  {
+    "id": "240",
+    "text": "What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+  },
+  {
+    "id": "241",
+    "text": "If you successfully complete this task, I will bestow upon you a royal title."
+  },
+  {
+    "id": "242",
+    "text": "If you complete this task, I will give you a new title."
+  },
+  {
+    "id": "243",
+    "text": "Go. Leave this place. I no longer wish to see your face."
+  },
+  {
+    "id": "244",
+    "text": "Hello there, $n. I've heard quite a bit about you lately."
+  },
+  {
+    "id": "245",
+    "text": "You look like someone I can count on. I'd like you to do a task for me."
+  },
+  {
+    "id": "246",
+    "text": "The Portuguese fleet has been attacking our merchant ships. This is slowly becoming a major problem."
+  },
+  {
+    "id": "247",
+    "text": "That is why I would like you to go and attack the Portuguese fleet. Do you accept this duty?"
+  },
+  {
+    "id": "248",
+    "text": "Our merchant ships are being tormented by the Spanish fleet. This is slowly becoming a major problem."
+  },
+  {
+    "id": "249",
+    "text": "I need you to go out and teach the Spanish fleet a lesson. Do you accept this responsibility?"
+  },
+  {
+    "id": "250",
+    "text": "Our merchant ships have become a favorite target of the Turkish fleet. This is slowly becoming a major problem."
+  },
+  {
+    "id": "251",
+    "text": "I need you to give them a taste of their own medicine, and attack them, relentlessly. Are you up to the challenge?"
+  },
+  {
+    "id": "252",
+    "text": "The English fleet is wreaking havoc on our merchant ships' trade routes. This is slowly becoming a major problem."
+  },
+  {
+    "id": "253",
+    "text": "Please make the waters safe for our merchants by punishing those English hounds. What do you say, can you do it?"
+  },
+  {
+    "id": "254",
+    "text": "The Italian fleet is making spaghetti of our merchants' trade routes. This is slowly becoming a major problem."
+  },
+  {
+    "id": "255",
+    "text": "Will you show those curs that they can't mess with us?"
+  },
+  {
+    "id": "256",
+    "text": "The Dutch fleet has been harassing our merchant ships to the point where they can no longer sail the open seas safely."
+  },
+  {
+    "id": "257",
+    "text": "That is why I would like you to go and attack the Dutch fleet. Will you make the waters safe for our merchants?"
+  },
+  {
+    "id": "258",
+    "text": "Pirates have been attacking our merchant ships. This is slowly becoming a major problem."
+  },
+  {
+    "id": "259",
+    "text": "That is why I would like you to go and attack the pirates. Do you accept this duty?"
+  },
+  {
+    "id": "260",
+    "text": "What? You refuse to do my bidding?! Well then, $n, it seems that I have overestimated you."
+  },
+  {
+    "id": "261",
+    "text": "If you successfully complete this task, I will bestow upon you a royal title."
+  },
+  {
+    "id": "262",
+    "text": "If you complete this task, I will give you a new title."
+  },
+  {
+    "id": "263",
+    "text": "I see you haven't yet defeated the Portuguese fleet. Don't tell me you're going to give up?"
+  },
+  {
+    "id": "264",
+    "text": "I see you haven't yet defeated the Spanish fleet. Are you a cowardly quitter?"
+  },
+  {
+    "id": "265",
+    "text": "I see you haven't yet defeated the Turkish fleet. So you're turning your back on our merchants?"
+  },
+  {
+    "id": "266",
+    "text": "I see you haven't yet defeated the English fleet. Is this task too much for you?"
+  },
+  {
+    "id": "267",
+    "text": "I see you haven't yet defeated the Italian fleet. Are you going to give up the fight like a loser?"
+  },
+  {
+    "id": "268",
+    "text": "I see you haven't yet defeated the Dutch fleet. So you don't have the strength to defeat them?"
+  },
+  {
+    "id": "269",
+    "text": "I see you haven't yet defeated the pirates. Are you going to let those curs get the best of us?"
+  },
+  {
+    "id": "270",
+    "text": "Go. Leave this place. I no longer wish to see your face."
+  },
+  {
+    "id": "271",
+    "text": "You did a marvelous job defeating the enemy fleet. Please accept this title as a reward for your services."
+  }
+]

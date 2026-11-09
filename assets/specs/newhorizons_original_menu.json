@@ -1,0 +1,23 @@
+{
+  "name": "newhorizons.original_menu",
+  "description": "The menu strings of the original game.",
+  "source": {
+    "path": "MENU.DAT",
+    "offset": 0,
+    "length": 0
+  },
+  "tables": [
+    {
+      "name": "original_menu",
+      "description": "The menu strings of the original game.",
+      "kind": "offset_table",
+      "offset": 0,
+      "offset_size": 2,
+      "offset_big_endian": true,
+      "string_trim": true,
+      "string_decode": "ascii",
+      "id_field": "id",
+      "fields": []
+    }
+  ]
+}

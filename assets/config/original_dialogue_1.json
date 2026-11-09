@@ -1,0 +1,4758 @@
+[
+  {
+    "id": "0",
+    "text": "|Butler Marco|\nI'm awfully sorry, but the Duke's orders were quite specific. You are not to enter the house."
+  },
+  {
+    "id": "1",
+    "text": "|Duchess Christiana|\nOh $n, I just can't understand why your father must forbid you from coming in the house."
+  },
+  {
+    "id": "2",
+    "text": "Please don't worry, Mother. I promise that I'll find the secret of Atlantis, and then I'll be back."
+  },
+  {
+    "id": "3",
+    "text": "Aye, me lady, all members of the $s family have got to go to sea at one time or another."
+  },
+  {
+    "id": "4",
+    "text": "Besides, me thinks there's trouble brewing between the Captain, I mean the Duke, and some other noble."
+  },
+  {
+    "id": "5",
+    "text": "I agree. He's had several arguments with that noble, Martinez."
+  },
+  {
+    "id": "6",
+    "text": "That's the problem. If it weren't for Martinez, the Duke could search for the secret of Atlantis himself, and $n could stay here."
+  },
+  {
+    "id": "7",
+    "text": "And that's why he wants another Captain to take his place."
+  },
+  {
+    "id": "8",
+    "text": "Oh, dear Rocco, you're a lot brighter than you look. It's like you're reading the Duke's mind!"
+  },
+  {
+    "id": "9",
+    "text": "That's because I've known the Duke since he was kneehigh to a grasshopper!"
+  },
+  {
+    "id": "10",
+    "text": "And whether foul or fair cause, I'm all for sending the boy out to learn the ways of the world."
+  },
+  {
+    "id": "11",
+    "text": "There's nothing better than a hardy stint at sea to toughen a lad up."
+  },
+  {
+    "id": "12",
+    "text": "If that's the case, then I trust you'll look out for $n, my only son."
+  },
+  {
+    "id": "13",
+    "text": "$n, I heard from Lucia that there's not too much money for the voyage."
+  },
+  {
+    "id": "14",
+    "text": "This was all so sudden, I couldn't get everything ready, but please take this."
+  },
+  {
+    "id": "15",
+    "text": "This is the aquamarine tiara your father gave to me."
+  },
+  {
+    "id": "16",
+    "text": "Sell this for however much you can. But don't tell your father."
+  },
+  {
+    "id": "17",
+    "text": "Now $n, my only son, please be very careful! May fair weather be with you on your voyage."
+  },
+  {
+    "id": "18",
+    "text": "|Butler Marco|\nI'm awfully sorry, but the Duke's orders were quite specific. You are not to enter the house."
+  },
+  {
+    "id": "19",
+    "text": "|Butler Marco|\nI'm awfully sorry, but the Duke's orders were quite specific. You are not to enter the house."
+  },
+  {
+    "id": "20",
+    "text": "I know that. I just thought that I'd say good-bye before I got started on my trip."
+  },
+  {
+    "id": "21",
+    "text": "Well then, Master $n, please be careful. The sea's a fickle lady. She can change unexpectedly."
+  },
+  {
+    "id": "22",
+    "text": "Father, did you send for me?"
+  },
+  {
+    "id": "23",
+    "text": "|Duke $s|\nAh, $n, I've been wanting to ask you a few questions."
+  },
+  {
+    "id": "24",
+    "text": "First, has your fencing improved?"
+  },
+  {
+    "id": "25",
+    "text": "Yes, compared to before. But I think I'd be lucky to get just one point out of five if I were fighting you, Father."
+  },
+  {
+    "id": "26",
+    "text": "And have you studied your sailing lessons?"
+  },
+  {
+    "id": "27",
+    "text": "Well, I finished my studies at school. But I can't think of anything more useless than an education without practical experience."
+  },
+  {
+    "id": "28",
+    "text": "I see. Well then, have you mastered geography?"
+  },
+  {
+    "id": "29",
+    "text": "Well, since I've never been allowed to leave Lisbon, I only know what I've learned in books."
+  },
+  {
+    "id": "30",
+    "text": "$n, don't knock textbooks. The advice of others can prove to be invaluable."
+  },
+  {
+    "id": "31",
+    "text": "Yes sir."
+  },
+  {
+    "id": "32",
+    "text": "Remember that, $n. And finally, how's that lute coming along?"
+  },
+  {
+    "id": "33",
+    "text": "It's just a hobby, Father. I'm not really good enough to play for audiences."
+  },
+  {
+    "id": "34",
+    "text": "Really? Your mother has mentioned that you have a fairly good reputation with her friends."
+  },
+  {
+    "id": "35",
+    "text": "You must be kidding."
+  },
+  {
+    "id": "36",
+    "text": "Ha, ha, ha. I'll have to have you play for me sometime."
+  },
+  {
+    "id": "37",
+    "text": "Anyway $n, to get down to business..."
+  },
+  {
+    "id": "38",
+    "text": "Yes sir?"
+  },
+  {
+    "id": "39",
+    "text": "I have something very important to tell you today."
+  },
+  {
+    "id": "40",
+    "text": "What is it, Father?"
+  },
+  {
+    "id": "41",
+    "text": "As you already know, when I was your age, I was already out on the open seas, fighting pirates and scoundrels."
+  },
+  {
+    "id": "42",
+    "text": "I have heard the tales. (Here he goes again!)"
+  },
+  {
+    "id": "43",
+    "text": "Up until now, I have forbidden you to leave this harbor, due to your youth and inexperience."
+  },
+  {
+    "id": "44",
+    "text": "However, the $s men cannot live on land forever."
+  },
+  {
+    "id": "45",
+    "text": "You already have enough knowledge. What you need now is experience."
+  },
+  {
+    "id": "46",
+    "text": "I want you to search for adventure, to live a life on the edge, like I did."
+  },
+  {
+    "id": "47",
+    "text": "Yes sir!"
+  },
+  {
+    "id": "48",
+    "text": "Along with that I have an important task for you: Go and find the secret of Atlantis."
+  },
+  {
+    "id": "49",
+    "text": "The secret of Atlantis? What do you mean?"
+  },
+  {
+    "id": "50",
+    "text": "Well, that's something you'll have to discover on your own, son!"
+  },
+  {
+    "id": "51",
+    "text": "It's a difficult task, and there may be hardships along the way, but it's urgent that you find it."
+  },
+  {
+    "id": "52",
+    "text": "Furthermore, I've ordered the townspeople to treat you like a commoner from now on, so prepare yourself for that as well."
+  },
+  {
+    "id": "53",
+    "text": "Your ship is being built even now. You'll be leaving soon, so you'd better get ready at once. Good luck son, make me proud!"
+  },
+  {
+    "id": "54",
+    "text": "Rocco! Rocco! Where are you?!"
+  },
+  {
+    "id": "55",
+    "text": "|Old Sea Hand Rocco|\nAhoy, sir, I'm right here."
+  },
+  {
+    "id": "56",
+    "text": "I'm leaving you in charge of his education. Teach him how to be a true sailor."
+  },
+  {
+    "id": "57",
+    "text": "Righto Cap'n, I mean, Duke, sir."
+  },
+  {
+    "id": "58",
+    "text": "Don't go easy on him because he's my son. Forge him into a man, Rocco."
+  },
+  {
+    "id": "59",
+    "text": "Come along now, swabbie, let's get to the shipyard."
+  },
+  {
+    "id": "60",
+    "text": "Righto, Rocco, but first I've got to say good-bye to Lucia and Carlotta."
+  },
+  {
+    "id": "61",
+    "text": "Master $n, I think you'd better be heading home now."
+  },
+  {
+    "id": "62",
+    "text": "|Carlotta, Owner of the Pub|\nWell isn't this a rare treat, Master $n."
+  },
+  {
+    "id": "63",
+    "text": "|Lucia the Waitress|\nHey $n, how about playing a tune for me on that lute of yours? I feel like singing!"
+  },
+  {
+    "id": "64",
+    "text": "Lucia! You should be more polite to the son of a noble."
+  },
+  {
+    "id": "65",
+    "text": "Oh, don't worry, Lucia and I have been friends forever!"
+  },
+  {
+    "id": "66",
+    "text": "By the way, $n, Rocco came by here looking for you. He said the Duke was calling for you."
+  },
+  {
+    "id": "67",
+    "text": "My father? Well then, I apologize, but I'd better be going."
+  },
+  {
+    "id": "68",
+    "text": "Oh, $n! You're leaving already?!"
+  },
+  {
+    "id": "69",
+    "text": "I heard that your mother wants you to come to the house between 10 and 12 at night."
+  },
+  {
+    "id": "70",
+    "text": "Master $n, what's going on? The whole town is in an uproar."
+  },
+  {
+    "id": "71",
+    "text": "Are you really going to leave on a sea voyage?"
+  },
+  {
+    "id": "72",
+    "text": "I'm afraid so. It's the $s tradition, after all."
+  },
+  {
+    "id": "73",
+    "text": "Except, I'm not sure what we're going to do about money."
+  },
+  {
+    "id": "74",
+    "text": "Why not become a traveling band? I'd be happy to sing for you!"
+  },
+  {
+    "id": "75",
+    "text": "Come now, Lucia, stop your nonsense."
+  },
+  {
+    "id": "76",
+    "text": "Master $n, here is 1000 gold pieces. Please, take it."
+  },
+  {
+    "id": "77",
+    "text": "Here I thought this pub wasn't popular at all, but ye've managed to save up quite a little bit."
+  },
+  {
+    "id": "78",
+    "text": "Thanks. Sorry we're not up to your standards, Rocco."
+  },
+  {
+    "id": "79",
+    "text": "Master $n, please, accept this gift."
+  },
+  {
+    "id": "80",
+    "text": "No, I'm sorry, but I can't. I wouldn't be able to return it to you."
+  },
+  {
+    "id": "81",
+    "text": "Don't worry about that. Actually, I'm not supposed to say this, but this money is really from your father, the Duke."
+  },
+  {
+    "id": "82",
+    "text": "He said, 'Please give this to $n if he stops by to see you.'"
+  },
+  {
+    "id": "83",
+    "text": "My father...?"
+  },
+  {
+    "id": "84",
+    "text": "This is all well and good, but we'll be needing a little more money if ye wants to get further than Lisbon..."
+  },
+  {
+    "id": "85",
+    "text": "Shiver me timbers! Why didn't I think of this earlier? Ye mother will help ye!"
+  },
+  {
+    "id": "86",
+    "text": "But how? I'm not even allowed inside the house."
+  },
+  {
+    "id": "87",
+    "text": "Don't worry. I'll take a message for you."
+  },
+  {
+    "id": "88",
+    "text": "Lucia!"
+  },
+  {
+    "id": "89",
+    "text": "I'm back."
+  },
+  {
+    "id": "90",
+    "text": "So, missie, how'd it go?"
+  },
+  {
+    "id": "91",
+    "text": "She wants you to come to the house between 10 and 12 at night."
+  },
+  {
+    "id": "92",
+    "text": "Thanks for the advice Carlotta. Thank you Lucia."
+  },
+  {
+    "id": "93",
+    "text": "Welcome Master $n. Duke $s was here looking for you."
+  },
+  {
+    "id": "94",
+    "text": "Master $n, the Duke has ordered everyone to treat you as a commoner. So, I'm afraid I must ask you not to enter the Palace anymore."
+  },
+  {
+    "id": "95",
+    "text": "Master $n, are you going to go to the house now?"
+  },
+  {
+    "id": "96",
+    "text": "|Father Felippe of the church in Lisbon|\nMaster $n, is there anyone in the Duke $s's household that could possibly take a trip?"
+  },
+  {
+    "id": "97",
+    "text": "I'm afraid not. My father is too busy, and I've no experience."
+  },
+  {
+    "id": "98",
+    "text": "I'm looking for a reliable man to... Well, never mind."
+  },
+  {
+    "id": "99",
+    "text": "Oh, that reminds me, Rocco was here looking for you."
+  },
+  {
+    "id": "100",
+    "text": "I see. Well then, I guess I'll go back to the house."
+  },
+  {
+    "id": "101",
+    "text": "Oh Master $n. Thank you so much for agreeing to take Brother Enrico."
+  },
+  {
+    "id": "102",
+    "text": "I managed to get together some gold for you. Please use it wisely."
+  },
+  {
+    "id": "103",
+    "text": "Accept\nDonate\nRefuse"
+  },
+  {
+    "id": "104",
+    "text": "Thank you very much. I promise to put it to good use."
+  },
+  {
+    "id": "105",
+    "text": "I'm sorry, but I could never accept your money."
+  },
+  {
+    "id": "106",
+    "text": "Please use this money to help people."
+  },
+  {
+    "id": "107",
+    "text": "Really? You're very thoughtful. I hope that good fortune follows you on your journey."
+  },
+  {
+    "id": "108",
+    "text": "No, I can't. I don't want to cause you, of all people, any trouble."
+  },
+  {
+    "id": "109",
+    "text": "My, my, you're really quite an independent fellow, aren't you?"
+  },
+  {
+    "id": "110",
+    "text": "|Father Felippe of the church in Lisbon|\nI'm glad you could make it, Master $n."
+  },
+  {
+    "id": "111",
+    "text": "I heard you had something on your mind. What is it?"
+  },
+  {
+    "id": "112",
+    "text": "Well, actually, I have something to ask of you."
+  },
+  {
+    "id": "113",
+    "text": "Wait a minute. You're looking for a sailor, right?"
+  },
+  {
+    "id": "114",
+    "text": "Yes. And I have heard rumors about you, Master $n. About your voyage."
+  },
+  {
+    "id": "115",
+    "text": "My colleagues and I have long been fascinated by the riddle of the existence of Atlantis. We admire your endeavor."
+  },
+  {
+    "id": "116",
+    "text": "And along with that, I have a favor to ask of you, young Master."
+  },
+  {
+    "id": "117",
+    "text": "Enrico, Brother Enrico! Over here please."
+  },
+  {
+    "id": "118",
+    "text": "|Brother Enrico|\nYes sir!"
+  },
+  {
+    "id": "119",
+    "text": "Brother Enrico is a Franciscan missionary."
+  },
+  {
+    "id": "120",
+    "text": "Master $n, we'd like to spread the teachings of the Christian faith in the East."
+  },
+  {
+    "id": "121",
+    "text": "I know this may be a great deal to ask, but we want you to take him to the land of Zipangu."
+  },
+  {
+    "id": "122",
+    "text": "Did you say Zipangu?! I heard from my father that it's a beautiful island in the far east, that Marco Polo wrote about, but..."
+  },
+  {
+    "id": "123",
+    "text": "There's no way I could do that now. I've never even left the land of Iberia!"
+  },
+  {
+    "id": "124",
+    "text": "But I want to exchange knowledge with them, and teach them my faith."
+  },
+  {
+    "id": "125",
+    "text": "The Vatican commissioned me to go there as a missionary."
+  },
+  {
+    "id": "126",
+    "text": "Please. Take me to Zipangu."
+  },
+  {
+    "id": "127",
+    "text": "Well, since you're willing to go that far, I guess I can't refuse. But I really can't say how many years it will take."
+  },
+  {
+    "id": "128",
+    "text": "Are ye sure ye want to do this? I mean, a promise like that, well..."
+  },
+  {
+    "id": "129",
+    "text": "Well, Zipangu is certainly far away, but if we take it day by day, and make progress little by little, we'll make it."
+  },
+  {
+    "id": "130",
+    "text": "Aye, ye've got a point there."
+  },
+  {
+    "id": "131",
+    "text": "Say, there's a ship being built by Duke $s's orders! I wonder who's going to use it?"
+  },
+  {
+    "id": "132",
+    "text": "Rocco, probably."
+  },
+  {
+    "id": "133",
+    "text": "That reminds me, Rocco was in here looking for you."
+  },
+  {
+    "id": "134",
+    "text": "Ahoy there, is our ship finished yet?"
+  },
+  {
+    "id": "135",
+    "text": "Why if it isn't Rocco! Aye, mate, she's all finished."
+  },
+  {
+    "id": "136",
+    "text": "I built 'er exactly as Duke Leon ordered. A Latin, just like the one he first sailed on."
+  },
+  {
+    "id": "137",
+    "text": "Her name's the Hermes II. She's got a triangle sail, easy for landlubbers to control."
+  },
+  {
+    "id": "138",
+    "text": "Hermes II"
+  },
+  {
+    "id": "139",
+    "text": "Master $n, whenever you have a problem, just go on over to the pub."
+  },
+  {
+    "id": "140",
+    "text": "The pub owner, Carlotta, helped out the Duke quite a bit when he was your age."
+  },
+  {
+    "id": "141",
+    "text": "We can't sail the seas without a ship, now can we? Let's go to the shipyard."
+  },
+  {
+    "id": "142",
+    "text": "Hey Master $n, Father Felippe of the church in Lisbon was looking for you."
+  },
+  {
+    "id": "143",
+    "text": "Hmm, I wonder what he wants."
+  },
+  {
+    "id": "144",
+    "text": "He said something about finding a reliable sailor for something or another."
+  },
+  {
+    "id": "145",
+    "text": "We'll be food for the whales if we don't get our hands on a bit o' gold. Why don't ye go to the pub and ask Carlotta for help?"
+  },
+  {
+    "id": "146",
+    "text": "We're running pretty low on gold, mate. Ye should go ask Carlotta at the pub. She helped the Duke out when he was younger."
+  },
+  {
+    "id": "147",
+    "text": "Cap'n, don't ye think we could use a little bit more money?"
+  },
+  {
+    "id": "148",
+    "text": "So what's the plan of action?"
+  },
+  {
+    "id": "149",
+    "text": "Well, I thought we'd just sail around from port to port."
+  },
+  {
+    "id": "150",
+    "text": "Hah! That's not a very bright plan."
+  },
+  {
+    "id": "151",
+    "text": "Why not?"
+  },
+  {
+    "id": "152",
+    "text": "Gold. It takes a heap o' gold to keep a ship like this afloat."
+  },
+  {
+    "id": "153",
+    "text": "Water's free, but ye'd be amazed at how much it costs to feed a crew."
+  },
+  {
+    "id": "154",
+    "text": "So are you saying that this money won't be enough?"
+  },
+  {
+    "id": "155",
+    "text": "Well, it ought to last us about a month. But resting on that fact won't get us any more!"
+  },
+  {
+    "id": "156",
+    "text": "But ye're on the right track. Sailing around from port to port is a good beginning because..."
+  },
+  {
+    "id": "157",
+    "text": "Ah! You figure we can trade and make a profit along the way, right?"
+  },
+  {
+    "id": "158",
+    "text": "Ah, now here's a mate who's using his noggin!"
+  },
+  {
+    "id": "159",
+    "text": "But even if we decide to trade, I don't know what to buy where and where to sell what."
+  },
+  {
+    "id": "160",
+    "text": "Well, for example, we should buy goods particular to each port. Like Lisbon's rock salt."
+  },
+  {
+    "id": "161",
+    "text": "Hmmm..."
+  },
+  {
+    "id": "162",
+    "text": "I'm a missionary, but the subject of economics fascinates me. It's been a hobby of mine to study the market."
+  },
+  {
+    "id": "163",
+    "text": "If we buy rock salt for 40 gold pieces here, we should be able to sell it for at least 60 gold pieces in Seville."
+  },
+  {
+    "id": "164",
+    "text": "Captain, Brother Enrico seems to have a head for numbers, so why don't ye make him the bookkeeper on our ship?"
+  },
+  {
+    "id": "165",
+    "text": "Not a bad idea. Welcome to the crew, Brother Enrico."
+  },
+  {
+    "id": "166",
+    "text": "Oh, and I'd like you to be first mate, Rocco."
+  },
+  {
+    "id": "167",
+    "text": "Well, I do have a pretty good idea of prices at the ports I've read about."
+  },
+  {
+    "id": "168",
+    "text": "If we check our log of goods, I should be able to figure out which port will pay the most for each item."
+  },
+  {
+    "id": "169",
+    "text": "No, it's not right to ask Brother Enrico to do such work."
+  },
+  {
+    "id": "170",
+    "text": "Well, actually, I wouldn't mind it in the least. I'd be glad to help!"
+  },
+  {
+    "id": "171",
+    "text": "Well then, perhaps I'll ask you again when we start to trade."
+  },
+  {
+    "id": "172",
+    "text": "Captain, it was a really good idea to have Brother Enrico take over accounting, don't ye think?"
+  },
+  {
+    "id": "173",
+    "text": "Welcome Master $s. It's always a pleasure to see the son of my favorite customer, the Duke."
+  },
+  {
+    "id": "174",
+    "text": "Rocco was just here looking for you."
+  },
+  {
+    "id": "175",
+    "text": "By the way, you can sell our rock salt for a pretty profit in the Mediterranean."
+  },
+  {
+    "id": "176",
+    "text": "Furthermore, a trade route between here and Seville, with their porcelain, turns a nice profit as well."
+  },
+  {
+    "id": "177",
+    "text": "Master $n, my apologies, but you don't have a ship yet to store any goods."
+  },
+  {
+    "id": "178",
+    "text": "Come back once you've gotten your ship. Thank you, I'm looking forward to doing business with you soon!"
+  },
+  {
+    "id": "179",
+    "text": "Hello there Master $n. Rocco was here earlier looking for you."
+  },
+  {
+    "id": "180",
+    "text": "Welcome Master $n. I have something for you."
+  },
+  {
+    "id": "181",
+    "text": "For me?"
+  },
+  {
+    "id": "182",
+    "text": "Your Butler Marco came by here and asked me to give this rapier to you if you stopped by."
+  },
+  {
+    "id": "183",
+    "text": "It's already been paid for, so please take it."
+  },
+  {
+    "id": "184",
+    "text": "Be careful out there. And remember, a weapon's useless if you don't equip yourself with it."
+  },
+  {
+    "id": "185",
+    "text": "Welcome Master $s. You know, your father's one of my best customers."
+  },
+  {
+    "id": "186",
+    "text": "Rocco came here looking for you."
+  },
+  {
+    "id": "187",
+    "text": "Just a little advice, Master $n- visit the pub whenever you've got a problem."
+  },
+  {
+    "id": "188",
+    "text": "The pub owner, Carlotta, helped out your father, the Duke, quite a bit when he was your age."
+  },
+  {
+    "id": "189",
+    "text": "Well this is a surprise, Master $n. Are you avoiding something?"
+  },
+  {
+    "id": "190",
+    "text": "You're part of the $s family, so I guess you'll be taking a trip soon, right?"
+  },
+  {
+    "id": "191",
+    "text": "Master $n, is it true that everyone's to treat you as a commoner?"
+  },
+  {
+    "id": "192",
+    "text": "Yes that's right. So just treat me like a regular sailor, OK?"
+  },
+  {
+    "id": "193",
+    "text": "Master $n, I'm sure you'll find the secret of Atlantis."
+  },
+  {
+    "id": "194",
+    "text": "Say, Master $n, you're leaving pretty soon, aren't you?"
+  },
+  {
+    "id": "195",
+    "text": "Blast! Master, this is terrible. We've found a stowaway!"
+  },
+  {
+    "id": "196",
+    "text": "Rocco, how many times do I have to ask you? Please, call me Captain!"
+  },
+  {
+    "id": "197",
+    "text": "But isn't this a curious turn of events. I wonder who would want to stowaway on my ship?"
+  },
+  {
+    "id": "198",
+    "text": "This is no time be overcome by flattery. Here's the culprit."
+  },
+  {
+    "id": "199",
+    "text": "|Stowaway|\nOw! Hey, watch what you're doing! You big lout!"
+  },
+  {
+    "id": "200",
+    "text": "Who're ye calling a lout?! Why I oughta..."
+  },
+  {
+    "id": "201",
+    "text": "Now, now Rocco, don't do anything rash. So, what's your name?"
+  },
+  {
+    "id": "202",
+    "text": "What day is it today?"
+  },
+  {
+    "id": "203",
+    "text": "It's Sunday but..."
+  },
+  {
+    "id": "204",
+    "text": "Well then, please call me Domingo."
+  },
+  {
+    "id": "205",
+    "text": "So, you don't want to tell us your real name, huh? Well, it doesn't matter. It takes courage to be a stowaway."
+  },
+  {
+    "id": "206",
+    "text": "Master, I mean, Captain, are ye serious? Are ye sure ye want to let this strange looking lackey join our crew?"
+  },
+  {
+    "id": "207",
+    "text": "Why not? The more the merrier, I always say. Enrico, what do you think?"
+  },
+  {
+    "id": "208",
+    "text": "Everyone is equal before God. I say let him stay."
+  },
+  {
+    "id": "209",
+    "text": "Hmph... Hey lackey! The Captain here says ye can stay on board. Ye'd better be grateful."
+  },
+  {
+    "id": "210",
+    "text": "Thanks! I really appreciate it!"
+  },
+  {
+    "id": "211",
+    "text": "But it's kind of inconvenient that you don't have a last name. Tomorrow in Spanish is Manana, so we'll use that for now."
+  },
+  {
+    "id": "212",
+    "text": "That's fine with me!"
+  },
+  {
+    "id": "213",
+    "text": "|Butler Marco|\nI'm sorry Master $n, but I have orders from the Duke not to let you into the house."
+  },
+  {
+    "id": "214",
+    "text": "$n, did you get a little spending money from Marco?"
+  },
+  {
+    "id": "215",
+    "text": "Yes, I did. Thank you very much."
+  },
+  {
+    "id": "216",
+    "text": "|Butler Marco|\nMaster $n, your mother was able to get together 1000 gold pieces for you this month."
+  },
+  {
+    "id": "217",
+    "text": "Why, thank you!"
+  },
+  {
+    "id": "218",
+    "text": "|Butler Marco|\nMy apologies, Master $n, but you are not to enter the house. Those are the Duke's orders."
+  },
+  {
+    "id": "219",
+    "text": "|Butler Marco|\nMy apologies, Master $n, but you are not to enter the house. Those are the Duke's orders."
+  },
+  {
+    "id": "220",
+    "text": "Captain, let's leave this place. I got a bad feeling in me bones."
+  },
+  {
+    "id": "221",
+    "text": "I guess you're right. Let's go."
+  },
+  {
+    "id": "222",
+    "text": "Captain, let's leave this place. I got a bad feeling in me bones."
+  },
+  {
+    "id": "223",
+    "text": "I guess you're right. Let's go."
+  },
+  {
+    "id": "224",
+    "text": "We're going to stay here for a while longer."
+  },
+  {
+    "id": "225",
+    "text": "But we've got to hurry to the shipyard."
+  },
+  {
+    "id": "226",
+    "text": "Cap'n, I've got something I've been wantin' to talk to ye about."
+  },
+  {
+    "id": "227",
+    "text": "Oh? What is it, Rocco?"
+  },
+  {
+    "id": "228",
+    "text": "Actually, 'tis a rumor that caught me ear down at the docks."
+  },
+  {
+    "id": "229",
+    "text": "I've no idea if it be true or not, but they say that the Prince of Portugal's up and disappeared."
+  },
+  {
+    "id": "230",
+    "text": "What?! Prince Alberto's been kidnapped?!"
+  },
+  {
+    "id": "231",
+    "text": "If that's true then there's sure to be some big waves ahead."
+  },
+  {
+    "id": "232",
+    "text": "The Royal house and the $s family both have more than their fair share of enemies. Outside Portugal there's Spain and the Ottoman Empire, and at home, the Marquis Martinez."
+  },
+  {
+    "id": "233",
+    "text": "But Cap'n, you've met the Prince before, haven't ye?"
+  },
+  {
+    "id": "234",
+    "text": "Well yes, but that was a long time ago."
+  },
+  {
+    "id": "235",
+    "text": "And even then, unlike me, he was really serious. We didn't have anything to talk about."
+  },
+  {
+    "id": "236",
+    "text": "He's a nice guy though, and concerned about the future of Portugal. Hey, where's Domingo been? I haven't seen him in a while."
+  },
+  {
+    "id": "237",
+    "text": "Could be he's gone to the lodge, Cap'n."
+  },
+  {
+    "id": "238",
+    "text": "Rocco, I've got something on my mind. Excuse me, I'm going to go to the lodge."
+  },
+  {
+    "id": "239",
+    "text": "I was worried about ye, Cap'n, so I followed ye."
+  },
+  {
+    "id": "240",
+    "text": "It was then that I saw ye in the middle of a duel with that red-haired missy. That's why I yelled out the name she hates."
+  },
+  {
+    "id": "241",
+    "text": "Rocco, do you know who that lady was?"
+  },
+  {
+    "id": "242",
+    "text": "Aye Cap'n. She's called Catalina, and she's made quite a name for herself these days with her piratin'."
+  },
+  {
+    "id": "243",
+    "text": "She was an officer in the Spanish Navy, but for some reason she went AWOL and stole a Spanish Galleon to boot."
+  },
+  {
+    "id": "244",
+    "text": "They've been after her ever since, but she still does her piratin'. She seems to prey only on Portuguese ships."
+  },
+  {
+    "id": "245",
+    "text": "She kept saying something about revenge."
+  },
+  {
+    "id": "246",
+    "text": "Well, ye can't always know when ye've gone and upset somebody, now can ye."
+  },
+  {
+    "id": "247",
+    "text": "But Cap'n, what was it that ye had on your mind?"
+  },
+  {
+    "id": "248",
+    "text": "I'd rather have you hear it from Domingo, but I think he just might be Prince Alberto."
+  },
+  {
+    "id": "249",
+    "text": "Hmm, I guess the charade's over."
+  },
+  {
+    "id": "250",
+    "text": "Y..Your highness, what are we going to do?! The palace must be in an uproar."
+  },
+  {
+    "id": "251",
+    "text": "Yes, we must get back to the palace at once. Thanks to my disappearing act, your father's in big trouble."
+  },
+  {
+    "id": "252",
+    "text": "It's all totally ridiculous, but Duke $s is suspected of trying to eliminate me."
+  },
+  {
+    "id": "253",
+    "text": "Those pirates tricked me, and gave me a forged letter saying that you had suffered great injuries at the shipyard."
+  },
+  {
+    "id": "254",
+    "text": "When we got there, they nabbed me!"
+  },
+  {
+    "id": "255",
+    "text": "Before they tied me up, they told me everything. They were going to off me and blame you, $n."
+  },
+  {
+    "id": "256",
+    "text": "Shiver me timbers and blow me down! We've got to get back to Lisbon -  double quick!"
+  },
+  {
+    "id": "257",
+    "text": "You're right. Let's shove off."
+  },
+  {
+    "id": "258",
+    "text": "We've got to make it back before Duke $s's trial."
+  },
+  {
+    "id": "259",
+    "text": "Hey, you're from Portugal, aren't you? Have you heard about the Prince's disappearance?"
+  },
+  {
+    "id": "260",
+    "text": "Yes, but I don't really want to get involved, so just keep it to yourself."
+  },
+  {
+    "id": "261",
+    "text": "Well that's not all, you know. It seems that Duke $s was pulling the strings the whole time."
+  },
+  {
+    "id": "262",
+    "text": "What?!"
+  },
+  {
+    "id": "263",
+    "text": "I heard it from a Portuguese merchant, Duke $s wants his own son to take over the crown, so he plotted to assassinate the Prince."
+  },
+  {
+    "id": "264",
+    "text": "No way! I'm warning you, you'd better not tell that to anyone else!"
+  },
+  {
+    "id": "265",
+    "text": "OK, OK, relax. I won't."
+  },
+  {
+    "id": "266",
+    "text": "Ah Cap'n, I'm gettin' real nervous here. Let's set sail already."
+  },
+  {
+    "id": "267",
+    "text": "I think you're right."
+  },
+  {
+    "id": "268",
+    "text": "If you're looking for your friend, he ran off to the shipyard with some other fellows. Seemed to be all worried."
+  },
+  {
+    "id": "269",
+    "text": "Domingo, are you here?"
+  },
+  {
+    "id": "270",
+    "text": "If you're looking for your friend, he left a while ago in a big rush with some other men. They were headed for the shipyard."
+  },
+  {
+    "id": "271",
+    "text": "Skipper, I've got a pretty bad feelin' about this town. The sooner we leave, the happier I'll be."
+  },
+  {
+    "id": "272",
+    "text": "I guess you're right. Let's get out of here."
+  },
+  {
+    "id": "273",
+    "text": "Domingo!! Where are you?!"
+  },
+  {
+    "id": "274",
+    "text": "|Pirate Kahn|\nHmph... What's this? An interruption?"
+  },
+  {
+    "id": "275",
+    "text": "Ca..Captain! Help! Save me!"
+  },
+  {
+    "id": "276",
+    "text": "What are you doing with Domingo?!"
+  },
+  {
+    "id": "277",
+    "text": "Yer leavin' me no choice, boy. Alright then, let's get rid of both of 'em."
+  },
+  {
+    "id": "278",
+    "text": "Sorry fellows, but I believe your best bet is to just release Domingo and go on your way."
+  },
+  {
+    "id": "279",
+    "text": "Huh? I'm not releasing anybody! Have at you!"
+  },
+  {
+    "id": "280",
+    "text": "You're not nearly as good as I thought! It's curtains for you now, mate!"
+  },
+  {
+    "id": "281",
+    "text": "Sorry, but I can't let that happen."
+  },
+  {
+    "id": "282",
+    "text": "Who in the blazes are you?!"
+  },
+  {
+    "id": "283",
+    "text": "Why, I'm a pirate, just like you. But I'm not so cowardly as you that I would gang up on one sailor."
+  },
+  {
+    "id": "284",
+    "text": "You're a woman, right? Oh, I get it. You're that traitorous female pirate!"
+  },
+  {
+    "id": "285",
+    "text": "Draw your sword. Prepare yourself for my fury."
+  },
+  {
+    "id": "286",
+    "text": "Blast! Interfering vixen! I won't forget this!"
+  },
+  {
+    "id": "287",
+    "text": "I wonder why all pirates sound the same."
+  },
+  {
+    "id": "288",
+    "text": "Thank you. You saved my life back there."
+  },
+  {
+    "id": "289",
+    "text": "I don't require any thanks. You two are Portuguese, aren't you?"
+  },
+  {
+    "id": "290",
+    "text": "I am $n $s. As thanks, I'll have to play a tune for you on my lute."
+  },
+  {
+    "id": "291",
+    "text": "Oh, what have I done? I must have been out of my mind. I can't believe I saved a $s!"
+  },
+  {
+    "id": "292",
+    "text": "What? What's wrong? You look pretty upset."
+  },
+  {
+    "id": "293",
+    "text": "I am Catalina, sister to Captain Michael Erantzo of the Spanish Navy. And I will have my revenge!"
+  },
+  {
+    "id": "294",
+    "text": "Now wait just a minute! What are you talking about?"
+  },
+  {
+    "id": "295",
+    "text": "Draw your sword, young master. On guard!"
+  },
+  {
+    "id": "296",
+    "text": "Halt! We know that the pirate Catalina is in there."
+  },
+  {
+    "id": "297",
+    "text": "We are the navy guard, under orders from Commander Ezequiel. By his command, you are under arrest!"
+  },
+  {
+    "id": "298",
+    "text": "Confound it! I finally found you and now I have to go. But remember this! Some day, $s, I will avenge my brother!"
+  },
+  {
+    "id": "299",
+    "text": "Avast, Captain, we'd better hightail it out of here! If we don't, that lady's going to get us!"
+  },
+  {
+    "id": "300",
+    "text": "Ah, Domingo, you're OK too. Thanks Rocco, you really saved our necks back there."
+  },
+  {
+    "id": "301",
+    "text": "Why don't we leave this port? I'm beginning to get nervous here."
+  },
+  {
+    "id": "302",
+    "text": "An excellent idea."
+  },
+  {
+    "id": "303",
+    "text": "Are you sure he said Domingo was at the lodge?"
+  },
+  {
+    "id": "304",
+    "text": "We'd better get to the shipyard... and fast!"
+  },
+  {
+    "id": "305",
+    "text": "$n, I think of you every day and hope for your safe return."
+  },
+  {
+    "id": "306",
+    "text": "$n, this time you saved me. Nice work, son!"
+  },
+  {
+    "id": "307",
+    "text": "Oh, anytime, father."
+  },
+  {
+    "id": "308",
+    "text": "It looks like $n has matured enough to take over the $s house. Must he continue these dangerous travels?"
+  },
+  {
+    "id": "309",
+    "text": "Hmm... I wonder. $n, what do you want to do? Are you going to quit sea travel?"
+  },
+  {
+    "id": "310",
+    "text": "Father, it would seem that this scheme was a plot by the Marquis Martinez."
+  },
+  {
+    "id": "311",
+    "text": "I would like to stay here and help you in any way possible."
+  },
+  {
+    "id": "312",
+    "text": "Hmm... you're beginning to speak like a man. But you still lack enough strength and knowledge to be of much use here."
+  },
+  {
+    "id": "313",
+    "text": "Yes, sir."
+  },
+  {
+    "id": "314",
+    "text": "Furthermore, there's nothing that would help me more than if you discovered the secret of Atlantis."
+  },
+  {
+    "id": "315",
+    "text": "I understand. I will go and seek the secret of Atlantis."
+  },
+  {
+    "id": "316",
+    "text": "Good luck, $n."
+  },
+  {
+    "id": "317",
+    "text": "No, I still haven't completed my promise to you to find the secret of Atlantis."
+  },
+  {
+    "id": "318",
+    "text": "Plus, I don't think that I'm strong enough to take over here at the house."
+  },
+  {
+    "id": "319",
+    "text": "I see. Well in that case, I want you to go ahead and do what you think is right."
+  },
+  {
+    "id": "320",
+    "text": "But before you go, I want to give you this rare sword. It's a reward for what you've accomplished so far."
+  },
+  {
+    "id": "321",
+    "text": "Yes sir. Thank you."
+  },
+  {
+    "id": "322",
+    "text": "Greetings, $s family."
+  },
+  {
+    "id": "323",
+    "text": "Welcome Prince. It's an honor to have you here."
+  },
+  {
+    "id": "324",
+    "text": "I wanted to ask for your forgiveness, for causing you all so much trouble."
+  },
+  {
+    "id": "325",
+    "text": "Please accept my most humble apologies. And, as you may have guessed, I will no longer be able to sail with you."
+  },
+  {
+    "id": "326",
+    "text": "I'm sorry, but you'll have to choose a new captain or else sell my ship."
+  },
+  {
+    "id": "327",
+    "text": "OK, I'll take care of it."
+  },
+  {
+    "id": "328",
+    "text": "It's too bad we won't be able to share any more adventures. Why don't I take you as far as the port."
+  },
+  {
+    "id": "329",
+    "text": "Well, let's go then."
+  },
+  {
+    "id": "330",
+    "text": "$n, protect his majesty with your life."
+  },
+  {
+    "id": "331",
+    "text": "$n... The old noble families, led by Marquis Martinez, had your father arrested and taken to the palace."
+  },
+  {
+    "id": "332",
+    "text": "It's too dangerous for you here. Please, escape. Hurry."
+  },
+  {
+    "id": "333",
+    "text": "Oh, Mother, thank goodness you're alright. But what about Father...?"
+  },
+  {
+    "id": "334",
+    "text": "I'm afraid he's probably in the middle of his trial."
+  },
+  {
+    "id": "335",
+    "text": "Then we've no time to lose. We've got to go prove his innocence."
+  },
+  {
+    "id": "336",
+    "text": "Master $n, I can't apologize enough for what's happened."
+  },
+  {
+    "id": "337",
+    "text": "Why, aren't you Prince Alberto?!"
+  },
+  {
+    "id": "338",
+    "text": "You couldn't tell whether I was a boy or a girl, could you? My disguise is perfect."
+  },
+  {
+    "id": "339",
+    "text": "Never mind that! Hurry up and change! We've got to get to the palace."
+  },
+  {
+    "id": "340",
+    "text": "Not if we have anything to say about it."
+  },
+  {
+    "id": "341",
+    "text": "Why you... You guys just don't give up, do you?"
+  },
+  {
+    "id": "342",
+    "text": "That's right. And this time that red-haired pirate lady isn't going to come and save you."
+  },
+  {
+    "id": "343",
+    "text": "Good. I want to take care of you myself."
+  },
+  {
+    "id": "344",
+    "text": "Ha, ha, ha. I've already taken care of the top dog here. Now to finish off the lady!"
+  },
+  {
+    "id": "345",
+    "text": "Ah!! $n..."
+  },
+  {
+    "id": "346",
+    "text": "Arrh, there's no way I'd allow the captain to be defeated by a lowlife like you. Take that!"
+  },
+  {
+    "id": "347",
+    "text": "Argh! I can't believe you hit me from behind. You coward!"
+  },
+  {
+    "id": "348",
+    "text": "Don't look sad, Rocco. You did what you had to do, and God knows you have a good heart."
+  },
+  {
+    "id": "349",
+    "text": "That may be, Brother Enrico, Cap'n, but as I gets older, the less I likes hurting someone."
+  },
+  {
+    "id": "350",
+    "text": "I'm sorry you had to do that to save me."
+  },
+  {
+    "id": "351",
+    "text": "I also believe that the wicked get what they deserve."
+  },
+  {
+    "id": "352",
+    "text": "To think I'd be struck down by a lout like you."
+  },
+  {
+    "id": "353",
+    "text": "Hmph, you're not too bad, lad. But, this fight's not finished yet."
+  },
+  {
+    "id": "354",
+    "text": "Prince Alberto, quickly! To the Palace!"
+  },
+  {
+    "id": "355",
+    "text": "|Prince Alberto|\nLet's go!"
+  },
+  {
+    "id": "356",
+    "text": "Prince"
+  },
+  {
+    "id": "357",
+    "text": "Alberto"
+  },
+  {
+    "id": "358",
+    "text": "I'm sorry, but would you either decide on a new captain or sell the ship that I used?"
+  },
+  {
+    "id": "359",
+    "text": "Of course, I understand."
+  },
+  {
+    "id": "360",
+    "text": "Well, I must get back to the Palace. We only traveled together for a short time, but it was really fun."
+  },
+  {
+    "id": "361",
+    "text": "It was pretty rough back there. You should be careful in the future."
+  },
+  {
+    "id": "362",
+    "text": "Cap'n, we've got to get the Prince to the Palace!"
+  },
+  {
+    "id": "363",
+    "text": "This is the harbor, but shouldn't we go to the Palace?"
+  },
+  {
+    "id": "364",
+    "text": "I just wanted to see the sea... Just kidding!"
+  },
+  {
+    "id": "365",
+    "text": "Cap'n, this is no time to be telling jokes!"
+  },
+  {
+    "id": "366",
+    "text": "Cap'n, we should go back to your house at least once."
+  },
+  {
+    "id": "367",
+    "text": "Hi there $n! You still haven't left yet?"
+  },
+  {
+    "id": "368",
+    "text": "Well, don't be a stranger! Come visit me whenever you're in Lisbon."
+  },
+  {
+    "id": "369",
+    "text": "Master $n, Duke Leon is waiting for you at home."
+  },
+  {
+    "id": "370",
+    "text": "What?! What are you talking about? The Prince is back?! He was with you, Master $n, the whole time?!"
+  },
+  {
+    "id": "371",
+    "text": "Well then, please go to the great hall.. Quickly!"
+  },
+  {
+    "id": "372",
+    "text": "|Marquis Martinez|\nYour majesty, according to the facts we've heard here today, it is clear that Duke $s is guilty."
+  },
+  {
+    "id": "373",
+    "text": "No matter what your personal ties may be, a guilty man is a guilty man. I ask you to condemn this traitor, $s."
+  },
+  {
+    "id": "374",
+    "text": "(Gasp)"
+  },
+  {
+    "id": "375",
+    "text": "I understand your complaints, but I cannot punish a man without clear evidence."
+  },
+  {
+    "id": "376",
+    "text": "Furthermore, Sir $s is my son-in-law and a very important man in our country's history. I will not make a hasty decision."
+  },
+  {
+    "id": "377",
+    "text": "I'm sure Sir $s has something to say in his own behalf. I'd like to hear it."
+  },
+  {
+    "id": "378",
+    "text": "There'll be no need for that."
+  },
+  {
+    "id": "379",
+    "text": "That voice! Could it be..."
+  },
+  {
+    "id": "380",
+    "text": "Father, I've returned."
+  },
+  {
+    "id": "381",
+    "text": "The Prince! Where have you been hiding until now?!"
+  },
+  {
+    "id": "382",
+    "text": "It would take too long to tell you, but in short I've traveled to several countries and learned a few things along the way."
+  },
+  {
+    "id": "383",
+    "text": "You must tell me all about it later. But for now, we must apologize to Sir $s."
+  },
+  {
+    "id": "384",
+    "text": "Your majesty, that is not necessary. Please raise you head."
+  },
+  {
+    "id": "385",
+    "text": "Thank you. But you, Martinez, you were very careless!"
+  },
+  {
+    "id": "386",
+    "text": "... Curses!"
+  },
+  {
+    "id": "387",
+    "text": "Sir $s, please return to your home at once, your wife must be very worried."
+  },
+  {
+    "id": "388",
+    "text": "Today is the day of the trial. Please come back another day if you wish an audience with the King."
+  },
+  {
+    "id": "389",
+    "text": "Wait a minute! Don't you recognize me?"
+  },
+  {
+    "id": "390",
+    "text": "No one would be able to tell you're the Prince, the way you look now. Let's go to my house and get you cleaned up."
+  },
+  {
+    "id": "391",
+    "text": "Alright then, your majesty, let's go to the Palace."
+  },
+  {
+    "id": "392",
+    "text": "|Prince Alberto|\nLet's go then, shall we?"
+  },
+  {
+    "id": "393",
+    "text": "$n, it was certainly fun, but we both have things that we must do."
+  },
+  {
+    "id": "394",
+    "text": "Let me walk you to the port. Let's go."
+  },
+  {
+    "id": "395",
+    "text": "Cap'n, the Duke awaits you at his home."
+  },
+  {
+    "id": "396",
+    "text": "Master $n, the Duke has been accused of treason and arrested!"
+  },
+  {
+    "id": "397",
+    "text": "It's too dangerous for you here in town. Please leave at once."
+  },
+  {
+    "id": "398",
+    "text": "Don't worry. I have no doubts about my father's innocence."
+  },
+  {
+    "id": "399",
+    "text": "$n, dear, don't do anything too rash now. May luck be on your side."
+  },
+  {
+    "id": "400",
+    "text": "|Butler Marco|\nMaster $n, welcome home."
+  },
+  {
+    "id": "401",
+    "text": "Hello there, $n, you're back! How was your trip?"
+  },
+  {
+    "id": "402",
+    "text": "Well, I guess I didn't do too shabbily. I managed to find a lot of things."
+  },
+  {
+    "id": "403",
+    "text": "Oh I see. Well, what about Atlantis? Have you learned the secret yet?"
+  },
+  {
+    "id": "404",
+    "text": "Not yet, I'm afraid."
+  },
+  {
+    "id": "405",
+    "text": "Hmmm.. I know it's very difficult, but I hope you do learn the secret, someday."
+  },
+  {
+    "id": "406",
+    "text": "I'll try."
+  },
+  {
+    "id": "407",
+    "text": "Your mother will be thrilled to see you."
+  },
+  {
+    "id": "408",
+    "text": "$n, my baby! You're back!"
+  },
+  {
+    "id": "409",
+    "text": "Yes, Mother. But I'm not your baby anymore!"
+  },
+  {
+    "id": "410",
+    "text": "Well, yes, you have grown up quite a bit."
+  },
+  {
+    "id": "411",
+    "text": "But don't do anything too dangerous out there. You're still my son, and I worry about you."
+  },
+  {
+    "id": "412",
+    "text": "|Butler Marco|\nMaster $n, welcome home."
+  },
+  {
+    "id": "413",
+    "text": "Watch yourself out there, $n. Beware of the dangers of the deep."
+  },
+  {
+    "id": "414",
+    "text": "And is Rocco doing alright as well?"
+  },
+  {
+    "id": "415",
+    "text": "He's fine. He wants to get out on the open seas even more than I do."
+  },
+  {
+    "id": "416",
+    "text": "Cap'n, are you sure we should be wasting time like this? That red-haired pirate may be lurking just around the corner."
+  },
+  {
+    "id": "417",
+    "text": "What are you worried about? We'll be alright."
+  },
+  {
+    "id": "418",
+    "text": "Cap'n be careful. That pirate lady may be here somewhere."
+  },
+  {
+    "id": "419",
+    "text": "Stop whining. We'll be fine."
+  },
+  {
+    "id": "420",
+    "text": "Not if I have anything to say about it."
+  },
+  {
+    "id": "421",
+    "text": "Blast! The ache in me bones told me this would happen, I just knew it!"
+  },
+  {
+    "id": "422",
+    "text": "The time to settle the score has finally come. I will avenge the loss of my brother and fiance."
+  },
+  {
+    "id": "423",
+    "text": "Cap'n, I'll take care of this pirate gal. Ye get back to the ship."
+  },
+  {
+    "id": "424",
+    "text": "Say, aren't you that famous mariner, $n?"
+  },
+  {
+    "id": "425",
+    "text": "I don't know whether I'm famous or not, but I'm $n for sure."
+  },
+  {
+    "id": "426",
+    "text": "Hey, you'd better be careful. That Portuguese hunting red-haired pirate has been asking the whole town about you."
+  },
+  {
+    "id": "427",
+    "text": "Ye needs to learn to keep ye big trap shut! We'd better get out of here."
+  },
+  {
+    "id": "428",
+    "text": "Is Rocco going to be alright?"
+  },
+  {
+    "id": "429",
+    "text": "He's fine. He's probably got her begging for mercy by now."
+  },
+  {
+    "id": "430",
+    "text": "Harumph! Mercy indeed, that lassie's worse than a mountain lion."
+  },
+  {
+    "id": "431",
+    "text": "Rocco?! Are you alright?"
+  },
+  {
+    "id": "432",
+    "text": "Aye, but I've seen better days. I almost lost my neck back there!"
+  },
+  {
+    "id": "433",
+    "text": "So... what happened to Catalina?"
+  },
+  {
+    "id": "434",
+    "text": "Well, she wouldn't calm down, so I tied her up, gagged her and put her in the storage room at the merchant's."
+  },
+  {
+    "id": "435",
+    "text": "Nice work!"
+  },
+  {
+    "id": "436",
+    "text": "No time for celebrating. Let's get out of here."
+  },
+  {
+    "id": "437",
+    "text": "I wonder if Rocco's going to be OK?"
+  },
+  {
+    "id": "438",
+    "text": "Sure he will, After all, he's Rocco! But just in case, maybe we should shove off."
+  },
+  {
+    "id": "439",
+    "text": "Cap'n, do you really think it's wise to be foolin' around here? I heard that the pirate girl is in town."
+  },
+  {
+    "id": "440",
+    "text": "What are you worrying about? We'll be fine."
+  },
+  {
+    "id": "441",
+    "text": "Cap'n, be careful. That pirate Catalina may be here in town."
+  },
+  {
+    "id": "442",
+    "text": "Stop worrying. Everything is fine.. just fine."
+  },
+  {
+    "id": "443",
+    "text": "Well, I wouldn't say 'just fine.'"
+  },
+  {
+    "id": "444",
+    "text": "Shiver me timbers! When did she get here?!"
+  },
+  {
+    "id": "445",
+    "text": "Playtime is over, young master. I will have my revenge!"
+  },
+  {
+    "id": "446",
+    "text": "Cap'n, I'll take care of this here little lady. You go on back to the ship."
+  },
+  {
+    "id": "447",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "448",
+    "text": "Don't work too hard out there at sea."
+  },
+  {
+    "id": "449",
+    "text": "Rocco's going to be OK, right?"
+  },
+  {
+    "id": "450",
+    "text": "I'm pretty sure he's alright. This happens all the time. Avast there, hoist our sails to the wind!"
+  },
+  {
+    "id": "451",
+    "text": "Cap'n, I suggest leaving immediately. It's no fun dealing with that wild pirate girl."
+  },
+  {
+    "id": "452",
+    "text": "What are you talking about? This is a big port. No reason for us to meet at all. She won't find us."
+  },
+  {
+    "id": "453",
+    "text": "Cap'n, we'd better be careful. I can feel that pirate watching us."
+  },
+  {
+    "id": "454",
+    "text": "You sound just like a little kid... worrying about things that aren't even there. She'll never find us."
+  },
+  {
+    "id": "455",
+    "text": "So, I finally found you!"
+  },
+  {
+    "id": "456",
+    "text": "Aah! She found us!"
+  },
+  {
+    "id": "457",
+    "text": "Today I will have my revenge. You will not escape."
+  },
+  {
+    "id": "458",
+    "text": "(Sigh) Cap'n, leave this to me. Ye go on back to the ship."
+  },
+  {
+    "id": "459",
+    "text": "Hey, you wouldn't be $n, by any chance?"
+  },
+  {
+    "id": "460",
+    "text": "Why yes, I am. What is it that you want?"
+  },
+  {
+    "id": "461",
+    "text": "Did you know that some pirate named Catalina has it out for you?"
+  },
+  {
+    "id": "462",
+    "text": "And what of it?"
+  },
+  {
+    "id": "463",
+    "text": "She was just in here a little while ago telling everyone how she was going to get you."
+  },
+  {
+    "id": "464",
+    "text": "Uh oh! Bye!"
+  },
+  {
+    "id": "465",
+    "text": "Do you think Rocco's alright?"
+  },
+  {
+    "id": "466",
+    "text": "I think so. This happens all the time."
+  },
+  {
+    "id": "467",
+    "text": "Whew! I can't believe that girl."
+  },
+  {
+    "id": "468",
+    "text": "Rocco are you OK?"
+  },
+  {
+    "id": "469",
+    "text": "We go through this every time, but I almost lost it back there."
+  },
+  {
+    "id": "470",
+    "text": "And so? What happened to Catalina?"
+  },
+  {
+    "id": "471",
+    "text": "She always struggles, so I put her in a potato sack, tied it up and rolled her into the storage area at the merchant's."
+  },
+  {
+    "id": "472",
+    "text": "You're too much, Rocco."
+  },
+  {
+    "id": "473",
+    "text": "Come on, let's shove off. I think she hates me more than ye now."
+  },
+  {
+    "id": "474",
+    "text": "I wonder if Rocco is alright?"
+  },
+  {
+    "id": "475",
+    "text": "I'm sure he's fine. This happens all the time, you know. Let's get out of here."
+  },
+  {
+    "id": "476",
+    "text": "Cap'n, we should set sail and leave this port. I don't want to deal with that Catalina girl again."
+  },
+  {
+    "id": "477",
+    "text": "What are you worried about? This is a huge port, she'll never find us."
+  },
+  {
+    "id": "478",
+    "text": "Cap'n, please take care. I don't want to have to fight that Catalina again."
+  },
+  {
+    "id": "479",
+    "text": "She's not following us anymore, so just relax."
+  },
+  {
+    "id": "480",
+    "text": "I've been looking for you!"
+  },
+  {
+    "id": "481",
+    "text": "Argh! I can't believe she found us!"
+  },
+  {
+    "id": "482",
+    "text": "You won't escape me today! I will avenge my brother!"
+  },
+  {
+    "id": "483",
+    "text": "Cap'n, I'll deal with Catalina here. Ye head on back to the boat."
+  },
+  {
+    "id": "484",
+    "text": "|Butler Marco|\nWelcome back, Master $n."
+  },
+  {
+    "id": "485",
+    "text": "Don't take too many risks out there."
+  },
+  {
+    "id": "486",
+    "text": "Say, you're $n, right?"
+  },
+  {
+    "id": "487",
+    "text": "Let me guess. You're going to tell me about the pirate Catalina?"
+  },
+  {
+    "id": "488",
+    "text": "That's right. Well if you know each other, maybe you could fix us up?"
+  },
+  {
+    "id": "489",
+    "text": "I'm afraid I can't help you there, friend."
+  },
+  {
+    "id": "490",
+    "text": "Well, she's really something!"
+  },
+  {
+    "id": "491",
+    "text": "Aye, but methinks her quest for revenge is becoming quite troublesome."
+  },
+  {
+    "id": "492",
+    "text": "|Butler Marco|\nBack again, Master $n?"
+  },
+  {
+    "id": "493",
+    "text": "Well, be careful out there. Make sure your fleet is always in tiptop condition."
+  },
+  {
+    "id": "494",
+    "text": "$n, you won't get away from me this time. You and that old sea dog will be eating seaweed for the next 100 years."
+  },
+  {
+    "id": "495",
+    "text": "Fine. I'm tired of running anyway. Let's just settle it here."
+  },
+  {
+    "id": "496",
+    "text": "Cap'n, ye're pretty popular with the pirates, eh?"
+  },
+  {
+    "id": "497",
+    "text": "$n, next time we meet I will turn you into mince meat."
+  },
+  {
+    "id": "498",
+    "text": "Whew. She just doesn't give up, does she?"
+  },
+  {
+    "id": "499",
+    "text": "$n, you won today, but I will not forget this insult! You will pay for this!"
+  },
+  {
+    "id": "500",
+    "text": "Boy, she's really mad now."
+  },
+  {
+    "id": "501",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "502",
+    "text": "Avoid any situations that look too risky. You don't want to worry your mother."
+  },
+  {
+    "id": "503",
+    "text": "Cap'n, what do you think Catalina's up to these days?"
+  },
+  {
+    "id": "504",
+    "text": "Well, I don't think she's given up, that's for sure."
+  },
+  {
+    "id": "505",
+    "text": "But she hasn't been chasing us for some time now. Maybe Commander Ezequiel caught up with her."
+  },
+  {
+    "id": "506",
+    "text": "Have you got a minute?"
+  },
+  {
+    "id": "507",
+    "text": "Who are you?"
+  },
+  {
+    "id": "508",
+    "text": "My name's Ali Vezas, a trader. Are you talking about the red-haired pirate lady?"
+  },
+  {
+    "id": "509",
+    "text": "Yes, but what business is that of yours?"
+  },
+  {
+    "id": "510",
+    "text": "Ye're not going to tell us that she's after us I hope."
+  },
+  {
+    "id": "511",
+    "text": "No, no that's not it at all. You're $n from Portugal, right?"
+  },
+  {
+    "id": "512",
+    "text": "Yes, that's right."
+  },
+  {
+    "id": "513",
+    "text": "Your friend Lucia in Lisbon has disappeared."
+  },
+  {
+    "id": "514",
+    "text": "What?!"
+  },
+  {
+    "id": "515",
+    "text": "Rumor has it she was kidnapped by the very pirate lady of which you speak."
+  },
+  {
+    "id": "516",
+    "text": "This is my partner, Salim."
+  },
+  {
+    "id": "517",
+    "text": "We stopped by in Lisbon, and when we went into the pub, Carlotta asked us to give you a message-"
+  },
+  {
+    "id": "518",
+    "text": "'Go find Lucia.'"
+  },
+  {
+    "id": "519",
+    "text": "That woman will stoop to anything! How cowardly."
+  },
+  {
+    "id": "520",
+    "text": "Well, we thank ye for coming all this way just to give us the message, Ali, was it?"
+  },
+  {
+    "id": "521",
+    "text": "Hey now, don't you think you're forgetting something rather important?"
+  },
+  {
+    "id": "522",
+    "text": "Huh? Is there something else?"
+  },
+  {
+    "id": "523",
+    "text": "A wise merchant never does anything if there's no profit involved."
+  },
+  {
+    "id": "524",
+    "text": "What, ye want us to pay ye gold for that information?"
+  },
+  {
+    "id": "525",
+    "text": "Hey now, everybody wants gold."
+  },
+  {
+    "id": "526",
+    "text": "But as for me, I've got a favor to ask of you. I have a sister, but we were separated when I was very young."
+  },
+  {
+    "id": "527",
+    "text": "Her name's Sapha. She should be about 16, 17 years old by now."
+  },
+  {
+    "id": "528",
+    "text": "If, in your travels, you happen to find her, I want you to bring her to the lodge in Istanbul."
+  },
+  {
+    "id": "529",
+    "text": "Alright. If I find her, I promise I'll bring her back."
+  },
+  {
+    "id": "530",
+    "text": "Don't forget. Goodbye."
+  },
+  {
+    "id": "531",
+    "text": "Goodbye."
+  },
+  {
+    "id": "532",
+    "text": "Well, what should we do now?"
+  },
+  {
+    "id": "533",
+    "text": "Can't ye guess? We're going to go after Catalina and get her for what she's done."
+  },
+  {
+    "id": "534",
+    "text": "I wonder about that..."
+  },
+  {
+    "id": "535",
+    "text": "Huh? Have ye got any complaints about my plan, Brother Enrico?"
+  },
+  {
+    "id": "536",
+    "text": "No, it's not a bad plan, Rocco... It's just that I don't think that woman pirate would do something this cowardly."
+  },
+  {
+    "id": "537",
+    "text": "I see your point. Let's go back to Lisbon and then think about our next move."
+  },
+  {
+    "id": "538",
+    "text": "|Butler Marco|\nMaster $n, welcome home."
+  },
+  {
+    "id": "539",
+    "text": "That girl Lucia from the pub has been abducted by someone. I think you should go talk to Carlotta."
+  },
+  {
+    "id": "540",
+    "text": "$n, thank you so much for coming back."
+  },
+  {
+    "id": "541",
+    "text": "I met some trader named Ali. Was what he said about Lucia true?"
+  },
+  {
+    "id": "542",
+    "text": "Yes, for the most part. We're not completely sure who the abductors are."
+  },
+  {
+    "id": "543",
+    "text": "But the night Lucia was taken, there was only one ship that left the harbor... and it belonged to that lady pirate."
+  },
+  {
+    "id": "544",
+    "text": "Looks like she's the culprit after all. I can't think of anyone else that would do it."
+  },
+  {
+    "id": "545",
+    "text": "Rocco, I don't think it's a good idea to decide without any proof."
+  },
+  {
+    "id": "546",
+    "text": "Well, that's true, but either way, we've got to go find Catalina anyway."
+  },
+  {
+    "id": "547",
+    "text": "She holds the key. Plus, we've got to find that girl Sapha, for Ali."
+  },
+  {
+    "id": "548",
+    "text": "Righto Cap'n."
+  },
+  {
+    "id": "549",
+    "text": "|Butler Marco|\nWelcome home. Master $n."
+  },
+  {
+    "id": "550",
+    "text": "Don't overdo it out there. The sea can be a dangerous place, you know."
+  },
+  {
+    "id": "551",
+    "text": "Master $n, have you been able to locate Lucia?"
+  },
+  {
+    "id": "552",
+    "text": "No, not yet. But don't give up hope. It'll be alright."
+  },
+  {
+    "id": "553",
+    "text": "Exactly. Just leave everything to the Cap'n here."
+  },
+  {
+    "id": "554",
+    "text": "Well take care, and please try to find her."
+  },
+  {
+    "id": "555",
+    "text": "This harbor is in the Middle East. I wonder if that girl's here."
+  },
+  {
+    "id": "556",
+    "text": "Well, I think we should ask the pub master."
+  },
+  {
+    "id": "557",
+    "text": "Excuse me. Is there a waitress by the name of Sapha in this place?"
+  },
+  {
+    "id": "558",
+    "text": "This harbor is in the Middle East, but I wonder if that girl's here."
+  },
+  {
+    "id": "559",
+    "text": "Well, I think we should ask the pub master."
+  },
+  {
+    "id": "560",
+    "text": "Excuse me. Is there a girl by the name of Sapha in this place?"
+  },
+  {
+    "id": "561",
+    "text": "No, no one here by that name."
+  },
+  {
+    "id": "562",
+    "text": "Well, that does it. We'll just have to look somewhere else."
+  },
+  {
+    "id": "563",
+    "text": "Hey waiter, have you seen a female pirate named Catalina, recently?"
+  },
+  {
+    "id": "564",
+    "text": "Oh, that woman whose eyes burn with a fiery hate for some Portuguese man. No, I haven't heard anything about her recently."
+  },
+  {
+    "id": "565",
+    "text": "Well then, do you know anything about a girl named Sapha?"
+  },
+  {
+    "id": "566",
+    "text": "Sapha? Wait a minute. I remember hearing something... somewhere..."
+  },
+  {
+    "id": "567",
+    "text": "Please, try to remember."
+  },
+  {
+    "id": "568",
+    "text": "Ah! There's a girl by that name in the pub in some desolate port in the Middle East!"
+  },
+  {
+    "id": "569",
+    "text": "Thank you, sir! You've been a big help."
+  },
+  {
+    "id": "570",
+    "text": "Sorry, I've never heard of her."
+  },
+  {
+    "id": "571",
+    "text": "Oh well. We'll just have to try somewhere else then."
+  },
+  {
+    "id": "572",
+    "text": "Sapha? Why, she's the best waitress I've got!"
+  },
+  {
+    "id": "573",
+    "text": "Whew! We found her!"
+  },
+  {
+    "id": "574",
+    "text": "We'd like to talk to her if that's alright."
+  },
+  {
+    "id": "575",
+    "text": "You fellows look like you've got a good reason. Wait here while I call her."
+  },
+  {
+    "id": "576",
+    "text": "You had something you wanted to ask me?"
+  },
+  {
+    "id": "577",
+    "text": "Yes. I'd like to ask you about your family."
+  },
+  {
+    "id": "578",
+    "text": "My family? I have no family. I've been an orphan for as long as I remember."
+  },
+  {
+    "id": "579",
+    "text": "Are you sure you didn't have an older brother?"
+  },
+  {
+    "id": "580",
+    "text": "Well, I might have. But he wouldn't be a Westerner like you, that's for sure."
+  },
+  {
+    "id": "581",
+    "text": "Oh no. You're not planning to trick me with words and then take me to some far off port and sell me, are you?"
+  },
+  {
+    "id": "582",
+    "text": "Miss, I swear that no such thing will happen."
+  },
+  {
+    "id": "583",
+    "text": "We're not making any progress here."
+  },
+  {
+    "id": "584",
+    "text": "Well, we might as well go back to Istanbul and tell Ali what we know. He can just come and get her himself."
+  },
+  {
+    "id": "585",
+    "text": "Say, have you ever heard of a trader named Ali?"
+  },
+  {
+    "id": "586",
+    "text": "Just a moment, please."
+  },
+  {
+    "id": "587",
+    "text": "Salim, there's some men here to see Ali."
+  },
+  {
+    "id": "588",
+    "text": "Oh, you two. It's been a long time. If you're looking for Ali, he's at the lodge."
+  },
+  {
+    "id": "589",
+    "text": "Thanks. We know the way."
+  },
+  {
+    "id": "590",
+    "text": "Excuse me, we're looking for a trader named Ali."
+  },
+  {
+    "id": "591",
+    "text": "Ali's in his room, but I can call him if you like."
+  },
+  {
+    "id": "592",
+    "text": "Oh $n! How've you been? Did you find out anything about Sapha?"
+  },
+  {
+    "id": "593",
+    "text": "Well, we found a girl named Sapha, but we don't know if she's your sister or not."
+  },
+  {
+    "id": "594",
+    "text": "We went to see her, but she said she's been an orphan for as long as she remembers."
+  },
+  {
+    "id": "595",
+    "text": "I see. I'll go and see her myself. Thanks so much for looking into things."
+  },
+  {
+    "id": "596",
+    "text": "She works in a pub in a town called Basra. It's in the Persian Gulf, the furthest one in."
+  },
+  {
+    "id": "597",
+    "text": "Well, bye then. Good luck."
+  },
+  {
+    "id": "598",
+    "text": "Good luck to you as well. Thanks!"
+  },
+  {
+    "id": "599",
+    "text": "Say, do you know a trader named Ali?"
+  },
+  {
+    "id": "600",
+    "text": "Well, if he's back in town, he's either at the pub or the lodge."
+  },
+  {
+    "id": "601",
+    "text": "|Butler Marco|\nMaster $n, have you found that girl Sapha?"
+  },
+  {
+    "id": "602",
+    "text": "It took a while, but we finally found her."
+  },
+  {
+    "id": "603",
+    "text": "That's great news, but don't forget to tell her big brother Ali."
+  },
+  {
+    "id": "604",
+    "text": "Master $n, have you found Lucia yet?"
+  },
+  {
+    "id": "605",
+    "text": "Not yet. But cheer up. It's just a matter of time."
+  },
+  {
+    "id": "606",
+    "text": "Well said, Cap'n. You just leave everything to the Cap'n here."
+  },
+  {
+    "id": "607",
+    "text": "Please keep searching. I'm really starting to get worried."
+  },
+  {
+    "id": "608",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "609",
+    "text": "Be careful out here. There are pirates and all sorts of nasty people out there."
+  },
+  {
+    "id": "610",
+    "text": "Master $n, have you found Lucia yet?"
+  },
+  {
+    "id": "611",
+    "text": "No. But we haven't given up yet, have we, Rocco? Don't worry, we'll find her."
+  },
+  {
+    "id": "612",
+    "text": "The next time we meet that lady pirate, it's going to be rough."
+  },
+  {
+    "id": "613",
+    "text": "Well, take care, and keep looking for Lucia."
+  },
+  {
+    "id": "614",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "615",
+    "text": "Watch out for scary sea monsters. I read about them all the time."
+  },
+  {
+    "id": "616",
+    "text": "So, have you found Lucia yet, Master $n?"
+  },
+  {
+    "id": "617",
+    "text": "Not yet. But we will. I promise."
+  },
+  {
+    "id": "618",
+    "text": "We haven't given up! We'll find her!"
+  },
+  {
+    "id": "619",
+    "text": "Well, be careful, you two."
+  },
+  {
+    "id": "620",
+    "text": "Hey, if it isn't $n."
+  },
+  {
+    "id": "621",
+    "text": "Hey, Ali! Long time no see."
+  },
+  {
+    "id": "622",
+    "text": "I wanted to thank you. Because of your searching, I was finally able to meet my sister again."
+  },
+  {
+    "id": "623",
+    "text": "That's great, Ali. But of course I had a good reason to search, I owed you one."
+  },
+  {
+    "id": "624",
+    "text": "That's right. Did you ever find that girl from Lisbon?"
+  },
+  {
+    "id": "625",
+    "text": "No. Nobody's seen or heard anything... I've half given up."
+  },
+  {
+    "id": "626",
+    "text": "Well, since I haven't heard anything about that female pirate, maybe they shipwrecked somewhere."
+  },
+  {
+    "id": "627",
+    "text": "Don't say things like that. You can't give up hope. It took me over 10 years to finally find Sapha."
+  },
+  {
+    "id": "628",
+    "text": "I guess you're right. But aside from that, what brings you here? I heard that you were looking for me."
+  },
+  {
+    "id": "629",
+    "text": "I was. Do you remember what I said to you a long time ago?"
+  },
+  {
+    "id": "630",
+    "text": "No, what?"
+  },
+  {
+    "id": "631",
+    "text": "A smart merchant won't do anything if there's no profit involved. But thanks to you I finally found my sister."
+  },
+  {
+    "id": "632",
+    "text": "I never paid you for what you did. So it's time to settle my account."
+  },
+  {
+    "id": "633",
+    "text": "You take your debts pretty seriously, don't you? But I'm not in any need of money."
+  },
+  {
+    "id": "634",
+    "text": "Don't be silly. A smart merchant never wastes money, even 1 piece of gold."
+  },
+  {
+    "id": "635",
+    "text": "You've got a weird sense of pride."
+  },
+  {
+    "id": "636",
+    "text": "You just don't understand my money-making mind, brother."
+  },
+  {
+    "id": "637",
+    "text": "Anyway $n, you want to know the secret of Atlantis, right?"
+  },
+  {
+    "id": "638",
+    "text": "An Italian adventurer told me where you can get some answers."
+  },
+  {
+    "id": "639",
+    "text": "Is that so? Where?"
+  },
+  {
+    "id": "640",
+    "text": "Do you know the port of Massawa? It's a port on the African coast of the Red Sea."
+  },
+  {
+    "id": "641",
+    "text": "From what Sapha told me, the legend says that the people living there sailed for many years before settling at that port."
+  },
+  {
+    "id": "642",
+    "text": "I thought that this information might help you out a bit."
+  },
+  {
+    "id": "643",
+    "text": "But don't tell anyone that you heard this from me."
+  },
+  {
+    "id": "644",
+    "text": "You're the only person I've told. So consider my debt settled."
+  },
+  {
+    "id": "645",
+    "text": "I understand. Thanks for telling me."
+  },
+  {
+    "id": "646",
+    "text": "And like I said, don't give up hope for Lucia."
+  },
+  {
+    "id": "647",
+    "text": "What do you think, Rocco?"
+  },
+  {
+    "id": "648",
+    "text": "Well, I don't know what to think, Cap'n, but it sounds like it might be worth checking out."
+  },
+  {
+    "id": "649",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "650",
+    "text": "Be careful. Your mother worries about you everyday."
+  },
+  {
+    "id": "651",
+    "text": "Master $n, have you found Lucia yet?"
+  },
+  {
+    "id": "652",
+    "text": "Not yet. But I will. I swear it."
+  },
+  {
+    "id": "653",
+    "text": "Leave it to the Cap'n. After all, he's Leon $s's son."
+  },
+  {
+    "id": "654",
+    "text": "I sure hope you find her."
+  },
+  {
+    "id": "655",
+    "text": "Cap'n we've reached the port of Massawa."
+  },
+  {
+    "id": "656",
+    "text": "But I'm not sure this is the place. Atlantis was supposed to be in the Atlantic Ocean. How did the Atlanteans end up here?"
+  },
+  {
+    "id": "657",
+    "text": "We should ask an expert on the subject."
+  },
+  {
+    "id": "658",
+    "text": "An expert?"
+  },
+  {
+    "id": "659",
+    "text": "Of course, a scholar. And in this region, the most learned scholars are usually Islamic imams. Let's go to the mosque on the north side of town."
+  },
+  {
+    "id": "660",
+    "text": "Excuse me. Are you busy?"
+  },
+  {
+    "id": "661",
+    "text": "What brings you here? From the looks of you, you're Portuguese."
+  },
+  {
+    "id": "662",
+    "text": "We have something we'd like to ask you. We've come all the way from the land of Iberia."
+  },
+  {
+    "id": "663",
+    "text": "That's quite a trip. Please, ask me your questions. I will do my best to answer them."
+  },
+  {
+    "id": "664",
+    "text": "I'm going to ask you directly- do you know anything about the secret of Atlantis?"
+  },
+  {
+    "id": "665",
+    "text": "I know Atlantis was supposed to be a land of very advanced culture and technology, but what is its secret? Where has it gone?"
+  },
+  {
+    "id": "666",
+    "text": "Ah, I can't tell you how many other people have asked me that question."
+  },
+  {
+    "id": "667",
+    "text": "It's all just a fairy tale. The legend of Atlantis and its marvelous technology."
+  },
+  {
+    "id": "668",
+    "text": "A fairy tale? You mean that it never existed?"
+  },
+  {
+    "id": "669",
+    "text": "Yes. I suppose it's correct to say that it didn't exist, but..."
+  },
+  {
+    "id": "670",
+    "text": "But...?"
+  },
+  {
+    "id": "671",
+    "text": "I shouldn't tell you this now, but since you have traveled so far, I will."
+  },
+  {
+    "id": "672",
+    "text": "Go to the building to the southwest of this town. All your doubts will be resolved there."
+  },
+  {
+    "id": "673",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "674",
+    "text": "I know I've told you already, but be careful out there."
+  },
+  {
+    "id": "675",
+    "text": "Master $n, have you found Lucia?"
+  },
+  {
+    "id": "676",
+    "text": "No, but it's alright. Cheer up!"
+  },
+  {
+    "id": "677",
+    "text": "Exactly. I'm sure she's doing just fine."
+  },
+  {
+    "id": "678",
+    "text": "I can't thank you enough for continuing the search. But please, don't stop yet."
+  },
+  {
+    "id": "679",
+    "text": "Cap'n, this is strange. There's no one here."
+  },
+  {
+    "id": "680",
+    "text": "No, that can't be right. Somebody's got to be here."
+  },
+  {
+    "id": "681",
+    "text": "|Meconbe|\nWho are you?"
+  },
+  {
+    "id": "682",
+    "text": "Oh, we apologize for just coming in, without knocking."
+  },
+  {
+    "id": "683",
+    "text": "We are mariners from the land of Portugal. Are you the owner of this building?"
+  },
+  {
+    "id": "684",
+    "text": "No, the master of this house is ill. I realize you've come a long way, but I really must ask you to go."
+  },
+  {
+    "id": "685",
+    "text": "Just a minute, please. I just want to ask one question-"
+  },
+  {
+    "id": "686",
+    "text": "What is the secret of Atlantis? Did it ever really exist?"
+  },
+  {
+    "id": "687",
+    "text": "Hmph, the land of Atlantis? That is no more than a faint shadow now. You're a millennium too late."
+  },
+  {
+    "id": "688",
+    "text": "So, leave this port immediately."
+  },
+  {
+    "id": "689",
+    "text": "|Lord Taphali|\nWait, please. Meconbe, let us tell these gentlemen the truth."
+  },
+  {
+    "id": "690",
+    "text": "Lord, I don't think..."
+  },
+  {
+    "id": "691",
+    "text": "Don't you think it's cruel to keep everything covered in secrecy? Both cruel to us and to these men here."
+  },
+  {
+    "id": "692",
+    "text": "My friends from afar, it can be said that Atlantis did and didn't exist. But I think it best we say it did."
+  },
+  {
+    "id": "693",
+    "text": "Cap'n, what's this old man talking about? I've got absolutely no clue."
+  },
+  {
+    "id": "694",
+    "text": "Shhh! Shut up, Rocco!"
+  },
+  {
+    "id": "695",
+    "text": "The land of Atlantis sank into the sea a long time ago."
+  },
+  {
+    "id": "696",
+    "text": "What?"
+  },
+  {
+    "id": "697",
+    "text": "Atlantis enjoyed a culture far advanced of any land today. They even tried to make nature their servant."
+  },
+  {
+    "id": "698",
+    "text": "But one day, nature, with her great power, informed the Atlanteans that no one would ever control her."
+  },
+  {
+    "id": "699",
+    "text": "Her great power?"
+  },
+  {
+    "id": "700",
+    "text": "A terrible earthquake shook the land, and almost all traces of the society were swallowed up into the sea."
+  },
+  {
+    "id": "701",
+    "text": "The lesson to be learned from it is- no matter how much progress we humans may make, there are always limits."
+  },
+  {
+    "id": "702",
+    "text": "Me finds that hard to swallow, Cap'n."
+  },
+  {
+    "id": "703",
+    "text": "Shhh! Please, Rocco!"
+  },
+  {
+    "id": "704",
+    "text": "Our ancestors were Atlanteans who, fleeing disaster, came to settle here."
+  },
+  {
+    "id": "705",
+    "text": "But they feared that those seeking their knowledge would try to take it by force. So they hid all their knowledge and started to live normal lives so no one would suspect anything."
+  },
+  {
+    "id": "706",
+    "text": "The people of this city have preserved that knowledge for generations."
+  },
+  {
+    "id": "707",
+    "text": "However, the Turkish nation has somehow learned of our secret knowledge and is preparing to take it by force."
+  },
+  {
+    "id": "708",
+    "text": "Any day now, thousands, tens of thousands of troops will come to attack our city."
+  },
+  {
+    "id": "709",
+    "text": "So there's no one to defend this port? No way to protect yourselves?"
+  },
+  {
+    "id": "710",
+    "text": "No, there is a way. If we were able to combine the power of other ancestors of Atlantis, those who fled to other lands, we could resist the Turkish invasion."
+  },
+  {
+    "id": "711",
+    "text": "Stop it, Meconbe! It's impossible... without the staff."
+  },
+  {
+    "id": "712",
+    "text": "The staff?"
+  },
+  {
+    "id": "713",
+    "text": "Yes, Poseidon's Staff. It is the safeguard of Atlantis and the key to our lost knowledge. But it was hidden so that it would not be used for evil purposes."
+  },
+  {
+    "id": "714",
+    "text": "If that's the case, then we will find that staff for you."
+  },
+  {
+    "id": "715",
+    "text": "What did you say?"
+  },
+  {
+    "id": "716",
+    "text": "You fellows trusted us enough to tell us your secrets. We couldn't just leave you now. Right Rocco, Enrico!"
+  },
+  {
+    "id": "717",
+    "text": "Aye aye, Cap'n!"
+  },
+  {
+    "id": "718",
+    "text": "Right Cap'n. We can't just run away from this."
+  },
+  {
+    "id": "719",
+    "text": "Well, now you know how we feel. Leave everything to us."
+  },
+  {
+    "id": "720",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "721",
+    "text": "Don't do anything too dangerous. Your mother will worry."
+  },
+  {
+    "id": "722",
+    "text": "Master $n, have you found Lucia yet?"
+  },
+  {
+    "id": "723",
+    "text": "Not yet. But I will. Trust me."
+  },
+  {
+    "id": "724",
+    "text": "Leave everything to the Cap'n here. He can do anything."
+  },
+  {
+    "id": "725",
+    "text": "Please keep on searching. I miss Lucia."
+  },
+  {
+    "id": "726",
+    "text": "Captain, have you got any clues as to how we can find Poseidon's Staff?"
+  },
+  {
+    "id": "727",
+    "text": "Maybe something someone said..."
+  },
+  {
+    "id": "728",
+    "text": "Cap'n, that's a perfect clue. We know of someone that's an expert at finding things."
+  },
+  {
+    "id": "729",
+    "text": "What? Who?"
+  },
+  {
+    "id": "730",
+    "text": "That Italian adventurer, Pietro Conti."
+  },
+  {
+    "id": "731",
+    "text": "Yer mother, thinking the information might come in handy some day, sponsored his adventures to seek out rare goods."
+  },
+  {
+    "id": "732",
+    "text": "I wonder if we can trust him?"
+  },
+  {
+    "id": "733",
+    "text": "We can't afford to be too choosy at a time like this. Come on, let's set sail for Lisbon."
+  },
+  {
+    "id": "734",
+    "text": "Why $n, this is a sudden surprise. What brings you here?"
+  },
+  {
+    "id": "735",
+    "text": "Mother, I have a favor to ask of you. That's why I came back."
+  },
+  {
+    "id": "736",
+    "text": "A favor. What is it? Is it something I can do?"
+  },
+  {
+    "id": "737",
+    "text": "Well actually, I'm looking for Poseidon's Staff. And I need the adventurer Pietro's help to find it."
+  },
+  {
+    "id": "738",
+    "text": "I see. I will tell Pietro. Let's see, right now he's ..."
+  },
+  {
+    "id": "739",
+    "text": "Duchess, Pietro Conti has just come back from the land of Zipangu."
+  },
+  {
+    "id": "740",
+    "text": "Well now, what a nice coincidence."
+  },
+  {
+    "id": "741",
+    "text": "Pietro, I need a favor from you."
+  },
+  {
+    "id": "742",
+    "text": "A favor? How can I refuse a favor to a $s? As long as it's not about money, I'd be happy to hear it."
+  },
+  {
+    "id": "743",
+    "text": "Do you know anything about Poseidon's Staff?"
+  },
+  {
+    "id": "744",
+    "text": "Oh sure. The secret treasure of the land of Atlantis. Last rumor I heard was that it was last seen in Africa, if I'm not mistaken."
+  },
+  {
+    "id": "745",
+    "text": "Exactly. The location is exactly right. Do you have any information about the secret treasure itself?"
+  },
+  {
+    "id": "746",
+    "text": "You really don't know much about adventurers, do you? Searching for a treasure is what I like, what's most fun."
+  },
+  {
+    "id": "747",
+    "text": "I don't really care what it is I'm looking for, or how much it will sell for."
+  },
+  {
+    "id": "748",
+    "text": "So, what do I have to do?"
+  },
+  {
+    "id": "749",
+    "text": "I told you earlier that I'd be happy to do a favor for the $s family. I'll go and find it for you."
+  },
+  {
+    "id": "750",
+    "text": "Thank you. I am forever in your debt."
+  },
+  {
+    "id": "751",
+    "text": "Don't be ridiculous. I live for this kind of stuff. But don't hate me if I don't find it."
+  },
+  {
+    "id": "752",
+    "text": "I'll get on the case right away. Where should I bring it when I find it?"
+  },
+  {
+    "id": "753",
+    "text": "If it's not too much trouble, it needs to be taken to the port of Massawa."
+  },
+  {
+    "id": "754",
+    "text": "Alright then, to the port of Massawa it will go."
+  },
+  {
+    "id": "755",
+    "text": "You were wise to leave this in his hands. He always finishes a job, no matter how hard it gets."
+  },
+  {
+    "id": "756",
+    "text": "He's a bit of a wise guy, Cap'n, but he looks like a trustworthy sort. Well, let's head for Massawa and let them know."
+  },
+  {
+    "id": "757",
+    "text": "Master $n, any signs of Lucia yet?"
+  },
+  {
+    "id": "758",
+    "text": "Not yet, but I'm still searching."
+  },
+  {
+    "id": "759",
+    "text": "Just leave it to the Cap'n. He'll take care of it."
+  },
+  {
+    "id": "760",
+    "text": "Thank you both."
+  },
+  {
+    "id": "761",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "762",
+    "text": "Any news from Pietro yet?"
+  },
+  {
+    "id": "763",
+    "text": "Not yet. He never communicates while he's at work. He never tells us anything until he's found what he's looking for."
+  },
+  {
+    "id": "764",
+    "text": "Master $n, where's Lucia? I miss her!!"
+  },
+  {
+    "id": "765",
+    "text": "There, there, don't cry. We're going to find her. It just takes time."
+  },
+  {
+    "id": "766",
+    "text": "The next time we come back, it will be with Lucia."
+  },
+  {
+    "id": "767",
+    "text": "Really? Oh wouldn't that be wonderful!"
+  },
+  {
+    "id": "768",
+    "text": "Master $n, have you found the staff yet?"
+  },
+  {
+    "id": "769",
+    "text": "Not yet. Please wait a little longer."
+  },
+  {
+    "id": "770",
+    "text": "The Turks have gotten closer to starting their attack."
+  },
+  {
+    "id": "771",
+    "text": "I know we are in no position to be making requests, but please find that staff as soon as possible."
+  },
+  {
+    "id": "772",
+    "text": "I wonder if he's found Poseidon's Staff yet?"
+  },
+  {
+    "id": "773",
+    "text": "All we can do is wait, I'm afraid."
+  },
+  {
+    "id": "774",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "775",
+    "text": "Still no news from Pietro?"
+  },
+  {
+    "id": "776",
+    "text": "No. He doesn't communicate with us until he's found what he's looking for. I doubt he will send any messages."
+  },
+  {
+    "id": "777",
+    "text": "Master $n, where's Lucia?!"
+  },
+  {
+    "id": "778",
+    "text": "Now wait. I'm trying. These things take time."
+  },
+  {
+    "id": "779",
+    "text": "He'll find her any day now, miss."
+  },
+  {
+    "id": "780",
+    "text": "Well, I sure hope you find her soon, 'cause I'm getting tired of waiting."
+  },
+  {
+    "id": "781",
+    "text": "Master $n, have you located the staff?"
+  },
+  {
+    "id": "782",
+    "text": "I'm sorry. We haven't had any news yet."
+  },
+  {
+    "id": "783",
+    "text": "I just knew it! We're doomed!"
+  },
+  {
+    "id": "784",
+    "text": "No, it's alright. Master $n tried his best to help us."
+  },
+  {
+    "id": "785",
+    "text": "It may be that our people are fated to be destroyed. There's no resisting destiny."
+  },
+  {
+    "id": "786",
+    "text": "Sir, please don't give up yet. We will fight against the Turkish hordes. Even though they are greater, we..."
+  },
+  {
+    "id": "787",
+    "text": "You don't know how much greater. And they will not attack only on land. They have amassed a great navy."
+  },
+  {
+    "id": "788",
+    "text": "If that's the case, then I will take care of the navy. You use the rest of the men to buy as much time as you can."
+  },
+  {
+    "id": "789",
+    "text": "You would do this much for us... Master $n, I don't know what to say."
+  },
+  {
+    "id": "790",
+    "text": "We have no time to lose. We must fight!"
+  },
+  {
+    "id": "791",
+    "text": "Have you heard? The Turkish forces have moved in to attack the port of Massawa."
+  },
+  {
+    "id": "792",
+    "text": "They've already started?!"
+  },
+  {
+    "id": "793",
+    "text": "Cap'n, lets get back to the Palace in Massawa."
+  },
+  {
+    "id": "794",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "795",
+    "text": "Any news from Pietro?"
+  },
+  {
+    "id": "796",
+    "text": "None sir. And there will be none, I'm sure, until he has found whatever he's looking for."
+  },
+  {
+    "id": "797",
+    "text": "Master $n, have you found her yet? Who? Lucia of course!"
+  },
+  {
+    "id": "798",
+    "text": "Oh, no, not yet. But I will."
+  },
+  {
+    "id": "799",
+    "text": "You can trust the Cap'n here. After all, he's with me."
+  },
+  {
+    "id": "800",
+    "text": "Please! Find her!"
+  },
+  {
+    "id": "801",
+    "text": "I've been looking for you, $n!"
+  },
+  {
+    "id": "802",
+    "text": "Ye! Again?! Ye couldn't have picked a worse time."
+  },
+  {
+    "id": "803",
+    "text": "But forget about that. We should ask her what she knows about Lucia."
+  },
+  {
+    "id": "804",
+    "text": "Lucia, oh, the waitress from Lisbon. I really must say I'm ashamed of what happened to her."
+  },
+  {
+    "id": "805",
+    "text": "So, you were the one that kidnapped her!"
+  },
+  {
+    "id": "806",
+    "text": "Though I didn't plan it that way, that's how it turned out."
+  },
+  {
+    "id": "807",
+    "text": "A pirate lied to me. He was working with that other pirate, Kahn, who attacked you when our paths first crossed."
+  },
+  {
+    "id": "808",
+    "text": "But an inadvertent kidnapping is nothing, compared to the vile deeds you have done."
+  },
+  {
+    "id": "809",
+    "text": "I'm flabbergasted by this crazy dame! Is there no end to her grudge against ye?"
+  },
+  {
+    "id": "810",
+    "text": "Later, Rocco. But what about Lucia? Is she safe?"
+  },
+  {
+    "id": "811",
+    "text": "I don't know. The pirates on the ship were all defeated, but she wasn't in any of the rooms."
+  },
+  {
+    "id": "812",
+    "text": "But enough of this chitchat. Draw your sword! My time for revenge has come!"
+  },
+  {
+    "id": "813",
+    "text": "Catalina, I'm sorry, but I don't have time for you right now. I've got to go fight the Turkish fleet."
+  },
+  {
+    "id": "814",
+    "text": "What?! You're going to take on the entire fleet out there?"
+  },
+  {
+    "id": "815",
+    "text": "You've seen them? The Turkish forces?"
+  },
+  {
+    "id": "816",
+    "text": "They were stopped in the bay of Aden, at the entrance to the Red Sea. They're going to attack this port?"
+  },
+  {
+    "id": "817",
+    "text": "That's exactly what they're going to do. And I have to protect it."
+  },
+  {
+    "id": "818",
+    "text": "So please let me pass. I don't know why you're after me, but I promise that after this battle, we will finally cross swords."
+  },
+  {
+    "id": "819",
+    "text": "Alright. I'll let you go this time."
+  },
+  {
+    "id": "820",
+    "text": "But don't forget your promise to fight me."
+  },
+  {
+    "id": "821",
+    "text": "|Butler Marco|\nWelcome back, Master $n."
+  },
+  {
+    "id": "822",
+    "text": "Did Pietro leave any messages?"
+  },
+  {
+    "id": "823",
+    "text": "No. He never leaves any messages when he's searching for something."
+  },
+  {
+    "id": "824",
+    "text": "Master $n, have you found Lucia?"
+  },
+  {
+    "id": "825",
+    "text": "No, but I'm sure she's OK."
+  },
+  {
+    "id": "826",
+    "text": "Leave everything to the Cap'n here. After all, he's with me."
+  },
+  {
+    "id": "827",
+    "text": "Well, then, find Lucia."
+  },
+  {
+    "id": "828",
+    "text": "We can't let them get to Massawa. Sink everything!"
+  },
+  {
+    "id": "829",
+    "text": "But Cap'n, there's too many of them for us to fight!"
+  },
+  {
+    "id": "830",
+    "text": "We can't win if we don't try. Let's put our faith in God."
+  },
+  {
+    "id": "831",
+    "text": "|Butler Marco|\nMaster $n, what a pleasant surprise."
+  },
+  {
+    "id": "832",
+    "text": "Any news from Pietro?"
+  },
+  {
+    "id": "833",
+    "text": "Nothing sir. He doesn't communicate with us when he's out searching."
+  },
+  {
+    "id": "834",
+    "text": "Master $n, where's Lucia?"
+  },
+  {
+    "id": "835",
+    "text": "I.. um.. haven't found her yet. But I'm sure she's alright."
+  },
+  {
+    "id": "836",
+    "text": "Leave everything to the Cap'n here. He's learning from me, you know!!"
+  },
+  {
+    "id": "837",
+    "text": "Well then, teach him something useful! Like how to find missing persons!"
+  },
+  {
+    "id": "838",
+    "text": "Hmmm, how many ships do you think they have?"
+  },
+  {
+    "id": "839",
+    "text": "Pietro will find the staff and bring it here. Until then we can only try and hold them off."
+  },
+  {
+    "id": "840",
+    "text": "Cap'n, there's another fleet approaching."
+  },
+  {
+    "id": "841",
+    "text": "Blast! Another enemy?!"
+  },
+  {
+    "id": "842",
+    "text": "No, wait a minute! I've seen that type of ship before. It's a Spanish warship, the 'Rebel.'"
+  },
+  {
+    "id": "843",
+    "text": "That's the pirate girl's ship!"
+  },
+  {
+    "id": "844",
+    "text": "$n, the battle was taking too long, so I'd thought I'd help you finish it up quickly."
+  },
+  {
+    "id": "845",
+    "text": "Catalina, why...?"
+  },
+  {
+    "id": "846",
+    "text": "Don't get me wrong. I haven't forgiven you. I just don't want anything to interfere with my revenge."
+  },
+  {
+    "id": "847",
+    "text": "Leave the other fleets to me. You take care of this one."
+  },
+  {
+    "id": "848",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "849",
+    "text": "Any news from our friend Pietro?"
+  },
+  {
+    "id": "850",
+    "text": "No sir. And I don't think there will be any until he delivers the staff to Massawa."
+  },
+  {
+    "id": "851",
+    "text": "$n, have you found Lucia?"
+  },
+  {
+    "id": "852",
+    "text": "Not... yet. But I'm working on it."
+  },
+  {
+    "id": "853",
+    "text": "He's a good boy and he tries. Don't be too hard on him, miss."
+  },
+  {
+    "id": "854",
+    "text": "I can't believe you haven't found her yet!"
+  },
+  {
+    "id": "855",
+    "text": "Master $n, you're alright!"
+  },
+  {
+    "id": "856",
+    "text": "How do we stand?"
+  },
+  {
+    "id": "857",
+    "text": "We've managed to hold them off. But it's just a matter of time."
+  },
+  {
+    "id": "858",
+    "text": "I knew that without Poseidon's Staff..."
+  },
+  {
+    "id": "859",
+    "text": "Hey, $n, sorry to keep you waiting."
+  },
+  {
+    "id": "860",
+    "text": "Pietro, did you find it? Did you bring Poseidon's Staff?"
+  },
+  {
+    "id": "861",
+    "text": "Oh yeah, about that staff. It looks like the Turkish Sultan has already gotten his hands on it."
+  },
+  {
+    "id": "862",
+    "text": "What?! That means that there is no hope of retrieving the lost power of Atlantis... They're doomed!"
+  },
+  {
+    "id": "863",
+    "text": "HaHaHa! Fooled you! I was just kidding. Here it is, Poseidon's Staff. The real thing."
+  },
+  {
+    "id": "864",
+    "text": "You got a lot of stuff there, so why don't we make an exchange, the Staff for the $r03."
+  },
+  {
+    "id": "865",
+    "text": "Ye have a terrible sense of humor. I thought I saw me life flash before me very eyes."
+  },
+  {
+    "id": "866",
+    "text": "There's not a treasure in the world that I can't find."
+  },
+  {
+    "id": "867",
+    "text": "But we owe you a lot. Thanks to you, the descendants of Atlantis will be saved."
+  },
+  {
+    "id": "868",
+    "text": "Hurry, we must give it to Lord Taphali!"
+  },
+  {
+    "id": "869",
+    "text": "Cap'n, it looks like we've taken care of the fleet."
+  },
+  {
+    "id": "870",
+    "text": "Alright then, let's go tell everybody at the palace."
+  },
+  {
+    "id": "871",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "872",
+    "text": "What's this? We're back in Lisbon?"
+  },
+  {
+    "id": "873",
+    "text": "Congratulations! Here's 10,000 gold pieces for your trouble."
+  },
+  {
+    "id": "874",
+    "text": "But you'd better get back to Massawa, or your new gold may disappear."
+  },
+  {
+    "id": "875",
+    "text": "Master $n, you've found Lucia?"
+  },
+  {
+    "id": "876",
+    "text": "Well, not exactly. But I have a pretty good idea where she may be."
+  },
+  {
+    "id": "877",
+    "text": "Cap'n, are ye sure ye should be telling her such lies?"
+  },
+  {
+    "id": "878",
+    "text": "Thank you, Rocco. (Slap!)"
+  },
+  {
+    "id": "879",
+    "text": "Master $n, you're unharmed!"
+  },
+  {
+    "id": "880",
+    "text": "How did you fare in the battle?"
+  },
+  {
+    "id": "881",
+    "text": "Well, we've managed to hold them off so far, but it's just a matter of time."
+  },
+  {
+    "id": "882",
+    "text": "We've finally got Poseidon's Staff! Quickly, show Lord Taphali!"
+  },
+  {
+    "id": "883",
+    "text": "So this is Poseidon's Staff..."
+  },
+  {
+    "id": "884",
+    "text": "Welcome Master $n."
+  },
+  {
+    "id": "885",
+    "text": "L ..Lord Taphali, l..look at this!"
+  },
+  {
+    "id": "886",
+    "text": "So this is Poseidon's Staff... It is just as it was described by our ancestors."
+  },
+  {
+    "id": "887",
+    "text": "Now we can show them the power of Atlantis!"
+  },
+  {
+    "id": "888",
+    "text": "Hmmm, Master $n, we have asked much of you. Thank you, thank you very much."
+  },
+  {
+    "id": "889",
+    "text": "Lord Taphali, please don't bow to me. I was glad to help."
+  },
+  {
+    "id": "890",
+    "text": "I don't think this was the secret of Atlantis my father wanted me to find, but I know he'd be glad that I could help."
+  },
+  {
+    "id": "891",
+    "text": "I don't really know how to thank you, but please accept this crown, created by our ancestors in ancient Atlantis."
+  },
+  {
+    "id": "892",
+    "text": "It is a mere token of my gratitude, and pales in comparison to all your efforts. But I hope it may help you in some way."
+  },
+  {
+    "id": "893",
+    "text": "Thank you, sir. It is with great honor that I accept."
+  },
+  {
+    "id": "894",
+    "text": "I'd like to have a party in your honor, but I'm afraid that would be a little difficult at this point in time."
+  },
+  {
+    "id": "895",
+    "text": "Once this war is over, please visit us again."
+  },
+  {
+    "id": "896",
+    "text": "Yes, my lord. I will be looking forward to that time. If you'll excuse me now, I have a promise that I must keep."
+  },
+  {
+    "id": "897",
+    "text": "I hope that the descendants of Atlantis find peace and happiness."
+  },
+  {
+    "id": "898",
+    "text": "May the winds be always at your back."
+  },
+  {
+    "id": "899",
+    "text": "Massawa"
+  },
+  {
+    "id": "900",
+    "text": "I've been waiting, $n."
+  },
+  {
+    "id": "901",
+    "text": "Catalina, thank you for your help. I guess we'd better get this over with."
+  },
+  {
+    "id": "902",
+    "text": "Catalina, may I ask you just one question?"
+  },
+  {
+    "id": "903",
+    "text": "What?"
+  },
+  {
+    "id": "904",
+    "text": "Why do you seek revenge against $n?"
+  },
+  {
+    "id": "905",
+    "text": "There is a witness. He told me of your family's foul deeds."
+  },
+  {
+    "id": "906",
+    "text": "On April 10, 1522, my brother's fleet docked at Santo Domingo. While they were loading supplies, they were attacked."
+  },
+  {
+    "id": "907",
+    "text": "The man responsible for giving the order to destroy the fleet was a member of the $s House."
+  },
+  {
+    "id": "908",
+    "text": "A banner with the emblem of the $s House, the red cross of the Malta Knights, hung from the main mast."
+  },
+  {
+    "id": "909",
+    "text": "Well, that's strange."
+  },
+  {
+    "id": "910",
+    "text": "What is? Who're you?"
+  },
+  {
+    "id": "911",
+    "text": "Oh, sorry. I'm a little bit late with introducing myself. Pietro Conti, adventurer extraordinaire."
+  },
+  {
+    "id": "912",
+    "text": "What's strange is the story you just told us about the $s Private Fleet. $n, why don't you tell her?"
+  },
+  {
+    "id": "913",
+    "text": "You may not believe this, but in April of 1522, the $s family did not have a private fleet."
+  },
+  {
+    "id": "914",
+    "text": "Certainly my father Leon $s had a strong fleet many years ago."
+  },
+  {
+    "id": "915",
+    "text": "But, he stopped going out to sea when he married my mother. In 1522, our fleet was merely part of the Royal Portuguese fleet."
+  },
+  {
+    "id": "916",
+    "text": "So in short, the $s House had no private fleet before I made mine."
+  },
+  {
+    "id": "917",
+    "text": "Then tell me who destroyed my brother Michael and my fiance, the Vice Commodore Hernan?!"
+  },
+  {
+    "id": "918",
+    "text": "I don't know. It might have been a Portuguese."
+  },
+  {
+    "id": "919",
+    "text": "But it's clear that the $s family had nothing to do with it."
+  },
+  {
+    "id": "920",
+    "text": "I don't know... I just don't understand."
+  },
+  {
+    "id": "921",
+    "text": "You may go now."
+  },
+  {
+    "id": "922",
+    "text": "If I have a chance, I will look into it. After all, somebody tried to stain the $s family name."
+  },
+  {
+    "id": "923",
+    "text": "Just go on. Get out of here. A female pirate doesn't need consolation from a Portuguese."
+  },
+  {
+    "id": "924",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "925",
+    "text": "Do try to be careful out there. The sea can be a dangerous place."
+  },
+  {
+    "id": "926",
+    "text": "Master $n, have you found Lucia?"
+  },
+  {
+    "id": "927",
+    "text": "Not yet. But I'll get on it right away."
+  },
+  {
+    "id": "928",
+    "text": "That's being brave, miss. No crying now."
+  },
+  {
+    "id": "929",
+    "text": "Please, please find her."
+  },
+  {
+    "id": "930",
+    "text": "Captain, I know this is very sudden, but I have a favor to ask of you."
+  },
+  {
+    "id": "931",
+    "text": "What's on your mind, Enrico? What's with the formality, all of the sudden?"
+  },
+  {
+    "id": "932",
+    "text": "Because my request is not from Enrico the sea dog, but Enrico the missionary."
+  },
+  {
+    "id": "933",
+    "text": "My travels with you so far have been very rewarding."
+  },
+  {
+    "id": "934",
+    "text": "I have seen and learned so much at our various stops. And I never thought I would see places like Africa with my own eyes."
+  },
+  {
+    "id": "935",
+    "text": "But in all the excitement, I have forgotten something very important. Zipangu and my missionary work there."
+  },
+  {
+    "id": "936",
+    "text": "To be honest, I wasn't ready to leave, that's why I didn't say anything. But it is now time for me to be on my way."
+  },
+  {
+    "id": "937",
+    "text": "Captain, please take me to Zipangu."
+  },
+  {
+    "id": "938",
+    "text": "I understand. It'll be hard to say good-bye to such a good mate, but I must uphold my original promise."
+  },
+  {
+    "id": "939",
+    "text": "There should be a port called Nagasaki in Zipangu. We'll drop you off there."
+  },
+  {
+    "id": "940",
+    "text": "I'm sorry to take you so far out of your way."
+  },
+  {
+    "id": "941",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "942",
+    "text": "My next voyage will be to Zipangu. I must take Brother Enrico to Nagasaki, so I won't be back for a while."
+  },
+  {
+    "id": "943",
+    "text": "Thank you for all your help, Marco."
+  },
+  {
+    "id": "944",
+    "text": "Really, it was nothing. It won't be the same without you."
+  },
+  {
+    "id": "945",
+    "text": "What can I do for you, Master $n."
+  },
+  {
+    "id": "946",
+    "text": "I was wondering if I could see Prince Alberto?"
+  },
+  {
+    "id": "947",
+    "text": "I understand. Please wait here."
+  },
+  {
+    "id": "948",
+    "text": "Why hello there $n, this is a surprise."
+  },
+  {
+    "id": "949",
+    "text": "Well, I'm taking Enrico to Nagasaki in Zipangu."
+  },
+  {
+    "id": "950",
+    "text": "So this will be the last time I will ever see you, your majesty, my Prince."
+  },
+  {
+    "id": "951",
+    "text": "I see. Well, we'll miss you."
+  },
+  {
+    "id": "952",
+    "text": "How may I help you, Master $n."
+  },
+  {
+    "id": "953",
+    "text": "Carlotta, we're leaving to take Brother Enrico to Nagasaki, in Zipangu."
+  },
+  {
+    "id": "954",
+    "text": "Thank you for everything, miss."
+  },
+  {
+    "id": "955",
+    "text": "Really? That's terrible. *Sniff* I hate good-byes."
+  },
+  {
+    "id": "956",
+    "text": "I just want you to know that I'll keep my ears open for any news of Lucia. If I hear anything, I'll send a letter."
+  },
+  {
+    "id": "957",
+    "text": "Thank you for everything."
+  },
+  {
+    "id": "958",
+    "text": "Captain, before I leave, please make someone else captain of my ship, or sell it."
+  },
+  {
+    "id": "959",
+    "text": "Of course. Leave everything to me."
+  },
+  {
+    "id": "960",
+    "text": "Captain, I can't thank you enough."
+  },
+  {
+    "id": "961",
+    "text": "I have so much to learn! I'm excited, but also sad to part with such a good friend. Please take care of yourself."
+  },
+  {
+    "id": "962",
+    "text": "(Sigh) He's gone."
+  },
+  {
+    "id": "963",
+    "text": "It's just not the same without him."
+  },
+  {
+    "id": "964",
+    "text": "So this is Nagasaki? It's got a lot of character. I wouldn't mind living in a place like this."
+  },
+  {
+    "id": "965",
+    "text": "A long time ago, Duke Leon, came to this port when he was just about your age."
+  },
+  {
+    "id": "966",
+    "text": "Their sake is really delicious."
+  },
+  {
+    "id": "967",
+    "text": "The people here are very nice. I'm sure I'll make many friends and learn a great deal."
+  },
+  {
+    "id": "968",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "969",
+    "text": "$n, you've become quite a respectable mariner in your own right."
+  },
+  {
+    "id": "970",
+    "text": "But, you must not underestimate the power of Mother Nature."
+  },
+  {
+    "id": "971",
+    "text": "Master $n, have you found Lucia?"
+  },
+  {
+    "id": "972",
+    "text": "Not yet, unfortunately. But have you received any word from Brother Enrico?"
+  },
+  {
+    "id": "973",
+    "text": "No, but it doesn't matter. I've given up on Lucia anyway."
+  },
+  {
+    "id": "974",
+    "text": "Don't say that! Lucia will be back. I'm sure of it."
+  },
+  {
+    "id": "975",
+    "text": "|Butler Marco|\nMaster $n, nice to see you."
+  },
+  {
+    "id": "976",
+    "text": "It seems there's a letter for you at the Guild, Master $n."
+  },
+  {
+    "id": "977",
+    "text": "Master $n, have you located Lucia?"
+  },
+  {
+    "id": "978",
+    "text": "Not yet. Any news from Brother Enrico?"
+  },
+  {
+    "id": "979",
+    "text": "As a matter of fact, there's a letter addressed to Master $n at the guild right now."
+  },
+  {
+    "id": "980",
+    "text": "It could be from Brother Enrico."
+  },
+  {
+    "id": "981",
+    "text": "Cap'n, let's check it out."
+  },
+  {
+    "id": "982",
+    "text": "Hey there. There's a letter here for you."
+  },
+  {
+    "id": "983",
+    "text": "Who's it from?"
+  },
+  {
+    "id": "984",
+    "text": "Now don't get too excited. It's from Brother Enrico, who you used to travel with."
+  },
+  {
+    "id": "985",
+    "text": "Shiver me timbers, that's good news! Cap'n, hurry up and read it."
+  },
+  {
+    "id": "986",
+    "text": "Hmmm, ah, here we are, 'Captain, I hope all is well. Have you already found the secret of the land lost to the sea?'"
+  },
+  {
+    "id": "987",
+    "text": "Always talking in puzzles, that bloke. He must mean Atlantis, the secret of Atlantis."
+  },
+  {
+    "id": "988",
+    "text": "'If you haven't already found it, then I have some information that may be very useful. I would like to share it with you.'"
+  },
+  {
+    "id": "989",
+    "text": "I can't believe he's making us go there to hear it! Why didn't he just write it in the letter?"
+  },
+  {
+    "id": "990",
+    "text": "Wait a minute. There's more. 'I thought of writing it in this letter, but the information is very important.'"
+  },
+  {
+    "id": "991",
+    "text": "'If the wrong person were to read this, we would be in deep trouble. So please come to see me in Zipangu.'"
+  },
+  {
+    "id": "992",
+    "text": "'I am now in the port of Sakai. I think of you all often, and hope all is going well. Sincerely, Enrico.'"
+  },
+  {
+    "id": "993",
+    "text": "Well, he certainly didn't write very much, did he?"
+  },
+  {
+    "id": "994",
+    "text": "I guess, we'll understand once we see him."
+  },
+  {
+    "id": "995",
+    "text": "That's true."
+  },
+  {
+    "id": "996",
+    "text": "Master $n, there's a letter addressed to you at the guild."
+  },
+  {
+    "id": "997",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "998",
+    "text": "Have you already been to the guild to get your letter?"
+  },
+  {
+    "id": "999",
+    "text": "Yes, it was from Brother Enrico. Actually, we're planning to go to Zipangu and see him."
+  },
+  {
+    "id": "1000",
+    "text": "So I wanted to tell you that we won't be back for quite a while."
+  },
+  {
+    "id": "1001",
+    "text": "I see. I will pass your message on to the Duke."
+  },
+  {
+    "id": "1002",
+    "text": "Well, take care. And tell Brother Enrico that I said hello."
+  },
+  {
+    "id": "1003",
+    "text": "OK, I'll tell him."
+  },
+  {
+    "id": "1004",
+    "text": "Hello there, Master $n. Now what did Brother Enrico say?"
+  },
+  {
+    "id": "1005",
+    "text": "We don't really know. We have to go to Sakai and ask him..."
+  },
+  {
+    "id": "1006",
+    "text": "Oh, I see..."
+  },
+  {
+    "id": "1007",
+    "text": "What's wrong? This isn't like ye at all. Cheer up, will you?"
+  },
+  {
+    "id": "1008",
+    "text": "So, Enrico, how's life in Zipangu?"
+  },
+  {
+    "id": "1009",
+    "text": "Captain, it's wonderful to see you again! How have you been?"
+  },
+  {
+    "id": "1010",
+    "text": "Just great, thanks! And it's good to see you, too!"
+  },
+  {
+    "id": "1011",
+    "text": "So what's this information about the land of Atlantis?"
+  },
+  {
+    "id": "1012",
+    "text": "That was a pretty serious sounding letter you sent."
+  },
+  {
+    "id": "1013",
+    "text": "I'm sorry it was so ambiguous, but we can't let anyone else find out about this."
+  },
+  {
+    "id": "1014",
+    "text": "Actually, I sent that letter about a month ago, after I met a mariner from Holland. His name was Ernst Von Bohr."
+  },
+  {
+    "id": "1015",
+    "text": "Ernst has been traveling the globe, making a map of the world."
+  },
+  {
+    "id": "1016",
+    "text": "So, I asked him if he knew anything about the secret of Atlantis..."
+  },
+  {
+    "id": "1017",
+    "text": "And?"
+  },
+  {
+    "id": "1018",
+    "text": "He said he had heard rumors. And according to those rumors... Atlantis is on a large river in the New World."
+  },
+  {
+    "id": "1019",
+    "text": "That's ridiculous! It sunk into the ocean years ago! There's no way it could be there."
+  },
+  {
+    "id": "1020",
+    "text": "I said the same thing. He was quiet for a while and then he whispered to me, 'It's a man-made thing, a plot by some Portuguese.'"
+  },
+  {
+    "id": "1021",
+    "text": "And Ernst found it. This man-made Atlantis."
+  },
+  {
+    "id": "1022",
+    "text": "Upon hearing that, I wrote to you immediately. I left out all the details just in case it happened to fall into the wrong hands."
+  },
+  {
+    "id": "1023",
+    "text": "But the Duke wanted ye to find the secret to the real Atlantis, not some fake one."
+  },
+  {
+    "id": "1024",
+    "text": "That may not be true."
+  },
+  {
+    "id": "1025",
+    "text": "Exactly."
+  },
+  {
+    "id": "1026",
+    "text": "It may just be that the secret the Duke $s is looking for... is the fake Atlantis!"
+  },
+  {
+    "id": "1027",
+    "text": "You're right. My father may have heard about it somewhere and so that's why he sent me out to find it."
+  },
+  {
+    "id": "1028",
+    "text": "So, did that Ernst fellow tell you where we could find this fake?"
+  },
+  {
+    "id": "1029",
+    "text": "Well, he didn't tell me exactly, he just pointed to it on the map."
+  },
+  {
+    "id": "1030",
+    "text": "It was a place on a river in the southern part of the New World."
+  },
+  {
+    "id": "1031",
+    "text": "The South American continent, eh? I guess we'll just have to go and take a look."
+  },
+  {
+    "id": "1032",
+    "text": "I'm afraid I'm too busy with my missions to join you, but please be careful."
+  },
+  {
+    "id": "1033",
+    "text": "Thanks Enrico, you've been a real help. Keep up the good work."
+  },
+  {
+    "id": "1034",
+    "text": "Oh, I almost forgot. Marco the butler told me to say hello from him."
+  },
+  {
+    "id": "1035",
+    "text": "Marco? How's he doing? Please tell him that I'm doing fine."
+  },
+  {
+    "id": "1036",
+    "text": "OK, I'll tell him when I get back."
+  },
+  {
+    "id": "1037",
+    "text": "Excuse me, can I ask you a question."
+  },
+  {
+    "id": "1038",
+    "text": "Oh, a foreigner. What do you want?"
+  },
+  {
+    "id": "1039",
+    "text": "We... are... looking... for... a... Portuguese... named... Enrico.  Do... you... know... him?"
+  },
+  {
+    "id": "1040",
+    "text": "Cap'n, this is a game, ye can speak normally."
+  },
+  {
+    "id": "1041",
+    "text": "You're a pretty strange foreigner. The man you're looking for is a Franciscan missionary, right? He lives to the south of here."
+  },
+  {
+    "id": "1042",
+    "text": "|Butler Marco|\nWelcome home, Master $n."
+  },
+  {
+    "id": "1043",
+    "text": "Brother Enrico sends his best and says he's doing fine."
+  },
+  {
+    "id": "1044",
+    "text": "Really? That's nice to hear."
+  },
+  {
+    "id": "1045",
+    "text": "We're going to the South American continent this time. I think we may find a clue to the secret of Atlantis."
+  },
+  {
+    "id": "1046",
+    "text": "That's wonderful news. But I never would have thought that you'd find an answer in the New World."
+  },
+  {
+    "id": "1047",
+    "text": "Master $n, what did Brother Enrico say?"
+  },
+  {
+    "id": "1048",
+    "text": "Unfortunately, he didn't have any information about Lucia."
+  },
+  {
+    "id": "1049",
+    "text": "Oh... (Sniff) Wah!"
+  },
+  {
+    "id": "1050",
+    "text": "There, there, don't cry. That's not like you at all."
+  },
+  {
+    "id": "1051",
+    "text": "I guess I should just (Sniff) give up! Wah!"
+  },
+  {
+    "id": "1052",
+    "text": "Pirate"
+  },
+  {
+    "id": "1053",
+    "text": "Rudolph"
+  },
+  {
+    "id": "1054",
+    "text": "Stay away from me. I'm warning you. You'll be really sorry!"
+  },
+  {
+    "id": "1055",
+    "text": "|Pirate Rudolph|\nHeh, heh, heh... Your threats don't frighten me, girlie!"
+  },
+  {
+    "id": "1056",
+    "text": "We're in the middle of South America. Who do you think is going to come and save you?"
+  },
+  {
+    "id": "1057",
+    "text": "Hey! Aren't ye Lucia?!"
+  },
+  {
+    "id": "1058",
+    "text": "Rocco, let's save her!"
+  },
+  {
+    "id": "1059",
+    "text": "Don't get too full of yourself, now."
+  },
+  {
+    "id": "1060",
+    "text": "We'll finish you off when we take care of the girl."
+  },
+  {
+    "id": "1061",
+    "text": "Rocco, what's the matter?"
+  },
+  {
+    "id": "1062",
+    "text": "I'm sorry. One of his underlings took Lucia as a hostage."
+  },
+  {
+    "id": "1063",
+    "text": "Master $n, don't worry about me. Just try to escape."
+  },
+  {
+    "id": "1064",
+    "text": "That's it. Just drop your swords and line up over there."
+  },
+  {
+    "id": "1065",
+    "text": "No way! I'm not going to take orders from you!"
+  },
+  {
+    "id": "1066",
+    "text": "Foolish one - don't you know when to give up?"
+  },
+  {
+    "id": "1067",
+    "text": "Ouch!"
+  },
+  {
+    "id": "1068",
+    "text": "$n, I'll take care of these hoodlums, so take this opportunity and save Lucia!"
+  },
+  {
+    "id": "1069",
+    "text": "Thanks, Catalina. I owe you one!"
+  },
+  {
+    "id": "1070",
+    "text": "Cap'n, this is no pub!"
+  },
+  {
+    "id": "1071",
+    "text": "I know that!"
+  },
+  {
+    "id": "1072",
+    "text": "Whew. It looks like we made it to South America without any trouble."
+  },
+  {
+    "id": "1073",
+    "text": "Aye, but what do we do now?"
+  },
+  {
+    "id": "1074",
+    "text": "Ahoy, Cap'n, those people are chasing someone. Do ye think there'll be a fight?"
+  },
+  {
+    "id": "1075",
+    "text": "They went to the pub. Come on, Rocco, let's go check it out."
+  },
+  {
+    "id": "1076",
+    "text": "I don't have any idea, so let's just take a look around."
+  },
+  {
+    "id": "1077",
+    "text": "I think we're alright. We've made it this far."
+  },
+  {
+    "id": "1078",
+    "text": "Lucia, are you alright?"
+  },
+  {
+    "id": "1079",
+    "text": "Thank you, $n."
+  },
+  {
+    "id": "1080",
+    "text": "Miss Lucia, how did ye end up way out here?"
+  },
+  {
+    "id": "1081",
+    "text": "It would take a long time to explain everything, but I'll try to keep it short."
+  },
+  {
+    "id": "1082",
+    "text": "It seems like a lifetime ago, when I was abducted and put on a ship by that pirate lady."
+  },
+  {
+    "id": "1083",
+    "text": "She told me that some noble wanted to talk to me, and I thought she meant you."
+  },
+  {
+    "id": "1084",
+    "text": "I didn't think that Catalina was doing anything bad, but she ended up taking me to Marquis Martinez."
+  },
+  {
+    "id": "1085",
+    "text": "I was kidnapped to keep me quiet, because I had learned the secret of Neo-Atlantis."
+  },
+  {
+    "id": "1086",
+    "text": "I had overheard him giving orders to his crew in the pub. They're planning something horrible."
+  },
+  {
+    "id": "1087",
+    "text": "They're posing as the descendants of Atlantis and forcing the natives to dig for their so-called buried ruins."
+  },
+  {
+    "id": "1088",
+    "text": "They've hired the worst pirates around, and made an army to take over not only Turkish regions, but the entire world."
+  },
+  {
+    "id": "1089",
+    "text": "Well, there's no way we're going to let that happen."
+  },
+  {
+    "id": "1090",
+    "text": "You're right about that, Cap'n. We can't let them just take over other countries."
+  },
+  {
+    "id": "1091",
+    "text": "But Lucia, how did you manage to escape?"
+  },
+  {
+    "id": "1092",
+    "text": "I was put in the dungeon of Neo-Atlantis, but one day a strange man rescued me."
+  },
+  {
+    "id": "1093",
+    "text": "That old man seemed to be a prisoner as well. I tried to escape with him by ship, but we were discovered by the Neo-Atlanteans."
+  },
+  {
+    "id": "1094",
+    "text": "I got separated from the old man, but I was able to escape and ended up here."
+  },
+  {
+    "id": "1095",
+    "text": "I see. Rocco, if we get the Marquis Martinez, then the rest of the Neo-Atlantis operation should just fall apart."
+  },
+  {
+    "id": "1096",
+    "text": "Lucia, do you have any idea where Martinez is now?"
+  },
+  {
+    "id": "1097",
+    "text": "I guess he'd be in that horrible slave town, but I was only concerned with my escape, so I don't know where it is."
+  },
+  {
+    "id": "1098",
+    "text": "Don't worry about it, Lucia. My orders are to find that town anyway."
+  },
+  {
+    "id": "1099",
+    "text": "I'll get Martinez for this. I swear it."
+  },
+  {
+    "id": "1100",
+    "text": "No you won't! That's my job!"
+  },
+  {
+    "id": "1101",
+    "text": "Catalina! You're alright! But how did you find us?"
+  },
+  {
+    "id": "1102",
+    "text": "I know who sank my brother's ship. It was Martinez!"
+  },
+  {
+    "id": "1103",
+    "text": "What?!"
+  },
+  {
+    "id": "1104",
+    "text": "My brother was ordered to explore the New World. While there, he found out about the Portuguese Neo-Atlantis plot."
+  },
+  {
+    "id": "1105",
+    "text": "According to the Tordesillas treaty, west of 46@W is Spanish land. Neo-Atlantis was a clear violation of the treaty."
+  },
+  {
+    "id": "1106",
+    "text": "I see. So Martinez tried to keep your brother quiet and attacked his ship before he could report it. A devious plan."
+  },
+  {
+    "id": "1107",
+    "text": "I know where Martinez is, but it's a fortress. We won't be able to take it by ourselves."
+  },
+  {
+    "id": "1108",
+    "text": "But I still have a stubborn goat following me."
+  },
+  {
+    "id": "1109",
+    "text": "Commander Ezequiel and his 'Invincible Fleet.'"
+  },
+  {
+    "id": "1110",
+    "text": "Exactly. He's still after me and is somewhere in the vicinity."
+  },
+  {
+    "id": "1111",
+    "text": "Even if we both attacked head on, I'm not too sure we could win. But we do have another option."
+  },
+  {
+    "id": "1112",
+    "text": "What's that?"
+  },
+  {
+    "id": "1113",
+    "text": "If we tell Commander Ezequiel about Martinez and Neo-Atlantis, he'll probably join up with us."
+  },
+  {
+    "id": "1114",
+    "text": "What are you talking about?! I'm a pirate being chased by the Spanish Navy and you're from Portugal, an enemy country!"
+  },
+  {
+    "id": "1115",
+    "text": "Well, it won't work if we don't give it a try. We don't have any other choice."
+  },
+  {
+    "id": "1116",
+    "text": "I guess you're right. Besides, I've grown tired of fighting with the Spanish Navy. I've been thinking about surrendering."
+  },
+  {
+    "id": "1117",
+    "text": "OK then, we'll leave tomorrow morning. Lucia is tired, and you must be too."
+  },
+  {
+    "id": "1118",
+    "text": "Tomorrow is fine with me."
+  },
+  {
+    "id": "1119",
+    "text": "Tomorrow is the big day. Why don't we all get a good night's sleep at the lodge?"
+  },
+  {
+    "id": "1120",
+    "text": "It's still a little early, so why don't we go rest at the lodge?"
+  },
+  {
+    "id": "1121",
+    "text": "$n, you always act so slowly. Come on, let's leave tomorrow."
+  },
+  {
+    "id": "1122",
+    "text": "|Ezequiel|\nYou there! Stop your fleet, or we'll attack!"
+  },
+  {
+    "id": "1123",
+    "text": "Wait! I have to talk with Commander Ezequiel!"
+  },
+  {
+    "id": "1124",
+    "text": "I am Commander Ezequiel."
+  },
+  {
+    "id": "1125",
+    "text": "I am $n $s of the $s House of Portugal."
+  },
+  {
+    "id": "1126",
+    "text": "We have no desire to fight with you, we only needed to talk. That's why we were looking for you."
+  },
+  {
+    "id": "1127",
+    "text": "And I have no desire to fight with a nobleman. But I am bound by my duties to destroy that pirate."
+  },
+  {
+    "id": "1128",
+    "text": "I will hear you out after I have dealt with her."
+  },
+  {
+    "id": "1129",
+    "text": "Wait, Commander. I am surrendering."
+  },
+  {
+    "id": "1130",
+    "text": "What?!"
+  },
+  {
+    "id": "1131",
+    "text": "So please listen to what this Portuguese sailor has to say. Please, Commander."
+  },
+  {
+    "id": "1132",
+    "text": "If that's the case then, I will listen to you. Please, go ahead."
+  },
+  {
+    "id": "1133",
+    "text": "This is embarrassing, but I must tell you about an internal rivalry that is threatening the stability of Portugal."
+  },
+  {
+    "id": "1134",
+    "text": "It's between those who seek liberal reforms, led by Duke $s, and the conservative nobles led by the Marquis Martinez."
+  },
+  {
+    "id": "1135",
+    "text": "The $s family is poor, but they have the support of both the people and his royal majesty, the King."
+  },
+  {
+    "id": "1136",
+    "text": "Martinez wants to destroy this, so he has come up with a terrible plan."
+  },
+  {
+    "id": "1137",
+    "text": "They have built a replica of Atlantis in South America, deep in the forests."
+  },
+  {
+    "id": "1138",
+    "text": "They have gathered a navy of the worst pirates and are going to begin attacking the nations of the world."
+  },
+  {
+    "id": "1139",
+    "text": "They call their stronghold Neo-Atlantis. And their goal is the subjugation of the entire world!"
+  },
+  {
+    "id": "1140",
+    "text": "The Neo-Atlantis fortress is located on the Amazon river."
+  },
+  {
+    "id": "1141",
+    "text": "My brother Michael found this and was silenced by Martinez before he could report it."
+  },
+  {
+    "id": "1142",
+    "text": "Hmm, according to our scouts, there is a strange fortress on the Amazon."
+  },
+  {
+    "id": "1143",
+    "text": "It may be that this is the Neo-Atlantis of which you speak."
+  },
+  {
+    "id": "1144",
+    "text": "If that's the truth, I cannot let this Martinez continue his evil ways. I will fight with you, for all of Iberia."
+  },
+  {
+    "id": "1145",
+    "text": "Thank you. We will lead, so please follow us."
+  },
+  {
+    "id": "1146",
+    "text": "Heh, heh, heh. How long are you going to spend running around?"
+  },
+  {
+    "id": "1147",
+    "text": "Heh, heh, heh. I guess you weren't destined to beat me after all."
+  },
+  {
+    "id": "1148",
+    "text": "Martinez! We've seen through your plot!"
+  },
+  {
+    "id": "1149",
+    "text": "Hah! So what! It just means that I will destroy all of you!"
+  },
+  {
+    "id": "1150",
+    "text": "My fleet will attack the fortress. I'll leave the rest up to you two."
+  },
+  {
+    "id": "1151",
+    "text": "I'm leaving Martinez up to you. I'll take care of the rest of his fleet. Just get Martinez for me."
+  },
+  {
+    "id": "1152",
+    "text": "Remember your promise. Avenge my brother."
+  },
+  {
+    "id": "1153",
+    "text": "Cap'n, ye're aiming for Catalina. Do ye really want to attack?"
+  },
+  {
+    "id": "1154",
+    "text": "I can't believe this! Yer obviously not playing with a full deck!"
+  },
+  {
+    "id": "1155",
+    "text": "Cap'n, how could ye do such a cruel and spiteful thing?"
+  },
+  {
+    "id": "1156",
+    "text": "Your cruelty is matched only by your stupidity. Didn't you realize that by attacking me, all your skills would drop?"
+  },
+  {
+    "id": "1157",
+    "text": "She's right, $n. There's no way you'll see the ending now."
+  },
+  {
+    "id": "1158",
+    "text": "Hmmm... I guess this means I need to start over."
+  },
+  {
+    "id": "1159",
+    "text": "Spiteful"
+  },
+  {
+    "id": "1160",
+    "text": "Whew, thank goodness he said no."
+  },
+  {
+    "id": "1161",
+    "text": "Did you say something?"
+  },
+  {
+    "id": "1162",
+    "text": "No, nothing, Catalina."
+  },
+  {
+    "id": "1163",
+    "text": "Cap'n, we've targeted Commander Ezequiel and the Spanish fleet. Ye're not really going to attack, are ye?"
+  },
+  {
+    "id": "1164",
+    "text": "I can't believe ye! Ye've gone off the deep end now."
+  },
+  {
+    "id": "1165",
+    "text": "Cap'n, I'm going to say this as plainly as I can. Yer a real nitwit."
+  },
+  {
+    "id": "1166",
+    "text": "Nitwit doesn't quite describe it. Didn't you realize that attacking my fleet would cause all your abilities to drop?"
+  },
+  {
+    "id": "1167",
+    "text": "You sir, are a cabbage head. There's no way we could allow someone of your caliber to see the ending."
+  },
+  {
+    "id": "1168",
+    "text": "Hmm... I guess I need to reset, huh?"
+  },
+  {
+    "id": "1169",
+    "text": "Nitwit"
+  },
+  {
+    "id": "1170",
+    "text": "Whew, that was close. Good thing he said no."
+  },
+  {
+    "id": "1171",
+    "text": "Did you say something?"
+  },
+  {
+    "id": "1172",
+    "text": "No, nothing at all, Miss."
+  },
+  {
+    "id": "1173",
+    "text": "No!! My fleet!! All my dreams..."
+  },
+  {
+    "id": "1174",
+    "text": "Your dreams have been crushed?! You deserve it, for the evil you sowed in this life!"
+  },
+  {
+    "id": "1175",
+    "text": "Captain..."
+  },
+  {
+    "id": "1176",
+    "text": "What is it, Rocco?"
+  },
+  {
+    "id": "1177",
+    "text": "It's nothing... I just felt like I was watching your father when he was your age."
+  },
+  {
+    "id": "1178",
+    "text": "Thanks Rocco. You know, I think it's time to go home."
+  },
+  {
+    "id": "1179",
+    "text": "$n."
+  },
+  {
+    "id": "1180",
+    "text": "Catalina, how did it go?"
+  },
+  {
+    "id": "1181",
+    "text": "As soon as they saw Martinez fall, they just scrambled and ran."
+  },
+  {
+    "id": "1182",
+    "text": "It looks like Commander Ezequiel took care of the fortress."
+  },
+  {
+    "id": "1183",
+    "text": "Cap'n, I've just spotted Commander Ezequiel's vessel. He's raised a signal flag."
+  },
+  {
+    "id": "1184",
+    "text": "What does it say?"
+  },
+  {
+    "id": "1185",
+    "text": "'I congratulate you on your victory and vow to find and fight you again.' That's all, sir."
+  },
+  {
+    "id": "1186",
+    "text": "Find and fight again...? I'd much rather meet him as a friend next time."
+  },
+  {
+    "id": "1187",
+    "text": "Cap'n, what response should we send?"
+  },
+  {
+    "id": "1188",
+    "text": "Forget it. Let's just head for home."
+  }
+]

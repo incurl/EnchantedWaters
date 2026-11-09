@@ -1,0 +1,972 @@
+id,text
+0,"What's with you anyway, $n? You show up here even though you don't have any money. You're just after Ladia."
+1,"But you don't have a chance. Ladia doesn't talk to guys without money, no matter how much they may love her."
+2,"No harm in trying, right?"
+3,"Sure I've got no money now, but someday I may be a rich man. You never know."
+4,"Aw, forget it kid. You've no idea what you're talking about."
+5,"I almost forgot. Your friend, Salim, was just here. Looked like he had some serious things on his mind."
+6,"Thanks, I've heard. I was just getting ready to find him."
+7,"Ah, good timing! I've got a great proposal for you."
+8,No way. Your 'great proposals' always cause me problems. You even got Salim into trouble the last time.
+9,That reminds me. Salim is looking for you. He headed off to the shipyard in a rush. He looked pretty serious.
+10,"Well now, hello there, $n. What can I do for you today? Another deposit?"
+11,You have exactly 1000 gold pieces in your account. What's that? You're not depositing...?
+12,"Oh, your friend, Salim, was here looking for you. He headed off for the shipyard."
+13,"Hello there $n, it looks like you're working hard."
+14,I've been watching you work ever since you were a kid.
+15,"So, just stop by whenever you need a rest. I won't charge you for it, so just relax."
+16,"|Friend Salim|
+Oh there you are, $n! I've been looking all over for you."
+17,"What's wrong, Salim? You look upset. This isn't like you at all."
+18,"You remember that wreck that drifted into the port yesterday? That was my father's ship. I heard it was a Latin ship, but I never thought..."
+19,I quit the navy because I thought I'd be able to help out with my father's business... We bragged about how much money we were going to make...
+20,"It looks like I'm all alone now, no family..."
+21,"Oh, I'm really sorry."
+22,"Hey, don't think twice about it. I've been living alone, separated from my parents and sister ever since I was just a lad. I've gotten used to it."
+23,"Besides, I'm not alone, and neither are you. We've got each other."
+24,"But, what are you doing here?"
+25,"I had them bring my father's ship here. I couldn't find you, so I had this fellow help me out."
+26,"And guess what? He said if we fixed the ship up, we'd be able to use it."
+27,"You're not..no..not repairing it, are you? Do you have any idea how much repairs could cost?!"
+28,"I figured that if I talked to you about it, we'd get the money somehow."
+29,"What? Are you crazy? Sure, I've got a little money saved, but it took me forever to save even that. You know that."
+30,"Oh, is that ye $n? The ship is still under repairs. It'll take a little while longer."
+31,"Ah, I wanted to talk to you about that... How much are the repairs going to cost?"
+32,"Let's see now... lumber, labor... It all comes to 1000 gold pieces."
+33,There goes my savings...
+34,Eh? Did you say something?
+35,"Nothing, sir. Actually, my friend and I here are going to take this ship and go into business."
+36,"Your own business, eh?"
+37,"So, what do you say? Would you consider waiting for payment until we've gotten our business under way?"
+38,"A delayed payment... OK. I'll go along with that. But, it'll cost you ten times what it does now.. 10,000 in gold."
+39,"10,000!? ... well, alright then, we'll accept your terms."
+40,"Good then. Work hard though, I want my money... (Sigh) back to repairs then."
+41,"See, I knew you'd work something out. But what did you mean by starting a business? What have you got in mind?"
+42,"Why, trade of course, you simpleton. What other business would you do by ship?"
+43,"Trade, huh? Well what are we going to do about start-up capital? We can't trade without any money."
+44,We'll get the villagers to give us money. We'll tell them we know of a 'golden business opportunity.'
+45,"It'll be a piece of cake! If they show any interest at all, I'll dazzle them with my silver tongue, and then we'll have our money."
+46,Isn't that dishonest?
+47,"Not at all. It's all investments. We'll pay them back at least double what they gave us. As long as we have some money to start with, everything'll be alright."
+48,You're pretty smart there. And we can search for your sister along the way.
+49,My long lost sister Sapha... I'd sure like to try and find her.
+50,But I haven't seen her in years. She could be anywhere!
+51,I'm sure we'll find her. We can search the world as we do business.
+52,"Well, now that that's decided, we'd better try to round up some cash."
+53,Let's check all the buildings in town.
+54,"Go on home, you've got no place here. Go on!"
+55,Huh? There doesn't seem to be anybody here. It must be abandoned.
+56,"Oh $n, are you here to ask for more work? Too bad, I've got all the help I need right now."
+57,"Don't you think it's about time you found yourself a steady job? Then again, I suppose you wouldn't be able to handle that, would you?"
+58,Salim was in here looking for you. Looked like he had something pretty important on his mind. He went off in the direction of the shipyard.
+59,Don't hesitate to come by if you've got any problems. I'd be happy to help. I try to keep up with all the new happenings in town.
+60,"I'm looking forward to your return, as a rich man of course."
+61,"Listen, I've got a great business proposition for you."
+62,A great business proposition? Why should I trust you?
+63,"Hmph, here I come with a great business deal for you and you just turn me away. Oh well, your loss. Let's go find someone else Salim."
+64,Too bad... you could have been rich.
+65,"|Waitress at the Pub|
+Wait a minute. How about telling me what your deal is?"
+66,"Oh, hello there Ladia. Sure, I'll tell you."
+67,My friend and I here just got our hands on a ship. And we figured we'd go into the trading business.
+68,"Right, trading. $n here has a real head for it."
+69,"But if we're going to trade, it's best to start with a good amount of cash."
+70,"How about it? Would you like to make an investment? If you give me 1000 gold pieces now, I promise you'll get back tenfold."
+71,Sounds intriguing. I've managed to save up a little money while working here at the pub.
+72,"If you really can increase my money like you say, then I'll give you my savings. Here's my 1000 gold pieces."
+73,You can count on me. I promise I'll be back with your money!
+74,"You'd better pay me back, or I'll never forgive you!"
+75,"You're not used to sailing, so I suggest you don't try to travel too far at first."
+76,"And you've got to hire some sailors, or you won't even make it out of the harbor."
+77,It's also a good idea to load as much food and water as you can. Keep in mind that the winds and currents can cause unexpected delays.
+78,"Thanks for the advice. I'll be back soon with your money, 10 times what you gave me - 10,000 in gold!"
+79,"Ah, you caught me at a good time. I've got a business proposition for you."
+80,No way. Your 'great proposals' always get me into trouble. You even caused Salim a load of trouble last time.
+81,"Besides, I've got a better deal for you. Care to hear about it?"
+82,"A better deal? Alright, I'm in!"
+83,"Wait a minute. I haven't even told you yet. Oh well, If you loan me 1000 gold pieces I'll turn it into 10,000!"
+84,"1000 into 10,000... Tenfold?"
+85,Salim and I are going to trade our way to riches.
+86,Trade? You're going to do business? You've certainly got a head for numbers... it just might work.
+87,Of course it'll work! And you'll get 10 times the original amount... piece of cake!
+88,"O.K. then, here's my 1000."
+89,"I sure hope you pull this off. Remember: 'Buy low, sell high.'"
+90,"I will. And you'll be sure to get 10,000 gold pieces in return."
+91,"|Banker Radino|
+Hello there $n. Have you come to make another deposit?"
+92,Nope. I've come to withdraw all my money.
+93,"I see. Here's the balance of your account, 1000 gold pieces. Please make sure it's all there."
+94,What made you decide to withdraw your savings? Has something come up?
+95,I've decided to start trading.
+96,"Trade, eh? I have a feeling you'll make a great trader."
+97,"Do you know the basics of trade? 'Buy 'em low, sell 'em high.' That's the key."
+98,That's common sense.
+99,"You're right there, but the most common of principals can be the hardest to use. How do you plan to buy low and sell high?"
+100,"Hmmm. Well, first I thought I'd stock up on carpets here in Istanbul and then sell them in Athens."
+101,"After I sell the carpets in Athens, I'll buy art there and sell it here in Istanbul."
+102,I see. Carpets from Istanbul. Art from Athens. Both are specialty goods particular to each area.
+103,"In short, you're going to make a trade route between two ports, Istanbul and Athens."
+104,Exactly. You know quite a bit about trade for a banker.
+105,"Oh, no. I learned that from the head of this bank, Master Howell."
+106,Master Howell started out as a mere trader like you. But now he has banks all over the world.
+107,"Now, here is my personal investment in you, 1000 gold pieces."
+108,"A personal investment? You're a banker, aren't you?"
+109,"Of course. And because I'm a banker, I like the interest you're offering. As long as you have money to start, I'm sure that you'll succeed."
+110,"You really know how to flatter a guy. And I'll return 10,000 in gold, 10 times what you gave me."
+111,10 times? I'm counting on you.
+112,Huh? There's no one here. He must be out working on the repairs.
+113,"I wonder how much longer it'll take? Oh well, let's go see if we can't round up any more gold."
+114,"This is no place for you. Go on, go home."
+115,But I have a business prop...
+116,I don't care. Now go!
+117,"Say, I've got a really good proposition for you. Care to hear it?"
+118,"Oh, that's probably all I'll be able to do, but please, tell me anyway."
+119,I managed to get my hands on a ship. Salim and I decided we would use that ship and start trading.
+120,"What would you say to investing in us? I've offered other people a profit of ten times their investment, but just for you, I offer to return 20 times the original amount."
+121,"So, you finally got a ship, eh? I'm glad to hear it. I always thought you'd make something of yourself someday."
+122,"Hmmm, please take this money. You don't have to return it. I just thought that even a little bit would help you get started."
+123,"Accept
+Refuse"
+124,"Alright then, I accept your offer."
+125,Good. If you don't think that way you'll never make any money. Use it as capital and go make a million.
+126,"I'm sorry, I can't take your money."
+127,"That's too bad. Well then, take this cat along with you. It's pretty smart. It'll catch a lot of mice for you."
+128,I don't know how to thank you.
+129,Huh? This house looks empty.
+130,"No one lives there now. It's been on the market for some time, but nobody's come forward to buy it."
+131,"Say, have I got a deal for you."
+132,A deal? Forget it. I wouldn't deal with you if you were the last person on the earth.
+133,"Hmph, here I came all this way just to help you make a profit, and you won't even listen. Come on Salim, let's get out of here."
+134,Too bad... we could've made you rich.
+135,Don't hesitate to stop by and chat. I try to know everything that goes on in this town.
+136,I'm looking forward to you coming back as a rich man.
+137,"Before you depart, I think you ought to go to the pub and try to recruit some sailors. You can't sail a ship with just two men you know."
+138,"It's also a good idea to stock up on food and water. The wind and currents can really slow a ship down, it may take longer than you think to get to a port."
+139,Thanks for the tip. You can rest assured I'll bring back your money.
+140,"I sure hope you succeed. Remember: 'Buy low, sell high.'"
+141,"Thanks. You can count on me for your 10,000!"
+142,"Hello there, $n. The people in this town don't think too highly of you, but don't give up, sonny."
+143,"Come back a rich man one day, that'll be your revenge. I'll be rooting for you."
+144,You're fairly new to sailing so take it slow at first. Don't try to go too far.
+145,"If your ship has any problems, be sure to get it fixed right away."
+146,"It's also a good idea to buy some supplies. If you have some lumber, you can disembark anywhere and fix your ship yourself."
+147,"Oh, how long have you guys been here? Oh well, your ship's ready."
+148,"Well, good luck. And don't forget to pay me back!"
+149,I guess we need to think of a name for our ship.
+150,How about 'Savahni'? It means 'Friends.'
+151,"That's a great name! O.K. Salim, let's go!"
+152,Savahni
+153,"This is no place for peasants. Go on, get out of here."
+154,"If you invest, I'll increase it 10 times..."
+155,You heard me! Get out of here!
+156,Huh? Doesn't look like anybody lives here.
+157,"It's vacant. It's been on the market for quite a while, but no one's bought it yet."
+158,"Hey friend, have I got a deal for you."
+159,"A deal? Not the 'How about investing some money? I'm going to start trading. Pay you back 10 fold' spiel, I hope. I've heard that one already, and I don't think you can do it."
+160,But give it a try anyway. I want to see you apologize to all the folks that trusted you.
+161,"Oh, $n, you came. I'm glad you made it."
+162,"I asked several people, but no one knew anything about the girl Sapha."
+163,I'm sorry. It doesn't look like I was much help.
+164,Don't be ridiculous. I appreciate your efforts.
+165,Hey $n! I heard that you've been given a title.
+166,"Now that you're a noble, you'll be given various new rights and permissions, not like we commoners."
+167,"Oh, you had asked me to find out about Sapha, right?"
+168,Did you find anything out?
+169,"No, not yet. No one's even heard of her."
+170,"Oh, that's too bad. Listen, I'm really sorry I asked such a tough favor."
+171,Don't mention it. Glad I could help.
+172,"Oh, $n, what can I do for you? Have you managed to make a bit of money?"
+173,"Uh-oh, it doesn't look like you've had too much luck yet."
+174,"Wow, you've really made a profit. Do you think you could pay me back now?"
+175,Not just yet. Can you wait just a little longer? I'm going to make even more money!
+176,"Really?! In that case, I don't mind waiting."
+177,Sure. Sorry to keep you waiting so long.
+178,"Really?! Oh, I'm so happy! Smooch."
+179,Hey now! Cut that ou...
+180,I never thought you'd actually earn me this much money. I've really misjudged you.
+181,But don't get me wrong. It's not because you're a rich man now.
+182,Everyone here thinks that I'm only interested in rich men. But that's not true.
+183,"I like men with talent. Their wealth doesn't really matter. Actually, I hate men who just spend their time wasting their parent's money."
+184,But you really are good at trading. I think it's the perfect job for you.
+185,"One favor. Whenever you come back to this port, be sure to stop by the pub. I'll be waiting."
+186,O... OK. That reminds me. You said you're quite an information gatherer right?
+187,"That's right. Here at the pub, I hear things without even trying."
+188,Have you ever heard anything about a woman named Sapha?
+189,Sapha? Who's that?! Do you like her?! Are you married!?
+190,"No, no. She's my younger sister. We were separated when I was very young, but I've never stopped looking for her."
+191,"Oh, your sister. In that case, leave it to me. I'll ask the sailors that stop by."
+192,Thanks Ladia.
+193,"Hey $n, heard of any good deals?"
+194,"The world isn't full of golden opportunities, you know."
+195,"You're right about that! But if you hear anything good, be sure to let me know, OK?"
+196,"Hey $n... I mean, greetings, Master $n."
+197,Why the sudden politeness?
+198,"Well, I heard that you've become a noble. Congratulations."
+199,"Now that my lord's gained nobility, you have special privileges that we laymen don't."
+200,"So I can't talk to you, $n, uh..my lord, like I used to."
+201,"Oh, don't think twice about it. Just act the way you've always acted."
+202,Whew. I think I'll take you up on your offer.
+203,"If I hear of any good deals, I'll let you know."
+204,"Hey $n, how're things going? Manage to make any money yet?"
+205,"Hmmm, I guess not, by the looks of it."
+206,"Wow, you've really done well for yourself. Maybe you could return my money now, with interest of course."
+207,Can you wait a little longer?
+208,I guess so. Good luck! Make lots of money!
+209,"Sure, I can pay you now."
+210,"Wow. I'm going to use this money to relax, maybe even take a vacation."
+211,"Ahoy, there, don't be taking off just yet. You still have a customer here."
+212,"A customer? Come on, quit your joking."
+213,"Say now, I like what I see there. Is that 10,000 in cash?"
+214,How about lending it to me for a while?
+215,No way!
+216,Just a minute. Who do you think you are?
+217,"|Pietro Conti|
+Huh? Me? Why I'm Pietro, a famous, er, somewhat famous, adventurer. And yourself?"
+218,"I'm $n, a trader."
+219,Really? So you're $n. I've heard of you.
+220,Which reminds me... I had a favor to ask you. Would you loan me some money?
+221,Do you plan on paying me back?
+222,"Of course, mate! I do have a sponsor, you know. All I have to do is discover some new little trinket somewhere and I'll get quite a sum of money."
+223,"Now that you mention it, I do remember hearing something about the Duchess of Lisbon sponsoring an adventurer named Pietro."
+224,"So, what do you say? Will you lend me some money?"
+225,"No, I don't think so. I don't trust you. Sorry, but you'll have to find somebody else to borrow money from."
+226,"Oh, is that so?! You'll regret it, you skinflint!"
+227,"Well then, I guess you're good for it."
+228,"Thanks, matey. I'll pay you back soon."
+229,"Just in case, why don't you tell me your sponsor's name."
+230,"You're an untrusting sort, aren't you? Oh well, it's the Duchess Franco in Lisbon."
+231,Alright then. Make sure you remember to return my money!
+232,"Welcome $n, how's business?"
+233,"Greeting Master $n, I heard you were made a noble. My congratulations."
+234,"Now that you've got a title, you'll get all sorts of rights and privileges."
+235,"I heard that if you trade with ports that have allied with your own country, you can buy goods cheaply."
+236,"$n, how are you? Have you been able to make a profit?"
+237,Doesn't look like you made enough to pay me back yet.
+238,"I knew you'd be a success! Now how about my money? 10,000 gold pieces, as you remember."
+239,Can you hold on a little longer?
+240,"Sure, I can wait. Keep up the good work."
+241,I have it right here.
+242,"It seems my decision to invest in you was wise, after all."
+243,"I owe my success to you. Your advice, the story about the head of Marco Polo bank, really inspired me."
+244,"Actually, Master Howell is in town. Would you like to meet him?"
+245,Like to? I'd love to.
+246,OK. Just a minute.
+247,"|President of Marco Polo Bank|
+So you're $n, the trader. I'm Howell."
+248,"It's a pleasure to meet you sir. $n $s, at your service."
+249,"I've heard quite a bit about you. You took a wrecked ship, repaired it and started trading. Reminds me of me when I was young."
+250,"Really? I want to be a millionaire some day, so I'm going to learn as much as I can from your example."
+251,"The road to riches is not an easy one, my friend. And a million isn't all it's cracked up to be. It all seems kind of empty, sometimes."
+252,You've got to be kidding!?
+253,"Well, I don't suppose you can understand that now. So give it your best shot."
+254,"Say $n, how's your ship doing? If you have any problems, just let me know. I'll fix 'er right up."
+255,What do you say? Would you like to buy a used ship off my hands?
+256,How about buying a new ship?
+257,Well if it isn't $n! Welcome Master $n.
+258,I heard you've been given a title. Congratulations!
+259,"Now that you're a noble, you'll have plenty of privileges we commonfolk don't enjoy."
+260,Why don't you take this opportunity to buy yourself a new ship?
+261,"Hey $n, how's business? Making any money?"
+262,Hmmm. Doesn't look like you managed to make too much yet.
+263,"Hey, you've done pretty good for yourself. How about paying me back?"
+264,"Sorry, but can you wait a little longer?"
+265,"As long as you haven't forgotten. Sure, I can wait."
+266,"OK, I can do that."
+267,Thanks! Let me share with you a nice little tidbit I've learned.
+268,"You've been trading for a while, so you probably know this already, but if you find you're carrying around quite a bit of money, it's a good idea to invest some in a port."
+269,"If you ally with a port, they will sell goods to you cheap. And the higher your rank, the bigger the discount you'll get."
+270,"You can invest in either the marketplace or the shipyard, so think carefully before you spend your money."
+271,"If you invest in the marketplace, then they'll have capital to expand, and they'll start to sell a lot of goods they never used to stock."
+272,"It's much the same with the shipyard. Investment means they'll be able to build better ships, make better repairs and offer a better selection of used ships."
+273,"But be careful about investing in foreign ports you're allied with. Sometimes, other traders may get jealous and come after you."
+274,Thank you. I'm sure your advice will prove very useful.
+275,Huh? It doesn't look like anyone lives here.
+276,"No one does. It's vacant. It's been on the market for a while, but nobody's bought it yet."
+277,Hi there $n! How's business?
+278,Make sure that some day you get even with the nasty people who said you were a big nothing.
+279,I'm so happy for you $n. I heard that you've been given a title.
+280,"Oh, I forgot. I should call you Master $n, shouldn't I?"
+281,Forget about it. No reason to treat me special.
+282,Of course there is. I'm really happy for you.
+283,"Hey $n. You're not still trading, are you?"
+284,"You've got no head for that kind, any kind, of business so why don't you just give up?"
+285,$n! How is everything? Are you making any money?
+286,"Hum, you've made quite a bit of money. But it doesn't matter, because in the end you'll wind up with nothing. I'm sure of it."
+287,"Just as I thought. You're no good at this either. But, go on and keep on trying if you want."
+288,M-M-M-Master $n. Welcome to my humble shop.
+289,What's wrong with you? You're acting completely different.
+290,"Of course I am. You've become a noble now, that's why."
+291,"Here in the Ottoman Empire, the difference between a commoner and a noble is like the ground and the sky."
+292,"Please, forgive my rude behavior."
+293,"Oh, $n. A messenger from the palace was just here. He said he was looking for you."
+294,It seems Sultan Suleiman II the Magnificent has something he wants to discuss with you.
+295,"Welcome, Master $n."
+296,"A messenger from the palace was just here looking for you, sir."
+297,I think it would be wise to head for the castle.
+298,"|Suleiman II|
+I'm glad you made it, $n $s."
+299,Your Highness.
+300,I wonder if you wouldn't assist me in a particular manner.
+301,I will do anything the Sultan requests.
+302,Good. The Turkish nation has a long history as one of the more culturally advanced people of the world.
+303,But the various countries of Europe think that they are superior and have begun to widen their holdings in foreign lands.
+304,"In order to deal with those countries directly, we must increase the power of our nation."
+305,"As we increase our influence, I think the best way to reduce the power of other countries would be to put the ports of the world under our grasp."
+306,"Right now, we have alliances with $d16 ports, but this number must grow."
+307,"The problem is this. It takes money to make alliances. It's not that we don't have money, but we must also think about strengthening our military forces."
+308,That's why I'm giving you 50 gold ingots.
+309,Use your trading skills to increase my money. Then take that money and form alliances with the ports of the world. Do you think you can do it?
+310,I understand. I will undertake this task at once.
+311,Good. Here's your gold.
+312,"Oh, I also have another gift for you. A tax-free permit."
+313,"As long as you have this, you won't be charged for taxes at ports allied with the Turkish Empire."
+314,But remember that you must renew it every April and October. Don't forget.
+315,"You are too kind, your Highness."
+316,Still no one living here?
+317,It's been on the market forever it seems. I wonder why no one's bought it?
+318,Welcome Master $n.
+319,A palace guard was just here looking for you.
+320,Hello there $n. I'm so glad you stopped by to visit again.
+321,But I still haven't heard anything about Sapha. I'm sorry.
+322,No reason to apologize. Don't worry. I plan to search for her for as long as it takes.
+323,Hey $n... I mean Master $n.
+324,"By the way, did you know that the Sultan is preparing for war? There's been some unsettling movement around the coast of Africa, near the Red Sea."
+325,"I heard that there is some mysterious secret technology hidden in the port of Massawa, that surpassed that of the European countries as well."
+326,I'm all in favor of increasing the Turkish Empire and increasing business.
+327,"Just recently, I started levying taxes in order to help pay for the war. I'm working hard for the cause."
+328,"I've already heard that line. It seems like everybody's talking, but no one's acting."
+329,"Well, I just wanted to say my piece. Doesn't anybody have any good ideas to make some quick money?"
+330,Doesn't anyone have any good money making schemes?
+331,Welcome Master $n. It looks like business is going well.
+332,Do you happen to have your tax-free license with you?
+333,It's always good to have tax-free licenses from other countries too. That way you can buy duty free at allied ports as well.
+334,But be careful. Don't forget to renew them every April and October.
+335,Master $n. What a pleasant surprise.
+336,Is your ship holding up alright? If you need any repairs just ask.
+337,"Oh, if you've got some extra cash, you should think about buying a warship for protection. There are pirates out there, you know."
+338,"Master $n, you look tired. Why not rest here for a spell."
+339,This house is still vacant?! Why doesn't anyone buy it?
+340,Wouldn't it be great to live in a house like this?
+341,We don't need a house. We're rough and tough seafaring men. What more could you ask for?
+342,"Welcome, welcome Master $n."
+343,I hear that business is booming. That's wonderful.
+344,I always said that $n would be rich someday. Told everyone he'd rise above his birth class.
+345,"Of course I'm not lying. Well, maybe I did say some pretty mean things in the past, but..."
+346,"Exactly, I was just trying to motivate you, Master $n. Please believe me!"
+347,"Hi again, $n. I'm glad you could make it."
+348,"Just a minute, OK. I was talking to a customer... Oh, here he is. Let me introduce you. Joao!"
+349,"Joao, this is the man I told you about earlier, $n."
+350,"|Joao Franco|
+Pleased to make your acquaintance. I am Joao Franco of Portugal."
+351,"I've heard that you are a trader. Ladia always talks about you... only about you, it seems."
+352,"Ladia has been so very kind to me. You see, I was attacked by pirates, but she helped nurse me back to health."
+353,Attacked by pirates? That sounds like quite an ordeal.
+354,"Some piratess named Catalina thinks I sunk her brother's ship or something, and now she's out to get me. But I've never even seen her before!"
+355,She's probably still lying in wait for me somewhere. I can't leave this port like this.
+356,But I have to find the secret of Atlantis as soon as possible.
+357,Secret of Atlantis? What's that?
+358,"Well, Atlantis was a land that possessed technology far superior to anything we know today."
+359,"Oh, that's no secret. I know where that is."
+360,"What?! What do you mean, you know where Atlantis is? It sunk into the ocean ages ago!"
+361,"If you're referring to the secret land with technology far superior to that of Europe, I know where it is."
+362,It's in the port of Massawa on the African coast near the Red Sea.
+363,"Rumor has it that the original settlers of that city journeyed many miles, after their home was swallowed by an earthquake."
+364,But I don't think their secret technology will be a secret much longer. The Sultan Suleiman II the Magnificent is trying to seize control of that port.
+365,"If that's the case, I can't just sit around here. I've got to get to Massawa!"
+366,"But Catalina, your pirate friend, is out there waiting for you. You need a scheme to get out of here."
+367,"Tell you what. I'll go in your place, as a decoy."
+368,"A decoy? So while you've got her attention, I can slip past and escape."
+369,"As long as we put the sail with my emblem on your ship, Catalina will probably think that you're me and chase you."
+370,"Wow, you're pretty smart."
+371,You're not too bad yourself. But that puts you in a dangerous position.
+372,"Hey, don't worry about it. But I have a favor to ask of you as well. I want you to look for somebody."
+373,O.K. that sounds pretty easy. Who?
+374,"My sister, Sapha. We were separated when I was just a boy. She should be about 16 or 17 now."
+375,Do you have anything else to go on?
+376,I'm afraid not.
+377,"No? Oh, well. I'll give it a go. If I do find her, should I get in touch with you here?"
+378,Just leave a message with Ladia.
+379,"$n, don't go and do anything too dangerous now."
+380,Don't worry.
+381,"Well now, if it's not $n! I mean Master $n. How may I help you?"
+382,"Have you heard? A few days ago a Portuguese ship, chased by pirates, fled into this port."
+383,"The captain was a young, handsome fellow. He's been at the lodge, healing his wounds. Seems that Ladia was taking care of him."
+384,Everyone's saying that Ladia is head over heels for him.
+385,"I'd be worried if I were you, $n. You might lose Ladia to that Portuguese fellow."
+386,"Stop joking around Salim. Ladia would never... Well, let's go to the pub anyway!"
+387,"O.K. then, I'm going to put my emblem sail on your ship."
+388,"Alright, I'm finished. Take care of Catalina for me. But be careful!"
+389,You too! Find my sister Sapha for me!
+390,"How may I help you, Master $n?"
+391,Have you heard? There's a Portuguese ship seeking refuge in the harbor after being attacked by pirates.
+392,"Oh, and the captain. So young and handsome. Why, Ladia's been over at the lodge for the past several days now looking after his wounds."
+393,Rumor is that she's taken a liking to the man.
+394,"$n, aren't you a little bit worried? What if that Portuguese sailor steals Ladia away from you?"
+395,Knock it off. Ladia would never... Come on! We're going to the pub!
+396,"$n! I mean Master $n, it's just terrible!"
+397,What? What's got you looking so distraught?
+398,I think Ladia's falling in love with a Portuguese sailor who's been staying here!
+399,"He was attacked by pirates and badly hurt, but Ladia has been at his side tending to his wounds."
+400,"Now he's up and about again, and gone to the pub with Ladia!"
+401,"Master $n, if you sit here wasting your time with me, you might lose Ladia forever."
+402,Welcome Master $n.
+403,Have you heard the news? There's a Portuguese ship staying in the harbor. Seems that it fled here after being attacked by pirates.
+404,"The captain seemed like a nice fellow, young and good-looking, but badly hurt. So he's been resting up at the lodge. And guess what? Ladia's been looking after him."
+405,It sure looks like Ladia's taken a liking to him. It's all anyone's talking about these days.
+406,"$n, this doesn't sound too good. What if Ladia really falls for that Portuguese sailor?"
+407,"Quit horsing around, Salim. Ladia would never... Well, it wouldn't hurt to go to the pub."
+408,I can't believe that no one's bought this house yet!
+409,It sure would be nice to live in a house like this.
+410,What are you talking about?! I love the salty smell of sea. There's no better place for me!
+411,Hello Master $n. How may I help you? You seem to be doing very well for yourself.
+412,"Oh, that nasty pirate, Catalina, has been seen in the area."
+413,It seems that she's chasing a young Portuguese fellow around.
+414,"Where do you think you're going? This time I'll see you're made a permanent fixture on the sea floor, Joao! Wait a minute, you're not Joao!"
+415,Joao? Who's that? Are you looking for somebody?
+416,"Tell me, who are you? Why are you on Joao's ship?"
+417,"What are you talking about? This is my ship. I bought it with my hard earned money. This is, without a doubt, my ship."
+418,I bought this sail from a young man when I was shipping out.
+419,"He was so anxious to sell, I was able to get a really great price. You're going to find this hard to believe, but he sold it to me for just 10 gold pieces."
+420,Blast! Joao's escaped me again!
+421,Sorry to bother you. You're free to go.
+422,"Whew. For a minute there I wasn't sure we were going to make it out of that mess. But thanks to your quick thinking, $n, we're OK."
+423,"Compared to trading, this was a piece of cake. I guess we can just wait for Joao to find Sapha now."
+424,"Then again, I don't think he'll find her very soon. So why don't we get back to business?"
+425,$n! You're alright! I was so worried about you.
+426,Was Joao able to escape?
+427,"He's safe, for the time being."
+428,"Hi $n! You don't show your face around here nearly enough, you know."
+429,"I wish I had some good news, but I still haven't heard anything from Joao."
+430,Oh $n! Guess what? I've got news from Joao!
+431,"There's a girl named Sapha, who works at the pub in Basra."
+432,"She fits your description, about 16 or 17 years old. But she didn't want to talk about her family at all."
+433,"Really? That's enough information for me to go on. Come on Salim, let's go!"
+434,Hi there $n... I mean Master $n. How may I help you?
+435,"I haven't heard of any great deals at all lately. If you hear anything, be sure to let me know."
+436,The best way to make money is a little bit at a time.
+437,"But even so, I'm so bored, I (yawn)... oh, excuse me."
+438,Hi there $n... I mean Master $n. How may I help you?
+439,Ladia said she had something she wanted to talk to you about. It sounds pretty interesting. I'd like to get a piece of the action.
+440,"Sorry, I don't think it's about money."
+441,"Master $n, how are you today? You seem to be doing well for yourself."
+442,Do you have your tax-free permit?
+443,It helps to have tax-free permits from other countries. You can use them at allied ports around the world.
+444,"But don't forget. Your permit has to be renewed twice a year, in April and October."
+445,"Master $n, you look tired. Please relax and enjoy our new hot tub."
+446,"What may I do for you, Master $n."
+447,How's your ship faring? Any trouble? Just give me the word and I'll fix her up.
+448,"If you've got some extra money saved up, you might want to think about buying a ship for protection. From pirates, you know!"
+449,I sure wish someone would buy this house!
+450,Sometimes I dream about what it would be like to live in a house like this.
+451,"We don't need a house, you see. It's more fun to live at sea."
+452,"Welcome, welcome Master $n."
+453,I hear that business is booming. That's wonderful.
+454,I always said that $n would be rich someday. Told everyone he'd rise above his birth class.
+455,"Of course I'm not lying. Well, perhaps I did say some pretty mean things in the past, but..."
+456,"Exactly, I was just trying to motivate you, Master $n. Please believe me!"
+457,"Long time no see, $n. So, you were able to find Sapha?"
+458,That's great! Must have been really emotional.
+459,But Sapha still doesn't believe that I'm really her brother. She's not sure.
+460,Don't worry! She's probably just in shock. You probably really surprised her.
+461,"Sapha will come around soon. After all, she's your sister."
+462,"Thanks, Ladia. You really know how to cheer a guy up."
+463,"Well, what was she like?"
+464,"She was really, really pretty. So pretty, I found it hard to believe that she was $n's younger sister."
+465,"Hey, before you said we looked like twins!"
+466,"Well, she must have been really cute. I'd like to meet her sometime."
+467,You will.
+468,"Long time no see, $n. Were you able to find Sapha?"
+469,"What? You still haven't gone to see her? Don't waste time around here, hurry up and go to Basra."
+470,Hi there $n. How can I help you?
+471,"I haven't heard any good money-making schemes in a long time. If you hear anything let me know, alright?"
+472,The best way to make money is to make it little by little.
+473,"Sigh, yes, I suppose that's true. But just once I'd like to strike it big! If only I could win the Ottoman Lottery..."
+474,"Greetings Master $n, it looks like business is going well."
+475,Do you have your tax-free permit with you today?
+476,"It's quite useful to carry tax-free permits from other countries as well, you know. You can use them at friendly ports around the world. Don't leave home without it!"
+477,"But you must renew them every April and October, so don't forget."
+478,"Oh, Master $n. You look awfully worn out. Why not rest awhile here?"
+479,"What can I do for you, Master $n."
+480,"Your ship still in good condition? If she needs any fixing, don't hesitate to ask."
+481,"One more thing, if you've got some extra money saved up, think about buying a ship for protection. Those pirates can be quite dangerous."
+482,This house is still empty?
+483,Why don't you buy it? I've always wanted to live in a house like this.
+484,I don't need a house. All I need is fresh sea air and open skies.
+485,"Welcome, welcome Master $n."
+486,I hear that business is booming. That's wonderful.
+487,I always said that $n would be rich someday. Told everyone he'd rise above his birth class.
+488,"Of course I'm not lying. I know that I said some pretty mean things in the past, but..."
+489,"Exactly, I was just trying to motivate you, Master $n. Please believe me!"
+490,"Sapha, it's me. I've come to visit you again."
+491,"I'm sorry. I'd be really glad if you really are my brother, but..."
+492,"Don't worry about it, Sapha. I know you still have doubts."
+493,"We'll come back to visit again, Sapha. Take care."
+494,"Thank you, Salim."
+495,"Excuse me, is Sapha around?"
+496,Sapha? Just a minute. Sapha!! You've got company here!
+497,Are you the one that says he has business with me?
+498,Are you ...Sapha?
+499,"Yes, but what is it you want?"
+500,Do you have an older brother?
+501,... well ...
+502,... well??
+503,"Yes, probably, but..."
+504,But??
+505,"We were separated when I was very young, and I've been alone ever since..."
+506,Do you remember anything about your brother?
+507,"There was a Portuguese man in here that asked me the same thing, but I don't remember anything."
+508,But you must remember something. How about his name?
+509,Hmmm... his name...
+510,$n $s.
+511,Huh? How do you know that?!
+512,"I knew it was you, Sapha! It's me, your older brother, $n $s!"
+513,What! But this is all so sudden...
+514,"I know this must be a shock to you. Which is why I think it's probably too strange for you to believe me just yet. But, I really am your brother. I've been searching for you for years."
+515,Are you really my... brother?
+516,"Yes, I'm almost certain. But if you told me to show you some proof, I'm afraid I would be at a loss."
+517,There's no mistake. You two look exactly alike.
+518,Really?
+519,You think so?
+520,"B..But, Sapha is a hundred times prettier than you. It's almost hard to believe you're related."
+521,"Salim! Come on now, don't ruin my chances here."
+522,What a sweet guy.
+523,"I..I..I..M..My name is Salim Jahan, $n's first mate. P..Pleased to meet you."
+524,"The pleasure's all mine, Salim."
+525,"Say, Sapha, why don't you come with us to Istanbul? We could finally live together again."
+526,This is all too sudden... I'm not sure if I can trust you.
+527,"Hmmm.. I suppose you've got a point. OK, so we forget about living together. But please believe me. I am your brother."
+528,"I know. I'm finding all this too sudden to believe right now, but I can tell by the look in your eyes that you're not lying to me."
+529,Thank you. We'll be back again.
+530,"Congratulations, $n! You finally managed to find Sapha."
+531,Thanks. But she still doesn't believe that I'm her real brother.
+532,"Don't worry. You really are brother and sister, so I'm sure she'll come around soon. But, she's quite pretty, don't you think?"
+533,"Hey now, Salim. You'd better not get any ideas about my sister..."
+534,What? Did you say something?
+535,"Aw, forget it. She'd never go out with you anyway."
+536,Sapha's supposed to be at this port! Let's check the pub first.
+537,Let's set sail for Basra. I want to see Sapha as soon as possible.
+538,"Say $n, don't you think we should tell Ladia about Sapha? She did help you out quite a bit, you know."
+539,"Well, now isn't this a surprise, $n. Nice to see you again."
+540,"The banker, Radino, said he was looking for you."
+541,"Well, now isn't this a surprise, $n. Nice to see you again."
+542,You mean Sapha still doesn't believe that you're her real brother?
+543,"Well, don't worry. I'm sure she'll resolve her questions soon."
+544,"Hi there, Master $n."
+545,"Radino, the banker, has been looking for you. It seems he's being transferred, and he wanted to see you before he left."
+546,You should go and see him. He helped you out quite a bit when you were younger.
+547,"Hey $n... I mean, Master $n. How may I help you?"
+548,I don't know if I'll ever remember to address you the right way.
+549,So don't. You can call me $n.
+550,Thanks. I don't feel so nervous now.
+551,"Master $n, it's just terrible!"
+552,Calm down now. What is it?
+553,"That fellow who works at the bank, Radino, has been transferred!"
+554,He's been wanting to meet with you something awful. You should go to the bank and see him.
+555,"Master $n, you must be tired. Why not rest here awhile?"
+556,"Ah, Master $n! Thank goodness, you made it here in time."
+557,I've been transferred to the head office in Venice.
+558,But I wanted to see you before I left.
+559,A transfer to the home office. That's great. Congratulations!
+560,Thank you. But I have a favor to ask of you...
+561,"Would you be kind enough to take me to Venice? I've always wanted to sail with you, just once."
+562,"Why, it would be a pleasure, my friend. Let's go."
+563,"Master $n, how goes business?"
+564,"Master $n, how nice to see ye. How's the ship? If she needs any repairs, ye just let me know."
+565,"Salim, it looks like this house is still empty."
+566,Are you sure you wouldn't want to live here? I know I would.
+567,"Like I said, I don't need a house. Don't put me with the land-lovers; the sea's my bed, the sky my covers."
+568,"Welcome, welcome Master $n."
+569,I hear that business is booming. That's wonderful!
+570,"Sapha, it's me. I've come to visit you again."
+571,"I'm sorry. I'd be really glad if you really are my brother, but..."
+572,"Don't worry about it, Sapha. I know you still have doubts."
+573,"W..We'll come back to visit again, Sapha. T..Take care."
+574,"Thank you, Salim."
+575,"Well, now isn't this a surprise, $n. Nice to see you again."
+576,You mean Sapha still doesn't believe that you're her real brother?
+577,"Well, don't worry. I'm sure she'll come around soon."
+578,"Hey $n... I mean, Master $n. How may I help you?"
+579,I don't know if I'll ever remember to address you the right way.
+580,So don't. Just call me what you've always called me.
+581,Thanks. I don't feel so nervous now.
+582,"Nice to see ye, Master $n. Is she alright? Yer ship, I mean. I can fix her up if ye have any problems."
+583,"Master $n, I heard that you've finally found your sister."
+584,"Well, I found her, but she hasn't yet accepted the fact that I'm her brother."
+585,"I see. I suppose that would be kind of hard to believe after 14, 15 years."
+586,But don't give up. I'm sure everything will work out in time.
+587,"Salim, I'm beginning to wonder if anyone will ever buy this house."
+588,I would if I had the money. I would love to have a house like this.
+589,"Not me, sir. Give me the ocean and a ship; now that's adventure, what a trip!"
+590,"Master $n, how nice to see you."
+591,I hear that business is booming. That's wonderful!
+592,"Sapha, it's me. I've come to visit you again."
+593,"I'm sorry. I'd be really glad if you really are my brother, but..."
+594,"Don't worry about it, Sapha. I know you still have doubts."
+595,"W..We'll come back to visit again, Sapha. T..Take care."
+596,"Thank you, Salim."
+597,"Welcome to my humble establishment, Master $n."
+598,I'm glad to hear that you're helping collect from Pietro. That snake is late on his loan payment.
+599,"Master $n, I don't know how I can thank you. It was a very enjoyable trip."
+600,"And since you're here in Venice, why don't you come with me to see Howell? Wait right here."
+601,"Oh $n, I've heard more rumors about your adventures. Made me want to talk to you again."
+602,This is perfect timing. I've got something I'd like you to do for me.
+603,"I helped a customer finance an operation a while back. It was a big success, just as I had predicted, and he got his hands on a lot of money."
+604,But I've no idea where he is now. His name is Pietro and he's an adventurer. I'd like you to go and get my money.
+605,I know who Pietro is. I loaned him a little bit of money as well. So he made quite a bit of money after all.
+606,"Well now, it looks like you've got quite a good eye for talent yourself."
+607,"I know who Pietro is. So he made quite a bit of money after all. I knew I should have helped finance him! Well, I'm glad he succeeded, anyway."
+608,That's too bad. You've got to learn to keep an eye out for money-making talent.
+609,But never mind that. Will you go look for him?
+610,"Sure, I'll go collect your money."
+611,Thank you.
+612,"I'm sorry, but I must refuse."
+613,"Oh, that's too bad. I guess I'll just have to ask someone else."
+614,Let's get Radino to the bank.
+615,"Say $n, do you have any idea where Pietro may be?"
+616,We'll just ask his sponsor. She should know.
+617,Good plan. So I guess we're off to Lisbon to see the Duchess Franco.
+618,We'd better get Radino to the bank.
+619,"Well, now isn't this a surprise, $n. Nice to see you again."
+620,You mean Sapha still doesn't believe that you're her real brother?
+621,"Well, don't worry. I'm sure she'll accept you soon."
+622,"Hey $n... I mean, Master $n. How may I help you?"
+623,I don't know if I'll ever remember to address you the right way.
+624,So don't. Just call me what you've always called me.
+625,Thanks. I don't feel so nervous now.
+626,"Nice to see you, Master $n. Have a good night's sleep."
+627,"Say Master $n, how's your ship holding up? I can fix her for you anytime. You just remember that."
+628,Why do we even bother to check this house? It's always empty.
+629,"Maybe deep down inside, you really want to live in a house like this."
+630,Stop your nonsense. Or do I have to make another rhyme about the sea? Let's go.
+631,"Nice to see you again, Master $n."
+632,I hear that business is booming. That's wonderful.
+633,"Sapha, it's me. I've come to visit you again."
+634,"I'm sorry. I'd be really glad if you really are my brother, but..."
+635,"Don't worry about it, Sapha. I know you still have doubts."
+636,"W..We'll come back to visit again, Sapha. T..Take care."
+637,"Thank you, Salim."
+638,Welcome Master $n.
+639,Thank you for your help in collecting our loan from Pietro.
+640,"|Marco, the butler|
+May I help you, sir?"
+641,I hope so. My name is $n $s. I'm a trader.
+642,"Actually I'm looking for Pietro, the adventurer. I thought if I asked here, someone might know where he is."
+643,"Pietro was just here a few days ago. But, he's gone out on another adventure."
+644,I see. Well then perhaps I would be able to see the Duchess? I have something I'd like to tell her about her son Joao.
+645,I understand. Please follow me.
+646,"I am the Duchess. I was told you had something to tell me about my son, Joao?"
+647,"Actually, I came looking for Pietro. But your son helped me out in the past, and I just wanted to say thank you."
+648,"I have a sister, but we were separated when I was still young. Joao searched for her and let me know where I could find her. Thanks to him, I was finally able to see my sister again."
+649,"My son, really? My son was actually helpful?"
+650,My sister and I am very grateful. However...
+651,However...?
+652,There is a lady pirate that's after Joao. It seems she thinks Joao is responsible for the loss of her brother and fiance.
+653,Is... Is Joao alright?!
+654,"Yes, for the time being."
+655,"$n, thank you very much for this information."
+656,Please accept this as a token of my gratitude.
+657,"No, Duchess, it is me who should thank you."
+658,"This isn't very much, but please accept it."
+659,"Well then, as you wish."
+660,Thank you Duchess!
+661,I almost forgot. Pietro said he was setting sail for the Golden Country of Zipangu.
+662,The Golden Country of Zipangu?
+663,"My husband, Leon, went there a long time ago. It's an island somewhere around 35@N, 135@E."
+664,"I understand. 35@N, 135@E, right? Thank you again, Duchess."
+665,We'd better hurry up and go see the Duchess Franco.
+666,"The Golden Country...? 35@N, 135@E is pretty far away."
+667,Let's go and see anyway.
+668,"I guess you're right. After all, we did promise to do a job for Mr. Howell."
+669,Exactly. And we've also got to get our own money back.
+670,We'd better get to Lisbon and find the Duchess Franco.
+671,"Well, now isn't this a surprise, $n. Nice to see you again."
+672,You mean Sapha still doesn't believe that you're her real brother?
+673,"Well, don't worry. I'm sure she'll resolve her questions soon."
+674,"Hey $n... I mean, Master $n. How may I help you?"
+675,I don't know if I'll ever remember to address you the right way.
+676,So don't. Just call me what you've always called me.
+677,Thanks. I don't feel so nervous now.
+678,"Master $n! How's the ship? Any problems? I can fix her up quick, ye know."
+679,"Good night, sleep tight, Master $n."
+680,This house is still vacant?! Why doesn't anyone buy it?
+681,Wouldn't it be great to live in a house like this?
+682,We don't need a house. We sail the seven seas. What more could you ask for?
+683,"Welcome, welcome Master $n."
+684,I hear that business is booming. That's wonderful.
+685,"Sapha, it's me. I've come to visit you again."
+686,"I'm sorry. I'd be really glad if you really are my brother, but..."
+687,"Don't worry about it, Sapha. I know you still have doubts."
+688,"W..We'll come back to visit again, Sapha. T..Take care."
+689,"Thank you, Salim."
+690,Welcome Master $n.
+691,Have you managed to collect the loan money from Pietro yet?
+692,You don't seem to have it. I take it you haven't received the payment yet.
+693,"You need to receive 40 gold ingots from him, which is twice what we loaned to him. It's quite a bit of money, so please hurry, if you can."
+694,"The contract said that we should receive 2 times the principal of the loan, which comes to 40 gold ingots. Thank you."
+695,Welcome Master $n.
+696,Please make sure you receive the loan payment from Pietro.
+697,"We'd better take Pietro's loan payment to Venice, and quick."
+698,This looks like the port of Sakai.
+699,I think that this is probably Zipangu.
+700,Let's look around and see if we can't find Pietro.
+701,"Excuse me, but do you know an adventurer by the name of Pietro?"
+702,Pietro? Just a minute please.
+703,Pietro! You've got a visitor.
+704,"A visitor? Well look here, it's $n. Did you come all this way just to collect payment on my loans?"
+705,"Well relax then, my purse is still full."
+706,"Alright then, 10 gold ingots at ten times. Plus interest, of course."
+707,"Hey, 10 gold ingots. You really have gotten your hands on quite a bit of money. Oh, I am also here to collect on the Marco Polo bank's investment."
+708,"You want me to pay for the Marco Polo Bank loans too? Oh well, here, 200 gold ingots."
+709,Aren't you paying me too much?
+710,"Well, I only borrowed 20 gold ingots, but I like to return ten times the original amount."
+711,"Alright then, your accounts are settled."
+712,"Can I ask you something though? I heard that this is the Golden Country of Zipangu, but have you managed to get your hands on any gold?"
+713,"No, there's no gold, but silver is really cheap down in Nagasaki. And the silk goods in Sakai are really a bargain."
+714,"I'm looking for El Dorado, the legendary city of gold. I thought it may be here in Zipangu, but it's not."
+715,El Dorado?
+716,"The shining gold city of El Dorado, where everything from the buildings down to the teaspoons are made of pure gold."
+717,"And as proof, look at this. A gold medallion!"
+718,This is impressive. So does this El Dorado really exist?
+719,"I believe it does. Zipangu wasn't the right place, but the world's a big place. I'm sure it's somewhere out there."
+720,I guess I'll go to South America next.
+721,"Well, I hope you find it."
+722,"A visitor? Well what do you know, 'money is my life' $n. What do you want?"
+723,I'm here to collect on the loan you received from Mr. Howell.
+724,"So now you're collecting loans, huh? Just like you I guess. Alright then, here you are then, 2 times what I borrowed, 40 gold ingots."
+725,"O.K., your debts are settled now."
+726,"Excuse me, but do you know of an adventurer named Pietro?"
+727,"No, I've never heard of him."
+728,"O.K., let's get this money back to the main bank in Venice."
+729,I wonder if Pietro is in Sakai? Let's go check it out.
+730,"Say $n, this sure looks like it could be Zipangu."
+731,Let's look around and see if we can't find Pietro.
+732,"Excuse me, but do you know anything about an adventurer named Pietro?"
+733,"Why yes. As a matter of fact, he's been coming here quite frequently these days."
+734,"But he hasn't been here for the past 2 or 3 days. If he's not at this port, then he's probably gone down to the port of Sakai."
+735,The port of Sakai is a little farther to the East.
+736,"Pardon me, but do you know anything about an adventurer named Pietro?"
+737,"No, I can't say I've heard the name."
+738,We'd better hurry up and take Pietro's loan payment to the main bank in Venice.
+739,We'd better hurry up and set sail for Zipangu if we plan to catch up with Pietro.
+740,"Well, now, isn't this a surprise, $n. Nice to see you again."
+741,You mean Sapha still doesn't believe that you're her real brother?
+742,"Well, don't worry. I'm sure she'll resolve her doubts soon."
+743,"Yo ho $n..., sir. How may I help you?"
+744,A messenger from the Palace was just here. I think the Sultan wants a word with you.
+745,I wouldn't keep him waiting if I were you. He can be really scary if you get him angry.
+746,"Hey $n... I mean, Master $n. How may I help you?"
+747,I don't know if I'll ever remember to address you the right way.
+748,So don't. Just call me what you've always called me.
+749,Thanks. It's good to hear that underneath the title you're still the same old $n!
+750,"Hello, Master $n. A messenger from the Palace was here a little while ago looking for you."
+751,I think it may be a good idea to go to the Palace as quickly as possible.
+752,"Hi there Master $n. Any problems with your ship? As you know, I'd be willing to fix her up for you."
+753,Greetings $n $s. I have heard much of your adventures.
+754,"Yes, Sultan."
+755,"The Ottoman Empire now has $d03 allied ports. Thanks to you, of course."
+756,I'd like to give you a reward. Here is 100 gold ingots. Please accept my gift.
+757,You are very gracious my lord.
+758,"Our allied ports have increased, but it's still not enough for world domination. I would like you to continue to ally with ports around the world."
+759,As you command.
+760,"A good night's sleep should do you a world of good, Master $n."
+761,I don't think anyone's ever going to buy this house.
+762,"Say, why don't we buy it?"
+763,"If I had enough money to buy a house, I'd buy more ships or merchandise. Let's go."
+764,"Welcome, welcome Master $n."
+765,I hear that business is booming. That's wonderful.
+766,"Sapha, it's me. I've come to visit you again."
+767,"I'm sorry. I'd be really glad if you really are my brother, but..."
+768,"Don't worry about it, Sapha. I know you still have doubts."
+769,"W..We'll come back to visit again, Sapha. T..Take care."
+770,"Thank you, Salim."
+771,"Well, now isn't this a surprise, $n. Nice to see you again."
+772,You mean Sapha still doesn't believe that you're her real brother?
+773,Maybe she needs something to convince her.
+774,"Hey $n... I mean, Master $n. How may I help you?"
+775,I don't know if I'll ever remember to address you the right way.
+776,So don't. Just call me what you've always called me.
+777,Thanks. I don't feel so nervous now.
+778,"Sweet dreams, Master $n."
+779,"Master $n, how's your ship? I'll fix any problems you have. Just give me the word."
+780,This house is still on the market?!
+781,"Like I said, why don't we buy it?"
+782,"As I said before, I'd rather buy another ship or more merchandise. Let's go."
+783,"Nice to see you again, Master $n."
+784,You seem to be richer every time you come in here.
+785,"Sapha, it's me. I've come to visit you again."
+786,"I'm sorry. I'd be really glad if you really are my brother, but..."
+787,"Don't worry about it, Sapha. I know you still have doubts."
+788,"W..We'll come back to visit again, Sapha. T..Take care."
+789,"Thank you, Salim."
+790,Welcome Master $n $s.
+791,"I've only just heard, but is it true that the Ottoman Empire is planning for war?"
+792,"They're really increasing their army. Don't tell anyone I told you, but there's a lot of places that are experiencing tough times because all the men are being drafted."
+793,Really? Are you sure about this?
+794,"But there's more. In order to pay for the war effort, some families have had their entire life savings confiscated."
+795,I wonder when it will all stop.
+796,I just don't know...
+797,"Hey, aren't you $n $s of the Ottoman Empire?"
+798,"That's right, but..."
+799,"You sail around to ports all over the world, use your money and make alliances, right?"
+800,"That's right. In the name of the Ottoman Empire, to increase its influence."
+801,"Thanks to you, there are thousands of people in tears right now. You're committing a crime."
+802,Eh? What are you talking about?
+803,"At every allied port of Ottoman, all the working men are being drafted, for the glory of the Ottoman Empire!"
+804,Are you sure of this?
+805,"Yes. And it's not confined to just allied ports. Other ports, other countries, are all suffering under the yoke of the Ottoman Empire."
+806,"If you think I'm lying, just go to an allied port and talk to the people in the pub. They'll tell you how it is."
+807,"Well, now isn't this a surprise, $n. Nice to see you again."
+808,You mean Sapha still doesn't believe that you're her real brother?
+809,Maybe she just needs something to convince her that you're her real brother.
+810,"Hey $n... I mean, Master $n. How may I help you?"
+811,I don't think I'll ever get used to using your title.
+812,Then don't try. I'm still the same person I always was.
+813,Thanks. I feel much more relaxed now.
+814,Welcome Master $n. Make sure you go and check up on your sister from time to time.
+815,"Master $n! Let me fix your boat, please. It would be an honor."
+816,May be this house is haunted or something. That's why no one's bought it.
+817,"Well, why don't we buy it and find out?"
+818,"No way. I've still got plenty of good trading years left in me. Come on, Let's go."
+819,"Nice to see you again, Master $n."
+820,"Business seems to be booming, as usual."
+821,"Sapha, it's me. I've come to visit you again."
+822,"Oh! Hi, big brother."
+823,"Sapha, did you just say big brother? That's the first time you've ever called me big brother!"
+824,"That's really great, $n."
+825,"$n, I have something to ask you. It's about this child..."
+826,"This child... What about him? Don't tell me, he's your so...?"
+827,S..Sapha's son? ... (thud).
+828,Oh no! Salim! Are you OK? I guess he doesn't deal with shock very well.
+829,Whose child is this?
+830,"He's an orphan. His parents were against the war, and so as a punishment, had their life savings confiscated... Then the other day..."
+831,"I want to look after this child. But I promise I won't cause you any trouble. It's alright, isn't it?"
+832,But...
+833,"You don't think I should just abandon him, do you? I thought you'd understand!"
+834,I do. You can take care of the child.
+835,Then let's buy a house and all live together in Istan...Istanbul!
+836,...............
+837,......What did you say?
+838,Did I say something weird?
+839,"Not at all Salim. Why, that's a great idea!"
+840,"Let's buy a big house and make it a home for orphans. How does that sound, Sapha?"
+841,"Just wonderful, big brother!"
+842,You haven't told me what this child's name is yet.
+843,"Rustem. It's a nice name, don't you think?"
+844,"O.K. then. Rustem, from now on you're one of the family. Let's set sail for home. Istanbul, here we come!"
+845,"Sapha, it's me. I've come to visit you again."
+846,"I'm sorry. I'd be really glad if you really are my brother, but..."
+847,"Don't worry about it, Sapha. I know you still have doubts."
+848,"W..We'll come back to visit again, Sapha. T..Take care."
+849,"Thank you, Salim."
+850,"Hello there, $n. What? You still haven't bought a house yet! Hurry up!"
+851,"But don't work too hard, big brother."
+852,"Welcome $n, have you met with Howell yet?"
+853,"What? Not yet? Well, hurry up then."
+854,"Well, now isn't this a surprise, $n. Nice to see you again."
+855,"Who's that? ...Sapha! You must be Sapha! You two look so much alike, it was easy to tell."
+856,How do you do. My name is Sapha $s.
+857,"And this young boy? Is he yours, Sapha?"
+858,"No, he's an orphan. His name is Rustem."
+859,We're going to buy a big house and start a home for orphans.
+860,"Oh, a home for orphans? That reminds me, there's a house right here that's still on the market."
+861,Who's selling it?
+862,I'm pretty sure it's the head of Marco Polo bank. I heard he took over when the owner couldn't pay his loan.
+863,"Alright then, it's off to see Howell. Come on Salim. Ladia, could you watch these two for me while I'm gone?"
+864,Leave everything to me.
+865,"Master $n, that girl, is she...?"
+866,"My younger sister, Sapha. From now on, we're all going to be living in Istanbul."
+867,That's great! All that hard work really did pay off!
+868,You should go to the pub and tell Ladia the good news.
+869,"Master $n, Ladia must have been very happy."
+870,"As happy as if it were her own long lost sister. I've got to thank you, for your help all these years."
+871,"No, no, all I did was give you a warm floor to sleep on. That's all."
+872,Yo ho $n... sir. How may I help you?
+873,I see you've finally found your long lost sister. Congratulations.
+874,I sure hope your sister is doing well.
+875,Who's this?
+876,"My sister, Sapha. She's going to be staying with me in Istanbul from now on."
+877,Nice to meet you. My name's Sapha $s.
+878,"Your younger sister, eh? Nice to meet you too."
+879,"Master $n. How's she holding up? The ship, I mean."
+880,"So, you finally found your long lost sister. Congratulations."
+881,"And how is that sister of yours doing? Well, I hope."
+882,Who's this now?
+883,"Sapha, my younger sister. She's going to be staying in Istanbul with me from now on."
+884,Sapha $s. Nice to meet you.
+885,"Long lost sister, that's great. I'm happy for the both of you."
+886,No one's bought this house yet. Do you know who the seller is?
+887,We'd have to ask Ladia. She knows everything that goes on in this port. Let's go to the pub.
+888,I had no idea that this house was owned by Howell.
+889,"Well, I'd sure like to get my hands on it."
+890,Welcome Master $n.
+891,I hear that business is booming. That's wonderful!
+892,Congratulations on finding your sister.
+893,And how is your sister doing?
+894,"Welcome, Master $n."
+895,I hear that business is booming. That's wonderful... Huh?
+896,Who's the girl?
+897,"My sister, Sapha. She's going to be staying in Istanbul from now on, with me."
+898,"Sapha $s, nice to meet you."
+899,"Likewise. Well now, that's quite an attractive sister you've got there."
+900,I've come to see Howell.
+901,Just a moment please.
+902,"Oh, $n. What is it you want?"
+903,I'd like to ask you about the house you have on the market in Istanbul.
+904,"Are you saying you want to buy it? This is a personal question, but what do you plan to use it for?"
+905,I'm going to start an orphanage.
+906,"An orphanage? In that case, I'll sell it to you for $d21 gold ingots."
+907,$d21 gold ingots? Can't you sell it to me for a little less?
+908,"Well, it looks like you've got the money. Why don't we settle this transaction now?"
+909,"No, I'm afraid not. Come back after you've managed to raise $d21 gold ingots."
+910,It looks like you've got the money. Why don't we settle all accounts now then?
+911,It doesn't look like you have $d21 gold ingots yet. I thought you were more talented than this.
+912,"Really? Well then, take the house. It's yours. I'm giving it to you for free."
+913,Huh? What are you talking about?
+914,You let me test you. Do you remember what I said when we first met?
+915,"Once you become a millionaire, life seems kind of empty."
+916,"When I became a millionaire, I thought to myself, 'Why have I tried to make this much money?'"
+917,"But you, you have found a purpose, those orphans. Actually, I'm kind of envious."
+918,But it won't be easy taking care of all those orphans.
+919,"If you're not totally committed, then it's the children who will suffer. And I'd suggest you quit now."
+920,"Actually, I've been thinking of turning that house into an orphanage for some time now. That's why I never sold it, no matter how much money I was offered."
+921,"That's why I was testing you. Your resolve. So, go on now. The children are waiting."
+922,Thank you.
+923,"We've got $d21 gold ingots, but what should we do? Why go see Howell, of course. And buy that house."
+924,Somehow we've got to raise $d21 gold ingots. Otherwise we'll never be able to buy that house. Let's keep trying.
+925,Let's hurry over to Howell's place.
+926,"We should hurry back to Istanbul, right Sapha?"
+927,"Yes, Salim. Let's go, big brother!"
+928,"We've got $d21 gold ingots, but what should we do? Why go see Howell, of course. And buy that house."
+929,Somehow we've got to make $d21 gold ingots. Otherwise we'll never be able to buy that house. Let's keep trying.
+930,Let's set sail for Venice and go see Howell.
+931,"We should hurry back to Istanbul, right Sapha?"
+932,"You're right Salim. Full speed ahead, big brother!"
+933,Sapha! Ladia! We finally bought the house!
+934,"Really?! That's wonderful, isn't it, Sapha?"
+935,"Thank you, Ladia."
+936,"Thank you too, big brother."
+937,"Let's go have a look at the house, Sapha."
+938,"Thanks to you too, Salim. Let's go Rustem."
+939,"Come on, everybody! Let's go!"
+940,Ladia... aren't you coming?
+941,Who? Me?
+942,Of course you. And... well... what would you say to moving in with us?
+943,"$n, is that... a proposal?"
+944,"Well, yes, I guess it is ... What do you say?"
+945,...Everyone else has already left. Let's go... to our house.
+946,Let's go! To OUR house!
+947,"$n finally accomplished his dream, the orphanage."
+948,"But he knew there were many more orphans out there, waiting to be saved."
+949,"So he set out again to sail on the bright blue seas, this time in search of children in need."
+950,Yo $n... sir. How may I help you?
+951,"I heard that you're looking for a house. Are you going to live with your sister? Or is it for Ladia, instead?"
+952,"What! You already bought it! I thought there was some crazy owner that would never let it out of his hands, but Master $n, you did it!"
+953,"I've heard the news, Master $n. You finally bought that big old house."
+954,"And that you're going to make it into an orphanage, and save children around the world."
+955,"I always knew you were a nice man, Master $n."
+956,"Welcome Master $n. You're searching for a house, right? Huh? you've already bought it?! That big house?!"
+957,"But the owner of that house refused to sell, no matter how much money he was offered. I don't know how you did it, but only you, Master $n, could have pulled it off."
+958,This house is our house.
+959,"That's right. Our house, the orphan's house and Howell's as well. We'd better go and tell Sapha."
+960,Hello there Master $n. I heard you were going to buy a house. What?! You've already bought it?! That house over there?! The big one?!
+961,"But I thought the owner refused to sell, no matter how much money was offered. You're really something, $n."

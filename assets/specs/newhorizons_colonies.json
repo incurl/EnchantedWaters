@@ -1,0 +1,35 @@
+{
+  "name": "newhorizons.colonies",
+  "description": "The colonies and wonders of the world map of the original game.",
+  "source": {
+    "path": "COLONY.DAT",
+    "offset": 0,
+    "length": 0
+  },
+  "tables": [
+    {
+      "name": "original_colonies",
+      "description": "The name and the description of every colony and wonder.",
+      "kind": "fixed_text",
+      "offset": 0,
+      "record_size": 293,
+      "id_field": "id",
+      "string_trim": true,
+      "string_decode": "ascii",
+      "fields": [
+        {
+          "name": "name",
+          "type": "str",
+          "offset": 0,
+          "length": 20
+        },
+        {
+          "name": "description",
+          "type": "str",
+          "offset": 26,
+          "length": 267
+        }
+      ]
+    }
+  ]
+}

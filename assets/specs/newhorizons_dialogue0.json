@@ -1,0 +1,23 @@
+{
+  "name": "newhorizons.dialogue0",
+  "description": "The dialogue scripts of the scenario 0 of the original game.",
+  "source": {
+    "path": "SNR0.MES",
+    "offset": 0,
+    "length": 0
+  },
+  "tables": [
+    {
+      "name": "original_dialogue_0",
+      "description": "The dialogue lines of the scenario 0.",
+      "kind": "offset_table",
+      "offset": 0,
+      "offset_size": 4,
+      "offset_big_endian": true,
+      "string_trim": true,
+      "string_decode": "ascii",
+      "id_field": "id",
+      "fields": []
+    }
+  ]
+}

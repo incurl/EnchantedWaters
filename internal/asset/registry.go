@@ -189,6 +189,13 @@ func loadRegistry(dir string, log logr.Logger) (*config.Registry, error) {
 	}
 	reg.Params = params
 
+	// --- the tables that were imported from the original assets ---
+	// They are optional: the runtime falls back to its own wording when
+	// they are absent.
+	if err := loadOriginalTables(dir, reg, log); err != nil {
+		return nil, err
+	}
+
 	// Build all reverse indexes and the deterministic orderings.
 	reg.Finalize()
 

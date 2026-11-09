@@ -1,0 +1,933 @@
+id,text
+0,Hello Lieutenant. Emilio Sanude was looking for you.
+1,He wanted you to go to headquarters.
+2,It may have something to do with the fleet that just returned from the New World.
+3,Hello Lieutenant. How are you today?
+4,Emilio Sanude was looking for you.
+5,"He walked away in that direction, so he must be at headquarters, to the right of the palace."
+6,Do you think Commander Ezequiel will really allow us to seek out the Francos?
+7,Well... I don't know.
+8,"Hey there, friend, business is good as usual, eh?"
+9,"Why hello Emilio, it's been a long time since I last saw you."
+10,"Two glasses of wine, please."
+11,"Emilio, it just doesn't make sense. I just can't believe my brother would be lost in a storm."
+12,I agree.
+13,And I can't believe that a Spanish fleet would be attacked.
+14,"It could be Caribbean pirates that attacked the fleet. They'll regret it! As long as I'm in the Navy, they'll never rest."
+15,What are you going to do now?
+16,"I'm a Navy officer, $n. I'll do some investigating whenever I stop at a port, and eventually I'll find out what happened to them."
+17,"Actually, those men are talking about that very thing, right now."
+18,"Hey, Giovanni, have ye heard the latest gossip?"
+19,"Aye, a Royal Naval fleet disappeared in the Caribbean Sea."
+20,There's whispers that Black Beard did it.
+21,"Aye, but I hear 'tis only a yarn."
+22,One of me mates says some Portuguese salts are involved.
+23,He says that they set fire to the fleet when it was resupplying in Santo Domingo.
+24,Rumor has it that the attacking ship was flying a flag with the red cross of the Malta Knights.
+25,What? That's the flag of Duke Franco's private battle fleet!
+26,"Arrrgh, ye never can trust those Portuguese."
+27,"Excuse me, but could you repeat that?"
+28,Who in the blazes are ye?
+29,I'm a lieutenant in the Royal Navy. Are you sure that what you just said is true?
+30,"Well, I don't know for certain, but the rumor is spreading like wildfire among me men."
+31,"Come on Emilio, I want to tell Commander Ezequiel about this."
+32,And?
+33,And I will request permission to seek out and destroy the Francos.
+34,"Commander, I have a request."
+35,"What is it, Lieutenant?"
+36,I know who is responsible for the attack on my brother's fleet.
+37,Oh really?
+38,It's Duke Franco of Portugal.
+39,Please give me a battleship and soldiers to avenge Michael and Hernan.
+40,"Please, Commander, I'm begging you! I must have my revenge!"
+41,"Lieutenant $s, do you have any idea what you're saying?"
+42,"W, Well..."
+43,"I don't know where you heard that rumor, but one thing is clear:"
+44,Attacking the Francos will cause a full-fledged war between Spain and Portugal.
+45,"Forget your absurd ideas of revenge. Return to your duties, at once."
+46,"$n, don't be so down."
+47,"Here, this is Commodore Michael's saber. Take this with you."
+48,"|Lieutenant Emilio Sanude|
+$n, I was looking for you. Commander Ezequiel needs to talk to you."
+49,The Commander? Is it about my missing brother?
+50,Well... I think you should hear it from the Commander.
+51,"Lieutenant $n $s, reporting for duty, sir."
+52,"|Commander Ezequiel|
+Thank you for coming. At ease."
+53,"Well, I have some news about your brother, Michael."
+54,"We lost contact with his fleet on April 10, 1522, off the coast of Santo Domingo."
+55,My brother... I just can't believe it. He's one of the best sailors in the navy.
+56,"Besides, he has Hernan in his fleet."
+57,"Yes, Michael was a capable man. His first mate, your fiance Hernan, was also a brave man."
+58,But we got a report this morning from a fleet we sent to investigate the matter.
+59,"All they found were the remains of a shipwreck. The entire fleet was terribly damaged, and there was no one on board."
+60,"The cause of the destruction is unknown. It could have been a storm, or perhaps someone attacked them..."
+61,But this flag was found on the wreck... It's Michael's.
+62,"I'm sorry to be the one to tell you this, but I'm afraid he didn't make it."
+63,I... He didn't... but...
+64,"I understand your grief, but I'm sure he would want you to be brave at a time like this."
+65,"Lieutenant Sanude, please escort Lieutenant $s safely to her quarters."
+66,"Yes, sir."
+67,"I'm so sorry, $n. It's all so sudden... he was my commanding officer as well as my best friend. I vow to find out what happened."
+68,Let's go to the pub. I'll buy you a glass of wine.
+69,"Hey, what did Commander Ezequiel say?"
+70,... well...
+71,"Sir, don't talk about Commodore Michael now."
+72,Oh... I'm sorry.
+73,You should go to headquarters right now. It's to the right of the palace.
+74,"Lieutenant $s, have you heard any news about your missing brother?"
+75,Don't worry. I'm sure a strong mate like Michael is doing just fine.
+76,Emilio was here looking for you. He wants you to go to headquarters.
+77,"A fleet has just returned from the New World, so maybe he wanted to talk to you about that. He looked pretty serious - something important must have happened."
+78,Thanks for the information. I'll get right over to headquarters.
+79,"Hey Lieutenant $s, have you got any information about your missing brother?"
+80,...well...
+81,"Sir, don't mention Commodore Michael now, please."
+82,I see. Sorry.
+83,"Sorry Lieutenant $s, but we are closing now."
+84,"Lieutenant $n, have you seen Commander Ezequiel yet? Did he say anything about your brother?"
+85,...well...
+86,"Sir, don't mention Commodore Michael now, please."
+87,Oh... I'm sorry.
+88,You should go to headquarters as soon as possible! It's to the right of the palace.
+89,"Ah, Lieutenant $s. Perfect timing. A fleet has just returned from a trip to the New World."
+90,"Commander Ezequiel wants to talk to you about it. Your presence is requested at headquarters, to the right of the palace."
+91,"Hey, Lieutenant $s, I heard a fleet just came back from an investigation in the New World. Any news on your brother?"
+92,...well...
+93,"Sir, please don't talk about Commodore Michael right now."
+94,Oh... Sorry.
+95,"Hey, Lieutenant $s, I heard gossip from a merchant fleet on the Ionian route."
+96,It seems it was a Portuguese who attacked that Spanish fleet.
+97,"Hello, Lieutenant $s."
+98,Lieutenant Sanude was looking for you.
+99,"He must be at headquarters, next to the palace."
+100,"Hello, Lieutenant $s. Have you heard any news about your brother, Commodore Michael?"
+101,Lieutenant Sanude was looking for you.
+102,"He went to headquarters, next to the palace."
+103,Let's go to the pub. Maybe we'll hear more about what happened.
+104,"$n, are you OK? I should take you home."
+105,I'm OK. But I just can't figure out what could have happened to the two of them.
+106,"Hey, why don't we go to the pub? Maybe we can get some more information."
+107,"Hi Lieutenant! Sorry, but we're closed today."
+108,"$n, there is nothing we can do."
+109,I won't give up. I can't give up!
+110,Calm down. Let's go to the pub and talk things over.
+111,"Emilio, I may have to betray..."
+112,Betray what?
+113,Never mind. Let's go to the harbor.
+114,"So, $n, what are you going to do now?"
+115,I'm going to quit the Navy.
+116,What?!
+117,"As long as I'm in the Navy, I can't avenge the loss of my brother, or my fiance."
+118,But the Francos are powerful. It's impossible for a mere civilian to defeat the Duke of Portugal!
+119,"It's so easy to give up now, isn't it?"
+120,Who are you?
+121,Nobody important. But I don't like your attitude.
+122,Give up without trying? Run away because you can't win? Is that how honorable Spanish Naval officers behave?
+123,"Who IS this guy? $n, let's get out of here. He's just another crazy drunk."
+124,"Wait, Emilio. I've finally made up my mind."
+125,What? What did you decide?
+126,"Emilio, I need your help."
+127,I'll do whatever I can.
+128,Then come with me to the harbor.
+129,"Emilio, I need your help."
+130,"I'll do anything I can, $n."
+131,Then come with me to the harbor.
+132,What are you going to do?
+133,Any ship will do. If only I had a ship...
+134,Wait. Let's go to the pub and talk things over.
+135,What are you planning on doing?
+136,I'm going to take a ship from the Spanish Navy.
+137,Are you crazy?!
+138,"No, not at all. I just remembered, you have command of a ship - the ship carrying gold from the New World."
+139,"But that's treason! Commander Ezequiel will wring my neck, have me fired!"
+140,"Afraid of a little danger, Lieutenant?"
+141,"$n, what are you doing?"
+142,"Don't move, or I'll shoot."
+143,"I don't want to hurt you. I just need a hostage, right now."
+144,"I'll drop you off at a neutral port. Until then please cooperate with me, Emilio!"
+145,"I'm really sorry to get you involved, but I have no other choice."
+146,"Alright, $n."
+147,What?
+148,I'll join your mission. But you'll have to command the ship.
+149,"The ringleader of a treacherous act has no hope if he, or she, gets caught. But an accomplice may be able to get away with just a simple prison sentence."
+150,"That's more like it! Now, let's talk strategy."
+151,"Well, you're the commodore. Name your flagship."
+152,Hmm... what do you think of 'Rebel?'
+153,"Rebel, huh? Why, I can't think of a more suitable name for the flagship of a lady pirate."
+154,"Then, let's get our rebellion started!"
+155,Wait a minute. There must be some gold bars left on this ship.
+156,We should sell the gold bars and get some spending money first.
+157,That's a good plan. I'll have to remember to sell them when we get a chance.
+158,Rebel
+159,"$n, I think what Commander Ezequiel says makes sense."
+160,Then what should I do?
+161,"I can't tell you to give up, but..."
+162,"$n, there is nothing you can do."
+163,I won't give up.
+164,Take it easy. Let's talk about it over a glass of wine.
+165,"$n, what are you thinking about?"
+166,I want power... the power to defeat the Francos.
+167,The power...
+168,"Emilio, I want you to help me."
+169,"Of course, $n. I'll do whatever I can."
+170,Then come with me to the harbor.
+171,"Commodore, this is the Franco residence. I think you'll really regret going in there."
+172,"Commodore $n, I heard a bad rumor in the harbor."
+173,What?
+174,Commander Ezequiel has been issued an official order from the King to arrest you.
+175,I see. That isn't good news.
+176,What shall we do?
+177,"If you're asking me to surrender, my answer is NO."
+178,Then will you fight against your own country?
+179,You can leave me now if you wish. I don't intend to force you to commit treason.
+180,"No, once an officer pledges his loyalty, it's for good."
+181,"Now, that's the spirit."
+182,"Commodore, this is the Franco's residence. They'll have your neck if you enter."
+183,May I help you?
+184,"No. No, thank you."
+185,It seems Commander Ezequiel himself is out at sea.
+186,Splendid! The Spanish Fleet is all out in the bay.
+187,So this is just a preliminary skirmish.
+188,"Commodore, this is the Franco residence. I doubt you'd make it back alive if you went in there."
+189,"Commodore, another fleet is approaching. That's..."
+190,"It's Commander Ezequiel's flag ship, the Santa Cruz! And look - they're signaling a message to us by flag..."
+191,"It says 'Your previous battle was a brave yet vain attempt. Surrender now, and you may get a special pardon.'"
+192,"'But if you resist, there will be no future, glory, or life for rebels.'"
+193,Rebels...
+194,"Hard to starboard! Commodore, fleeing is the only way out of here!"
+195,"Commodore, this is the Franco residence. I don't think we should be hanging out around here."
+196,We'll have a battle with the Spanish Fleet again.
+197,I can't give in until I avenge the loss of both my brother Michael and fiance Hernan.
+198,"Commodore, this is the Franco residence. You'll be in hot water if you enter."
+199,"Commodore, we're surrounded by the enemy fleet. We can't escape!"
+200,This may be the last battle for us...
+201,"Emilio, I regret that I got you involved in my personal grudge."
+202,That's OK. It was my choice to join you. I'll accompany you till the very end.
+203,"Attention crew, prepare to assault the enemy."
+204,"Commodore, something is strange about the way the enemy is moving. It seems as if they're retreating..."
+205,There's a fire in the enemy's battle line. It looks like a fire was set while they were in close formation!
+206,They're fleeing!
+207,"What a stroke of luck! We're saved! Wait, what is that, drifting over there?"
+208,It's a Spanish officer! He's clinging to a piece of driftwood.
+209,Pull him up on deck.
+210,"Whew, thanks for saving me."
+211,You are now our prisoner. State your name and rank.
+212,"Huh, don't be so pretentious, pirates! My name is Andreas Paella. I'm a lieutenant in the Spanish Navy."
+213,You should also know that I am the one who saved you. I set that fire.
+214,That's an obvious lie. Why would a stranger save us?
+215,"Oh, I see you don't have too much of a memory. But then you've probably met a hundred crazy drunks at the pub."
+216,"Oh, you're the crazy drunk from the pub!"
+217,"You must be wondering why I saved you. Well, Miss Lady Pirate, I was a school buddy of your fiance, Hernan Obregon."
+218,"Even though he was from a noble family, he was still a good guy. He was very kind to people like me who grew up in poverty."
+219,"That's why I decided to save you. And I'd like to join your mission, too."
+220,"So let me work for you, Commodore. I'm quite useful, you know."
+221,What should we do?
+222,"Well, welcome aboard, mate."
+223,"Thank you, Commodore! We're going to make a great team!"
+224,"Don't get me wrong. You might be useful to me, but I don't completely trust you yet."
+225,"If you give me the slightest reason to suspect you of betrayal, it's all over for you."
+226,"Commodore, this is the Franco residence. Why would you want to go in there?"
+227,May I help you?
+228,"No. No, thank you."
+229,"I heard an interesting rumor, Commodore."
+230,What is it? About Commander Ezequiel again?
+231,No. It's about our enemy.
+232,"Duke Franco disowned his son, Joao Franco, who is now traveling the high seas."
+233,"If that's true, then we're in luck."
+234,"If Joao is in Lisbon, we can't approach him. But if he's out on the sea, we'll have plenty of opportunities to attack."
+235,Andreas Paella!
+236,"Uh, yes, Commodore?"
+237,"I, did you hear that, I will destroy the Francos. Try to remember that. No one is to interfere with my revenge."
+238,"I understand, Commodore."
+239,"Commodore, this is the Franco residence. Let's break in and take the scoundrels."
+240,"Don't be a fool. If we cause trouble here, the whole town will be after us."
+241,May I help you?
+242,"No. No, thank you."
+243,"Hello there. Have you, by any chance, seen a sailor named Joao?"
+244,"No, I haven't."
+245,"You're not lying, are you?"
+246,Ouch! Why would I lie to you?!
+247,"Stop that, Andreas. We'll be leaving now. Sorry to bother you."
+248,Have you seen a guy named Joao Franco?
+249,"No, I haven't."
+250,OK. Thank you.
+251,"Commodore, this is the residence of the evil Francos. Let's break in and get 'em!"
+252,"Don't be a fool. If you cause any trouble, the whole town will be hunting us."
+253,May I help you?
+254,"No. No, thank you."
+255,"Commodore, this is the Franco residence. I think we should steer clear of this house."
+256,"Commodore, we still haven't found that Joao kid."
+257,It's like looking for a needle in a haystack.
+258,"I know he's out there, somewhere. We have to find him. And there'll be no rest for me until I do."
+259,"Commodore, this is Franco's residence. We're goners for sure if we enter."
+260,"Commodore, I heard an interesting piece of information."
+261,Is it about Duke Franco or Commander Ezequiel?
+262,Duke Franco. I've heard that the Prince of Portugal is missing right now.
+263,Some people say Duke Franco may be involved.
+264,Oh really? How so?
+265,"Well, they say Duke Franco plotted to eliminate the Prince so his son Joao could take the throne."
+266,If that rumor is true then Duke Franco is a real villain.
+267,He's worse than we pirates!
+268,"Commodore, this is the Franco residence. Breaking in would cause big trouble."
+269,"Look, Commodore! Those people are all running somewhere."
+270,It must be a fight or something.
+271,Looks like they went into the shipyard.
+272,Hey! Looks like there's a big fight over there!
+273,Those two people are being attacked by that huge mob of pirates!
+274,Andreas! Emilio! Let's save them!
+275,"Hmph, you're pretty tough. Hey, you guys, it's time for you to take care of the kid!"
+276,Not if I have anything to say about it!
+277,Who in the blazes are you?
+278,"A pirate, like yourself. But not so vile as the likes of you, to attack two people with so many men."
+279,"A lady pirate?! Ha, you're that Spanish traitor, aren't you!"
+280,No one has survived a duel with me. On guard!
+281,Blast! You'll regret this!
+282,Pirates have such a limited vocabulary. Can't they ever say something original?
+283,Thank you very much. You saved my life.
+284,"Don't mention it. You're Portuguese, aren't you?"
+285,"I am Joao Franco. As a token of my thanks, I'll play a song on my lute for you."
+286,... What irony... I saved the life of a Franco.
+287,What's the matter?
+288,I am the sister of Commodore Michael $s of Spain. You are responsible for his loss.
+289,Prepare yourself for my fury!
+290,"W, Wait! I don't understand! Why do you want to fight me?"
+291,No more stalling. Pick up your sword!
+292,"Commodore, just a moment. I heard something outside."
+293,"Pirate $n, I know you're in there. You're under arrest by orders of the King of Spain, Carlos I."
+294,Throw down your weapons and surrender!
+295,"Ugh, I could almost... Listen kid, you were lucky this time, but next time we meet, revenge will be mine!"
+296,"Sorry, but we're closed today. There was a big fight here and we have to clean up."
+297,Did you hear a scream?
+298,"Yes, I did. I think it came from the shipyard."
+299,Let's check it out.
+300,"Commodore, this is the harbor, not the shipyard."
+301,"Look at the fleet anchored there, Commodore!"
+302,The flag of the main mast has the red cross of the Malta Knights.
+303,Someone is coming toward us.
+304,"You know, Rocco, you're a really strong guy."
+305,"Excuse me, are you the owner of that ship?"
+306,"Why yes. I am Joao Franco, Commodore of the fleet."
+307,"Fr, Franco!"
+308,I am the sister of Commodore Michael $s of Spain. You are responsible for his loss. Now I will take my revenge!
+309,Wait! I don't understand!
+310,Pick up your sword! On guard!
+311,"Commodore, just a moment. I heard something outside."
+312,"$n, I know you're in there. You're under arrest by orders of the King of Spain, Carlos I. Come out with your hands up!"
+313,"Curses! Listen kid, luck was on your side this time, but watch out! I will get my revenge!"
+314,Did you hear a scream?
+315,"Yes, I did. I think it came from the shipyard."
+316,Let's check it out.
+317,I thought we were going to the shipyard.
+318,"Commodore, we didn't go to the shipyard, after all."
+319,"Commodore, what do you think of sneaking into this house and making a surprise attack?"
+320,That doesn't sound fair.
+321,May I help you?
+322,"No. No, thank you. No surprise attack, of course. Excuse us."
+323,"Hummm, they're a suspicious lot..."
+324,"Commodore, I found someone who knows where Joao is."
+325,"Are you sure? You know, your information isn't always reliable."
+326,Shut up! You're the one who's useless!
+327,"That does it, I've had enough of your insults. Let's settle this with our fists. C'mon!"
+328,Stop quarreling!
+329,"Andreas, who said he knows of Joao's whereabouts?"
+330,"This scurvy pirate, called Bret Perot. He insists on speaking to you personally, Commodore. He's at the pub."
+331,"OK, I'll talk to him."
+332,"Commodore, Perot is waiting for you. Let's hurry to the pub."
+333,"Hey, Perot, the Commodore is here to see you."
+334,"You'd better not give us false information, buster, you'll pay for it, you hear?"
+335,"You'll wake up with a big headache, you got that?"
+336,"OK, I understand! Andreas, I wouldn't lie to you."
+337,"Two days ago, I ran into a Portuguese fleet just outside this port."
+338,Our fleet was disguised as a Portuguese merchant fleet.
+339,"I planned to attack them suddenly, once they'd let down their guard."
+340,Skip the irrelevant stuff. Just get to the point!
+341,"OK, OK! Just be patient. I gathered my courage and started talking with the fleet, asking where they were going."
+342,"The sailor who responded was an old man named Rocco, Joao's first mate."
+343,He told me they were heading toward $r17.
+344,"Thank you, but your story was too long!"
+345,Are you sure about this?
+346,"You're too suspicious! I swear to you, on my ship, that it's true."
+347,"Emilio, Andreas, let's go. Thank you, Perot."
+348,"Commodore, Perot is waiting for you. Let's hurry to the pub."
+349,"Oh, hello there. I thought I recognized you. Aren't you friends with Sir Joao?"
+350,"Hi Marco! I was in the area, so I thought I'd stop by and say hello."
+351,"Emilio, what are you thinking? You want to make friends with the Francos?"
+352,"Well, he was quite pleasant."
+353,I can't believe how nice he's being to us! This must be one of those rare hidden events.
+354,Are you a friend of Sir Joao?
+355,"Well, we're not really friends yet."
+356,I see. Do you have any news about him?
+357,"Yes, he's heading toward $r17."
+358,Thank you very much for telling me that. This gold is a token of my gratitude.
+359,"You mean you'd really like to give me 1000 gold pieces? Well, then, thank you. I appreciate it."
+360,"Commodore, look at this. I got a reward."
+361,I'm dumbfounded. This is a strange turn of events.
+362,"Hey, Waiter! Have you seen a sailor named Joao?"
+363,"No, I haven't."
+364,"You're not lying to me, are you?"
+365,Ouch! Why should I lie to you!?
+366,"Stop that, Andreas!"
+367,This guy is lying. I know it!
+368,Let's go. Sorry to bother you.
+369,"Commodore, let's ask about Joao at the pub, first."
+370,"Commodore, this is the Franco residence. Let's get out of here."
+371,"Next time I see Bret Perot, he'll pay for this."
+372,"Commodore, maybe Joao's fleet hasn't arrived here yet."
+373,Or he hasn't visited the pub yet.
+374,OK. Let's wait here a while.
+375,"Commodore, this is the Franco residence. Let's forget about the rest of the Francos and concentrate on Joao."
+376,"Hey, Bartender. Are you sure you haven't seen Joao?"
+377,"Oh no, not you again."
+378,"Why are you so nervous, huh?"
+379,"Ouch... OK, I'll tell you. Quit it!"
+380,"Stop it, Andreas."
+381,Cough-cough.
+382,"Now, tell us about Joao."
+383,I'm not lying.
+384,The man you are looking for came here a while ago. So I told him about you.
+385,What!
+386,You stupid pig!
+387,Maybe he's still around. Let's go look for him.
+388,He's not here.
+389,"He's not here, either."
+390,"Commodore, this is the Franco residence."
+391,"Not here, either. Hmm, what's that noise?"
+392,"You, hiding there, come on out!"
+393,"Commodore, help me!"
+394,Emilio! What happened? Why are you all tied up?
+395,Whew. Thank you.
+396,"Sorry, Commodore."
+397,"Who did it? Oh, you don't have to tell me, I know it was that wicked Joao."
+398,"Well, to be exact, it wasn't Joao, but his mate, Rocco."
+399,I followed them to this building. But that old man blocked me.
+400,He is a monster! I was powerless before him.
+401,"Yes, I've heard about him. That old man used to be called 'Monster Rocco'."
+402,Why didn't you tell us earlier?
+403,I didn't think he was that strong.
+404,Get up. Where did Joao go?
+405,He said he'll be at the harbor.
+406,No Joao here.
+407,"Commodore, this is the Franco residence. Forget going in there."
+408,Has a fleet left recently?
+409,"Yes, Commodore Joao's fleet just left."
+410,"Oh, no! We just missed them!"
+411,Did they say anything?
+412,"Well no, but they seemed to be laughing pretty hard about something."
+413,They won't get away with this!
+414,"Commodore, this is the Franco residence. I have to admit, it is a nice house. But it's no place for us!"
+415,"Hi $n, I was looking for you."
+416,"Oh, it's you."
+417,"So, Joao was in that port just as I said, wasn't he?"
+418,But things didn't go very well there.
+419,"Well, I just told you to go there. I never told you to let him go, and get all tied up!"
+420,How dare you say that!
+421,People loved the story how that old man tied you up like a bow!
+422,"Shut up, dog face. I'll teach you to make fun of me."
+423,Whoa! Hold on a minute there.
+424,"I won't stop Andreas if you were only looking for us so you could tease us, you weasel-faced numskull."
+425,"Ouch! No! Ouch! It just slipped out of my lips! Ouch! The true reason is, ouch!, I've got some information for you."
+426,Information? That must be about Joao.
+427,Uuuhh... Let me go...
+428,"That's enough, Andreas. Stop it."
+429,"Gasp, gasp... I thought I'd never breathe again."
+430,Tell us what you know.
+431,"I will, but on one condition."
+432,"Andreas, he's all yours. Have fun."
+433,"Oh, no. OK, I'll tell you. There is someone who knows where Joao's fleet is."
+434,Who is it?
+435,A Portuguese nobleman of high rank. But I'm not supposed to tell you his name.
+436,"That sounds suspicious. If he is a man of high rank, why can't he identify himself?"
+437,I haven't finished yet. That nobleman has a grudge against the Francos.
+438,That's why he's been following Joao's activities.
+439,"If you wish, he can help you, he says."
+440,Sounds too good to be true. It might be a scheme.
+441,It isn't a scheme. But he has a request of you.
+442,His son has a crush on a girl called Lucia in the Lisbon pub.
+443,He wants to see her alone.
+444,"But because he's a nobleman, he can't see her in public."
+445,So he wants you to take her to meet him at another port.
+446,"If you can do that, he'll let you know where Joao is."
+447,Is that all? It's easy to kidnap a girl.
+448,Not a kidnapping. We need to take her out secretly.
+449,"I'm not too keen on this scheme, but if we can find out where Joao is..."
+450,"It's a great opportunity. You accept the deal, right?"
+451,"OK, It's a deal. Where do we bring the girl?"
+452,"There is a port called Ceuta, just south of Lisbon."
+453,Bring her to the lodge there.
+454,I'll report our deal to the nobleman. Good luck!
+455,"Any day now, Joao will be within our grasp."
+456,It's not a bad deal. It's good to have support from someone.
+457,"Commodore, let's go get that girl at the pub."
+458,So we need to find the girl in this pub.
+459,There's a woman over there.
+460,Would you like anything to drink?
+461,"She's beautiful, but not young."
+462,"No, not a old lady like her."
+463,Who're you calling an old woman?
+464,"Oooops, she heard us."
+465,"Of course, everyone heard you, you loudmouth."
+466,"Old lady, my foot. Just get lost, children! You're not welcome here!"
+467,Blast! Let's get out of here.
+468,"We're not having much luck with this older generation. First Rocco, and now this!"
+469,"Excuse me, are you Lucia?"
+470,"No, Lucia is my daughter."
+471,May I speak to Lucia?
+472,"Why yes. Actually, if you're a traveler, tell her some interesting stories. She'll be delighted."
+473,Lucia! You have a customer. Lucia!
+474,"Yes, mother."
+475,This lady wants to talk to you.
+476,"Are you a stowaway? Oh, I'm so envious. I'd love to travel, too."
+477,"Anyone can travel, if they have 2 things - a ship and plenty of courage."
+478,But I have to work here.
+479,"That's true. Not to change the subject, but do you know a young noble who visits here from time to time?"
+480,"Yes, he comes here incognito. He is always kind and sincere, and he's very handsome."
+481,"That man said he wants to meet with you, but he can't come here right now. He's asked me to bring you to visit him."
+482,Really?!
+483,"Would you like to go? He's in a port called Ceuta, just to the south of Lisbon."
+484,Ceuta... I heard it's beautiful.
+485,What luck - taking a trip and seeing you-know-who! Please take me!
+486,"Then get ready, quickly. Where's a good place to meet?"
+487,"OK, I'll be ready as soon as possible. Wait for me at the lodge in 2 hours."
+488,Tell your mother so she won't be worried.
+489,Alright.
+490,-Closed Due To Remodeling-
+491,Remodeling? We came here all the way. Should I set it on fire?
+492,"Don't be silly, Andreas. Commodore, let's come back here tomorrow."
+493,"Commodore, let's finish our work as soon as possible."
+494,"Commodore, we should send Lucia to Ceuta first."
+495,"Lucia, are you ready yet?"
+496,"No, not yet. Give me a little more time."
+497,Where is Lucia?
+498,"What, you again? Lucia went to the lodge."
+499,Where's Lucia?
+500,Lucia went to the lodge a long time ago.
+501,It's almost time.
+502,Yes.
+503,I hope I didn't keep you waiting too long.
+504,"No, we just got here."
+505,You're late!!
+506,"Sorry, I had some business to take care of."
+507,No problem.
+508,Let's go to my ship.
+509,I'm so excited!
+510,"Commodore, how did it go?"
+511,Very well. She was thrilled. We'll meet her here in two hours.
+512,"Well, only one more hour now."
+513,Yes.
+514,You're late!!
+515,"Sorry, I don't know where the time went."
+516,I thought you had left already for Ceuta.
+517,I apologize. Let's go to my ship.
+518,I'm so excited!
+519,"Commander, how did it go?"
+520,Very well. She was really excited. We're supposed to meet her at the lodge in two hours.
+521,One more hour till she gets here.
+522,Yes.
+523,"Commodore, it's time to meet Lucia."
+524,That's right. Let's go to the lodge.
+525,"Commodore, we shouldn't keep her waiting."
+526,Yes. Let's go to the lodge.
+527,"Commodore, Lucia must be upset, waiting for us for so long."
+528,I'm afraid so.
+529,"Commodore, let's take Lucia to Ceuta right away."
+530,"Excuse me, but is a young Portuguese nobleman staying here?"
+531,"Yes, he's waiting for you."
+532,I also have a message for you from a man called Perot. He wants you to go to the pub after you bring Lucia to the lodge.
+533,Thank you!
+534,"$n, thank you very much. I won't forget your kindness."
+535,I have an appointment so I must leave now. Good luck!
+536,"Wow, is this Ceuta? It's a beautiful port."
+537,"Yes, it is."
+538,"Commodore, we should get going to the lodge."
+539,"If we wait too long, the nobleman might think we're not coming."
+540,"Commodore, she looked happy. Feels good when you do a good deed for someone."
+541,And she was pretty. No wonder that nobleman likes her.
+542,"He's probably a respectable guy, unlike those Francos."
+543,"According to her, he is kind, sincere, and handsome. I can't believe that somebody as sly as Joao could also be a Portuguese noble."
+544,"Hi $n, it seems you safely brought Lucia to this port."
+545,"So Perot, can you tell me now where Joao is?"
+546,Sure. Joao is in Alexandria.
+547,"Andreas, Emilio, let's go."
+548,Good luck. Try not to botch up the job again!
+549,"Commodore, let's go to the pub now."
+550,"Commodore, we don't have time to visit here. Let's go to Alexandria."
+551,"Commodore, what shall we do first?"
+552,Today is the day I will defeat Joao. We must act carefully.
+553,Excuse me.
+554,You are...?
+555,Otto Baynes. I command a Privateer Fleet from England.
+556,What would a commodore of England need from me?
+557,"I've been following you since I saw you in Ceuta. The pirate you were talking to in the pub is Bret Perot, isn't he?"
+558,"Yes, he is. What about him?"
+559,He's been linked with Marquis Martinez. Are you aware of that?
+560,I see. So the nobleman that Perot was talking about is Marquis Martinez. What about him?
+561,"Then you are kidnappers. Where is Lucia? If you return her now, we'll save your life."
+562,"What are you talking about? If you insist on making false charges, I'll dump you in the ocean as shark bait."
+563,"Watch your mouth, pal!"
+564,What! You shut up!
+565,"Calm yourself, Andreas."
+566,"Otto, why are you saying we kidnapped her?"
+567,I just accepted Marquis Martinez's request to take her to Ceuta.
+568,Are you saying that you did it without knowing who he is?
+569,"I found out about this crime only by chance. Matthew, explain it to them."
+570,"Yes, sir."
+571,"A while ago when I was drinking at the pub in Algiers,"
+572,"I overheard a conversation between Marquis Martinez and the pirate, Perot."
+573,It seems Lucia inadvertently overheard a big secret of theirs. That's why they plotted her kidnapping.
+574,"It was a clever idea. If a woman like you invites her, the girl and her mother would not be suspicious."
+575,Is that really true?
+576,Why on earth would we lie?
+577,Blast! Perot tricked us!!
+578,That means Lucia is in danger!
+579,"Otto, I caused this terrible situation. I must take care of it."
+580,You must do what you feel is right.
+581,"While in the pub, I also heard that Perot is heading for the Black Sea."
+582,Thank you for telling us.
+583,Perot
+584,Bret
+585,"Commodore, we must chase Perot now!"
+586,"Commodore, I have bad memories of this place. Let's not go inside."
+587,"Ha, ha, ha! You're finished now!"
+588,"Perot, you won't get away with lying to me."
+589,Blast! I didn't think you'd catch on so fast.
+590,But it doesn't matter. I wanted to get rid of you. And I don't care how I do it!
+591,"Captain, we've searched the entire ship, but we didn't find any sign of Lucia."
+592,Bret Perot! What have you done to that girl?!
+593,"Ha, ha, ha! You'll never find her! She's probably on the far side of the world by now!"
+594,"You'd better tell us what you've done, or I'll break every..."
+595,"Even if you did defeat me here, there's no way you'll ever stop the Atlantean armies. They will conquer the world!"
+596,"I don't know what you're talking about, Perot. But don't kid yourself. You're just a scurvy pirate, and you always will be."
+597,"Even so, he said some pretty interesting things, wouldn't you say?"
+598,"Blast! I guess this means I'll have to take care of you myself, $n!"
+599,"Commodore, I don't think we should go in there."
+600,"Commodore, I don't like this building. Let's get out of here."
+601,"Commodore, I think we'd better stay out of this building."
+602,"Commodore, I really don't want to go inside this building."
+603,That wasn't as difficult as I thought it would be.
+604,"Even so, it's too early to relax. We better watch out, so we don't get fooled again."
+605,They wouldn't have the nerve to do that to us.
+606,"Well, you've got a point there."
+607,Have you loaded up all our spoils of victory?
+608,Don't worry. It's all taken care of.
+609,"Oh, Commodore, there was a navigator hiding in the main hold of the enemy's ship."
+610,Deal with him as you see fit.
+611,He says he knows something that may interest you.
+612,Then bring him here.
+613,Here's the lout.
+614,"You, you're the female pirate, $n."
+615,And what of it?
+616,I have some information you may find interesting. We can make a deal.
+617,"No, thank you. I don't make deals."
+618,"Andreas, take him away and dump him in the ocean with a sinker."
+619,"Yes, ma'am."
+620,"W, Wait, don't, please!"
+621,"Then speak up. If your information is really useful, maybe I'll spare your life."
+622,I know where Joao is.
+623,"He's at a port called Massawa in the Middle East, defending it from the Turkish forces."
+624,"Some people think he's foolish to try and confront the Turkish power all by himself, but I think he's brave, a real hero."
+625,That's all I know.
+626,"Andreas, take him away."
+627,Dump him into the sea?
+628,"Untie him and toss him gently overboard when land is in sight. He may survive, if he's lucky."
+629,"Huh, you are one lucky guy. This is the first time the Commodore ever let a prisoner go."
+630,"Emilio, direct the bow to the Middle East."
+631,"Yes, ma'am."
+632,"I didn't completely believe that lout, but I think we should head for Massawa and check things out anyway."
+633,"Commodore, I don't think it's such a good idea to go in there."
+634,"Commodore, I don't like the looks of this building."
+635,... Get lost.
+636,"Do you still need something, pirate?"
+637,I have one more thing to say.
+638,What is it?
+639,You look a lot scarier than we pirates!
+640,... Get lost.
+641,"Commodore, it's a little strange that there's no one around in such a large building."
+642,Maybe they're all hiding. They'd come out if we lit a small blaze.
+643,Pyromaniac! You're always wanting to set things on fire!
+644,"|Mecombe|
+Who are you?"
+645,Excuse us. We're just stopping by. We're not thieves.
+646,We're just ordinary pirates. Not arsonists or anything...
+647,"Oh no, not arsonists..."
+648,... Get lost.
+649,"Well, excuse us for living!"
+650,"Commodore, let's find Joao as soon as possible."
+651,"Commodore, look there. That's Joao."
+652,He's going to run away!
+653,"It took me a while to locate you, Joao."
+654,"Blast! It's her again. Ye couldn't have picked a worse time, missie!"
+655,Shouldn't we ask about Lucia?
+656,"Lucia? Oh, that girl from the pub in Lisbon. I'm sorry about what happened."
+657,So you were the one who kidnapped her!
+658,It turned out that way. But we were tricked by a pirate who belonged to the gang we just destroyed.
+659,"But an accidental kidnapping is nothing, compared to the vile deeds you have done."
+660,What a cold-blooded woman...
+661,"Tell me, is Lucia safe?"
+662,"I don't know. I defeated all the pirates on board, but I didn't find her anywhere."
+663,But enough of this chitchat. Draw your sword! My time for revenge has come!
+664,"Sorry $n, but I don't have time to deal with you right now. I have to battle the Turks."
+665,"So please let me pass. I don't know why you're after me, but I promise that after this battle, we will finally cross swords."
+666,Alright. I'll let you go this time.
+667,"Commodore, do you believe what he says?"
+668,"They're calling him the savior of the city. We'll see his true colors if he's acting up,"
+669,and whether he can save this port or not.
+670,"When you come back, I'll be your last match."
+671,Though I don't expect you'll make it back alive.
+672,"Enough of your blather, pirate lady!"
+673,"Don't bother, Rocco. It's no use saying anything to her."
+674,The fire of vengeance has burned away all traces of her compassion.
+675,"Commodore Joao, just ignore her and let's go."
+676,"We'll be back. And ye'll regret it, not us!"
+677,Have you heard about a Portuguese called Joao?
+678,Of course I have. He's the savior of our city.
+679,Where is he?
+680,He went to the harbor.
+681,Do you know a Portuguese named Joao?
+682,"Of course, I do. He is our savior."
+683,Your savior?!
+684,What else would you call a man who is trying to single-handedly save this port from the Turks?
+685,That's unbelievable.
+686,"Commodore, I have a bad feeling about this building."
+687,"Commodore, I don't like this place. I think it's best we stay away."
+688,"So you believe him, after all."
+689,"No, I still don't trust him. The person I believe is Lucia."
+690,Lucia?
+691,She said that Joao is kind and sincere.
+692,I wanted to see if that's true.
+693,"Commodore, it's a bit late, but we can still make it to the battle."
+694,What?
+695,I don't want to just wait here.
+696,The enemy has thousands. Why don't we show one of them what it really feels like to be attacked?
+697,"Commodore, I don't like this place at all. It gives me the creeps."
+698,"Commodore, I believe going in there would be a big mistake."
+699,"Commodore, I see only one fleet that's not a Turkish one."
+700,"That's a Portuguese ship. It must be Joao's. Look, it's coming toward us!"
+701,"$n, what are you doing here!"
+702,"You were taking so long, I'd thought I come and help you get this over with."
+703,Don't get me wrong. I haven't forgiven you. It's just that I can't let anything interfere with my revenge.
+704,"If anyone's going to defeat you, it's going to be me."
+705,I'll take care of this fleet. You concentrate on the enemy's flagship.
+706,"Commodore, Why don't we just stay out of this building?"
+707,"Commodore, I don't like the looks of this place. Please, let's stay away from here."
+708,"Emilio, Andreas, let me do this alone. Wait for me on the ship."
+709,No way! It's too dangerous in the middle of all these enemies.
+710,"Wait, Andreas. This is her problem, what's been tormenting her all this time."
+711,We have to let her get through this on her own.
+712,"Joao, we were lucky back there, but it was a good fight. I take back what I said about you."
+713,"$n, thank you for joining in the battle. You were a big help. Now as I promised, shall we settle the score?"
+714,"$n, may I ask you just one question?"
+715,What is it?
+716,Why do you think Joao is your enemy?
+717,I have witnesses to his family's wicked deed.
+718,"On April 10, 1522, a Spanish Royal Navy fleet was set ablaze by a Portuguese fleet while it was resupplying at the port of Santo Domingo."
+719,The order for the attack came from none other than the Franco family.
+720,"The main mast of the flag ship had a banner with the red cross of the Malta Knights, which is the Franco's family crest."
+721,"Well, that's strange."
+722,"What is? Who are you, anyway?"
+723,"Sorry, I forgot to introduce myself. I am Pietro Conti, an adventurer from Genoa."
+724,"I said strange, because you said it was the Franco's private fleet."
+725,"Joao, tell her the facts."
+726,"You may not believe this, but in April of 1522, my family didn't have a private fleet."
+727,"It's true that my father, Leon Franco, used to have a powerful fleet, but that was many years ago."
+728,"But once he married my mother, he stopped sailing. He gave his fleet to the Portuguese Royal Navy."
+729,So the Francos didn't have a fleet until I built one.
+730,Then who destroyed my brother and Hernan?
+731,"I don't know, though it may indeed have been someone from Portugal."
+732,But I can guarantee that the incident had nothing to do with the Francos.
+733,I don't know... I just don't know what to think.
+734,You may go now.
+735,"I'll try to find out the truth, if I can. Your enemy has not only destroyed your brother and fiance, but blackened my family's name as well."
+736,"Please, just go. This female pirate doesn't need pity from a Portuguese."
+737,"Huh? The door's locked. Hello! Could you tell me where Joao, the savior of your city, is?"
+738,"Yes, he's at the palace, but we're still hiding from the Turks."
+739,"Commander, I wonder what has happened to Joao."
+740,Let's go back to Massawa.
+741,"Commodore, we really shouldn't be here."
+742,"Commodore, I don't like this place. Please, don't go inside!"
+743,Are you $n $s by any chance?
+744,And what if I am?
+745,My name is Ali Vezas. I'm a Turkish trader.
+746,And?
+747,"An adventurer we both know, Pietro Conti, has asked me to find you."
+748,"Ah yes, I have met him before."
+749,"He needs to see you as soon as possible. But he's too busy to come and find you, so he wants you to go to him."
+750,"Hmmm. I may stop by and see him, if I have the urge to do so."
+751,"He's in Lisbon. Say hello to him, and tell him that I sent you."
+752,Lisbon... I don't have very good memories of that place.
+753,Are you $n $s by any chance?
+754,"Why yes, I am."
+755,A Turkish trader called Ali Vezas was looking for you.
+756,I've never heard that name before.
+757,I heard that he is trying to recruit allied ports for Suleiman II the Magnificent of the Ottoman Empire.
+758,"He doesn't like pubs, so he wants to meet you at the lodge."
+759,"A trader, humph... He must be a stingy annoying guy."
+760,"Stop it, Andreas. Alright, I'll go see him."
+761,May I ask who you are?
+762,$n $s. I came to see Pietro Conti.
+763,"Ah, so you are $n $s. I've heard a lot about you from my son, Joao."
+764,Thank you very much for saving him.
+765,Is Pietro here?
+766,"Yes, just a moment, please."
+767,"Hi, $n, I was waiting for you."
+768,Why are you looking for me?
+769,"Well, I'm going to tell you something you really want to know."
+770,There is nothing I want to know.
+771,What happened to your fire of vengeance?
+772,"I haven't forgotten about it. But, it's just so hard... I just don't know who is responsible."
+773,Do you want to know?
+774,"Do, do you know?"
+775,"It's Marquis Martinez, from Portugal."
+776,"You are not just making this up, are you?"
+777,Of course not. I have evidence. A live witness.
+778,"Yes, I am the witness."
+779,You are...?
+780,"My name is Raul Franco. I am the father of Leon Franco, and the grandfather of Joao, whom you were chasing."
+781,But I thought you were dead! I heard that you were lost at sea over 20 years ago!
+782,"I was a prisoner for a long time, in an underground dungeon in Neo-Atlantis."
+783,Neo-Atlantis?
+784,"Yes, Neo-Atlantis."
+785,There are some outrageous people in this world who would do evil deeds. But do you know anything about Atlantis?
+786,"Atlantis, yes, wasn't that a land of advanced culture and technology? But that's just a myth."
+787,That's why I said outrageous. There are people who are trying to make that fantasy world a reality.
+788,"Of course it's just a fake, but they call themselves Atlanteans, and their man-made nation, Neo-Atlantis."
+789,The leader of that group is the Marquis Martinez.
+790,They've built a fortress in the Amazon. They've enslaved the natives and are pretending to look for the ruins of Atlantis.
+791,"Their scheme is to build a massive military force to control not only the Turks, but the entire world."
+792,It's outrageous.
+793,"They're a bunch of fanatics! And, my brother..."
+794,Your brother Michael just ran into the wrong crowd. He found the Neo-Atlantis stronghold while on a scout mission.
+795,It's an obvious violation of Treaty of Tordesillas. He was on the way to report it when he was attacked.
+796,I see... Where is Martinez now?
+797,He's probably in the Neo-Atlantis stronghold. But be careful. Their fortress is well defended.
+798,I also heard that Spain's Commander Ezequiel is still pursuing you.
+799,Don't worry. I can take care of Commander Ezequiel.
+800,Thank you both so much for telling me all this. I... I don't know how to thank you. I.. I must be going now...
+801,Take care.
+802,Good luck.
+803,"You, you are that..."
+804,"Please, please return Lucia."
+805,"I'm sorry, but I don't know where she is. You must give up. I looked for her everywhere, but I couldn't find her."
+806,"Oh, my Lucia..."
+807,You must be $n. Pietro is waiting for you in that large building.
+808,"That's the residence of our Prime Minister, Leon Franco."
+809,"What a gorgeous house! Of course, the Duke is wealthy."
+810,I'm concerned about being attacked by Commander Ezequiel. I'll go alone. Please go and wait for me on the ship.
+811,"Yes, ma'am."
+812,"Commander, I don't like the looks of this place. Let's leave."
+813,South America is such a vast continent. How will we ever locate Neo-Atlantis?
+814,"I can't even begin to guess. Maybe we should just sail around, from port to port?"
+815,"Look, someone is being chased. Is that a fight?"
+816,They're running towards the pub. Let's go.
+817,Isn't that girl Lucia?
+818,The people fighting against the pirates are Joao and Rocco!
+819,Rocco? Then we have nothing to worry about.
+820,Let's hide here and watch. We can surprise them if Joao and Rocco get into trouble.
+821,Arrgghh! How many men do I need to defeat?!
+822,Blast! This can't be!
+823,"Rocco, what's the matter?"
+824,"I'm sorry, Commodore. Lucia was taken as a hostage."
+825,"It's alright, Joao, go without me!"
+826,"Now, drop your sword and line up there."
+827,We have no choice. Do as you like.
+828,"Ha, ha, what a fool."
+829,You shall not have your way!
+830,"Joao, I'll take care these hoodlums, so grab Lucia and get out of here!"
+831,"Thanks $n, I owe you one!"
+832,Pirate
+833,Rudolph
+834,"Hmph, he wasn't nearly as good as he claimed he was."
+835,"Commodore, watch out!"
+836,Ouch!
+837,"Thanks, Andreas, you can be extremely helpful sometimes."
+838,Good work! Now let's try to catch up with Joao. Where did they go?
+839,They went to the harbor.
+840,"Commodore, let's go to the pub now."
+841,"Commodore, there's Joao!"
+842,I'll get Martinez for this. I swear it.
+843,No you won't! That's my job!
+844,"$n, you're safe! But what are you doing here in South America?"
+845,I found my true enemy - Marquis Martinez. He's the one who sank my brother's ship.
+846,What?!
+847,"While Michael was on a mission to explore the New World, he discovered the Portuguese scheme of Neo-Atlantis."
+848,"By the Treaty of Tordesillas, the land west of 46@W longitude is Spanish territory."
+849,The Neo-Atlantis project is a serious violation of that treaty.
+850,So Martinez had your brother's mouth shut before the scheme was uncovered in Europe. A devious plan.
+851,"I know where Martinez is, but it's a fortress. A normal approach won't work."
+852,"Besides, I have one more problem."
+853,"Commander Ezequiel of the 'Invincible Spanish Fleet,' right?"
+854,Exactly. Rumor has it he's still after me and is somewhere in the vicinity.
+855,It seems our chances of victory are pretty slim. But there is one way we can succeed.
+856,What is it?
+857,"If we tell Commander Ezequiel about Neo-Atlantis, maybe he'll help us."
+858,"What? That's impossible! I'm wanted by the Spanish Navy and you're from Portugal, his sworn enemy."
+859,"Well, it won't work if we don't try. We don't have any other choice."
+860,"I suppose you're right. Actually, I'm tired of battling my own country. I've been thinking about surrendering."
+861,Attention fleet! Halt or we'll fire!
+862,"Wait, I'd like to talk to Commander Ezequiel!"
+863,I am Commander Ezequiel.
+864,"I am Joao Franco, the son of Duke Franco of Portugal."
+865,I have no desire to fight you. I was looking for you because I need your help.
+866,"We don't want to fight either, but we have an urgent task. It's my duty to arrest that pirate."
+867,I will hear you out after I have dealt with her.
+868,"Wait, Commander. I am surrendering."
+869,What?!
+870,So please listen to the Portuguese gentleman. Please... Commander.
+871,"Alright. As a matter of gentlemen's courtesy, I'll listen to you."
+872,"This is rather embarrassing, but I must tell you about an internal rivalry that is threatening the stability of Portugal."
+873,"Two factions split the land- the Francos lead the liberal reformists, and Marquis Martinez leads the conservative nobility."
+874,"The members of the Franco family are not wealthy aristocrats, but they have earned the King's trust and popular support."
+875,The Martinez supporters are not happy about it and have come up with an outrageous scheme.
+876,"They have built a replica of Atlantis in South America, deep in the forest."
+877,They have formed a navy of the worst pirates around and plan to begin attacking the nations of the world.
+878,They call their stronghold Neo-Atlantis. And their goal is the subjugation of the entire world!
+879,The Neo-Atlantis stronghold is located on the Amazon river.
+880,My brother Michael found this and was silenced by Martinez before he could report it.
+881,"Yes, we've heard about such a fortress on the Amazon River from one of our intelligence fleets."
+882,It may be that this is the Neo-Atlantis of which you speak.
+883,"If so, we can't ignore the facts. You shall have my assistance. I will fight with you, for all of Iberia."
+884,"Thank you very much. We'll lead the way, so please follow us."
+885,"Commodore, it's Joao. Are you really going to attack him?"
+886,"I didn't expect to fight him here, but then I do have a bit of a grudge against him."
+887,"But he's completely off guard. I can't believe you would pull such a dirty trick! My style must be rubbing off on you, eh?"
+888,There isn't any deep meaning to this. I was just testing to see what would happen if I attacked Joao now.
+889,May I give you a piece of advice?
+890,"Sure, what is it?"
+891,"Reset the game, or else we'll never be able to see the ending!"
+892,What a relief!
+893,"$n, let's go to the fortress."
+894,"Yes, let's get there as soon as possible."
+895,What are you doing? You're targeting the wrong ship!
+896,I'm just fooling around!
+897,"Commodore, you're aiming at the 'Invincible Fleet', led by Commander Ezequiel. Are you really sure to attack them?"
+898,"Well, I didn't expect to attack Commander Ezequiel."
+899,I think it's all right.
+900,But this may change the course of the story.
+901,"Of course, it will."
+902,"It's too bad. This way, I don't get to see the ending."
+903,What a relief.
+904,"$n, let's go to the fortress now."
+905,"Yes, sir."
+906,What are you doing? You're targeting the wrong ship!
+907,I'm just kidding.
+908,How long are you going to try to escape from me? It's time to give up.
+909,What's the matter? Weren't you going to destroy me?
+910,"Martinez, your scheme has been uncovered."
+911,So what? None of that will matter if I bury you here.
+912,Our fleet will take care of the enemy's fortress. I'll leave you the rest.
+913,"Joao, please let me confront Martinez."
+914,"Of course! It's finally your chance for revenge. In the meantime, I'll take care of the rest of the fleet."
+915,"Oooohhh, my fleet, my dream, my ambition..."
+916,"Michael, Hernan... I have finally avenged your loss."
+917,"$n, you finally fulfilled your goal."
+918,And Commander Ezequiel blew up the entire fortress! The Spanish Fleet is truly invincible.
+919,"Commodore, we have contact with Commander Ezequiel's fleet. It's sending a flag signal."
+920,What does the signal say?
+921,'Congratulations on your victory. We'll meet again for our rematch.'
+922,Meet again for our rematch... Next time we'll be enemies.
+923,How shall we respond?
+924,I have an idea. How about this?
+925,"'It's easy to destroy you completely, but I'll let you go to maintain our relationship.'"
+926,"'If you want your life, leave your gold and cargo.' What do you think?"
+927,We should make sure we're a good distance away if you really want to send that message.
+928,"That's true, Commodore. Ha, ha."

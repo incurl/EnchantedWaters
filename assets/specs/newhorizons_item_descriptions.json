@@ -1,0 +1,29 @@
+{
+  "name": "newhorizons.item_descriptions",
+  "description": "The item descriptions of the original game.",
+  "source": {
+    "path": "ITEM.MES",
+    "offset": 0,
+    "length": 0
+  },
+  "tables": [
+    {
+      "name": "original_item_descriptions",
+      "description": "One description per item of the original game.",
+      "kind": "fixed_text",
+      "offset": 0,
+      "record_size": 100,
+      "id_field": "id",
+      "string_trim": true,
+      "string_decode": "ascii",
+      "fields": [
+        {
+          "name": "description",
+          "type": "str",
+          "offset": 0,
+          "length": 100
+        }
+      ]
+    }
+  ]
+}

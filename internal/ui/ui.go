@@ -62,6 +62,8 @@ type UI struct {
 	aiController *ai.Controller
 	// charIDs caches the deterministic list of the character template IDs.
 	charIDs []string
+	// text resolves the sentences of the interface.
+	text *Text
 }
 
 // New creates the user interface of a game session.
@@ -77,6 +79,7 @@ func New(w *world.World) *UI {
 	u := &UI{
 		world:        w,
 		cfg:          w.Config(),
+		text:         NewText(w.Config()),
 		mapRenderer:  render.NewWorldMap(mapW, mapH),
 		popups:       NewPopupStack(),
 		followCamera: true,

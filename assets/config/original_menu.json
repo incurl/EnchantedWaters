@@ -1,0 +1,246 @@
+[
+  {
+    "id": "0",
+    "text": "\b\u0004Deposit\u0000Withdraw\u0000Borrow\u0000Repay"
+  },
+  {
+    "id": "1",
+    "text": "\u000e\u0002Job Assignment\u0000Country Info"
+  },
+  {
+    "id": "2",
+    "text": "\u000e\u0003Fleet\u0000Merchant Fleet\u0000Battle Fleet"
+  },
+  {
+    "id": "3",
+    "text": "\u0004\u0003Meet\u0000Hire\u0000Duel"
+  },
+  {
+    "id": "4",
+    "text": "\t\u0003Check In\u0000Gossip\u0000Port Info"
+  },
+  {
+    "id": "5",
+    "text": "\u0004\u0002Buy\u0000Sell"
+  },
+  {
+    "id": "6",
+    "text": "\u000b\u0004Buy Goods\u0000Sell Goods\u0000Invest\u0000Market Rate"
+  },
+  {
+    "id": "7",
+    "text": "\u0006\u0002Pray\u0000Donate"
+  },
+  {
+    "id": "8",
+    "text": "\n\u0003Store\u0000Commission\u0000Exchange"
+  },
+  {
+    "id": "9",
+    "text": "\u0006\u0003Sail\u0000Supply\u0000Moor"
+  },
+  {
+    "id": "10",
+    "text": "\n\u0003Merchant\u0000Pirate\u0000Adventurer"
+  },
+  {
+    "id": "11",
+    "text": "\u000e\u0003Fleet\u0000Merchant Fleet\u0000Battle Fleet"
+  },
+  {
+    "id": "12",
+    "text": "\u0006\u0004Treat\u0000Gossip\u0000Hire\u0000Duel"
+  },
+  {
+    "id": "13",
+    "text": "\t\u0002Job Info\u0000Port Info"
+  },
+  {
+    "id": "14",
+    "text": "\r\u0004Tell Stories\u0000Give Gift\u0000Investigation\u0000Ask Info"
+  },
+  {
+    "id": "15",
+    "text": "\f\u0006Recruit Crew\u0000Dismiss Crew\u0000Treat\u0000Meet\u0000Waitress\u0000Gamble"
+  },
+  {
+    "id": "16",
+    "text": "\u000b\u0005Meet Ruler\u0000Defect\u0000Gold\u0000Ship\u0000Secret Call"
+  },
+  {
+    "id": "17",
+    "text": "\u0006\u0004Life\u0000Career\u0000Love\u0000Mates"
+  },
+  {
+    "id": "18",
+    "text": "\u000e\u0003Fleet\u0000Merchant Fleet\u0000Battle Fleet"
+  },
+  {
+    "id": "19",
+    "text": "\t\u0003Trade\u0000Piracy\u0000Adventure"
+  },
+  {
+    "id": "20",
+    "text": "\b\u0004Settings\u0000Save\u0000Load\u0000End Game"
+  },
+  {
+    "id": "21",
+    "text": "\u0006\u0004Water\u0000Food\u0000Lumber\u0000Shot"
+  },
+  {
+    "id": "22",
+    "text": "\t\u0006New Ship\u0000Used Ship\u0000Repair\u0000Sell\u0000Remodel\u0000Invest"
+  },
+  {
+    "id": "23",
+    "text": "\r\u0004Figurehead\u0000Guns\u0000Load Capacity\u0000Rename"
+  },
+  {
+    "id": "24",
+    "text": "\t\u0003Contract\u0000Discovery\u0000Rumor"
+  },
+  {
+    "id": "25",
+    "text": "\f\u0004Contract\u0000Learn Skills\u0000Report\u0000Locate"
+  },
+  {
+    "id": "26",
+    "text": "\u000e\u0007Fleet Info\u0000Ship Info\u0000Rearrange\u0000Scrap\u0000Cargo Info\u0000Log of Goods\u0000Transfer Cargo"
+  },
+  {
+    "id": "27",
+    "text": "\u000f\u0006Change Captain\u0000Change Job Duty\u0000Transfer Crew\u0000Assign Crew\u0000Wages\u0000Rations"
+  },
+  {
+    "id": "28",
+    "text": "\t\u0007Mate Info\u0000Hero Info\u0000Item\u0000Discovery\u0000Journal\u0000Chart\u0000Port Map"
+  },
+  {
+    "id": "29",
+    "text": "\t\bAuto Sail\u0000Anchor\u0000Port Call\u0000Go Ashore\u0000View\u0000Gossip\u0000Battle\u0000Options"
+  },
+  {
+    "id": "30",
+    "text": "\u000e\u0006BGM\u0000Message Speed\u0000Movement Speed\u0000Blue\u0000Red\u0000Green"
+  },
+  {
+    "id": "31",
+    "text": "\u0017\u0001Esc   Enter  Del  Space"
+  },
+  {
+    "id": "32",
+    "text": "\u0017\u00060 1 2 3 4 5 6 7 8 9 A B\u0000C D E F G H I J K L M N\u0000O P Q R S T U V W X Y Z\u0000a b c d e f g h i j k l\u0000m n o p q r s t u v w x\u0000y z"
+  },
+  {
+    "id": "33",
+    "text": "\u0005\u0002Equip\u0000Use"
+  },
+  {
+    "id": "34",
+    "text": "\u0002\u0005D\u0000C\u0000B\u0000A\u0000\"^"
+  },
+  {
+    "id": "35",
+    "text": "\t\u0005Search\u0000Entertain\u0000Plunder\u0000Sail\u0000Wait"
+  },
+  {
+    "id": "36",
+    "text": "\u0006\u0004Sail\u0000Repair\u0000Search\u0000Wait"
+  },
+  {
+    "id": "37",
+    "text": "\u000e\u0002Transfer Goods\u0000Buy Goods"
+  },
+  {
+    "id": "38",
+    "text": "\f\u0002Job Info\u0000Country Info"
+  },
+  {
+    "id": "39",
+    "text": "\u000e\u0003Fleet\u0000Merchant Fleet\u0000Battle Fleet"
+  },
+  {
+    "id": "40",
+    "text": "\t\bNorth\u0000Northeast\u0000East\u0000Southeast\u0000South\u0000Southwest\u0000West\u0000Northwest"
+  },
+  {
+    "id": "41",
+    "text": "\n\u0007Durability\u0000Tacking\u0000Power\u0000Crew\u0000Health\u0000Cargo\u0000Capacity"
+  },
+  {
+    "id": "42",
+    "text": "\t\u0003Trade\u0000Piracy\u0000Adventure"
+  },
+  {
+    "id": "43",
+    "text": "\n\u0003Seamanship\u0000Knowledge\u0000Intuition"
+  },
+  {
+    "id": "44",
+    "text": "\u000e\u0003Merchant fleet\u0000Convoy\u0000Voyaging Fleet"
+  },
+  {
+    "id": "45",
+    "text": "\n\u0003Buccaneers\u0000Corsairs\u0000Privateer"
+  },
+  {
+    "id": "46",
+    "text": "\t\bAuto Sail\u0000Sail\u0000Port Call\u0000Go Ashore\u0000View\u0000Gossip\u0000Battle\u0000Options"
+  },
+  {
+    "id": "47",
+    "text": "\u000f\u0015Ship\u0000Goods\u0000Ship\u0000Enemy Fleet\u0000Remaining Space\u0000Port\u0000Mate\u0000Ship\u0000Type of Goods\u0000Mate\u0000Ship\u0000Water\u0000Commodore\u0000Item\u0000Ship Model\u0000Material\u0000Figurehead\u0000Guns\u0000Discovery Item\u0000Fleet Number\u0000Region"
+  },
+  {
+    "id": "48",
+    "text": "\u0002\u0004@E\u0000@W\u0000@N\u0000@S"
+  },
+  {
+    "id": "49",
+    "text": "\u000b\u0001Environment"
+  },
+  {
+    "id": "50",
+    "text": "\u0006\bMove\u0000Attack\u0000Info\u0000Plan\u0000Order\u0000Wait\u0000Item\u0000Escape"
+  },
+  {
+    "id": "51",
+    "text": "\u000b\u0007Own Fleet\u0000Own Mates\u0000Own Ships\u0000Other Fleet\u0000Other Mates\u0000Other Ships\u0000Order List"
+  },
+  {
+    "id": "52",
+    "text": "\r\u0003Ship\u0000Merchant ship\u0000Battle ship"
+  },
+  {
+    "id": "53",
+    "text": "!\u0003and served them a crushing defeat\u0000but sunset ended it in a draw\u0000but we were forced to flee"
+  },
+  {
+    "id": "54",
+    "text": "\t\u0003Fight\u0000Flee\u0000Surrender"
+  },
+  {
+    "id": "55",
+    "text": "\u0013\u0003Sphere of Influence\u0000Letter of Marque\u0000Tax Free Permit"
+  },
+  {
+    "id": "56",
+    "text": "\t\u0004Load Game\u0000New Game\u0000Quit Game\u0000Save Game"
+  },
+  {
+    "id": "57",
+    "text": "\u000b\u0003Sail\u0000Supply\u0000Rename Port"
+  },
+  {
+    "id": "58",
+    "text": "\t\fMarket\u0000Pub\u0000Shipyard\u0000Harbor\u0000Lodge\u0000Palace\u0000Guild\u0000NPC\u0000Bank\u0000Item Shop\u0000Church\u0000Fortune"
+  },
+  {
+    "id": "59",
+    "text": "\u0016\u0002�A�i���O�f�B�X�v���C\u0000�W�K���t���f�B�X�v���C"
+  },
+  {
+    "id": "60",
+    "text": "\u000e\u0006Event Graphics\u0000BGM\u0000Layout\u0000Mouse Speed\u0000Scroll Range\u0000Sail Speed"
+  }
+]

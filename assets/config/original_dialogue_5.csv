@@ -1,0 +1,347 @@
+id,text
+0,"Ohhh, $n. Our favorite customer! You want something to drink, eh? Why not try some of this sludge? It's sooooo delicious! Ha!"
+1,"Awww, you're a funny guy, there, matey. I know I owe you money, just give me a little more time. I'll pay you soon, I promise!"
+2,"|Comrade Camillo|
+Ahoy there, if it isn't $n."
+3,"Camillo, it's great to see you! When did you get back? I know this is sudden, but I have a favor..."
+4,"I don't have any money, so don't waste your breath."
+5,That was cold. Aren't we still friends?
+6,"Of course. I don't have any money, but I've got the next best thing, a sponsor."
+7,Are you serious? And who might this sponsor be?
+8,"The Duchess Franco, in Lisbon. She hired me, and when I told her about you, she offered to become your sponsor."
+9,"Really? That would be just the thing to save me from my debts. And, finally, a chance for adventure!"
+10,"Aye, won't it be exciting? Two wild and crazy guys, cruising the high seas."
+11,"It sounds great, but even if she does give us money, we won't get very far, with all my debts. How much is she offering?"
+12,"I don't know the amount exactly, but she said that she would take care of your debts, too. A pretty nice lady, eh?"
+13,"Aye, though it sounds too good to be true. She's being too nice to us. There's got to be a catch."
+14,"Well, mate, what's it gonna be? Will you stay or go?"
+15,"Hmmm.. a chance for adventure, or debtor's prison... ha, that's easy - let's get out of here!"
+16,"Good. I've got a ship, but I'm leaving you in charge as Captain."
+17,Alright then. I think I'll call her the Falcon. How's that sound?
+18,"Not bad. Unfortunately, we don't even have enough money to buy extra provisions, so we'd better not make any detours."
+19,"Well, then we'd better head straight for Lisbon."
+20,"We should head southwest and swing up around the Iberian peninsula. Of course, it's easiest to use the Auto Sail command!"
+21,Falcon
+22,Have ye run into Camillo?
+23,"No, not yet."
+24,He's probably in the pub. Maybe the two of you can figure out a way to pay me back.
+25,"Ahoy there, $n. Ye know, I wouldn't mind seeing some of that money ye owe me."
+26,"I want to pay you back, really I do. But I just don't have anything now."
+27,"I know it's not yer fault, being burdened with the debts of yer father. But I need to get my money back from someone. That leaves only ye, my friend."
+28,"Aye, Aye, sir. Once I hear from Camillo, I'm sure that I'll be able to pay you back. Just give me a little more time."
+29,"I sent him a letter asking for help a while back, so I should be hearing something soon."
+30,Are ye talking about the Camillo that went to work for Duke Franco in Lisbon as a merchant sailor? That mate's in town right now!
+31,Really?!
+32,"Aye, $n. I saw him walking towards the pub."
+33,"Really? Hey, I just might be able to pay you back sooner than I thought!"
+34,"Welcome. $n, is today the day you're going to pay back some of your debts?"
+35,Who said that? I didn't hear anyone say anything like that.
+36,"Oh, I see. You're a tricky scoundrel, but I will get my money back. All of it."
+37,Uh oh. I'd better get out of here.
+38,"Welcome, $n. Have you come to make a donation to the church, or just to return some of the money you owe?"
+39,Umm... I just remembered an important engagement. Bye!
+40,"Poor $n, it looks like you're running in circles trying to get out of paying your debts."
+41,"Don't worry, sonny, I'll hide you. You can just rest here for a while."
+42,"$n, you dirty crook! You'd better give me my money, or else!"
+43,"Uh oh. I think I hear my mother calling. Sorry, gotta go!"
+44,"|Butler Marco|
+How nice to see you again, Sir Camillo. Walk right this way. The Duchess is waiting for you."
+45,You must be $n. I'm glad you were able to make it. I've heard a great deal about you from Camillo.
+46,I expect he has informed you that I plan to assist you in your adventures.
+47,He also said that you were going to take care of my debts.
+48,"And that all I would have to do is sail around, discover amazing things, and report back to you."
+49,"That's correct. And when you find a village, I would like you to disembark and search for rare items."
+50,"And if we don't find anything, we should befriend the villagers, and they might help us find something."
+51,"Come on, lady, every adventurer knows that. What do you think, I'm stupid?"
+52,My apologies.
+53,"I don't know, Camillo. We couldn't ask for a better offer. And that makes me think there's something she's not telling us."
+54,............
+55,"$n! That's an insult to the Duchess! A thousand pardons, my lady."
+56,"Don't think anything of it, Camillo. $n, you're a very perceptive man."
+57,"Actually, I do have one more thing I require of you."
+58,"My husband, Leon, sent my only son, Joao, off on a long voyage the other day."
+59,"I'm sure there was a good reason for that, but I just can't stop worrying about my son."
+60,Are you saying you want me to be your son's bodyguard?
+61,"Sorry, but I'm not about to waste my time baby-sitting some spoiled rich kid."
+62,You've got the wrong idea. I just want to know whether he's alright or not...
+63,So you just want me to spy on him a little bit and then let you know how he's doing?
+64,If you please.
+65,"If that's all, then, we accept your offer."
+66,Thank you! Here is the money I promised. And I will take care of your debts.
+67,"I will reward you for each report you give me, depending on the importance of the information."
+68,I am also giving you this telescope and sextant. My husband Leon used them a long time ago when he sailed the high seas.
+69,"Thanks, these'll really help, as any seafarer knows."
+70,"If I look through the telescope near a shore, I'll be able to see if there are ports or villages nearby."
+71,"With the sextant, I'll be able to track my latitude and longitude."
+72,"Please, make sure my son is alright."
+73,"Don't worry about a thing, leave everything to me."
+74,"Well, since everything's settled, we'll be off to the docks. Ciao!"
+75,"Hey $n, where do you think you're going? You haven't even met your sponsor yet."
+76,Oops! Sorry about that. Where does our sponsor live anyway?
+77,"Why, the biggest house in town, mate!"
+78,"Wow, $n, I can't believe you were so blunt with the Duchess. I broke out in a cold sweat just listening to you!"
+79,"Sorry, royalty makes me nervous. By the way, whereabouts is this Joao character?"
+80,Don't ask me. How should I know?
+81,Never mind. We don't really need to go and find him anyway. We'll just make up stories to tell the Duchess.
+82,What are you crazy?! Don't you feel even the slightest bit of responsibility?
+83,"Don't worry, don't worry. Let's just get this adventure underway."
+84,What do you have in mind?
+85,Hmmm...Why don't we go check out the Nile River?
+86,The Nile? Then we've got to go all the way to the deep Mediterranean and the port of Alexandria.
+87,"But, if that's where you want to go, Captain, then let's batten down the hatches, trim the jib and set sail for Alexandria!"
+88,"$n, we had better hurry up and see the Duchess."
+89,"Ohhhhhh, Welcome $n! Such a wealthy man will want some of our best - bilge water! Ha ha ha!"
+90,You're just too funny. Just give me a little more time. I promise I'll pay you back.
+91,"$n, we had better be on our way to Lisbon. Our provisions are running low."
+92,"Well, well! If it's not $n. Are you here to pay your debts?"
+93,"That's funny, I don't remember saying I was here to pay my debts."
+94,"Hmph, a wise guy. Just remember, I will get my money. I never forget a debt. Never!"
+95,Blast! I'd better get out of here.
+96,"Hello there, $n. Have you come to make a donation, or perhaps to return the money you owe us?"
+97,"Ah! I just remembered an important engagement. Sorry, got to run."
+98,Hello $n. Are you busy running away from all the people you owe money?
+99,"Don't worry, sonny, you're safe here. Just rest here quietly."
+100,"$n, you dirty crook! Give me my money!"
+101,Uh-oh.
+102,Hey $n. We had better be on our way to Lisbon. Our provisions are running low.
+103,"Master $n, is it true that you hold other contracts besides that with the Duchess?"
+104,"Aye, it's true."
+105,Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us.
+106,"Please don't ever do this again. If you do, we will lose all faith in you."
+107,I never agreed to this kind of contract!
+108,"Ye're $n, the adventurer, right?"
+109,What's it to you?
+110,Every adventurer knows about the gold medallion. Do ye?
+111,"The gold medallion? Sorry, never heard of it. What is it?"
+112,"Ye mean ye don't know? Well ye must have heard of the golden city of El Dorado, then."
+113,Never heard of that either.
+114,"Shiver me timbers! Why it's the city of legend, El Dorado, made entirely of gold! From the buildings to the toothpicks, everything gold!"
+115,Have ye really never heard tell of it?
+116,"Not a word, mate. But what about it? And what about that gold medallion?"
+117,"Well, I happens to have a map which tells where the gold medallion is hidden. I picked it from the pocket of a greenhorn sailor."
+118,"I'll sell it to ye for 2000 gold pieces. What do ye say, mate?"
+119,Sounds like bunk to me.
+120,"Criminy! Don't say that. Why, I'd be out there searching meself if I weren't so old."
+121,How about I sell it to ye for 1000 gold pieces then. That shouldn't lighten your purse too much.
+122,"If there were anything buried there, it'd be quite a haul."
+123,"Hmmm, well... here's the money then."
+124,"Thank you sirs. Since ye were so kind, let me tell ye where the map comes from."
+125,"That medallion was hidden, long ago, by pirates."
+126,It is said that an adventurer from Portugal went forth in search of El Dorado to bring back some of the treasure.
+127,"The natives treated the adventurer well, so he gave them the medallion. But after that, he was never seen again."
+128,"Later on, pirates stole the medallion from the natives and hid it."
+129,"I heard this yarn meself from an old sailor, but I don't know how much is true. But, if it is..."
+130,"I think you're lying to us, but I'll buy it off you anyway. Here, your 2000 gold pieces."
+131,"So the city of El Dorado is in the vicinity of this map too, right?"
+132,"Eh? Oh, aye, aye, matey. I forgot to tell ye something. That medallion was hidden by pirates a long time ago."
+133,It is said that an adventurer from Portugal went on a quest for El Dorado to bring back some of the treasure.
+134,"The natives had treated the adventurer well, so he gave them the medallion. But after that, he was never seen or heard from again."
+135,"Later on, pirates stole the medallion from the natives and hid it."
+136,So the golden medallion is the only treasure marked on this map?
+137,"Aye. But if ye find it, 2000 gold pieces would be like a drop in the bucket. If ye find it."
+138,"Well, he was probably pulling our leg, but you never know. I have a feeling we'll find something."
+139,"Master $n, is it true that you hold other contracts besides that with the Duchess?"
+140,"Aye, it's true."
+141,Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us.
+142,"Please don't ever do this again. If you do, we will lose all faith in you."
+143,I don't remember agreeing to a contract like this!
+144,"Say $n, could I take a look at the gold medallion?"
+145,"Here you go, pal. Check out the detail of the artwork - pretty amazing, eh?"
+146,There's a mountain of gold just like this medallion in El Dorado...
+147,"Come on $n, what do you say? Let's go search for El Dorado!"
+148,"You bet, Camillo! I'm sure we'll find it. The search for the legendary city of gold. Now this is adventure!"
+149,"Master $n, is it true that you hold other contracts besides that with the Duchess?"
+150,"Aye, it's true."
+151,Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us.
+152,Please don't ever do this again. We would lose all our faith in you.
+153,What kind of restrictive contract is this!
+154,"Welcome, Master $n. The Duchess is entertaining a visitor right now."
+155,I will go and see if she is ready to receive you. Please wait here.
+156,I apologize for the wait. This way please.
+157,"Perfect timing, gentlemen! What a coincidence."
+158,"Let me introduce you. This is my son, Joao."
+159,"Joao, this is $n, an adventurer."
+160,"It's a pleasure to meet you, $n. Actually, I have a favor to ask of you."
+161,"A favor? Wow, imagine that, the Franco house asking me for a favor?"
+162,"I'll be happy to listen, as long as you're not looking for money."
+163,"Do you know anything about Poseidon's Staff? According to legend, it's the secret treasure of Atlantis."
+164,"Sorry, never heard of it."
+165,"Well, I need you to find it for me. It's extremely important!"
+166,"Whoa, sounds serious! Why is this staff so special? What do you need it for?"
+167,Atlantis was a land with very advanced technology.
+168,"But many, many years ago it sank into the sea in a terrible earthquake. Only a few survivors managed to escape."
+169,"The descendants of those survivors are now scattered around the globe, but a large group of them ended up settling in the port of Massawa."
+170,"The Atlanteans feared that their knowledge, their secret technology, would fall into the wrong hands. They decided to keep it hidden, and started to live normal lives."
+171,But the Turkish Empire has learned of the Atlantean's technology and is preparing to wage war on them.
+172,"I don't know why, but they say that in order to defeat the Turks, they must unleash the power of Atlantis. To do that, they need Poseidon's Staff."
+173,"Hmmm, sounds intriguing. And how can I turn down a request from the great house of Franco? Sure, I'll go look for your Staff."
+174,"Thank you. I won't forget this. When you find it, do you think you could bring it to the port of Massawa?"
+175,"Say $n, are you sure we should have taken on this job? He is the Duke's son, but..."
+176,We don't even know where to start.
+177,"Don't worry. Que sera, sera!"
+178,But those people are counting on you! Don't you feel any responsibility at all?
+179,"Don't worry! As long as we start out on our way to Arabia, something will come up."
+180,"Master $n, is it true that you hold other contracts besides that with the Duchess?"
+181,Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us.
+182,"Please don't ever do this again. If you do, we will lose all faith in you."
+183,"Excuse me, but I was wondering if you've ever heard of Poseidon's Staff?"
+184,P..Poseidon's Staff?! Oh my goodness.
+185,The staff gives the holder incredible power. It changes a man's spirit into power.
+186,"Evil men gain evil power, and good men gain good power. Long ago, men, fearing that the staff would fall into evil hands, hid the staff for safe-keeping."
+187,"As time passed, the warnings of the elders were abandoned, and the staff was brought forth once again. The results were devastating, and the staff was lost again."
+188,"That is the legend passed down over the ages. As you have heard, the staff was lost and remains so today. You're looking for this staff?"
+189,"I was asked by someone to find it, for the people of Massawa. So they can restore the power of Atlantis."
+190,The restoration of the power of Atlantis... There's more to the legend.
+191,"When the people of Atlantis fear the power, and are in great need of help, the staff will appear again."
+192,Go to the pub in $r19.
+193,"If you tell them you heard about the staff from me, I'm sure they will tell you more."
+194,Excuse me. Have you ever heard of the legend of Poseidon's Staff?
+195,"Ah, yes. There are many rumors about its fantastic history and special powers."
+196,Where is it?
+197,I have no idea. But the fortune teller in the port of $r19 may know.
+198,Thanks. You've been a big help.
+199,You said it yourself -  it's only a legend. It exists only in our minds.
+200,"Excuse me, but I was told by the fortune teller in the port of $r19 that someone here would tell me where I can find the staff."
+201,"...Oh, so you heard about it from my sister. The Atlanteans are in trouble, eh?"
+202,They need the staff to reunite their people and unlock their hidden power. I'm just looking for it as a favor to a friend.
+203,A favor? For whom?
+204,"I'm doing it for Joao, a Portuguese noble who's trying to help the descendants of Atlantis, the people of Massawa."
+205,"Oh, I see. Well, if your friend is helping the people of Massawa, then I will trust you."
+206,The legend that's been passed down in my family for generations is that our ancestor was saved by the Atlanteans after he was found drifting at sea.
+207,"The elders, knowing that only Atlanteans could use the staff and unlock its incredible power, had my ancestor hide it away."
+208,"Ever since that time, my family has been the protectors of the map that shows where the staff is hidden. But we must now bring it forth."
+209,"Please, I sincerely ask for your help. Take this map, find the staff, and lend the Atlanteans your strength."
+210,"Alright. As long as I have the map, it'll be easy to find. You can leave it to me!"
+211,This is the map which shows where the staff is buried.
+212,"Please..you must find it. I, my whole family, owe our lives to the Atlanteans."
+213,"Say, you're stowing quite a bit of luggage there. Why don't you come back after you've unloaded something."
+214,Thanks.
+215,"We're supposed to ask at the pub in this port. Come on, let's go!"
+216,"Do you think the fortune teller in this town really knows about Poseidon's Staff? Well, let's go and see."
+217,There's bound to be somebody who knows about the legend of Poseidon's Staff in this port.
+218,Why don't we go to the pub and ask around?
+219,"$n, let's get on our way to Arabia."
+220,"Master $n, is it true that you hold other contracts besides that with the Duchess?"
+221,Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us.
+222,"Please don't ever do this again. If you do, we will lose all faith in you."
+223,"Joao, we've found the staff."
+224,"Really? I can't thank you enough. Ah, yes a reward. Is there anything you want? Just name it."
+225,"Hmmm. Have you ever heard of the Land of Gold, El Dorado?"
+226,"No, I've never heard of it, but if I learn anything, I'll let you know."
+227,Thank you.
+228,"Say, do you know where I could find a guy named Joao?"
+229,"Master Joao is in the pub I think, but... who are you people?"
+230,"Sorry, but we're in a hurry. Later, old man."
+231,"Say, do you happen to know a guy named Joao?"
+232,Joao is over in the pub.
+233,Did you find Poseidon's Staff?
+234,We sure did. Here it is.
+235,"So, this is Poseidon's Staff?... Please take it to Massawa, and hurry!"
+236,"You haven't found it yet? Please hurry, it's very important."
+237,Have you found Poseidon's Staff yet?
+238,We sure did. Here.
+239,"So, this is Poseidon's Staff?... You must take it to Massawa, and hurry!"
+240,"You haven't found it yet? Please hurry, it's very important that you find it."
+241,Let's take the staff to Joao in Massawa. Hoist those sails!
+242,"Master $n, is it true that you hold other contracts besides that with the Duchess?"
+243,"Aye, it's true."
+244,Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us.
+245,"Please don't ever do this again. If you do, we will lose all faith in you."
+246,Where the blazes is the fine print to get us out of this contract?!
+247,"Are you $n, the adventurer?"
+248,Who are you?
+249,"I'm Ali Vezas, a merchant. I was sent by Joao to find you."
+250,By Joao?
+251,"Right. I'm doing him a favor. Trading favors, trading goods, it's all business to me! So I have a message for you."
+252,"'It's not El Dorado, but around the coordinates 35@N 135@E, there is a country called Zipangu, the Golden Country.'"
+253,That's all. Gotta go!
+254,"What do you think, $n? Should we go to Zipangu?"
+255,Sounds pretty interesting. Let's go.
+256,"Master $n, is it true that you hold other contracts besides that with the Duchess?"
+257,Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us.
+258,Please don't ever do this again. We would lose all faith in you.
+259,"Say $n, this is Zipangu, but it sure doesn't look like the golden country of El Dorado."
+260,Let's look around some more.
+261,"Say $n, this is Zipangu, but it's sure not the golden country of El Dorado."
+262,Where in the world is El Dorado anyway?
+263,Are you fellows looking for a place called El Dorado?
+264,Who're you?
+265,My name is Ernst. I've been traveling the globe in order to make an accurate world map.
+266,"Well then, do you know where El Dorado is?"
+267,"No, I've never heard of it. I can't tell just by the name. (Sigh) I guess the sooner I finish this map the better."
+268,"Hmmm. Well, it's probably a place that not too many people have been to."
+269,Then I think your best bet would be the South American Continent.
+270,"Try around the equator, somewhere between 50 and 70 degrees west."
+271,Thanks. We might as well go and check it out.
+272,"Master $n, is it true that you hold other contracts besides that with the Duchess?"
+273,Well then what do you plan to do about your deal with the Duchess? I'm afraid I need you to renew your contract with us.
+274,"Please don't ever do this again. If you do, we will lose all faith in you."
+275,"Well, $n, I guess we're in South America now! But it's so big, I don't know how we're going to find El Dorado."
+276,"Sounds pretty tough, eh? Oh! Camillo, look! That guy looks hurt!"
+277,"You're right! Come on, let's go help him."
+278,"He's still breathing. Hey, wake up!"
+279,Huh? Where am I? What happened to me?
+280,"This is the port of $r01. You must have washed up on shore, and then stumbled in here. Do you remember anything?"
+281,Thank you for helping me. I owe you a great debt.
+282,"What happened? By the way, I'm an adventurer, $n $s's the name."
+283,"$n, huh? I am.. was.. an adventurer myself, Raul Franco of Portugal."
+284,Franco?! Any relationship to Duke Franco?
+285,Duke?
+286,"Yes, The Duchess Franco is sponsoring my travels."
+287,"My ancestors were nobles, but in my generation we were just poor merchants. Aye, that was a long time ago!"
+288,I've been a prisoner for the past 10 or 15 years.
+289,Prison? Would you mind telling us what happened? I'm sure we can help you.
+290,It was over 20 years ago... my ship was destroyed in a storm. Somehow I made it ashore and found my way to a village.
+291,"For several years, I lived in that village, enjoying peaceful days, waiting for a ship to sail by and take me home."
+292,"But one day, an army invaded, so I ran deep, deep into the heart of the mainland."
+293,"Suddenly, before my eyes, a wondrous sight appeared. Aye, it was amazing..."
+294,"Raul, what was it? What did you see?"
+295,"The legendary city, in the Land of Gold, El Dorado."
+296,What?! You mean you found El Dorado?!
+297,"Aye, that was El Dorado alright, so bright and beautiful..."
+298,You wouldn't believe how shiny and bright it was. Everything was made of gold. It hurt my eyes just to look at it!
+299,I took several trinkets and left El Dorado.
+300,"I continued walking into the heart of the mainland, and eventually emerged on the other side, at another village."
+301,"I must have spent years there, waiting for a ship from Portugal to come by."
+302,"One day, I heard that some Portuguese were building a town nearby, so I went to have a look."
+303,"Raul, have you ever seen this medallion before?"
+304,What medallion? Th..this is the medallion that saved my life. I gave it to the villagers as thanks for their hospitality.
+305,"Hmmm, I thought it was just a yarn, but I found what the pirates that attacked your village had hidden."
+306,"I believed that El Dorado really exists, and came here to search for it."
+307,"This medallion has been around the world and yet again saves my life. Ach, the winds of fate are a strange thing, my lad."
+308,"But where was I? Oh yes, I went to go see the Portuguese town."
+309,"As soon as I reached the town, I was arrested and thrown into prison."
+310,"I found out later, it was the army that had attacked my village before."
+311,"They are Portuguese, but they have betrayed their king, in order to try for world domination."
+312,"I spent many long years in that prison. But several days ago, suddenly the camp was buzzing with activity."
+313,"I don't know what caused the commotion, but I saw my chance and escaped."
+314,You were lucky to get away safely.
+315,"Don't I know it! Now, all I want is to go home to Lisbon. Every day in prison, all I thought about was Lisbon."
+316,"Ah, the beautiful port of Lisbon. My first mate Rocco."
+317,Rocco?
+318,"And the son I left behind, Leon."
+319,Wai..Wait a minute! Your son's name is Leon?!
+320,"Yes, Leon Franco."
+321,"Leon Franco... as I mentioned earlier there is a Duke Franco, and his name is Leon!"
+322,Is that true? Could it really be?
+323,I'm certain I heard that Duke Leon used to be an adventurer.
+324,"He rescued the Princess of Portugal, who had been kidnapped by pirates. She fell in love and married him, and the King made him a Duke."
+325,"And the old sailor with the Duke's son, Joao, is called Rocco."
+326,Duke Leon must be your son!
+327,Then it's true. So my boy Leon has become a Duke...
+328,Let's go. We're taking you to Lisbon.
+329,"But, you came all this way to search for El Dorado, right?"
+330,"Don't worry about it. It's not going anywhere! And you remember the way, don't you?"
+331,I think I can still draw a map of the area.
+332,That's good enough. You're the one who found El Dorado anyway. I don't want to take credit for someone else's discovery.
+333,You're quite an adventurer. My respects.
+334,"Thank you, thank you very much."
+335,"OK then, let's get back to Lisbon. Duke Leon will sure be happy to see you!"
+336,"It's going to be tough. But that's why it's called an adventure. Besides, it wouldn't be a legend if just anyone could find it."
+337,Let's stop by a port and see if we can find anything out.
+338,"Say, have you ever heard of El Dorado?"
+339,"Sure. That's the legendary city in the land of gold, right?"
+340,Where is it?
+341,"Where is it? If I knew that, I'd be a rich man now. Just a legend, my friend. Just a legend..."
+342,"Hey $n, we'd better go straight to Duke Leon's."
+343,Come on men! We've got to get Raul back to Lisbon!

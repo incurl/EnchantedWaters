@@ -1,0 +1,1694 @@
+[
+  {
+    "id": "0",
+    "text": "You are doing too well."
+  },
+  {
+    "id": "1",
+    "text": "Wanna play dice with us?"
+  },
+  {
+    "id": "2",
+    "text": "Oh boy, here comes our favorite sucker."
+  },
+  {
+    "id": "3",
+    "text": "Don't feel too bad."
+  },
+  {
+    "id": "4",
+    "text": "Work hard and make some more money - I like winning it from you."
+  },
+  {
+    "id": "5",
+    "text": "Let's play another round."
+  },
+  {
+    "id": "6",
+    "text": "Leaving already? It was just getting interesting."
+  },
+  {
+    "id": "7",
+    "text": "Yer dirty scum! Ye just take your winnings and quit?!"
+  },
+  {
+    "id": "8",
+    "text": "Are you giving up \nalready?"
+  },
+  {
+    "id": "9",
+    "text": "Ha ha, just as I suspected, taking money from you was like taking candy from a baby."
+  },
+  {
+    "id": "10",
+    "text": "I don't deal with paupers."
+  },
+  {
+    "id": "11",
+    "text": "Saving data."
+  },
+  {
+    "id": "12",
+    "text": "Transferring data."
+  },
+  {
+    "id": "13",
+    "text": "On %s %d, 15%d, %s %s was defeated in battle. Debris from the flagship washed ashore, but no one has ever seen %s since that fateful day."
+  },
+  {
+    "id": "14",
+    "text": "On %s %d, 15%d, %s %s ran into a terrible storm, and %s battered ship sank into the deep, dark sea. Since then, %s face has not been seen by anyone."
+  },
+  {
+    "id": "15",
+    "text": "On %s %d, 15%d, the harsh conditions on board cost %s %s %s entire crew, and abruptly ended their journey. No one has seen %s fleet since."
+  },
+  {
+    "id": "16",
+    "text": "On %s %d, 15%d, %s %s decided to put an end to %s quest at sea. Deep lines on %s face marked the exhaustion felt after so many years on the high seas."
+  },
+  {
+    "id": "17",
+    "text": "%s %d, %d. %s %s's journal stops abruptly on this page. This marked the end to the stormy saga of %s life."
+  },
+  {
+    "id": "18",
+    "text": "This is the %s. A cartographer might be able to tell you what area it is."
+  },
+  {
+    "id": "19",
+    "text": "What? Did you find %s? This is beautiful! I've never seen such a treasure!"
+  },
+  {
+    "id": "20",
+    "text": "You can't load any more guns on this ship."
+  },
+  {
+    "id": "21",
+    "text": "This ship isn't built to carry guns."
+  },
+  {
+    "id": "22",
+    "text": "this is number 1022 (line 1023)."
+  },
+  {
+    "id": "23",
+    "text": "First name?"
+  },
+  {
+    "id": "24",
+    "text": "Last name?"
+  },
+  {
+    "id": "25",
+    "text": "Ship name?"
+  },
+  {
+    "id": "26",
+    "text": "Port name?"
+  },
+  {
+    "id": "27",
+    "text": "from those scurvy dawgs!"
+  },
+  {
+    "id": "28",
+    "text": "There are items left in the unloading area!"
+  },
+  {
+    "id": "29",
+    "text": "Is it okay to leave items unloaded?"
+  },
+  {
+    "id": "30",
+    "text": "You're the best friend a girl ever had!"
+  },
+  {
+    "id": "31",
+    "text": "The storm is too strong! We're sinking!"
+  },
+  {
+    "id": "32",
+    "text": "Here is the permit. Enjoy using it in the markets of my country!"
+  },
+  {
+    "id": "33",
+    "text": "this is number 1033 (line 1034)."
+  },
+  {
+    "id": "34",
+    "text": "My quest will take me through high winds and over high seas."
+  },
+  {
+    "id": "35",
+    "text": "I am guided by my beliefs."
+  },
+  {
+    "id": "36",
+    "text": "Help me battle for the glory of England."
+  },
+  {
+    "id": "37",
+    "text": "I'll go beyond the waves and see what's there."
+  },
+  {
+    "id": "38",
+    "text": "Would you take over my debt?"
+  },
+  {
+    "id": "39",
+    "text": "Sapha... my only sister. Where are you?"
+  },
+  {
+    "id": "40",
+    "text": "Give me a name suitable for a Duke's son."
+  },
+  {
+    "id": "41",
+    "text": "Give me a graceful name!"
+  },
+  {
+    "id": "42",
+    "text": "Be a kind old chap, and give me a good name."
+  },
+  {
+    "id": "43",
+    "text": "Please give me a fine name."
+  },
+  {
+    "id": "44",
+    "text": "Give me a unique name, will you?"
+  },
+  {
+    "id": "45",
+    "text": "Give me a good name."
+  },
+  {
+    "id": "46",
+    "text": "this is number 1046 (line 1047)."
+  },
+  {
+    "id": "47",
+    "text": "This ship is in tiptop shape."
+  },
+  {
+    "id": "48",
+    "text": "We're not allied with any ports in the world, just our capital city."
+  },
+  {
+    "id": "49",
+    "text": "%s %s? That will be just fine."
+  },
+  {
+    "id": "50",
+    "text": "%s %s? I like it!"
+  },
+  {
+    "id": "51",
+    "text": "%s %s... Hmmm, it sounds good."
+  },
+  {
+    "id": "52",
+    "text": "%s %s? That's got a nice ring to it."
+  },
+  {
+    "id": "53",
+    "text": "%s %s? Hey, that's a cool name!"
+  },
+  {
+    "id": "54",
+    "text": "From now on, I shall be known as %s %s."
+  },
+  {
+    "id": "55",
+    "text": "It seems there is no saved game."
+  },
+  {
+    "id": "56",
+    "text": "Well, there is no saved game!"
+  },
+  {
+    "id": "57",
+    "text": "There is no saved game."
+  },
+  {
+    "id": "58",
+    "text": "There is no saved game."
+  },
+  {
+    "id": "59",
+    "text": "There is no saved game. All there is is my debt..."
+  },
+  {
+    "id": "60",
+    "text": "There is no saved game."
+  },
+  {
+    "id": "61",
+    "text": "It seems a data error has occurred. I'm sorry, but you must restart the game."
+  },
+  {
+    "id": "62",
+    "text": "But next time, I'll entertain you more!"
+  },
+  {
+    "id": "63",
+    "text": "The game will resume at sea on %s %d, %d."
+  },
+  {
+    "id": "64",
+    "text": "The game will resume at the port of %s on %s %d, %d."
+  },
+  {
+    "id": "65",
+    "text": "Bon Voyage!"
+  },
+  {
+    "id": "66",
+    "text": "this is number 1066 (line 1067)."
+  },
+  {
+    "id": "67",
+    "text": "%d %s of water will be loaded. Is this OK?"
+  },
+  {
+    "id": "68",
+    "text": "%d %s of water and"
+  },
+  {
+    "id": "69",
+    "text": "%d %s of food will cost you %ld gold pieces. Is this OK?"
+  },
+  {
+    "id": "70",
+    "text": "How many %s will you dump (0-%ld)?"
+  },
+  {
+    "id": "71",
+    "text": "Changed yer mind, eh?"
+  },
+  {
+    "id": "72",
+    "text": "| Palace Guard |\n Then this way, please."
+  },
+  {
+    "id": "73",
+    "text": "Welcome, %s %s."
+  },
+  {
+    "id": "74",
+    "text": "We have %d used %s ready to sail."
+  },
+  {
+    "id": "75",
+    "text": "You can't invest in %s as it's the capital of %s."
+  },
+  {
+    "id": "76",
+    "text": "%d %s of lumber will be used for repairs."
+  },
+  {
+    "id": "77",
+    "text": "With only %d %s of lumber we can't repair any more ships after we repair the %s."
+  },
+  {
+    "id": "78",
+    "text": "I'm counting on you."
+  },
+  {
+    "id": "79",
+    "text": "Come back when your ability becomes %d or higher."
+  },
+  {
+    "id": "80",
+    "text": "Come back when your ability becomes %d or higher."
+  },
+  {
+    "id": "81",
+    "text": "Then here is %ld gold pieces."
+  },
+  {
+    "id": "82",
+    "text": "For that I'll pay you %ld gold pieces."
+  },
+  {
+    "id": "83",
+    "text": "I'll pay you extra and give you %ld gold pieces."
+  },
+  {
+    "id": "84",
+    "text": "Here is your reward of %ld gold pieces."
+  },
+  {
+    "id": "85",
+    "text": "This is hardly enough to reward you for such a marvelous feat, but please accept these %ld gold pieces."
+  },
+  {
+    "id": "86",
+    "text": "Commodore, quick! Look at that!!"
+  },
+  {
+    "id": "87",
+    "text": "Commodore, do you hear that?"
+  },
+  {
+    "id": "88",
+    "text": ".......Commodore, something is wrong here."
+  },
+  {
+    "id": "89",
+    "text": "Wow, Commodore, look at the sky!!"
+  },
+  {
+    "id": "90",
+    "text": "Fortunately, %s was saved by the %s."
+  },
+  {
+    "id": "91",
+    "text": "If I had only kept my eye on... Sorry, Commodore."
+  },
+  {
+    "id": "92",
+    "text": "I gave up searching for it long ago."
+  },
+  {
+    "id": "93",
+    "text": "Will you buy the map?"
+  },
+  {
+    "id": "94",
+    "text": "Hey, are you interested in sailing with us?"
+  },
+  {
+    "id": "95",
+    "text": "Maybe next time?"
+  },
+  {
+    "id": "96",
+    "text": "Alright, then. I'll postpone all pay raises till later."
+  },
+  {
+    "id": "97",
+    "text": "Do you want to save your game before quitting?"
+  },
+  {
+    "id": "98",
+    "text": "Is it really OK to quit the game now?"
+  },
+  {
+    "id": "99",
+    "text": "Are you sure you want to quit?"
+  },
+  {
+    "id": "100",
+    "text": "Thanks! I thought you would understand!"
+  },
+  {
+    "id": "101",
+    "text": "Fine then, you skinflint. I'll find another job. See you around, maybe."
+  },
+  {
+    "id": "102",
+    "text": "Well, good luck. Perhaps we'll meet again some day."
+  },
+  {
+    "id": "103",
+    "text": "You already have 10 ships in your fleet."
+  },
+  {
+    "id": "104",
+    "text": "Is this OK?"
+  },
+  {
+    "id": "105",
+    "text": "%s %s is in this port."
+  },
+  {
+    "id": "106",
+    "text": "Agreed to transport %d %s to %s within %d %s."
+  },
+  {
+    "id": "107",
+    "text": "Agreed to bring %d %s within %d %s."
+  },
+  {
+    "id": "108",
+    "text": "Agreed to take a letter to the guild in %s within %d %s."
+  },
+  {
+    "id": "109",
+    "text": "Agreed to defeat %d %s within %d %s."
+  },
+  {
+    "id": "110",
+    "text": "Agreed to collect a debt from %s %s within %d %s."
+  },
+  {
+    "id": "111",
+    "text": "Turned down a mission to %s."
+  },
+  {
+    "id": "112",
+    "text": "Completed a mission to %s."
+  },
+  {
+    "id": "113",
+    "text": "Completed a mission to %s, though it was late."
+  },
+  {
+    "id": "114",
+    "text": "Couldn't complete the mission to %s in time."
+  },
+  {
+    "id": "115",
+    "text": "Did %s, but spent the money collected."
+  },
+  {
+    "id": "116",
+    "text": "Ordered to purchase %d %s."
+  },
+  {
+    "id": "117",
+    "text": "Ordered to deliver a letter to"
+  },
+  {
+    "id": "118",
+    "text": "Ordered to act as an envoy and conclude a treaty with %s."
+  },
+  {
+    "id": "119",
+    "text": "Ordered to acquire %d allied ports."
+  },
+  {
+    "id": "120",
+    "text": "Ordered to discover novel things."
+  },
+  {
+    "id": "121",
+    "text": "Ordered to find %s."
+  },
+  {
+    "id": "122",
+    "text": "Ordered to subdue %s."
+  },
+  {
+    "id": "123",
+    "text": "Ordered to vanquish %s's fleet."
+  },
+  {
+    "id": "124",
+    "text": "Declined an imperial order."
+  },
+  {
+    "id": "125",
+    "text": "Carried out an imperial order."
+  },
+  {
+    "id": "126",
+    "text": "With the power of the Cannon, you'll be invincible in battles."
+  },
+  {
+    "id": "127",
+    "text": "The Demicannon is a powerful short-ranged gun effective in close battles."
+  },
+  {
+    "id": "128",
+    "text": "For the price, The Canon Pedrero has decent power; however, its range is rather limited."
+  },
+  {
+    "id": "129",
+    "text": "You can count on the Culverin for long-distance attacks."
+  },
+  {
+    "id": "130",
+    "text": "The Demiculverin isn't very powerful, but it's useful for defense with its long range."
+  },
+  {
+    "id": "131",
+    "text": "The best thing about the Saker is its price."
+  },
+  {
+    "id": "132",
+    "text": "You won't find another gun like the Carronade, It has the power of a Cannon and the range of a Culverin."
+  },
+  {
+    "id": "133",
+    "text": "Hmmmm, I think that you should recover your original nationality."
+  },
+  {
+    "id": "134",
+    "text": "With your current nationality, you won't have good prospects for the future."
+  },
+  {
+    "id": "135",
+    "text": "Furthermore, a whole new horizon will be opened to you if you increase your fame of %s."
+  },
+  {
+    "id": "136",
+    "text": "%d %s from our crew %s to stay in this village, %s tired of sailing!"
+  },
+  {
+    "id": "137",
+    "text": "Is 8:00 AM a good time for you to check out?"
+  },
+  {
+    "id": "138",
+    "text": "It's all set then. Good night, sleep tight, don't let the bed bugs bite!"
+  },
+  {
+    "id": "139",
+    "text": "Then what time would you like to check out?"
+  },
+  {
+    "id": "140",
+    "text": "OK, I'll arrange your check out at %ld:00 %s. Sweet dreams!"
+  },
+  {
+    "id": "141",
+    "text": "Which port are you interested in?"
+  },
+  {
+    "id": "142",
+    "text": "%s is around %d%s, %d%s."
+  },
+  {
+    "id": "143",
+    "text": "It's around here on this map."
+  },
+  {
+    "id": "144",
+    "text": "Are you willing to pay %d gold pieces for this information?"
+  },
+  {
+    "id": "145",
+    "text": "If you don't want to know, it's no skin off my back."
+  },
+  {
+    "id": "146",
+    "text": "Commodore, we ran out of Food. We must get supplies for the crew!"
+  },
+  {
+    "id": "147",
+    "text": "Commodore, we ran out of Water. We must get supplies for the crew!"
+  },
+  {
+    "id": "148",
+    "text": "Commodore, we ran out of Food and Water. We must get supplies for the crew!"
+  },
+  {
+    "id": "149",
+    "text": "---none---"
+  },
+  {
+    "id": "150",
+    "text": "| Butler Marco |\nOh, Sir %s, welcome back!"
+  },
+  {
+    "id": "151",
+    "text": "Hi Marco! How've you been?"
+  },
+  {
+    "id": "152",
+    "text": "Just fine, sir. But please go ahead inside. Your father can't wait to see you."
+  },
+  {
+    "id": "153",
+    "text": "Hello, Father. I've returned to report that I've completed my mission."
+  },
+  {
+    "id": "154",
+    "text": "Ah, my son. I want to congratulate you on your triumphant return."
+  },
+  {
+    "id": "155",
+    "text": "Thank you, Father. Let me tell you all about my voyage."
+  },
+  {
+    "id": "156",
+    "text": "I have already heard. A messenger from Spain spoke quite highly of your courageousness."
+  },
+  {
+    "id": "157",
+    "text": "Really? But I never could have made it without Commander Ezequiel's support."
+  },
+  {
+    "id": "158",
+    "text": "You're very modest. I'm very proud of you, and I have a little surprise for you."
+  },
+  {
+    "id": "159",
+    "text": "Oh, Rocco!"
+  },
+  {
+    "id": "160",
+    "text": "Aye, sir?"
+  },
+  {
+    "id": "161",
+    "text": "What do you think of my son? Has he become a wise and strong sailor?"
+  },
+  {
+    "id": "162",
+    "text": "Aye, it makes me proud as punch to see what a fine mate he's become."
+  },
+  {
+    "id": "163",
+    "text": "If you think that way, then I know I have made the right decision."
+  },
+  {
+    "id": "164",
+    "text": "%s,"
+  },
+  {
+    "id": "165",
+    "text": "Yes, Father?"
+  },
+  {
+    "id": "166",
+    "text": "I have decided to recommend to His Majesty that you replace me as Prime Minister of Portugal."
+  },
+  {
+    "id": "167",
+    "text": "I believe you deserve the position. Congratulations, my son, and good luck!"
+  },
+  {
+    "id": "168",
+    "text": "It was a red-haired female pirate,"
+  },
+  {
+    "id": "169",
+    "text": "Catalina Errantzo, who saved Prince Alberto and myself"
+  },
+  {
+    "id": "170",
+    "text": "from that evil pirate, Kahn."
+  },
+  {
+    "id": "171",
+    "text": "But she turned out that she was really after me."
+  },
+  {
+    "id": "172",
+    "text": "Only with Rocco's quick thinking and cunning subterfuge did we manage"
+  },
+  {
+    "id": "173",
+    "text": "to escape."
+  },
+  {
+    "id": "174",
+    "text": "I am %s %s. As thanks, I'll have to play a tune for you on my lute."
+  },
+  {
+    "id": "175",
+    "text": "Oh, what have I done? I must have been out of my mind. I can't believe I saved a %s!"
+  },
+  {
+    "id": "176",
+    "text": "Halt! We know that the pirate Catalina is in there."
+  },
+  {
+    "id": "177",
+    "text": "We are the navy guard, under orders from Commander Ezequiel."
+  },
+  {
+    "id": "178",
+    "text": "In the name of Spain, we arrest you for crimes against the state."
+  },
+  {
+    "id": "179",
+    "text": "At Massawa, I met the last descendent of the lost city of Atlantis, Tafari."
+  },
+  {
+    "id": "180",
+    "text": "After our meeting, a fierce naval battled ensued, as I fought to protect Massawa from the Turkish forces."
+  },
+  {
+    "id": "181",
+    "text": "Wait, please. Meconbe, let us tell these gentlemen the truth."
+  },
+  {
+    "id": "182",
+    "text": "Don't you think it's cruel to keep everything covered in secrecy?"
+  },
+  {
+    "id": "183",
+    "text": "Both cruel to us and to these men here."
+  },
+  {
+    "id": "184",
+    "text": "At the port of Nagasaki, Enrico finally had to leave us."
+  },
+  {
+    "id": "185",
+    "text": "After so many voyages together, it was sad to part."
+  },
+  {
+    "id": "186",
+    "text": "But we wished him good luck with a smile,"
+  },
+  {
+    "id": "187",
+    "text": "as he was excited about beginning his studies in the land of Zipangu."
+  },
+  {
+    "id": "188",
+    "text": "I have much to learn and teach. I'm excited, but also sad to part with such good friends."
+  },
+  {
+    "id": "189",
+    "text": "Please take care, and have a safe trip."
+  },
+  {
+    "id": "190",
+    "text": "With the help of Catalina, I rescued Lucia from the clutches of evil pirates."
+  },
+  {
+    "id": "191",
+    "text": "After that, I decided to"
+  },
+  {
+    "id": "192",
+    "text": "cooperate with Catalina"
+  },
+  {
+    "id": "193",
+    "text": "and Ezequiel's Armada to stop"
+  },
+  {
+    "id": "194",
+    "text": "Martinez's evil scheme."
+  },
+  {
+    "id": "195",
+    "text": "%s, I'll take care of these hoodlums, so take this opportunity and save Lucia!"
+  },
+  {
+    "id": "196",
+    "text": "Thanks, Catalina. I owe you one!"
+  },
+  {
+    "id": "197",
+    "text": "At Lisbon, we were welcomed"
+  },
+  {
+    "id": "198",
+    "text": "by the enthusiastic cheers of the crowd."
+  },
+  {
+    "id": "199",
+    "text": "It seems my father finally acknowledged"
+  },
+  {
+    "id": "200",
+    "text": "that I am an experienced seafarer."
+  },
+  {
+    "id": "201",
+    "text": "I get the feeling that you're a newcomer to the trade business."
+  },
+  {
+    "id": "202",
+    "text": "I can give you a pointer or two, if you'd like."
+  },
+  {
+    "id": "203",
+    "text": "You're wise to listen. Here are a few things you should always remember."
+  },
+  {
+    "id": "204",
+    "text": "The cardinal rule of trading is to buy low and sell high. You want to make a big profit, of course!"
+  },
+  {
+    "id": "205",
+    "text": "I have a few tricks up my sleeve when it comes to trading."
+  },
+  {
+    "id": "206",
+    "text": "First, find out the specialty of the area. Specialty goods are produced in high volume, so they're usually cheap."
+  },
+  {
+    "id": "207",
+    "text": "Although you're a greenhorn, play it cool and say NO to the first price presented by us merchants."
+  },
+  {
+    "id": "208",
+    "text": "Maybe I'll offer you a lower price. That means a bigger profit!"
+  },
+  {
+    "id": "209",
+    "text": "Finally, don't fill up your hull with goods if you don't have enough food and water on board."
+  },
+  {
+    "id": "210",
+    "text": "Smart traders always restock food and water as soon as they dock at the harbor. This way, they don't have to worry about it when they trade."
+  },
+  {
+    "id": "211",
+    "text": "There's nothing more foolish than throwing away goods you just bought to make room to load food and water."
+  },
+  {
+    "id": "212",
+    "text": "I hope these tips will help you. Don't forget to keep your eyes and ears open in town."
+  },
+  {
+    "id": "213",
+    "text": "Some of the people you meet on the street may be experts in trade."
+  },
+  {
+    "id": "214",
+    "text": "Well, pardon me. I shouldn't meddle in your business."
+  },
+  {
+    "id": "215",
+    "text": "Ahoy there, swabbie! Maybe I'm wrong, but ye has the look of an unseasoned sailor."
+  },
+  {
+    "id": "216",
+    "text": "If ye'd like, I can teach ye the ins and outs of commanding a ship."
+  },
+  {
+    "id": "217",
+    "text": "Then hear me words as I tell ye the secrets of smooth sailing."
+  },
+  {
+    "id": "218",
+    "text": "First, ye need a hearty crew to handle the ship."
+  },
+  {
+    "id": "219",
+    "text": "Ye can find and hire some able-bodied seamen in a pub."
+  },
+  {
+    "id": "220",
+    "text": "Next, ye need good supply of food and water for yer crew."
+  },
+  {
+    "id": "221",
+    "text": "Ye can get food and water at a harbor."
+  },
+  {
+    "id": "222",
+    "text": "Lastly, ye need a captain for each ship. Ye'll be at the helm of your flagship, of course."
+  },
+  {
+    "id": "223",
+    "text": "But if ye have ships besides yer flagship in yer fleet, ye'll need a captain to steer each of those."
+  },
+  {
+    "id": "224",
+    "text": "So ye may want to start looking in pubs and lodges for trustworthy mates to sail with ye."
+  },
+  {
+    "id": "225",
+    "text": "In short, as long as ye have crew, supplies, and captains,"
+  },
+  {
+    "id": "226",
+    "text": "it'll be smooth sailing. Aye, it's as easy as shooting fish in a barrel!"
+  },
+  {
+    "id": "227",
+    "text": "Well, sorry, I was just wondering if ye needed some advice."
+  },
+  {
+    "id": "228",
+    "text": "Ye don't know much about ships, eh?"
+  },
+  {
+    "id": "229",
+    "text": "This old sea dog's navigated the waters for over 40 years. I can give ye some advice. What do ye say, mate?"
+  },
+  {
+    "id": "230",
+    "text": "All right, then. First of all, ye must decide whether to build a new ship or buy a used ship."
+  },
+  {
+    "id": "231",
+    "text": "A new ship will be custom-built to please ye. The model, its materials, equipment and everything will be just as ye demand."
+  },
+  {
+    "id": "232",
+    "text": "But building a vessel is an expensive and time-consuming task."
+  },
+  {
+    "id": "233",
+    "text": "Although ye may not find the ideal vessel, ye may want to opt to buy a used ship. They're less expensive and ready to use!"
+  },
+  {
+    "id": "234",
+    "text": "Either way, with ye own ship, ye'll be a true limey!"
+  },
+  {
+    "id": "235",
+    "text": "But to get back to the story, the model of the ship determines its capacity."
+  },
+  {
+    "id": "236",
+    "text": "Ships that hold a large crew and many guns will have limited cargo space."
+  },
+  {
+    "id": "237",
+    "text": "If ye want a vast hull to carry many goods, keep minimum space for crew and guns."
+  },
+  {
+    "id": "238",
+    "text": "Remember these things when ye buy a ship. Good luck!"
+  },
+  {
+    "id": "239",
+    "text": "Hmmph, ye young'uns don't appreciate advice from the old these days."
+  },
+  {
+    "id": "240",
+    "text": "Are you the new kid in town? I've been wanting to meet you! Ahh, I remember when I was your age."
+  },
+  {
+    "id": "241",
+    "text": "Under this grey head of mine is a noggin full of useful knowledge. Let me tell you about the guild."
+  },
+  {
+    "id": "242",
+    "text": "Thank you. It won't take long."
+  },
+  {
+    "id": "243",
+    "text": "The guild is a place where you can get hired to complete a mission for someone."
+  },
+  {
+    "id": "244",
+    "text": "Successful completion of a mission will not only add to your gold but increase your fame, as well."
+  },
+  {
+    "id": "245",
+    "text": "If you fail to complete your mission, you'll lose not only the reward but also your fame."
+  },
+  {
+    "id": "246",
+    "text": "So make sure you're able before you promise to complete a mission!"
+  },
+  {
+    "id": "247",
+    "text": "You'll live to regret it if you don't learn to listen to your elders."
+  },
+  {
+    "id": "248",
+    "text": "Well, you must be new here. It's a pleasure to make your acquaintance."
+  },
+  {
+    "id": "249",
+    "text": "I know a lot about seafarers. Would you be interested in my advice on ship crew?"
+  },
+  {
+    "id": "250",
+    "text": "I thought you would! Have you used the 'Assign Crew' command yet?"
+  },
+  {
+    "id": "251",
+    "text": "It's used to assign your crew to the different tasks aboard ship."
+  },
+  {
+    "id": "252",
+    "text": "'Navigation' is for ship handling, 'Lookout' is for watching the horizon, and 'Combat' is for battles."
+  },
+  {
+    "id": "253",
+    "text": "That's all you need to know. Assign your crew according to your objective."
+  },
+  {
+    "id": "254",
+    "text": "Isn't it easy?"
+  },
+  {
+    "id": "255",
+    "text": "Well, that's too bad. I guess my help isn't good enough for you."
+  },
+  {
+    "id": "256",
+    "text": "Before we talk about a contract, let me make sure you understand all there is to know about searching for an item."
+  },
+  {
+    "id": "257",
+    "text": "First of all, the rare things I want information about are always near a village."
+  },
+  {
+    "id": "258",
+    "text": "So if you discover a village, be sure to land there and 'Search'."
+  },
+  {
+    "id": "259",
+    "text": "If you can't find anything, 'Entertain' the villagers. They may help you 'Search' for something interesting."
+  },
+  {
+    "id": "260",
+    "text": "If they don't respond immediately, be persistent. Entertain them two or three times."
+  },
+  {
+    "id": "261",
+    "text": "As their 'Friendliness' goes up, you'll have a better chance of finding something incredible."
+  },
+  {
+    "id": "262",
+    "text": "The effort it takes to gain the villager's trust is sometimes very worthwhile."
+  },
+  {
+    "id": "263",
+    "text": "But of course, you're already quite an adventurer!"
+  },
+  {
+    "id": "264",
+    "text": "You know, you don't always need a large crew. You really only need enough men to move your ship forward."
+  },
+  {
+    "id": "265",
+    "text": "A ship's speed depends not only on its type, but also on the number of crew and the captain's ability in navigation."
+  },
+  {
+    "id": "266",
+    "text": "When you don't have enough crew assigned for navigation, its number will be shown in red."
+  },
+  {
+    "id": "267",
+    "text": "Only fleets that have a first mate with the skill of 'Celestial Navigation' can use the 'Auto Sail' command."
+  },
+  {
+    "id": "268",
+    "text": "It's a good idea to assign a person with 'Accounting Skills' to be your bookkeeper."
+  },
+  {
+    "id": "269",
+    "text": "When you need to recall something important, open your journal."
+  },
+  {
+    "id": "270",
+    "text": "I'm new here, so maybe you should try talking to someone else."
+  },
+  {
+    "id": "271",
+    "text": "It's convenient to use the 'Auto Sail' command to sail to a port you have visited before."
+  },
+  {
+    "id": "272",
+    "text": "You may want to use the 'Assign Crew' command frequently."
+  },
+  {
+    "id": "273",
+    "text": "When you complete a 'Delivery' mission, your fame in trade will increase."
+  },
+  {
+    "id": "274",
+    "text": "When you complete a 'Pirate Hunting' mission, your fame in piracy will increase."
+  },
+  {
+    "id": "275",
+    "text": "When you complete a 'Transport' mission, your fame in trade will increase."
+  },
+  {
+    "id": "276",
+    "text": "The place to hire crew is the pub. You knew that, right? Did you also know that you can hire crew only once a day?"
+  },
+  {
+    "id": "277",
+    "text": "A figurehead is not just for decoration. It will protect you from accidents and monsters out on the high seas."
+  },
+  {
+    "id": "278",
+    "text": "If you continually make investments on a port, it will eventually ally with your home country. Your fame in trade will go up as well."
+  },
+  {
+    "id": "279",
+    "text": "If you desperately need gold, you can borrow from a bank. There's no interest if you repay the loan within the month."
+  },
+  {
+    "id": "280",
+    "text": "If you want to get detailed information about the port you are in, go to a lodge and ask."
+  },
+  {
+    "id": "281",
+    "text": "If you have a tax-free permit, you can buy goods without tax. The permit is issued in the palace."
+  },
+  {
+    "id": "282",
+    "text": "If you have a letter of marque, your piracy will be considered a patriotic act for your country."
+  },
+  {
+    "id": "283",
+    "text": "The basic defensive tactics in a duel are 'Parry' against 'Thrust', 'Block' against 'Slash',and 'Dodge' against 'Strike'."
+  },
+  {
+    "id": "284",
+    "text": "The basic offensive tactics in a duel are 'Strike' against 'Parry', 'Slash' against 'Dodge', and 'Thrust' against 'Block'."
+  },
+  {
+    "id": "285",
+    "text": "Some specialty goods are not put on the market until the 'Economy' of the port reaches a certain level."
+  },
+  {
+    "id": "286",
+    "text": "Success in a duel depends on the action you select and the strength of your equipment."
+  },
+  {
+    "id": "287",
+    "text": "The quality of your arms and armor will determine your success in a duel."
+  },
+  {
+    "id": "288",
+    "text": "To find latitude and longitude, you must have a measuring instrument and someone who has 'Celestial Navigation' skills."
+  },
+  {
+    "id": "289",
+    "text": "I heard that some people will pay for information about the exotic things you may discover on a voyage."
+  },
+  {
+    "id": "290",
+    "text": "If you've just started sailing, you can gain experience and fame quickly by signing up for easy missions at a guild."
+  },
+  {
+    "id": "291",
+    "text": "Cartographers are eager to know detailed information of the world's geography. They may even pay for such information."
+  },
+  {
+    "id": "292",
+    "text": "Get yourself acquainted with waitresses at pubs. They know lots of useful information."
+  },
+  {
+    "id": "293",
+    "text": "I heard that you may find something interesting if you 'Search' in a 'Village'."
+  },
+  {
+    "id": "294",
+    "text": "Did you know that the way the winds affect sailing depends on the type of ship?"
+  },
+  {
+    "id": "295",
+    "text": "If you are short of crew, use the 'Assign Crew' command and increase the ratio for 'Navigation'."
+  },
+  {
+    "id": "296",
+    "text": "To prepare for a battle, increase the ratio of your crew for 'Combat' by using the 'Assign Crew' command."
+  },
+  {
+    "id": "297",
+    "text": "If you increase the ratio of crew assigned to 'Lookout', it will be easier to find ports and villages."
+  },
+  {
+    "id": "298",
+    "text": "Changing how much 'Rations' you give to your crew will affect their 'Health'. 90% is the average."
+  },
+  {
+    "id": "299",
+    "text": "Give an inexperienced navigator on the job training, and assign him to be the chief navigator. His skills will improve quickly!"
+  },
+  {
+    "id": "300",
+    "text": "The 'Rearrange' command will determine the initial location of ships in a battle."
+  },
+  {
+    "id": "301",
+    "text": "If you complete a 'Debt Collection' mission, your fame in both piracy and trade will increase!"
+  },
+  {
+    "id": "302",
+    "text": "Professor Mordes, a collector in Bordeaux is quite generous."
+  },
+  {
+    "id": "303",
+    "text": "The Duke of Modena in Pisa is notoriously stingy."
+  },
+  {
+    "id": "304",
+    "text": "Duke Franco in Lisbon is looking for information on exotic things."
+  },
+  {
+    "id": "305",
+    "text": "There is a man called Ranajame who is looking for information on exotic things."
+  },
+  {
+    "id": "306",
+    "text": "Count Morie in Copenhagen is looking for information on exotic things."
+  },
+  {
+    "id": "307",
+    "text": "Dr. Wolf teaches the skills of 'Gunnery' in Hamburg."
+  },
+  {
+    "id": "308",
+    "text": "Professor Juliano teaches the skill of 'Celestial Navigation' in Naples."
+  },
+  {
+    "id": "309",
+    "text": "There is a famous cartographer named Mercator in Amsterdam."
+  },
+  {
+    "id": "310",
+    "text": "Gerard de Jode in Antwerp is a skilled cartographer."
+  },
+  {
+    "id": "311",
+    "text": "Diogo Ribeiro in Barcelona will pay an arm and a leg for new geographical information."
+  },
+  {
+    "id": "312",
+    "text": "A cartographer called Olives in Palma teaches the skills of 'Cartography'."
+  },
+  {
+    "id": "313",
+    "text": "There is a cartographer called Giovanni Verrazzano in Venice."
+  },
+  {
+    "id": "314",
+    "text": "If your captain has 'Gunnery' skills, the destructive power of your guns will substantially increase."
+  },
+  {
+    "id": "315",
+    "text": "If you have less men than the number of guns, the power of your guns will be reduced."
+  },
+  {
+    "id": "316",
+    "text": "If you don't know what to do next, visit a fortune teller and ask her about your life."
+  },
+  {
+    "id": "317",
+    "text": "I heard that 'Praying' at a house of worship gives you that extra something to help you through tight spots."
+  },
+  {
+    "id": "318",
+    "text": "Make sure your mates know how much you appreciate them - don't scrimp on their 'Wages'! Underpaid mates can't help but feel disloyal."
+  },
+  {
+    "id": "319",
+    "text": "Trading Glass Beads from Amsterdam with Ivory from Timbuktu is very profitable."
+  },
+  {
+    "id": "320",
+    "text": "It's a good idea to trade Iron Ore from Kaffa with Art from Athens."
+  },
+  {
+    "id": "321",
+    "text": "Iron Ore from Cairo and Amber from Aden are a good trade."
+  },
+  {
+    "id": "322",
+    "text": "If you want to know the best trade route, it's exchanging Carpet from Istanbul with Art from Athens."
+  },
+  {
+    "id": "323",
+    "text": "A really simple yet profitable trade route exchanges Dye from Ragusa with Glassware from Venice."
+  },
+  {
+    "id": "324",
+    "text": "May I help you?"
+  },
+  {
+    "id": "325",
+    "text": "Come to think of it, you're still kind of a beginner in trade."
+  },
+  {
+    "id": "326",
+    "text": "Hello. How are ye? By the way, ye still haven't learned all the ropes of sailing, right?"
+  },
+  {
+    "id": "327",
+    "text": "Hey there, welcome!"
+  },
+  {
+    "id": "328",
+    "text": "It seems ye still don't know much about ships."
+  },
+  {
+    "id": "329",
+    "text": "Oh, it's you, %s %s! I was a little bored here."
+  },
+  {
+    "id": "330",
+    "text": "Welcome. Oh, it's you, sir %s %s!"
+  },
+  {
+    "id": "331",
+    "text": "To thank you for your patronage, I'd like to share with you some wisdom on managing a crew. Are you interested?"
+  },
+  {
+    "id": "332",
+    "text": "If you defect to serve our country, you may not be able to achieve your goal."
+  },
+  {
+    "id": "333",
+    "text": "Would that be OK?"
+  },
+  {
+    "id": "334",
+    "text": "We should hire crew in the pub."
+  },
+  {
+    "id": "335",
+    "text": "By the way, don't forget to hire crew in a pub."
+  },
+  {
+    "id": "336",
+    "text": "To tell you the truth, I don't know much about %s."
+  },
+  {
+    "id": "337",
+    "text": "But, I assume it's somewhere around there on your map."
+  },
+  {
+    "id": "338",
+    "text": "Before we discuss a contract,"
+  },
+  {
+    "id": "339",
+    "text": "let me make sure you understand all there is to know about searching for rare things."
+  },
+  {
+    "id": "340",
+    "text": "First, items that I am looking for are always in a village."
+  },
+  {
+    "id": "341",
+    "text": "So if you discover a village, be sure to 'Go Ashore' and 'Search' for an item."
+  },
+  {
+    "id": "342",
+    "text": "If you can't find anything, 'Entertain' the villagers. They may help you 'Search' for something interesting."
+  },
+  {
+    "id": "343",
+    "text": "If they don't respond immediately, be persistent. Entertain them two or three times."
+  },
+  {
+    "id": "344",
+    "text": "As their 'Friendliness' goes up, you'll have a better chance of finding an item."
+  },
+  {
+    "id": "345",
+    "text": "The effort it takes to gain the villager's trust is sometimes very worthwhile."
+  },
+  {
+    "id": "346",
+    "text": "But of course, you already know what we are looking for already."
+  },
+  {
+    "id": "347",
+    "text": "Remember that you must equip yourself with them, or else they will be useless!"
+  },
+  {
+    "id": "348",
+    "text": "Entertain people in the village if you don't find anything."
+  },
+  {
+    "id": "349",
+    "text": "Since then, %s face has not been seen by anyone."
+  },
+  {
+    "id": "350",
+    "text": "No one has seen %s fleet since."
+  },
+  {
+    "id": "351",
+    "text": "Deep lines on %s face marked the exhaustion felt after so many years on the high seas."
+  },
+  {
+    "id": "352",
+    "text": "This triumph occurred on %s %d, %d."
+  },
+  {
+    "id": "353",
+    "text": "\u001bC6\u001bF4Navigation:%3d\u001bC0\u001bF1"
+  },
+  {
+    "id": "354",
+    "text": "\u001bC6\u001bF4Lookout:%3d\u001bC0\u001bF1"
+  },
+  {
+    "id": "355",
+    "text": "\u001bC6\u001bF4Combat:%3d\u001bC0\u001bF1"
+  },
+  {
+    "id": "356",
+    "text": "---none---"
+  },
+  {
+    "id": "357",
+    "text": "---none---"
+  },
+  {
+    "id": "358",
+    "text": "---none---"
+  },
+  {
+    "id": "359",
+    "text": "As the son of Duke Leon Franco, Joao sails for the glory of Portugal. In his travels around the globe he hopes to discover the secret of the lost land of Atlantis."
+  },
+  {
+    "id": "360",
+    "text": "This red-haired pirate hails from Spain. She seeks revenge on Portugal for the mysterious loss of two men - her brother and her beloved."
+  },
+  {
+    "id": "361",
+    "text": "The Conti family went bankrupt long ago, leaving Pietro a large debt. But that won't stop him from exploring the world in search of treasure and exotic items."
+  },
+  {
+    "id": "362",
+    "text": "Ernst is a famous geographer from Holland. At the request of his cartographer friend Mercator, he sets sail to plot out a detailed map of the world."
+  },
+  {
+    "id": "363",
+    "text": "Ali has struggled to make ends meet in Istanbul since he was a child. Now, with a merchant ship, he will try to make his fortune, trading in foreign lands."
+  },
+  {
+    "id": "364",
+    "text": "A Royal Knight of the British Empire, Otto is on a secret mission for King Henry VIII. Sailing as a privateer, his goal is to defeat the Spanish Armada."
+  },
+  {
+    "id": "365",
+    "text": "Is %ld:00 %s OK?"
+  },
+  {
+    "id": "366",
+    "text": "You can't 'Auto Sail' to an area you haven't visited yet."
+  },
+  {
+    "id": "367",
+    "text": "It seems %s is cracking down on pirates."
+  },
+  {
+    "id": "368",
+    "text": "\u001bC1Profit\u001bC0    %5d     \u001bC1Friendship\u001bC0"
+  },
+  {
+    "id": "369",
+    "text": "\u001bC1Relations\u001bC0"
+  },
+  {
+    "id": "370",
+    "text": "\u001bC1Alliance/Blockade\u001bC0"
+  },
+  {
+    "id": "371",
+    "text": "\u001bC0Attack  \u001bC2%s\u001bC0"
+  },
+  {
+    "id": "372",
+    "text": "\u001bC0Defense \u001bC2%s\u001bC0"
+  },
+  {
+    "id": "373",
+    "text": "There are items left in the unloading area! Is it still okay to end the transfer process?"
+  },
+  {
+    "id": "374",
+    "text": "It'll cost you %d gold per sailor. How many will you hire (0-%d)?"
+  },
+  {
+    "id": "375",
+    "text": "\u001bC7\u001bB0There is not enough memory to play the game. (Err=%d)"
+  },
+  {
+    "id": "376",
+    "text": "Turn  %2d  �F \u001bC1Defense\u001bC0"
+  },
+  {
+    "id": "377",
+    "text": "Delegate"
+  },
+  {
+    "id": "378",
+    "text": "%2d \u001bC1%s\u001bC0"
+  },
+  {
+    "id": "379",
+    "text": "Flagship"
+  },
+  {
+    "id": "380",
+    "text": "DURABILITY"
+  },
+  {
+    "id": "381",
+    "text": "TACKING"
+  },
+  {
+    "id": "382",
+    "text": "POWER"
+  },
+  {
+    "id": "383",
+    "text": "%s"
+  },
+  {
+    "id": "384",
+    "text": "Value \u001bC2%s\u001bC0"
+  },
+  {
+    "id": "385",
+    "text": "Arms cannot be\nused here."
+  },
+  {
+    "id": "386",
+    "text": "Shield cannot be\nused here."
+  },
+  {
+    "id": "387",
+    "text": "Armor cannot be\nused here."
+  },
+  {
+    "id": "388",
+    "text": "This item cannot be\nused here."
+  },
+  {
+    "id": "389",
+    "text": "\u001bC0\u001bB7"
+  },
+  {
+    "id": "390",
+    "text": "\u001bC1Nav. Look Cmbat Load Water Food\u001bC0"
+  },
+  {
+    "id": "391",
+    "text": "%-8s  %3d  %3d   %3d  %3d%% %4d  %4d"
+  },
+  {
+    "id": "392",
+    "text": "How many %s will you dump (0-%ld)?"
+  },
+  {
+    "id": "393",
+    "text": "%-16s %4d %4d %4d %4d"
+  },
+  {
+    "id": "394",
+    "text": "\u001bC1Water Food Lumber Shot\u001bC0"
+  },
+  {
+    "id": "395",
+    "text": "Moored Ships"
+  },
+  {
+    "id": "396",
+    "text": "Captain    %s"
+  },
+  {
+    "id": "397",
+    "text": "Navigation  %3d"
+  },
+  {
+    "id": "398",
+    "text": "Lookout     %3d"
+  },
+  {
+    "id": "399",
+    "text": "Combat      %3d"
+  },
+  {
+    "id": "400",
+    "text": "Min Crew    %3d"
+  },
+  {
+    "id": "401",
+    "text": "Speed         \u001bC0%d knots"
+  },
+  {
+    "id": "402",
+    "text": "Speed         \u001bC0%-2d knots"
+  },
+  {
+    "id": "403",
+    "text": "%s's fleet is at anchor."
+  },
+  {
+    "id": "404",
+    "text": "We discovered Ruins of an ancient civilization!"
+  },
+  {
+    "id": "405",
+    "text": "Durability %3d/%3d"
+  },
+  {
+    "id": "406",
+    "text": "Tacking    %3d"
+  },
+  {
+    "id": "407",
+    "text": "Capacity  %4d Cargo %4d"
+  },
+  {
+    "id": "408",
+    "text": "Guns              %3d/%3d"
+  },
+  {
+    "id": "409",
+    "text": "Min/Max Crew      %3d/%3d"
+  },
+  {
+    "id": "410",
+    "text": "Max Crew (Remodel)   %3d0"
+  },
+  {
+    "id": "411",
+    "text": "Power      %3d"
+  },
+  {
+    "id": "412",
+    "text": "Where should I sell %s...? I wish I had a reliable bookkeeper."
+  },
+  {
+    "id": "413",
+    "text": "We captured 1 enemy ship! We can add it to our fleet."
+  },
+  {
+    "id": "414",
+    "text": "Is it OK to cancel rearranging?"
+  },
+  {
+    "id": "415",
+    "text": "recently."
+  },
+  {
+    "id": "416",
+    "text": "No one has sailed to the"
+  },
+  {
+    "id": "417",
+    "text": "You're lucky I am so forgiving."
+  },
+  {
+    "id": "418",
+    "text": "Measuring 2800 by 3300 feet, it contains concentric walled courtyards surrounding a central structure of beautiful towers."
+  },
+  {
+    "id": "419",
+    "text": "Is it okay?"
+  },
+  {
+    "id": "420",
+    "text": "So you want to learn celestial navigation."
+  },
+  {
+    "id": "421",
+    "text": "Well, maybe next time I can help you out."
+  },
+  {
+    "id": "422",
+    "text": "and a Circlet from those scurvy dawgs!"
+  }
+]

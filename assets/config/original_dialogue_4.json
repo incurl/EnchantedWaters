@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "0",
+    "text": "|Geographer Mercator|\nOh $n, I was just looking for you."
+  },
+  {
+    "id": "1",
+    "text": "Actually, I have a favor to ask of you."
+  },
+  {
+    "id": "2",
+    "text": "A favor? Go ahead, I'll do whatever I can to help you out."
+  },
+  {
+    "id": "3",
+    "text": "After all, it was your recommendation that got me my teaching job at the university."
+  },
+  {
+    "id": "4",
+    "text": "Well then, listen up! Now I know that as a fellow geographer, you have an interest in the cartography of the world."
+  },
+  {
+    "id": "5",
+    "text": "Oh, absolutely. The New World, the Middle East, Asia."
+  },
+  {
+    "id": "6",
+    "text": "I'd love to travel the world and see for myself all the things I've read about in my studies."
+  },
+  {
+    "id": "7",
+    "text": "But I don't have any money. And a professor's salary, well..."
+  },
+  {
+    "id": "8",
+    "text": "I suspected as much. Now, I too have longed to travel the world and discover new lands."
+  },
+  {
+    "id": "9",
+    "text": "But I am old and weak, and though I'm ashamed to admit it, I hate ships."
+  },
+  {
+    "id": "10",
+    "text": "But you're young and strong, with a thirst for knowledge and adventure. Am I right?"
+  },
+  {
+    "id": "11",
+    "text": "Oh yes! I can't say that teaching is very exciting. I'd like to live a life on the brink, full of unexpected surprises."
+  },
+  {
+    "id": "12",
+    "text": "That's just what I thought! Now, how does this strike you?"
+  },
+  {
+    "id": "13",
+    "text": "I'll supply the money. How'd you like to make a career out of being an explorer?"
+  },
+  {
+    "id": "14",
+    "text": "Really?! Why, I can't think of anything that would make me happier."
+  },
+  {
+    "id": "15",
+    "text": "So you'll go and explore the world in my place?"
+  },
+  {
+    "id": "16",
+    "text": "Well, what exactly do I need to do?"
+  },
+  {
+    "id": "17",
+    "text": "I need you to seek out the unknown, to explore the vast regions of the world."
+  },
+  {
+    "id": "18",
+    "text": "As you travel to these far-off lands, you'll learn the most sought after knowledge of our time,"
+  },
+  {
+    "id": "19",
+    "text": "distant ports and uncharted waters."
+  },
+  {
+    "id": "20",
+    "text": "So we can make maps for other sailors!"
+  },
+  {
+    "id": "21",
+    "text": "Exactly. My goal is to make a map with details of the whole entire world! No one's done that, yet!"
+  },
+  {
+    "id": "22",
+    "text": "A map of the whole world! That's a big job. We'll be competing with all the other adventurers, mapmakers, and scholars."
+  },
+  {
+    "id": "23",
+    "text": "Correct. If we're going to do it, we've got to do it better and faster than anyone else."
+  },
+  {
+    "id": "24",
+    "text": "This map could make us famous!"
+  },
+  {
+    "id": "25",
+    "text": "You can count on me, Mercator!"
+  },
+  {
+    "id": "26",
+    "text": "Alright then, here's the money I promised you."
+  },
+  {
+    "id": "27",
+    "text": "There's a ship all ready to go, waiting for you at the docks."
+  },
+  {
+    "id": "28",
+    "text": "You don't waste any time, do you? Have you already decided what to call the ship?"
+  },
+  {
+    "id": "29",
+    "text": "Not yet. I thought I'd leave that up to you."
+  },
+  {
+    "id": "30",
+    "text": "Is that so? Well then, it's decided. I'll name it 'Mercator' in your honor, since you can't come with me."
+  },
+  {
+    "id": "31",
+    "text": "Why thank you, $n. Oh, I almost forgot. I'd like to introduce you to someone. He's going to be traveling with you."
+  },
+  {
+    "id": "32",
+    "text": "I figured you'd need a mate to teach you the ropes of sea travel, so I searched around for the best in seamen. His name is Hans."
+  },
+  {
+    "id": "33",
+    "text": "|Sailor Hans Starten|\nAhoy there, Professor! I hear ye'll be needing an old sea dog like myself."
+  },
+  {
+    "id": "34",
+    "text": "Hans's my name, pleased to meet ye."
+  },
+  {
+    "id": "35",
+    "text": "I'm $n! We've got a long voyage ahead of us. I'm afraid it may be rough going at times."
+  },
+  {
+    "id": "36",
+    "text": "Are you willing to join me on such a dangerous adventure?"
+  },
+  {
+    "id": "37",
+    "text": "Well, professor, a long time ago ye very own father helped me through a rough spot, and I've been in his debt ever since."
+  },
+  {
+    "id": "38",
+    "text": "I'll do anything I can to help his son, Professor."
+  },
+  {
+    "id": "39",
+    "text": "Thank you. But stop that professor stuff, I'm now officially retired!"
+  },
+  {
+    "id": "40",
+    "text": "Why don't you call me Captain, just like a real sea-faring crew."
+  },
+  {
+    "id": "41",
+    "text": "Aye, then Captain it is, Professor!"
+  },
+  {
+    "id": "42",
+    "text": "But, oh, never mind. Well Mercator, thank you again, and we'll be heading off!"
+  },
+  {
+    "id": "43",
+    "text": "Don't forget to keep me updated on your progress! I hope you have a safe journey!"
+  },
+  {
+    "id": "44",
+    "text": "Mercator"
+  },
+  {
+    "id": "45",
+    "text": "Welcome, Professor $s. What can I do for you?"
+  },
+  {
+    "id": "46",
+    "text": "Please, everyone, stop calling me Professor! It's embarrassing."
+  },
+  {
+    "id": "47",
+    "text": "Oh, your friend Mercator was in here looking for you, Professor."
+  },
+  {
+    "id": "48",
+    "text": "Mercator? I wonder what he wants?"
+  },
+  {
+    "id": "49",
+    "text": "I don't know, but he said he'd be waiting at his shop."
+  },
+  {
+    "id": "50",
+    "text": "Don't forget to keep me updated on your progress! Good luck! Have a safe journey!"
+  },
+  {
+    "id": "51",
+    "text": "Don't worry about a thing, Mercator. We're off!"
+  },
+  {
+    "id": "52",
+    "text": "Prof..I mean, Captain! Where will we go first?"
+  },
+  {
+    "id": "53",
+    "text": "Well, Hans, why not Northern Europe? Have you ever heard of the Fjords?"
+  },
+  {
+    "id": "54",
+    "text": "Aye, the Fjords of Norway. They were created when massive ice blocks slid off the mountains and carved the land below, right?"
+  },
+  {
+    "id": "55",
+    "text": "Aye, I've heard many a sailor tell of their majestic beauty."
+  },
+  {
+    "id": "56",
+    "text": "Wow, you really know your stuff! The Fjords are a major reason why the coastline of Northern Europe is so jagged."
+  },
+  {
+    "id": "57",
+    "text": "Aye, ye are a wise one, Prof... Cap'n. Ye know, I've always wanted to take a look at that coastline."
+  },
+  {
+    "id": "58",
+    "text": "Me too! I'm tired of reading about things like the Fjords, I want to see them with my own eyes!"
+  },
+  {
+    "id": "59",
+    "text": "Aye, Cap'n, but it gets dangerous up north. If we were hit by some floating ice, we'd sink before you could say Kris Kringle."
+  },
+  {
+    "id": "60",
+    "text": "So, until ye've had time to gather some experience, I don't think we should venture too far."
+  },
+  {
+    "id": "61",
+    "text": "Especially so far North, since safe harbors there are few and far between."
+  },
+  {
+    "id": "62",
+    "text": "We'd be a sad and sorry lot if we ran out of provisions at sea. Aye, that would be a fine mess!"
+  },
+  {
+    "id": "63",
+    "text": "You're very right, Hans. We'll have to watch our supplies carefully."
+  },
+  {
+    "id": "64",
+    "text": "Although I'm grateful to him for this opportunity, Mercator sure didn't give us much gold. I'm afraid it won't get us very far."
+  },
+  {
+    "id": "65",
+    "text": "Well, Cap'n, we'll just have to make do. And I bet we'll discover some rare things in our travels. Collectors will pay a heap of gold to know such things!"
+  },
+  {
+    "id": "66",
+    "text": "If we have a contract, we can trade information about the whereabouts for money."
+  },
+  {
+    "id": "67",
+    "text": "That's a good idea, but do you really think we'll be able to discover those rare items?"
+  },
+  {
+    "id": "68",
+    "text": "Sure as my name is Hans, Cap'n! First of all, as we travel the world we're bound to find some villages."
+  },
+  {
+    "id": "69",
+    "text": "We should disembark and form a search party. I'm sure we'll find something more often than not!"
+  },
+  {
+    "id": "70",
+    "text": "And if we don't find anything, we should entertain and befriend the villagers. They know the secrets of their land."
+  },
+  {
+    "id": "71",
+    "text": "I've heard sailors say that a rare item can be found in every village! We'll discover lots if we just keep on looking!"
+  },
+  {
+    "id": "72",
+    "text": "Forget your worries about gold. We'll be rich as kings!"
+  },
+  {
+    "id": "73",
+    "text": "I'm lucky to have you, Hans. You know everything!"
+  },
+  {
+    "id": "74",
+    "text": "Far from it, Prof... I mean Captain. I learned all that from ye father, a very wise and good man."
+  },
+  {
+    "id": "75",
+    "text": "My father? Really? It's my dream to be a better geographer than my father."
+  },
+  {
+    "id": "76",
+    "text": "So $n, have you gotten used to sea travel yet?"
+  },
+  {
+    "id": "77",
+    "text": "$n, I 'd like to believe this is just a rumor but... is it true that you have contracts with other cartographers besides me?"
+  },
+  {
+    "id": "78",
+    "text": "It is true?! I can't believe you would go and betray me!"
+  },
+  {
+    "id": "79",
+    "text": "I want you to renew your contract with me."
+  },
+  {
+    "id": "80",
+    "text": "Don't betray me again. It would mean the end of both our friendship and trust."
+  },
+  {
+    "id": "81",
+    "text": "Captain $n, I heard talk around the port that Mercator's maps have been getting popular!"
+  },
+  {
+    "id": "82",
+    "text": "And I heard that both Mercator and you, $n, are listed as cartographers."
+  },
+  {
+    "id": "83",
+    "text": "That's great! But we can't let our fame go to our heads. We'll have to work even harder from here on out."
+  },
+  {
+    "id": "84",
+    "text": "Righto, Captain! Let's move her out to sea, men!"
+  },
+  {
+    "id": "85",
+    "text": "Oh, please, wait a minute! Can you please take me on your ship?"
+  },
+  {
+    "id": "86",
+    "text": "Huh? Are ye crazy, miss? There's no place for children on a ship. Get along home now, lassie."
+  },
+  {
+    "id": "87",
+    "text": "Are you the Captain, mister? Please, let me aboard."
+  },
+  {
+    "id": "88",
+    "text": "I'll prove my worth. I can speak any language in the world."
+  },
+  {
+    "id": "89",
+    "text": "Why yes, I am the Captain. What's your name?"
+  },
+  {
+    "id": "90",
+    "text": "I'm Paula. Please let me aboard, Captain. I want to find my homeland."
+  },
+  {
+    "id": "91",
+    "text": "Your homeland? What do you mean you're looking for your homeland? I want to hear about this."
+  },
+  {
+    "id": "92",
+    "text": "And by the way, I'm $n $s, an adventurer traveling the globe to make a world map."
+  },
+  {
+    "id": "93",
+    "text": "A world map... so, you mean, are you the famous $s of 'Mercator and $s'?"
+  },
+  {
+    "id": "94",
+    "text": "Yes. Well, if you don't mind, maybe you'd tell me why you want to board my ship."
+  },
+  {
+    "id": "95",
+    "text": "I... a couple of days ago, my father died. Right before he died, he said to me, 'I have to tell you the truth. I'm not your real father.'"
+  },
+  {
+    "id": "96",
+    "text": "Ten years ago, he found me in the markets of Seville. I was only 4 years old, so he took me and raised me as his own."
+  },
+  {
+    "id": "97",
+    "text": "My father, the man who raised me, was a trader, so he traveled all over the world."
+  },
+  {
+    "id": "98",
+    "text": "He said that he searched for my real parents wherever he went."
+  },
+  {
+    "id": "99",
+    "text": "But he never found them, and so I've been with him ever since."
+  },
+  {
+    "id": "100",
+    "text": "'Your homeland, find your homeland...' Those were my father's last words."
+  },
+  {
+    "id": "101",
+    "text": "I beg you. Please let me aboard. I swear I won't cause you any trouble."
+  },
+  {
+    "id": "102",
+    "text": "But..."
+  },
+  {
+    "id": "103",
+    "text": "(Sniff) Professor, (Sniff) this old barnacle-back hasn't heard such a touching story in many a year! (Sniff)"
+  },
+  {
+    "id": "104",
+    "text": "What a brave young lassie! Going out alone to search for her homeland... I say we let her aboard."
+  },
+  {
+    "id": "105",
+    "text": "But Hans, didn't you just say there was no room for... oh, well, come along then, miss."
+  },
+  {
+    "id": "106",
+    "text": "Oh! Thank you!"
+  },
+  {
+    "id": "107",
+    "text": "So Captain $n, have you got your sea legs yet?"
+  },
+  {
+    "id": "108",
+    "text": "Hey $n! Huh? Who's the girl?"
+  },
+  {
+    "id": "109",
+    "text": "Nice to meet you. My name's Paula. You're Mercator, the famous cartographer, aren't you?"
+  },
+  {
+    "id": "110",
+    "text": "I love your maps! They're absolutely wonderful."
+  },
+  {
+    "id": "111",
+    "text": "Why thank you, miss."
+  },
+  {
+    "id": "112",
+    "text": "This young girl is all alone. She's joined our crew to travel the world in search of her homeland."
+  },
+  {
+    "id": "113",
+    "text": "Oh, I see. Well, I hope you find your homeland, miss. Now, $n, how about some results from your travels?"
+  },
+  {
+    "id": "114",
+    "text": "$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+  },
+  {
+    "id": "115",
+    "text": "Really?! I can't believe you would just turn around and stab me in the back like that!"
+  },
+  {
+    "id": "116",
+    "text": "Well, I'm going to have you renew your contract with me again."
+  },
+  {
+    "id": "117",
+    "text": "But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+  },
+  {
+    "id": "118",
+    "text": "Did you know that the reputation of Mercator's maps has sky-rocketed?"
+  },
+  {
+    "id": "119",
+    "text": "As well it should, lassie! They're the latest and most accurate."
+  },
+  {
+    "id": "120",
+    "text": "Success really does wonders for a man! Let's go!"
+  },
+  {
+    "id": "121",
+    "text": "It doesn't look like this harbor is my homeland either..."
+  },
+  {
+    "id": "122",
+    "text": "Oh, missie, don't look so disappointed, it makes me heart ache. We'll find your home some day!"
+  },
+  {
+    "id": "123",
+    "text": "He's right. There are still so many places in the world we haven't been to yet."
+  },
+  {
+    "id": "124",
+    "text": "You're right. Thank you, $n. Thank you, Hans."
+  },
+  {
+    "id": "125",
+    "text": "Hans, the sea is really interesting, isn't it? The morning sea, the evening sea... I'm glad we decided to make this voyage."
+  },
+  {
+    "id": "126",
+    "text": "The way the sea goes out forever... it's so romantic."
+  },
+  {
+    "id": "127",
+    "text": "Aye missie, that's because ye've only seen a calm sea. The wrath of a stormy sea strikes fear in the heart of even the bravest sailor."
+  },
+  {
+    "id": "128",
+    "text": "Welcome back, $n, Hans, Paula. The sea's treating you all fine, I see!"
+  },
+  {
+    "id": "129",
+    "text": "How about sharing some of the information you've gathered?"
+  },
+  {
+    "id": "130",
+    "text": "$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+  },
+  {
+    "id": "131",
+    "text": "Really?! I can't believe you would just turn around and stab me in the back like that!"
+  },
+  {
+    "id": "132",
+    "text": "Well, I'm going to have you renew your contract with me again."
+  },
+  {
+    "id": "133",
+    "text": "But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+  },
+  {
+    "id": "134",
+    "text": "I heard that Mercator's atlas is being published internationally now."
+  },
+  {
+    "id": "135",
+    "text": "Is that so? He ought to be getting a nice bit o' gold then."
+  },
+  {
+    "id": "136",
+    "text": "He gets 20,000 gold pieces a month just from royalties!"
+  },
+  {
+    "id": "137",
+    "text": "Arrr, so when are we going to see some of that gold, I wonder?"
+  },
+  {
+    "id": "138",
+    "text": "Oh, forget about him. Who could put a price on all the fantastic things we've seen?"
+  },
+  {
+    "id": "139",
+    "text": "And I'd still be a professor if it wasn't for his help."
+  },
+  {
+    "id": "140",
+    "text": "We haven't had much luck finding Paula's homeland, have we?"
+  },
+  {
+    "id": "141",
+    "text": "We've been to almost every harbor in the world."
+  },
+  {
+    "id": "142",
+    "text": "I'm sorry I've caused you so much trouble."
+  },
+  {
+    "id": "143",
+    "text": "Why, it's no trouble at all! But if we can, we just want to find it for you as quickly as possible."
+  },
+  {
+    "id": "144",
+    "text": "Exactly. But even if we don't, ye needn't fret. The Captain here said that if he could, he'd like to stay with ye forever."
+  },
+  {
+    "id": "145",
+    "text": "D..Don't say silly things like that! Paula will misunderstand."
+  },
+  {
+    "id": "146",
+    "text": "$n, don't you think the sea is fantastic and mysterious?"
+  },
+  {
+    "id": "147",
+    "text": "That's because depending on the latitude and weather, it changes in form."
+  },
+  {
+    "id": "148",
+    "text": "But, I wouldn't be too upset if I never see a stormy sea."
+  },
+  {
+    "id": "149",
+    "text": "The emerald of the Mediterranean, the green of the Aegean Sea, the deep blue of the Indian Sea-"
+  },
+  {
+    "id": "150",
+    "text": "they're all so beautiful."
+  },
+  {
+    "id": "151",
+    "text": "Ahhh, an old sea dog like meself just can't get excited about such things after so many years."
+  },
+  {
+    "id": "152",
+    "text": "Oh, Hans, there must be something you dream about!"
+  },
+  {
+    "id": "153",
+    "text": "Oh $n, I take it you've brought me some new information."
+  },
+  {
+    "id": "154",
+    "text": "$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+  },
+  {
+    "id": "155",
+    "text": "Really?! I can't believe you would just turn around and stab me in the back like that!"
+  },
+  {
+    "id": "156",
+    "text": "Well, I'm going to have you renew your contract with me again."
+  },
+  {
+    "id": "157",
+    "text": "But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+  },
+  {
+    "id": "158",
+    "text": "Captain, as I'm getting on in me years, there's one wish I have, one dream I've kept in my heart for a long time, that I hope will come true."
+  },
+  {
+    "id": "159",
+    "text": "What is it, Hans? If you don't mind, I'd like to hear it."
+  },
+  {
+    "id": "160",
+    "text": "Well then, Cap'n, Paula, have you two heard about the golden country of Zipangu?"
+  },
+  {
+    "id": "161",
+    "text": "I read about Marco Polo and his voyage to the Far East. Is that the same Zipangu?"
+  },
+  {
+    "id": "162",
+    "text": "Aye, the same. I read Marco Polo's book when I was just a lad, and ever since I've wanted to go there and see it for meself."
+  },
+  {
+    "id": "163",
+    "text": "The golden country of Zipangu? If it really exists, I'd like to go and add it to my map."
+  },
+  {
+    "id": "164",
+    "text": "Why don't we go and have a look?"
+  },
+  {
+    "id": "165",
+    "text": "Have you heard the latest news about Mercator? Our maps have earned him election to the Royal Academy of Scholars."
+  },
+  {
+    "id": "166",
+    "text": "Aye, he's one shrewd operator, Captain. I feel like he got rich and famous off of ye own hard efforts, Captain."
+  },
+  {
+    "id": "167",
+    "text": "Aw, don't let it bother you. I enjoy making accurate maps and knowing that I am somehow helping out other seafarers."
+  },
+  {
+    "id": "168",
+    "text": "By the way, don't you two think it's about time you took the oath?"
+  },
+  {
+    "id": "169",
+    "text": "Take the oath? What are you talking about?"
+  },
+  {
+    "id": "170",
+    "text": "Why your marriage of course! Your marriage oath!"
+  },
+  {
+    "id": "171",
+    "text": "Come on, cut it out now Hans. It's embarrassing!"
+  },
+  {
+    "id": "172",
+    "text": "Stop your joking now, Hans. You know we are not involved in that way. Right $n?"
+  },
+  {
+    "id": "173",
+    "text": "Well, if you say so..."
+  },
+  {
+    "id": "174",
+    "text": "... Whew."
+  },
+  {
+    "id": "175",
+    "text": "We still haven't found Paula's homeland."
+  },
+  {
+    "id": "176",
+    "text": "We've been to almost every port I can think of."
+  },
+  {
+    "id": "177",
+    "text": "I'm sorry. I didn't mean to cause you so much trouble."
+  },
+  {
+    "id": "178",
+    "text": "Stop your nonsense! No one here thinks of you as trouble. We just want to help you find your homeland, that's all."
+  },
+  {
+    "id": "179",
+    "text": "Exactly. You don't have to worry about that. Besides, the Captain here said he'd kind of like it if you stayed on with us."
+  },
+  {
+    "id": "180",
+    "text": "D..don't say such silly things, Hans. Paula will get the wrong idea."
+  },
+  {
+    "id": "181",
+    "text": "Hmmm, you've really become quite the sailor, now haven't you."
+  },
+  {
+    "id": "182",
+    "text": "Do you happen to have any new information to give to me?"
+  },
+  {
+    "id": "183",
+    "text": "$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+  },
+  {
+    "id": "184",
+    "text": "Really?! I can't believe you would just turn around and stab me in the back like that!"
+  },
+  {
+    "id": "185",
+    "text": "Well, I'm going to have you renew your contract with me again."
+  },
+  {
+    "id": "186",
+    "text": "But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+  },
+  {
+    "id": "187",
+    "text": "By any chance, is this land... Zipangu?"
+  },
+  {
+    "id": "188",
+    "text": "No, it's most certainly not! Zipangu, I never heard of such a place!"
+  },
+  {
+    "id": "189",
+    "text": "No. Zipangu is farther to the northeast."
+  },
+  {
+    "id": "190",
+    "text": "What? Zipangu is right around here? Captain, let's go!"
+  },
+  {
+    "id": "191",
+    "text": "So, $n, it looks like you still haven't found Paula's homeland yet."
+  },
+  {
+    "id": "192",
+    "text": "I take it you have new information for me?"
+  },
+  {
+    "id": "193",
+    "text": "$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+  },
+  {
+    "id": "194",
+    "text": "Really?! I can't believe you would just turn around and stab me in the back like that!"
+  },
+  {
+    "id": "195",
+    "text": "Well, I'm going to have you renew your contract with me again."
+  },
+  {
+    "id": "196",
+    "text": "But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+  },
+  {
+    "id": "197",
+    "text": "By any chance, is this land... Zipangu?"
+  },
+  {
+    "id": "198",
+    "text": "No, Zipangu is a little farther northeast."
+  },
+  {
+    "id": "199",
+    "text": "What? We're almost there! Captain, let's go!"
+  },
+  {
+    "id": "200",
+    "text": "Why yes, to westerners our land of the rising sun is known as Zipangu."
+  },
+  {
+    "id": "201",
+    "text": "I can't believe me ears, Cap'n! This is Zipangu! We made it!"
+  },
+  {
+    "id": "202",
+    "text": "Is this really the golden country?"
+  },
+  {
+    "id": "203",
+    "text": "It sure doesn't look like a golden country. Let's take a look around the port city."
+  },
+  {
+    "id": "204",
+    "text": "You know, Hans, something has just occurred to me."
+  },
+  {
+    "id": "205",
+    "text": "What is it, Cap'n?"
+  },
+  {
+    "id": "206",
+    "text": "Don't you think that the people here look a lot like Paula?"
+  },
+  {
+    "id": "207",
+    "text": "Aye, now that ye mention it, I do see a likeness."
+  },
+  {
+    "id": "208",
+    "text": "So, you think this could be my homeland?"
+  },
+  {
+    "id": "209",
+    "text": "I don't know. Paula, I've refrained from asking this until now, but I want you to tell me everything you remember about yourself."
+  },
+  {
+    "id": "210",
+    "text": "I think that we might be able to get something, a clue to help find your homeland."
+  },
+  {
+    "id": "211",
+    "text": "I really don't remember anything at all. Not my parents, my home, nothing. It's all long forgotten."
+  },
+  {
+    "id": "212",
+    "text": "Don't rush it, just slowly try to remember anything you can."
+  },
+  {
+    "id": "213",
+    "text": "Like the landscape around ye home. Ye must remember something."
+  },
+  {
+    "id": "214",
+    "text": "For instance, it was surrounded by mountains, or there was a large river..."
+  },
+  {
+    "id": "215",
+    "text": "I don't remember any mountains, or rivers, absolutely noth... wait a minute!"
+  },
+  {
+    "id": "216",
+    "text": "Yes, I remember, there was an ocean... an ocean, but strange. It wasn't blue."
+  },
+  {
+    "id": "217",
+    "text": "Huh? It wasn't blue? What does that mean?"
+  },
+  {
+    "id": "218",
+    "text": "It was muddy. Yellowish... a yellow sea!"
+  },
+  {
+    "id": "219",
+    "text": "A yellow sea? Hans, have you ever heard of anything like that?"
+  },
+  {
+    "id": "220",
+    "text": "What foolishness are ye talking about? There's no such thing as a yellow sea!"
+  },
+  {
+    "id": "221",
+    "text": "Oh, but it's true, it's true! I remember it clearly now."
+  },
+  {
+    "id": "222",
+    "text": "What Paula says is probably true. She's got no reason to lie."
+  },
+  {
+    "id": "223",
+    "text": "Well, of course, I know that. But, a yellow sea?!"
+  },
+  {
+    "id": "224",
+    "text": "Well, at least we have a clue. Let's go see if anyone knows anything about a yellow sea."
+  },
+  {
+    "id": "225",
+    "text": "Hey $n. Are you and Paula getting along OK?"
+  },
+  {
+    "id": "226",
+    "text": "I take it you have some new information for me."
+  },
+  {
+    "id": "227",
+    "text": "$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+  },
+  {
+    "id": "228",
+    "text": "Really?! I can't believe you would just turn around and stab me in the back like that!"
+  },
+  {
+    "id": "229",
+    "text": "Well, I'm going to have you renew your contract with me again."
+  },
+  {
+    "id": "230",
+    "text": "But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+  },
+  {
+    "id": "231",
+    "text": "Excuse me, I wonder if you might answer a question?"
+  },
+  {
+    "id": "232",
+    "text": "Yes, what is it?"
+  },
+  {
+    "id": "233",
+    "text": "Do you know anything about a yellow sea?"
+  },
+  {
+    "id": "234",
+    "text": "A yellow sea? Never heard of it."
+  },
+  {
+    "id": "235",
+    "text": "If it's a yellow river you're looking for, though, that'd be the Huang He."
+  },
+  {
+    "id": "236",
+    "text": "The Huang He?"
+  },
+  {
+    "id": "237",
+    "text": "Yes, it's a really wide river. The mouth of the river is at 37@N and 120@E."
+  },
+  {
+    "id": "238",
+    "text": "So the only information we could get was about a yellow river."
+  },
+  {
+    "id": "239",
+    "text": "Isn't this right around the mouth to that yellow river?"
+  },
+  {
+    "id": "240",
+    "text": "You may be right!"
+  },
+  {
+    "id": "241",
+    "text": "Wait a minute. That villager said that the Huang He was a wide river, right?"
+  },
+  {
+    "id": "242",
+    "text": "Yes, but what about it?"
+  },
+  {
+    "id": "243",
+    "text": "The yellow sea I remember was always flowing in the same direction!"
+  },
+  {
+    "id": "244",
+    "text": "And there was never a changing of the tides, and I don't think I ever smelled the salty brine of the sea."
+  },
+  {
+    "id": "245",
+    "text": "So it was probably a river, not the sea... It was just so wide that it looked like a sea."
+  },
+  {
+    "id": "246",
+    "text": "Well then, let's go to this yellow river and check things out."
+  },
+  {
+    "id": "247",
+    "text": "Excuse me, I wonder if you might answer a question?"
+  },
+  {
+    "id": "248",
+    "text": "Yes, what is it?"
+  },
+  {
+    "id": "249",
+    "text": "Do you know anything about a yellow sea?"
+  },
+  {
+    "id": "250",
+    "text": "A yellow sea? Never heard of it."
+  },
+  {
+    "id": "251",
+    "text": "If it's a yellow river you're looking for though, that'd be the Huang He."
+  },
+  {
+    "id": "252",
+    "text": "Huang He?"
+  },
+  {
+    "id": "253",
+    "text": "Yes, it's a really wide river. The mouth of the river is at 37@N 120@E."
+  },
+  {
+    "id": "254",
+    "text": "I take it you have some new information for me."
+  },
+  {
+    "id": "255",
+    "text": "$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+  },
+  {
+    "id": "256",
+    "text": "Really?! I can't believe you would just turn around and stab me in the back like that!"
+  },
+  {
+    "id": "257",
+    "text": "Well, I'm going to have you renew your contract with me again."
+  },
+  {
+    "id": "258",
+    "text": "But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+  },
+  {
+    "id": "259",
+    "text": "This building..."
+  },
+  {
+    "id": "260",
+    "text": "Paula, do you remember anything about this building?"
+  },
+  {
+    "id": "261",
+    "text": "Maybe, just maybe, this is her home!"
+  },
+  {
+    "id": "262",
+    "text": "I only remember vaguely, but I'm fairly certain..."
+  },
+  {
+    "id": "263",
+    "text": "Ah, you are Paula's..."
+  }
+]

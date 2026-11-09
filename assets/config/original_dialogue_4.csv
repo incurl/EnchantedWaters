@@ -1,0 +1,267 @@
+id,text
+0,"|Geographer Mercator|
+Oh $n, I was just looking for you."
+1,"Actually, I have a favor to ask of you."
+2,"A favor? Go ahead, I'll do whatever I can to help you out."
+3,"After all, it was your recommendation that got me my teaching job at the university."
+4,"Well then, listen up! Now I know that as a fellow geographer, you have an interest in the cartography of the world."
+5,"Oh, absolutely. The New World, the Middle East, Asia."
+6,I'd love to travel the world and see for myself all the things I've read about in my studies.
+7,"But I don't have any money. And a professor's salary, well..."
+8,"I suspected as much. Now, I too have longed to travel the world and discover new lands."
+9,"But I am old and weak, and though I'm ashamed to admit it, I hate ships."
+10,"But you're young and strong, with a thirst for knowledge and adventure. Am I right?"
+11,"Oh yes! I can't say that teaching is very exciting. I'd like to live a life on the brink, full of unexpected surprises."
+12,"That's just what I thought! Now, how does this strike you?"
+13,I'll supply the money. How'd you like to make a career out of being an explorer?
+14,"Really?! Why, I can't think of anything that would make me happier."
+15,So you'll go and explore the world in my place?
+16,"Well, what exactly do I need to do?"
+17,"I need you to seek out the unknown, to explore the vast regions of the world."
+18,"As you travel to these far-off lands, you'll learn the most sought after knowledge of our time,"
+19,distant ports and uncharted waters.
+20,So we can make maps for other sailors!
+21,"Exactly. My goal is to make a map with details of the whole entire world! No one's done that, yet!"
+22,"A map of the whole world! That's a big job. We'll be competing with all the other adventurers, mapmakers, and scholars."
+23,"Correct. If we're going to do it, we've got to do it better and faster than anyone else."
+24,This map could make us famous!
+25,"You can count on me, Mercator!"
+26,"Alright then, here's the money I promised you."
+27,"There's a ship all ready to go, waiting for you at the docks."
+28,"You don't waste any time, do you? Have you already decided what to call the ship?"
+29,Not yet. I thought I'd leave that up to you.
+30,"Is that so? Well then, it's decided. I'll name it 'Mercator' in your honor, since you can't come with me."
+31,"Why thank you, $n. Oh, I almost forgot. I'd like to introduce you to someone. He's going to be traveling with you."
+32,"I figured you'd need a mate to teach you the ropes of sea travel, so I searched around for the best in seamen. His name is Hans."
+33,"|Sailor Hans Starten|
+Ahoy there, Professor! I hear ye'll be needing an old sea dog like myself."
+34,"Hans's my name, pleased to meet ye."
+35,I'm $n! We've got a long voyage ahead of us. I'm afraid it may be rough going at times.
+36,Are you willing to join me on such a dangerous adventure?
+37,"Well, professor, a long time ago ye very own father helped me through a rough spot, and I've been in his debt ever since."
+38,"I'll do anything I can to help his son, Professor."
+39,"Thank you. But stop that professor stuff, I'm now officially retired!"
+40,"Why don't you call me Captain, just like a real sea-faring crew."
+41,"Aye, then Captain it is, Professor!"
+42,"But, oh, never mind. Well Mercator, thank you again, and we'll be heading off!"
+43,Don't forget to keep me updated on your progress! I hope you have a safe journey!
+44,Mercator
+45,"Welcome, Professor $s. What can I do for you?"
+46,"Please, everyone, stop calling me Professor! It's embarrassing."
+47,"Oh, your friend Mercator was in here looking for you, Professor."
+48,Mercator? I wonder what he wants?
+49,"I don't know, but he said he'd be waiting at his shop."
+50,Don't forget to keep me updated on your progress! Good luck! Have a safe journey!
+51,"Don't worry about a thing, Mercator. We're off!"
+52,"Prof..I mean, Captain! Where will we go first?"
+53,"Well, Hans, why not Northern Europe? Have you ever heard of the Fjords?"
+54,"Aye, the Fjords of Norway. They were created when massive ice blocks slid off the mountains and carved the land below, right?"
+55,"Aye, I've heard many a sailor tell of their majestic beauty."
+56,"Wow, you really know your stuff! The Fjords are a major reason why the coastline of Northern Europe is so jagged."
+57,"Aye, ye are a wise one, Prof... Cap'n. Ye know, I've always wanted to take a look at that coastline."
+58,"Me too! I'm tired of reading about things like the Fjords, I want to see them with my own eyes!"
+59,"Aye, Cap'n, but it gets dangerous up north. If we were hit by some floating ice, we'd sink before you could say Kris Kringle."
+60,"So, until ye've had time to gather some experience, I don't think we should venture too far."
+61,"Especially so far North, since safe harbors there are few and far between."
+62,"We'd be a sad and sorry lot if we ran out of provisions at sea. Aye, that would be a fine mess!"
+63,"You're very right, Hans. We'll have to watch our supplies carefully."
+64,"Although I'm grateful to him for this opportunity, Mercator sure didn't give us much gold. I'm afraid it won't get us very far."
+65,"Well, Cap'n, we'll just have to make do. And I bet we'll discover some rare things in our travels. Collectors will pay a heap of gold to know such things!"
+66,"If we have a contract, we can trade information about the whereabouts for money."
+67,"That's a good idea, but do you really think we'll be able to discover those rare items?"
+68,"Sure as my name is Hans, Cap'n! First of all, as we travel the world we're bound to find some villages."
+69,We should disembark and form a search party. I'm sure we'll find something more often than not!
+70,"And if we don't find anything, we should entertain and befriend the villagers. They know the secrets of their land."
+71,I've heard sailors say that a rare item can be found in every village! We'll discover lots if we just keep on looking!
+72,Forget your worries about gold. We'll be rich as kings!
+73,"I'm lucky to have you, Hans. You know everything!"
+74,"Far from it, Prof... I mean Captain. I learned all that from ye father, a very wise and good man."
+75,My father? Really? It's my dream to be a better geographer than my father.
+76,"So $n, have you gotten used to sea travel yet?"
+77,"$n, I 'd like to believe this is just a rumor but... is it true that you have contracts with other cartographers besides me?"
+78,It is true?! I can't believe you would go and betray me!
+79,I want you to renew your contract with me.
+80,Don't betray me again. It would mean the end of both our friendship and trust.
+81,"Captain $n, I heard talk around the port that Mercator's maps have been getting popular!"
+82,"And I heard that both Mercator and you, $n, are listed as cartographers."
+83,That's great! But we can't let our fame go to our heads. We'll have to work even harder from here on out.
+84,"Righto, Captain! Let's move her out to sea, men!"
+85,"Oh, please, wait a minute! Can you please take me on your ship?"
+86,"Huh? Are ye crazy, miss? There's no place for children on a ship. Get along home now, lassie."
+87,"Are you the Captain, mister? Please, let me aboard."
+88,I'll prove my worth. I can speak any language in the world.
+89,"Why yes, I am the Captain. What's your name?"
+90,"I'm Paula. Please let me aboard, Captain. I want to find my homeland."
+91,Your homeland? What do you mean you're looking for your homeland? I want to hear about this.
+92,"And by the way, I'm $n $s, an adventurer traveling the globe to make a world map."
+93,"A world map... so, you mean, are you the famous $s of 'Mercator and $s'?"
+94,"Yes. Well, if you don't mind, maybe you'd tell me why you want to board my ship."
+95,"I... a couple of days ago, my father died. Right before he died, he said to me, 'I have to tell you the truth. I'm not your real father.'"
+96,"Ten years ago, he found me in the markets of Seville. I was only 4 years old, so he took me and raised me as his own."
+97,"My father, the man who raised me, was a trader, so he traveled all over the world."
+98,He said that he searched for my real parents wherever he went.
+99,"But he never found them, and so I've been with him ever since."
+100,"'Your homeland, find your homeland...' Those were my father's last words."
+101,I beg you. Please let me aboard. I swear I won't cause you any trouble.
+102,But...
+103,"(Sniff) Professor, (Sniff) this old barnacle-back hasn't heard such a touching story in many a year! (Sniff)"
+104,What a brave young lassie! Going out alone to search for her homeland... I say we let her aboard.
+105,"But Hans, didn't you just say there was no room for... oh, well, come along then, miss."
+106,Oh! Thank you!
+107,"So Captain $n, have you got your sea legs yet?"
+108,Hey $n! Huh? Who's the girl?
+109,"Nice to meet you. My name's Paula. You're Mercator, the famous cartographer, aren't you?"
+110,I love your maps! They're absolutely wonderful.
+111,"Why thank you, miss."
+112,This young girl is all alone. She's joined our crew to travel the world in search of her homeland.
+113,"Oh, I see. Well, I hope you find your homeland, miss. Now, $n, how about some results from your travels?"
+114,"$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+115,Really?! I can't believe you would just turn around and stab me in the back like that!
+116,"Well, I'm going to have you renew your contract with me again."
+117,"But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+118,Did you know that the reputation of Mercator's maps has sky-rocketed?
+119,"As well it should, lassie! They're the latest and most accurate."
+120,Success really does wonders for a man! Let's go!
+121,It doesn't look like this harbor is my homeland either...
+122,"Oh, missie, don't look so disappointed, it makes me heart ache. We'll find your home some day!"
+123,He's right. There are still so many places in the world we haven't been to yet.
+124,"You're right. Thank you, $n. Thank you, Hans."
+125,"Hans, the sea is really interesting, isn't it? The morning sea, the evening sea... I'm glad we decided to make this voyage."
+126,The way the sea goes out forever... it's so romantic.
+127,"Aye missie, that's because ye've only seen a calm sea. The wrath of a stormy sea strikes fear in the heart of even the bravest sailor."
+128,"Welcome back, $n, Hans, Paula. The sea's treating you all fine, I see!"
+129,How about sharing some of the information you've gathered?
+130,"$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+131,Really?! I can't believe you would just turn around and stab me in the back like that!
+132,"Well, I'm going to have you renew your contract with me again."
+133,"But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+134,I heard that Mercator's atlas is being published internationally now.
+135,Is that so? He ought to be getting a nice bit o' gold then.
+136,"He gets 20,000 gold pieces a month just from royalties!"
+137,"Arrr, so when are we going to see some of that gold, I wonder?"
+138,"Oh, forget about him. Who could put a price on all the fantastic things we've seen?"
+139,And I'd still be a professor if it wasn't for his help.
+140,"We haven't had much luck finding Paula's homeland, have we?"
+141,We've been to almost every harbor in the world.
+142,I'm sorry I've caused you so much trouble.
+143,"Why, it's no trouble at all! But if we can, we just want to find it for you as quickly as possible."
+144,"Exactly. But even if we don't, ye needn't fret. The Captain here said that if he could, he'd like to stay with ye forever."
+145,D..Don't say silly things like that! Paula will misunderstand.
+146,"$n, don't you think the sea is fantastic and mysterious?"
+147,"That's because depending on the latitude and weather, it changes in form."
+148,"But, I wouldn't be too upset if I never see a stormy sea."
+149,"The emerald of the Mediterranean, the green of the Aegean Sea, the deep blue of the Indian Sea-"
+150,they're all so beautiful.
+151,"Ahhh, an old sea dog like meself just can't get excited about such things after so many years."
+152,"Oh, Hans, there must be something you dream about!"
+153,"Oh $n, I take it you've brought me some new information."
+154,"$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+155,Really?! I can't believe you would just turn around and stab me in the back like that!
+156,"Well, I'm going to have you renew your contract with me again."
+157,"But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+158,"Captain, as I'm getting on in me years, there's one wish I have, one dream I've kept in my heart for a long time, that I hope will come true."
+159,"What is it, Hans? If you don't mind, I'd like to hear it."
+160,"Well then, Cap'n, Paula, have you two heard about the golden country of Zipangu?"
+161,I read about Marco Polo and his voyage to the Far East. Is that the same Zipangu?
+162,"Aye, the same. I read Marco Polo's book when I was just a lad, and ever since I've wanted to go there and see it for meself."
+163,"The golden country of Zipangu? If it really exists, I'd like to go and add it to my map."
+164,Why don't we go and have a look?
+165,Have you heard the latest news about Mercator? Our maps have earned him election to the Royal Academy of Scholars.
+166,"Aye, he's one shrewd operator, Captain. I feel like he got rich and famous off of ye own hard efforts, Captain."
+167,"Aw, don't let it bother you. I enjoy making accurate maps and knowing that I am somehow helping out other seafarers."
+168,"By the way, don't you two think it's about time you took the oath?"
+169,Take the oath? What are you talking about?
+170,Why your marriage of course! Your marriage oath!
+171,"Come on, cut it out now Hans. It's embarrassing!"
+172,"Stop your joking now, Hans. You know we are not involved in that way. Right $n?"
+173,"Well, if you say so..."
+174,... Whew.
+175,We still haven't found Paula's homeland.
+176,We've been to almost every port I can think of.
+177,I'm sorry. I didn't mean to cause you so much trouble.
+178,"Stop your nonsense! No one here thinks of you as trouble. We just want to help you find your homeland, that's all."
+179,"Exactly. You don't have to worry about that. Besides, the Captain here said he'd kind of like it if you stayed on with us."
+180,"D..don't say such silly things, Hans. Paula will get the wrong idea."
+181,"Hmmm, you've really become quite the sailor, now haven't you."
+182,Do you happen to have any new information to give to me?
+183,"$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+184,Really?! I can't believe you would just turn around and stab me in the back like that!
+185,"Well, I'm going to have you renew your contract with me again."
+186,"But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+187,"By any chance, is this land... Zipangu?"
+188,"No, it's most certainly not! Zipangu, I never heard of such a place!"
+189,No. Zipangu is farther to the northeast.
+190,"What? Zipangu is right around here? Captain, let's go!"
+191,"So, $n, it looks like you still haven't found Paula's homeland yet."
+192,I take it you have new information for me?
+193,"$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+194,Really?! I can't believe you would just turn around and stab me in the back like that!
+195,"Well, I'm going to have you renew your contract with me again."
+196,"But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+197,"By any chance, is this land... Zipangu?"
+198,"No, Zipangu is a little farther northeast."
+199,"What? We're almost there! Captain, let's go!"
+200,"Why yes, to westerners our land of the rising sun is known as Zipangu."
+201,"I can't believe me ears, Cap'n! This is Zipangu! We made it!"
+202,Is this really the golden country?
+203,It sure doesn't look like a golden country. Let's take a look around the port city.
+204,"You know, Hans, something has just occurred to me."
+205,"What is it, Cap'n?"
+206,Don't you think that the people here look a lot like Paula?
+207,"Aye, now that ye mention it, I do see a likeness."
+208,"So, you think this could be my homeland?"
+209,"I don't know. Paula, I've refrained from asking this until now, but I want you to tell me everything you remember about yourself."
+210,"I think that we might be able to get something, a clue to help find your homeland."
+211,"I really don't remember anything at all. Not my parents, my home, nothing. It's all long forgotten."
+212,"Don't rush it, just slowly try to remember anything you can."
+213,Like the landscape around ye home. Ye must remember something.
+214,"For instance, it was surrounded by mountains, or there was a large river..."
+215,"I don't remember any mountains, or rivers, absolutely noth... wait a minute!"
+216,"Yes, I remember, there was an ocean... an ocean, but strange. It wasn't blue."
+217,Huh? It wasn't blue? What does that mean?
+218,It was muddy. Yellowish... a yellow sea!
+219,"A yellow sea? Hans, have you ever heard of anything like that?"
+220,What foolishness are ye talking about? There's no such thing as a yellow sea!
+221,"Oh, but it's true, it's true! I remember it clearly now."
+222,What Paula says is probably true. She's got no reason to lie.
+223,"Well, of course, I know that. But, a yellow sea?!"
+224,"Well, at least we have a clue. Let's go see if anyone knows anything about a yellow sea."
+225,Hey $n. Are you and Paula getting along OK?
+226,I take it you have some new information for me.
+227,"$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+228,Really?! I can't believe you would just turn around and stab me in the back like that!
+229,"Well, I'm going to have you renew your contract with me again."
+230,"But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+231,"Excuse me, I wonder if you might answer a question?"
+232,"Yes, what is it?"
+233,Do you know anything about a yellow sea?
+234,A yellow sea? Never heard of it.
+235,"If it's a yellow river you're looking for, though, that'd be the Huang He."
+236,The Huang He?
+237,"Yes, it's a really wide river. The mouth of the river is at 37@N and 120@E."
+238,So the only information we could get was about a yellow river.
+239,Isn't this right around the mouth to that yellow river?
+240,You may be right!
+241,"Wait a minute. That villager said that the Huang He was a wide river, right?"
+242,"Yes, but what about it?"
+243,The yellow sea I remember was always flowing in the same direction!
+244,"And there was never a changing of the tides, and I don't think I ever smelled the salty brine of the sea."
+245,"So it was probably a river, not the sea... It was just so wide that it looked like a sea."
+246,"Well then, let's go to this yellow river and check things out."
+247,"Excuse me, I wonder if you might answer a question?"
+248,"Yes, what is it?"
+249,Do you know anything about a yellow sea?
+250,A yellow sea? Never heard of it.
+251,"If it's a yellow river you're looking for though, that'd be the Huang He."
+252,Huang He?
+253,"Yes, it's a really wide river. The mouth of the river is at 37@N 120@E."
+254,I take it you have some new information for me.
+255,"$n, I want to believe this is just a rumor but... have you made contracts with other cartographers besides me?"
+256,Really?! I can't believe you would just turn around and stab me in the back like that!
+257,"Well, I'm going to have you renew your contract with me again."
+258,"But you had better not double-cross me again, or it'll mean the end of our friendship and trust."
+259,This building...
+260,"Paula, do you remember anything about this building?"
+261,"Maybe, just maybe, this is her home!"
+262,"I only remember vaguely, but I'm fairly certain..."
+263,"Ah, you are Paula's..."

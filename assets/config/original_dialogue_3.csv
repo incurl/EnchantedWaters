@@ -1,0 +1,562 @@
+id,text
+0,The King is waiting for you. Please proceed at once to the royal hall.
+1,"|Sir Gilbert|
+So you finally decided to grace us with your presence!"
+2,"What has been keeping you so long, may I ask? I don't suppose you realize how rude it is to keep the King waiting?"
+3,"I'd love to stay and chat with you, old chap, but I do have a bit of important business to attend to."
+4,Perhaps we could talk after my audience with the King?
+5,"Hmph, don't trifle me with your arrogance. Your moment here won't last long, sailor man, so enjoy it while it lasts."
+6,Hurry up! Quickly!
+7,"|Henry the VIII|
+Ah, you made it. I called you here today because there is something I must ask of you."
+8,"Anything, your majesty."
+9,Very good. I'd like you to take command of a warship.
+10,A warship...? Did you say a warship!?
+11,"That's correct. As you know, there is a powerful nation that threatens our mighty land of England."
+12,Would you be referring to Spain?
+13,"Exactly. Using their newfound wealth from the New World, they are trying to conquer all of Europe."
+14,"As the King of England, I cannot sit by idly and allow this to occur. Therefore, we need to make a strong war fleet."
+15,I would like you to accept a position as Head of the Royal Navy.
+16,"To that end, I want you to go out to sea and gain experience."
+17,It would be an honor. I respectfully accept.
+18,I now present you with weapons and a letter of marque.
+19,Don't forget to equip yourself with the weapons.
+20,"With the letter of marque, all your actions will be sanctioned by the throne. Do not abuse this power!"
+21,"As of today, you are working for the King of England, with a royal rank to boot."
+22,"From this day forth, you will be known as a page of King Henry the VIII."
+23,I respectfully accept your generous offer.
+24,You'll need gold to get prepared - ask for as much as you like. Sir Gilbert will take care of all the arrangements.
+25,"I'm counting on you, $n."
+26,"You don't need to worry about a thing, your majesty."
+27,"$s, Sir Gilbert is waiting for you."
+28,I see.
+29,"Your ship, more ship than you deserve I might add, is at the harbor. There is also a sailor waiting to meet you there."
+30,Do you have any questions?
+31,I'd like you to get my money ready.
+32,A fellow as smart as you imagine yourself to be... 300 gold pieces ought to be more than adequate.
+33,What do you want me to do with only 300 gold pieces?! His majesty said that I should take as much as I think I need!
+34,Stop complaining! This is more than enough!
+35,"Here, take it, you greedy scoundrel!"
+36,"Since his majesty is counting on your ability, I do hope you will get us some good results."
+37,Hurry up and go to the shipyard and the dock.
+38,"Do try to remember you are representing England! Don't embarrass us! Though, (sigh) I suppose that may be too much to hope for!"
+39,"His majesty is out right now, and will not be able to meet with you."
+40,"Hello, old chap, I'd like a glass of whiskey."
+41,"Thanks, I needed that."
+42,"|The Pub Owner|
+Glad you enjoyed it, $n. Now about your tab..."
+43,"You know, no matter how much of your whiskey I drink, I never tire of it."
+44,It's an honor to receive such compliments from a customer with such refined taste.
+45,"Ahhh... my friend, flattery will get you many things in life, but unfortunately no gold from me today!"
+46,"Oh, it's you. The (ha!) Commodore."
+47,"Well, let's get this party started, shall we?"
+48,Hey! Did you guys hear that? This guy wants us to throw him a party!
+49,"Hmph, I think you're confused, pal. Why would I want to work for you?"
+50,"Well then, let me help you make up your mind."
+51,"Say, you're pretty tough!"
+52,You're not too shabby yourself!
+53,My name's Matthew. I guess I should call you Commodore now.
+54,"Since you've accepted that fact, how about working for me?"
+55,"Why, sure. I've never met a fellow as gutsy as you. Let's sit down and have something to drink."
+56,"Well, maybe later."
+57,"Hmph, you're not that tough. But since you didn't run out of here like a scared pup, you just might be worth my time."
+58,(pant) Oh really? (pant)
+59,"Before you, I've challenged almost every man that's come in here sayin' he's a commodore."
+60,But you're the first to fight with me man to man.
+61," (pant) So?"
+62,"So I figure I might accept you as commodore. Only, when we fight those Spanish dogs, fight a little harder, will ya?"
+63,You're not too bad.
+64,Same to you.
+65,My name's Matthew... Commodore.
+66,"Hmmm, now that you've accepted me as commodore, I suppose you should be my first mate. What do you say?"
+67,I like the sound of that!
+68,Sir $s. A strange man was just here and he told me that if I saw you I was to tell you to report to the palace.
+69,"That was probably Sir Gilbert. Even so, I wonder what he wants with me?"
+70,"This is a Guild for mariners. As long as you have a ship, I'll gladly put you to work."
+71,"Sir, if you want to pick up your ship, you should go to the shipyard."
+72,"|Sailor Matthew Roy|
+So are you the noble they told me was lookin' to hire a mate like myself?"
+73,"And you, you're the sailor Sir Gilbert told me about?!"
+74,"Oh ho, don't think I'm good enough for you, eh?"
+75,Then come on down to the pub. I'll give you quite a welcome party! Heh!
+76,Matthew is waiting for you at the pub.
+77,You'll have to excuse me. There is some pressing work for me at the palace. Please come by later.
+78,I've come to pick up my ship.
+79,Aye... Sir $s right? I've been wondering when ye'd come by.
+80,"This may be forward of me, but what is a ship as nice as this going to be used for?"
+81,"If I told you I was going to use it to fight the Spanish, what would you think?"
+82,Ye must be joking! I'd rather hear that ye're going to use it for trade!
+83,"Oh, I've painted the ship's name. 'Idiot' - just as ye requested. But are ye sure ye want to use such a name?"
+84,"Blast that Gilbert... Well, we'll just see who has the last laugh!"
+85,Idiot
+86,Your ship will be waiting at the docks.
+87,"Commodore! I don't mind casting off, but where are we headed?"
+88,"Ah, I was just thinking about that myself."
+89,Why don't we do a little spying on the enemy?
+90,"That's a good idea. Alright then, let's set a course for Seville. We should head South - Southwest."
+91,"If Seville is where you want to go, leave everything to me. It's easy if you use the Auto Sail command!"
+92,What's this? Are you closed today?!
+93,"No, no... We're open, there just aren't any customers."
+94,And why is that?
+95,The launching ceremony for the newest vessel in the Spanish Fleet is taking place down at the docks.
+96,The whole town went to catch a glimpse. It's like a grand fiesta down there!
+97,This newest ship... is it all that impressive?
+98,"Aye, given today's technology, I don't think you'll find a better ship anywhere."
+99,Have you already gone to see it?
+100,"No, no. Not yet."
+101,"I'm sure if I saw it, I'd want to sail it."
+102,Have you already gone to see it?
+103,"Aye, it's quite a ship, my friend."
+104,This means Spain needn't worry about peace anymore.
+105,"Hey, do you know anything about a group of crazy sailors?"
+106,"Aye, they've headed off toward the harbor."
+107,"There you are, Matthew."
+108,Commodore! I've been waiting.
+109,"Well, you certainly didn't waste any time getting a drink, did you?"
+110,It's been a long time since I had the chance to drink with landlubbers.
+111,"Don't hold back there, Commodore, I know you'll enjoy it, too!"
+112,... One hour later...
+113,"Boy, am I feeling great! Commodore, I wanted to ask you why a man like you is sailing on such a beat up ship?"
+114,"Well, I don't think Sir Gilbert likes me too much."
+115,"As far as he's concerned, I'm just scheming to win favor with the King."
+116,"Why, that weasel Gilbert! I should have known. He looked like a double-crossing dog when I first laid eyes on him. Oh, Waiter, another bottle over here!"
+117,"Matthew, haven't you had enough?"
+118,... a little while later...
+119,Ahhhhhh! That was the best wine in Europe!
+120,I can't believe you emptied that bottle!! I'm surprised you haven't passed out!
+121,"Maybe I will! Hic! Oh, the room is spinning. Hic! There's no way I can tend to the ship. I'll have to round up some more hearties."
+122,"But, but, Matthew..."
+123,Is there anyone who wants to sail with Commodore $s here?
+124,Aye!
+125,Speak up! I'll ask once more!
+126,Hear hear!
+127,"Matthew, I appreciate your enthusiasm, but we'll never fit a crew of this size on that small ship."
+128,Then get your hands on a bigger ship.
+129,"Now really, Matthew. With this many men, why, we'd need a galleon!"
+130,"Well then, we'll just have to get our hands on that new Spanish beauty, won't we?"
+131,The Newest Galleon?
+132,Didn't you see that ship at the launching ceremony? It's incredible!
+133,"If we had that, the pirates wouldn't dare come near us."
+134,What? Didn't you see the vessel waiting in the harbor? It's an incredible warship!
+135,"If we had that ship, we could sink pirates with one shot!"
+136,"Hmmm, 't would be rather ironic, using a Spanish ship to beat the Spanish..."
+137,"Exactly! Not bad, eh?"
+138,"Ah, it's a grand idea, but I don't see how we could possibly pull it off."
+139,Just leave that to me. I don't want you to think I'm a good-for-nothing that just drinks all day. Come on men! Follow me!
+140,Yay!
+141,Wait! Where are you going?
+142,Have you seen my buddies?
+143,"Sir, everyone's gone to the harbor."
+144,It's pretty rowdy. Is there something special going on?
+145,The launching ceremony of the newest galleon of the 'Invincible' Spanish Fleet has just begun!
+146,"Hey, why don't we go, too?"
+147,"Hmm, it's pretty rowdy out there. I guess the launching ceremony has started."
+148,"I've heard about the 70 gun galleon, and that's one ship I'd like to get my hands on someday."
+149,The newest Spanish Galleon is coming into the harbor.
+150,Matthew! You gluttonous fool! Where are you?
+151,There's still some time before morning. Why don't we catch some sleep at the inn?
+152,Let's take a look around the town first.
+153,It doesn't look like the newest Spanish galleon has been to the harbor yet.
+154,"When you see it up close, it is truly an incredible ship."
+155,Hmm. Matthew's not at the harbor. He must be at the pub again.
+156,Even the sun has gone to bed. Let's leave the search until tomorrow.
+157,"Commodore, look at this."
+158,Where'd this ship come from?
+159,"Whether it's drinking or ship stealing, when I get serious, there's nothing and no one who can stop me."
+160,The new Spanish galleon... Weren't there guards all around?
+161,"We told them that some female naval officer stole a ship. Most everyone went off somewhere to chase her, and then we just tied up the rest of the men and put them in the cargo bay."
+162,"But even I can't believe they fell for that story so easily. If any ship was going to be stolen, it would have been this baby."
+163,"So I guess you're not just some freeloading drunk after all. Nice job, Matthew."
+164,Everyone aboard!
+165,"OK, let's get her out of the harbor quickly!"
+166,Fools
+167,I'm just on my way to the launching ceremony. Would you care to join me?
+168,Did you see the ceremony? It was fabulous!
+169,"Ah, I've really got to hand it to the Spanish; their shipbuilding is remarkable."
+170,"Hey, have you seen a dark-haired Englishman around? He was probably a little tipsy."
+171,"No, I haven't."
+172,"Commodore, weren't we going to gather information on the enemy?"
+173,"(Yawn) Gu' Morning, Commodore."
+174,"Ah, Matthew, you finally woke up."
+175,"Oh, my head is killing me... Wait, where are we?"
+176,"Ha, nice view from up here, isn't it?"
+177,"Commodore, what in the world brought us to such a high ship?!"
+178,"Ha, ha, ha. You don't remember at all, do you, Matthew. You stole this ship!  And you'll be happy to hear, that we just found the 10,000 gold pieces in the captain's cabin!"
+179,"Commodore, I do have one thing I'm a little worried about..."
+180,"What is it, Matthew?"
+181,"The whole time we've been sailing, right up to this port, there's been a ship tailing us. I doubt that it's just a merchant ship."
+182,"I hadn't noticed that, but couldn't it be just a simple coincidence?"
+183,"That's what I thought at first. But when it saw that we were going to port here, it pulled back rather quickly."
+184,"Somebody tailing us... If that's so, it's probably friends of the Spanish."
+185,I think we should increase the strength of our equipment as much as possible. Just in case.
+186,"Commodore, it's the Spanish alright. They must want their ship back."
+187,Even they have some honor to uphold. They've come to sink us I bet.
+188,"I can't believe they're this upset! After all, we only stole one ship!"
+189,Everyone to your posts! We're going to take on the Spanish!
+190,"Commodore, let's have a drink!"
+191,"Commodore, I'm thirsty. Aren't you? Shall we be off to the pub?"
+192,Are you craving a drink again? I'm amazed you're not brain dead yet!
+193,"Commodore, those men were quite the fools!"
+194,"You're right. Exactly like you, scared of the ghost in the sack."
+195,I'll just pretend I didn't hear that.
+196,"Commodore, my throat is feeling a little dry."
+197,Alright! Time to go to the pub!
+198,"We're late, Commodore. No one will be waiting for us at the pub anymore."
+199,You're right. But we should stop by there anyway.
+200,"Commodore, are we going to forget about our meeting?"
+201,"Oh, we'd better hurry to the pub..."
+202,"Commodore, is something wrong? Let's go."
+203,Just a moment...
+204,... I hear something. It sounds like it's coming from the storage area.
+205,"Commodore, don't say things like that. I hate those kinds of things."
+206,There's something intriguing about that noise. Let's just check it out.
+207,(sigh) Just as curious as ever.
+208,"Matthew, come here. That big sack over there is moving!"
+209,"Ahhhhh, it's a ghost!"
+210,"Calm down, Matthew. It looks like there's someone or something in the sack."
+211,Don't have a heart attack. I'm going to open it now.
+212,What's this... there's two people tied up here.
+213,It looks like they're sailors.
+214,Save us! Help us!
+215,Hey you loafing bums! Hurry up and untie us.
+216,"Why you no good, ungrateful.. we were going to help you... Why don't we just keep you in that sack!"
+217,"|Female Pirate Catalina|
+What are you fellows doing there?!"
+218,"Why, who are you?"
+219,"Those two are my shipmates. You work for Joao, don't you?"
+220,Draw your sword. I challenge you to a duel.
+221,Wait a minute. You've got us confused with somebody else.
+222,We were just passing by. Just ask your friends here.
+223,"Is that true, Emilio?"
+224,"|Emilio|
+Y..Yes."
+225,"|Andreas|
+Commodore, I'm ashamed of myself."
+226,Who did this to you? Was it Joao?
+227,"To be honest with you, it wasn't. We were tied up by his first mate Rocco."
+228,He was too strong for us.
+229,"Oh, now I remember! I've heard stories about some old man called 'Monster Rocco'."
+230,Why didn't you tell us this earlier?
+231,What does it matter? I still wouldn't have known what he looked like.
+232,"Stop arguing, and stand up, mates. It's too late now. It wouldn't do us any good to go off chasing him."
+233,"My name is Catalina Erantzo. Please forgive my previous actions, I'm a little jumpy lately."
+234,Say nothing of it. My name is $n $s. I'm commander of a fleet from England.
+235,So who is this Joao character? What's the story with him? I'd like to hear about it over a cup of tea.
+236,"Hmm... well, maybe. I'll meet you at the pub in about two hours."
+237,That girl's still not here.
+238,Why don't we go kill some time somewhere?
+239,We're pretty late.
+240,She's probably not waiting anymore.
+241,"Pardon me, old chap, but has a strong-willed beautiful woman been here recently?"
+242,"Yes, she was here with a companion for about two hours, but they've left."
+243,Too bad. It just wasn't written in the stars.
+244,It doesn't look like they've come yet.
+245,It sure looks like she was chasing after that guy Joao.
+246,"Commodore, if I remember correctly, that Joao fellow is a member of the Franco family, the most powerful family in Portugal."
+247,"The Franco Family... I heard that Leon Franco was a superb mariner. Catalina's in a bad spot, if he's her enemy."
+248,Sorry to keep you waiting.
+249,"Not at all. We just got here. So, what's the story with this Joao fellow?"
+250,"He escaped from me, but someday I'll catch him. And when I do, he'll be sorry."
+251,Miss Erantzo...
+252,"Please, call me Catalina."
+253,"Well then, Catalina, why are you chasing this fellow?"
+254,Revenge!
+255,Revenge?
+256,"His family is responsible for a most cowardly and dastardly plot, that resulted in the loss of my brother and fiance."
+257,"So, I will avenge their defeat. No matter what I have to do, I won't rest until every last member of the Franco family has suffered the consequences of their wretched act."
+258,"That's a pretty extraordinary story. However, I don't think that anyone from the noble house of Franco would do such a thing."
+259,"Think what you will, but there is just one truth for me."
+260,I've given up my homeland to avenge the loss of my brother and fiance. There's no turning back now.
+261,"Plus, I have mates who have sworn their loyalty to me. Even now they wait at the ship for my return."
+262,I think I've said too much to you already. If you'll excuse me..
+263,Catalina..
+264,What?
+265,What will you do after you get your revenge?
+266,I... I can't think about that now. Farewell. Perhaps we'll meet again...
+267,Holy Cow! I wouldn't want her for my wife.
+268,"If you were to be the groom, I'm sure she would refuse."
+269,"Sir, have you heard? They say that there are ghosts around the trader's place."
+270,"My my, you seem the strong type. Would you go and have a look for me?"
+271,"Commodore, you're pretty good with the ladies there."
+272,Hey wait.. no..I didn't.. I mean I wasn't..
+273,"Commodore, I'm so thirsty! Isn't it time?"
+274,"Hmph, time for your bottle, I suppose. OK, we'll stop by the pub."
+275,"Please Commodore, I feel faint with thirst."
+276,OK. We'll stop by the pub.
+277,"Commodore, do you plan to give them the slip?"
+278,"Yes, we'd better hurry up if we want to make it to the pub."
+279,"Commodore, if you go to sleep now, you'll be breaking your promise to meet that pretty woman."
+280,"OK, OK. I get the picture."
+281,"Commodore, I'm serious. It's time."
+282,(Sigh) Time to drink.
+283,"Commodore, this is torture. I'm starting to hallucinate - are those empty bottles and glasses following you, too?"
+284,"OK, we'll stop by the pub."
+285,"Commodore, do you plan to give them the slip?"
+286,"That's right, if we don't hurry up and get to the pub."
+287,"Commodore, it's about that woman from a little while ago..."
+288,"Hmm, it looks like she's got something she's not telling us."
+289,"Commodore, maybe I'm imagining this, but I think I hear the clank of a bottle against a glass."
+290,"Ah, I guess it's time to drink again."
+291,"Commodore, I can't wait any longer."
+292,"OK, we'll stop by the pub."
+293,"Commodore, are you planning to slip past them?"
+294,We'd better hurry up if we're going to make the pub.
+295,Oh ho. I run the best pub in town! Don't you all agree?
+296,"Well then, old pal, give me some of your best Scotch."
+297,"I'll take that, too - make it a double."
+298,"Say Commodore, I'm bored. Don't you have any exciting stories?"
+299,"|Pietro Conti|
+Why, I have some exciting stories."
+300,Who in the blazes are you?
+301,"I am Pietro Conti, adventurer. I'm pretty famous for my treasure hunts and adventures."
+302,You sound like a liar to me!
+303,You know you really don't need to be so rude.
+304,And what does this grave robber want with me?
+305,"Grave robber?! That's cruel. You fellows said you were looking for an interesting story, that's why I came over here."
+306,"How about buying my story? Actually, I'm in a bit of a fix. You see I owe a bit of money to that Turkish fellow over there."
+307,"He's a heartless merchant, no blood, no tears, the worst kind. So you can see my predicament."
+308,"Commodore, what are you going to do?"
+309,That depends on how much he wants.
+310,"Listen. Here's the situation. I need a loan. I owe that guy 10,000 gold pieces. Are you going to pay?"
+311,I'm sorry but I don't have that kind of money with me now.
+312,"You've got no sense of adventure. Oh well, I guess I'll just tell my story to Joao, then. Sorry to bother you."
+313,"He's gone. Odd fellow, wasn't he?"
+314,"I wouldn't trust you as far as I can throw you. Sorry, but why don't you try somewhere else?"
+315,"What?! Why you're mighty suspicious. Oh well, I'll just have to tell my story to Joao. Sorry to bother you."
+316,He's gone. Odd fellow wasn't he?
+317,"Alright, we'll listen to your story. Go ahead."
+318,"That's a sport. Now, Listen up."
+319,There's a Spanish frigate headed for Seville. It's absolutely loaded to the brim with gold from the New World.
+320,And?
+321,I'll continue once I get some money.
+322,"Pay
+Bargain
+Don't Pay"
+323,"Ah, we'll pay."
+324,The frigate full of gold is finally leaving Veracruz. A sailor called $r04 $r03 is at the helm.
+325,That's the end of my story.
+326,"He's gone. Odd fellow, wasn't he?"
+327,"10,000 gold pieces is a bit expensive for a story like that. We'll pay half that."
+328,"Hmph, well alright. A seaman called $r04 $r03 is at the helm. That's the end of my story."
+329,"He's gone. Odd fellow, wasn't he?"
+330,We're not going to pay money for nonsense like that.
+331,"Hmph, you cheapster. I'm going to spread the word at harbors all over that you're just a chintzy sailor."
+332,"He's gone. Odd fellow, wasn't he?"
+333,Chintzy
+334,"Say, aren't you the famous Sir $s? Henry the VIII is looking for you. You'd better hurry to the palace in London at once."
+335,Bring honor to the homeland.
+336,The King is waiting for you. Please go at once to the royal hall.
+337,"Well, if it's not the scourge of England. So where have you been wasting your time?"
+338,You've no right to talk to me like that.
+339,"Oh, why not? Just because you've advanced in the royal lineup doesn't mean you're worthy of my respect."
+340,What a bitter fellow.
+341,"Oh, ho, you made it. I've been waiting."
+342,"What is this sudden task, your majesty?"
+343,"Hmm, yes.. Do you remember that I asked you, as Head of the Royal navy, to destroy the Spanish Fleet?"
+344,"Of course, your majesty. It is engraved deep in my heart."
+345,"And also that in order to prepare yourself for that task, that I wanted you to head out to sea and sharpen your skills?"
+346,It is as you say.
+347,"Well, a few days ago our royal navy faced the Spanish Fleet, and unfortunately, we lost nearly half our ships."
+348,"Furthermore, it looks like they're preparing for a massive offensive. They are calling in all of their ships."
+349,"If things don't change, it's just a matter of time before our navy is completely wiped out by the Spanish."
+350,And that would be a dark day in the history of our beloved England.
+351,"So I want you to accept this task, though I know it is difficult, and very likely impossible."
+352,Please tell me what you want me to do.
+353,I want you to take your men and destroy the Spanish Fleet.
+354,"With what's left of our fleet, defending the homeland is about all we're capable of.. if even that."
+355,Yours are the strongest forces this nation has. You're our only hope!
+356,"I understand sire. Even if it means my life, I will destroy the Spanish Fleet!"
+357,I can't thank you enough...
+358,"I have made several requests of you, but this one must take precedence over all others. Please keep that in mind."
+359,Yes sire. Then I'll be off to fight the Spaniards.
+360,Welcome Master $s. Henry VIII has been waiting anxiously for your arrival.
+361,Do you have any information on the Spanish Fleet?
+362,Here you are Master $s..some information on their 'Invincible Fleet'.
+363,The very existence of our homeland is riding on this battle. All I desire is to win and bring peace to the seas.
+364,Peace throughout the world? I wouldn't mind that either.
+365,Alright then. Why don't I give you some new information. They're having some financial trouble back home. It looks like they're trying to suppress the piracy that robs them of their New World wealth.
+366,"In particular, they're after a female pirate named Catalina."
+367,Catalina.. now that's a name that brings back memories.
+368,"The Spanish Fleet uses a triangular fighting strategy, surrounding their enemy on three sides."
+369,"According to our latest information, the fleet is docked for supplies at these three ports: Nantes, Bordeaux, and Seville."
+370,It is said that they're all going to meet somewhere near the South American mainland.
+371,"The Commander of Forces is a man named Ezequiel, a proud general with an impressive battle record."
+372,"If you are surrounded by the three fleets, there's no escape."
+373,"Commodore, what should we do? To rush headlong into the Spanish fleet would be foolhardy."
+374,"I'd like to help Catalina, but I think this time it's better to think things out carefully."
+375,"No, we're going to attack."
+376,You can't be serious... you would go that far just to help that woman?!
+377,"No Matthew, you don't understand. It has nothing to do with her. Right now, we're more powerful than they are."
+378,"But, that triangular strategy..."
+379,"I know that if we were surrounded by their 3 fleets, we wouldn't stand a chance. But their little net trap is not yet complete."
+380,"And I don't plan to sit around waiting for them to finish it. We're going to destroy each fleet one by one, before they can converge."
+381,"What guts... OK, then what fleet are we going to start with?"
+382,"Why, the one closest to us of course!"
+383,Welcome Master $s. Henry the VIII has been waiting anxiously for your arrival.
+384,The 'Invincible' Spanish Fleet? You should ask the people in the Guild.
+385,"Commodore, let's get to Nantes Harbor and crush that Spanish fleet."
+386,"Commodore, while we were fighting, the other ships sailed off somewhere."
+387,I know. They sailed off to the west. I wonder if they've been ordered not to fight before the convergence?
+388,"We know they're headed for the South American mainland, let's follow them!"
+389,Have you seen the Spanish Fleet any where in this vicinity?
+390,"The Spanish Fleet? After loading up with supplies at several harbors, they left in the direction of the Amazon river."
+391,But there was one division that came late. They might still be in Santo Domingo.
+392,The Amazon? They're headed in a pretty strange direction.
+393,"Commodore, let's go sink that lousy Spanish fleet docked in Santo Domingo harbor."
+394,"Commodore, while we were fighting, the other ships sailed off somewhere."
+395,I can't fathom what their aim could be... Why don't they even try to fight with us?
+396,What should we do?
+397,There's bound to be something in the area around the Amazon. Let's go check it out.
+398,"Commodore, let's go check out the Amazon River area."
+399,This is strange... It looks like there was just a big battle here... there's the remains of a warship...
+400,"Commodore, there's a fleet approaching us. Oh! It's Catalina!"
+401,"So we meet again, $n."
+402,"I must say I'm surprised to be meeting you here, of all places. Do you think you could wait a little while? I've got some unfinished business to take care of."
+403,"Wait a minute. I don't have any right to make such a request, but... I don't want you to fight Ezequiel right now."
+404,"I'm sorry, but we can't do that. You see, just like you are after Joao, we have been chasing Ezequiel."
+405,"And furthermore, isn't Ezequiel supposed to be one of your enemies?"
+406,"You're right about that, but right now things are different."
+407,I don't understand.
+408,"Ezequiel, Joao, and I have all joined forces to destroy a common foe - the Marquis Martinez of Portugal."
+409,He was an evil man with plans to conquer the world. He was the one who really destroyed my brother and fiance.
+410,I was able to avenge their loss with the help of Joao and Ezequiel. But their fleets are all badly damaged.
+411,(Yes! This should be an easy victory!)
+412,"If you are truly an honorable commodore, you won't be satisfied with such a cheap victory."
+413,(What is she talking about?)
+414,"Matthew, we're pulling back!"
+415,Whaat?!
+416,Didn't you hear me? I said we're pulling back!
+417,"OK, OK, I heard you. (I can't believe he fell for her little spiel!)"
+418,Did you say something?!
+419,"No, nothing, Commodore."
+420,"I don't believe it! What a big bully! You really like to beat up on weaker people don't you?! So go ahead, do what you want!"
+421,"But as a punishment, all your abilities will be reduced."
+422,"Commodore, with our abilities this low, we'll never make it back to London. It doesn't look like we'll ever see the ending, so why don't we just restart the game?"
+423,"$n, please don't break your promise to me."
+424,"Hm, I figured you would go to the pub. My favorite place!"
+425,"You really love to drink, don't you?"
+426,"Yup. Wow, the pub is pretty crowded tonight. I wonder if there's some ship stopping by in the harbor?"
+427,"Excuse me, but may I sit here?"
+428,Feel free.
+429,"Thank you. I'm sorry about this, but I'm supposed to meet someone here."
+430,Don't worry about it.
+431,It looks like you two gentlemen are sailors. Englishmen?
+432,"Yes, but we had some business in the area. And you?"
+433,I'm from Seville. I'm also here on business. I've still some important things to attend to.
+434,"But let's forget work. Since you let me sit down here, will you let me buy you a drink?"
+435,"That'd be nice of you, but nicer if you bought me two, at least. Waiter! Bring us our drinks!"
+436,"Matthew! That's no way to talk to a stranger, especially one so distinguished."
+437,Please forgive my companion for his impoliteness.
+438,"No, no, don't think twice about it. I've spent quite a bit of my life at sea, I know what seafaring men are like."
+439,"Waiter, please bring us some rum, if you please."
+440,"Right away, sir."
+441,Thank you very much.
+442,"Ha, ha, ha, ha, ha! This rum is really good!"
+443,Matthew! Remember you're in the British Royal Navy. Remember to be courteous!
+444,"Did you say British Navy? Excuse me, but you two..."
+445,"Forgive me for waiting so long to introduce myself. I'm Ezequiel, Commander of the Spanish Fleet."
+446,???...!!!
+447,You..you are Commander Ezequiel?
+448,"I am $n $s, leader of a navy fleet under King Henry the VIII's orders."
+449,That.. that means you were the head of that fleet in South America?
+450,Just one question. Why didn't you attack us then?
+451,Our supplies were exhausted. It would have been easy for you to finish us off.
+452,The answer is simple - honor.
+453,Ah.
+454,"Only a coward would have attacked you then, when you were weak. I did not want to stain my name."
+455,"But more than that, I wanted to fight, face to face, with you, the famous naval commander of Spain."
+456,"Hmm, it seems that you are quite a capable commodore yourself."
+457,"If you so desire to face off with the 'Invincible' Spanish Fleet, then I shall grant your wish."
+458,"One month from now. The place, midway between Seville and London, Bordeaux Bay. Bring your ships to meet me there."
+459,I will try to move my fleet from there to Seville. Attack me anytime during that period.
+460,Do you accept my plan?
+461,I understand. I accept your invitation.
+462,"Good. I'll be looking forward to seeing you again, a month from today."
+463,"Commodore, are you sure about this?"
+464,This battle has been destined to occur. Aren't you excited about the chance to fight Ezequiel?
+465,Ezequiel
+466,Roberto
+467,"Sorry to disappoint you, but I don't have the strength to defeat you right now."
+468,I see. You've been hit by the winds of cowardice. I guess I misjudged you.
+469,I guess what they say about you English is true. Not a shred of courage. You'll have to excuse me. I make it a habit not to sit with cowards.
+470,"Commodore, you're a pitiful excuse for a man. Let's get out of this pub."
+471,"Commodore, what're we going to do now?"
+472,You know as well as I do. My orders are to destroy the 'Invincible' Spanish Fleet.
+473,May I ask you a question?
+474,What's that?
+475,Why didn't you finish off Ezequiel when you had the chance?
+476,I'm not really sure.
+477,Was it because of Catalina?
+478,"No that wasn't it. Someday if you command your own fleet, you'll understand."
+479,Ezequiel will probably be going back to his homeland. Let's follow him.
+480,"Hmph, the loser's run home with his tail between his legs."
+481,Where do you get off calling me a loser?
+482,You are the shame of England. Everyone's calling you $s the Loser.
+483,Loser
+484,Never mind. His majesty has been waiting for you. You had better hurry up and try to save your skin.
+485,"What the blazes were you thinking? From what I heard from Gilbert, you ran away from a confrontation with the Spanish."
+486,You have truly disappointed me.
+487,"If you have any last bit of dignity, you will accept the challenge from that Ezequiel character."
+488,"You should get underway for Seville, Spain's capital."
+489,His majesty does not want to meet with losers. Losers should act like losers and go to sleep with the dogs.
+490,"Hmph, I wouldn't even serve pig slop to a coward. You better get home while it's still light out."
+491,"$n, you really let us down."
+492,What are you talking about?
+493,"We heard from Sir Gilbert. He said you ran away from the Spanish commander, Ezequiel."
+494,Why that little... How did he find out?!
+495,Sir Gilbert looks kind of happy. He's spreading the news as if they were good tidings.
+496,Well if it isn't the Coward of England. What do you want?
+497,I'm going to be direct with you. I want a chance to clear my name and retrieve my honor.
+498,"It looks like you can't take the verbal abuse anymore. Alright then, I'll give you a chance, but just one."
+499,"One month from now, same place as before - Bordeaux."
+500,My fleet will move from there to Seville. You can try to attack me at any time then.
+501,Ezequiel
+502,Roberto
+503,What can I do for you?
+504,Do you have any idea where Commander Ezequiel is?
+505,"Aye, I know where he is. But who might you be?"
+506,$n!
+507,Well I'll be! That's quite a strange name.
+508,"If you're looking for Commander Ezequiel, he's usually in the Command Room to the right of the palace."
+509,"You're the coward, aren't you? I've no room for the likes of you!"
+510,"The battle is today, sir."
+511,"Hmm, we 'd better set a course for Bordeaux then."
+512,Only $d12 day until the battle with Ezequiel.
+513,Only $d12 days until the battle with Ezequiel.
+514,This will probably be our last battle.
+515,The arranged day for our battle with Ezequiel has come and gone.
+516,"Hm, I guess we took it too slow."
+517,"We'd best be getting back to London, Commodore."
+518,"You're right, we've got to get back and inform his majesty."
+519,"Commodore, today is the day for battle."
+520,"Matthew, set a heading for Bordeaux!"
+521,"Commodore, our big battle is today."
+522,"Matthew, set a course for Bordeaux!"
+523,We've missed our rendezvous with Ezequiel. We've broken our promise.
+524,I realize that.
+525,"I guess there's no way we can fight him now. It's over, and we weren't able to carry out his majesty's orders."
+526,"Aw, just forget about Commander Ezequiel. It just wasn't in the cards."
+527,Only $d12 more day until our face off with Ezequiel.
+528,Only $d12 more days until our face off with Ezequiel.
+529,Commander Ezequiel! I wonder which life will end here today?
+530,Oh! Let's both give everything we've got.
+531,The fates of both our countries depend on the outcome of this one battle.
+532,I've lost. You were too strong.
+533,Not at all. Lady luck was on my side.
+534,Go on. Finish me off.
+535,..........
+536,"Matthew, get ready a cargo boat."
+537,What for?
+538,I'm going to send Commander Ezequiel to a friendly ship.
+539,What the blazes are you talking about. Why do we have to save the enemy commander?
+540,The 'Invincible' Spanish Fleet has been destroyed. My mission has been accomplished.
+541,Jeez! Why do I get stuck with a Commodore who loves everybody?!
+542,"I hope we meet again, in a different battle, a different time."
+543,"No, I don't think so. I realized today, during this battle, I have grown old. Old naval men should just disappear."
+544,Commander Ezequiel...
+545,One thing I can't understand is why you backed out of fighting me the first time.
+546,What were you complaining about? You were more than enough prepared.
+547,No one will ever call you a loser again -
+548,From now on you will be known as a real 'Winner'.
+549,Winner
+550,Farewell...
