@@ -1,0 +1,28 @@
+{
+  "name": "example.text",
+  "description": "Example specification: a table of length prefixed text strings, which is the typical layout of a string table.",
+  "source": {
+    "path": "EXAMPLE.TXT",
+    "archive": "",
+    "offset": 0,
+    "length": 0
+  },
+  "tables": [
+    {
+      "name": "example_text",
+      "description": "A table of 16 byte records: a 16 bit length followed by the text.",
+      "offset": 0,
+      "record_size": 16,
+      "count": 0,
+      "count_offset": null,
+      "id_field": "id",
+      "fields": [
+        { "name": "id",   "type": "u16", "offset": 0,  "scale": 1, "offset_value": 0 },
+        { "name": "text", "type": "str", "offset": 2,  "length": 14, "decode": "cp932", "trim": true }
+      ],
+      "constants": {
+        "source": "example_text"
+      }
+    }
+  ]
+}

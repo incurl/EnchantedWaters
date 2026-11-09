@@ -1,0 +1,11 @@
+id,text,name_jp,category,weight,min_day,max_day,target_port,target_region
+rumor.rich_port,A merchant in {port} is paying double for silver.,富豪の港,port,10,1,0,,japan
+rumor.storm,A great storm is gathering over the southern sea.,南海の風,danger,10,1,0,,south_sea
+rumor.pirate_nest,Pirates have made a nest in the {region}.,海贼の宅,danger,9,5,0,,indian
+rumor.treasure,A galleon full of gold sank off the coast of {port}.,宝船,treasure,8,10,0,,mediterranean
+rumor.new_route,A short cut through the {region} has been found.,新路,port,8,1,0,,north_pacific
+rumor.revolution,Trouble is brewing in {port}; the governor is ill.,不平,port,6,20,0,,europe
+rumor.famous_person,A famous navigator is looking for a crew in {port}.,名海師,person,7,1,0,,japan
+rumor.cheap_goods,Tea is going cheap in {port}.,茶が安い,trade,9,1,0,,china
+rumor.disease,There is sickness in the port of {port}.,病気,danger,8,5,0,,south_sea
+rumor.merciful_god,A shrine in {port} grants wishes to sailors.,礼祀,story,5,30,0,,japan

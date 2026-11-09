@@ -1,0 +1,6 @@
+id,name,name_jp,fleet_count,risk_aversion,cargo_aggressiveness,max_voyage_days,storm_avoidance,trade_skill,home_port
+ai.merchants,Merchant Guild,商人ギョド,6,0.25,0.85,40,0.3,0.8,ports.edo
+ai.pirates,Free Pirates,海贼,5,0.6,0.5,55,0.1,0.45,ports.malacca
+ai.navy,Royal Navy,王家海军,4,0.15,0.35,30,0.7,0.35,ports.venice
+ai.colonists,Colonists,流民,3,0.35,0.75,60,0.4,0.6,ports.lisbon
+ai.smugglers,Smugglers,走私,3,0.7,0.6,50,0.2,0.7,ports.goa

@@ -1,0 +1,10 @@
+id,name,name_jp,class,adventure,trade,naval,salary_per_day,loyalty_base,loyalty_decay_per_day,hiring_cost,min_level,max_level
+char.greenhand,Green Hand,青手,adventurer,40,15,20,2.0,60,0.5,120,1,10
+char.sailor,Sailor,海员,navigator,15,20,45,2.0,60,0.5,130,1,10
+char.merchant,Merchant,商人,merchant,15,50,15,2.5,60,0.5,160,1,10
+char.officer,Naval Officer,海軍将校,naval_officer,20,25,50,3.0,65,0.4,220,2,12
+char.brawler,Brawler,歌手,adventurer,55,10,25,2.0,55,0.7,140,1,10
+char.navigator,Navigator,航海師,navigator,18,22,48,2.4,62,0.5,175,1,12
+char.carpenter,Carpenter,大工,merchant,22,40,18,2.2,65,0.4,150,1,10
+char.physician,Physician,医者,merchant,25,35,15,3.0,68,0.3,240,1,12
+char.noble,Noble,豪詹,naval_officer,30,40,40,4.0,72,0.3,400,3,15

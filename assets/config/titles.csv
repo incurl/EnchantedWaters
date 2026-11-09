@@ -1,0 +1,10 @@
+id,name,name_jp,axis,threshold,bonus_trade,bonus_adventure,bonus_naval,description
+title.greenhand,Green Hand,青手,adventure,10,0,0.02,0,An ordinary sailor beginning the long road.
+title.seaman,Seaman,海员,naval,15,0,0,0.03,Trustworthy in rough weather.
+title.trader,Trader,商人,trade,20,0.03,0,0,Sharp eyes for a bargain.
+title.explorer,Explorer,探索者,adventure,30,0,0.05,0,Has charted waters others fear to enter.
+title.navigator,Navigator,航海師,naval,30,0,0,0.05,Reads the sea like a book.
+title.merchant_prince,Merchant Prince,商治,trade,50,0.08,0,0,Their ledgers sway kingdoms.
+title.admiral,Admiral,海大将,naval,55,0,0,0.1,Commands respect from every quarter.
+title.adventurer,Adventurer,冒险者,adventure,55,0,0.1,0,Seeks the unknown wherever it lies.
+title.legend,Living Legend,传说,adventure,80,0.05,0.08,0.05,Their name is spoken in every port.

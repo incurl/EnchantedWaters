@@ -1,0 +1,31 @@
+{
+  "name": "example.numeric",
+  "description": "Example specification: a table of fixed size numeric records. It documents the format and serves as the template for the real specifications.",
+  "source": {
+    "path": "EXAMPLE.NUM",
+    "archive": "",
+    "offset": 0,
+    "length": 0
+  },
+  "tables": [
+    {
+      "name": "example_numeric",
+      "description": "A table of 32 byte records: an identifier, three 16 bit values and two scaled 16 bit values.",
+      "offset": 0,
+      "record_size": 32,
+      "count": 0,
+      "count_offset": null,
+      "id_field": "id",
+      "fields": [
+        { "name": "id",     "type": "u16", "offset": 0,  "scale": 1, "offset_value": 0 },
+        { "name": "value1", "type": "u16", "offset": 2,  "scale": 1, "offset_value": 0 },
+        { "name": "value2", "type": "i16", "offset": 4,  "scale": 1, "offset_value": 0 },
+        { "name": "ratio",  "type": "u16", "offset": 6,  "scale": 0.01, "offset_value": 0 },
+        { "name": "name",   "type": "str", "offset": 8,  "length": 24, "decode": "cp932", "trim": true }
+      ],
+      "constants": {
+        "source": "example_numeric"
+      }
+    }
+  ]
+}

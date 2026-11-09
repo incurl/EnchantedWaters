@@ -1,0 +1,20 @@
+id,name,name_jp,category,weight,min_day,max_day,min_region,max_region,repeatable,script,effects,message
+event.storm_damage,Storm Damage,風悲の害,weather,12,1,0,,,1,,damage:fleet:8;resource:fleet:-2,A violent storm tore at the sails.
+event.sickness,Sickness,病気,crew,10,5,0,,,1,,resource:fleet:-1;reputation:crew:-3,Sickness spreads through the hold.
+event.pirate,Pirate Attack,海贼,pirate,14,10,0,,,1,,damage:fleet:14;cargo:fleet:-0.2,Pirates board the ship!
+event.merchant,Merchant Ship,商船,encounter,12,3,0,,,1,,message:fleet:0:trade,A merchant vessel hails and offers to trade.
+event.friendly_ship,Friendly Ship,友船,encounter,10,1,0,,,1,,message:fleet:0:escort,A friendly vessel falls in company.
+event.driftwood,Driftwood,浮木,supply,8,1,0,,,1,,resource:fleet:3,Casks of fresh water float past the hull.
+event.fishermen,Fishermen,渔渋屋,supply,8,1,0,,,1,,resource:fleet:4:fresh_water,Fishermen sell their catch cheaply.
+event.coastal_squall,Coastal Squall,岸岸,weather,9,1,0,,,1,,damage:fleet:4,A squall rises without warning.
+event.rats,Rats,ネ,crew,7,20,0,,,1,,resource:fleet:-2,Rats swarm the hold and eat the stores.
+event.good_wind,Fair Wind,好風,weather,11,1,0,,,1,,message:fleet:0:speed,The wind fills the sails.
+event.old_anchor,Old Anchor,旧鏜,supply,6,1,0,,,1,,resource:fleet:2:iron,An old anchor is recovered from the seabed.
+event.lucky_current,Lucky Current,遇學,sea,6,1,0,,,1,,message:fleet:0:speed,The current carries the ship swiftly.
+event.deserted_island,Deserted Island,無人島,discovery,7,15,0,,,1,,discover:fleet:1:island,A deserted island rises from the mist.
+event.ancient_wreck,Ancient Wreck,古沉,discovery,6,25,0,,,1,,discover:fleet:1:wreck,The ribs of an ancient ship emerge from the waves.
+event.golden_spot,Golden Spot,金の点,discovery,5,40,0,,,1,,discover:fleet:1:treasure,The sounding line touches something solid.
+event.reunion,Old Friend,旧友,encounter,6,10,0,,,1,,reputation:crew:5,An old friend offers to share news.
+event.heavy_fog,Heavy Fog,厚雾,weather,7,1,0,,,1,,message:fleet:0:fog,A heavy fog closes in around the ship.
+event.crew_quarrel,Crew Quarrel,争争,crew,7,8,0,,,1,,reputation:crew:-4;resource:fleet:-1,The crew quarrels over the spoils.
+event.bounty,Pirate Bounty,赤赞粉,pirate,9,30,0,,,1,,message:fleet:0:bounty,A bounty is offered for a pirate crew.

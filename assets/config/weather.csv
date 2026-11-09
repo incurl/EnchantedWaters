@@ -1,0 +1,7 @@
+id,name,name_jp,kind,weight,wind_speed_min,wind_speed_max,wind_dir_deg_min,wind_dir_deg_max,speed_penalty,damage_per_day,sickness_chance,visibility_factor,min_day,max_day
+weather.clear,Clear,晴,clear,38,2,8,0,360,1.0,0.0,0.0,1.0,0,0
+weather.cloudy,Cloudy,曇,cloudy,24,5,12,0,360,0.97,0.0,0.005,0.95,0,0
+weather.rain,Rain,雨,rain,16,8,16,0,360,0.85,0.5,0.03,0.75,0,0
+weather.fog,Fog,霧,fog,10,2,6,0,360,0.75,0.0,0.01,0.45,0,0
+weather.gale,Gale,風,storm,8,18,28,0,360,0.55,4.0,0.02,0.6,0,0
+weather.storm,Storm,風暴,storm,4,28,45,0,360,0.35,11.0,0.03,0.4,0,0

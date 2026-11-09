@@ -1,0 +1,22 @@
+id,name,name_jp,class,base_price,min_price,max_price,cycle_period_days,cycle_amplitude,seasonal_amplitude,seasonal_phase,weight_per_unit,volume_per_unit,perishable,spoilage_rate,luxury_variance_scale,min_port_price_factor,max_port_price_factor
+grain,Grain,穀物,general,12,2,60,120,0.18,0.22,60,1.0,1.0,1,0.02,1.0,0.4,2.2
+water,Fresh Water,淡水,general,3,0.5,15,90,0.10,0.30,180,1.0,1.0,0,0,1.0,0.5,2.0
+food,Food,食料,general,20,4,80,120,0.20,0.25,90,1.0,1.0,1,0.03,1.0,0.4,2.2
+timber,Timber,木材,general,25,6,90,150,0.22,0.18,30,2.0,2.5,0,0,1.0,0.4,2.2
+iron,Iron,鉄,general,45,12,150,180,0.28,0.10,200,3.0,1.5,0,0,1.0,0.4,2.2
+cloth,Cloth,布,general,30,8,110,140,0.20,0.24,150,0.8,1.2,0,0,1.0,0.4,2.2
+salt,Salt,盐,general,18,5,70,110,0.24,0.12,330,1.2,1.0,0,0,1.0,0.4,2.2
+silk,Silk,縪織物,luxury,140,50,400,200,0.35,0.15,45,0.6,0.9,0,0,1.6,0.3,2.8
+spice,Spice,香辛料,luxury,200,70,600,220,0.42,0.12,20,0.4,0.6,0,0,1.8,0.3,3.0
+gems,Gems,宝石,luxury,420,150,1200,260,0.50,0.08,240,0.3,0.4,0,0,2.0,0.25,3.2
+tea,Tea,茶,luxury,90,30,280,190,0.32,0.28,100,0.5,0.7,0,0,1.5,0.3,2.6
+porcelain,Porcelain,磁器,luxury,260,90,750,230,0.38,0.10,280,1.5,1.8,0,0,1.7,0.3,2.9
+silver,Silver,銀,luxury,300,110,850,210,0.36,0.06,300,1.0,1.0,0,0,1.6,0.3,2.8
+sake,Saké,日本酒,specialty,75,25,240,190,0.30,0.20,120,1.2,1.5,1,0.01,1.4,0.4,2.4
+lacquer,Lacquer,漆器,specialty,160,55,520,210,0.34,0.14,70,1.0,1.4,0,0,1.6,0.3,2.7
+tatami,Tatami,番,specialty,48,18,170,165,0.25,0.26,140,1.5,2.0,0,0,1.3,0.4,2.4
+noren,Noren,暖簾,specialty,40,15,150,160,0.26,0.24,130,0.8,1.0,0,0,1.3,0.4,2.4
+tea_house,Tea House,茶屋,specialty,55,20,200,170,0.28,0.22,110,1.0,1.4,0,0,1.4,0.4,2.4
+pepper,Pepper,デフミンス,specialty,95,30,300,200,0.36,0.14,40,0.3,0.4,0,0,1.7,0.3,2.7
+wine,Wine,ワイン,specialty,110,35,330,195,0.32,0.18,280,1.2,1.6,1,0.01,1.5,0.3,2.6
+stockfish,Stockfish,渍干魚,specialty,35,12,120,150,0.24,0.22,330,1.0,1.2,0,0,1.3,0.4,2.4
