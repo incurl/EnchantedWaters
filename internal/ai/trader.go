@@ -40,6 +40,7 @@ import (
 
 	"github.com/peter/enchantedwaters/internal/config"
 	"github.com/peter/enchantedwaters/internal/ecs"
+	"github.com/peter/enchantedwaters/internal/sail"
 )
 
 // fleeHullRatio is the relative condition of the hull below which the AI
@@ -273,9 +274,11 @@ func (c *Controller) Evaluate(view *MarketView, sourcePort string, riskAversion 
 	return best
 }
 
-// avgShipSpeed returns the average base speed of all ship classes.
+// avgShipSpeed returns the average typical speed of all ship classes.
 //
-// It is used to estimate the duration of a voyage.
+// It is used to estimate the duration of a voyage. The figure comes from
+// the sailing model evaluated at ordinary conditions, so it follows the
+// hull table rather than a hand written number.
 func avgShipSpeed(cfg *config.Registry) float64 {
 	sum := 0.0
 	n := 0
@@ -284,7 +287,7 @@ func avgShipSpeed(cfg *config.Registry) float64 {
 		if s == nil {
 			continue
 		}
-		sum += s.BaseSpeed
+		sum += sail.TypicalSpeed(s.Power, s.SailType, s.MinCrew, int(s.CargoCapacity))
 		n++
 	}
 	if n == 0 {

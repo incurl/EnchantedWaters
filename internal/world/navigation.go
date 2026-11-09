@@ -2,89 +2,37 @@ package world
 
 import (
 	"math"
+
+	"github.com/peter/enchantedwaters/internal/sail"
 )
 
 // Sailing physics.
 //
-// The speed of a fleet over the ground is the vector sum of three
+// The speed of a fleet over the ground is the vector sum of two
 // contributions:
 //
-//	v_ground = v_hull * f_wind + v_current
+//	v_ground = v_sail(θ, w) + v_current
 //
-// where v_hull is the hull speed multiplied by the wind efficiency factor
-// and the weather penalty.
+// where v_sail is the sailing model of the original game (package sail) and
+// v_current is the drift of the sea zone.
 //
-// The wind efficiency factor is the classic "sail angle" model: sailing
-// with the wind (0 degrees relative) is fastest, sailing against it is
-// impossible (the factor becomes 0), and reaching (90 degrees) is about
-// 60-70% efficient:
+// The original does not model the wind as a continuous angle. The compass
+// has eight directions and the wind blows at an integer strength, so the
+// drive of a hull is a lookup in a table indexed by the sail type and by
+// the number of octants between the course and the wind. There is no
+// no-go zone: a square rigged ship still creeps to windward at four tenths
+// of its drive, and a lateen rigged one keeps eight tenths.
 //
-//	f(θ) = cos(θ)                       for |θ| <= 90 degrees
-//	f(θ) = 0                           for |θ| > 90 degrees (no-go zone)
+// The current contribution is added as a vector: a following current
+// speeds the fleet up, a head current slows it down, and a beam current
+// mostly pushes it sideways.
 //
-// with θ being the angle between the heading and the wind direction. The
-// function is smoothed near the boundaries by a cubic blend so that the
-// speed does not change discontinuously when the ship tacks.
-//
-// The current contribution is added as a vector: a following current speeds
-// the fleet up, a head current slows it down, and a beam current mostly
-// pushes it sideways (which is handled by the heading update).
-//
-// The parameters (base speeds, weather penalties, turn rates) all come
-// from the configuration tables.
-
-// windEfficiency returns the sailing efficiency for a heading/wind angle.
-//
-// theta is the absolute angle between the ship heading and the wind
-// direction, in degrees (0..180).
-//
-// The curve has three parts:
-//
-//	f(θ) = cos(θ)                    for θ ≤ blendStart
-//	f(θ) = blend(cos, linear ramp)    for blendStart < θ ≤ 90
-//	f(θ) = 0                          for θ > 90   (the no-go zone)
-//
-// The blend start and the floor of the linear ramp come from the
-// configuration table, so that the shape of the curve can be tuned
-// without touching the code.
-func windEfficiency(theta float64) float64 {
-	return windEfficiencyWith(theta, windBlendStart, windRampFloor)
-}
+// The parameters (hull tables, weather penalties, turn rates) all come from
+// the configuration tables.
 
 // windSpeedEpsilon is the wind speed below which the wind direction is
 // considered undefined.
 const windSpeedEpsilon = 0.001
-
-// windBlendStart is the angle (in degrees) at which the linear ramp of
-// the wind efficiency starts.
-//
-// It is the default; the world overrides it with the value of the
-// configuration table.
-const windBlendStart = 60.0
-
-// windRampFloor is the efficiency at the beam reach, before the linear
-// ramp brings it down to zero.
-const windRampFloor = 0.5
-
-// windEfficiencyWith evaluates the curve with the given parameters.
-func windEfficiencyWith(theta, blendStart, rampFloor float64) float64 {
-	if theta >= 90 {
-		// Inside the no-go zone the ship cannot make headway.
-		return 0
-	}
-	cosPart := math.Cos(theta * math.Pi / 180)
-	if blendStart <= 0 {
-		blendStart = 90
-	}
-	if theta <= blendStart {
-		return cosPart
-	}
-	// The linear ramp goes from the floor at the blend start down to zero
-	// at the no-go zone.
-	t := (theta - blendStart) / (90 - blendStart)
-	linear := rampFloor * (1 - t)
-	return cosPart*(1-t) + linear*t
-}
 
 // vectorFromPolar converts a speed and a compass bearing into a vector.
 //
@@ -195,20 +143,6 @@ func (w *World) cfgZoneOrder() []string {
 	return w.zoneOrder
 }
 
-// windEfficiency evaluates the sailing efficiency curve with the
-// parameters of the configuration table.
-func (w *World) windEfficiency(theta float64) float64 {
-	blend := w.cfg.Params.WindBlendStart
-	if blend <= 0 {
-		blend = windBlendStart
-	}
-	floor := w.cfg.Params.WindEfficiencyFloor
-	if floor <= 0 {
-		floor = windRampFloor
-	}
-	return windEfficiencyWith(theta, blend, floor)
-}
-
 // weatherComponent returns the active weather component, or nil.
 func (w *World) weatherComponent() *ecsWeatherComponent {
 	if w.weatherEntity == 0 {
@@ -265,18 +199,15 @@ func (w *World) advanceFleet(id ecsID, desiredHeading float64) {
 	}
 
 	// --- speed over ground ---
-	// The wind vector is converted into the wind's "angle to the bow".
-	windSpeed := math.Hypot(windX, windY)
-	theta := 0.0
-	if windSpeed > windSpeedEpsilon {
-		windBearing := math.Atan2(windX, -windY) * 180 / math.Pi
-		theta = math.Abs(normalizeAngle(windBearing - pos.Heading))
-		if theta > 180 {
-			theta = 360 - theta
-		}
+	// The sailing model of the original game: the wind is read as a
+	// direction on the eight point compass and a strength on a 0..7
+	// scale, and the hull answers through the sail type table.
+	windKnots := math.Hypot(windX, windY)
+	windBearing := 0.0
+	if windKnots > windSpeedEpsilon {
+		windBearing = normalizeAngle(math.Atan2(windX, -windY) * 180 / math.Pi)
 	}
-	eff := w.windEfficiency(theta)
-	hullSpeed := ship.BaseSpeed * eff * weatherPenalty
+	hullSpeed := w.sailingSpeed(id, fleet, ship, pos, windBearing, sail.WindUnits(windKnots)) * weatherPenalty
 
 	// The hull contributes along the heading, the current adds a vector.
 	vx, vy := vectorFromPolar(hullSpeed, pos.Heading)

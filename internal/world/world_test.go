@@ -9,6 +9,7 @@ import (
 	"github.com/peter/enchantedwaters/internal/asset"
 	"github.com/peter/enchantedwaters/internal/config"
 	"github.com/peter/enchantedwaters/internal/ecs"
+	"github.com/peter/enchantedwaters/internal/sail"
 )
 
 // testRegistry loads the shipped configuration tables.
@@ -232,33 +233,69 @@ func TestCargoCapacityIsEnforced(t *testing.T) {
 	}
 }
 
-// TestWindEfficiency verifies the shape of the sailing efficiency curve:
-// maximum with the wind, zero against it, and a sensible value on a
-// reach.
-func TestWindEfficiency(t *testing.T) {
-	if got := windEfficiency(0); got < 0.99 {
-		t.Errorf("windEfficiency(0) = %.3f, want ~1", got)
+// TestSailingModel verifies the shape of the sailing model of the original
+// game: running before the wind is fastest, beating costs the tacking
+// share, and a lateen rig holds the wind far better than a square rig.
+func TestSailingModel(t *testing.T) {
+	beat := func(heading, windDir float64, sailType int) float64 {
+		return sail.Conditions{
+			Power: 80, Tacking: 50, SailType: sailType, MinCrew: 5,
+			Capacity: 100, Crew: 5, NavigationLevel: 1,
+			Seamanship: sail.NeutralSeamanship,
+			Heading:    heading, WindDirection: windDir, WindSpeed: 5,
+		}.Speed()
 	}
-	if got := windEfficiency(89); got < 0.001 {
-		t.Errorf("windEfficiency(89) = %.3f, want ~0", got)
+
+	// Dead before the wind: the strongest drive, no tacking penalty.
+	running := beat(0, 0, 1)
+	if running <= 0 {
+		t.Fatalf("running before the wind gave %.3f, want a positive speed", running)
 	}
-	if got := windEfficiency(90); got != 0 {
-		t.Errorf("windEfficiency(90) = %.3f, want 0 (no-go zone boundary)", got)
+
+	// Dead to windward: the weakest drive, and the tacking penalty on top.
+	beating := beat(180, 0, 1)
+	if beating >= running {
+		t.Errorf("beating (%.3f) should be slower than running (%.3f)", beating, running)
 	}
-	if got := windEfficiency(120); got != 0 {
-		t.Errorf("windEfficiency(120) = %.3f, want 0 (no-go zone)", got)
+
+	// A lateen rig must beat to windward better than a square rig does.
+	square := beat(180, 0, 1)
+	lateen := beat(180, 0, 6)
+	if lateen <= square {
+		t.Errorf("lateen rig to windward (%.3f) should beat the square rig (%.3f)", lateen, square)
 	}
-	if got := windEfficiency(180); got != 0 {
-		t.Errorf("windEfficiency(180) = %.3f, want 0 (no-go zone)", got)
+
+	// The base speed is capped at 30.
+	if running > sail.MaxBaseSpeed+1e-9 {
+		t.Errorf("speed %.3f exceeds the cap of %.0f", running, sail.MaxBaseSpeed)
 	}
-	// The efficiency must decrease monotonically from 0 to 90 degrees.
-	prev := 1.1
-	for deg := 0; deg <= 90; deg += 5 {
-		got := windEfficiency(float64(deg))
-		if got > prev {
-			t.Errorf("windEfficiency is not monotonic at %d degrees", deg)
+}
+
+// TestCompassGeometry verifies the eight point compass that the model
+// works on.
+func TestCompassGeometry(t *testing.T) {
+	cases := []struct {
+		bearing float64
+		want    int
+	}{
+		{0, 0}, {350, 0}, {20, 0},
+		{45, 1}, {90, 2}, {135, 3}, {180, 4},
+		{225, 5}, {270, 6}, {315, 7},
+	}
+	for _, c := range cases {
+		if got := sail.CompassDirection(c.bearing); got != c.want {
+			t.Errorf("CompassDirection(%.0f) = %d, want %d", c.bearing, got, c.want)
 		}
-		prev = got
+	}
+	// The delta folds, so a beam wind is the same from either side.
+	if got := sail.CompassDelta(0, 2); got != 2 {
+		t.Errorf("CompassDelta(0,2) = %d, want 2", got)
+	}
+	if got := sail.CompassDelta(0, 6); got != 2 {
+		t.Errorf("CompassDelta(0,6) = %d, want 2 (folded)", got)
+	}
+	if got := sail.CompassDelta(1, 5); got != 4 {
+		t.Errorf("CompassDelta(1,5) = %d, want 4 (dead to windward)", got)
 	}
 }
 

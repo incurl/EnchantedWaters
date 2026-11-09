@@ -1,9 +1,26 @@
-id,name,name_jp,class,hull_points,max_sailors,cargo_capacity,base_speed,repair_cost_per_hp,price,upkeep_per_day,food_per_sailor_per_day,water_per_sailor_per_day,consumable_capacity,weapon_level,armor_level,turn_speed_deg_per_day,required_sailor_level
-ship.sloop,Sloop,スループ,small,120,12,40,6.5,3.0,800,4,0.8,0.6,40,1,1,90,1
-ship.cutter,Cutter,カター,small,160,18,70,7.5,3.6,1400,6,0.8,0.6,60,2,1,85,1
-ship.barque,Barque,バーク,medium,260,40,180,9.0,4.5,4200,12,0.9,0.7,140,3,2,70,2
-ship.merchant,Merchantman,商船,medium,320,55,260,8.2,5.0,6500,15,0.9,0.7,180,2,3,65,2
-ship.frigate,Frigate,フリゲート,medium,380,70,200,10.5,5.5,9800,20,1.0,0.8,220,4,3,60,3
-ship.galleon,Galleon,ガレーン,large,520,120,520,9.5,6.5,18000,32,1.0,0.8,380,4,4,45,4
-ship.carrack,Carrack,カラッカ,large,600,140,640,8.5,7.0,22000,36,1.1,0.9,430,3,5,40,4
-ship.treasure,Treasure Ship,宝船,special,700,180,900,10.0,8.0,40000,45,1.0,0.8,520,5,4,35,5
+id,name,name_jp,class,hull_points,max_sailors,cargo_capacity,power,tacking,sail_type,min_crew,has_oars,industry_requirement,max_guns,repair_cost_per_hp,price,upkeep_per_day,food_per_sailor_per_day,water_per_sailor_per_day,consumable_capacity,weapon_level,armor_level,turn_speed_deg_per_day,required_sailor_level
+ship.balsa,Balsa,,small,30,20,50,80,70,5,5,0,100,10,2.4,1200,0.6,0.8,0.6,40.0,0,2,80,1
+ship.hansa_cog,Hansa Cog,,small,20,20,60,85,65,5,5,0,100,10,3.9,1300,0.7,0.8,0.6,48.0,0,1,77,1
+ship.dhow,Dhow,,small,30,20,70,75,90,5,5,0,300,15,3.6,1800,0.9,0.8,0.6,56.0,1,2,90,1
+ship.buss,Buss,,medium,70,200,500,60,50,1,50,0,700,40,17.14,20000,10.0,0.8,0.6,400.0,2,4,70,3
+ship.tallette,Tallette,,small,20,20,80,95,70,5,5,0,200,15,4.2,1400,0.7,0.8,0.6,64.0,1,1,80,1
+ship.caravela_latina,Caravela Latina,,small,30,40,120,75,90,6,10,0,200,20,4.8,2400,1.2,0.8,0.6,96.0,1,2,90,2
+ship.caravela_redonda,Caravela Redonda,,small,30,40,120,90,70,5,10,0,200,20,4.8,2400,1.2,0.8,0.6,96.0,1,2,80,2
+ship.brigantine,Brigantine,,medium,40,60,180,70,90,6,15,0,400,20,15.0,10000,5.0,0.8,0.6,144.0,1,2,90,3
+ship.nao,Nao,,medium,50,120,450,85,65,3,25,0,500,40,36.0,30000,15.0,0.8,0.6,360.0,2,3,77,3
+ship.carrack,Carrack,,large,50,160,600,80,60,3,30,0,600,50,48.0,40000,20.0,0.8,0.6,480.0,2,3,75,3
+ship.galleon,Galleon,,large,80,200,800,65,60,1,45,0,800,70,45.0,60000,30.0,0.8,0.6,640.0,3,4,75,4
+ship.xebec,Xebec,,large,70,300,600,70,80,4,25,0,500,40,37.71,44000,22.0,0.8,0.6,480.0,2,4,85,3
+ship.pinnace,Pinnace,,medium,40,60,150,85,95,6,5,0,550,20,9.0,6000,3.0,0.8,0.6,120.0,1,2,92,2
+ship.sloop,Sloop,,medium,50,60,250,85,95,6,5,0,850,40,19.2,16000,8.0,0.8,0.6,200.0,2,3,92,3
+ship.frigate,Frigate,,large,80,300,650,85,60,5,20,0,1000,70,168.0,224000,112.0,0.8,0.6,520.0,3,4,75,5
+ship.barge,Barge,,large,90,450,1000,65,50,3,40,0,1000,120,200.0,300000,150.0,0.8,0.6,800.0,5,5,70,5
+ship.full_rigged_ship,Full-rigged Ship,,large,90,500,1200,65,50,3,45,0,1000,150,213.33,320000,160.0,0.8,0.6,960.0,5,5,70,5
+ship.junk,Junk,,medium,80,100,500,70,80,4,25,0,300,40,12.0,16000,8.0,0.8,0.6,400.0,2,4,85,3
+ship.light_galley,Light Galley,,small,40,20,120,85,100,6,5,1,100,10,2.1,1400,0.7,0.8,0.6,96.0,0,2,95,1
+ship.flemish_galleon,Flemish Galleon,,medium,80,200,500,80,75,2,40,1,400,30,25.5,34000,17.0,0.8,0.6,400.0,1,4,82,3
+ship.venetian_galeass,Venetian Galeass,,large,90,400,950,70,70,2,60,1,500,50,42.67,64000,32.0,0.8,0.6,760.0,2,5,80,4
+ship.la_reale,La Reale,,medium,60,250,450,100,95,4,30,1,600,40,40.0,40000,20.0,0.8,0.6,360.0,2,3,92,3
+ship.tekkousen,Tekkousen,,large,90,300,1100,85,80,3,45,1,1000,100,93.33,140000,70.0,0.8,0.6,880.0,4,5,85,4
+ship.atakabune,Atakabune,,medium,60,200,500,95,95,3,20,1,400,40,14.0,14000,7.0,0.8,0.6,400.0,2,3,92,3
+ship.kansen,Kansen,,medium,30,60,250,100,100,6,10,1,200,20,4.0,2000,1.0,0.8,0.6,200.0,1,2,95,2

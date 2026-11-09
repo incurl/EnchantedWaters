@@ -163,17 +163,54 @@ therefore cheap at the source and expensive everywhere else.
 
 ### Sailing physics
 
-```
-v_ground = v_hull · f(θ) · weatherPenalty + v_current
+```text
+v_ground = v_sail(δ, w) · weatherPenalty + v_current
 ```
 
-`f(θ)` is the wind efficiency, with `θ` the angle between the heading and the wind:
+`v_sail` is the sailing model of the original game. The compass has eight
+directions and the wind blows at an integer strength, so the drive of a hull is a
+lookup rather than a curve:
 
+```text
+δ      = octants between the heading and the wind, folded into 0..4
+f      = windFactor[sailType][δ]
+w      = wind speed, floored at 3 for a rowed hull
+drive  = power · f · w / 150
+crew   = min(1, crew / minCrew)
+cargo  = min(1.5, 1.8 − (payload + crew) / capacity)
+skill  = (10 + navigationLevel) / 10
+base   = min(30, drive · crew · cargo · skill)
+speed  = base · tacking' · seamanship / 75
 ```
-f(θ) = cos(θ)                for θ ≤ 60°
-f(θ) = blend(cos, linear)     for 60° < θ ≤ 90°   (a smooth transition)
-f(θ) = 0                     for θ > 90°          (the no-go zone)
-```
+
+`tacking'` is `tacking/100` when `δ ≥ 3` — the rig has to beat — and `1`
+otherwise. The wind factor table is the one thing that makes the choice of hull
+matter:
+
+| sail type | running | | | | dead to windward |
+|---|---|---|---|---|---|
+| 1 (square) | 10 | 10 | 8 | 6 | 4 |
+| 2 | 8 | 9 | 9 | 7 | 6 |
+| 3 | 10 | 10 | 10 | 8 | 6 |
+| 4 | 9 | 10 | 10 | 9 | 7 |
+| 5 | 9 | 10 | 10 | 9 | 7 |
+| 6 (lateen) | 8 | 10 | 10 | 10 | 8 |
+
+A square rig keeps four tenths of its drive dead to windward; a lateen rig keeps
+eight. There is no no-go zone: a ship can always make headway, it simply makes
+less of it. Both quirks of the original are reproduced rather than corrected — a
+stronger headwind makes a ship *faster*, because the wind speed multiplies in
+regardless of `δ`, and the wind direction still matters for a rowed hull when the
+wind is calm.
+
+The model lives in `internal/sail` and is shared by the world and the AI, so a
+voyage estimate and a simulated voyage agree. Two factors are held neutral because
+this project has no skill system yet: the navigation level sits at the starting
+value of 1 and the seamanship at 75, which is the value at which the seamanship
+factor is exactly 1.
+
+`v_current` is added as a vector: a following current speeds the fleet up, a head
+current slows it down, and a beam current mostly pushes it sideways.
 
 ---
 
@@ -260,7 +297,10 @@ perfectly valid.
 # derived 130 ports, 2730 port prices, 16 sea zones and 1578 land cells
 ```
 
-**What is taken from the original:** the name and the position of every port.
+**What is taken from the original:** the name and the position of every port, the
+attribute byte that says whether a port has a court and a guild, and the split of
+the table into 100 towns and 30 anchorages. An anchorage derives with every
+facility at zero: it has a harbour and nothing else, exactly as in the original.
 
 **What this project decides:** the class of a port (and with it its tax and its
 facilities), the goods a region produces, the supply and demand of every good at
@@ -360,6 +400,57 @@ The port coordinates of this project were independently confirmed against
 [JohanLi/uncharted-waters-2](https://github.com/JohanLi/uncharted-waters-2) (MIT),
 which holds the same 130 ports: its `x` is this project's `x` plus 720, a third of
 the map width, because that remake wraps the map so that Europe is centred.
+
+That remake is also the reference for the *rules* of the game, which the data
+files do not spell out:
+
+* **the hull table** — the names, and the power, tacking, sail type, capacity,
+  crew, durability and price of all 25 hulls. The same 25 names appear in
+  `KOUKAI2.DAT` at offset `0x4c47` as fixed length records in the same order, so
+  the ordering is independently confirmed; the numeric fields of those records are
+  not yet decoded, and until they are the figures come from the reference. The
+  columns that the original does not state are computed from the ones it does,
+  rather than chosen:
+
+  ```text
+  class             small under 150 tons, medium under 600, large above
+  repair_cost_per_hp  price · 0.06 / durability   (6% of the price for a wreck)
+  upkeep_per_day      price · 0.0005
+  consumable_capacity capacity · 0.8
+  weapon_level        max_guns / 25, capped at 5
+  armor_level         durability / 18, capped at 5
+  turn_speed_deg     45 + tacking / 2
+  required_sailor_level   by price: 1 under 2 000, 2 under 10 000, 3 under
+                          50 000, 4 under 150 000, 5 above
+  has_oars            the seven rowed hulls, which the reference groups as the
+                      last seven of the table
+  ```
+* **the sailing model** — the speed formula and the wind factor table above,
+  including the constant of 150, the cap of 30 and the seamanship divisor of 75.
+  `internal/sail` reproduces the arithmetic and `internal/sail/sail_test.go` pins
+  it to a case worked out by hand;
+* **the wind and current field** — a sea area is 72×72 pixels on a 30 column grid,
+  and `WINDCUR.DAT` holds a direction and a strength per area for summer, for
+  winter and for the current. This project derives its 16 sea zones rather than
+  reading that file, because its encoding has not been recovered;
+* **the buildings** — the twelve buildings of a port and the menu each offers: the
+  market, the pub, the shipyard, the harbour, the lodge, the palace, the guild, the
+  bank, the item shop, the church and the fortune teller;
+* **the supply ports** — the port table holds 100 towns followed by 30 anchorages,
+  which offer a harbour and nothing else. The split is positional, and the thirty
+  names the reference lists as supply ports are exactly the last thirty records of
+  this project's imported table;
+* **the geography of the world** — eight regions for the sphere of influence of a
+  palace, and thirteen markets that set the price of goods. This project derives
+  its own regions from the map position, so these are recorded as the original
+  design rather than reproduced;
+* **the opening of the story** — the Lisbon prologue is a chain of quest states
+  keyed on which building the player is in and which scenes have already played:
+  the Duke's house, the pub, the church with Brother Enrico, the harbour, the
+  shipyard and the market. The cast (João, Duke Franco, Duchess Christiana, Old Sea
+  Hand Rocco, Brother Enrico, Carlotta, Lucia) is present in this project's
+  imported dialogue, and the records of `original_story_npcs.csv` are indexed one
+  lower than the reference's, which is the same table read from a different base.
 
 ## Testing
 

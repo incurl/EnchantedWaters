@@ -143,6 +143,9 @@ type Port struct {
 	// PriceMemoryFactor controls how strongly local stock influences price
 	// (0 = prices ignore inventory, 1 = full scarcity response).
 	PriceMemoryFactor float64 `csv:"price_memory_factor"`
+	// SupplyPort marks an anchorage: a harbour and nothing else. The
+	// original port table ends with thirty of them.
+	SupplyPort bool `csv:"supply_port,opt"`
 }
 
 // PortPrice is the static per-port multiplier of a commodity.
@@ -194,8 +197,27 @@ type Ship struct {
 	MaxSailors int `csv:"max_sailors"`
 	// CargoCapacity is the total hold tonnage.
 	CargoCapacity float64 `csv:"cargo_capacity"`
-	// BaseSpeed is the hull speed in knots at wind angle 0 with no current.
-	BaseSpeed float64 `csv:"base_speed"`
+	// Power is the propulsion of the hull. It is the numerator of the
+	// speed formula of the original game (see the sail speed model in the
+	// world package), not a speed in itself.
+	Power int `csv:"power"`
+	// Tacking is the share of the drive, in percent, that the rig keeps
+	// when it has to beat to windward.
+	Tacking int `csv:"tacking"`
+	// SailType selects the row of the wind factor table (1..6). A square
+	// rig (type 1) loses most of its drive close to the wind, a lateen rig
+	// (type 6) loses almost none.
+	SailType int `csv:"sail_type"`
+	// MinCrew is the crew required to work the ship at full efficiency.
+	MinCrew int `csv:"min_crew"`
+	// HasOars marks a rowed hull. A rowed hull never loses all of its
+	// drive in a calm, because the oars floor the wind it can use.
+	HasOars bool `csv:"has_oars"`
+	// IndustryRequirement is the industry a port needs before its
+	// shipyard can lay the hull down.
+	IndustryRequirement int `csv:"industry_requirement"`
+	// MaxGuns is the number of gun ports.
+	MaxGuns int `csv:"max_guns"`
 	// RepairCostPerHP is the shipyard cost to restore one hull point.
 	RepairCostPerHP float64 `csv:"repair_cost_per_hp"`
 	// Price is the purchase price at a shipyard.
@@ -505,10 +527,4 @@ type GlobalParams struct {
 	// AITradeTaxFactor is the weight of the transaction costs in the
 	// profit evaluation of the AI.
 	AITradeTaxFactor float64 `csv:"ai_trade_tax_factor"`
-	// WindEfficiencyFloor is the share of the hull speed that is kept on
-	// a beam reach.
-	WindEfficiencyFloor float64 `csv:"wind_efficiency_floor"`
-	// WindBlendStart is the angle (in degrees) at which the linear ramp
-	// of the wind efficiency curve starts.
-	WindBlendStart float64 `csv:"wind_blend_start"`
 }

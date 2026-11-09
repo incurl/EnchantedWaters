@@ -101,8 +101,8 @@ func (d *DebugPanel) drawTables(ctx *debugui.Context) {
 	case 2:
 		for _, id := range cfg.ShipOrder {
 			s := cfg.Ships[id]
-			ctx.Text(fmt.Sprintf("%-14s hull %5d crew %3d hold %4d speed %.1f",
-				s.Name, int(s.HullPoints), s.MaxSailors, int(s.CargoCapacity), s.BaseSpeed))
+			ctx.Text(fmt.Sprintf("%-14s hull %5d crew %3d hold %4d power %3d sail %d",
+				s.Name, int(s.HullPoints), s.MaxSailors, int(s.CargoCapacity), s.Power, s.SailType))
 		}
 	case 3:
 		for _, id := range cfg.EventOrder {

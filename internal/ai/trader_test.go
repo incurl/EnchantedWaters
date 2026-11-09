@@ -16,7 +16,7 @@ func testController() (*Controller, *MarketView) {
 	reg.SetPort(&config.Port{ID: "p2", Name: "Two", Region: "b", X: 100, Y: 0})
 	reg.SetPort(&config.Port{ID: "p3", Name: "Three", Region: "c", X: 200, Y: 0})
 	reg.SetAIProfile(&config.AIProfile{ID: "ai.test", Name: "Test", FleetCount: 1, RiskAversion: 0.2, CargoAggressiveness: 0.8, MaxVoyageDays: 30})
-	reg.SetShip(&config.Ship{ID: "ship.test", Name: "Test ship", Class: config.ClassSmall, HullPoints: 100, MaxSailors: 10, CargoCapacity: 100, BaseSpeed: 5})
+	reg.SetShip(&config.Ship{ID: "ship.test", Name: "Test ship", Class: config.ClassSmall, HullPoints: 100, MaxSailors: 10, CargoCapacity: 100, Power: 80, Tacking: 70, SailType: 5, MinCrew: 5})
 	reg.Params.TravelSpeedScale = 1
 	reg.Finalize()
 

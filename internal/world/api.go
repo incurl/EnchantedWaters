@@ -149,6 +149,8 @@ type PortSnapshot struct {
 	ChurchLevel int
 	// InnLevel is the inn level.
 	InnLevel int
+	// SupplyPort marks an anchorage: a harbour and no buildings.
+	SupplyPort bool
 }
 
 // SnapshotPort returns a read-only view of a port.
@@ -170,6 +172,7 @@ func (w *World) SnapshotPort(portID string) PortSnapshot {
 	s.GovernorLevel = p.GovernorLevel
 	s.ChurchLevel = p.ChurchLevel
 	s.InnLevel = p.InnLevel
+	s.SupplyPort = p.SupplyPort
 	return s
 }
 

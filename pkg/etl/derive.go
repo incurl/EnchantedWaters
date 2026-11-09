@@ -307,6 +307,17 @@ const (
 	portAttrDiscoved = 0x08
 )
 
+// supplyPortCount is the number of records at the end of the original port
+// table that are supply ports rather than towns.
+//
+// The table holds 130 records: 100 towns with a full set of buildings,
+// then 30 anchorages that offer nothing but a harbour. The split is
+// positional -- the last thirty records of the table are the anchorages --
+// and it was confirmed against the reference implementation, which lists
+// exactly those thirty names as supply ports and the other hundred as
+// regular ports.
+const supplyPortCount = 30
+
 // DerivePorts generates assets/config/ports.csv from the imported port
 // table of the original game.
 //
@@ -315,6 +326,7 @@ const (
 //	tax           0.05 for a town, 0.07 for a city, 0.09 for a capital
 //	ship discount 1.00 / 0.95 / 0.90 by class
 //	facilities    a step up with the class
+//	supply ports  the last thirty records: a harbour and nothing else
 //	specialty     one good per region, the good the region is known for
 //	latitude      derived from the map position with an equirectangular
 //	              approximation, which is what the navigation needs
@@ -333,11 +345,11 @@ func DerivePorts(cfgDir string) (int, error) {
 		"id", "name", "name_jp", "class", "region", "x", "y", "lat", "lon",
 		"specialty_commodity", "specialty_discount", "base_tax_rate", "ship_discount",
 		"shipyard_level", "tavern_level", "governor_level", "church_level", "inn_level",
-		"price_memory_factor",
+		"supply_port", "price_memory_factor",
 	}}
 
 	seen := make(map[string]bool, len(ports))
-	for _, p := range ports {
+	for i, p := range ports {
 		id := PortID(p.Name)
 		if seen[id] {
 			return 0, fmt.Errorf("the port id %q is used twice", id)
@@ -346,6 +358,9 @@ func DerivePorts(cfgDir string) (int, error) {
 
 		region := regionOf(float64(p.MapX), float64(p.MapY))
 		class := portClass(p.Name)
+
+		// The last thirty records of the table are anchorages, not towns.
+		isSupply := supplyPortCount > 0 && i >= len(ports)-supplyPortCount
 
 		// The balance of the port by class.
 		var tax, shipDiscount float64
@@ -371,6 +386,11 @@ func DerivePorts(cfgDir string) (int, error) {
 			// A court in a small port still offers the governor screen.
 			governor = 2
 		}
+		// An anchorage has a harbour and nothing else: no market, no
+		// shipyard, no inn. It exists to take on water and food.
+		if isSupply {
+			shipyard, tavern, governor, church, inn = 0, 0, 0, 0, 0
+		}
 		// The latitude and the longitude are read off the map with the
 		// calibrated conversion (see mapToLatLon).
 		lat, lon := mapToLatLon(float64(p.MapX), float64(p.MapY))
@@ -394,6 +414,7 @@ func DerivePorts(cfgDir string) (int, error) {
 			strconv.Itoa(governor),
 			strconv.Itoa(church),
 			strconv.Itoa(inn),
+			boolField(isSupply),
 			formatFloat(float64(memory)/10, 1),
 		})
 	}
@@ -416,6 +437,14 @@ func formatFloat(v float64, decimals int) string {
 		return "0"
 	}
 	return s
+}
+
+// boolField formats a boolean as the 0 or 1 that the CSV loader expects.
+func boolField(v bool) string {
+	if v {
+		return "1"
+	}
+	return "0"
 }
 
 // writeTable writes a table as CSV.
