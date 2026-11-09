@@ -1,0 +1,28 @@
+{
+  "name": "example.egasprite",
+  "description": "Example specification: the EGA planar sprite layout of the KOEI DOS engine. The layout is the one that the Water1-MapViewer analysis documents for the port marker of the first Uncharted Waters: 24x12 pixels, three planes stored byte by byte in the order 1, 4, 2, in the bright EGA palette.",
+  "source": {
+    "path": "SPRITES.CIM",
+    "offset": 288,
+    "length": 108
+  },
+  "tables": [],
+  "graphics": [
+    {
+      "name": "ega_sprite",
+      "offset": 0,
+      "width": 24,
+      "height": 12,
+      "planes": 3,
+      "columns": 1,
+      "count": 1,
+      "plane_order": [
+        0,
+        2,
+        1
+      ],
+      "interleaved": true,
+      "ega_palette": true
+    }
+  ]
+}

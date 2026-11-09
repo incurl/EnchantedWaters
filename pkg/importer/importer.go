@@ -121,6 +121,36 @@ func importSpec(spec *Spec, opts Options, log Logger, result *Result) error {
 		result.Tables[table.Name] = len(converted.Rows)
 		log.Info("table %s: %d records written", table.Name, len(converted.Rows))
 	}
+
+	// --- the sprite sheets ---
+	for _, graphic := range spec.Graphics {
+		if err := importGraphic(reader, graphic, opts, log, result); err != nil {
+			result.Problems = append(result.Problems, err.Error())
+			log.Problem("%v", err)
+		}
+	}
+	return nil
+}
+
+// importGraphic converts one sprite sheet and writes it as a PNG.
+func importGraphic(r *Reader, spec GraphicSpec, opts Options, log Logger, result *Result) error {
+	sheet, err := ReadSpriteSheet(r, spec, nil)
+	if err != nil {
+		return err
+	}
+	// The sprite sheets live next to the tables but in their own folder.
+	dir := filepath.Join(opts.OutDir, "..", "sprites")
+	files, err := WriteSpriteSheet(dir, sheet, nil)
+	if err != nil {
+		return err
+	}
+	for _, f := range files {
+		result.Files = append(result.Files, f)
+		log.Info("wrote %s", f)
+	}
+	log.Info("sprite sheet %s: %dx%d pixels, %dx%d tiles of %dx%d",
+		spec.Name, sheet.Image.Bounds().Dx(), sheet.Image.Bounds().Dy(),
+		sheet.TilesX, sheet.TilesY, sheet.TileWidth, sheet.TileHeight)
 	return nil
 }
 

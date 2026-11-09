@@ -48,6 +48,8 @@ type Spec struct {
 	Source SourceSpec `json:"source"`
 	// Tables lists the tables that are extracted from the file.
 	Tables []TableSpec `json:"tables"`
+	// Graphics lists the sprite sheets that are extracted from the file.
+	Graphics []GraphicSpec `json:"graphics,omitempty"`
 }
 
 // SourceSpec describes the raw data source.
@@ -147,8 +149,8 @@ func LoadSpec(path string) (*Spec, error) {
 	if spec.Name == "" {
 		return nil, fmt.Errorf("spec %s has no name", path)
 	}
-	if len(spec.Tables) == 0 {
-		return nil, fmt.Errorf("spec %s has no tables", path)
+	if len(spec.Tables) == 0 && len(spec.Graphics) == 0 {
+		return nil, fmt.Errorf("spec %s has neither tables nor graphics", path)
 	}
 	return &spec, nil
 }

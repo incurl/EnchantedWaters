@@ -55,6 +55,26 @@ type Palette struct {
 	Colors []color.RGBA
 }
 
+// EGA palettes.
+//
+// The EGA adapters of the era held a fixed palette of sixteen colours.
+// The three bit art of the world map and of the sprites uses the bright
+// half of it: the eight colours below.
+//
+// The values are the ones of the attribute controller mapping that the
+// original engine programs, as the analysis of the first Uncharted Waters
+// documents it.
+var EGAPalette = []color.RGBA{
+	{0x00, 0x00, 0x00, 0xff}, // 0 black
+	{0x55, 0x55, 0xff, 0xff}, // 1 bright blue
+	{0x55, 0xff, 0x55, 0xff}, // 2 bright green
+	{0x55, 0xff, 0xff, 0xff}, // 3 bright cyan
+	{0xff, 0x55, 0x55, 0xff}, // 4 bright red
+	{0xff, 0x55, 0xff, 0xff}, // 5 bright magenta
+	{0xff, 0xff, 0x55, 0xff}, // 6 yellow
+	{0xff, 0xff, 0xff, 0xff}, // 7 white
+}
+
 // ReadPalette reads a VGA palette from a data section.
 func ReadPalette(r *Reader, spec PaletteSpec) (*Palette, error) {
 	if spec.Count <= 0 {
@@ -109,6 +129,28 @@ type GraphicSpec struct {
 	Count int `json:"count"`
 	// Name is the base name of the exported sprite sheet.
 	Name string `json:"name"`
+	// PlaneOrder maps each stored plane to the bit of the colour index
+	// that it contributes.
+	//
+	// The EGA adapters of the era stored the planes in an order that did
+	// not match their bit number, because the hardware wired them that
+	// way. The reference analysis of the first Uncharted Waters documents
+	// the order 1, 4, 2 for its three plane art, which is written here as
+	// the list {0, 2, 1}: the first stored plane is bit 0, the second is
+	// bit 2, the third is bit 1.
+	//
+	// When the list is empty the planes contribute in their stored order.
+	PlaneOrder []int `json:"plane_order,omitempty"`
+	// Interleaved marks graphics whose planes are stored byte by byte
+	// instead of plane by plane.
+	//
+	// In the interleaved layout every group of eight pixels holds one
+	// byte of each plane in turn; in the planar layout a whole plane is
+	// stored before the next one begins.
+	Interleaved bool `json:"interleaved,omitempty"`
+	// EGAPalette selects the three bit palette of the EGA adapters
+	// instead of the 256 colour VGA palette.
+	EGAPalette bool `json:"ega_palette,omitempty"`
 }
 
 // SpriteSheet is a converted graphics section.
@@ -149,7 +191,11 @@ func ReadSpriteSheet(r *Reader, spec GraphicSpec, pal *Palette) (*SpriteSheet, e
 	tilesY := (count + tilesX - 1) / tilesX
 
 	palette := color.Palette{}
-	if pal != nil {
+	if spec.EGAPalette {
+		for _, c := range EGAPalette {
+			palette = append(palette, c)
+		}
+	} else if pal != nil {
 		for _, c := range pal.Colors {
 			palette = append(palette, c)
 		}
@@ -184,25 +230,49 @@ func ReadSpriteSheet(r *Reader, spec GraphicSpec, pal *Palette) (*SpriteSheet, e
 
 // drawTile decodes one planar tile into the image.
 //
-// The pixels are read plane by plane: for every row, the bits of each
-// plane are combined into the colour index of every pixel.
+// # The two layouts
+//
+// In the planar layout a whole plane of the tile is stored before the next
+// one begins, so the byte of a pixel sits at
+//
+//	(plane*height + row)*planeBytes + col/8
+//
+// In the interleaved layout the bytes of the planes of one group of eight
+// pixels follow each other, so the byte sits at
+//
+//	(row*planeBytes*groups + col/8*planes + plane)
+//
+// The EGA art of the era uses the interleaved layout together with a plane
+// order that does not match the bit number of the plane; both are read
+// from the specification.
 func drawTile(img *image.Paletted, buf []byte, spec GraphicSpec, index int) {
 	planeBytes := (spec.Width + 7) / 8
 	tileX := (index % spec.Columns) * spec.Width
 	tileY := (index / spec.Columns) * spec.Height
 
+	// The bit of the colour index that each stored plane contributes.
+	bitOf := func(plane int) uint {
+		if plane < len(spec.PlaneOrder) {
+			return uint(spec.PlaneOrder[plane])
+		}
+		return uint(plane)
+	}
+
 	for row := 0; row < spec.Height; row++ {
-		// The colour index of every pixel of the row.
 		for col := 0; col < spec.Width; col++ {
 			value := 0
 			for plane := 0; plane < spec.Planes; plane++ {
-				planeOffset := (plane*spec.Height + row) * planeBytes
-				byteIndex := planeOffset + col/8
-				if byteIndex >= len(buf) {
+				var byteIndex int
+				if spec.Interleaved {
+					byteIndex = (row*planeBytes+col/8)*spec.Planes + plane
+				} else {
+					byteIndex = (plane*spec.Height+row)*planeBytes + col/8
+				}
+				if byteIndex < 0 || byteIndex >= len(buf) {
 					continue
 				}
 				bit := (buf[byteIndex] >> uint(7-col%8)) & 1
-				value |= int(bit) << uint(plane)
+				value |= int(bit) << bitOf(plane)
 			}
 			img.SetColorIndex(tileX+col, tileY+row, uint8(value))
 		}

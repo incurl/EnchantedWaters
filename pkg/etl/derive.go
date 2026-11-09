@@ -278,6 +278,35 @@ func PortID(name string) string {
 	return sb.String()
 }
 
+// The port attribute byte.
+//
+// The byte that follows the name of a port is the attribute byte of the
+// original record. The meaning of its bits was recovered by the analysis
+// of the original engine that the Water1-MapViewer project documents (the
+// engine of the first Uncharted Waters is the predecessor of this one, and
+// the port record has the same size):
+//
+//	0x10  the court ruler facility is available
+//	0x08  the port is discovered at the start of the game
+//	0x04  the guild is available
+//	0x03  the low two bits: the initial political code
+//
+// The court bit is the one this project can use: a port without a court
+// has no governor to visit, exactly as in the original game.
+//
+// The guild bit is understood but not used: the Guild is a facility of its
+// own in the original, while the Pub -- the tavern of this project -- is a
+// different building that exists in every port, so the tavern level keeps
+// following the class of the port.
+//
+// The low two bits are kept in the reference table but not interpreted,
+// because the political codes of the second game differ from the first.
+const (
+	portAttrCourt    = 0x10
+	portAttrGuild    = 0x04
+	portAttrDiscoved = 0x08
+)
+
 // DerivePorts generates assets/config/ports.csv from the imported port
 // table of the original game.
 //
@@ -333,6 +362,15 @@ func DerivePorts(cfgDir string) (int, error) {
 			shipyard, tavern, governor, church, inn, memory = 3, 3, 3, 2, 3, 7
 		}
 
+		// The original attribute byte decides whether the port has a
+		// court and a guild. A port without a court has no governor to
+		// visit, exactly as in the original game.
+		if p.Raw19&portAttrCourt == 0 {
+			governor = 0
+		} else if governor < 2 {
+			// A court in a small port still offers the governor screen.
+			governor = 2
+		}
 		// The latitude and the longitude are read off the map with the
 		// calibrated conversion (see mapToLatLon).
 		lat, lon := mapToLatLon(float64(p.MapX), float64(p.MapY))

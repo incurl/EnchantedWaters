@@ -273,6 +273,45 @@ becomes land when it lies close to a port, and the mask is then dilated and erod
 so that the outline follows the clusters of ports. It is a schematic world, not a
 cartographic one.
 
+### The graphics layout
+
+The graphics of the DOS releases are **planar**: the colour of a pixel is not
+stored as a byte, it is stored as one bit in each of several *planes*. A three plane
+image therefore holds three bits per pixel and eight colours, and a four plane image
+holds sixteen.
+
+Two details of the layout matter and both are part of the specification of a sprite
+sheet:
+
+* **The plane order.** The EGA adapters of the era wired the planes in an order that
+does not match their bit number. The reference analysis of the first Uncharted Waters
+documents the order `1, 4, 2` for its three plane art, which is written in a
+specification as `"plane_order": [0, 2, 1]`: the first stored plane is bit 0, the
+second is bit 2, the third is bit 1.
+* **The interleaving.** In the interleaved layout the bytes of the planes of one group
+of eight pixels follow each other; in the planar layout a whole plane is stored before
+the next one begins. `"interleaved": true` selects the first.
+
+The palette is the bright half of the EGA palette (`"ega_palette": true`), which is
+held in `pkg/importer/graphics.go`.
+
+A specification can therefore describe a sprite sheet completely:
+
+```json
+{
+  "graphics": [{
+    "name": "ega_sprite", "offset": 288,
+    "width": 24, "height": 12, "planes": 3, "columns": 1, "count": 1,
+    "plane_order": [0, 2, 1], "interleaved": true, "ega_palette": true
+  }]
+}
+```
+
+and the importer writes an indexed PNG with the eight colour palette. See
+`assets/specs/examples/planar_ega.json`. The decoder is covered by
+`TestPlanarDecodeMatchesTheReference`, which builds a sprite in the documented layout
+and checks that every pixel and the palette survive the round trip.
+
 ### What the importer does not read (yet)
 
 Some of the asset files could not be converted, because their container or their
@@ -280,7 +319,7 @@ encoding is not confirmed. They are listed here so that the gap is visible:
 
 | Files | Content | Why it is not converted |
 |---|---|---|
-| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the `LS10` / `LS11` container has a sixteen byte header of zeros, and neither the codec nor the geometry (the plane count and the tile size) is recorded in it |
+| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the `LS10` / `LS11` container has a sixteen byte header of zeros. The planar layout and the palette are known (see above), but the payload is compressed and neither the codec nor the geometry is recorded in the header; LZW in every bit order and width, LZSS in every flag polarity and field split, RLE and byte oriented LZ77 were all tried against it without a plausible output |
 | `GRAPH.DAT`, `GRAPH2.DAT` | the tiles and icons | the offset table is decoded (a big-endian table of 65 blocks), but the blocks themselves use the same unknown codec |
 | `EVENT*.DAT`, `ENDGRP.DAT`, `END_PUT.DAT` | the event and ending graphics | offset tables followed by planar graphics of an unknown geometry |
 | `WINDCUR.DAT`, `ZA_DAT.DAT` | the wind and current table, an unknown table | the bytes are obfuscated and the key is not recoverable from the data alone |
@@ -301,6 +340,26 @@ reimplementation can be compared with it; the rules, the balance and the code ar
 this project's own.
 
 ---
+
+## References
+
+The formats described above were recovered from the data itself and from three
+public sources, none of which contributes code to this project:
+
+* the data of the English DOS release (*New Horizons*), read as data only;
+* [osgameclones.com/uncharted-waters](https://osgameclones.com/uncharted-waters/),
+  which lists the open reimplementations of the game;
+* [onionmixer/Water1-MapViewer](https://github.com/onionmixer/Water1-MapViewer)
+  (MIT), whose `docs/data-provenance.md` documents the engine of the *first*
+  Uncharted Waters: the EGA planar layout with the plane order `1, 4, 2`, the bright
+  EGA palette, the twenty byte port record, and the meaning of the bits of the port
+  attribute byte. The engine of the second game is its successor and shares the port
+  record layout, which is why the same attribute byte was found at the same offset.
+
+The port coordinates of this project were independently confirmed against
+[JohanLi/uncharted-waters-2](https://github.com/JohanLi/uncharted-waters-2) (MIT),
+which holds the same 130 ports: its `x` is this project's `x` plus 720, a third of
+the map width, because that remake wraps the map so that Europe is centred.
 
 ## Testing
 
