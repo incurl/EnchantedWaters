@@ -31,24 +31,21 @@ import (
 
 func main() {
 	// The subcommand is the first argument; the default is "run".
-	command := "run"
-	if len(os.Args) > 1 {
-		command = os.Args[1]
-	}
+	command, args := splitCommand(os.Args)
 
 	switch command {
 	case "run":
-		if err := runGame(os.Args[2:]); err != nil {
+		if err := runGame(args); err != nil {
 			fmt.Fprintf(os.Stderr, "error: %v\n", err)
 			os.Exit(1)
 		}
 	case "import":
-		if err := runImport(os.Args[2:]); err != nil {
+		if err := runImport(args); err != nil {
 			fmt.Fprintf(os.Stderr, "error: %v\n", err)
 			os.Exit(1)
 		}
 	case "validate":
-		if err := runValidate(os.Args[2:]); err != nil {
+		if err := runValidate(args); err != nil {
 			fmt.Fprintf(os.Stderr, "error: %v\n", err)
 			os.Exit(1)
 		}
@@ -61,6 +58,27 @@ func main() {
 		printUsage()
 		os.Exit(2)
 	}
+}
+
+// splitCommand separates the subcommand from its arguments.
+//
+// The helper is defensive about the length of the argument list: the
+// program may be started without any argument at all, in which case the
+// default subcommand is used and the argument list is empty. Slicing
+// os.Args directly would panic in that case.
+func splitCommand(argv []string) (command string, args []string) {
+	// The default subcommand is "run".
+	command = "run"
+	args = []string{}
+	if len(argv) < 2 {
+		return command, args
+	}
+	command = argv[1]
+	// The rest of the arguments belong to the subcommand.
+	if len(argv) > 2 {
+		args = argv[2:]
+	}
+	return command, args
 }
 
 // printVersion prints the version of the build.
