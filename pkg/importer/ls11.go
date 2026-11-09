@@ -3,28 +3,17 @@ package importer
 import (
 	"encoding/binary"
 	"fmt"
-	"math/bits"
 )
 
-// This file implements the LS10/LS11 codec of the DOS releases of
+// This file implements the LS10 and LS11 codec of the DOS releases of
 // Uncharted Waters.
 //
-// The format is called "LZW" by the files that carry it, but that is a
-// misnomer. There is no dictionary of phrases and no sliding window. The
-// payload is a single stream of variable length codes, each of which
-// selects one byte out of a 256 entry substitution table, and the length of
-// a code is its own value in a self describing way.
-//
-// A code is read as follows. The reader counts the zeros that follow until
-// the first one; call that count k. Then it reads k+1 bits, most
-// significant first, as a number v. The code is
-//
-//	symbol = 2^(k+1) + v - 2
-//
-// which is the Elias gamma code of the symbol with the two lowest values
-// removed. A symbol of zero is therefore the two bits "1 0" and a symbol
-// of one is "1 0 1", and the table is consulted with the symbol as an
-// index.
+// The files are called ".LZW" and the community calls the codec "the KOEI
+// LZW variant", but it is neither LZW nor a variant of it. There is no
+// dictionary of phrases and no sliding window over the input. The payload
+// of a block is a stream of variable length codes, each of which either
+// names a byte out of a 256 entry substitution table or points back into the
+// output that has already been produced.
 //
 // The layout of a file is
 //
@@ -37,19 +26,33 @@ import (
 // 32 bit numbers — the compressed size, the uncompressed size and the
 // offset of the block — and it ends with four zero bytes.
 //
-// The payload of the file is one continuous bitstream that starts at the
-// offset of the first block. The blocks divide it into pieces of the
-// uncompressed size, and the pieces are *not* aligned to byte boundaries,
-// which is why a decoder that restarts at each block fails on everything
-// but the smallest ones.
+// A block whose compressed size equals its uncompressed size is not
+// compressed at all; its bytes are the output.
 //
-// The file does not say which symbol stands for which byte of the output;
-// the substitution table does. The table is a permutation of the 256 byte
-// values and it is ordered by how often the bytes occur in the file, so
-// that the common bytes get the short codes.
+// The codes of a compressed block are read from a bitstream that starts at
+// the first byte of the block and is read from the *least* significant bit
+// of each byte upwards. Each code is
 //
-// The LS10 and LS11 headers differ in nothing but the two digits. Both
-// magics appear in the same release and both use this codec.
+//	a run of one bits, a zero, and then the run length in bits
+//
+// where the run length counts the one bits of the run. The value of the
+// code is the run of one bits read as a number, plus the factor read as a
+// number:
+//
+//	code = run + factor
+//
+// A code below 256 is an index into the substitution table. A code of 256 or
+// more is a back reference: the offset into the output is code - 256 and
+// the length is a second code plus three.
+//
+// The blocks are independent of each other: each has its own bitstream and
+// its own output buffer, and the back references of a block point into
+// that block's own output. This is worth knowing, because the blocks of a
+// file tile the payload byte for byte and it is tempting to read them as
+// one continuous stream.
+//
+// The magic and the codec differ in nothing but the two digits: the first
+// generation of the game and the second both use this scheme.
 
 // LZW magic numbers.
 const (
@@ -70,11 +73,14 @@ const (
 	lsTableOffset = 272
 	// lsBlockRecordSize is the size of one block table record.
 	lsBlockRecordSize = 12
+	// lsMatchMin is the smallest length that a back reference can have.
+	// The length of a reference is the second code plus this.
+	lsMatchMin = 3
 )
 
 // LSBlock is one record of the block table.
 type LSBlock struct {
-	// CompressedSize is the size of the block in the payload.
+	// CompressedSize is the size of the block in the file.
 	CompressedSize int
 	// UncompressedSize is the size of the block once decoded.
 	UncompressedSize int
@@ -90,13 +96,11 @@ type LSFile struct {
 	Dictionary [lsDictSize]byte
 	// Blocks holds the block table.
 	Blocks []LSBlock
-	// Payload is the compressed stream.
-	Payload []byte
 }
 
 // ParseLS reads an LS10 or LS11 file and returns its structure.
 //
-// The function does not decode the payload; call DecodeLS for that.
+// The function does not decode the blocks; call DecodeLS for that.
 func ParseLS(data []byte) (*LSFile, error) {
 	if len(data) < lsTableOffset {
 		return nil, fmt.Errorf("the file is too short to hold a header")
@@ -109,18 +113,13 @@ func ParseLS(data []byte) (*LSFile, error) {
 	copy(f.Dictionary[:], data[lsDictOffset:lsDictOffset+lsDictSize])
 
 	// The block table runs to the end of the header area and ends with
-	// four zero bytes. The check is on the compressed size alone: a
-	// block whose compressed size is zero is the terminator, and the
-	// rest of the record is payload again.
+	// four zero bytes. The check is on the compressed size alone.
 	pos := lsTableOffset
 	for pos+lsBlockRecordSize <= len(data) {
 		c := binary.BigEndian.Uint32(data[pos : pos+4])
 		u := binary.BigEndian.Uint32(data[pos+4 : pos+8])
 		o := binary.BigEndian.Uint32(data[pos+8 : pos+12])
 		if c == 0 {
-			// The terminator is four zero bytes and the payload starts
-			// right after it.
-			pos += 4
 			break
 		}
 		f.Blocks = append(f.Blocks, LSBlock{
@@ -133,177 +132,115 @@ func ParseLS(data []byte) (*LSFile, error) {
 	if len(f.Blocks) == 0 {
 		return nil, fmt.Errorf("the block table is empty")
 	}
-	// The offset of the first block is where the payload starts, and the
-	// offset of the last block plus its compressed size is where it ends.
-	// The two are not always the ends of the file: KAO.LZW carries more
-	// data behind its blocks.
-	first := f.Blocks[0].Offset
-	last := f.Blocks[len(f.Blocks)-1]
-	end := last.Offset + last.CompressedSize
-	if first > len(data) || end > len(data) {
-		return nil, fmt.Errorf("the blocks run from %d to %d, past the end of the file", first, end)
-	}
-	f.Payload = data[first:end]
 	return f, nil
 }
 
-// DecodeLS decodes the payload of an LS file into its blocks.
-//
-// The payload is one continuous bitstream. The blocks tile it byte-wise —
-// the offset of a block is the offset of its predecessor plus the
-// compressed size of that predecessor — but the *codes* cross the byte
-// boundaries, so a decoder that restarts the bit reader at every block
-// fails on everything but the smallest ones.
-//
-// The decoded bytes of a block are the values that the substitution table
-// gives for the symbols of that piece.
+// DecodeLS decodes the blocks of an LS file.
 //
 // The function returns one byte slice per block. The total length is the
 // sum of the uncompressed sizes of the blocks.
-func DecodeLS(f *LSFile) ([][]byte, error) {
-	symbols, err := lsDecodeSymbols(f.Payload)
-	if err != nil {
-		return nil, err
-	}
+func DecodeLS(f *LSFile, data []byte) ([][]byte, error) {
 	out := make([][]byte, 0, len(f.Blocks))
-	pos := 0
 	for i, b := range f.Blocks {
-		if pos+b.UncompressedSize > len(symbols) {
-			return nil, fmt.Errorf("block %d needs %d bytes but only %d symbols were decoded",
-				i, b.UncompressedSize, len(symbols)-pos)
+		if b.Offset+b.CompressedSize > len(data) {
+			return nil, fmt.Errorf("block %d runs past the end of the file", i)
 		}
-		chunk := symbols[pos : pos+b.UncompressedSize]
-		pos += b.UncompressedSize
-		bytes := make([]byte, len(chunk))
-		for j, s := range chunk {
-			if s < 0 || s >= lsDictSize {
-				return nil, fmt.Errorf("block %d: the symbol %d at offset %d is outside the table", i, s, j)
-			}
-			bytes[j] = f.Dictionary[s]
+		raw := data[b.Offset : b.Offset+b.CompressedSize]
+		if b.CompressedSize == b.UncompressedSize {
+			// The block is not compressed.
+			buf := make([]byte, len(raw))
+			copy(buf, raw)
+			out = append(out, buf)
+			continue
 		}
-		out = append(out, bytes)
+		buf, err := lsDecodeBlock(raw, b.CompressedSize, b.UncompressedSize, &f.Dictionary)
+		if err != nil {
+			return nil, fmt.Errorf("block %d: %w", i, err)
+		}
+		out = append(out, buf)
 	}
 	return out, nil
 }
 
-// lsFraming says which bit ends the unary prefix of a code.
-type lsFraming int
-
-const (
-	// lsFramingZero ends the unary prefix with a zero, so the prefix
-	// itself is a run of ones.
-	//
-	// This is the framing of the DOS release of the second game and of
-	// the reference implementation of the Mega Drive release.
-	lsFramingZero lsFraming = iota
-	// lsFramingOne ends the unary prefix with a one, so the prefix
-	// itself is a run of zeros.
-	//
-	// This is the framing of the scenario data and of the first game.
-	lsFramingOne
-)
-
-// lsDecodeSymbols reads the variable length codes of a payload.
+// lsDecodeBlock decodes one compressed block.
 //
-// A code is a unary prefix, the bit that ends it, and then k+1 bits most
-// significant first; its value is 2^(k+1) + v - 2. The reading stops at
-// the end of the payload or at a malformed code.
-func lsDecodeSymbols(payload []byte) ([]int, error) {
-	return lsDecodeSymbolsFramed(payload, lsFramingZero)
-}
-
-// lsDecodeSymbolsFramed reads the variable length codes of a payload with
-// the given framing.
-//
-// The framing names the bit that ends the unary prefix; the prefix itself
-// is a run of the other bit.
-func lsDecodeSymbolsFramed(payload []byte, framing lsFraming) ([]int, error) {
-	terminator := byte(0)
-	if framing == lsFramingOne {
-		terminator = 1
+// The bitstream of a block starts at its first byte and is read most
+// significant bit first: the bits of a byte come out from the top down,
+// and the bytes follow each other in order.
+func lsDecodeBlock(comp []byte, compSize, uncompSize int, dict *[lsDictSize]byte) ([]byte, error) {
+	if compSize > len(comp) {
+		return nil, fmt.Errorf("the block wants %d bytes but only %d are there", compSize, len(comp))
 	}
-	prefixBit := 1 - terminator
-	symbols := make([]int, 0, len(payload)*8/5)
+	out := make([]byte, uncompSize)
 	bitPos := 0
-	bitLen := len(payload) * 8
-	for bitPos < bitLen {
-		// Count the bits of the unary prefix.
-		k := 0
-		for bitPos < bitLen && lsBit(payload, bitPos) == prefixBit {
-			k++
+	bitLen := compSize * 8
+	outPos := 0
+
+	// readCode reads one code of the bitstream.
+	readCode := func() (int, bool) {
+		// The run of one bits, and the zero that ends it. The bits of
+		// the run are read as a number as they come, and the zero that
+		// ends it is part of that number.
+		run := 0
+		count := 0
+		for {
+			if bitPos >= bitLen {
+				return 0, false
+			}
+			bit := lsBitMSB(comp, bitPos)
+			bitPos++
+			run = run<<1 | int(bit)
+			count++
+			if bit == 0 {
+				break
+			}
+		}
+		// The factor is count bits.
+		factor := 0
+		for i := 0; i < count; i++ {
+			if bitPos >= bitLen {
+				return 0, false
+			}
+			factor = factor<<1 | int(lsBitMSB(comp, bitPos))
 			bitPos++
 		}
-		if bitPos >= bitLen {
+		return run + factor, true
+	}
+
+	for outPos < uncompSize {
+		code, ok := readCode()
+		if !ok {
 			break
 		}
-		// The next bit must be the one that ends the prefix.
-		if lsBit(payload, bitPos) != terminator {
-			return nil, fmt.Errorf("malformed code at bit %d: the unary prefix is not terminated", bitPos)
+		if code < lsDictSize {
+			out[outPos] = dict[code]
+			outPos++
+			continue
 		}
-		bitPos++
-		// The factor is k+1 bits, most significant first.
-		width := k + 1
-		if bitPos+width > bitLen {
-			return nil, fmt.Errorf("malformed code at bit %d: the factor runs past the end of the payload", bitPos)
+		// A back reference into the output of this block.
+		offset := code - lsDictSize
+		length, ok := readCode()
+		if !ok {
+			break
 		}
-		value := 0
-		for i := 0; i < width; i++ {
-			value = value<<1 | int(lsBit(payload, bitPos+i))
+		length += lsMatchMin
+		if offset <= 0 || offset > outPos {
+			return nil, fmt.Errorf("the back reference points %d bytes back, but only %d are there", offset, outPos)
 		}
-		bitPos += width
-		symbols = append(symbols, (1<<width)+value-2)
+		if outPos+length > uncompSize {
+			length = uncompSize - outPos
+		}
+		// The copy may overlap, so it has to run forwards.
+		for i := 0; i < length; i++ {
+			out[outPos] = out[outPos-offset]
+			outPos++
+		}
 	}
-	return symbols, nil
+	return out[:outPos], nil
 }
 
-// lsBit returns the bit at the given index, counting from the most
+// lsBitMSB returns the bit at the given index, counting from the most
 // significant bit of the first byte.
-func lsBit(data []byte, index int) byte {
-	return data[index>>3] >> (7 - uint(index&7)) & 1
-}
-
-// lsEncodeSymbols writes the variable length codes of a list of symbols.
-//
-// It is the inverse of lsDecodeSymbols and exists so that a decoder can be
-// proved against the data: encoding the symbols of a payload and comparing
-// the result with the payload must reproduce it byte for byte.
-func lsEncodeSymbols(symbols []int) []byte {
-	return lsEncodeSymbolsFramed(symbols, lsFramingZero)
-}
-
-// lsEncodeSymbolsFramed writes the variable length codes of a list of
-// symbols with the given framing.
-func lsEncodeSymbolsFramed(symbols []int, framing lsFraming) []byte {
-	// The framing names the bit that *ends* the unary prefix: the
-	// prefix is a run of the other bit.
-	terminator := byte(0)
-	if framing == lsFramingOne {
-		terminator = 1
-	}
-	prefixBit := 1 - terminator
-	stream := make([]byte, 0, len(symbols)*5)
-	for _, s := range symbols {
-		// The code is the Elias gamma code of s+2. The number is
-		// written with its leading one implied, so the factor that
-		// follows the prefix is one bit shorter than the number.
-		n := s + 2
-		factor := bits.Len(uint(n)) - 1
-		// The prefix is factor-1 bits of the prefix value, the bit that
-		// ends it, and then the factor, which is the number without
-		// its leading one.
-		for i := 0; i < factor-1; i++ {
-			stream = append(stream, prefixBit)
-		}
-		stream = append(stream, terminator)
-		for i := factor - 1; i >= 0; i-- {
-			stream = append(stream, byte(n>>uint(i)&1))
-		}
-	}
-	out := make([]byte, (len(stream)+7)/8)
-	for i, b := range stream {
-		if b != 0 {
-			out[i>>3] |= 1 << (7 - uint(i&7))
-		}
-	}
-	return out
+func lsBitMSB(data []byte, index int) byte {
+	return data[index>>3] >> uint(7-index&7) & 1
 }

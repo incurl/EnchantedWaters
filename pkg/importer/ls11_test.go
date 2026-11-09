@@ -1,8 +1,6 @@
 package importer
 
 import (
-	"bytes"
-	"math/bits"
 	"os"
 	"path/filepath"
 	"testing"
@@ -24,30 +22,26 @@ func lsRawDir(t *testing.T) string {
 	return dir
 }
 
-// TestLSRoundTripIsByteExact proves the codec.
+// TestLSDecodesEveryBlock checks that every block of every LS file of the
+// release decodes to exactly the size that its record asks for.
 //
-// The property that identifies the format is that the payload is a single
-// continuous bitstream of variable length codes, and that re-encoding the
-// symbols which were read from it reproduces the payload byte for byte.
-// The test reads every LS file of the release, decodes it, and checks that
-// property for each one.
-//
-// A decoder that restarted at every block would fail this test on all but
-// the smallest blocks, because the block boundaries fall in the middle of
-// a byte.
-func TestLSRoundTripIsByteExact(t *testing.T) {
+// This is the property that holds the codec together: the block table
+// records the size of the output, and a decoder that reads the codes
+// correctly must produce exactly that many bytes.
+func TestLSDecodesEveryBlock(t *testing.T) {
 	dir := lsRawDir(t)
 	entries, err := os.ReadDir(dir)
 	if err != nil {
 		t.Fatalf("reading %s: %v", dir, err)
 	}
-	found := 0
+	files := 0
+	blocks := 0
 	for _, e := range entries {
 		name := e.Name()
 		if len(name) < 4 || name[len(name)-4:] != ".LZW" {
 			continue
 		}
-		found++
+		files++
 		data, err := os.ReadFile(filepath.Join(dir, name))
 		if err != nil {
 			t.Fatalf("reading %s: %v", name, err)
@@ -57,13 +51,53 @@ func TestLSRoundTripIsByteExact(t *testing.T) {
 			t.Errorf("%s: %v", name, err)
 			continue
 		}
-		if f.Magic != LSMagic10 && f.Magic != LSMagic11 {
-			t.Errorf("%s: the magic is %q", name, f.Magic)
+		parts, err := DecodeLS(f, data)
+		if err != nil {
+			t.Errorf("%s: %v", name, err)
+			continue
 		}
+		if len(parts) != len(f.Blocks) {
+			t.Errorf("%s: decoded %d blocks, want %d", name, len(parts), len(f.Blocks))
+			continue
+		}
+		for i, p := range parts {
+			want := f.Blocks[i].UncompressedSize
+			if len(p) != want {
+				t.Errorf("%s: block %d decoded to %d bytes, want %d", name, i, len(p), want)
+			}
+			blocks++
+		}
+	}
+	if files == 0 {
+		t.Skip("no LS files were found")
+	}
+	t.Logf("decoded %d blocks of %d files", blocks, files)
+}
 
-		// The block table must tile the payload: the offset of a block
-		// is the offset of its predecessor plus the compressed size of
-		// that predecessor.
+// TestLSBlockTableTilesThePayload checks the block table.
+//
+// The offset of a block is the offset of its predecessor plus the
+// compressed size of that predecessor, so the blocks tile the payload.
+func TestLSBlockTableTilesThePayload(t *testing.T) {
+	dir := lsRawDir(t)
+	entries, err := os.ReadDir(dir)
+	if err != nil {
+		t.Fatalf("reading %s: %v", dir, err)
+	}
+	for _, e := range entries {
+		name := e.Name()
+		if len(name) < 4 || name[len(name)-4:] != ".LZW" {
+			continue
+		}
+		data, err := os.ReadFile(filepath.Join(dir, name))
+		if err != nil {
+			t.Fatalf("reading %s: %v", name, err)
+		}
+		f, err := ParseLS(data)
+		if err != nil {
+			t.Errorf("%s: %v", name, err)
+			continue
+		}
 		for i := 1; i < len(f.Blocks); i++ {
 			want := f.Blocks[i-1].Offset + f.Blocks[i-1].CompressedSize
 			if f.Blocks[i].Offset != want {
@@ -74,28 +108,7 @@ func TestLSRoundTripIsByteExact(t *testing.T) {
 		if last.Offset+last.CompressedSize > len(data) {
 			t.Errorf("%s: the last block runs past the end of the file", name)
 		}
-
-		// The round trip: decode the symbols and encode them again.
-		// The framing that reproduces the payload is the right one.
-		ok := false
-		for _, framing := range []lsFraming{lsFramingZero, lsFramingOne} {
-			symbols, err := lsDecodeSymbolsFramed(f.Payload, framing)
-			if err != nil {
-				continue
-			}
-			if bytes.Equal(lsEncodeSymbolsFramed(symbols, framing), f.Payload) {
-				ok = true
-				break
-			}
-		}
-		if !ok {
-			t.Errorf("%s: the payload is not reproduced by re-encoding its symbols", name)
-		}
 	}
-	if found == 0 {
-		t.Skip("no LS files were found")
-	}
-	t.Logf("checked %d LS files", found)
 }
 
 // TestLSDictionaryIsAPermutation checks the substitution table.
@@ -130,152 +143,64 @@ func TestLSDictionaryIsAPermutation(t *testing.T) {
 	}
 }
 
-// TestLSBlockSizesAreConsistent measures how many symbols the payload
-// holds against the size the block table asks for.
+// TestLSCodeReading checks the reading of a code by hand.
 //
-// The payload holds fewer symbols than the blocks want, because each symbol
-// stands for a phrase rather than for a single byte: the difference is the
-// work of the expansion layer, which is not implemented yet. The test
-// records the ratio so that a change in the codec shows up here.
-func TestLSBlockSizesAreConsistent(t *testing.T) {
-	dir := lsRawDir(t)
-	entries, err := os.ReadDir(dir)
-	if err != nil {
-		t.Fatalf("reading %s: %v", dir, err)
+// The bitstream is read most significant bit first. A code is a run of one
+// bits, a zero, and then the run length in bits; the value is the run read
+// as a number plus the factor.
+//
+// The first byte of a block, 0x3c, reads as 0, 0, 1, 1, 1, 1, 0, 0 from
+// the top down. The first bit is a zero, so the run is empty and the factor
+// is zero bits long: the code is 0.
+func TestLSCodeReading(t *testing.T) {
+	block := []byte{0x3c}
+	code, ok := lsReadFirstCode(block, 8)
+	if !ok {
+		t.Fatal("the first code could not be read")
 	}
-	for _, e := range entries {
-		name := e.Name()
-		if len(name) < 4 || name[len(name)-4:] != ".LZW" {
-			continue
-		}
-		data, err := os.ReadFile(filepath.Join(dir, name))
-		if err != nil {
-			t.Fatalf("reading %s: %v", name, err)
-		}
-		f, err := ParseLS(data)
-		if err != nil {
-			continue
-		}
-		total := 0
-		for _, b := range f.Blocks {
-			total += b.UncompressedSize
-		}
-		symbols, err := lsDecodeSymbols(f.Payload)
-		if err != nil {
-			continue
-		}
-		if len(symbols) < total {
-			t.Logf("%s: the payload holds %d symbols for %d bytes of output (a ratio of %.3f)",
-				name, len(symbols), total, float64(total)/float64(len(symbols)))
-		}
+	if code != 0 {
+		t.Errorf("the first code of 0x3c is %d, want 0", code)
+	}
+
+	// A run of ones exercises the run part of the code: 0xe0 reads as
+	// 1, 1, 1, 0, 0, 0, 0, 0, so the run is three ones, the number is
+	// 0b1110 = 14, and the factor is the three bits that follow.
+	block = []byte{0xe0, 0x00}
+	code, ok = lsReadFirstCode(block, 16)
+	if !ok {
+		t.Fatal("the first code could not be read")
+	}
+	// The run read as a number is 0b1110 = 14, and the factor that
+	// follows is the three bits 0b000 = 0.
+	if code != 14 {
+		t.Errorf("the first code of 0xe0 is %d, want 14", code)
 	}
 }
 
-// TestLSCodeEncoding checks the code of a few symbols by hand.
-//
-// A code is the unary prefix of the Elias gamma code of the symbol plus
-// two: the prefix is a run of ones, a zero, and then the factor, most
-// significant bit first.
-//
-//	0 -> 0 0          (n = 2, factor 0)
-//	1 -> 0 1          (n = 3, factor 1)
-//	2 -> 1 0 0 0      (n = 4, factor 00)
-//	3 -> 1 0 0 1      (n = 5, factor 01)
-//
-// The comparison is at the bit level, because the codes are packed into
-// bytes and a short code shares its byte with the next one.
-func TestLSCodeEncoding(t *testing.T) {
-	cases := []struct {
-		symbol int
-		want   []byte
-	}{
-		{0, []byte{0, 0}},
-		{1, []byte{0, 1}},
-		{2, []byte{1, 0, 0, 0}},
-		{3, []byte{1, 0, 0, 1}},
-	}
-	for _, c := range cases {
-		got := lsCodeBits(c.symbol, lsFramingZero)
-		if len(got) != len(c.want) {
-			t.Errorf("the code of %d is %v, want %v", c.symbol, got, c.want)
-			continue
+// lsReadFirstCode reads the first code of a bitstream, for the test.
+func lsReadFirstCode(comp []byte, bitLen int) (int, bool) {
+	bitPos := 0
+	run := 0
+	count := 0
+	for {
+		if bitPos >= bitLen {
+			return 0, false
 		}
-		for i := range got {
-			if got[i] != c.want[i] {
-				t.Errorf("the code of %d is %v, want %v", c.symbol, got, c.want)
-				break
-			}
+		bit := lsBitMSB(comp, bitPos)
+		bitPos++
+		run = run<<1 | int(bit)
+		count++
+		if bit == 0 {
+			break
 		}
 	}
-}
-
-// TestLSZerosFramingCodeEncoding checks the other framing.
-//
-// The prefix is a run of zeros and a one.
-//
-//	0 -> 1 0
-//	1 -> 1 1
-func TestLSZerosFramingCodeEncoding(t *testing.T) {
-	cases := []struct {
-		symbol int
-		want   []byte
-	}{
-		{0, []byte{1, 0}},
-		{1, []byte{1, 1}},
-	}
-	for _, c := range cases {
-		got := lsCodeBits(c.symbol, lsFramingOne)
-		if len(got) != len(c.want) {
-			t.Errorf("the code of %d is %v, want %v", c.symbol, got, c.want)
-			continue
+	factor := 0
+	for i := 0; i < count; i++ {
+		if bitPos >= bitLen {
+			return 0, false
 		}
-		for i := range got {
-			if got[i] != c.want[i] {
-				t.Errorf("the code of %d is %v, want %v", c.symbol, got, c.want)
-				break
-			}
-		}
+		factor = factor<<1 | int(lsBitMSB(comp, bitPos))
+		bitPos++
 	}
-}
-
-// lsCodeBits returns the bits of the code of a symbol with the given
-// framing, most significant bit first.
-//
-// The framing names the bit that ends the unary prefix.
-func lsCodeBits(symbol int, framing lsFraming) []byte {
-	terminator := byte(0)
-	if framing == lsFramingOne {
-		terminator = 1
-	}
-	prefixBit := 1 - terminator
-	n := symbol + 2
-	factor := bits.Len(uint(n)) - 1
-	out := make([]byte, 0, factor*2+1)
-	for i := 0; i < factor-1; i++ {
-		out = append(out, prefixBit)
-	}
-	out = append(out, terminator)
-	for i := factor - 1; i >= 0; i-- {
-		out = append(out, byte(n>>uint(i)&1))
-	}
-	return out
-}
-
-// TestLSDecodeSymbolsRoundTrips checks that the decoder and the encoder
-// agree on a list of symbols.
-func TestLSDecodeSymbolsRoundTrips(t *testing.T) {
-	symbols := []int{0, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 255, 0, 7, 200}
-	encoded := lsEncodeSymbols(symbols)
-	decoded, err := lsDecodeSymbols(encoded)
-	if err != nil {
-		t.Fatalf("decoding: %v", err)
-	}
-	if len(decoded) != len(symbols) {
-		t.Fatalf("decoded %d symbols, want %d", len(decoded), len(symbols))
-	}
-	for i := range symbols {
-		if decoded[i] != symbols[i] {
-			t.Errorf("symbol %d decoded as %d", i, decoded[i])
-		}
-	}
+	return run + factor, true
 }

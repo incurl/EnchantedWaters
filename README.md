@@ -413,22 +413,11 @@ and checks that every pixel and the palette survive the round trip.
 
 ### The LS10 and LS11 container
 
-The `.LZW` files are not compressed with LZW. The name is a misnomer: there is no
-dictionary of phrases and no sliding window. The payload is a single stream of
-variable length codes, each of which selects one byte out of a 256 entry
-substitution table, and the length of a code is its own value in a self
-describing way.
-
-A code is a run of bits, the bit that ends the run, and then the factor:
-
-```text
-k      = the number of bits in the run
-factor = k bits, most significant first
-symbol = 2^k + factor - 2
-```
-
-which is the Elias gamma code of the symbol with the two lowest values removed.
-A symbol of zero is therefore the two bits `0 0` and a symbol of one is `0 1`.
+The `.LZW` files are not compressed with LZW, and the community name for the
+codec — "the KOEI LZW variant" — is a misnomer. There is no dictionary of
+phrases and no sliding window over the input. A block is a stream of variable
+length codes, and each code either names a byte out of a 256 entry substitution
+table or points back into the output that has already been produced.
 
 The layout of a file is
 
@@ -443,43 +432,46 @@ The block table is a list of twelve byte records of three big endian 32 bit
 numbers — the compressed size, the uncompressed size and the offset of the
 block — and it ends with four zero bytes. The blocks tile the payload exactly:
 the offset of a block is the offset of its predecessor plus the compressed size
-of that predecessor.
+of that predecessor. A block whose compressed size equals its uncompressed size
+is not compressed at all.
 
-Two details make a decoder fail on everything but the smallest blocks:
+The codes of a compressed block are read from a bitstream that starts at the
+first byte of the block and is read most significant bit first. A code is a run
+of one bits, a zero, and then the run length in bits:
 
-* **the payload is one continuous bitstream.** The blocks divide it into pieces
-  of the uncompressed size, but the pieces are not aligned to byte boundaries,
-  so a decoder that restarts the bit reader at every block loses its place.
-* **the framing differs between the generations.** The second game counts the
-  ones of the run and ends it with a zero; the scenario data counts the zeros
-  and ends it with a one. The decoder tries both and keeps the one that
-  reproduces the payload.
+```text
+run    = the run of one bits, read as a number
+factor = the run length in bits, most significant first
+code   = run + factor
+```
 
-The proof that the framing is right is that **re-encoding the symbols of a
-payload reproduces the payload byte for byte**. `TestLSRoundTripIsByteExact`
-checks that property for all fourteen files of the release, and it is the
-property that distinguishes a correct decoder from a self consistent one.
+A code below 256 is an index into the substitution table. A code of 256 or more
+is a back reference: the offset into the output is `code - 256` and the length
+is a second code plus three. The blocks are independent of each other — each
+has its own bitstream and its own output, and the back references of a block
+point into that block's own output.
 
-What is still missing is the expansion layer. The payload holds fewer symbols
-than the blocks ask for — 274,581 symbols for the 368,448 bytes of `KAO.LZW`,
-for instance — so a symbol stands for a phrase rather than for a byte. The
-mapping is known: a symbol below 256 is the byte that the substitution table
-gives for it, and the first bytes of `KAO.LZW` confirm it — the codes `0, 40,
-0, …` give the bytes `00, 44, 00, …`, and the substitution table gives `0x00`
-for 0 and `0x44` for 40, which is exactly what the reference portrait of the
-first character starts with. A symbol of 256 or more is a phrase, and the rule
-that builds the phrases is the part that is still missing.
+Two things are worth writing down, because both cost a lot of time to find:
 
-The ratio is a good clue for finding it: `PORTMAP.LZW` expands by 9.7 bytes per
-symbol, because a port map repeats itself heavily, and `KAO.LZW` by 1.3. The
-`KAO.LZW` file also carries 173,376 bytes of *uncompressed* planar data behind
-its last block, which is where the large portraits of the second set live.
+* **the bit order is the one that looks wrong.** The bit index starts at 7 and
+  counts *down*, and the byte index moves forward. That is plain most
+  significant bit first, but it reads like least significant bit first if the
+  two counters are confused.
+* **the run of one bits is part of the number.** The zero that ends the run is
+  the last bit of the run's value, not a separate marker, so a run of three
+  ones followed by a zero is the number `0b1110`.
 
-The naming of the format is worth repeating, because it has cost a lot of time:
-the files are called `.LZW` and the community calls the codec "the KOEI LZW
-variant", but it is neither LZW nor a variant of it. It is a gamma code over a
-substitution table, and the phrase layer that makes it a dictionary coder was
-added on top of that.
+The graphics of the game are planar and are stored group interleaved: the
+pixels come in groups of eight and each group is stored as one byte per plane,
+the first byte holding the highest bit of the colour index. The portraits of
+`KAO.LZW` are 64 by 80 pixels in three planes, which is 1920 bytes a piece.
+
+The proof that all of this is right is `TestLSPortraitPixelsMatchTheReference`,
+which decodes the portraits of `KAO.LZW` and compares them with the images of
+a third party implementation pixel by pixel: all 128 of them are identical. The
+byte level test is `TestLSDecodesEveryBlock`, which checks that all 675 blocks
+of the fourteen files of the release decode to exactly the size their record
+asks for.
 
 ### What the importer does not read (yet)
 
@@ -488,8 +480,8 @@ encoding is not confirmed. They are listed here so that the gap is visible:
 
 | Files | Content | Why it is not converted |
 |---|---|---|
-| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the container and the code are decoded (see above), but the expansion layer — the rule that turns a symbol into a phrase — is not, so the pixel data cannot be reconstructed yet |
-| `GRAPH.DAT`, `GRAPH2.DAT` | the tiles and icons | the offset table is decoded (a big-endian table of 65 blocks), but the blocks themselves use the same unknown expansion |
+| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the container and the codec are decoded and the pixels are recovered (see above), but the importer does not write them out yet |
+| `GRAPH.DAT`, `GRAPH2.DAT` | the tiles and icons | the offset table is decoded (a big-endian table of 65 blocks), but the blocks themselves use a codec that has not been identified |
 | `EVENT*.DAT`, `ENDGRP.DAT`, `END_PUT.DAT` | the event and ending graphics | offset tables followed by planar graphics of an unknown geometry |
 | `WINDCUR.DAT`, `ZA_DAT.DAT` | the wind and current table, an unknown table | the bytes are obfuscated and the key is not recoverable from the data alone |
 | `TRANSIT.DAT`, `MONSTER.DAT` | an animation and a small table | the records are not understood, and guessing their meaning would be worse than leaving them out |
@@ -529,6 +521,19 @@ The port coordinates of this project were independently confirmed against
 [JohanLi/uncharted-waters-2](https://github.com/JohanLi/uncharted-waters-2) (MIT),
 which holds the same 130 ports: its `x` is this project's `x` plus 720, a third of
 the map width, because that remake wraps the map so that Europe is centred.
+
+The codec of the `.LZW` files was recovered from
+[gcjjyy/koei_viewer](https://github.com/gcjjyy/koei_viewer) (MIT), a viewer for
+the image data of the KOEI games of the DOS era. Its `ls11-decoder.ts` gives the
+reading of the codes and the back references, and its `koei-image.ts` the layout
+of the planar data. Its `config.json` records which file holds what: `KAO.LZW`
+is the face data of this game at 64×80 in three planes, and the same file name
+appears in several other games of the series with four planes and a different
+size, so the geometry is a property of the file and not of the container. The
+decoder of this project was written against that description and then checked
+against the data: all 675 blocks of the fourteen files of the release decode to
+exactly the size their record asks for, and all 128 portraits of `KAO.LZW` come
+out pixel for pixel identical to the images of that viewer.
 
 That remake is also the reference for the *rules* of the game, which the data
 files do not spell out:
