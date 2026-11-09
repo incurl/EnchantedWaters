@@ -672,10 +672,36 @@ public sources, none of which contributes code to this project:
   attribute byte. The engine of the second game is its successor and shares the port
   record layout, which is why the same attribute byte was found at the same offset.
 
-The port coordinates of this project were independently confirmed against
+### The second remake
+
+The port coordinates, the hulls and the sailing model of this project were
+independently confirmed against
 [JohanLi/uncharted-waters-2](https://github.com/JohanLi/uncharted-waters-2) (MIT),
-which holds the same 130 ports: its `x` is this project's `x` plus 720, a third of
-the map width, because that remake wraps the map so that Europe is centred.
+a remake in TypeScript. The comparison is worth spelling out, because most of
+it confirms what this project had already worked out on its own.
+
+| What | The result |
+|---|---|
+| The map of the towns | `portTilemaps.wasm` of that project is **byte for byte** the payload of this project's `townmaps.bin`, which is an independent confirmation of the grid of ninety six by ninety six and of the two hundred and forty tiles of a set |
+| The table of the towns | the tileset of every port of that project equals this project's `CHIP_NO.DAT`, port for port, and the counts agree: 38, 18, 18, 15, 5, 4 and 2 |
+| The port coordinates | its `x` is this project's `x` plus 720, a third of the map width, and the `y` is the same for all one hundred and thirty ports. That remake wraps the map so that Europe is centred, and the twenty five ports of the Americas wrap past the edge |
+| The hulls | the same twenty five ships in the same order, and every field of every ship agrees: the durability, the crew, the capacity, the tacking, the power, the minimum crew and the sail type |
+| The sailing model | the same formula and the same table of the wind factors, sail type against the number of octants from the wind |
+
+That project also settles two things this project had not worked out.
+
+**The map of the world is 2160 by 1080 tiles of thirty two pixels.** Its
+`worldTilemap.wasm` holds one byte for every cell of that grid, and a value of
+fifty or more is land. The value is the index of a tile of a world tileset of
+a hundred and twenty eight tiles, which the tileset of the release provides.
+
+**The wind and the current are read from a grid of sea areas.** The sea area of
+a position is the column divided by seventy two and the row divided by seventy
+two, and the tables of the wind and the current are indexed by that number:
+the direction of the wind in the summer and in the winter, the speed in the
+summer and in the winter, and the direction and the speed of the current. The
+file of the release, `WINDCUR.DAT`, holds the same data, but obfuscated, and
+this project has not recovered the key.
 
 The codec of the `.LZW` files was recovered from
 [gcjjyy/koei_viewer](https://github.com/gcjjyy/koei_viewer) (MIT), a viewer for
