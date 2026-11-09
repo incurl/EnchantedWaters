@@ -62,6 +62,19 @@ CGO_ENABLED=0 go build -tags debugui -o game-debug ./cmd/
 ./game import --raw=./assets/raw --out=./assets/config
 ```
 
+The game needs a display. On a machine without one, a virtual frame buffer
+serves it, and the vertical synchronisation has to be turned off because it
+never fires there:
+
+```sh
+ENCHANTED_NO_VSYNC=1 xvfb-run -a ./game run -- --shot=/tmp/shot.png
+```
+
+The `--` matters: `xvfb-run` eats any option it does not know, and the
+screenshot flag would go with it. The flag writes the canvas into a PNG at
+the end of the first frame, and `--world`, `--open=port`, `--open=exchange`,
+`--open=shipyard`, `--open=tavern` and `--open=system` choose the screen.
+
 ### Controls
 
 | Key | Action |
