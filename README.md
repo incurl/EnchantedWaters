@@ -462,11 +462,24 @@ property that distinguishes a correct decoder from a self consistent one.
 
 What is still missing is the expansion layer. The payload holds fewer symbols
 than the blocks ask for — 274,581 symbols for the 368,448 bytes of `KAO.LZW`,
-for instance — so a symbol stands for a phrase rather than for a byte, and the
-rule that builds the phrases has not been recovered. The ratio is a good
-clue: `PORTMAP.LZW` expands by 9.7 bytes per symbol, because a port map repeats
-itself heavily, and `KAO.LZW` by 1.3. The `KAO.LZW` file also carries 173,376
-bytes of *uncompressed* planar data behind its last block.
+for instance — so a symbol stands for a phrase rather than for a byte. The
+mapping is known: a symbol below 256 is the byte that the substitution table
+gives for it, and the first bytes of `KAO.LZW` confirm it — the codes `0, 40,
+0, …` give the bytes `00, 44, 00, …`, and the substitution table gives `0x00`
+for 0 and `0x44` for 40, which is exactly what the reference portrait of the
+first character starts with. A symbol of 256 or more is a phrase, and the rule
+that builds the phrases is the part that is still missing.
+
+The ratio is a good clue for finding it: `PORTMAP.LZW` expands by 9.7 bytes per
+symbol, because a port map repeats itself heavily, and `KAO.LZW` by 1.3. The
+`KAO.LZW` file also carries 173,376 bytes of *uncompressed* planar data behind
+its last block, which is where the large portraits of the second set live.
+
+The naming of the format is worth repeating, because it has cost a lot of time:
+the files are called `.LZW` and the community calls the codec "the KOEI LZW
+variant", but it is neither LZW nor a variant of it. It is a gamma code over a
+substitution table, and the phrase layer that makes it a dictionary coder was
+added on top of that.
 
 ### What the importer does not read (yet)
 
