@@ -45,6 +45,8 @@ func ConvertTable(r *Reader, spec *Spec, table TableSpec, log Logger) (*Table, e
 		return ConvertNulList(r, spec, table, log)
 	case "fixed_text":
 		return ConvertFixedText(r, spec, table, log)
+	case "menu_tree":
+		return ConvertMenuTree(r, spec, table, log)
 	}
 
 	out := &Table{Name: table.Name, Description: table.Description}

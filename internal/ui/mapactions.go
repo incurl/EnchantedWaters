@@ -56,9 +56,9 @@ func (u *UI) openPortScreen() bool {
 //
 // The hints are shown in the corner of the screen, so that the player
 // always knows which keys are available.
-func (u *UI) drawMapHints(screen *ebiten.Image) {
+func (u *UI) drawMapHints(canvas *render.Canvas) {
 	hint := "arrows: pan  P: port  L: log  1-4: speed"
-	render.DrawText(screen, hint, 8, LogicalHeight-66, render.ColorTextDim)
+	render.DrawText(canvas, hint, 8, LogicalHeight-66, render.ColorTextDim)
 }
 
 // portUnderCursor returns the port that is close to the mouse position.

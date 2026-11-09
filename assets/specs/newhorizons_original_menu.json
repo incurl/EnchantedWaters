@@ -9,8 +9,8 @@
   "tables": [
     {
       "name": "original_menu",
-      "description": "The menu strings of the original game.",
-      "kind": "offset_table",
+      "description": "The menu tree of the original game: every port facility and every screen of the interface.",
+      "kind": "menu_tree",
       "offset": 0,
       "offset_size": 2,
       "offset_big_endian": true,

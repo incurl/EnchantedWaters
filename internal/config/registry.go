@@ -62,8 +62,8 @@ type Registry struct {
 	OriginalMessages map[int]*OriginalText
 	// OriginalMessages2 holds the second page of interface strings.
 	OriginalMessages2 map[int]*OriginalText
-	// OriginalMenu holds the menu strings of the original game.
-	OriginalMenu map[int]*OriginalText
+	// OriginalMenuText holds the menu strings of the original game.
+	OriginalMenuText map[int]*OriginalText
 	// OriginalNames holds the name pool of the original game.
 	OriginalNames map[int]*OriginalText
 	// OriginalDialogue holds the dialogues of the seven scenarios,
@@ -73,6 +73,8 @@ type Registry struct {
 	OriginalColonies map[int]*OriginalColony
 	// OriginalItems holds the item descriptions of the original game.
 	OriginalItems map[int]*OriginalItemDescription
+	// OriginalMenuItems holds the menu tree of the original game.
+	OriginalMenuItems map[int]*OriginalMenuItem
 
 	// --- ordered lists, kept in deterministic (ID-sorted) order ---
 	// Deterministic ordering matters for reproducible simulation and for
@@ -113,10 +115,11 @@ func NewRegistry() *Registry {
 
 		OriginalMessages:  make(map[int]*OriginalText),
 		OriginalMessages2: make(map[int]*OriginalText),
-		OriginalMenu:      make(map[int]*OriginalText),
+		OriginalMenuText:  make(map[int]*OriginalText),
 		OriginalNames:     make(map[int]*OriginalText),
 		OriginalColonies:  make(map[int]*OriginalColony),
 		OriginalItems:     make(map[int]*OriginalItemDescription),
+		OriginalMenuItems: make(map[int]*OriginalMenuItem),
 	}
 }
 
@@ -232,6 +235,20 @@ func (r *Registry) Finalize() {
 		t := r.Titles[id]
 		r.TitlesByAxis[t.Axis] = append(r.TitlesByAxis[t.Axis], id)
 	}
+}
+
+// OriginalMenu returns the labels of one menu of the original game.
+//
+// The menu number is the index of the menu in the original menu table.
+func (r *Registry) OriginalMenu(menu int) []string {
+	out := make([]string, 0, 16)
+	for id := 0; id < len(r.OriginalMenuItems); id++ {
+		item, ok := r.OriginalMenuItems[id]
+		if ok && item.Menu == menu {
+			out = append(out, item.Label)
+		}
+	}
+	return out
 }
 
 // OriginalString returns an imported text line.

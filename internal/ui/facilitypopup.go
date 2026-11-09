@@ -74,16 +74,16 @@ func (s *ShipyardPopup) buy(shipID string) {
 }
 
 // Draw implements Popup.
-func (s *ShipyardPopup) Draw(screen *ebiten.Image) {
+func (s *ShipyardPopup) Draw(canvas *render.Canvas) {
 	ships := s.ui.cfg.ShipOrder
 	w, h := 420, 240
 	x := (LogicalWidth - w) / 2
 	y := (LogicalHeight - h) / 2
-	render.DrawShadow(screen, x, y, w, h)
-	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
+	render.DrawShadow(canvas, x, y, w, h)
+	render.DrawPanel(canvas, x, y, w, h, render.ColorPanel)
 
-	render.DrawText(screen, "Shipyard", x+12, y+10, render.ColorTextBright)
-	render.DrawText(screen, "R: repair   enter: buy   esc: back", x+12, y+22, render.ColorTextDim)
+	render.DrawText(canvas, "Shipyard", x+12, y+10, render.ColorTextBright)
+	render.DrawText(canvas, "R: repair   enter: buy   esc: back", x+12, y+22, render.ColorTextDim)
 
 	// The repair quote.
 	fleetID := s.ui.world.PlayerEntity()
@@ -93,7 +93,7 @@ func (s *ShipyardPopup) Draw(screen *ebiten.Image) {
 		repairText = fmt.Sprintf("Repair: %d points for %d gold (%d days)",
 			int(quote.MissingPoints), int(quote.Cost), quote.Days)
 	}
-	render.DrawText(screen, repairText, x+12, y+36, render.ColorTextDim)
+	render.DrawText(canvas, repairText, x+12, y+36, render.ColorTextDim)
 
 	for i, shipID := range ships {
 		ship := s.ui.cfg.Ship(shipID)
@@ -103,13 +103,13 @@ func (s *ShipyardPopup) Draw(screen *ebiten.Image) {
 		rowY := y + 52 + i*render.LineHeight
 		colour := render.ColorText
 		if i == s.selected {
-			render.DrawSelectionMarker(screen, x+6, rowY)
+			render.DrawSelectionMarker(canvas, x+6, rowY)
 			colour = render.ColorTextBright
 		}
-		render.DrawText(screen, ship.Name, x+16, rowY, colour)
-		render.DrawText(screen, fmt.Sprintf("hull %d  crew %d  hold %d", int(ship.HullPoints), ship.MaxSailors, int(ship.CargoCapacity)), x+120, rowY, render.ColorTextDim)
+		render.DrawText(canvas, ship.Name, x+16, rowY, colour)
+		render.DrawText(canvas, fmt.Sprintf("hull %d  crew %d  hold %d", int(ship.HullPoints), ship.MaxSailors, int(ship.CargoCapacity)), x+120, rowY, render.ColorTextDim)
 		pq := s.ui.world.QuotePurchase(shipID, s.portID)
-		render.DrawTextRight(screen, fmt.Sprintf("%d", int(pq.Cost)), x+w-12, rowY, render.ColorGold)
+		render.DrawTextRight(canvas, fmt.Sprintf("%d", int(pq.Cost)), x+w-12, rowY, render.ColorGold)
 	}
 }
 
@@ -188,41 +188,68 @@ func (t *TavernPopup) hearRumor() {
 }
 
 // Draw implements Popup.
-func (t *TavernPopup) Draw(screen *ebiten.Image) {
+func (t *TavernPopup) Draw(canvas *render.Canvas) {
 	templates := t.ui.characterIDs()
-	w, h := 400, 250
+	w, h := 470, 230
 	x := (LogicalWidth - w) / 2
 	y := (LogicalHeight - h) / 2
-	render.DrawShadow(screen, x, y, w, h)
-	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
+	render.DrawShadow(canvas, x, y, w, h)
+	render.DrawPanel(canvas, x, y, w, h, render.ColorPanel)
 
-	render.DrawText(screen, "Tavern", x+12, y+10, render.ColorTextBright)
-	render.DrawText(screen, t.ui.text.Get(textRecruitQuestion), x+12, y+34, render.ColorTextDim)
-	render.DrawText(screen, "H: hear a rumour   enter: hire   esc: back", x+12, y+22, render.ColorTextDim)
+	// --- the header of the screen ---
+	//
+	// Every line has its own row, so that the wording of the original
+	// game and the labels of this project never collide.
+	render.DrawText(canvas, "Tavern", x+12, y+10, render.ColorTextBright)
+	render.DrawText(canvas, "H: hear a rumour   enter: hire   esc: back", x+12, y+22, render.ColorTextDim)
+
+	// The invitation of the original game.
+	render.DrawText(canvas, t.ui.text.Get(textRecruitQuestion), x+12, y+34, render.ColorTextDim)
 
 	crew := t.ui.world.SailorCapacity(t.ui.world.PlayerEntity())
 	fleet := t.ui.world.SnapshotFleet(t.ui.world.PlayerEntity())
-	render.DrawText(screen, fmt.Sprintf("crew %d/%d   gold %d", fleet.Sailors, crew, int(t.ui.world.Treasury())), x+12, y+36, render.ColorTextDim)
+	render.DrawTextRight(canvas,
+		fmt.Sprintf("crew %d/%d   %d gold", fleet.Sailors, crew, int(t.ui.world.Treasury())),
+		x+w-12, y+10, render.ColorGold)
 
+	// --- the column titles ---
+	//
+	// The columns are laid out on a fixed grid, so that a long class name
+	// never runs into the cost.
+	const (
+		listTop  = 56
+		colClass = 150
+		colStats = 290
+	)
+	render.DrawText(canvas, "recruit", x+16, y+listTop-10, render.ColorTextDim)
+	render.DrawText(canvas, "class", x+colClass, y+listTop-10, render.ColorTextDim)
+	render.DrawText(canvas, "adm/trd/nav", x+colStats, y+listTop-10, render.ColorTextDim)
+	render.DrawTextRight(canvas, "cost", x+w-12, y+listTop-10, render.ColorTextDim)
+
+	// --- the recruits ---
 	for i, templateID := range templates {
 		tmpl := t.ui.cfg.Characters[templateID]
 		if tmpl == nil {
 			continue
 		}
-		rowY := y + 52 + i*render.LineHeight
+		rowY := y + listTop + 4 + i*render.LineHeight
+		if rowY+render.CharHeight > y+h-4 {
+			break
+		}
 		colour := render.ColorText
 		if i == t.selected {
-			render.DrawSelectionMarker(screen, x+6, rowY)
+			render.DrawSelectionMarker(canvas, x+6, rowY)
 			colour = render.ColorTextBright
 		}
-		render.DrawText(screen, tmpl.Name, x+16, rowY, colour)
-		render.DrawText(screen, fmt.Sprintf("%-12s adm %.0f trd %.0f nav %.0f", tmpl.Class, tmpl.Adventure, tmpl.Trade, tmpl.Naval), x+110, rowY, render.ColorTextDim)
-		render.DrawTextRight(screen, fmt.Sprintf("%d", int(tmpl.HiringCost)), x+w-12, rowY, render.ColorGold)
+		render.DrawText(canvas, truncate(tmpl.Name, 16), x+16, rowY, colour)
+		render.DrawText(canvas, truncate(string(tmpl.Class), 15), x+colClass, rowY, render.ColorTextDim)
+		render.DrawText(canvas, fmt.Sprintf("%2.0f/%2.0f/%2.0f", tmpl.Adventure, tmpl.Trade, tmpl.Naval), x+colStats, rowY, render.ColorTextDim)
+		render.DrawTextRight(canvas, fmt.Sprintf("%d", int(tmpl.HiringCost)), x+w-12, rowY, render.ColorGold)
 	}
 
+	// --- the rumour ---
 	if t.rumor != "" {
-		render.DrawText(screen, "rumour:", x+12, y+h-40, render.ColorTextBright)
-		// The rumour is wrapped over two lines.
-		render.DrawText(screen, wrap(t.rumor, 56), x+12, y+h-26, render.ColorTextDim)
+		render.DrawText(canvas, "rumour:", x+12, y+h-34, render.ColorTextBright)
+		render.DrawText(canvas, wrap(t.rumor, 50), x+12, y+h-22, render.ColorTextDim)
 	}
 }

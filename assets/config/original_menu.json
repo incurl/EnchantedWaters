@@ -1,246 +1,1892 @@
 [
   {
+    "column_width": "8",
     "id": "0",
-    "text": "\b\u0004Deposit\u0000Withdraw\u0000Borrow\u0000Repay"
+    "item": "0",
+    "label": "Deposit",
+    "menu": "0"
   },
   {
+    "column_width": "8",
     "id": "1",
-    "text": "\u000e\u0002Job Assignment\u0000Country Info"
+    "item": "1",
+    "label": "Withdraw",
+    "menu": "0"
   },
   {
+    "column_width": "8",
     "id": "2",
-    "text": "\u000e\u0003Fleet\u0000Merchant Fleet\u0000Battle Fleet"
+    "item": "2",
+    "label": "Borrow",
+    "menu": "0"
   },
   {
+    "column_width": "8",
     "id": "3",
-    "text": "\u0004\u0003Meet\u0000Hire\u0000Duel"
+    "item": "3",
+    "label": "Repay",
+    "menu": "0"
   },
   {
+    "column_width": "14",
     "id": "4",
-    "text": "\t\u0003Check In\u0000Gossip\u0000Port Info"
+    "item": "0",
+    "label": "Job Assignment",
+    "menu": "1"
   },
   {
+    "column_width": "14",
     "id": "5",
-    "text": "\u0004\u0002Buy\u0000Sell"
+    "item": "1",
+    "label": "Country Info",
+    "menu": "1"
   },
   {
+    "column_width": "14",
     "id": "6",
-    "text": "\u000b\u0004Buy Goods\u0000Sell Goods\u0000Invest\u0000Market Rate"
+    "item": "0",
+    "label": "Fleet",
+    "menu": "2"
   },
   {
+    "column_width": "14",
     "id": "7",
-    "text": "\u0006\u0002Pray\u0000Donate"
+    "item": "1",
+    "label": "Merchant Fleet",
+    "menu": "2"
   },
   {
+    "column_width": "14",
     "id": "8",
-    "text": "\n\u0003Store\u0000Commission\u0000Exchange"
+    "item": "2",
+    "label": "Battle Fleet",
+    "menu": "2"
   },
   {
+    "column_width": "4",
     "id": "9",
-    "text": "\u0006\u0003Sail\u0000Supply\u0000Moor"
+    "item": "0",
+    "label": "Meet",
+    "menu": "3"
   },
   {
+    "column_width": "4",
     "id": "10",
-    "text": "\n\u0003Merchant\u0000Pirate\u0000Adventurer"
+    "item": "1",
+    "label": "Hire",
+    "menu": "3"
   },
   {
+    "column_width": "4",
     "id": "11",
-    "text": "\u000e\u0003Fleet\u0000Merchant Fleet\u0000Battle Fleet"
+    "item": "2",
+    "label": "Duel",
+    "menu": "3"
   },
   {
+    "column_width": "9",
     "id": "12",
-    "text": "\u0006\u0004Treat\u0000Gossip\u0000Hire\u0000Duel"
+    "item": "0",
+    "label": "Check In",
+    "menu": "4"
   },
   {
+    "column_width": "9",
     "id": "13",
-    "text": "\t\u0002Job Info\u0000Port Info"
+    "item": "1",
+    "label": "Gossip",
+    "menu": "4"
   },
   {
+    "column_width": "9",
     "id": "14",
-    "text": "\r\u0004Tell Stories\u0000Give Gift\u0000Investigation\u0000Ask Info"
+    "item": "2",
+    "label": "Port Info",
+    "menu": "4"
   },
   {
+    "column_width": "4",
     "id": "15",
-    "text": "\f\u0006Recruit Crew\u0000Dismiss Crew\u0000Treat\u0000Meet\u0000Waitress\u0000Gamble"
+    "item": "0",
+    "label": "Buy",
+    "menu": "5"
   },
   {
+    "column_width": "4",
     "id": "16",
-    "text": "\u000b\u0005Meet Ruler\u0000Defect\u0000Gold\u0000Ship\u0000Secret Call"
+    "item": "1",
+    "label": "Sell",
+    "menu": "5"
   },
   {
+    "column_width": "11",
     "id": "17",
-    "text": "\u0006\u0004Life\u0000Career\u0000Love\u0000Mates"
+    "item": "0",
+    "label": "Buy Goods",
+    "menu": "6"
   },
   {
+    "column_width": "11",
     "id": "18",
-    "text": "\u000e\u0003Fleet\u0000Merchant Fleet\u0000Battle Fleet"
+    "item": "1",
+    "label": "Sell Goods",
+    "menu": "6"
   },
   {
+    "column_width": "11",
     "id": "19",
-    "text": "\t\u0003Trade\u0000Piracy\u0000Adventure"
+    "item": "2",
+    "label": "Invest",
+    "menu": "6"
   },
   {
+    "column_width": "11",
     "id": "20",
-    "text": "\b\u0004Settings\u0000Save\u0000Load\u0000End Game"
+    "item": "3",
+    "label": "Market Rate",
+    "menu": "6"
   },
   {
+    "column_width": "6",
     "id": "21",
-    "text": "\u0006\u0004Water\u0000Food\u0000Lumber\u0000Shot"
+    "item": "0",
+    "label": "Pray",
+    "menu": "7"
   },
   {
+    "column_width": "6",
     "id": "22",
-    "text": "\t\u0006New Ship\u0000Used Ship\u0000Repair\u0000Sell\u0000Remodel\u0000Invest"
+    "item": "1",
+    "label": "Donate",
+    "menu": "7"
   },
   {
+    "column_width": "10",
     "id": "23",
-    "text": "\r\u0004Figurehead\u0000Guns\u0000Load Capacity\u0000Rename"
+    "item": "0",
+    "label": "Store",
+    "menu": "8"
   },
   {
+    "column_width": "10",
     "id": "24",
-    "text": "\t\u0003Contract\u0000Discovery\u0000Rumor"
+    "item": "1",
+    "label": "Commission",
+    "menu": "8"
   },
   {
+    "column_width": "10",
     "id": "25",
-    "text": "\f\u0004Contract\u0000Learn Skills\u0000Report\u0000Locate"
+    "item": "2",
+    "label": "Exchange",
+    "menu": "8"
   },
   {
+    "column_width": "6",
     "id": "26",
-    "text": "\u000e\u0007Fleet Info\u0000Ship Info\u0000Rearrange\u0000Scrap\u0000Cargo Info\u0000Log of Goods\u0000Transfer Cargo"
+    "item": "0",
+    "label": "Sail",
+    "menu": "9"
   },
   {
+    "column_width": "6",
     "id": "27",
-    "text": "\u000f\u0006Change Captain\u0000Change Job Duty\u0000Transfer Crew\u0000Assign Crew\u0000Wages\u0000Rations"
+    "item": "1",
+    "label": "Supply",
+    "menu": "9"
   },
   {
+    "column_width": "6",
     "id": "28",
-    "text": "\t\u0007Mate Info\u0000Hero Info\u0000Item\u0000Discovery\u0000Journal\u0000Chart\u0000Port Map"
+    "item": "2",
+    "label": "Moor",
+    "menu": "9"
   },
   {
+    "column_width": "10",
     "id": "29",
-    "text": "\t\bAuto Sail\u0000Anchor\u0000Port Call\u0000Go Ashore\u0000View\u0000Gossip\u0000Battle\u0000Options"
+    "item": "0",
+    "label": "Merchant",
+    "menu": "10"
   },
   {
+    "column_width": "10",
     "id": "30",
-    "text": "\u000e\u0006BGM\u0000Message Speed\u0000Movement Speed\u0000Blue\u0000Red\u0000Green"
+    "item": "1",
+    "label": "Pirate",
+    "menu": "10"
   },
   {
+    "column_width": "10",
     "id": "31",
-    "text": "\u0017\u0001Esc   Enter  Del  Space"
+    "item": "2",
+    "label": "Adventurer",
+    "menu": "10"
   },
   {
+    "column_width": "14",
     "id": "32",
-    "text": "\u0017\u00060 1 2 3 4 5 6 7 8 9 A B\u0000C D E F G H I J K L M N\u0000O P Q R S T U V W X Y Z\u0000a b c d e f g h i j k l\u0000m n o p q r s t u v w x\u0000y z"
+    "item": "0",
+    "label": "Fleet",
+    "menu": "11"
   },
   {
+    "column_width": "14",
     "id": "33",
-    "text": "\u0005\u0002Equip\u0000Use"
+    "item": "1",
+    "label": "Merchant Fleet",
+    "menu": "11"
   },
   {
+    "column_width": "14",
     "id": "34",
-    "text": "\u0002\u0005D\u0000C\u0000B\u0000A\u0000\"^"
+    "item": "2",
+    "label": "Battle Fleet",
+    "menu": "11"
   },
   {
+    "column_width": "6",
     "id": "35",
-    "text": "\t\u0005Search\u0000Entertain\u0000Plunder\u0000Sail\u0000Wait"
+    "item": "0",
+    "label": "Treat",
+    "menu": "12"
   },
   {
+    "column_width": "6",
     "id": "36",
-    "text": "\u0006\u0004Sail\u0000Repair\u0000Search\u0000Wait"
+    "item": "1",
+    "label": "Gossip",
+    "menu": "12"
   },
   {
+    "column_width": "6",
     "id": "37",
-    "text": "\u000e\u0002Transfer Goods\u0000Buy Goods"
+    "item": "2",
+    "label": "Hire",
+    "menu": "12"
   },
   {
+    "column_width": "6",
     "id": "38",
-    "text": "\f\u0002Job Info\u0000Country Info"
+    "item": "3",
+    "label": "Duel",
+    "menu": "12"
   },
   {
+    "column_width": "9",
     "id": "39",
-    "text": "\u000e\u0003Fleet\u0000Merchant Fleet\u0000Battle Fleet"
+    "item": "0",
+    "label": "Job Info",
+    "menu": "13"
   },
   {
+    "column_width": "9",
     "id": "40",
-    "text": "\t\bNorth\u0000Northeast\u0000East\u0000Southeast\u0000South\u0000Southwest\u0000West\u0000Northwest"
+    "item": "1",
+    "label": "Port Info",
+    "menu": "13"
   },
   {
+    "column_width": "13",
     "id": "41",
-    "text": "\n\u0007Durability\u0000Tacking\u0000Power\u0000Crew\u0000Health\u0000Cargo\u0000Capacity"
+    "item": "0",
+    "label": "Tell Stories",
+    "menu": "14"
   },
   {
+    "column_width": "13",
     "id": "42",
-    "text": "\t\u0003Trade\u0000Piracy\u0000Adventure"
+    "item": "1",
+    "label": "Give Gift",
+    "menu": "14"
   },
   {
+    "column_width": "13",
     "id": "43",
-    "text": "\n\u0003Seamanship\u0000Knowledge\u0000Intuition"
+    "item": "2",
+    "label": "Investigation",
+    "menu": "14"
   },
   {
+    "column_width": "13",
     "id": "44",
-    "text": "\u000e\u0003Merchant fleet\u0000Convoy\u0000Voyaging Fleet"
+    "item": "3",
+    "label": "Ask Info",
+    "menu": "14"
   },
   {
+    "column_width": "12",
     "id": "45",
-    "text": "\n\u0003Buccaneers\u0000Corsairs\u0000Privateer"
+    "item": "0",
+    "label": "Recruit Crew",
+    "menu": "15"
   },
   {
+    "column_width": "12",
     "id": "46",
-    "text": "\t\bAuto Sail\u0000Sail\u0000Port Call\u0000Go Ashore\u0000View\u0000Gossip\u0000Battle\u0000Options"
+    "item": "1",
+    "label": "Dismiss Crew",
+    "menu": "15"
   },
   {
+    "column_width": "12",
     "id": "47",
-    "text": "\u000f\u0015Ship\u0000Goods\u0000Ship\u0000Enemy Fleet\u0000Remaining Space\u0000Port\u0000Mate\u0000Ship\u0000Type of Goods\u0000Mate\u0000Ship\u0000Water\u0000Commodore\u0000Item\u0000Ship Model\u0000Material\u0000Figurehead\u0000Guns\u0000Discovery Item\u0000Fleet Number\u0000Region"
+    "item": "2",
+    "label": "Treat",
+    "menu": "15"
   },
   {
+    "column_width": "12",
     "id": "48",
-    "text": "\u0002\u0004@E\u0000@W\u0000@N\u0000@S"
+    "item": "3",
+    "label": "Meet",
+    "menu": "15"
   },
   {
+    "column_width": "12",
     "id": "49",
-    "text": "\u000b\u0001Environment"
+    "item": "4",
+    "label": "Waitress",
+    "menu": "15"
   },
   {
+    "column_width": "12",
     "id": "50",
-    "text": "\u0006\bMove\u0000Attack\u0000Info\u0000Plan\u0000Order\u0000Wait\u0000Item\u0000Escape"
+    "item": "5",
+    "label": "Gamble",
+    "menu": "15"
   },
   {
+    "column_width": "11",
     "id": "51",
-    "text": "\u000b\u0007Own Fleet\u0000Own Mates\u0000Own Ships\u0000Other Fleet\u0000Other Mates\u0000Other Ships\u0000Order List"
+    "item": "0",
+    "label": "Meet Ruler",
+    "menu": "16"
   },
   {
+    "column_width": "11",
     "id": "52",
-    "text": "\r\u0003Ship\u0000Merchant ship\u0000Battle ship"
+    "item": "1",
+    "label": "Defect",
+    "menu": "16"
   },
   {
+    "column_width": "11",
     "id": "53",
-    "text": "!\u0003and served them a crushing defeat\u0000but sunset ended it in a draw\u0000but we were forced to flee"
+    "item": "2",
+    "label": "Gold",
+    "menu": "16"
   },
   {
+    "column_width": "11",
     "id": "54",
-    "text": "\t\u0003Fight\u0000Flee\u0000Surrender"
+    "item": "3",
+    "label": "Ship",
+    "menu": "16"
   },
   {
+    "column_width": "11",
     "id": "55",
-    "text": "\u0013\u0003Sphere of Influence\u0000Letter of Marque\u0000Tax Free Permit"
+    "item": "4",
+    "label": "Secret Call",
+    "menu": "16"
   },
   {
+    "column_width": "6",
     "id": "56",
-    "text": "\t\u0004Load Game\u0000New Game\u0000Quit Game\u0000Save Game"
+    "item": "0",
+    "label": "Life",
+    "menu": "17"
   },
   {
+    "column_width": "6",
     "id": "57",
-    "text": "\u000b\u0003Sail\u0000Supply\u0000Rename Port"
+    "item": "1",
+    "label": "Career",
+    "menu": "17"
   },
   {
+    "column_width": "6",
     "id": "58",
-    "text": "\t\fMarket\u0000Pub\u0000Shipyard\u0000Harbor\u0000Lodge\u0000Palace\u0000Guild\u0000NPC\u0000Bank\u0000Item Shop\u0000Church\u0000Fortune"
+    "item": "2",
+    "label": "Love",
+    "menu": "17"
   },
   {
+    "column_width": "6",
     "id": "59",
-    "text": "\u0016\u0002�A�i���O�f�B�X�v���C\u0000�W�K���t���f�B�X�v���C"
+    "item": "3",
+    "label": "Mates",
+    "menu": "17"
   },
   {
+    "column_width": "14",
     "id": "60",
-    "text": "\u000e\u0006Event Graphics\u0000BGM\u0000Layout\u0000Mouse Speed\u0000Scroll Range\u0000Sail Speed"
+    "item": "0",
+    "label": "Fleet",
+    "menu": "18"
+  },
+  {
+    "column_width": "14",
+    "id": "61",
+    "item": "1",
+    "label": "Merchant Fleet",
+    "menu": "18"
+  },
+  {
+    "column_width": "14",
+    "id": "62",
+    "item": "2",
+    "label": "Battle Fleet",
+    "menu": "18"
+  },
+  {
+    "column_width": "9",
+    "id": "63",
+    "item": "0",
+    "label": "Trade",
+    "menu": "19"
+  },
+  {
+    "column_width": "9",
+    "id": "64",
+    "item": "1",
+    "label": "Piracy",
+    "menu": "19"
+  },
+  {
+    "column_width": "9",
+    "id": "65",
+    "item": "2",
+    "label": "Adventure",
+    "menu": "19"
+  },
+  {
+    "column_width": "8",
+    "id": "66",
+    "item": "0",
+    "label": "Settings",
+    "menu": "20"
+  },
+  {
+    "column_width": "8",
+    "id": "67",
+    "item": "1",
+    "label": "Save",
+    "menu": "20"
+  },
+  {
+    "column_width": "8",
+    "id": "68",
+    "item": "2",
+    "label": "Load",
+    "menu": "20"
+  },
+  {
+    "column_width": "8",
+    "id": "69",
+    "item": "3",
+    "label": "End Game",
+    "menu": "20"
+  },
+  {
+    "column_width": "6",
+    "id": "70",
+    "item": "0",
+    "label": "Water",
+    "menu": "21"
+  },
+  {
+    "column_width": "6",
+    "id": "71",
+    "item": "1",
+    "label": "Food",
+    "menu": "21"
+  },
+  {
+    "column_width": "6",
+    "id": "72",
+    "item": "2",
+    "label": "Lumber",
+    "menu": "21"
+  },
+  {
+    "column_width": "6",
+    "id": "73",
+    "item": "3",
+    "label": "Shot",
+    "menu": "21"
+  },
+  {
+    "column_width": "9",
+    "id": "74",
+    "item": "0",
+    "label": "New Ship",
+    "menu": "22"
+  },
+  {
+    "column_width": "9",
+    "id": "75",
+    "item": "1",
+    "label": "Used Ship",
+    "menu": "22"
+  },
+  {
+    "column_width": "9",
+    "id": "76",
+    "item": "2",
+    "label": "Repair",
+    "menu": "22"
+  },
+  {
+    "column_width": "9",
+    "id": "77",
+    "item": "3",
+    "label": "Sell",
+    "menu": "22"
+  },
+  {
+    "column_width": "9",
+    "id": "78",
+    "item": "4",
+    "label": "Remodel",
+    "menu": "22"
+  },
+  {
+    "column_width": "9",
+    "id": "79",
+    "item": "5",
+    "label": "Invest",
+    "menu": "22"
+  },
+  {
+    "column_width": "13",
+    "id": "80",
+    "item": "0",
+    "label": "Figurehead",
+    "menu": "23"
+  },
+  {
+    "column_width": "13",
+    "id": "81",
+    "item": "1",
+    "label": "Guns",
+    "menu": "23"
+  },
+  {
+    "column_width": "13",
+    "id": "82",
+    "item": "2",
+    "label": "Load Capacity",
+    "menu": "23"
+  },
+  {
+    "column_width": "13",
+    "id": "83",
+    "item": "3",
+    "label": "Rename",
+    "menu": "23"
+  },
+  {
+    "column_width": "9",
+    "id": "84",
+    "item": "0",
+    "label": "Contract",
+    "menu": "24"
+  },
+  {
+    "column_width": "9",
+    "id": "85",
+    "item": "1",
+    "label": "Discovery",
+    "menu": "24"
+  },
+  {
+    "column_width": "9",
+    "id": "86",
+    "item": "2",
+    "label": "Rumor",
+    "menu": "24"
+  },
+  {
+    "column_width": "12",
+    "id": "87",
+    "item": "0",
+    "label": "Contract",
+    "menu": "25"
+  },
+  {
+    "column_width": "12",
+    "id": "88",
+    "item": "1",
+    "label": "Learn Skills",
+    "menu": "25"
+  },
+  {
+    "column_width": "12",
+    "id": "89",
+    "item": "2",
+    "label": "Report",
+    "menu": "25"
+  },
+  {
+    "column_width": "12",
+    "id": "90",
+    "item": "3",
+    "label": "Locate",
+    "menu": "25"
+  },
+  {
+    "column_width": "14",
+    "id": "91",
+    "item": "0",
+    "label": "Fleet Info",
+    "menu": "26"
+  },
+  {
+    "column_width": "14",
+    "id": "92",
+    "item": "1",
+    "label": "Ship Info",
+    "menu": "26"
+  },
+  {
+    "column_width": "14",
+    "id": "93",
+    "item": "2",
+    "label": "Rearrange",
+    "menu": "26"
+  },
+  {
+    "column_width": "14",
+    "id": "94",
+    "item": "3",
+    "label": "Scrap",
+    "menu": "26"
+  },
+  {
+    "column_width": "14",
+    "id": "95",
+    "item": "4",
+    "label": "Cargo Info",
+    "menu": "26"
+  },
+  {
+    "column_width": "14",
+    "id": "96",
+    "item": "5",
+    "label": "Log of Goods",
+    "menu": "26"
+  },
+  {
+    "column_width": "14",
+    "id": "97",
+    "item": "6",
+    "label": "Transfer Cargo",
+    "menu": "26"
+  },
+  {
+    "column_width": "15",
+    "id": "98",
+    "item": "0",
+    "label": "Change Captain",
+    "menu": "27"
+  },
+  {
+    "column_width": "15",
+    "id": "99",
+    "item": "1",
+    "label": "Change Job Duty",
+    "menu": "27"
+  },
+  {
+    "column_width": "15",
+    "id": "100",
+    "item": "2",
+    "label": "Transfer Crew",
+    "menu": "27"
+  },
+  {
+    "column_width": "15",
+    "id": "101",
+    "item": "3",
+    "label": "Assign Crew",
+    "menu": "27"
+  },
+  {
+    "column_width": "15",
+    "id": "102",
+    "item": "4",
+    "label": "Wages",
+    "menu": "27"
+  },
+  {
+    "column_width": "15",
+    "id": "103",
+    "item": "5",
+    "label": "Rations",
+    "menu": "27"
+  },
+  {
+    "column_width": "9",
+    "id": "104",
+    "item": "0",
+    "label": "Mate Info",
+    "menu": "28"
+  },
+  {
+    "column_width": "9",
+    "id": "105",
+    "item": "1",
+    "label": "Hero Info",
+    "menu": "28"
+  },
+  {
+    "column_width": "9",
+    "id": "106",
+    "item": "2",
+    "label": "Item",
+    "menu": "28"
+  },
+  {
+    "column_width": "9",
+    "id": "107",
+    "item": "3",
+    "label": "Discovery",
+    "menu": "28"
+  },
+  {
+    "column_width": "9",
+    "id": "108",
+    "item": "4",
+    "label": "Journal",
+    "menu": "28"
+  },
+  {
+    "column_width": "9",
+    "id": "109",
+    "item": "5",
+    "label": "Chart",
+    "menu": "28"
+  },
+  {
+    "column_width": "9",
+    "id": "110",
+    "item": "6",
+    "label": "Port Map",
+    "menu": "28"
+  },
+  {
+    "column_width": "9",
+    "id": "111",
+    "item": "0",
+    "label": "Auto Sail",
+    "menu": "29"
+  },
+  {
+    "column_width": "9",
+    "id": "112",
+    "item": "1",
+    "label": "Anchor",
+    "menu": "29"
+  },
+  {
+    "column_width": "9",
+    "id": "113",
+    "item": "2",
+    "label": "Port Call",
+    "menu": "29"
+  },
+  {
+    "column_width": "9",
+    "id": "114",
+    "item": "3",
+    "label": "Go Ashore",
+    "menu": "29"
+  },
+  {
+    "column_width": "9",
+    "id": "115",
+    "item": "4",
+    "label": "View",
+    "menu": "29"
+  },
+  {
+    "column_width": "9",
+    "id": "116",
+    "item": "5",
+    "label": "Gossip",
+    "menu": "29"
+  },
+  {
+    "column_width": "9",
+    "id": "117",
+    "item": "6",
+    "label": "Battle",
+    "menu": "29"
+  },
+  {
+    "column_width": "9",
+    "id": "118",
+    "item": "7",
+    "label": "Options",
+    "menu": "29"
+  },
+  {
+    "column_width": "14",
+    "id": "119",
+    "item": "0",
+    "label": "BGM",
+    "menu": "30"
+  },
+  {
+    "column_width": "14",
+    "id": "120",
+    "item": "1",
+    "label": "Message Speed",
+    "menu": "30"
+  },
+  {
+    "column_width": "14",
+    "id": "121",
+    "item": "2",
+    "label": "Movement Speed",
+    "menu": "30"
+  },
+  {
+    "column_width": "14",
+    "id": "122",
+    "item": "3",
+    "label": "Blue",
+    "menu": "30"
+  },
+  {
+    "column_width": "14",
+    "id": "123",
+    "item": "4",
+    "label": "Red",
+    "menu": "30"
+  },
+  {
+    "column_width": "14",
+    "id": "124",
+    "item": "5",
+    "label": "Green",
+    "menu": "30"
+  },
+  {
+    "column_width": "23",
+    "id": "125",
+    "item": "0",
+    "label": "Esc   Enter  Del  Space",
+    "menu": "31"
+  },
+  {
+    "column_width": "23",
+    "id": "126",
+    "item": "0",
+    "label": "0 1 2 3 4 5 6 7 8 9 A B",
+    "menu": "32"
+  },
+  {
+    "column_width": "23",
+    "id": "127",
+    "item": "1",
+    "label": "C D E F G H I J K L M N",
+    "menu": "32"
+  },
+  {
+    "column_width": "23",
+    "id": "128",
+    "item": "2",
+    "label": "O P Q R S T U V W X Y Z",
+    "menu": "32"
+  },
+  {
+    "column_width": "23",
+    "id": "129",
+    "item": "3",
+    "label": "a b c d e f g h i j k l",
+    "menu": "32"
+  },
+  {
+    "column_width": "23",
+    "id": "130",
+    "item": "4",
+    "label": "m n o p q r s t u v w x",
+    "menu": "32"
+  },
+  {
+    "column_width": "23",
+    "id": "131",
+    "item": "5",
+    "label": "y z",
+    "menu": "32"
+  },
+  {
+    "column_width": "5",
+    "id": "132",
+    "item": "0",
+    "label": "Equip",
+    "menu": "33"
+  },
+  {
+    "column_width": "5",
+    "id": "133",
+    "item": "1",
+    "label": "Use",
+    "menu": "33"
+  },
+  {
+    "column_width": "2",
+    "id": "134",
+    "item": "0",
+    "label": "D",
+    "menu": "34"
+  },
+  {
+    "column_width": "2",
+    "id": "135",
+    "item": "1",
+    "label": "C",
+    "menu": "34"
+  },
+  {
+    "column_width": "2",
+    "id": "136",
+    "item": "2",
+    "label": "B",
+    "menu": "34"
+  },
+  {
+    "column_width": "2",
+    "id": "137",
+    "item": "3",
+    "label": "A",
+    "menu": "34"
+  },
+  {
+    "column_width": "2",
+    "id": "138",
+    "item": "4",
+    "label": "\"^",
+    "menu": "34"
+  },
+  {
+    "column_width": "9",
+    "id": "139",
+    "item": "0",
+    "label": "Search",
+    "menu": "35"
+  },
+  {
+    "column_width": "9",
+    "id": "140",
+    "item": "1",
+    "label": "Entertain",
+    "menu": "35"
+  },
+  {
+    "column_width": "9",
+    "id": "141",
+    "item": "2",
+    "label": "Plunder",
+    "menu": "35"
+  },
+  {
+    "column_width": "9",
+    "id": "142",
+    "item": "3",
+    "label": "Sail",
+    "menu": "35"
+  },
+  {
+    "column_width": "9",
+    "id": "143",
+    "item": "4",
+    "label": "Wait",
+    "menu": "35"
+  },
+  {
+    "column_width": "6",
+    "id": "144",
+    "item": "0",
+    "label": "Sail",
+    "menu": "36"
+  },
+  {
+    "column_width": "6",
+    "id": "145",
+    "item": "1",
+    "label": "Repair",
+    "menu": "36"
+  },
+  {
+    "column_width": "6",
+    "id": "146",
+    "item": "2",
+    "label": "Search",
+    "menu": "36"
+  },
+  {
+    "column_width": "6",
+    "id": "147",
+    "item": "3",
+    "label": "Wait",
+    "menu": "36"
+  },
+  {
+    "column_width": "14",
+    "id": "148",
+    "item": "0",
+    "label": "Transfer Goods",
+    "menu": "37"
+  },
+  {
+    "column_width": "14",
+    "id": "149",
+    "item": "1",
+    "label": "Buy Goods",
+    "menu": "37"
+  },
+  {
+    "column_width": "12",
+    "id": "150",
+    "item": "0",
+    "label": "Job Info",
+    "menu": "38"
+  },
+  {
+    "column_width": "12",
+    "id": "151",
+    "item": "1",
+    "label": "Country Info",
+    "menu": "38"
+  },
+  {
+    "column_width": "14",
+    "id": "152",
+    "item": "0",
+    "label": "Fleet",
+    "menu": "39"
+  },
+  {
+    "column_width": "14",
+    "id": "153",
+    "item": "1",
+    "label": "Merchant Fleet",
+    "menu": "39"
+  },
+  {
+    "column_width": "14",
+    "id": "154",
+    "item": "2",
+    "label": "Battle Fleet",
+    "menu": "39"
+  },
+  {
+    "column_width": "9",
+    "id": "155",
+    "item": "0",
+    "label": "North",
+    "menu": "40"
+  },
+  {
+    "column_width": "9",
+    "id": "156",
+    "item": "1",
+    "label": "Northeast",
+    "menu": "40"
+  },
+  {
+    "column_width": "9",
+    "id": "157",
+    "item": "2",
+    "label": "East",
+    "menu": "40"
+  },
+  {
+    "column_width": "9",
+    "id": "158",
+    "item": "3",
+    "label": "Southeast",
+    "menu": "40"
+  },
+  {
+    "column_width": "9",
+    "id": "159",
+    "item": "4",
+    "label": "South",
+    "menu": "40"
+  },
+  {
+    "column_width": "9",
+    "id": "160",
+    "item": "5",
+    "label": "Southwest",
+    "menu": "40"
+  },
+  {
+    "column_width": "9",
+    "id": "161",
+    "item": "6",
+    "label": "West",
+    "menu": "40"
+  },
+  {
+    "column_width": "9",
+    "id": "162",
+    "item": "7",
+    "label": "Northwest",
+    "menu": "40"
+  },
+  {
+    "column_width": "10",
+    "id": "163",
+    "item": "0",
+    "label": "Durability",
+    "menu": "41"
+  },
+  {
+    "column_width": "10",
+    "id": "164",
+    "item": "1",
+    "label": "Tacking",
+    "menu": "41"
+  },
+  {
+    "column_width": "10",
+    "id": "165",
+    "item": "2",
+    "label": "Power",
+    "menu": "41"
+  },
+  {
+    "column_width": "10",
+    "id": "166",
+    "item": "3",
+    "label": "Crew",
+    "menu": "41"
+  },
+  {
+    "column_width": "10",
+    "id": "167",
+    "item": "4",
+    "label": "Health",
+    "menu": "41"
+  },
+  {
+    "column_width": "10",
+    "id": "168",
+    "item": "5",
+    "label": "Cargo",
+    "menu": "41"
+  },
+  {
+    "column_width": "10",
+    "id": "169",
+    "item": "6",
+    "label": "Capacity",
+    "menu": "41"
+  },
+  {
+    "column_width": "9",
+    "id": "170",
+    "item": "0",
+    "label": "Trade",
+    "menu": "42"
+  },
+  {
+    "column_width": "9",
+    "id": "171",
+    "item": "1",
+    "label": "Piracy",
+    "menu": "42"
+  },
+  {
+    "column_width": "9",
+    "id": "172",
+    "item": "2",
+    "label": "Adventure",
+    "menu": "42"
+  },
+  {
+    "column_width": "10",
+    "id": "173",
+    "item": "0",
+    "label": "Seamanship",
+    "menu": "43"
+  },
+  {
+    "column_width": "10",
+    "id": "174",
+    "item": "1",
+    "label": "Knowledge",
+    "menu": "43"
+  },
+  {
+    "column_width": "10",
+    "id": "175",
+    "item": "2",
+    "label": "Intuition",
+    "menu": "43"
+  },
+  {
+    "column_width": "14",
+    "id": "176",
+    "item": "0",
+    "label": "Merchant fleet",
+    "menu": "44"
+  },
+  {
+    "column_width": "14",
+    "id": "177",
+    "item": "1",
+    "label": "Convoy",
+    "menu": "44"
+  },
+  {
+    "column_width": "14",
+    "id": "178",
+    "item": "2",
+    "label": "Voyaging Fleet",
+    "menu": "44"
+  },
+  {
+    "column_width": "10",
+    "id": "179",
+    "item": "0",
+    "label": "Buccaneers",
+    "menu": "45"
+  },
+  {
+    "column_width": "10",
+    "id": "180",
+    "item": "1",
+    "label": "Corsairs",
+    "menu": "45"
+  },
+  {
+    "column_width": "10",
+    "id": "181",
+    "item": "2",
+    "label": "Privateer",
+    "menu": "45"
+  },
+  {
+    "column_width": "9",
+    "id": "182",
+    "item": "0",
+    "label": "Auto Sail",
+    "menu": "46"
+  },
+  {
+    "column_width": "9",
+    "id": "183",
+    "item": "1",
+    "label": "Sail",
+    "menu": "46"
+  },
+  {
+    "column_width": "9",
+    "id": "184",
+    "item": "2",
+    "label": "Port Call",
+    "menu": "46"
+  },
+  {
+    "column_width": "9",
+    "id": "185",
+    "item": "3",
+    "label": "Go Ashore",
+    "menu": "46"
+  },
+  {
+    "column_width": "9",
+    "id": "186",
+    "item": "4",
+    "label": "View",
+    "menu": "46"
+  },
+  {
+    "column_width": "9",
+    "id": "187",
+    "item": "5",
+    "label": "Gossip",
+    "menu": "46"
+  },
+  {
+    "column_width": "9",
+    "id": "188",
+    "item": "6",
+    "label": "Battle",
+    "menu": "46"
+  },
+  {
+    "column_width": "9",
+    "id": "189",
+    "item": "7",
+    "label": "Options",
+    "menu": "46"
+  },
+  {
+    "column_width": "15",
+    "id": "190",
+    "item": "0",
+    "label": "Ship",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "191",
+    "item": "1",
+    "label": "Goods",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "192",
+    "item": "2",
+    "label": "Ship",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "193",
+    "item": "3",
+    "label": "Enemy Fleet",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "194",
+    "item": "4",
+    "label": "Remaining Space",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "195",
+    "item": "5",
+    "label": "Port",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "196",
+    "item": "6",
+    "label": "Mate",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "197",
+    "item": "7",
+    "label": "Ship",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "198",
+    "item": "8",
+    "label": "Type of Goods",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "199",
+    "item": "9",
+    "label": "Mate",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "200",
+    "item": "10",
+    "label": "Ship",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "201",
+    "item": "11",
+    "label": "Water",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "202",
+    "item": "12",
+    "label": "Commodore",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "203",
+    "item": "13",
+    "label": "Item",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "204",
+    "item": "14",
+    "label": "Ship Model",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "205",
+    "item": "15",
+    "label": "Material",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "206",
+    "item": "16",
+    "label": "Figurehead",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "207",
+    "item": "17",
+    "label": "Guns",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "208",
+    "item": "18",
+    "label": "Discovery Item",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "209",
+    "item": "19",
+    "label": "Fleet Number",
+    "menu": "47"
+  },
+  {
+    "column_width": "15",
+    "id": "210",
+    "item": "20",
+    "label": "Region",
+    "menu": "47"
+  },
+  {
+    "column_width": "2",
+    "id": "211",
+    "item": "0",
+    "label": "@E",
+    "menu": "48"
+  },
+  {
+    "column_width": "2",
+    "id": "212",
+    "item": "1",
+    "label": "@W",
+    "menu": "48"
+  },
+  {
+    "column_width": "2",
+    "id": "213",
+    "item": "2",
+    "label": "@N",
+    "menu": "48"
+  },
+  {
+    "column_width": "2",
+    "id": "214",
+    "item": "3",
+    "label": "@S",
+    "menu": "48"
+  },
+  {
+    "column_width": "11",
+    "id": "215",
+    "item": "0",
+    "label": "Environment",
+    "menu": "49"
+  },
+  {
+    "column_width": "6",
+    "id": "216",
+    "item": "0",
+    "label": "Move",
+    "menu": "50"
+  },
+  {
+    "column_width": "6",
+    "id": "217",
+    "item": "1",
+    "label": "Attack",
+    "menu": "50"
+  },
+  {
+    "column_width": "6",
+    "id": "218",
+    "item": "2",
+    "label": "Info",
+    "menu": "50"
+  },
+  {
+    "column_width": "6",
+    "id": "219",
+    "item": "3",
+    "label": "Plan",
+    "menu": "50"
+  },
+  {
+    "column_width": "6",
+    "id": "220",
+    "item": "4",
+    "label": "Order",
+    "menu": "50"
+  },
+  {
+    "column_width": "6",
+    "id": "221",
+    "item": "5",
+    "label": "Wait",
+    "menu": "50"
+  },
+  {
+    "column_width": "6",
+    "id": "222",
+    "item": "6",
+    "label": "Item",
+    "menu": "50"
+  },
+  {
+    "column_width": "6",
+    "id": "223",
+    "item": "7",
+    "label": "Escape",
+    "menu": "50"
+  },
+  {
+    "column_width": "11",
+    "id": "224",
+    "item": "0",
+    "label": "Own Fleet",
+    "menu": "51"
+  },
+  {
+    "column_width": "11",
+    "id": "225",
+    "item": "1",
+    "label": "Own Mates",
+    "menu": "51"
+  },
+  {
+    "column_width": "11",
+    "id": "226",
+    "item": "2",
+    "label": "Own Ships",
+    "menu": "51"
+  },
+  {
+    "column_width": "11",
+    "id": "227",
+    "item": "3",
+    "label": "Other Fleet",
+    "menu": "51"
+  },
+  {
+    "column_width": "11",
+    "id": "228",
+    "item": "4",
+    "label": "Other Mates",
+    "menu": "51"
+  },
+  {
+    "column_width": "11",
+    "id": "229",
+    "item": "5",
+    "label": "Other Ships",
+    "menu": "51"
+  },
+  {
+    "column_width": "11",
+    "id": "230",
+    "item": "6",
+    "label": "Order List",
+    "menu": "51"
+  },
+  {
+    "column_width": "13",
+    "id": "231",
+    "item": "0",
+    "label": "Ship",
+    "menu": "52"
+  },
+  {
+    "column_width": "13",
+    "id": "232",
+    "item": "1",
+    "label": "Merchant ship",
+    "menu": "52"
+  },
+  {
+    "column_width": "13",
+    "id": "233",
+    "item": "2",
+    "label": "Battle ship",
+    "menu": "52"
+  },
+  {
+    "column_width": "33",
+    "id": "234",
+    "item": "0",
+    "label": "and served them a crushing defeat",
+    "menu": "53"
+  },
+  {
+    "column_width": "33",
+    "id": "235",
+    "item": "1",
+    "label": "but sunset ended it in a draw",
+    "menu": "53"
+  },
+  {
+    "column_width": "33",
+    "id": "236",
+    "item": "2",
+    "label": "but we were forced to flee",
+    "menu": "53"
+  },
+  {
+    "column_width": "9",
+    "id": "237",
+    "item": "0",
+    "label": "Fight",
+    "menu": "54"
+  },
+  {
+    "column_width": "9",
+    "id": "238",
+    "item": "1",
+    "label": "Flee",
+    "menu": "54"
+  },
+  {
+    "column_width": "9",
+    "id": "239",
+    "item": "2",
+    "label": "Surrender",
+    "menu": "54"
+  },
+  {
+    "column_width": "19",
+    "id": "240",
+    "item": "0",
+    "label": "Sphere of Influence",
+    "menu": "55"
+  },
+  {
+    "column_width": "19",
+    "id": "241",
+    "item": "1",
+    "label": "Letter of Marque",
+    "menu": "55"
+  },
+  {
+    "column_width": "19",
+    "id": "242",
+    "item": "2",
+    "label": "Tax Free Permit",
+    "menu": "55"
+  },
+  {
+    "column_width": "9",
+    "id": "243",
+    "item": "0",
+    "label": "Load Game",
+    "menu": "56"
+  },
+  {
+    "column_width": "9",
+    "id": "244",
+    "item": "1",
+    "label": "New Game",
+    "menu": "56"
+  },
+  {
+    "column_width": "9",
+    "id": "245",
+    "item": "2",
+    "label": "Quit Game",
+    "menu": "56"
+  },
+  {
+    "column_width": "9",
+    "id": "246",
+    "item": "3",
+    "label": "Save Game",
+    "menu": "56"
+  },
+  {
+    "column_width": "11",
+    "id": "247",
+    "item": "0",
+    "label": "Sail",
+    "menu": "57"
+  },
+  {
+    "column_width": "11",
+    "id": "248",
+    "item": "1",
+    "label": "Supply",
+    "menu": "57"
+  },
+  {
+    "column_width": "11",
+    "id": "249",
+    "item": "2",
+    "label": "Rename Port",
+    "menu": "57"
+  },
+  {
+    "column_width": "9",
+    "id": "250",
+    "item": "0",
+    "label": "Market",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "251",
+    "item": "1",
+    "label": "Pub",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "252",
+    "item": "2",
+    "label": "Shipyard",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "253",
+    "item": "3",
+    "label": "Harbor",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "254",
+    "item": "4",
+    "label": "Lodge",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "255",
+    "item": "5",
+    "label": "Palace",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "256",
+    "item": "6",
+    "label": "Guild",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "257",
+    "item": "7",
+    "label": "NPC",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "258",
+    "item": "8",
+    "label": "Bank",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "259",
+    "item": "9",
+    "label": "Item Shop",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "260",
+    "item": "10",
+    "label": "Church",
+    "menu": "58"
+  },
+  {
+    "column_width": "9",
+    "id": "261",
+    "item": "11",
+    "label": "Fortune",
+    "menu": "58"
+  },
+  {
+    "column_width": "22",
+    "id": "262",
+    "item": "0",
+    "label": "�A�i���O�f�B�X�v���C",
+    "menu": "59"
+  },
+  {
+    "column_width": "22",
+    "id": "263",
+    "item": "1",
+    "label": "�W�K���t���f�B�X�v���C",
+    "menu": "59"
+  },
+  {
+    "column_width": "14",
+    "id": "264",
+    "item": "0",
+    "label": "Event Graphics",
+    "menu": "60"
+  },
+  {
+    "column_width": "14",
+    "id": "265",
+    "item": "1",
+    "label": "BGM",
+    "menu": "60"
+  },
+  {
+    "column_width": "14",
+    "id": "266",
+    "item": "2",
+    "label": "Layout",
+    "menu": "60"
+  },
+  {
+    "column_width": "14",
+    "id": "267",
+    "item": "3",
+    "label": "Mouse Speed",
+    "menu": "60"
+  },
+  {
+    "column_width": "14",
+    "id": "268",
+    "item": "4",
+    "label": "Scroll Range",
+    "menu": "60"
+  },
+  {
+    "column_width": "14",
+    "id": "269",
+    "item": "5",
+    "label": "Sail Speed",
+    "menu": "60"
   }
 ]

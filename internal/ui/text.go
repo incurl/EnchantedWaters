@@ -195,3 +195,18 @@ func CleanDialogue(line string) (speaker, text string) {
 	text = strings.TrimPrefix(line[1+end+1:], "\n")
 	return speaker, text
 }
+
+// truncate shortens a string to at most n characters.
+//
+// The text of the imported tables can hold a long class name, which would
+// otherwise run into the column next to it.
+func truncate(s string, n int) string {
+	runes := []rune(s)
+	if len(runes) <= n {
+		return s
+	}
+	if n <= 1 {
+		return string(runes[:n])
+	}
+	return string(runes[:n-1]) + "\u2026"
+}

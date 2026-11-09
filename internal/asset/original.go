@@ -24,7 +24,7 @@ func loadOriginalTables(dir string, reg *config.Registry, log logr.Logger) error
 	if err := loadOriginalText(filepath.Join(dir, "original_messages2.csv"), reg.OriginalMessages2, log, "original messages 2"); err != nil {
 		return err
 	}
-	if err := loadOriginalText(filepath.Join(dir, "original_menu.csv"), reg.OriginalMenu, log, "original menu"); err != nil {
+	if err := loadOriginalText(filepath.Join(dir, "original_menu.csv"), reg.OriginalMenuText, log, "original menu"); err != nil {
 		return err
 	}
 	if err := loadOriginalText(filepath.Join(dir, "original_names.csv"), reg.OriginalNames, log, "original names"); err != nil {
@@ -43,6 +43,16 @@ func loadOriginalTables(dir string, reg *config.Registry, log logr.Logger) error
 			return err
 		}
 	}
+
+	// --- the menu tree ---
+	menuItems, err := LoadCSVTable[config.OriginalMenuItem](filepath.Join(dir, "original_menu.csv"))
+	if err != nil {
+		return err
+	}
+	for i := range menuItems {
+		reg.OriginalMenuItems[menuItems[i].ID] = &menuItems[i]
+	}
+	log.Info("loaded the original menu tree", "count", len(menuItems))
 
 	// --- the colonies ---
 	colonies, err := LoadCSVTable[config.OriginalColony](filepath.Join(dir, "original_colonies.csv"))

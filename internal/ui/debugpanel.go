@@ -53,7 +53,7 @@ func (d *DebugPanel) Update() error {
 }
 
 // Draw renders the panel.
-func (d *DebugPanel) Draw(screen *ebiten.Image) {
+func (d *DebugPanel) Draw(c *render.Canvas) {
 	d.debug.Draw(screen)
 }
 

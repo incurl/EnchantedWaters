@@ -64,6 +64,8 @@ type UI struct {
 	charIDs []string
 	// text resolves the sentences of the interface.
 	text *Text
+	// canvas is the drawing surface of the interface.
+	canvas *render.Canvas
 }
 
 // New creates the user interface of a game session.
@@ -89,8 +91,47 @@ func New(w *world.World) *UI {
 	return u
 }
 
+// Canvas returns the drawing surface of the interface.
+func (u *UI) Canvas() *render.Canvas { return u.canvas }
+
 // Popups exposes the popup stack to the debug panel.
 func (u *UI) Popups() *PopupStack { return u.popups }
+
+// OpenScreen opens one of the screens of the interface at the start of
+// the session.
+//
+// The screen is named by its action: "port", "exchange", "shipyard",
+// "tavern", "governor", "church", "inn", "sail" or "system". It is used
+// by the development screenshots and by the automated tests.
+func (u *UI) OpenScreen(name string) bool {
+	portID := u.world.ArrivedAtPort(u.world.PlayerEntity())
+	if portID == "" {
+		return false
+	}
+	switch name {
+	case "port":
+		u.popups.Push(NewPortPopup(u, portID))
+	case "exchange":
+		u.popups.Push(NewExchangePopup(u, portID))
+	case "shipyard":
+		u.popups.Push(NewShipyardPopup(u, portID))
+	case "tavern":
+		u.popups.Push(NewTavernPopup(u, portID))
+	case "governor":
+		u.popups.Push(NewGovernorPopup(u, portID))
+	case "church":
+		u.popups.Push(NewChurchPopup(u, portID))
+	case "inn":
+		u.popups.Push(NewInnPopup(u, portID))
+	case "sail":
+		u.popups.Push(NewSailPopup(u, portID))
+	case "system":
+		u.popups.Push(NewSystemPopup(u))
+	default:
+		return false
+	}
+	return true
+}
 
 // Message sets the transient status line.
 func (u *UI) Message(format string, args ...any) {
@@ -221,23 +262,31 @@ func (u *UI) clampCamera() {
 
 // Draw renders the whole user interface.
 func (u *UI) Draw(screen *ebiten.Image) {
-	u.drawMap(screen)
-	u.drawHUD(screen)
-	u.drawMapHints(screen)
-	u.drawStatusLine(screen)
+	if u.canvas == nil {
+		u.canvas = render.NewCanvas(LogicalWidth, LogicalHeight)
+	}
+	canvas := u.canvas
+
+	u.drawMap(canvas)
+	u.drawHUD(canvas)
+	u.drawMapHints(canvas)
+	u.drawStatusLine(canvas)
 	if u.showLog {
-		u.drawLog(screen)
+		u.drawLog(canvas)
 	}
 	// The popups are drawn last, on top of everything.
-	u.popups.Draw(screen)
+	u.popups.Draw(canvas)
+
+	// The canvas is blitted onto the screen in a single call.
+	canvas.Present(screen)
 }
 
 // drawMap renders the world map and the fleet markers.
-func (u *UI) drawMap(screen *ebiten.Image) {
+func (u *UI) drawMap(canvas *render.Canvas) {
 	data := u.buildMapData()
 	weatherKey := u.weatherKey()
 	u.mapRenderer.Render(data, u.world.Day(), weatherKey)
-	u.mapRenderer.Draw(screen, u.camX, u.camY, LogicalWidth, LogicalHeight)
+	u.mapRenderer.Draw(canvas, u.camX, u.camY, LogicalWidth, LogicalHeight)
 
 	// The fleet markers are drawn on top of the map.
 	for _, f := range data.Fleets {
@@ -246,21 +295,17 @@ func (u *UI) drawMap(screen *ebiten.Image) {
 		if x < -8 || y < -8 || x > LogicalWidth+8 || y > LogicalHeight+8 {
 			continue
 		}
-		render.DrawFleet(screen, x, y, f.Heading, f.Player)
+		render.DrawFleet(canvas, x, y, f.Heading, f.Player)
 	}
 	// The weather and night overlays.
 	//
 	// The overlays are drawn on a transparent layer and then blended
 	// over the map, so that they tint the map without hiding it.
 	if data.WeatherTint > 0 {
-		overlay := ebiten.NewImage(LogicalWidth, LogicalHeight)
-		overlay.Fill(color.RGBA{0x10, 0x18, 0x30, uint8(data.WeatherTint * 255)})
-		screen.DrawImage(overlay, nil)
+		render.TintCanvas(canvas, color.RGBA{0x10, 0x18, 0x30, uint8(data.WeatherTint * 255)})
 	}
 	if data.NightTint > 0 {
-		overlay := ebiten.NewImage(LogicalWidth, LogicalHeight)
-		overlay.Fill(color.RGBA{0x00, 0x00, 0x20, uint8(data.NightTint * 255)})
-		screen.DrawImage(overlay, nil)
+		render.TintCanvas(canvas, color.RGBA{0x00, 0x00, 0x20, uint8(data.NightTint * 255)})
 	}
 }
 
@@ -332,14 +377,14 @@ func (u *UI) weatherKey() string {
 }
 
 // drawHUD draws the status bar at the bottom of the screen.
-func (u *UI) drawHUD(screen *ebiten.Image) {
+func (u *UI) drawHUD(canvas *render.Canvas) {
 	const hudHeight = 56
 	y := LogicalHeight - hudHeight
-	render.DrawPanel(screen, 0, y, LogicalWidth, hudHeight, render.ColorPanel)
+	render.DrawPanel(canvas, 0, y, LogicalWidth, hudHeight, render.ColorPanel)
 
 	fleet := u.playerFleet()
 	if fleet == nil {
-		render.DrawText(screen, "No fleet", 8, y+8, render.ColorTextDim)
+		render.DrawText(canvas, "No fleet", 8, y+8, render.ColorTextDim)
 		return
 	}
 	ship := u.cfg.Ship(fleet.ShipID)
@@ -349,27 +394,27 @@ func (u *UI) drawHUD(screen *ebiten.Image) {
 	if ship != nil {
 		name = ship.Name
 	}
-	render.DrawText(screen, name, 8, y+6, render.ColorTextBright)
+	render.DrawText(canvas, name, 8, y+6, render.ColorTextBright)
 	if ship != nil {
 		ratio := fleet.HullPoints / ship.HullPoints
-		render.DrawHBar(screen, 8, y+18, 70, 5, ratio, render.ColorGood, render.ColorPanelLight)
-		render.DrawText(screen, fmt.Sprintf("Hull %d/%d", int(fleet.HullPoints), int(ship.HullPoints)), 8, y+26, render.ColorTextDim)
+		render.DrawHBar(canvas, 8, y+18, 70, 5, ratio, render.ColorGood, render.ColorPanelLight)
+		render.DrawText(canvas, fmt.Sprintf("Hull %d/%d", int(fleet.HullPoints), int(ship.HullPoints)), 8, y+26, render.ColorTextDim)
 	}
 	// The crew condition.
-	render.DrawHBar(screen, 8, y+38, 70, 5, fleet.Loyalty/100, render.ColorGold, render.ColorPanelLight)
-	render.DrawText(screen, fmt.Sprintf("Loyalty %d", int(fleet.Loyalty)), 82, y+38, render.ColorTextDim)
+	render.DrawHBar(canvas, 8, y+38, 70, 5, fleet.Loyalty/100, render.ColorGold, render.ColorPanelLight)
+	render.DrawText(canvas, fmt.Sprintf("Loyalty %d", int(fleet.Loyalty)), 82, y+38, render.ColorTextDim)
 
 	// --- middle column: the cargo hold ---
 	x := 170
-	render.DrawText(screen, "Hold", x, y+6, render.ColorText)
+	render.DrawText(canvas, "Hold", x, y+6, render.ColorText)
 	if cargo := u.playerCargo(); cargo != nil {
 		used := 0.0
 		if ship != nil {
 			used = cargo.UsedWeight / ship.CargoCapacity
 		}
-		render.DrawHBar(screen, x, y+18, 70, 5, used, render.ColorCoast, render.ColorPanelLight)
+		render.DrawHBar(canvas, x, y+18, 70, 5, used, render.ColorCoast, render.ColorPanelLight)
 		capacity := u.world.CargoCapacity(u.world.PlayerEntity())
-		render.DrawText(screen, fmt.Sprintf("%.0f/%.0f tons", cargo.UsedWeight, capacity), x, y+26, render.ColorTextDim)
+		render.DrawText(canvas, fmt.Sprintf("%.0f/%.0f tons", cargo.UsedWeight, capacity), x, y+26, render.ColorTextDim)
 		// The most valuable cargo.
 		best := ""
 		bestQty := 0.0
@@ -380,33 +425,33 @@ func (u *UI) drawHUD(screen *ebiten.Image) {
 		}
 		if best != "" {
 			if c := u.cfg.Commodity(best); c != nil {
-				render.DrawText(screen, fmt.Sprintf("%s %.0f", c.Name, bestQty), x, y+38, render.ColorTextDim)
+				render.DrawText(canvas, fmt.Sprintf("%s %.0f", c.Name, bestQty), x, y+38, render.ColorTextDim)
 			}
 		}
 	}
 
 	// --- right column: the money, the date and the weather ---
-	render.DrawTextRight(screen, fmt.Sprintf("%d gold", int(u.world.Treasury())), LogicalWidth-8, y+6, render.ColorGold)
-	render.DrawTextRight(screen, fmt.Sprintf("Year %d Day %d", u.world.Year(), u.world.Day()), LogicalWidth-8, y+20, render.ColorText)
+	render.DrawTextRight(canvas, fmt.Sprintf("%d gold", int(u.world.Treasury())), LogicalWidth-8, y+6, render.ColorGold)
+	render.DrawTextRight(canvas, fmt.Sprintf("Year %d Day %d", u.world.Year(), u.world.Day()), LogicalWidth-8, y+20, render.ColorText)
 	if wc := u.world.Weather(); wc != nil {
-		render.DrawTextRight(screen, fmt.Sprintf("%s  wind %.0f kn", wc.Kind, wc.WindSpeed), LogicalWidth-8, y+34, render.ColorTextDim)
+		render.DrawTextRight(canvas, fmt.Sprintf("%s  wind %.0f kn", wc.Kind, wc.WindSpeed), LogicalWidth-8, y+34, render.ColorTextDim)
 	}
-	render.DrawTextRight(screen, fmt.Sprintf("x%d", u.world.Speed()), LogicalWidth-8, y+46, render.ColorTextBright)
+	render.DrawTextRight(canvas, fmt.Sprintf("x%d", u.world.Speed()), LogicalWidth-8, y+46, render.ColorTextBright)
 }
 
 // drawStatusLine draws the transient message line.
-func (u *UI) drawStatusLine(screen *ebiten.Image) {
+func (u *UI) drawStatusLine(canvas *render.Canvas) {
 	if u.message == "" {
 		return
 	}
 	w := render.TextWidth(u.message) + 12
-	render.DrawShadow(screen, 8, 8, w, 16)
-	render.DrawPanel(screen, 8, 8, w, 16, render.ColorPanelLight)
-	render.DrawText(screen, u.message, 14, 13, render.ColorTextBright)
+	render.DrawShadow(canvas, 8, 8, w, 16)
+	render.DrawPanel(canvas, 8, 8, w, 16, render.ColorPanelLight)
+	render.DrawText(canvas, u.message, 14, 13, render.ColorTextBright)
 }
 
 // drawLog draws the message log overlay.
-func (u *UI) drawLog(screen *ebiten.Image) {
+func (u *UI) drawLog(canvas *render.Canvas) {
 	lines := u.world.LogEntries()
 	if len(lines) == 0 {
 		return
@@ -416,14 +461,14 @@ func (u *UI) drawLog(screen *ebiten.Image) {
 	h := maxLines*render.LineHeight + 12
 	x := LogicalWidth - w - 8
 	y := 8
-	render.DrawShadow(screen, x, y, w, h)
-	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
+	render.DrawShadow(canvas, x, y, w, h)
+	render.DrawPanel(canvas, x, y, w, h, render.ColorPanel)
 	for i := 0; i < maxLines && i < len(lines); i++ {
 		idx := len(lines) - maxLines + i
 		if idx < 0 {
 			continue
 		}
-		render.DrawText(screen, lines[idx], x+6, y+6+i*render.LineHeight, render.ColorTextDim)
+		render.DrawText(canvas, lines[idx], x+6, y+6+i*render.LineHeight, render.ColorTextDim)
 	}
 }
 

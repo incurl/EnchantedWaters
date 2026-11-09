@@ -11,7 +11,7 @@
 package ui
 
 import (
-	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/peter/enchantedwaters/internal/render"
 )
 
 // Popup is a modal dialog.
@@ -23,7 +23,7 @@ type Popup interface {
 	// closed.
 	Update() bool
 	// Draw renders the popup.
-	Draw(screen *ebiten.Image)
+	Draw(c *render.Canvas)
 	// Title returns the title of the popup, used by the debug panel.
 	Title() string
 }
@@ -96,13 +96,13 @@ func (s *PopupStack) Update() bool {
 //
 // The popups below the topmost are dimmed, which gives the layered look
 // of the original game's stacked dialogs.
-func (s *PopupStack) Draw(screen *ebiten.Image) {
+func (s *PopupStack) Draw(canvas *render.Canvas) {
 	for i, p := range s.items {
 		if i < len(s.items)-1 {
 			// Dim the background of the inactive popups.
-			screen.Fill(overlayDim)
+			render.DimCanvas(canvas)
 		}
-		p.Draw(screen)
+		p.Draw(canvas)
 	}
 }
 

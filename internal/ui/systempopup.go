@@ -93,15 +93,15 @@ func (s *SystemPopup) activate(action string) {
 }
 
 // Draw implements Popup.
-func (s *SystemPopup) Draw(screen *ebiten.Image) {
+func (s *SystemPopup) Draw(canvas *render.Canvas) {
 	w, h := 240, len(systemEntries)*render.LineHeight+44
 	x := (LogicalWidth - w) / 2
 	y := (LogicalHeight - h) / 2
-	render.DrawShadow(screen, x, y, w, h)
-	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
+	render.DrawShadow(canvas, x, y, w, h)
+	render.DrawPanel(canvas, x, y, w, h, render.ColorPanel)
 
-	render.DrawText(screen, "System", x+12, y+10, render.ColorTextBright)
-	render.DrawText(screen, "enter: choose   esc: back", x+12, y+22, render.ColorTextDim)
+	render.DrawText(canvas, "System", x+12, y+10, render.ColorTextBright)
+	render.DrawText(canvas, "enter: choose   esc: back", x+12, y+22, render.ColorTextDim)
 
 	// The speed entries reflect the current speed.
 	speed := s.ui.world.Speed()
@@ -128,14 +128,14 @@ func (s *SystemPopup) Draw(screen *ebiten.Image) {
 		rowY := y + 40 + i*render.LineHeight
 		colour := render.ColorText
 		if i == s.selected {
-			render.DrawSelectionMarker(screen, x+6, rowY)
+			render.DrawSelectionMarker(canvas, x+6, rowY)
 			colour = render.ColorTextBright
 		}
-		render.DrawText(screen, label, x+16, rowY, colour)
+		render.DrawText(canvas, label, x+16, rowY, colour)
 	}
 
 	// The reputation of the player.
 	adv, trade, naval := s.ui.world.ReputationSnapshot(world.FactionPlayer)
-	render.DrawText(screen, fmt.Sprintf("Adventure %.0f  Trade %.0f  Naval %.0f", adv, trade, naval),
+	render.DrawText(canvas, fmt.Sprintf("Adventure %.0f  Trade %.0f  Naval %.0f", adv, trade, naval),
 		x+12, y+h-18, render.ColorTextDim)
 }

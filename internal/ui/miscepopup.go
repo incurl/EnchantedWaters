@@ -50,29 +50,29 @@ func (g *GovernorPopup) Update() bool {
 }
 
 // Draw implements Popup.
-func (g *GovernorPopup) Draw(screen *ebiten.Image) {
+func (g *GovernorPopup) Draw(canvas *render.Canvas) {
 	w, h := 320, 150
 	x := (LogicalWidth - w) / 2
 	y := (LogicalHeight - h) / 2
-	render.DrawShadow(screen, x, y, w, h)
-	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
+	render.DrawShadow(canvas, x, y, w, h)
+	render.DrawPanel(canvas, x, y, w, h, render.ColorPanel)
 
 	port := g.ui.cfg.Port(g.portID)
 	name := "the governor"
 	if port != nil {
 		name = "Governor of " + port.Name
 	}
-	render.DrawText(screen, name, x+12, y+10, render.ColorTextBright)
-	render.DrawText(screen, "enter: pay respects   esc: back", x+12, y+22, render.ColorTextDim)
-	render.DrawText(screen, "Your trade renown opens many doors.", x+12, y+44, render.ColorText)
+	render.DrawText(canvas, name, x+12, y+10, render.ColorTextBright)
+	render.DrawText(canvas, "enter: pay respects   esc: back", x+12, y+22, render.ColorTextDim)
+	render.DrawText(canvas, "Your trade renown opens many doors.", x+12, y+44, render.ColorText)
 	if g.gain > 0 {
-		render.DrawText(screen, fmt.Sprintf("Trade fame +%.1f", g.gain), x+12, y+60, render.ColorGood)
+		render.DrawText(canvas, fmt.Sprintf("Trade fame +%.1f", g.gain), x+12, y+60, render.ColorGood)
 	}
 	adv, trade, naval := g.ui.world.ReputationSnapshot(world.FactionPlayer)
-	render.DrawText(screen, fmt.Sprintf("Adventure %.0f    Trade %.0f    Naval %.0f", adv, trade, naval), x+12, y+80, render.ColorTextDim)
+	render.DrawText(canvas, fmt.Sprintf("Adventure %.0f    Trade %.0f    Naval %.0f", adv, trade, naval), x+12, y+80, render.ColorTextDim)
 	titles := g.ui.world.Titles(world.FactionPlayer)
 	if len(titles) > 0 {
-		render.DrawText(screen, "titles: "+strings.Join(titles, ", "), x+12, y+96, render.ColorGold)
+		render.DrawText(canvas, "titles: "+strings.Join(titles, ", "), x+12, y+96, render.ColorGold)
 	}
 }
 
@@ -118,21 +118,21 @@ func (c *ChurchPopup) Update() bool {
 }
 
 // Draw implements Popup.
-func (c *ChurchPopup) Draw(screen *ebiten.Image) {
+func (c *ChurchPopup) Draw(canvas *render.Canvas) {
 	w, h := 320, 140
 	x := (LogicalWidth - w) / 2
 	y := (LogicalHeight - h) / 2
-	render.DrawShadow(screen, x, y, w, h)
-	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
+	render.DrawShadow(canvas, x, y, w, h)
+	render.DrawPanel(canvas, x, y, w, h, render.ColorPanel)
 
-	render.DrawText(screen, "Church", x+12, y+10, render.ColorTextBright)
-	render.DrawText(screen, "enter: donate a tenth of your gold   esc: back", x+12, y+22, render.ColorTextDim)
-	render.DrawText(screen, "Your coin buys the prayers of the faithful.", x+12, y+44, render.ColorText)
+	render.DrawText(canvas, "Church", x+12, y+10, render.ColorTextBright)
+	render.DrawText(canvas, "enter: donate a tenth of your gold   esc: back", x+12, y+22, render.ColorTextDim)
+	render.DrawText(canvas, "Your coin buys the prayers of the faithful.", x+12, y+44, render.ColorText)
 	if c.donation > 0 {
-		render.DrawText(screen, fmt.Sprintf("Donated %d gold", int(c.donation)), x+12, y+62, render.ColorGold)
-		render.DrawText(screen, fmt.Sprintf("Adventure fame +%.1f", c.gain), x+12, y+76, render.ColorGood)
+		render.DrawText(canvas, fmt.Sprintf("Donated %d gold", int(c.donation)), x+12, y+62, render.ColorGold)
+		render.DrawText(canvas, fmt.Sprintf("Adventure fame +%.1f", c.gain), x+12, y+76, render.ColorGood)
 	}
-	render.DrawText(screen, fmt.Sprintf("Treasury: %d gold", int(c.ui.world.Treasury())), x+12, y+100, render.ColorTextDim)
+	render.DrawText(canvas, fmt.Sprintf("Treasury: %d gold", int(c.ui.world.Treasury())), x+12, y+100, render.ColorTextDim)
 }
 
 // InnPopup is the screen of the inn.
@@ -172,22 +172,22 @@ func (i *InnPopup) Update() bool {
 }
 
 // Draw implements Popup.
-func (i *InnPopup) Draw(screen *ebiten.Image) {
+func (i *InnPopup) Draw(canvas *render.Canvas) {
 	w, h := 300, 130
 	x := (LogicalWidth - w) / 2
 	y := (LogicalHeight - h) / 2
-	render.DrawShadow(screen, x, y, w, h)
-	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
+	render.DrawShadow(canvas, x, y, w, h)
+	render.DrawPanel(canvas, x, y, w, h, render.ColorPanel)
 
-	render.DrawText(screen, "Inn", x+12, y+10, render.ColorTextBright)
-	render.DrawText(screen, "enter: rest the crew   esc: back", x+12, y+22, render.ColorTextDim)
+	render.DrawText(canvas, "Inn", x+12, y+10, render.ColorTextBright)
+	render.DrawText(canvas, "enter: rest the crew   esc: back", x+12, y+22, render.ColorTextDim)
 
 	fleet := i.ui.world.SnapshotFleet(i.ui.world.PlayerEntity())
-	render.DrawText(screen, fmt.Sprintf("Fatigue %.0f   Morale %.0f", fleet.Fatigue, fleet.Morale), x+12, y+44, render.ColorText)
-	render.DrawHBar(screen, x+12, y+58, 120, 6, fleet.Morale/100, render.ColorGood, render.ColorPanelLight)
-	render.DrawHBar(screen, x+12, y+70, 120, 6, fleet.Fatigue/100, render.ColorBad, render.ColorPanelLight)
+	render.DrawText(canvas, fmt.Sprintf("Fatigue %.0f   Morale %.0f", fleet.Fatigue, fleet.Morale), x+12, y+44, render.ColorText)
+	render.DrawHBar(canvas, x+12, y+58, 120, 6, fleet.Morale/100, render.ColorGood, render.ColorPanelLight)
+	render.DrawHBar(canvas, x+12, y+70, 120, 6, fleet.Fatigue/100, render.ColorBad, render.ColorPanelLight)
 	if i.cost > 0 {
-		render.DrawText(screen, fmt.Sprintf("Paid %d gold", int(i.cost)), x+12, y+88, render.ColorGold)
+		render.DrawText(canvas, fmt.Sprintf("Paid %d gold", int(i.cost)), x+12, y+88, render.ColorGold)
 	}
 }
 
@@ -263,16 +263,16 @@ func (s *SailPopup) Update() bool {
 }
 
 // Draw implements Popup.
-func (s *SailPopup) Draw(screen *ebiten.Image) {
+func (s *SailPopup) Draw(canvas *render.Canvas) {
 	const visible = 12
 	w, h := 300, visible*render.LineHeight+46
 	x := (LogicalWidth - w) / 2
 	y := (LogicalHeight - h) / 2
-	render.DrawShadow(screen, x, y, w, h)
-	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
+	render.DrawShadow(canvas, x, y, w, h)
+	render.DrawPanel(canvas, x, y, w, h, render.ColorPanel)
 
-	render.DrawText(screen, "Set Sail", x+12, y+10, render.ColorTextBright)
-	render.DrawText(screen, "up/down: choose   enter: depart   esc: back", x+12, y+22, render.ColorTextDim)
+	render.DrawText(canvas, "Set Sail", x+12, y+10, render.ColorTextBright)
+	render.DrawText(canvas, "up/down: choose   enter: depart   esc: back", x+12, y+22, render.ColorTextDim)
 
 	start := 0
 	if s.selected >= visible {
@@ -290,11 +290,11 @@ func (s *SailPopup) Draw(screen *ebiten.Image) {
 		rowY := y + 38 + i*render.LineHeight
 		colour := render.ColorText
 		if idx == s.selected {
-			render.DrawSelectionMarker(screen, x+6, rowY)
+			render.DrawSelectionMarker(canvas, x+6, rowY)
 			colour = render.ColorTextBright
 		}
-		render.DrawText(screen, port.Name, x+16, rowY, colour)
-		render.DrawTextRight(screen, port.Region, x+w-12, rowY, render.ColorTextDim)
+		render.DrawText(canvas, port.Name, x+16, rowY, colour)
+		render.DrawTextRight(canvas, port.Region, x+w-12, rowY, render.ColorTextDim)
 	}
 }
 

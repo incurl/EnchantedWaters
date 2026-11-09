@@ -6,6 +6,7 @@ import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 
+	"github.com/peter/enchantedwaters/internal/config"
 	"github.com/peter/enchantedwaters/internal/render"
 	"github.com/peter/enchantedwaters/internal/world"
 )
@@ -44,24 +45,104 @@ func (p *PortPopup) Title() string {
 	return "Port"
 }
 
+// portFacilityMenu is the index of the menu of the original game that
+// holds the facilities of a port.
+//
+// The menu tree of the original game holds 12 facilities: Market, Pub,
+// Shipyard, Harbor, Lodge, Palace, Guild, NPC, Bank, Item Shop, Church
+// and Fortune.
+const portFacilityMenu = 58
+
 // menu returns the entries of the port menu.
 //
 // The entries are rebuilt on every call so that they always reflect the
 // current state of the port.
+//
+// The labels of the facilities come from the menu tree of the original
+// game when it is available; the facilities that this project does not
+// implement yet are shown as disabled.
 func (p *PortPopup) menu() []PortMenuEntry {
 	port := p.ui.cfg.Port(p.portID)
 	if port == nil {
 		return nil
 	}
-	return []PortMenuEntry{
-		{Label: "Exchange", Enabled: true, Action: "exchange"},
-		{Label: "Shipyard", Enabled: port.ShipyardLevel > 0, Action: "shipyard"},
-		{Label: "Tavern", Enabled: port.TavernLevel > 0, Action: "tavern"},
-		{Label: "Governor's Mansion", Enabled: port.GovernorLevel > 0, Action: "governor"},
-		{Label: "Church", Enabled: port.ChurchLevel > 0, Action: "church"},
-		{Label: "Inn", Enabled: port.InnLevel > 0, Action: "inn"},
-		{Label: "Set Sail", Enabled: true, Action: "sail"},
-		{Label: "Leave", Enabled: true, Action: "leave"},
+
+	// --- the facilities of the original game ---
+	original := p.ui.cfg.OriginalMenu(portFacilityMenu)
+	entries := make([]PortMenuEntry, 0, len(original)+2)
+	for _, label := range original {
+		entries = append(entries, PortMenuEntry{
+			Label:   label,
+			Enabled: p.facilityEnabled(label, port),
+			Action:  p.facilityAction(label),
+		})
+	}
+	if len(entries) == 0 {
+		// The fallback: the facilities that this project implements.
+		entries = append(entries,
+			PortMenuEntry{Label: "Exchange", Enabled: true, Action: "exchange"},
+			PortMenuEntry{Label: "Shipyard", Enabled: port.ShipyardLevel > 0, Action: "shipyard"},
+			PortMenuEntry{Label: "Tavern", Enabled: port.TavernLevel > 0, Action: "tavern"},
+			PortMenuEntry{Label: "Governor's Mansion", Enabled: port.GovernorLevel > 0, Action: "governor"},
+			PortMenuEntry{Label: "Church", Enabled: port.ChurchLevel > 0, Action: "church"},
+			PortMenuEntry{Label: "Inn", Enabled: port.InnLevel > 0, Action: "inn"},
+		)
+	}
+
+	entries = append(entries,
+		PortMenuEntry{Label: "Set Sail", Enabled: true, Action: "sail"},
+		PortMenuEntry{Label: "Leave", Enabled: true, Action: "leave"},
+	)
+	return entries
+}
+
+// facilityEnabled reports whether a facility of the original game can be
+// used in a port.
+//
+// The facilities that this project does not implement yet are shown, but
+// they cannot be selected: the player sees the structure of the original
+// game without being led into a dead end.
+func (p *PortPopup) facilityEnabled(label string, port *config.Port) bool {
+	switch label {
+	case "Market":
+		return true
+	case "Shipyard":
+		return port.ShipyardLevel > 0
+	case "Pub":
+		return port.TavernLevel > 0
+	case "Palace":
+		return port.GovernorLevel > 0
+	case "Church":
+		return port.ChurchLevel > 0
+	case "Lodge":
+		return port.InnLevel > 0
+	default:
+		// The other facilities of the original game (Harbor, Guild, NPC,
+		// Bank, Item Shop, Fortune) are not implemented yet.
+		return false
+	}
+}
+
+// facilityAction maps the label of a facility to the action that opens
+// its screen.
+//
+// The labels are the ones of the original game.
+func (p *PortPopup) facilityAction(label string) string {
+	switch label {
+	case "Market":
+		return "exchange"
+	case "Shipyard":
+		return "shipyard"
+	case "Pub":
+		return "tavern"
+	case "Palace":
+		return "governor"
+	case "Church":
+		return "church"
+	case "Lodge":
+		return "inn"
+	default:
+		return "none"
 	}
 }
 
@@ -115,33 +196,59 @@ func (p *PortPopup) activate(action string) {
 }
 
 // Draw implements Popup.
-func (p *PortPopup) Draw(screen *ebiten.Image) {
+func (p *PortPopup) Draw(canvas *render.Canvas) {
 	menu := p.menu()
-	w, h := 220, len(menu)*render.LineHeight+40
+	// The panel is wide enough for the longest label of the original
+	// game, and it is never taller than the screen.
+	w := 200
+	for _, entry := range menu {
+		if width := render.TextWidth(entry.Label) + 40; width > w {
+			w = width
+		}
+	}
+	h := len(menu)*render.LineHeight + 40
+	if h > LogicalHeight-8 {
+		h = LogicalHeight - 8
+	}
 	x := (LogicalWidth - w) / 2
 	y := (LogicalHeight - h) / 2
-	render.DrawShadow(screen, x, y, w, h)
-	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
+	render.DrawShadow(canvas, x, y, w, h)
+	render.DrawPanel(canvas, x, y, w, h, render.ColorPanel)
 
 	port := p.ui.cfg.Port(p.portID)
 	title := "Port"
 	if port != nil {
 		title = port.Name
 	}
-	render.DrawText(screen, title, x+12, y+10, render.ColorTextBright)
-	render.DrawText(screen, "choose a facility", x+12, y+22, render.ColorTextDim)
+	render.DrawText(canvas, title, x+12, y+10, render.ColorTextBright)
+	render.DrawText(canvas, "choose a facility", x+12, y+22, render.ColorTextDim)
 
-	for i, entry := range menu {
+	// The visible rows are the ones around the selection, so that the
+	// list can be longer than the panel.
+	visible := (h - 36) / render.LineHeight
+	if visible < 1 {
+		visible = 1
+	}
+	first := 0
+	if p.selected >= visible {
+		first = p.selected - visible + 1
+	}
+	for i := 0; i < visible; i++ {
+		idx := first + i
+		if idx >= len(menu) {
+			break
+		}
+		entry := menu[idx]
 		rowY := y + 36 + i*render.LineHeight
 		colour := render.ColorText
 		if !entry.Enabled {
 			colour = render.ColorTextDim
 		}
-		if i == p.selected {
-			render.DrawSelectionMarker(screen, x+6, rowY)
+		if idx == p.selected {
+			render.DrawSelectionMarker(canvas, x+6, rowY)
 			colour = render.ColorTextBright
 		}
-		render.DrawText(screen, entry.Label, x+16, rowY, colour)
+		render.DrawText(canvas, entry.Label, x+16, rowY, colour)
 	}
 }
 
@@ -235,29 +342,42 @@ func (e *ExchangePopup) trade(commodityID string) {
 }
 
 // Draw implements Popup.
-func (e *ExchangePopup) Draw(screen *ebiten.Image) {
+func (e *ExchangePopup) Draw(canvas *render.Canvas) {
 	commodities := e.ui.cfg.CommodityOrder
 	w, h := 440, 260
 	x := (LogicalWidth - w) / 2
 	y := (LogicalHeight - h) / 2
-	render.DrawShadow(screen, x, y, w, h)
-	render.DrawPanel(screen, x, y, w, h, render.ColorPanel)
+	render.DrawShadow(canvas, x, y, w, h)
+	render.DrawPanel(canvas, x, y, w, h, render.ColorPanel)
 
-	// --- header ---
+	// --- the header of the screen ---
+	//
+	// Every line has its own row, so that the wording of the original
+	// game and the labels of this project never collide.
 	mode := "BUY"
 	if e.selling {
 		mode = "SELL"
 	}
-	render.DrawText(screen, "Exchange - "+mode, x+12, y+10, render.ColorTextBright)
-	if !e.selling {
-		// The merchant greets the player with the original wording.
-		render.DrawText(screen, e.ui.text.Get(textGreet), x+120, y+10, render.ColorTextDim)
-	}
-	render.DrawText(screen, fmt.Sprintf("gold: %d   qty: %d (left/right)", int(e.ui.world.Treasury()), e.quantity), x+12, y+22, render.ColorTextDim)
-	render.DrawText(screen, "tab: switch mode   enter: trade   esc: back", x+12, y+34, render.ColorTextDim)
+	render.DrawText(canvas, "Exchange - "+mode, x+12, y+10, render.ColorTextBright)
 
-	// --- the commodity list ---
+	// The merchant greets the player with the original wording.
+	if !e.selling {
+		render.DrawText(canvas, e.ui.text.Get(textGreet), x+12, y+22, render.ColorTextDim)
+	}
+	render.DrawText(canvas, "tab: switch mode   enter: trade   esc: back", x+12, y+34, render.ColorTextDim)
+
+	// The money and the quantity are shown on the right of the header.
+	render.DrawTextRight(canvas,
+		fmt.Sprintf("%d gold   qty %d", int(e.ui.world.Treasury()), e.quantity),
+		x+w-12, y+10, render.ColorGold)
+
+	// --- the column titles of the list ---
 	const visible = 9
+	listTop := y + 62
+	render.DrawText(canvas, "goods", x+16, listTop-10, render.ColorTextDim)
+	render.DrawTextRight(canvas, "price", x+260, listTop-10, render.ColorTextDim)
+	render.DrawTextRight(canvas, "stock", x+330, listTop-10, render.ColorTextDim)
+	render.DrawTextRight(canvas, "base", x+w-12, listTop-10, render.ColorTextDim)
 	start := 0
 	if e.selected >= visible {
 		start = e.selected - visible + 1
@@ -272,19 +392,19 @@ func (e *ExchangePopup) Draw(screen *ebiten.Image) {
 		if c == nil {
 			continue
 		}
-		rowY := y + 50 + i*render.LineHeight
+		rowY := listTop + 4 + i*render.LineHeight
 		price := e.ui.world.Price(cid, e.portID)
 		stock := e.ui.world.Stock(cid, e.portID)
 
 		colour := render.ColorText
 		if idx == e.selected {
-			render.DrawSelectionMarker(screen, x+6, rowY)
+			render.DrawSelectionMarker(canvas, x+6, rowY)
 			colour = render.ColorTextBright
 		}
-		render.DrawText(screen, c.Name, x+16, rowY, colour)
-		render.DrawTextRight(screen, fmt.Sprintf("%.0f", price), x+260, rowY, render.ColorGold)
-		render.DrawTextRight(screen, fmt.Sprintf("%.0f", stock), x+330, rowY, render.ColorTextDim)
-		render.DrawTextRight(screen, fmt.Sprintf("%.0f", c.BasePrice), x+w-12, rowY, render.ColorTextDim)
+		render.DrawText(canvas, c.Name, x+16, rowY, colour)
+		render.DrawTextRight(canvas, fmt.Sprintf("%.0f", price), x+260, rowY, render.ColorGold)
+		render.DrawTextRight(canvas, fmt.Sprintf("%.0f", stock), x+330, rowY, render.ColorTextDim)
+		render.DrawTextRight(canvas, fmt.Sprintf("%.0f", c.BasePrice), x+w-12, rowY, render.ColorTextDim)
 	}
 
 	// --- the quote of the selected commodity ---
@@ -298,14 +418,14 @@ func (e *ExchangePopup) Draw(screen *ebiten.Image) {
 			quote = e.ui.world.QuoteBuy(fleetID, cid, e.portID, float64(e.quantity))
 		}
 		qy := y + h - 56
-		render.DrawText(screen, fmt.Sprintf("total %.0f   tax %.0f", quote.Total, quote.Tax), x+12, qy, render.ColorText)
+		render.DrawText(canvas, fmt.Sprintf("total %.0f   tax %.0f", quote.Total, quote.Tax), x+12, qy, render.ColorText)
 		amount := fmt.Sprintf("pay %.0f", quote.GrandTotal)
 		if e.selling {
 			amount = fmt.Sprintf("receive %.0f", quote.GrandTotal)
 		}
-		render.DrawText(screen, amount, x+12, qy+render.LineHeight, render.ColorGold)
+		render.DrawText(canvas, amount, x+12, qy+render.LineHeight, render.ColorGold)
 		if quote.Reason != "" {
-			render.DrawText(screen, quote.Reason, x+150, qy+render.LineHeight, render.ColorBad)
+			render.DrawText(canvas, quote.Reason, x+150, qy+render.LineHeight, render.ColorBad)
 		}
 	}
 }

@@ -144,6 +144,20 @@ func runGame(args []string) error {
 	// --- create the game ---
 	game := ui.NewGame(w)
 
+	// --- the screenshot ---
+	// The screenshot is written at the end of the first frame.
+	if shot := flags["shot"]; shot != "" {
+		game.SetScreenshot(shot)
+	}
+
+	// --- open a screen at the start ---
+	// The flag is used by the development screenshots.
+	if screen := flags["open"]; screen != "" {
+		if !game.UI().OpenScreen(screen) {
+			log.Info("the screen could not be opened", "screen", screen)
+		}
+	}
+
 	// The window is created with an integer scaling factor and
 	// nearest-neighbour filtering, which preserves the retro look.
 	ebitenSetWindowProperties()

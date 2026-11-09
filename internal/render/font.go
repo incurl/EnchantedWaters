@@ -2,8 +2,6 @@ package render
 
 import (
 	"image/color"
-
-	"github.com/hajimehoshi/ebiten/v2"
 )
 
 // The game uses its own 8x8 bitmap font.
@@ -27,57 +25,6 @@ const CharAdvance = 8
 
 // LineHeight is the vertical distance between two text lines.
 const LineHeight = 10
-
-// DrawText draws a string with the bitmap font.
-//
-// The text is drawn on the opaque pixels of the glyphs only; the
-// background stays untouched. It returns the width of the drawn text.
-func DrawText(screen *ebiten.Image, s string, x, y int, clr color.Color) int {
-	rawR, rawG, rawB, rawA := clr.RGBA()
-	// The components are scaled from the 0..0xffff range to a byte, so
-	// that the pixel loop works on plain bytes.
-	cr, cg, cb := uint8(rawR>>8), uint8(rawG>>8), uint8(rawB>>8)
-	alpha := uint8(rawA >> 8)
-	if alpha == 0 {
-		return 0
-	}
-	cursor := x
-	for _, ch := range s {
-		if ch == '\n' {
-			cursor = x
-			y += LineHeight
-			continue
-		}
-		cursor += drawGlyph(screen, ch, cursor, y, cr, cg, cb, alpha)
-	}
-	return cursor - x
-}
-
-// drawGlyph draws a single rune and returns its advance.
-//
-// The colour components are passed as bytes so that the pixel loop stays
-// free of conversions.
-func drawGlyph(screen *ebiten.Image, ch rune, x, y int, cr, cg, cb, alpha uint8) int {
-	if ch < firstRune || ch > lastRune {
-		return CharAdvance
-	}
-	glyph := fontGlyphs[ch-firstRune]
-	for row := 0; row < CharHeight; row++ {
-		bits := glyph[row]
-		if bits == 0 {
-			continue
-		}
-		py := y + row
-		for col := 0; col < CharWidth; col++ {
-			if bits&(0x80>>uint(col)) == 0 {
-				continue
-			}
-			px := x + col
-			screen.Set(px, py, color.RGBA{cr, cg, cb, alpha})
-		}
-	}
-	return CharAdvance
-}
 
 // TextWidth returns the pixel width of a string in the bitmap font.
 //
@@ -113,14 +60,5 @@ func TextHeight(s string) int {
 	return lines*LineHeight - (LineHeight - CharHeight)
 }
 
-// DrawTextCentered draws a string centred on x.
-func DrawTextCentered(screen *ebiten.Image, s string, x, y int, clr color.Color) {
-	w := TextWidth(s)
-	DrawText(screen, s, x-w/2, y, clr)
-}
-
-// DrawTextRight draws a string right-aligned at x.
-func DrawTextRight(screen *ebiten.Image, s string, x, y int, clr color.Color) {
-	w := TextWidth(s)
-	DrawText(screen, s, x-w, y, clr)
-}
+// TextColor is the default colour of the text.
+var TextColor = color.RGBA{0xe6, 0xe0, 0xc8, 0xff}

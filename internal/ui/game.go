@@ -34,6 +34,9 @@ type Game struct {
 	// debug is the development debug panel. It is a stub in the release
 	// builds.
 	debug *DebugPanel
+	// shotPath is the file the canvas is written into; it is empty when
+	// no screenshot was requested.
+	shotPath string
 }
 
 // NewGame creates the game of a session.
@@ -47,6 +50,11 @@ func NewGame(w *world.World) *Game {
 
 // UI returns the user interface of the game.
 func (g *Game) UI() *UI { return g.ui }
+
+// SetScreenshot asks the game to write the canvas into a file.
+//
+// The screenshot is taken at the end of the next frame.
+func (g *Game) SetScreenshot(path string) { g.shotPath = path }
 
 // updateTickInterval recomputes the interval between two ticks.
 //
@@ -126,6 +134,22 @@ func (g *Game) handleSaveKeys() {
 func (g *Game) Draw(screen *ebiten.Image) {
 	g.ui.Draw(screen)
 	g.debug.Draw(screen)
+	g.saveShot()
+}
+
+// saveShot writes the canvas into a PNG file.
+//
+// The screenshot is taken from the canvas, not from the window: the
+// capture of a window depends on the window manager, while the canvas
+// holds exactly what was drawn.
+func (g *Game) saveShot() {
+	if g.shotPath == "" {
+		return
+	}
+	if err := g.ui.Canvas().SavePNG(g.shotPath); err != nil {
+		g.ui.Message("the screenshot failed: %v", err)
+	}
+	g.shotPath = ""
 }
 
 // Layout implements ebiten.Game.

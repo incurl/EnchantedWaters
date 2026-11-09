@@ -123,3 +123,35 @@ func TestCleanDialogue(t *testing.T) {
 		t.Errorf("the text is %q", body)
 	}
 }
+
+// TestOriginalMenuTree verifies the imported menu tree.
+//
+// The menu 58 of the original game holds the facilities of a port.
+func TestOriginalMenuTree(t *testing.T) {
+	dir := filepath.Join("..", "..", "assets", "config")
+	reg, err := asset.Load(dir, logr.Discard())
+	if err != nil {
+		t.Fatalf("load config: %v", err)
+	}
+
+	facilities := reg.OriginalMenu(58)
+	if len(facilities) != 12 {
+		t.Fatalf("the port facilities are %d, want 12", len(facilities))
+	}
+	// The first three facilities of the original game.
+	want := []string{"Market", "Pub", "Shipyard"}
+	for i, w := range want {
+		if facilities[i] != w {
+			t.Errorf("the facility %d is %q, want %q", i, facilities[i], w)
+		}
+	}
+
+	// The sailing menu holds the eight compass directions.
+	directions := reg.OriginalMenu(40)
+	if len(directions) != 8 {
+		t.Errorf("the compass menu holds %d entries, want 8", len(directions))
+	}
+	if directions[0] != "North" {
+		t.Errorf("the first direction is %q, want North", directions[0])
+	}
+}

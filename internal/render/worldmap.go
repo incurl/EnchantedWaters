@@ -4,8 +4,6 @@ import (
 	"image"
 	"image/color"
 	"math"
-
-	"github.com/hajimehoshi/ebiten/v2"
 )
 
 // WorldMap draws the scrollable world map.
@@ -27,8 +25,6 @@ type WorldMap struct {
 	// GPU in one go. This keeps the rendering testable without a running
 	// game, and it makes the per frame cost a single texture upload.
 	buffer *image.RGBA
-	// img is the GPU side image that holds the uploaded map.
-	img *ebiten.Image
 	// width / height are the size of the map in pixels.
 	width, height int
 	// dirty marks the map as needing a re-render.
@@ -110,14 +106,6 @@ func (m *WorldMap) EnsureImage() {
 	if m.buffer == nil {
 		m.buffer = image.NewRGBA(image.Rect(0, 0, m.width, m.height))
 	}
-	if m.img == nil {
-		// The image is unmanaged: the pixel data of the buffer is then
-		// copied verbatim, without any atlas padding.
-		m.img = ebiten.NewImageWithOptions(
-			image.Rect(0, 0, m.width, m.height),
-			&ebiten.NewImageOptions{Unmanaged: true})
-		m.dirty = true
-	}
 }
 
 // Render regenerates the offscreen map if needed.
@@ -138,8 +126,6 @@ func (m *WorldMap) Render(data *MapData, day int, weatherKey string) bool {
 	m.drawLand(data)
 	m.drawPorts(data)
 
-	// The CPU buffer is uploaded into the GPU image in one go.
-	m.img.WritePixels(m.buffer.Pix)
 	return true
 }
 
@@ -309,11 +295,14 @@ func drawFillRect(img *image.RGBA, x, y, w, h int, c color.Color) {
 	}
 }
 
-// Draw renders the visible part of the map into the screen.
+// Draw renders the visible part of the map into the canvas.
 //
 // The camera is expressed in map pixels; the visible rectangle is clipped
 // to the map bounds.
-func (m *WorldMap) Draw(screen *ebiten.Image, camX, camY float64, screenW, screenH int) {
+//
+// The pixels are copied from the CPU side buffer into the canvas, so that
+// the whole interface is drawn through the same path.
+func (m *WorldMap) Draw(canvas *Canvas, camX, camY float64, screenW, screenH int) {
 	m.EnsureImage()
 	// Compute the source rectangle.
 	srcX := int(camX)
@@ -346,20 +335,30 @@ func (m *WorldMap) Draw(screen *ebiten.Image, camX, camY float64, screenW, scree
 	if camY < 0 {
 		dstY = int(-camY)
 	}
-	// The visible part of the map is drawn as a sub image.
+	// The visible region is copied into the canvas.
 	//
-	// The sub image of an unmanaged image keeps the pixel coordinates of
-	// the original, so the source rectangle maps one to one.
-	sub, ok := m.img.SubImage(image.Rect(srcX, srcY, srcX+srcW, srcY+srcH)).(*ebiten.Image)
-	if !ok {
-		return
+	// The copy is a straight pixel copy: the map is already at the
+	// resolution of the screen, so no scaling is needed.
+	dst := canvas.Image()
+	for row := 0; row < srcH; row++ {
+		sy := srcY + row
+		dy := dstY + row
+		if sy < 0 || sy >= m.height || dy < 0 || dy >= dst.Bounds().Dy() {
+			continue
+		}
+		srcRow := m.buffer.PixOffset(srcX, sy)
+		dstRow := dst.PixOffset(0, dy)
+		for col := 0; col < srcW; col++ {
+			dx := dstX + col
+			if dx < 0 || dx >= dst.Bounds().Dx() {
+				continue
+			}
+			si := srcRow + col*4
+			di := dstRow + dx*4
+			copy(dst.Pix[di:di+4], m.buffer.Pix[si:si+4])
+		}
 	}
-	op := &ebiten.DrawImageOptions{
-		// The nearest-neighbour filtering keeps the pixels crisp.
-		Filter: ebiten.FilterNearest,
-	}
-	op.GeoM.Translate(float64(dstX), float64(dstY))
-	screen.DrawImage(sub, op)
+	canvas.MarkDirty()
 }
 
 // DrawFleet draws a fleet marker on top of the map.
@@ -367,7 +366,7 @@ func (m *WorldMap) Draw(screen *ebiten.Image, camX, camY float64, screenW, scree
 // The marker is a filled triangle that points in the direction of the
 // heading. The player's fleet is drawn in bright white with a dark
 // outline, so that it always stands out from the AI fleets.
-func DrawFleet(screen *ebiten.Image, x, y, heading float64, isPlayer bool) {
+func DrawFleet(canvas *Canvas, x, y, heading float64, isPlayer bool) {
 	body := ColorAIFleet
 	outline := ColorSeaDeep
 	if isPlayer {
@@ -392,15 +391,15 @@ func DrawFleet(screen *ebiten.Image, x, y, heading float64, isPlayer bool) {
 
 	// The outline is drawn first, one pixel larger, and the body is then
 	// filled on top of it.
-	fillTriangle(screen, tipX, tipY, leftX, leftY, rightX, rightY, outline, 1)
-	fillTriangle(screen, tipX, tipY, leftX, leftY, rightX, rightY, body, 0)
+	fillTriangle(canvas, tipX, tipY, leftX, leftY, rightX, rightY, outline, 1)
+	fillTriangle(canvas, tipX, tipY, leftX, leftY, rightX, rightY, body, 0)
 }
 
 // fillTriangle fills a triangle, optionally grown by a margin.
 //
 // The filling is done with a scan line algorithm over the bounding box,
 // which is exact enough for the small markers of the map.
-func fillTriangle(screen *ebiten.Image, x0, y0, x1, y1, x2, y2 float64, c color.Color, margin float64) {
+func fillTriangle(canvas *Canvas, x0, y0, x1, y1, x2, y2 float64, c color.Color, margin float64) {
 	minX := int(math.Floor(math.Min(x0, math.Min(x1, x2)) - margin))
 	maxX := int(math.Ceil(math.Max(x0, math.Max(x1, x2)) + margin))
 	minY := int(math.Floor(math.Min(y0, math.Min(y1, y2)) - margin))
@@ -423,7 +422,7 @@ func fillTriangle(screen *ebiten.Image, x0, y0, x1, y1, x2, y2 float64, c color.
 			if w0 < -margin || w1 < -margin || w2 < -margin {
 				continue
 			}
-			screen.Set(x, y, color.RGBA{uint8(cr >> 8), uint8(cg >> 8), uint8(cb >> 8), uint8(ca >> 8)})
+			canvas.Set(x, y, color.RGBA{uint8(cr >> 8), uint8(cg >> 8), uint8(cb >> 8), uint8(ca >> 8)})
 		}
 	}
 }
