@@ -112,11 +112,14 @@ func loadOriginalText(path string, dst map[int]*config.OriginalText, log logr.Lo
 // weather that it derives from the sea zones.
 func loadWind(path string, reg *config.Registry, log logr.Logger) error {
 	rows, err := LoadCSVTable[struct {
-		Column    int `csv:"column"`
-		Row       int `csv:"row"`
-		Direction int `csv:"direction"`
-		Strength  int `csv:"strength"`
-		Current   int `csv:"current"`
+		Column           int `csv:"column"`
+		Row              int `csv:"row"`
+		SummerDirection  int `csv:"summer_direction"`
+		SummerStrength   int `csv:"summer_strength"`
+		WinterDirection  int `csv:"winter_direction"`
+		WinterStrength   int `csv:"winter_strength"`
+		CurrentDirection int `csv:"current_direction"`
+		CurrentStrength  int `csv:"current_strength"`
 	}](path)
 	if err != nil {
 		if errors.Is(err, os.ErrNotExist) {
@@ -129,18 +132,24 @@ func loadWind(path string, reg *config.Registry, log logr.Logger) error {
 		return nil
 	}
 	wind := &config.WorldWind{
-		Directions: make([]uint8, config.WindSeaAreas),
-		Strengths:  make([]uint8, config.WindSeaAreas),
-		Currents:   make([]uint8, config.WindSeaAreas),
+		SummerDirection:  make([]uint8, config.WindSeaAreas),
+		SummerStrength:   make([]uint8, config.WindSeaAreas),
+		WinterDirection:  make([]uint8, config.WindSeaAreas),
+		WinterStrength:   make([]uint8, config.WindSeaAreas),
+		CurrentDirection: make([]uint8, config.WindSeaAreas),
+		CurrentStrength:  make([]uint8, config.WindSeaAreas),
 	}
 	for _, r := range rows {
 		if r.Column < 0 || r.Row < 0 || r.Column >= config.WindColumns || r.Row >= config.WindRows {
 			continue
 		}
 		i := r.Row*config.WindColumns + r.Column
-		wind.Directions[i] = uint8(r.Direction)
-		wind.Strengths[i] = uint8(r.Strength)
-		wind.Currents[i] = uint8(r.Current)
+		wind.SummerDirection[i] = uint8(r.SummerDirection)
+		wind.SummerStrength[i] = uint8(r.SummerStrength)
+		wind.WinterDirection[i] = uint8(r.WinterDirection)
+		wind.WinterStrength[i] = uint8(r.WinterStrength)
+		wind.CurrentDirection[i] = uint8(r.CurrentDirection)
+		wind.CurrentStrength[i] = uint8(r.CurrentStrength)
 	}
 	reg.Wind = wind
 	log.Info("loaded the wind of the original game", "sea areas", config.WindSeaAreas)

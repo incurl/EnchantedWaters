@@ -247,7 +247,7 @@ func TestAuthenticWind(t *testing.T) {
 	// a strength, and the vector points to the direction the wind blows
 	// to.
 	for _, cell := range []struct{ column, row int }{{0, 0}, {7, 4}, {29, 14}} {
-		direction, strength, _ := reg.Wind.At(cell.column, cell.row)
+		direction, strength, _ := reg.Wind.At(cell.column, cell.row, true)
 		if strength == 0 {
 			continue
 		}
@@ -291,7 +291,7 @@ func TestAuthenticWindStrength(t *testing.T) {
 	for i := 0; i < config.WindSeaAreas; i++ {
 		column := i % config.WindColumns
 		row := i / config.WindColumns
-		_, strength, _ := reg.Wind.At(column, row)
+		_, strength, _ := reg.Wind.At(column, row, true)
 		if strength >= 8 && strong < 0 {
 			strong = i
 		}

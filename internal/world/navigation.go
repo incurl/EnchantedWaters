@@ -147,9 +147,9 @@ func (w *World) currentWindAt(x, y float64) (windX, windY, curX, curY float64) {
 // a map position.
 //
 // The table of the original game gives the direction and the strength of
-// the wind of a sea area, and the direction of its current. The direction
-// is a number from 0 to 7 counted clockwise from the north, and the
-// strength is a number from 0 to 31.
+// the wind of a sea area, and the direction and the strength of its
+// current. The direction is a number from 0 to 7 counted clockwise from the
+// north, and the strength is a number from 0 to 15.
 //
 // The strength of the table is turned into the knots of the game with the
 // same factor that the table of the hulls uses, so that the drive of a
@@ -163,13 +163,14 @@ func (w *World) authenticWindAt(wind *config.WorldWind, x, y float64) (windX, wi
 	// --- the sea area that holds the position ---
 	tileX := int(x / worldTilePixels)
 	tileY := int(y / worldTilePixels)
-	direction, strength, current := wind.SeaArea(tileX, tileY)
+	summer := w.isSummer()
+	direction, strength, current := wind.SeaArea(tileX, tileY, summer)
 
 	// --- the wind of the table ---
 	// A direction of the table is a quarter turn of 45 degrees, counted
 	// clockwise from the north.
 	bearing := float64(direction) * 45
-	units := float64(strength) * sail.KnotsPerWindUnit / float64(sail.MaxWindUnits)
+	units := windKnots(strength)
 
 	// --- the weather of the moment ---
 	weatherSpeed := 0.0
@@ -191,16 +192,52 @@ func (w *World) authenticWindAt(wind *config.WorldWind, x, y float64) (windX, wi
 	windX, windY = wx, wy
 
 	// --- the current of the table ---
-	// The strength of the current of the original game is a quarter of
-	// the strength of the wind of the same sea area.
 	curBearing := float64(current) * 45
-	curUnits := float64(strength) * 0.25 * sail.KnotsPerWindUnit / float64(sail.MaxWindUnits)
+	curUnits := windKnots(wind.CurrentStrengthAt(tileX/config.WindSeaAreaSize, tileY/config.WindSeaAreaSize))
 	if wc := w.weatherComponent(); wc != nil && wc.CurrentSpeed > 0 {
 		curUnits += wc.CurrentSpeed
 	}
 	cx, cy := vectorFromPolar(curUnits, curBearing)
 	curX, curY = cx, cy
 	return windX, windY, curX, curY
+}
+
+// windKnots turns the strength of the original game into the knots that the
+// wind vector of this project carries.
+//
+// The strength of the original game runs from zero to fifteen, and the
+// sailing model works on the scale of zero to seven. The vector of the
+// wind carries knots, and the caller turns the knots back into the scale of
+// the model, so the strength is scaled to that scale and then into knots:
+// a strength of fifteen is the strongest wind there is, which is seven
+// units of the model, and so 24.5 knots.
+func windKnots(strength int) float64 {
+	if strength <= 0 {
+		return 0
+	}
+	units := float64(strength) * sail.MaxWindUnits / float64(config.WindMaxStrength)
+	knots := units * sail.KnotsPerWindUnit
+	// The knots of the strongest wind there is.
+	if max := sail.MaxWindUnits * sail.KnotsPerWindUnit; knots > max {
+		knots = max
+	}
+	return knots
+}
+
+// isSummer reports whether the current day of the year lies in the summer.
+//
+// The original game tells the two seasons apart by the month, and the
+// months from March to August are the summer. The game counts the days of
+// the year from the first of March, so the first third of the year is the
+// summer.
+func (w *World) isSummer() bool {
+	daysPerYear := w.cfg.Params.DaysPerGameYear
+	if daysPerYear <= 0 {
+		return true
+	}
+	// The first day of March is the first day of the year of the game, so
+	// the summer is the first half of it.
+	return w.day <= daysPerYear/2
 }
 
 // worldTilePixels is the size of one tile of the world map in pixels.

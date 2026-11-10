@@ -89,19 +89,24 @@ func (t *WorldTerrain) IsLand(x, y int) bool { return t.At(x, y) == '#' }
 //
 // The data comes from WINDCUR.DAT of the original game. The world map is
 // divided into 30 columns and 15 rows of sea areas, and every sea area
-// holds the direction the wind blows to, the strength of the wind and the
-// direction of the current.
+// holds the direction of the wind and its strength, for the summer and for
+// the winter, and the direction of the current and its strength.
 //
 // The directions are numbers from 0 to 7 counted clockwise from the north,
-// and the strengths are numbers from 0 to 31.
+// and the strengths are numbers from 0 to 15.
 type WorldWind struct {
-	// Directions holds the direction of the wind of every sea area, row
-	// by row.
-	Directions []uint8
-	// Strengths holds the strength of the wind of every sea area.
-	Strengths []uint8
-	// Currents holds the direction of the current of every sea area.
-	Currents []uint8
+	// SummerDirection holds the direction of the wind of the summer.
+	SummerDirection []uint8
+	// SummerStrength holds the strength of the wind of the summer.
+	SummerStrength []uint8
+	// WinterDirection holds the direction of the wind of the winter.
+	WinterDirection []uint8
+	// WinterStrength holds the strength of the wind of the winter.
+	WinterStrength []uint8
+	// CurrentDirection holds the direction of the currents.
+	CurrentDirection []uint8
+	// CurrentStrength holds the strength of the currents.
+	CurrentStrength []uint8
 }
 
 // The geometry of the grid of the sea areas.
@@ -112,30 +117,58 @@ const (
 	WindSeaAreas = WindColumns * WindRows
 	// WindSeaAreaSize is the size of a sea area in tiles.
 	WindSeaAreaSize = 72
+	// WindMaxStrength is the top of the strength scale of the original.
+	WindMaxStrength = 15
 )
 
 // At returns the wind of the sea area at the given column and row.
 //
 // The function returns zeroes when the position is outside of the map, so
 // a caller never has to check the bounds itself.
-func (w *WorldWind) At(column, row int) (direction, strength, current int) {
+//
+// The summer is the season of the months from March to August, which is
+// how the original game tells the two apart.
+func (w *WorldWind) At(column, row int, summer bool) (direction, strength, current int) {
 	if w == nil || column < 0 || row < 0 || column >= WindColumns || row >= WindRows {
 		return 0, 0, 0
 	}
 	i := row*WindColumns + column
-	if i >= len(w.Directions) || i >= len(w.Strengths) {
+	if i >= len(w.SummerDirection) || i >= len(w.SummerStrength) {
 		return 0, 0, 0
 	}
-	current = 0
-	if i < len(w.Currents) {
-		current = int(w.Currents[i])
+	if summer {
+		direction = int(w.SummerDirection[i])
+		strength = int(w.SummerStrength[i])
+	} else {
+		if i >= len(w.WinterDirection) || i >= len(w.WinterStrength) {
+			return 0, 0, 0
+		}
+		direction = int(w.WinterDirection[i])
+		strength = int(w.WinterStrength[i])
 	}
-	return int(w.Directions[i]), int(w.Strengths[i]), current
+	current = 0
+	if i < len(w.CurrentDirection) {
+		current = int(w.CurrentDirection[i])
+	}
+	return direction, strength, current
 }
 
 // SeaArea returns the wind of the sea area that holds a position.
 //
 // The position is in the tiles of the world map.
-func (w *WorldWind) SeaArea(x, y int) (direction, strength, current int) {
-	return w.At(x/WindSeaAreaSize, y/WindSeaAreaSize)
+func (w *WorldWind) SeaArea(x, y int, summer bool) (direction, strength, current int) {
+	return w.At(x/WindSeaAreaSize, y/WindSeaAreaSize, summer)
+}
+
+// CurrentStrengthAt returns the strength of the currents of the sea area at
+// the given column and row.
+func (w *WorldWind) CurrentStrengthAt(column, row int) int {
+	if w == nil || column < 0 || row < 0 || column >= WindColumns || row >= WindRows {
+		return 0
+	}
+	i := row*WindColumns + column
+	if i >= len(w.CurrentStrength) {
+		return 0
+	}
+	return int(w.CurrentStrength[i])
 }

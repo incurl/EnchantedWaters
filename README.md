@@ -714,23 +714,37 @@ map. The world map is 2160 columns by 1080 rows of tiles, and the sea areas
 are 72 by 72 tiles, so there are 30 columns and 15 rows of sea areas and 450
 of them in all.
 
-The byte of a sea area packs two numbers into one byte:
+The byte of a sea area packs three things into one byte:
 
     bits 0 to 2   the direction the wind blows to, a number from 0 to 7
-    bits 3 to 7   the strength of the wind, a number from 0 to 31
+    bit  3        the flag of a strong wind
+    bits 4 to 7   the strength of the wind, a number from 0 to 15
 
 The eight directions run clockwise from the north, so a direction is a quarter
 turn of 45 degrees. The layout was read out of the fourth segment of
-`MAIN.EXE`: the routine at the offset 0x816f masks the lower three bits of the
-byte to get the direction and masks the byte with `0xf8` to keep the strength
-when it writes a new direction into the record of the sea area, and the routine
-at the offset 0x7b01 uses the same three bits to index the table of the eight
-unit vectors of the compass.
+`MAIN.EXE`: the routine at the offset 0x9703 takes the byte of the record of
+a sea area, masks it with `0xf8` to keep the strength and the flag, and
+writes a new direction into the lower three bits; the routine at the offset
+0x7b01 uses the same three bits to index the table of the eight unit vectors
+of the compass.
+
+The file holds the wind of the summer in its first table, the wind of the
+winter in its second one and the currents in its third one. The loader at the
+offset 0x6763 reads the three tables in that order, and the game tells the
+two seasons apart by the month: the months from March to August are the
+summer.
 
 The importer writes the table to `assets/config/wind_current.csv`, and the
 simulation uses it when it is there: the wind of a fleet is the wind of the sea
-area that the fleet is in, with the weather of the moment added on top of it.
-Without the table the game falls back on the sea zones of the configuration.
+area that the fleet is in, for the season the calendar is in, with the weather
+of the moment added on top of it. Without the table the game falls back on the
+sea zones of the configuration.
+
+The second remake of the game holds a table of the wind as well, and its
+tables do not agree with the file of the release: the directions differ by
+about two of the eight points on average, where the small random change that
+the remake admits to would move a direction by only one. Its tables are a
+reconstruction; the file of the release is the truth.
 
 The executable is the ground truth for the rest of the release as well, and
 [the notes on the executable](docs/executable-notes.md) record what it says:

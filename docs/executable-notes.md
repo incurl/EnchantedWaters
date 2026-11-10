@@ -107,27 +107,40 @@ shown.
 `WINDCUR.DAT` holds 1350 bytes, and it is three tables of 450 bytes.
 There is no header and no magic.
 
-The loader is at the offset 0x78ef of the fourth segment. It reads 450
-bytes and then seeks and reads 450 bytes more, and the byte at the offset
-0x735 of the data decides whether the tables are read at all: that byte
-holds the month, and the map is only drawn in the summer and in the
-winter.
+The loader is at the offset 0x6763 of the fourth segment. It reads 450
+bytes into one buffer, then 450 bytes into a second one, and then the last
+450 bytes, so the file holds:
 
-The byte of a sea area packs two numbers:
+    bytes   0..450   the wind of the summer
+    bytes 450..900   the wind of the winter
+    bytes 900..1350  the currents
+
+The game tells the two seasons apart by the month. The month is at the
+offset 0x735 of the data, and the routine at the offset 0x676e of the
+segment reads the tables only when the month lies from three to eight,
+which is the summer.
+
+The byte of a sea area packs three things into one byte:
 
     bits 0 to 2   the direction, a number from 0 to 7
-    bits 3 to 7   the strength, a number from 0 to 31
+    bit  3        the flag of a strong wind
+    bits 4 to 7   the strength, a number from 0 to 15
 
-The routine at the offset 0x816f masks the lower three bits of the byte
-to get the direction and masks the byte with 0xf8 to keep the strength
-when it writes a new direction into the record of the sea area. The
-routine at the offset 0x7b01 takes the same three bits and uses them to
-index the table of the eight unit vectors of the compass, so a direction
-is a quarter turn of 45 degrees, counted clockwise from the north.
+This is the layout of the record of a sea area, which the game keeps in
+memory: the record is 96 bytes long and holds the wind at its offset
+0x13. The routine at the offset 0x9703 of the segment takes the byte of
+the record, masks it with 0xf8 to keep the strength and the flag, and
+writes a new direction into the lower three bits. The routine at the
+offset 0x816f masks the lower three bits to read the direction, and the
+routine at the offset 0x971f sets the flag with an "or" of the bit 3.
+
+The eight directions run clockwise from the north. The routine at the
+offset 0x7b01 takes the three bits and uses them to index the table of
+the eight unit vectors of the compass, so a direction is a quarter turn
+of 45 degrees.
 
 The wind is not read from the file as it is. The game keeps a record of
 96 bytes for every sea area, and it fills the records from the file. The
-record holds the direction and the strength at the offset 0x13, and the
 four bits of the byte at the offset 0x12 that are not used hold the
 number of the arrows that are drawn on the map.
 
@@ -135,6 +148,14 @@ The wind of a ship is not the wind of the sea area that the ship is in.
 The routine at the offset 0xd95e samples the four corners of the hull and
 weighs the results, and the routine at the offset 0x7ac6 does the same
 for the currents.
+
+The second remake of the game holds a table of the wind and the currents
+as well, and its tables do not agree with the file of the release: the
+mean distance between the direction of the file and the direction of the
+remake is about two of the eight points, where the small random change
+that the remake admits to would only move the direction by one. The
+tables of the remake are a reconstruction, and the file of the release is
+the truth.
 
 ## What is still missing
 
@@ -144,9 +165,9 @@ for the currents.
   out over the map, and what the tile of a position is: the file holds the
   colours of the cell, but the index of the tile of the tileset is not in
   it. It is probably in `GRAPH.DAT` or in one of the files of the pictures.
-- The order of the three tables of the wind is not settled yet. The bytes
-  of the file are 450 for the wind, 450 for the strength and 450 for the
-  currents, but which of them is which is not written down in the
-  executable.
+- The order of the three tables of the wind is settled: the summer, the
+  winter and the currents. The three tables of the release are read in that
+  order by the loader at the offset 0x6763, and the two seasons are two
+  tables of the same file rather than two readings of it.
 - The texts of the story are in `EVENT*.DAT`, `ITEM.MES` and `NAME.TBL`,
   and the routine that reads them has not been found yet.
