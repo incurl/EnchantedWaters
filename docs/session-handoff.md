@@ -192,5 +192,3 @@ segment holds ordinary text at that offset, so either the table is written
 at run time or the decoder runs with a different DS; look for a routine
 that writes a run of 0x480 bytes through a pointer, most likely from the
 decoded `WORLDMAP.LZW` itself or from `DATA1.LZW`.
-
-
