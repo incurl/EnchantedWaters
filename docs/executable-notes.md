@@ -84,23 +84,26 @@ at the offset 0xa399 compares the height against 1080 and moves the
 position by 2160 when the fleet passes the edge of the world, because the
 map wraps around the globe.
 
-The numbers of a block of `WORLDMAP.LZW` are the positions of the cells
-that differ from the tile before them. The high byte of a number is the
-row of the cell and the low byte is the column. The rows repeat, because
-the list is sorted by the row of the page and not by the row of the map.
+The routine at the offset 0xdafa of the fourth segment draws a row of the
+map. It reads two bytes of the buffer at 0x5ee for every cell, splits them
+into four nibbles, and turns each nibble into part of one output byte, so
+a cell of the map is one pixel of the picture and not a tile. The routine
+also compares a value against 0x80, which is the 128 tiles of the world
+tileset, so the same routine serves both the tiles and the pixels.
 
-The routine at the offset 0xdafa of the fourth segment reads the map out
-of the buffer at 0x5ee and unpacks it: a cell of the map is two bytes that
-hold four nibbles, and every nibble is looked up in a table of sixteen
-entries at the offset 0x87bb of the segment. That is the planar format of
-the original game: four planes of four bits, so a cell names sixteen
-colours.
+What the numbers inside `WORLDMAP.LZW` mean is not settled. They are
+sixteen bit numbers and 65535 of them is a sentinel: 48 of the 12697
+numbers of the first block, 32 of the second and 18 of the third, and the
+rest reach as high as 65534. The high byte of a number repeats, and the
+largest differences between two neighbours are 1, 256 and 1024, which is
+not the shape of a list of row and column pairs. The file is therefore
+still open.
 
-The land and the sea are also held in a bitmap of 540 bytes in the fourth
-segment, at the offset 0xf6c. The bitmap has 45 rows of twelve bytes,
-so 96 columns of one bit each. The routine at the offset 0x67ea clears
-the bitmap and then sets the bits of the rectangle of the screen that is
-shown.
+The land and the sea are also held in a bitmap in the fourth segment, at
+the offset 0xf6c. The routine at the offset 0x67ea clears 540 bytes of it
+and then sets the bits of the rectangle of the map that the screen shows,
+so the bitmap is the land and sea mask of the visible part of the map and
+not of the whole world.
 
 ## The wind and the currents
 

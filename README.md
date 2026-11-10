@@ -765,16 +765,18 @@ exactly the size their record asks for, and all 128 portraits of `KAO.LZW` come
 out pixel for pixel identical to the images of that viewer.
 
 `WORLDMAP.LZW` is a different thing: it holds no graphics at all but a table of
-positions. It is a file of the LS11 codec with three blocks, of 25,394, 21,973
+numbers. It is a file of the LS11 codec with three blocks, of 25,394, 21,973
 and 23,907 bytes, and every block is a list of sixteen bit numbers. The
 executable loads the file at the offset 0xb3e8 of its first segment, and the
-notes on the executable record what it says about the map.
+routine at the offset 0xdafa of the fourth segment turns the data into the
+picture of a row of the map.
 
-What the numbers of a block are is still open. They are not a grid of tile
-indices: the high byte of a number repeats, so the list is sorted by the row
-of a page rather than by the row of the map, and the tile that belongs to a
-position is not in the file. It is probably in `GRAPH.DAT` or in one of the
-files of the pictures.
+What the numbers mean is still open. 65535 of them is a sentinel, and the rest
+reach as high as 65534, while the neighbours of a number differ by 1, 256 or
+1024, which is not the shape of a list of row and column pairs. What is
+certain is the geometry of the map the numbers describe: 2160 columns by 1080
+rows, with the west and the east edges joined because the world wraps around
+the globe.
 
 The coordinates of the world come from
 [BB9z/Uncharted-Waters](https://github.com/BB9z/Uncharted-Waters), which holds a
