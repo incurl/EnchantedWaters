@@ -187,9 +187,10 @@ decoded cell by cell into a 2160 × 1080 picture, and that picture is the
 real world map. Compare the result against the 130 port coordinates, which
 are known to be correct, and against the two sea shades `0xFC` and `0xFD`.
 
-The patterns are 1,152 bytes, eight blocks of 144, and they are written
-into the data segment rather than loaded from a file, so look for a
-routine that writes a run of 0x480 bytes at `DS:0x6C94` at start-up, most
-likely from the decoded `WORLDMAP.LZW` itself or from `DATA1.LZW`.
+The patterns are 1,152 bytes, eight blocks of 144. The image of the data
+segment holds ordinary text at that offset, so either the table is written
+at run time or the decoder runs with a different DS; look for a routine
+that writes a run of 0x480 bytes through a pointer, most likely from the
+decoded `WORLDMAP.LZW` itself or from `DATA1.LZW`.
 
 
