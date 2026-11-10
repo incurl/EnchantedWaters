@@ -1,6 +1,7 @@
 package world
 
 import (
+	"math"
 	"path/filepath"
 	"testing"
 
@@ -230,6 +231,88 @@ func TestCargoCapacityIsEnforced(t *testing.T) {
 	limit := w.cargoLimit(fleetID, commodity)
 	if limit < 0 {
 		t.Errorf("negative remaining capacity %.4f", limit)
+	}
+}
+
+// TestAuthenticWind verifies that the wind of the original game is used
+// when its table has been imported.
+func TestAuthenticWind(t *testing.T) {
+	reg := testRegistry(t)
+	if reg.Wind == nil {
+		t.Skip("the wind of the original game has not been imported")
+	}
+	w := NewWorld(reg, 12345)
+
+	// The wind of a sea area is a direction on the eight point compass and
+	// a strength, and the vector points to the direction the wind blows
+	// to.
+	for _, cell := range []struct{ column, row int }{{0, 0}, {7, 4}, {29, 14}} {
+		direction, strength, _ := reg.Wind.At(cell.column, cell.row)
+		if strength == 0 {
+			continue
+		}
+		x := float64(cell.column*config.WindSeaAreaSize*32 + 32)
+		y := float64(cell.row*config.WindSeaAreaSize*32 + 32)
+		windX, windY, _, _ := w.currentWindAt(x, y)
+		if windX == 0 && windY == 0 {
+			t.Errorf("the wind of the sea area (%d,%d) is zero, want a wind", cell.column, cell.row)
+			continue
+		}
+		// The bearing of the wind must be the direction of the table,
+		// counted clockwise from the north.
+		bearing := math.Atan2(windX, -windY) * 180 / math.Pi
+		if bearing < 0 {
+			bearing += 360
+		}
+		want := float64(direction) * 45
+		diff := math.Abs(bearing - want)
+		if diff > 180 {
+			diff = 360 - diff
+		}
+		if diff > 1 {
+			t.Errorf("the wind of the sea area (%d,%d) blows to %.1f degrees, want %.1f",
+				cell.column, cell.row, bearing, want)
+		}
+	}
+}
+
+// TestAuthenticWindStrength verifies that the strength of the table reaches
+// the sailing model.
+func TestAuthenticWindStrength(t *testing.T) {
+	reg := testRegistry(t)
+	if reg.Wind == nil {
+		t.Skip("the wind of the original game has not been imported")
+	}
+	w := NewWorld(reg, 12345)
+
+	// A sea area with a strong wind must give a stronger wind than one
+	// with a weak wind.
+	strong, weak := -1, -1
+	for i := 0; i < config.WindSeaAreas; i++ {
+		column := i % config.WindColumns
+		row := i / config.WindColumns
+		_, strength, _ := reg.Wind.At(column, row)
+		if strength >= 8 && strong < 0 {
+			strong = i
+		}
+		if strength > 0 && strength <= 2 && weak < 0 {
+			weak = i
+		}
+	}
+	if strong < 0 || weak < 0 {
+		t.Skip("the table has no sea area with a strong or a weak wind")
+	}
+	speedOf := func(i int) float64 {
+		column := i % config.WindColumns
+		row := i / config.WindColumns
+		x := float64(column*config.WindSeaAreaSize*32 + 32)
+		y := float64(row*config.WindSeaAreaSize*32 + 32)
+		windX, windY, _, _ := w.currentWindAt(x, y)
+		return math.Hypot(windX, windY)
+	}
+	if speedOf(strong) <= speedOf(weak) {
+		t.Errorf("the strong wind gives %.3f, the weak one %.3f: the strong one must win",
+			speedOf(strong), speedOf(weak))
 	}
 }
 

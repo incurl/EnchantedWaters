@@ -634,10 +634,11 @@ encoding is not confirmed. They are listed here so that the gap is visible:
 
 | Files | Content | Why it is not converted |
 |---|---|---|
-| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the container, the codec and the pixels are all recovered (see above). The portraits and the port chips are written out; the world map is a table of tile indices whose layout is not yet understood |
+| `*.LZW` | the graphics: character portraits, the world map, the port chips, the opening | the container, the codec and the pixels are all recovered (see above). The portraits and the port chips are written out; the world map is a table of positions whose layout is not yet understood |
 | `GRAPH.DAT`, `GRAPH2.DAT` | the tiles and icons | the offset table is decoded (a big-endian table of 65 blocks), but the blocks themselves use a codec that has not been identified |
 | `EVENT*.DAT`, `ENDGRP.DAT`, `END_PUT.DAT` | the event and ending graphics | offset tables followed by planar graphics of an unknown geometry |
-| `WINDCUR.DAT`, `ZA_DAT.DAT` | the wind and current table, an unknown table | the bytes are obfuscated and the key is not recoverable from the data alone |
+| `WINDCUR.DAT` | the wind and current table | now read: see [the wind of the original game](#the-wind-of-the-original-game) |
+| `ZA_DAT.DAT` | an unknown table | the records are not understood, and guessing their meaning would be worse than leaving them out |
 | `TRANSIT.DAT`, `MONSTER.DAT` | an animation and a small table | the records are not understood, and guessing their meaning would be worse than leaving them out |
 | `D2.MML` | the music | now read: see [the sound](#the-sound-of-the-original-game) |
 | `SNR*.DAT` | the sound effects | now read: see [the sound](#the-sound-of-the-original-game) |
@@ -700,8 +701,41 @@ a position is the column divided by seventy two and the row divided by seventy
 two, and the tables of the wind and the current are indexed by that number:
 the direction of the wind in the summer and in the winter, the speed in the
 summer and in the winter, and the direction and the speed of the current. The
-file of the release, `WINDCUR.DAT`, holds the same data, but obfuscated, and
-this project has not recovered the key.
+file of the release, `WINDCUR.DAT`, holds the same data, and it is read now.
+
+### The wind of the original game
+
+The wind of the original game is not derived and not guessed: it is a table
+of the release, and the format was recovered from the executable itself.
+
+The file `WINDCUR.DAT` holds 1350 bytes and has no header. It is three tables
+of 450 bytes, and every table holds one byte for every sea area of the world
+map. The world map is 2160 columns by 1080 rows of tiles, and the sea areas
+are 72 by 72 tiles, so there are 30 columns and 15 rows of sea areas and 450
+of them in all.
+
+The byte of a sea area packs two numbers into one byte:
+
+    bits 0 to 2   the direction the wind blows to, a number from 0 to 7
+    bits 3 to 7   the strength of the wind, a number from 0 to 31
+
+The eight directions run clockwise from the north, so a direction is a quarter
+turn of 45 degrees. The layout was read out of the fourth segment of
+`MAIN.EXE`: the routine at the offset 0x816f masks the lower three bits of the
+byte to get the direction and masks the byte with `0xf8` to keep the strength
+when it writes a new direction into the record of the sea area, and the routine
+at the offset 0x7b01 uses the same three bits to index the table of the eight
+unit vectors of the compass.
+
+The importer writes the table to `assets/config/wind_current.csv`, and the
+simulation uses it when it is there: the wind of a fleet is the wind of the sea
+area that the fleet is in, with the weather of the moment added on top of it.
+Without the table the game falls back on the sea zones of the configuration.
+
+The executable is the ground truth for the rest of the release as well, and
+[the notes on the executable](docs/executable-notes.md) record what it says:
+the complete list of the files of the release, the loader of the world map, and
+the geometry of the map.
 
 The codec of the `.LZW` files was recovered from
 [gcjjyy/koei_viewer](https://github.com/gcjjyy/koei_viewer) (MIT), a viewer for
@@ -717,13 +751,16 @@ exactly the size their record asks for, and all 128 portraits of `KAO.LZW` come
 out pixel for pixel identical to the images of that viewer.
 
 `WORLDMAP.LZW` is a different thing: it holds no graphics at all but a table of
-tile indices — 71,274 bytes of them, which is 135 columns of 527 rows, and 135
-columns is exactly the width of the map in tiles (2160 pixels of 16). The rows
-alternate between two kinds, and the way they interleave is what the isometric
-layout of the map consists of: the even rows hold a layer whose values run in a
-ramp across the row, and the odd rows hold a layer of constant bands whose
-second byte counts up. The layer that names a port is not yet identified, so the
-position of a port in the original's grid is still open.
+positions. It is a file of the LS11 codec with three blocks, of 25,394, 21,973
+and 23,907 bytes, and every block is a list of sixteen bit numbers. The
+executable loads the file at the offset 0xb3e8 of its first segment, and the
+notes on the executable record what it says about the map.
+
+What the numbers of a block are is still open. They are not a grid of tile
+indices: the high byte of a number repeats, so the list is sorted by the row
+of a page rather than by the row of the map, and the tile that belongs to a
+position is not in the file. It is probably in `GRAPH.DAT` or in one of the
+files of the pictures.
 
 The coordinates of the world come from
 [BB9z/Uncharted-Waters](https://github.com/BB9z/Uncharted-Waters), which holds a

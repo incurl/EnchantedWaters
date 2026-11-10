@@ -95,6 +95,18 @@ func Run(opts Options, log Logger) (*Result, error) {
 			log.Problem("%v", err)
 		}
 	}
+
+	// --- the wind and the currents of the original game ---
+	//
+	// The wind is not a table of a specification: it is a file of its own
+	// with a format of its own, and it is written into the tables of the
+	// game rather than into the pictures of the towns.
+	windFiles, windProblems := ExportWindTable(opts.RawDir, opts.OutDir, log)
+	result.Files = append(result.Files, windFiles...)
+	for _, p := range windProblems {
+		result.Problems = append(result.Problems, p)
+		log.Problem("%s", p)
+	}
 	return result, nil
 }
 

@@ -3,6 +3,7 @@ package world
 import (
 	"math"
 
+	"github.com/peter/enchantedwaters/internal/config"
 	"github.com/peter/enchantedwaters/internal/sail"
 )
 
@@ -45,11 +46,22 @@ func vectorFromPolar(speed, bearingDeg float64) (x, y float64) {
 
 // currentWindAt returns the wind and current vectors at a map position.
 //
-// The value is the inverse-distance weighted blend of the surrounding sea
-// zones' baselines, plus the active weather's perturbation of the wind.
-// Blending keeps the field continuous while staying a closed-form
-// expression that can be evaluated cheaply.
+// The wind of the original game is a table: the world map is divided into
+// sea areas, and every sea area holds the direction of the wind and its
+// strength. When that table has been imported the wind comes from it, and
+// the weather of the moment is added on top of it.
+//
+// Without the table the wind is derived from the sea zones of the
+// configuration: the value is the inverse-distance weighted blend of the
+// surrounding sea zones' baselines, plus the active weather's perturbation
+// of the wind. Blending keeps the field continuous while staying a
+// closed-form expression that can be evaluated cheaply.
 func (w *World) currentWindAt(x, y float64) (windX, windY, curX, curY float64) {
+	// --- the wind of the original game ---
+	if wind := w.cfg.Wind; wind != nil {
+		return w.authenticWindAt(wind, x, y)
+	}
+
 	type zoneSample struct {
 		weight float64
 		wind   float64
@@ -130,6 +142,72 @@ func (w *World) currentWindAt(x, y float64) (windX, windY, curX, curY float64) {
 	curY = curVecY * curSpeedAvg
 	return windX, windY, curX, curY
 }
+
+// authenticWindAt returns the wind and the current of the original game at
+// a map position.
+//
+// The table of the original game gives the direction and the strength of
+// the wind of a sea area, and the direction of its current. The direction
+// is a number from 0 to 7 counted clockwise from the north, and the
+// strength is a number from 0 to 31.
+//
+// The strength of the table is turned into the knots of the game with the
+// same factor that the table of the hulls uses, so that the drive of a
+// hull is the one of the original game. The weather of the moment is
+// added on top of the wind of the table, as it is in the original game:
+// a storm adds to the wind and does not replace it.
+//
+// The position is in the pixels of the world map of the project, and the
+// sea areas of the table are 72 by 72 tiles of 32 pixels.
+func (w *World) authenticWindAt(wind *config.WorldWind, x, y float64) (windX, windY, curX, curY float64) {
+	// --- the sea area that holds the position ---
+	tileX := int(x / worldTilePixels)
+	tileY := int(y / worldTilePixels)
+	direction, strength, current := wind.SeaArea(tileX, tileY)
+
+	// --- the wind of the table ---
+	// A direction of the table is a quarter turn of 45 degrees, counted
+	// clockwise from the north.
+	bearing := float64(direction) * 45
+	units := float64(strength) * sail.KnotsPerWindUnit / float64(sail.MaxWindUnits)
+
+	// --- the weather of the moment ---
+	weatherSpeed := 0.0
+	weatherBearing := 0.0
+	if wc := w.weatherComponent(); wc != nil {
+		weatherSpeed = wc.WindSpeed
+		weatherBearing = wc.WindDirDeg
+	}
+	if weatherSpeed > 0 {
+		// The weather is added to the wind of the table, and it wins the
+		// direction when it is the stronger of the two.
+		units += weatherSpeed
+		if weatherSpeed*2 > units {
+			bearing = weatherBearing
+		}
+	}
+
+	wx, wy := vectorFromPolar(units, bearing)
+	windX, windY = wx, wy
+
+	// --- the current of the table ---
+	// The strength of the current of the original game is a quarter of
+	// the strength of the wind of the same sea area.
+	curBearing := float64(current) * 45
+	curUnits := float64(strength) * 0.25 * sail.KnotsPerWindUnit / float64(sail.MaxWindUnits)
+	if wc := w.weatherComponent(); wc != nil && wc.CurrentSpeed > 0 {
+		curUnits += wc.CurrentSpeed
+	}
+	cx, cy := vectorFromPolar(curUnits, curBearing)
+	curX, curY = cx, cy
+	return windX, windY, curX, curY
+}
+
+// worldTilePixels is the size of one tile of the world map in pixels.
+//
+// The map of the original game is 2160 columns by 1080 rows of tiles of 32
+// pixels, and the sea areas of the wind are 72 by 72 tiles.
+const worldTilePixels = 32
 
 // cfgZoneOrder returns the sea zone IDs in deterministic order.
 func (w *World) cfgZoneOrder() []string {

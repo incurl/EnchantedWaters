@@ -1,6 +1,7 @@
 package asset
 
 import (
+	"errors"
 	"fmt"
 	"os"
 	"path/filepath"
@@ -59,6 +60,11 @@ func loadOriginalTables(dir string, reg *config.Registry, log logr.Logger) error
 		return err
 	}
 
+	// --- the wind and the currents ---
+	if err := loadWind(filepath.Join(dir, "wind_current.csv"), reg, log); err != nil {
+		return err
+	}
+
 	// --- the colonies ---
 	colonies, err := LoadCSVTable[config.OriginalColony](filepath.Join(dir, "original_colonies.csv"))
 	if err != nil {
@@ -86,7 +92,7 @@ func loadOriginalTables(dir string, reg *config.Registry, log logr.Logger) error
 func loadOriginalText(path string, dst map[int]*config.OriginalText, log logr.Logger, what string) error {
 	rows, err := LoadCSVTable[config.OriginalText](path)
 	if err != nil {
-		if os.IsNotExist(err) {
+		if errors.Is(err, os.ErrNotExist) {
 			// The table is optional.
 			log.V(1).Info("the original data is not present", "table", what)
 			return nil
@@ -97,6 +103,47 @@ func loadOriginalText(path string, dst map[int]*config.OriginalText, log logr.Lo
 		dst[rows[i].ID] = &rows[i]
 	}
 	log.Info("loaded the original data", "table", what, "count", len(rows))
+	return nil
+}
+
+// loadWind loads the wind and the currents of the sea areas of the world map.
+//
+// The table is optional: when it is absent the game falls back on the
+// weather that it derives from the sea zones.
+func loadWind(path string, reg *config.Registry, log logr.Logger) error {
+	rows, err := LoadCSVTable[struct {
+		Column    int `csv:"column"`
+		Row       int `csv:"row"`
+		Direction int `csv:"direction"`
+		Strength  int `csv:"strength"`
+		Current   int `csv:"current"`
+	}](path)
+	if err != nil {
+		if errors.Is(err, os.ErrNotExist) {
+			log.V(1).Info("the wind of the original game is not present")
+			return nil
+		}
+		return err
+	}
+	if len(rows) == 0 {
+		return nil
+	}
+	wind := &config.WorldWind{
+		Directions: make([]uint8, config.WindSeaAreas),
+		Strengths:  make([]uint8, config.WindSeaAreas),
+		Currents:   make([]uint8, config.WindSeaAreas),
+	}
+	for _, r := range rows {
+		if r.Column < 0 || r.Row < 0 || r.Column >= config.WindColumns || r.Row >= config.WindRows {
+			continue
+		}
+		i := r.Row*config.WindColumns + r.Column
+		wind.Directions[i] = uint8(r.Direction)
+		wind.Strengths[i] = uint8(r.Strength)
+		wind.Currents[i] = uint8(r.Current)
+	}
+	reg.Wind = wind
+	log.Info("loaded the wind of the original game", "sea areas", config.WindSeaAreas)
 	return nil
 }
 
@@ -114,7 +161,7 @@ func loadTerrain(path string, reg *config.Registry, log logr.Logger) error {
 		Terrain string `csv:"terrain,opt"`
 	}](path)
 	if err != nil {
-		if os.IsNotExist(err) {
+		if errors.Is(err, os.ErrNotExist) {
 			log.V(1).Info("the terrain mask is not present")
 			return nil
 		}

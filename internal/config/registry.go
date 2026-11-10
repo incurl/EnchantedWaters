@@ -78,6 +78,10 @@ type Registry struct {
 	// Terrain is the land and sea mask of the world map. It is nil when
 	// the mask has not been derived.
 	Terrain *WorldTerrain
+	// Wind holds the wind and the currents of the sea areas of the world
+	// map, as they are in the original game. It is nil when the table has
+	// not been imported.
+	Wind *WorldWind
 
 	// --- ordered lists, kept in deterministic (ID-sorted) order ---
 	// Deterministic ordering matters for reproducible simulation and for
