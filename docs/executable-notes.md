@@ -78,10 +78,23 @@ are 72 by 72 tiles. That gives 30 columns and 15 rows of sea areas, and
 450 sea areas in all. The division by 72 is confirmed by the code that
 looks up the wind of a position, and by the size of the wind file.
 
+The size of the map is confirmed twice: the routine at the offset 0xdc82
+of the fourth segment holds the width 2160 in a register, and the routine
+at the offset 0xa399 compares the height against 1080 and moves the
+position by 2160 when the fleet passes the edge of the world, because the
+map wraps around the globe.
+
 The numbers of a block of `WORLDMAP.LZW` are the positions of the cells
 that differ from the tile before them. The high byte of a number is the
 row of the cell and the low byte is the column. The rows repeat, because
 the list is sorted by the row of the page and not by the row of the map.
+
+The routine at the offset 0xdafa of the fourth segment reads the map out
+of the buffer at 0x5ee and unpacks it: a cell of the map is two bytes that
+hold four nibbles, and every nibble is looked up in a table of sixteen
+entries at the offset 0x87bb of the segment. That is the planar format of
+the original game: four planes of four bits, so a cell names sixteen
+colours.
 
 The land and the sea are also held in a bitmap of 540 bytes in the fourth
 segment, at the offset 0xf6c. The bitmap has 45 rows of twelve bytes,
@@ -125,10 +138,15 @@ for the currents.
 
 ## What is still missing
 
-- The three blocks of `WORLDMAP.LZW` are a list of positions, but the
-  tile that belongs to a position is not in the file. It is probably in
-  `GRAPH.DAT` or in one of the files of the pictures.
-- The tables of the wind are read but the order of the three tables of the
-  file is not settled yet.
+- The three blocks of `WORLDMAP.LZW` are a list of positions, and the cell
+  itself is two bytes of four nibbles that name the sixteen colours of a
+  tile. What is not settled yet is how the positions of the list are laid
+  out over the map, and what the tile of a position is: the file holds the
+  colours of the cell, but the index of the tile of the tileset is not in
+  it. It is probably in `GRAPH.DAT` or in one of the files of the pictures.
+- The order of the three tables of the wind is not settled yet. The bytes
+  of the file are 450 for the wind, 450 for the strength and 450 for the
+  currents, but which of them is which is not written down in the
+  executable.
 - The texts of the story are in `EVENT*.DAT`, `ITEM.MES` and `NAME.TBL`,
   and the routine that reads them has not been found yet.
